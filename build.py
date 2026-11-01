@@ -27,10 +27,11 @@ SHA = {
     '056': 'b09eb6977ca7ceaf81be2a184d719ce6cc25229d2889e4cc3c4fa4714237495f',
     '057': '47f53668d8b5861956938cd041fb892e541b86031e4ac7b4337e8328923897c4',   # collaudo: collaudo/risultati/057
     '058': '47f53668d8b5861956938cd041fb892e541b86031e4ac7b4337e8328923897c4',   # = 0.57 (solo registri e controlli)
+    '059': 'aee694c2535ab1524e08e2cd4447cefc16afddd10211ba4fe0fa35b64a45ec1d',   # collaudo: collaudo/risultati/059
 }
 # Versioni costruite sopra la 0.55: (numero, modulo in versioni/). Ogni nuova versione aggiunge una riga
 # e il suo SHA atteso in SHA (dopo averla collaudata). Il modulo espone apply(W) -> dict (rapporto).
-VERSIONI = [('056', 'v056_cesena_rivale'), ('057', 'v057_spazio'), ('058', 'v058_registri')]
+VERSIONI = [('056', 'v056_cesena_rivale'), ('057', 'v057_spazio'), ('058', 'v058_registri'), ('059', 'v059_cani')]
 
 
 def sha(b): return hashlib.sha256(b).hexdigest()

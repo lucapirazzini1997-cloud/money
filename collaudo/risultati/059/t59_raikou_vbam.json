@@ -1,0 +1,50 @@
+{
+ "parla": [
+  [
+   "Un tuono a ciel sereno! RAIKOU balza fuori dall'erba!"
+  ],
+  true
+ ],
+ "fuga": {
+  "testi": [
+   "RAIKOU sparisce fra l'erba, poi torna in mezzo al prato. Puoi riprovare quando vuoi."
+  ],
+  "flag": 0,
+  "presente": true
+ },
+ "cattura": {
+  "testi": [
+   "Un tuono a ciel sereno! RAIKOU balza fuori dall'erba!",
+   "BLAZIKEN ottiene 1388 punti ESP.! ",
+   "BRELOOM ottiene 694 punti ESP.! ",
+   "I dati di RAIKOU sono stati aggiunti al POKéDEX. ",
+   "Vuoi dare un soprannome a RAIKOU?",
+   "Hai catturato RAIKOU! Il cielo sopra il prato si rasserena."
+  ],
+  "flag": 1,
+  "presente": false,
+  "squadra": [
+   282,
+   307,
+   243
+  ]
+ },
+ "ricarica": {
+  "pos": [
+   [
+    26,
+    12
+   ],
+   7,
+   23
+  ],
+  "flag": 1,
+  "presente": false,
+  "squadra": [
+   282,
+   307,
+   243
+  ],
+  "presente_dopo_rientro": false
+ }
+}

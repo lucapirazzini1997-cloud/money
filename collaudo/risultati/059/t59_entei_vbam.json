@@ -1,0 +1,51 @@
+{
+ "parla": [
+  [
+   "Il calore è insopportabile. ENTEI si alza e ruggisce!"
+  ],
+  true
+ ],
+ "fuga": {
+  "testi": [
+   "ENTEI salta fra le rocce, poi torna sulla pedana. Puoi riprovare quando vuoi."
+  ],
+  "flag": 0,
+  "presente": true
+ },
+ "cattura": {
+  "testi": [
+   "Il calore è insopportabile. ENTEI si alza e ruggisce!",
+   "{fc}{02}{02}ENTEI{fc}{01}{0b}",
+   "BLAZIKEN ottiene 1395 punti ESP.! ",
+   "BRELOOM ottiene 697 punti ESP.! ",
+   "I dati di ENTEI sono stati aggiunti al POKéDEX. ",
+   "Vuoi dare un soprannome a ENTEI?",
+   "Hai catturato ENTEI! La grotta si raffredda."
+  ],
+  "flag": 1,
+  "presente": false,
+  "squadra": [
+   282,
+   307,
+   244
+  ]
+ },
+ "ricarica": {
+  "pos": [
+   [
+    35,
+    100
+   ],
+   9,
+   4
+  ],
+  "flag": 1,
+  "presente": false,
+  "squadra": [
+   282,
+   307,
+   244
+  ],
+  "presente_dopo_rientro": false
+ }
+}

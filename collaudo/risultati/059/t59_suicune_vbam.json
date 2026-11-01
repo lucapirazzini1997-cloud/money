@@ -1,0 +1,52 @@
+{
+ "parla": [
+  [
+   "L'acqua del lago diventa limpidissima... SUICUNE ti guarda dalla superficie!",
+   "{fc}{02}{02}SUICUNE{fc}{01}{0b}"
+  ],
+  true
+ ],
+ "fuga": {
+  "testi": [
+   "SUICUNE scivola via, poi torna al centro del lago. Puoi riprovare quando vuoi."
+  ],
+  "flag": 0,
+  "presente": true
+ },
+ "cattura": {
+  "testi": [
+   "L'acqua del lago diventa limpidissima... SUICUNE ti guarda dalla superficie!",
+   "{fc}{02}{02}SUICUNE{fc}{01}{0b}",
+   "BLAZIKEN ottiene 1382 punti ESP.! ",
+   "BRELOOM ottiene 691 punti ESP.! ",
+   "I dati di SUICUNE sono stati aggiunti al POKéDEX. ",
+   "Vuoi dare un soprannome a SUICUNE?",
+   "Hai catturato SUICUNE! Il lago torna calmo."
+  ],
+  "flag": 1,
+  "presente": false,
+  "squadra": [
+   282,
+   307,
+   245
+  ]
+ },
+ "ricarica": {
+  "pos": [
+   [
+    26,
+    13
+   ],
+   30,
+   29
+  ],
+  "flag": 1,
+  "presente": false,
+  "squadra": [
+   282,
+   307,
+   245
+  ],
+  "presente_dopo_rientro": false
+ }
+}

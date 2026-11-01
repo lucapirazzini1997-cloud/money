@@ -1,6 +1,6 @@
 # Pokémon Romagna — documento di progetto
 
-Stato alla **0.58** (SHA-256 `47f53668…97c4`, collaudata; è la stessa ROM della 0.57: la 0.58 cambia solo registri e controlli).
+Stato alla **0.59** (SHA-256 `aee694c2…ec1d`, collaudata). Lotto 2 in corso: 0.59 cani leggendari, 0.60 Kyogre e uccelli, 0.61 Regi, Deoxys/Jirachi/Mewtwo e tabella completa.
 Questo è il documento di riferimento: trama, mappe, eventi, indirizzi tecnici e regole di lavoro. La storia delle versioni è in `STORIA_VERSIONI.md`, le prove in emulatore in `COLLAUDO.md`.
 
 ## 1. Come è fatto il progetto
@@ -30,7 +30,7 @@ Ogni tappa controlla lo SHA-256 atteso e si ferma se non coincide.
 |---|---|---|---|---|
 | 1 | `basi/rom047.gba` + `basi/base31.gba` | `storico_054/build54.py` (rifà 0.48 → 0.54 in sequenza) | 0.54 | `a0653255…2906` |
 | 2 | 0.54 | `pezzo_055/patch_054_055.bps` | 0.55 | `2bfaa8a3…4ad6` |
-| 3 | 0.55 | `versioni/v056_cesena_rivale.py`, `v057_spazio.py`, `v058_registri.py` | 0.56, 0.57, 0.58 | `b09eb697…495f`, `47f53668…97c4`, `47f53668…97c4` |
+| 3 | 0.55 | `versioni/v056_cesena_rivale.py`, `v057_spazio.py`, `v058_registri.py`, `v059_cani.py` | 0.56, 0.57, 0.58, 0.59 | `b09eb697…495f`, `47f53668…97c4`, `47f53668…97c4`, `aee694c2…ec1d` |
 | 4 | ultima | `registri/genera.py` (modo rigoroso) | registri | — |
 | 5 | ultima | `registri/controlli.py` (allenatori, raggiungibilità, risorse, budget) | registri, `out/rapporto_build.json` | — |
 
@@ -100,15 +100,17 @@ Letti dagli script della 0.56. "Raggiungibile" vuol dire che la mappa è collega
 | Articuno / Zapdos / Moltres | 52 | Santuari del Crinale 35.31 / 35.32 / 35.33 | — | sì |
 | Regirock / Regice / Registeel | 40 / 42 / 45 | Galleria dei Sigilli 35.76 / 35.77 / 35.78 | con la 6ª medaglia (0x86c) | sì |
 | Kyogre | 70 | fondale di Rimini 35.37 | dopo la Lega (0x864) e 8ª medaglia | sì |
-| Entei | 45 | Grotta Ardente 35.100 (dal Safari, 26.12) | dopo la Lega (0x864) | sì |
+| Entei | 45 | Grotta Ardente 35.100 (dal Safari, 26.12) | **dalla 0.59: dalla prima visita a Ravenna** (flag 0x88F) | sì, provato in gioco |
+| Raikou | 45 | prato del Safari 26.12 | **dalla 0.59: dalla prima visita a Ravenna** (flag 0x884) | sì, provato in gioco |
+| Suicune | 45 | lago del Safari 26.13 (con SURF) | **dalla 0.59: dalla prima visita a Ravenna** (flag 0x887) | sì, provato in gioco |
 | Deoxys | 50 | 35.41 (zona RAVENNA) | dopo la Lega | sì |
 | Jirachi | 50 | 35.42 (zona CERVIA) | dopo la Lega | sì |
 | Mewtwo | 70 | 35.43 (zona CESENATICO) | dopo la Lega | sì |
-| **Suicune** | 40 | Safari 34.115 | — | **no** |
-| **Raikou** | 40 | Safari 35.45 | dopo la Lega | **no** |
-| Entei (seconda copia) | 40 | Safari 35.44 | dopo la Lega | **no** |
+| (Suicune) | 40 | Safari della 0.51, 34.115 | stessa flag 0x887 | no, scollegato |
+| (Raikou) | 40 | Safari della 0.51, 35.45 | stessa flag 0x884 | no, scollegato |
+| (Entei) | 40 | Safari della 0.51, 35.44 | stessa flag 0x88F | no, scollegato |
 
-**Problema noto (Lotto 2 del prompt):** le tre mappe 34.115, 35.44 e 35.45 sono un Safari costruito nella 0.51 che non è collegato a niente: si collegano solo fra loro. Ravenna (34.94, uscita 10) porta al Safari originale di Smeraldo, gruppo 26 (26.0–26.13). Per questo Suicune e Raikou oggi non si possono catturare, e il secondo Entei non si incontra.
+**Cani leggendari (0.59):** si catturano nel Safari del gruppo 26, a cui porta Ravenna (uscita 10 → 26.3, ingresso libero, Poké Ball normali), già alla 5ª medaglia: servono TAGLIO, SPACCAROCCIA e SURF (per Suicune). Una cattura sola; dopo fuga, BOATO o KO il Pokémon resta al suo posto e si ritenta subito. Il Safari della 0.51 (34.115, 35.44, 35.45) resta scollegato fino al Lotto 10: i suoi cani hanno le stesse flag, quindi non ci sono doppioni.
 
 **Shiny:** Torkoal 34.33 (Parco della Rocca di Cesena), Skarmory 34.38 (Cesenatico), Farfetch'd 34.47 (Arco di Rimini), Shuckle 35.61 (Forlimpopoli), giostre di Mirabilandia con Ponyta, Aipom, Marill (35.46–35.48), Smeargle Lv15 dal pittore di Cesena (0.56).
 
@@ -122,10 +124,10 @@ Letti dagli script della 0.56. "Raggiungibile" vuol dire che la mappa è collega
 
 - **Conflitto latente (0.58):** 0x78A (rosone "pietralunare") è anche la flag di Danielle, allenatrice della palestra di Lavaridge di Smeraldo (4.1). Oggi la 4.1 non si raggiunge; se una versione la collega la build fallisce e Danielle va spostata su un numero libero. Le flag 0x792–0x794, 0x7AA–0x7AD e 0x7B0–0x7B3 sono di allenatori della tabella delle rivincite (servono il Pokénav, assente): rischio basso.
 
-## 4b. Risorse rimaste (budget della 0.58)
+## 4b. Risorse rimaste (budget della 0.59)
 
 - **Spazio nella ROM:** la ROM è a 32 MB, il massimo del GBA, e non si allarga.
-  - Restano 1249 KB nelle zone dell'engine.
+  - Restano 1248 KB nelle zone dell'engine (la 0.59 ha usato 1119 byte).
   - Analisi e cose non recuperate: `relazioni/RELAZIONE_0_57.md` §3.
   - Il gruppo 0 **non** è un insieme di vecchie mappe libere: gran parte è usata dalla Romagna (0.9 Lido, 0.10 Cervia, 0.27 Mirabilandia, 0.28 Safari di Ravenna); i nomi delle zone sono riscritti, per questo 0.12 (Lavaridge) si chiama IMOLA.
   - Posti per mappe nuove: 34.10, 34.13, 34.18, 24.39–24.41, 24.50–24.51, 24.74–24.76.
@@ -162,6 +164,6 @@ Letti dagli script della 0.56. "Raggiungibile" vuol dire che la mappa è collega
 6. **Flag condivise.** Una flag usata da due mappe per scopi diversi fa sparire o ricomparire cose a caso: per questo c'è il controllo rigoroso nei registri.
 7. **Callback e menu.** Sostituire una callback con un indirizzo "vicino" può aprire altre schermate (0x080860d5 apre il menu START): si usa la callback originale, 0x0808610d.
 8. **Collaudo onesto.** Le scritture in RAM sono solo fixture dichiarate, mai una prova di vittoria o di sblocco. Si aspetta la fine dei dialoghi leggendo 0x03000e41, non premendo A alla cieca.
-9. **Mappe raggiungibili.** Una mappa che esiste non è per forza raggiungibile: il Safari della 0.51 ne è l'esempio. Dalla 0.58 lo controlla la build; `analisi/cammino.py` dice anche se ci si arriva a piedi (il grafo da solo collega mappe separate da un muro di alberi).
+9. **Mappe raggiungibili.** Una mappa che esiste non è per forza raggiungibile: il Safari della 0.51 ne è l'esempio. Dalla 0.58 lo controlla la build; `analisi/cammino.py` dice anche se ci si arriva a piedi (il grafo da solo collega mappe separate da un muro di alberi). Dalla 0.59 `analisi/percorso.py` calcola il percorso realistico con le abilità del giocatore (quote, SURF, CASCATA, sporgenze, bici, rocce, alberi): serve per dire quali strumenti chiede un tratto.
 10. **"Libero" negli script non vuol dire libero.** Flag e variabili che nessuno script usa possono essere usate dal codice di Smeraldo (oggetti nascosti 0x1F4+, Pokénav 0x15C+, Repellente 0x4021, giorni 0x4040). Si prendono solo dai pool.
 11. **Scansioni di script.** Seguire anche gli script dopo una lotta (trainerbattle) e le lotte con id locale diverso da 0: la scansione della 0.56 non le vedeva.

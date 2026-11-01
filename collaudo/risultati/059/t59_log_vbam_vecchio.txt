@@ -1,0 +1,22 @@
+T59 vecchio Pokemon_Romagna_0_59.gba partenza t59_raikou.ss ((26, 12), 7, 23, 3, False) cb2 0x8085d9d
+  0.58 dal titolo, parla: ['Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario.'] False
+Traceback (most recent call last):
+    shutil.copy(vec, g.sav); g = ricarica(g.sav); log('  0.59 dal titolo:', vai.stato(g)[:3])
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: '/home/user/money/collaudo/play/t59_vecchio_058.sav' and '/home/user/money/collaudo/play/t59_vecchio_058.sav' are the same file
+T59 vbam-raikou Pokemon_Romagna_0_59.gba partenza t59_raikou.ss ((26, 12), 7, 23, 3, False) cb2 0x8085d9d
+  VBA-M dopo la ricarica: {'pos': ((26, 12), 7, 23), 'flag': 1, 'presente': False, 'squadra': [282, 307, 243]}
+  VBA-M rientro: {'pos': ((26, 12), 7, 23), 'flag': 1, 'presente': False, 'squadra': [282, 307, 243], 'presente_dopo_rientro': False}
+T59 vbam-entei Pokemon_Romagna_0_59.gba partenza t59_entei.ss ((35, 100), 9, 4, 3, False) cb2 0x8085d9d
+  VBA-M dopo la ricarica: {'pos': ((35, 100), 9, 4), 'flag': 1, 'presente': False, 'squadra': [282, 307, 244]}
+  VBA-M rientro: {'pos': ((35, 100), 9, 4), 'flag': 1, 'presente': False, 'squadra': [282, 307, 244], 'presente_dopo_rientro': False}
+T59 vbam-suicune Pokemon_Romagna_0_59.gba partenza t59_suicune.ss ((26, 13), 30, 29, 1, True) cb2 0x8085d9d
+  VBA-M dopo la ricarica: {'pos': ((26, 13), 30, 29), 'flag': 1, 'presente': False, 'squadra': [282, 307, 245]}
+  VBA-M rientro: {'pos': ((26, 13), 30, 29), 'flag': 1, 'presente': False, 'squadra': [282, 307, 245], 'presente_dopo_rientro': False}
+
+[exited with code 0]
+T59 vecchio Pokemon_Romagna_0_59.gba partenza t59_raikou.ss ((26, 12), 7, 23, 3, False) cb2 0x8085d9d
+   uscito in ((35, 100), 10, 18)
+  lotta [(282, 50, 216, 34)] squadra [(50, 83, 155), (43, 119, 119)] pos ((26, 12), 9, 22)
+   tornato True ((26, 12), 7, 23)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.

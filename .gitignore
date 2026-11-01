@@ -13,3 +13,7 @@ collaudo/h
 collaudo/out57/
 collaudo/out_regressione/
 collaudo/play/log.txt
+collaudo/play/t59_*.png
+collaudo/play/t59_*.json
+collaudo/play/t59_*.sav
+collaudo/play/t59_*.ppm

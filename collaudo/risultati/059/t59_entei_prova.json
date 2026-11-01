@@ -1,0 +1,100 @@
+{
+ "parla": [
+  [
+   "Il calore è insopportabile. ENTEI si alza e ruggisce!"
+  ],
+  true
+ ],
+ "fuga": {
+  "testi": [
+   "ENTEI salta fra le rocce, poi torna sulla pedana. Puoi riprovare quando vuoi."
+  ],
+  "flag": 0,
+  "presente": true,
+  "presente_dopo_rientro": true
+ },
+ "ko": {
+  "lotta": [
+   [
+    282,
+    50,
+    66,
+    244,
+    45,
+    96
+   ],
+   [
+    282,
+    50,
+    39,
+    244,
+    45,
+    22
+   ]
+  ],
+  "testi": [
+   "Il calore è insopportabile. ENTEI si alza e ruggisce!",
+   "Il calore è insopportabile. ENTEI si alza e ruggisce!",
+   "ENTEI crolla, poi si rialza sulla pedana. Puoi riprovare quando vuoi."
+  ],
+  "flag": 0,
+  "presente": true,
+  "pos": [
+   [
+    35,
+    100
+   ],
+   9,
+   4
+  ],
+  "squadra": [
+   [
+    50,
+    39,
+    155
+   ],
+   [
+    43,
+    119,
+    119
+   ]
+  ],
+  "presente_dopo_rientro": true
+ },
+ "cattura": {
+  "testi": [
+   "Il calore è insopportabile. ENTEI si alza e ruggisce!",
+   "BLAZIKEN ottiene 1395 punti ESP.! ",
+   "BRELOOM ottiene 697 punti ESP.! ",
+   "I dati di ENTEI sono stati aggiunti al POKéDEX. ",
+   "Vuoi dare un soprannome a ENTEI?",
+   "Hai catturato ENTEI! La grotta si raffredda."
+  ],
+  "flag": 1,
+  "presente": false,
+  "squadra": [
+   282,
+   307,
+   244
+  ]
+ },
+ "ricarica": {
+  "pos": [
+   [
+    35,
+    100
+   ],
+   9,
+   4
+  ],
+  "flag": 1,
+  "presente": false,
+  "squadra": [
+   282,
+   307,
+   244
+  ],
+  "presente_dopo_rientro": false,
+  "flag_dopo_rientro": 1
+ }
+}

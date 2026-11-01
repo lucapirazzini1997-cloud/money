@@ -71,6 +71,12 @@ def loc(a):
     raise KeyError(hex(a))
 def rd(a, n): return C.string_at(loc(a), n)
 def wr(a, b): C.memmove(loc(a), b, len(b))
+SAV = sys.argv[2] if len(sys.argv) > 2 else None
+def scrivi_sav():
+    """Come un emulatore vero: la memoria di salvataggio della cartuccia finisce nel file .sav (a 'ping' e a 'quit')."""
+    if not SAV: return
+    n = lib.retro_get_memory_size(0)
+    if n: open(SAV, 'wb').write(C.string_at(lib.retro_get_memory_data(0), n))
 def runf(n):
     for _ in range(n): lib.retro_run()
 out = sys.stderr
@@ -102,5 +108,5 @@ for line in sys.stdin:
         n = lib.retro_serialize_size(); b = C.create_string_buffer(n); assert lib.retro_serialize(b, n); open(p[1], 'wb').write(b.raw)
     elif c == 'loadstate':
         d = open(p[1], 'rb').read(); assert lib.retro_unserialize(d, len(d))
-    elif c == 'ping': out.write('ok\n'); out.flush()
-    elif c == 'quit': break
+    elif c == 'ping': scrivi_sav(); out.write('ok\n'); out.flush()
+    elif c == 'quit': scrivi_sav(); break

@@ -1,0 +1,249 @@
+T59 viaggio Pokemon_Romagna_0_59.gba partenza gpre.ss ((35, 71), 6, 19, 3, False) cb2 0x80383e9
+  lotta [(282, 50, 203, 33)] squadra [(50, 95, 155), (43, 119, 119)] pos ((35, 71), 6, 19)
+  fuori percorso: atteso ((35, 70), 5, 14) sono ((35, 70), 5, 15) azione passo N
+  lotta [(282, 50, 44, 32)] squadra [(50, 95, 155), (43, 119, 119)] pos ((35, 70), 5, 15)
+  fuori percorso: atteso ((35, 70), 49, 17) sono ((35, 70), 48, 17) azione passo E
+  lotta [(282, 50, 44, 33)] squadra [(50, 95, 155), (43, 119, 119)] pos ((35, 70), 48, 17)
+  fuori percorso: atteso ((35, 98), 3, 4) sono ((35, 98), 2, 4) azione passo E
+  fuori percorso: atteso ((35, 98), 3, 4) sono ((35, 98), 2, 4) azione passo E
+  Ravenna True ((34, 94), 19, 20, 3, False)
+  fuori percorso: atteso ((26, 13), 6, 14) sono ((26, 13), 6, 15) azione passo N
+  lotta [(282, 50, 190, 34)] squadra [(50, 95, 155), (43, 119, 119)] pos ((26, 13), 6, 15)
+  fuori percorso: atteso ((26, 13), 6, 8) sono ((26, 13), 6, 9) azione passo N
+  lotta [(282, 50, 190, 34)] squadra [(50, 95, 155), (43, 119, 119)] pos ((26, 13), 6, 9)
+  accanto a Raikou True ((26, 12), 7, 23, 3, False)
+T59 viaggio2 Pokemon_Romagna_0_59.gba partenza t59_raikou.ss ((26, 12), 7, 23, 3, False) cb2 0x8085d9d
+  accanto a Entei True ((35, 100), 9, 4, 3, False)
+T59 viaggio2 Pokemon_Romagna_0_59.gba partenza t59_ravenna.ss ((34, 94), 19, 20, 3, False) cb2 0x8085d9d
+   FIXTURE: SURF al Pokemon 1 -> ((249, 280, 202, 57), 307)
+  fuori percorso: atteso ((26, 13), 16, 15) sono ((26, 13), 15, 15) azione passo E
+  lotta [(282, 50, 191, 33)] squadra [(50, 95, 155), (43, 119, 119)] pos ((26, 13), 15, 15)
+  fuori percorso: atteso ((26, 13), 21, 16) sono ((26, 13), 21, 19) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 20) sono ((26, 13), 21, 21) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 22) sono ((26, 13), 21, 23) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 24) sono ((26, 13), 21, 25) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 26) sono ((26, 13), 21, 27) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 28) sono ((26, 13), 21, 29) azione passo S
+  fuori percorso: atteso ((26, 13), 23, 29) sono ((26, 13), 24, 29) azione passo E
+  fuori percorso: atteso ((26, 13), 25, 29) sono ((26, 13), 26, 29) azione passo E
+  fuori percorso: atteso ((26, 13), 27, 29) sono ((26, 13), 28, 29) azione passo E
+  fuori percorso: atteso ((26, 13), 29, 29) sono ((26, 13), 30, 29) azione passo E
+  accanto a Suicune True ((26, 13), 30, 29, 1, True)
+T59 raikou Pokemon_Romagna_0_59.gba partenza t59_raikou.ss ((26, 12), 7, 23, 3, False) cb2 0x8085d9d
+  parla: ["Un tuono a ciel sereno! RAIKOU balza fuori dall'erba!"] lotta: True
+  dopo la fuga: {'testi': ["RAIKOU sparisce fra l'erba, poi torna in mezzo al prato. Puoi riprovare quando vuoi."], 'flag': 0, 'presente': True}
+   uscito in ((35, 100), 10, 18)
+   tornato True ((26, 12), 7, 23)
+  rientro dopo la fuga: presente True
+  dopo il KO: {'lotta': [(282, 50, 95, 243, 45, 149)], 'testi': ["Un tuono a ciel sereno! RAIKOU balza fuori dall'erba!", "Un tuono a ciel sereno! RAIKOU balza fuori dall'erba!", "RAIKOU sparisce fra l'erba, poi torna in mezzo al prato. Puoi riprovare quando vuoi."], 'flag': 0, 'presente': True, 'pos': ((26, 12), 7, 23), 'squadra': [(50, 95, 155), (43, 119, 119)]}
+   uscito in ((35, 100), 10, 18)
+  fuori percorso: atteso ((26, 12), 9, 23) sono ((26, 12), 9, 22) azione passo S
+  lotta [(282, 50, 190, 35)] squadra [(50, 95, 155), (43, 119, 119)] pos ((26, 12), 9, 22)
+   tornato True ((26, 12), 7, 23)
+  rientro dopo il KO: presente True
+   FIXTURE: 5 MASTER BALL nella tasca Poke Ball
+  dopo la cattura: {'testi': ["Un tuono a ciel sereno! RAIKOU balza fuori dall'erba!", 'BLAZIKEN ottiene 1388 punti ESP.! ', 'BRELOOM ottiene 694 punti ESP.! ', 'I dati di RAIKOU sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a RAIKOU?', 'Hai catturato RAIKOU! Il cielo sopra il prato si rasserena.'], 'flag': 1, 'presente': False, 'squadra': [282, 307, 243]}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  dopo la ricarica: {'pos': ((26, 12), 7, 23), 'flag': 1, 'presente': False, 'squadra': [282, 307, 243]}
+   uscito in ((35, 100), 10, 18)
+  fuori percorso: atteso ((26, 12), 9, 22) sono ((26, 12), 9, 21) azione passo S
+  lotta [(282, 50, 216, 36)] squadra [(50, 95, 155), (43, 119, 119), (45, 141, 141)] pos ((26, 12), 9, 21)
+   tornato True ((26, 12), 7, 23)
+  rientro dopo la ricarica: {'pos': ((26, 12), 7, 23), 'flag': 1, 'presente': False, 'squadra': [282, 307, 243], 'presente_dopo_rientro': False, 'flag_dopo_rientro': 1}
+T59 entei Pokemon_Romagna_0_59.gba partenza t59_entei.ss ((35, 100), 9, 4, 3, False) cb2 0x8085d9d
+  parla: ['Il calore è insopportabile. ENTEI si alza e ruggisce!'] lotta: True
+  dopo la fuga: {'testi': ['ENTEI salta fra le rocce, poi torna sulla pedana. Puoi riprovare quando vuoi.'], 'flag': 0, 'presente': True}
+   uscito in ((26, 12), 21, 6)
+   tornato True ((35, 100), 9, 4)
+  rientro dopo la fuga: presente True
+  dopo il KO: {'lotta': [(282, 50, 66, 244, 45, 96), (282, 50, 39, 244, 45, 22)], 'testi': ['Il calore è insopportabile. ENTEI si alza e ruggisce!', 'Il calore è insopportabile. ENTEI si alza e ruggisce!', 'ENTEI crolla, poi si rialza sulla pedana. Puoi riprovare quando vuoi.'], 'flag': 0, 'presente': True, 'pos': ((35, 100), 9, 4), 'squadra': [(50, 39, 155), (43, 119, 119)]}
+   uscito in ((26, 12), 21, 6)
+   tornato True ((35, 100), 9, 4)
+  rientro dopo il KO: presente True
+   FIXTURE: 5 MASTER BALL nella tasca Poke Ball
+  dopo la cattura: {'testi': ['Il calore è insopportabile. ENTEI si alza e ruggisce!', 'BLAZIKEN ottiene 1395 punti ESP.! ', 'BRELOOM ottiene 697 punti ESP.! ', 'I dati di ENTEI sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a ENTEI?', 'Hai catturato ENTEI! La grotta si raffredda.'], 'flag': 1, 'presente': False, 'squadra': [282, 307, 244]}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  dopo la ricarica: {'pos': ((35, 100), 9, 4), 'flag': 1, 'presente': False, 'squadra': [282, 307, 244]}
+   uscito in ((26, 12), 21, 6)
+   tornato True ((35, 100), 9, 4)
+  rientro dopo la ricarica: {'pos': ((35, 100), 9, 4), 'flag': 1, 'presente': False, 'squadra': [282, 307, 244], 'presente_dopo_rientro': False, 'flag_dopo_rientro': 1}
+T59 suicune Pokemon_Romagna_0_59.gba partenza t59_suicune.ss ((26, 13), 30, 29, 1, True) cb2 0x8085d9d
+  parla: ["L'acqua del lago diventa limpidissima... SUICUNE ti guarda dalla superficie!"] lotta: True
+  dopo la fuga: {'testi': ['SUICUNE scivola via, poi torna al centro del lago. Puoi riprovare quando vuoi.'], 'flag': 0, 'presente': True}
+  fuori percorso: atteso ((26, 13), 28, 30) sono ((26, 13), 27, 30) azione passo W
+  fuori percorso: atteso ((26, 13), 26, 30) sono ((26, 13), 25, 30) azione passo W
+  fuori percorso: atteso ((26, 13), 24, 30) sono ((26, 13), 23, 30) azione passo W
+  fuori percorso: atteso ((26, 13), 17, 20) sono ((26, 13), 17, 21) azione passo N
+  lotta [(282, 50, 179, 34)] squadra [(50, 95, 155), (43, 119, 119)] pos ((26, 13), 17, 21)
+   uscito in ((26, 3), 38, 16)
+  fuori percorso: atteso ((26, 13), 17, 15) sono ((26, 13), 16, 15) azione passo E
+  lotta [(282, 50, 167, 33)] squadra [(50, 95, 155), (43, 119, 119)] pos ((26, 13), 16, 15)
+  fuori percorso: atteso ((26, 13), 21, 16) sono ((26, 13), 21, 19) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 20) sono ((26, 13), 21, 21) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 22) sono ((26, 13), 21, 23) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 24) sono ((26, 13), 21, 25) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 26) sono ((26, 13), 21, 27) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 28) sono ((26, 13), 21, 29) azione passo S
+  fuori percorso: atteso ((26, 13), 23, 29) sono ((26, 13), 24, 29) azione passo E
+  fuori percorso: atteso ((26, 13), 25, 29) sono ((26, 13), 26, 29) azione passo E
+  fuori percorso: atteso ((26, 13), 27, 29) sono ((26, 13), 28, 29) azione passo E
+  fuori percorso: atteso ((26, 13), 29, 29) sono ((26, 13), 30, 29) azione passo E
+   tornato True ((26, 13), 30, 29)
+  rientro dopo la fuga: presente True
+  dopo il KO: {'lotta': [(282, 50, 48, 245, 45, 103), (282, 50, 24, 245, 45, 78)], 'testi': ["L'acqua del lago diventa limpidissima... SUICUNE ti guarda dalla superficie!", "L'acqua del lago diventa limpidissima... SUICUNE ti guarda dalla superficie!", 'SUICUNE scivola via, poi torna al centro del lago. Puoi riprovare quando vuoi.'], 'flag': 0, 'presente': True, 'pos': ((26, 13), 30, 29), 'squadra': [(50, 0, 155), (43, 119, 119)]}
+  fuori percorso: atteso ((26, 13), 28, 30) sono ((26, 13), 27, 30) azione passo W
+  fuori percorso: atteso ((26, 13), 26, 30) sono ((26, 13), 25, 30) azione passo W
+  fuori percorso: atteso ((26, 13), 24, 30) sono ((26, 13), 23, 30) azione passo W
+  fuori percorso: atteso ((26, 13), 16, 29) sono ((26, 13), 16, 30) azione passo N
+  lotta [(307, 43, 179, 34)] squadra [(50, 0, 155), (43, 119, 119)] pos ((26, 13), 16, 30)
+   uscito in ((26, 3), 38, 16)
+  fuori percorso: atteso ((26, 13), 21, 16) sono ((26, 13), 21, 19) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 20) sono ((26, 13), 21, 21) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 22) sono ((26, 13), 21, 23) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 24) sono ((26, 13), 21, 25) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 26) sono ((26, 13), 21, 27) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 28) sono ((26, 13), 21, 29) azione passo S
+  fuori percorso: atteso ((26, 13), 23, 29) sono ((26, 13), 24, 29) azione passo E
+  fuori percorso: atteso ((26, 13), 26, 29) sono ((26, 13), 25, 29) azione passo E
+  lotta [(307, 43, 183, 27)] squadra [(50, 0, 155), (43, 119, 119)] pos ((26, 13), 25, 29)
+  fuori percorso: atteso ((26, 13), 26, 29) sono ((26, 13), 27, 29) azione passo E
+  fuori percorso: atteso ((26, 13), 28, 29) sono ((26, 13), 29, 29) azione passo E
+   tornato True ((26, 13), 30, 29)
+  rientro dopo il KO: presente True
+   FIXTURE: 5 MASTER BALL nella tasca Poke Ball
+  dopo la cattura: {'testi': ["L'acqua del lago diventa limpidissima... SUICUNE ti guarda dalla superficie!", 'BLAZIKEN ottiene 691 punti ESP.! ', 'BRELOOM ottiene 1382 punti ESP.! ', 'I dati di SUICUNE sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a SUICUNE?', 'Hai catturato SUICUNE! Il lago torna calmo.'], 'flag': 1, 'presente': False, 'squadra': [282, 307, 245]}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  dopo la ricarica: {'pos': ((26, 13), 30, 29), 'flag': 1, 'presente': False, 'squadra': [282, 307, 245]}
+  fuori percorso: atteso ((26, 13), 28, 30) sono ((26, 13), 27, 30) azione passo W
+  fuori percorso: atteso ((26, 13), 26, 30) sono ((26, 13), 25, 30) azione passo W
+  fuori percorso: atteso ((26, 13), 24, 30) sono ((26, 13), 23, 30) azione passo W
+  fuori percorso: atteso ((26, 13), 17, 24) sono ((26, 13), 17, 25) azione passo N
+  lotta [(307, 43, 191, 35)] squadra [(50, 0, 155), (43, 119, 119), (45, 147, 147)] pos ((26, 13), 17, 25)
+  fuori percorso: atteso ((26, 13), 17, 20) sono ((26, 13), 17, 21) azione passo N
+  lotta [(307, 43, 191, 33)] squadra [(50, 0, 155), (43, 65, 119), (45, 147, 147)] pos ((26, 13), 17, 21)
+   uscito in ((26, 3), 38, 16)
+  fuori percorso: atteso ((26, 13), 16, 15) sono ((26, 13), 15, 15) azione passo E
+  lotta [(307, 43, 191, 35)] squadra [(50, 0, 155), (43, 65, 119), (45, 147, 147)] pos ((26, 13), 15, 15)
+  fuori percorso: atteso ((26, 13), 21, 16) sono ((26, 13), 21, 19) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 20) sono ((26, 13), 21, 21) azione passo S
+  lotta [(307, 43, 194, 27)] squadra [(50, 0, 155), (43, 98, 119), (45, 147, 147)] pos ((26, 13), 21, 21)
+  fuori percorso: atteso ((26, 13), 21, 22) sono ((26, 13), 21, 23) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 24) sono ((26, 13), 21, 25) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 26) sono ((26, 13), 21, 27) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 28) sono ((26, 13), 21, 29) azione passo S
+  fuori percorso: atteso ((26, 13), 23, 29) sono ((26, 13), 24, 29) azione passo E
+  fuori percorso: atteso ((26, 13), 25, 29) sono ((26, 13), 26, 29) azione passo E
+  fuori percorso: atteso ((26, 13), 27, 29) sono ((26, 13), 28, 29) azione passo E
+  fuori percorso: atteso ((26, 13), 29, 29) sono ((26, 13), 30, 29) azione passo E
+   tornato True ((26, 13), 30, 29)
+  rientro dopo la ricarica: {'pos': ((26, 13), 30, 29), 'flag': 1, 'presente': False, 'squadra': [282, 307, 245], 'presente_dopo_rientro': False, 'flag_dopo_rientro': 1}
+T59 vbam-raikou Pokemon_Romagna_0_59.gba partenza t59_raikou.ss ((26, 12), 7, 23, 3, False) cb2 0x8085d9d
+   FIXTURE: 5 MASTER BALL nella tasca Poke Ball
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  VBA-M dal titolo: ((26, 12), 7, 23) flag 0 presente True
+  VBA-M parla: ["Un tuono a ciel sereno! RAIKOU balza fuori dall'erba!"] True
+  VBA-M dopo la fuga: {'testi': ["RAIKOU sparisce fra l'erba, poi torna in mezzo al prato. Puoi riprovare quando vuoi."], 'flag': 0, 'presente': True}
+  VBA-M dopo la cattura: {'testi': ["Un tuono a ciel sereno! RAIKOU balza fuori dall'erba!", 'BLAZIKEN ottiene 1388 punti ESP.! ', 'BRELOOM ottiene 694 punti ESP.! ', 'I dati di RAIKOU sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a RAIKOU?', 'Hai catturato RAIKOU! Il cielo sopra il prato si rasserena.'], 'flag': 1, 'presente': False, 'squadra': [282, 307, 243]}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  VBA-M dopo la ricarica: {'pos': ((26, 12), 7, 23), 'flag': 0, 'presente': True, 'squadra': [282, 307]}
+  fuori percorso: atteso ((26, 12), 7, 22) sono ((26, 12), 7, 23) azione passo N
+  fuori percorso: atteso ((26, 12), 7, 22) sono ((26, 12), 7, 23) azione passo N
+  lotta [(282, 50, 243, 45)] squadra [(50, 0, 155), (43, 119, 119)] pos ((26, 12), 7, 23)
+  fuori percorso: atteso ((26, 12), 7, 22) sono ((26, 12), 7, 23) azione passo N
+   uscito in ((35, 100), 10, 18)
+   tornato True ((26, 12), 7, 23)
+  VBA-M rientro: {'pos': ((26, 12), 7, 23), 'flag': 0, 'presente': True, 'squadra': [282, 307], 'presente_dopo_rientro': True}
+T59 vbam-entei Pokemon_Romagna_0_59.gba partenza t59_entei.ss ((35, 100), 9, 4, 3, False) cb2 0x8085d9d
+   FIXTURE: 5 MASTER BALL nella tasca Poke Ball
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  VBA-M dal titolo: ((35, 100), 9, 4) flag 0 presente True
+  VBA-M parla: ['Il calore è insopportabile. ENTEI si alza e ruggisce!'] True
+  VBA-M dopo la fuga: {'testi': ['ENTEI salta fra le rocce, poi torna sulla pedana. Puoi riprovare quando vuoi.'], 'flag': 0, 'presente': True}
+  VBA-M dopo la cattura: {'testi': ['Il calore è insopportabile. ENTEI si alza e ruggisce!', '{fc}{02}{02}ENTEI{fc}{01}{0b}', 'BLAZIKEN ottiene 1395 punti ESP.! ', 'BRELOOM ottiene 697 punti ESP.! ', 'I dati di ENTEI sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a ENTEI?', 'Hai catturato ENTEI! La grotta si raffredda.'], 'flag': 1, 'presente': False, 'squadra': [282, 307, 244]}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  VBA-M dopo la ricarica: {'pos': ((35, 100), 9, 4), 'flag': 0, 'presente': True, 'squadra': [282, 307]}
+  fuori percorso: atteso ((35, 100), 9, 5) sono ((35, 100), 9, 4) azione passo S
+  fuori percorso: atteso ((35, 100), 9, 5) sono ((35, 100), 9, 4) azione passo S
+  lotta [(282, 50, 244, 45)] squadra [(50, 24, 155), (43, 119, 119)] pos ((35, 100), 9, 4)
+  fuori percorso: atteso ((35, 100), 9, 5) sono ((35, 100), 9, 4) azione passo S
+   uscito in ((26, 12), 21, 6)
+   tornato True ((35, 100), 9, 4)
+  VBA-M rientro: {'pos': ((35, 100), 9, 4), 'flag': 0, 'presente': True, 'squadra': [282, 307], 'presente_dopo_rientro': True}
+T59 vbam-suicune Pokemon_Romagna_0_59.gba partenza t59_suicune.ss ((26, 13), 30, 29, 1, True) cb2 0x8085d9d
+   FIXTURE: 5 MASTER BALL nella tasca Poke Ball
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  VBA-M dal titolo: ((26, 13), 30, 29) flag 0 presente True
+  VBA-M parla: ["L'acqua del lago diventa limpidissima... SUICUNE ti guarda dalla superficie!", '{fc}{02}{02}SUICUNE{fc}{01}{0b}'] True
+  VBA-M dopo la fuga: {'testi': ['SUICUNE scivola via, poi torna al centro del lago. Puoi riprovare quando vuoi.'], 'flag': 0, 'presente': True}
+  VBA-M dopo la cattura: {'testi': ["L'acqua del lago diventa limpidissima... SUICUNE ti guarda dalla superficie!", '{fc}{02}{02}SUICUNE{fc}{01}{0b}', 'BLAZIKEN ottiene 1382 punti ESP.! ', 'BRELOOM ottiene 691 punti ESP.! ', 'I dati di SUICUNE sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a SUICUNE?', 'Hai catturato SUICUNE! Il lago torna calmo.'], 'flag': 1, 'presente': False, 'squadra': [282, 307, 245]}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  VBA-M dopo la ricarica: {'pos': ((26, 13), 30, 29), 'flag': 0, 'presente': True, 'squadra': [282, 307]}
+  fuori percorso: atteso ((26, 13), 30, 30) sono ((26, 13), 30, 29) azione passo S
+  fuori percorso: atteso ((26, 13), 30, 30) sono ((26, 13), 30, 29) azione passo S
+  fuori percorso: atteso ((26, 13), 30, 30) sono ((26, 13), 30, 29) azione passo S
+  lotta [(282, 50, 245, 45)] squadra [(50, 0, 155), (43, 119, 119)] pos ((26, 13), 30, 29)
+  fuori percorso: atteso ((26, 13), 30, 30) sono ((26, 13), 30, 29) azione passo S
+  fuori percorso: atteso ((26, 13), 28, 30) sono ((26, 13), 27, 30) azione passo W
+  fuori percorso: atteso ((26, 13), 26, 30) sono ((26, 13), 25, 30) azione passo W
+  fuori percorso: atteso ((26, 13), 24, 30) sono ((26, 13), 23, 30) azione passo W
+  fuori percorso: atteso ((26, 13), 16, 30) sono ((26, 13), 17, 30) azione passo W
+  lotta [(307, 43, 191, 33)] squadra [(50, 0, 155), (43, 119, 119)] pos ((26, 13), 17, 30)
+  fuori percorso: atteso ((26, 13), 17, 24) sono ((26, 13), 17, 25) azione passo N
+  lotta [(307, 43, 191, 35)] squadra [(50, 0, 155), (43, 119, 119)] pos ((26, 13), 17, 25)
+  fuori percorso: atteso ((26, 13), 15, 15) sono ((26, 13), 16, 15) azione passo W
+  lotta [(307, 43, 167, 33)] squadra [(50, 0, 155), (43, 117, 119)] pos ((26, 13), 16, 15)
+   uscito in ((26, 3), 38, 16)
+  fuori percorso: atteso ((26, 13), 21, 16) sono ((26, 13), 21, 19) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 20) sono ((26, 13), 21, 21) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 22) sono ((26, 13), 21, 23) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 24) sono ((26, 13), 21, 25) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 26) sono ((26, 13), 21, 27) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 28) sono ((26, 13), 21, 29) azione passo S
+  fuori percorso: atteso ((26, 13), 23, 29) sono ((26, 13), 24, 29) azione passo E
+  fuori percorso: atteso ((26, 13), 25, 29) sono ((26, 13), 26, 29) azione passo E
+  fuori percorso: atteso ((26, 13), 27, 29) sono ((26, 13), 28, 29) azione passo E
+  fuori percorso: atteso ((26, 13), 29, 29) sono ((26, 13), 30, 29) azione passo E
+   tornato True ((26, 13), 30, 29)
+  VBA-M rientro: {'pos': ((26, 13), 30, 29), 'flag': 0, 'presente': True, 'squadra': [282, 307], 'presente_dopo_rientro': True}
+T59 raikou Pokemon_Romagna_0_58.gba partenza t59_raikou.ss ((26, 12), 7, 23, 3, False) cb2 0x8085d9d
+   uscito in ((35, 100), 10, 18)
+   tornato True ((26, 12), 7, 23)
+  parla: ['Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario.'] lotta: False
+T59 entei Pokemon_Romagna_0_58.gba partenza t59_entei.ss ((35, 100), 9, 4, 3, False) cb2 0x8085d9d
+   uscito in ((26, 12), 21, 6)
+   tornato True ((35, 100), 9, 4)
+  parla: ['Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario.'] lotta: False
+T59 suicune Pokemon_Romagna_0_58.gba partenza t59_suicune.ss ((26, 13), 30, 29, 1, True) cb2 0x8085d9d
+  fuori percorso: atteso ((26, 13), 28, 30) sono ((26, 13), 27, 30) azione passo W
+  fuori percorso: atteso ((26, 13), 26, 30) sono ((26, 13), 25, 30) azione passo W
+  fuori percorso: atteso ((26, 13), 24, 30) sono ((26, 13), 23, 30) azione passo W
+  fuori percorso: atteso ((26, 13), 21, 30) sono ((26, 13), 22, 30) azione passo W
+  fuori percorso: atteso ((26, 13), 16, 29) sono ((26, 13), 16, 30) azione passo N
+  lotta [(282, 50, 190, 34)] squadra [(50, 95, 155), (43, 119, 119)] pos ((26, 13), 16, 30)
+  fuori percorso: atteso ((26, 13), 13, 15) sono ((26, 13), 14, 15) azione passo W
+  lotta [(282, 50, 234, 36)] squadra [(50, 73, 155), (43, 119, 119)] pos ((26, 13), 14, 15)
+   uscito in ((26, 3), 38, 16)
+  fuori percorso: atteso ((26, 13), 21, 16) sono ((26, 13), 21, 19) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 20) sono ((26, 13), 21, 21) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 22) sono ((26, 13), 21, 23) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 24) sono ((26, 13), 21, 25) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 26) sono ((26, 13), 21, 27) azione passo S
+  fuori percorso: atteso ((26, 13), 21, 28) sono ((26, 13), 21, 29) azione passo S
+  fuori percorso: atteso ((26, 13), 23, 29) sono ((26, 13), 24, 29) azione passo E
+  fuori percorso: atteso ((26, 13), 25, 29) sono ((26, 13), 26, 29) azione passo E
+  fuori percorso: atteso ((26, 13), 27, 29) sono ((26, 13), 28, 29) azione passo E
+  fuori percorso: atteso ((26, 13), 29, 29) sono ((26, 13), 30, 29) azione passo E
+   tornato True ((26, 13), 30, 29)
+  parla: ['Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario.'] lotta: False
+T59 vecchio Pokemon_Romagna_0_59.gba partenza t59_raikou.ss ((26, 12), 7, 23, 3, False) cb2 0x8085d9d
+   uscito in ((35, 100), 10, 18)
+  fuori percorso: atteso ((26, 12), 9, 23) sono ((26, 12), 9, 22) azione passo S
+  lotta [(282, 50, 216, 34)] squadra [(50, 83, 155), (43, 119, 119)] pos ((26, 12), 9, 22)
+   tornato True ((26, 12), 7, 23)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  0.58 dal titolo, parla: ['Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario.'] False
+Traceback (most recent call last):
+  File "/home/user/money/collaudo/t59.py", line 265, in <module>
+    shutil.copy(vec, g.sav); g = ricarica(g.sav); log('  0.59 dal titolo:', vai.stato(g)[:3])
+                     ^^^^^
+AttributeError: 'G' object has no attribute 'sav'. Did you mean: 'save'?

@@ -19929,9 +19929,7 @@
    "26.1 script mappa 5",
    "26.10 script mappa 5",
    "26.11 script mappa 5",
-   "26.12 oggetto 10",
    "26.12 script mappa 5",
-   "26.13 oggetto 6",
    "26.13 script mappa 5",
    "26.14 script mappa 5",
    "26.15 script mappa 5",
@@ -20203,7 +20201,6 @@
    "35.10 oggetto 4",
    "35.10 script mappa 2",
    "35.10 script mappa 5",
-   "35.100 oggetto 1",
    "35.11 script mappa 5",
    "35.12 script mappa 5",
    "35.13 script mappa 5",
@@ -38990,6 +38987,7 @@
    "35.45 oggetto 14"
   ],
   "controlla": [
+   "26.12 oggetto 10",
    "35.45 oggetto 14"
   ],
   "oggetto": [
@@ -39021,6 +39019,7 @@
    "34.115 oggetto 8"
   ],
   "controlla": [
+   "26.13 oggetto 6",
    "34.115 oggetto 2",
    "34.115 oggetto 8"
   ],
@@ -39212,6 +39211,7 @@
   ],
   "controlla": [
    "34.115 oggetto 2",
+   "35.100 oggetto 1",
    "35.44 oggetto 11"
   ],
   "oggetto": [

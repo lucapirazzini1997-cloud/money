@@ -6,7 +6,10 @@ e scrive solo nello spazio libero. La catena e in build.py.
 - Base: rom055.gba (SHA-256 2bfaa8a3...4ad6), verificata all'avvio.
 - Spazio: le tre zone di 0xFF libere nella 0.55 (con 256 byte di margine all'inizio) e le zone recuperate
   dalle versioni successive con W.aggiungi_zone (0.57: blocchi di zeri senza riferimenti, analisi/spazio.py).
-- Flag nuove: 0x500+id di allenatori che nessuno script cita, escluse tutte le flag gia' usate (flagscan52).
+- Flag nuove: engine.pool(). Fino alla 0.57: 0x500+id di allenatori che nessuno script cita, escluse tutte le
+  flag gia' usate (flagscan52). Dalla 0.58 prima le flag 0x20-0x4FF verificate sicure, poi gli allenatori
+  rimasti che non combattono da nessuna parte e che il codice di Smeraldo non cita.
+- Variabili nuove: engine.variabili() (dalla 0.58), per i contatori delle missioni a piu' passi.
 """
 from pathlib import Path
 import sys, struct, re, hashlib, textwrap, copy
@@ -134,6 +137,16 @@ class FlagPool:
         self.it = iter(0x500 + t for t in reversed(unused_trainers()) if (0x500 + t) not in self.used)
     def flag(self, why):
         f = next(self.it); self.used.add(f); self.taken.append((hex(f), why)); return f
+    def restanti(self):
+        """Flag ancora disponibili, senza cambiare l'ordine in cui verranno date."""
+        rest = list(self.it); self.it = iter(rest); return rest
+    def riordina(self, prima, escludi=()):
+        """Dalla 0.58: prima le flag sicure date (0x20-0x4FF verificate), poi le flag di allenatore rimaste,
+        tolte quelle in 'escludi'. Cambia solo le flag date d'ora in poi: quelle gia' prese restano."""
+        escludi = set(escludi) | self.used
+        rest = [f for f in self.it if f not in escludi]
+        nuove = [f for f in prima if f not in self.used and f not in rest]
+        self.it = iter(nuove + rest)
 
 
 POOL = None
@@ -143,6 +156,25 @@ def pool():
     global POOL
     if POOL is None: POOL = FlagPool()
     return POOL
+
+
+class VarPool:
+    """Variabili 0x4000-0x40FF per le missioni a piu' passi (una variabile come contatore al posto di
+    tante flag). Le variabili disponibili le dichiara una versione (0.58: verificate contro script e codice)."""
+    def __init__(self, libere): self.rest = list(libere); self.taken = []
+    def var(self, why):
+        v = self.rest.pop(0); self.taken.append((hex(v), why)); return v
+
+
+VARS = None
+
+
+def variabili(libere=None):
+    global VARS
+    if VARS is None:
+        assert libere is not None, 'le variabili libere le dichiara la 0.58 (v058_registri)'
+        VARS = VarPool(libere)
+    return VARS
 
 
 # ------------------------------------------------------------------ eventi

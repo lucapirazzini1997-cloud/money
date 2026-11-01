@@ -1,0 +1,6 @@
+{
+ "650": {
+  "motivo": "Conflitto latente, segnalato nella 0.58 e non corretto. Danielle (palestra di Lavaridge di Smeraldo, mappa 4.1, lotta con id locale 5) ha la flag 0x78a, che la 0.56 ha preso dal pool per il rosone di 34.37 ('rosone pietralunare'): la scansione della 0.56 non vedeva le lotte con id locale diverso da 0. La 4.1 e la 0.12 (Lavaridge, rinominata IMOLA) non si raggiungono nemmeno a piedi in modo ottimistico (analisi/cammino.py) e non sono destinazioni del Volo. Se una versione le collega, va prima spostata Danielle su un numero libero.",
+  "finche_irraggiungibili_a_piedi": ["4.1", "0.12"]
+ }
+}

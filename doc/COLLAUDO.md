@@ -7,12 +7,15 @@ Le prove si fanno giocando con i soli tasti, in un emulatore senza finestra pilo
 ```sh
 cd collaudo
 ./prepara_emulatori.sh        # scarica e compila mGBA e il core VBA-M (servono git, cmake, gcc, make)
-cd .. && python3 build.py      # costruisce out/Pokemon_Romagna_0_56.gba
+cd .. && python3 build.py      # costruisce le ROM in out/
 ```
 
 - `./h` è il pilota per mGBA (sorgente `h.c`, compilato contro `libmgba`).
 - `vb.py` è il pilota per il core VBA-M di libretro, con lo stesso protocollo. Lo si usa impostando `VBAM=1`. VBA-M è il motore degli emulatori per iPhone, per questo ogni versione va provata almeno una volta anche lì.
-- Versioni usate per la 0.56: mGBA `fd9dc5c2cbf2`, vbam-libretro `115defb3a318` (fissate nello script).
+- Versioni usate dalla 0.56: mGBA `fd9dc5c2cbf2`, vbam-libretro `115defb3a318` (fissate nello script).
+- `./h` va compilato con le stesse `-D` della libreria (lo script le prende da `flags.make`): senza, la struttura `mCore` non coincide e il pilota va in crash all'avvio (sistemato nella 0.58).
+- **Orologio ripetibile.** `./h` usa un orologio finto che parte dall'1/1/2026 alle 12:00 (`H_WALLCLOCK=1` per l'ora vera). Per VBA-M lo script modifica una riga di `RTC.cpp` e `vb.py` imposta `VBAM_ORA_FISSA` (`VBAM_ORA_VERA=1` per l'ora vera). Senza, due prove della stessa ROM danno memoria diversa (bacche, eventi giornalieri).
+- `vb.py` accetta un `.sav` come secondo argomento, come `./h`. `drv.py` scarta le righe di stderr che non sono risposte (in `e.junk`).
 - Serve Pillow (`pip install pillow`) per gli screenshot.
 
 ### Variabili d'ambiente
@@ -41,9 +44,29 @@ cd .. && python3 build.py      # costruisce out/Pokemon_Romagna_0_56.gba
 | `t56ch.py` | 0.56: chiesa e rosone |
 | `t56r.py`, `t56r2.py` | 0.56: nome del rivale dal personaggio del laboratorio |
 | `save56.py` | salvataggio dal menu del gioco, riavvio da zero, "Continua", confronto dello stato |
-| `play/` | savestate di partenza della partita di prova (vedi sotto) e `p51.sav` |
+| `regressione.py` | **regressione** (dalla 0.58): stessa partita di prova su tutte le partenze, tabella dei risultati, confronto con una ROM di riferimento |
+| `t57.py` | collaudo della 0.57: confronto 0.56 / 0.57 / 0.57 con le zone recuperate riempite di byte casuali |
+| `test_controlli.py` | prova negativa dei controlli di build (allenatore con flag riservata, dono irraggiungibile) |
+| `risultati/` | risultati dei collaudi da tenere (tabelle e hash), una cartella per versione |
+| `play/` | savestate di partenza della partita di prova (vedi sotto) e `p51.sav` (vuoto: tutto 0xFF) |
 
 Esempio: `cd collaudo && python3 t56c.py` (consegna dei pennelli partendo da `t56_pennelli.ss`).
+
+### Regressione
+
+```sh
+python3 collaudo/regressione.py out/Pokemon_Romagna_0_58.gba --rif out/Pokemon_Romagna_0_56.gba
+```
+
+- **Partenze:** i 13 savestate in mGBA, più un salvataggio vero fatto in gioco (menu → SALVA dal savestate `t56_reload`) e caricato con Continua in mGBA e in VBA-M.
+- **Programma di tasti:** passeggiata, menu, Pokédex, squadra e riassunto, borsa e seconda tasca, ritorno.
+- **Esiti per partenza:**
+  - gira;
+  - schermo vivo;
+  - callback del gioco nella ROM;
+  - con `--rif`, uguale o diverso dal riferimento (schermo, EWRAM, IWRAM, VRAM, tavolozze, OAM).
+- **Risultati:** tabella in `regressione.md`, nella cartella data con `--uscita`. Circa 25 minuti con il riferimento.
+- **Lettura:** per una versione che non cambia il gioco tutto deve essere uguale. Per una che lo cambia, le differenze vanno spiegate.
 
 ## 3. Savestate di partenza
 

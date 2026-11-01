@@ -1,6 +1,6 @@
 # Pokémon Romagna — documento di progetto
 
-Stato alla **0.57** (SHA-256 `47f53668…97c4`, da collaudare; ultima collaudata: 0.56 `b09eb697…495f`).
+Stato alla **0.58** (SHA-256 `47f53668…97c4`, collaudata; è la stessa ROM della 0.57: la 0.58 cambia solo registri e controlli).
 Questo è il documento di riferimento: trama, mappe, eventi, indirizzi tecnici e regole di lavoro. La storia delle versioni è in `STORIA_VERSIONI.md`, le prove in emulatore in `COLLAUDO.md`.
 
 ## 1. Come è fatto il progetto
@@ -14,8 +14,9 @@ pezzo_055/            patch_054_055.bps + modifiche_055.json/.md (la 0.55 non ha
 versioni/             engine.py + un modulo per versione (v056_cesena_rivale.py, …)
 registri/             flag, variabili, strumenti, mappe, spazio libero; genera.py li rigenera
 strumenti_rom/        lettura di mappe, script, testi (romlib, scr, text_codec, …)
-analisi/              dump.py, confronta.py, grid.py, water.py, maps.py, spazio.py, raggiungibili.py …
-collaudo/             pilota per mGBA e VBA-M, libreria di gioco, test della 0.56
+analisi/              dump.py, confronta.py, grid.py, water.py, maps.py, spazio.py, raggiungibili.py,
+                      cammino.py (raggiungibilità a piedi), flag_sicure.py (flag e variabili sicure) …
+collaudo/             pilota per mGBA e VBA-M, libreria di gioco, regressione.py, test delle versioni, risultati/
 doc/                  questo documento, storia delle versioni, collaudo
 relazioni/            relazioni e audit delle versioni passate (archivio)
 out/                  risultati del build (non va nel pacchetto)
@@ -29,19 +30,21 @@ Ogni tappa controlla lo SHA-256 atteso e si ferma se non coincide.
 |---|---|---|---|---|
 | 1 | `basi/rom047.gba` + `basi/base31.gba` | `storico_054/build54.py` (rifà 0.48 → 0.54 in sequenza) | 0.54 | `a0653255…2906` |
 | 2 | 0.54 | `pezzo_055/patch_054_055.bps` | 0.55 | `2bfaa8a3…4ad6` |
-| 3 | 0.55 | `versioni/v056_cesena_rivale.py` | 0.56 | `b09eb697…495f` |
-| 4 | 0.56 | `registri/genera.py` (modo rigoroso) | registri | — |
+| 3 | 0.55 | `versioni/v056_cesena_rivale.py`, `v057_spazio.py`, `v058_registri.py` | 0.56, 0.57, 0.58 | `b09eb697…495f`, `47f53668…97c4`, `47f53668…97c4` |
+| 4 | ultima | `registri/genera.py` (modo rigoroso) | registri | — |
+| 5 | ultima | `registri/controlli.py` (allenatori, raggiungibilità, risorse, budget) | registri, `out/rapporto_build.json` | — |
 
-- Build completa: `python3 build.py` (circa 1 minuto).
+- Build completa: `python3 build.py` (circa 3 minuti, di cui uno e mezzo per il cammino a piedi dei controlli).
 - Solo dalla 0.55 in poi: `python3 build.py --da 055` (usa `out/Pokemon_Romagna_0_55.gba` già costruita).
 - **La 0.55 resta una patch.** Non è stata fatta in questo progetto e non esistono i suoi sorgenti; `pezzo_055/modifiche_055.md` dice in chiaro cosa cambia (mappe 35.101 e 35.102, 27 mappe modificate, 21 allenatori, due tabelle spostate).
 
-### Come si aggiunge una versione (0.57 e successive)
+### Come si aggiunge una versione (0.59 e successive)
 
-1. Crea `versioni/v057_<argomento>.py` con una funzione `apply(W)` che usa `engine` (vedi `v056_cesena_rivale.py`). Restituisce un dizionario con il rapporto.
-2. Aggiungi `('057', 'v057_<argomento>')` a `VERSIONI` in `build.py`.
+1. Crea `versioni/v059_<argomento>.py` con una funzione `apply(W)` che usa `engine` (vedi `v056_cesena_rivale.py`). Restituisce un dizionario con il rapporto.
+2. Aggiungi `('059', 'v059_<argomento>')` a `VERSIONI` in `build.py`.
 3. Lancia `python3 build.py --da 055`. Lo SHA nuovo viene stampato come "nuovo".
-4. Collauda (vedi `COLLAUDO.md`). Solo dopo il collaudo copia lo SHA in `SHA` dentro `build.py`.
+4. Collauda (vedi `COLLAUDO.md`): almeno `python3 collaudo/regressione.py out/<nuova>.gba --rif out/<precedente>.gba` più le prove delle novità. Solo dopo il collaudo copia lo SHA in `SHA` dentro `build.py`.
+4b. Nella relazione copia il budget da `out/rapporto_build.json` (voce `budget`).
 5. I moduli si applicano in ordine sullo stesso `Writer`: non modificare un modulo di una versione già consegnata, altrimenti cambia lo SHA di tutte quelle successive.
 
 ### Regole dell'engine
@@ -53,7 +56,10 @@ Ogni tappa controlla lo SHA-256 atteso e si ferma se non coincide.
 
   `W.libere()` dice quanto resta; lo spazio 0xFF della ROM è in `registri/spazio.json`. Zone nuove solo dopo un'analisi come `analisi/spazio.py` e con lo stesso controllo.
 - Patch BPS: `bpslib.apply` e `bpslib.create`.
-- Flag nuove solo con `engine.pool()`: sono 0x500 + id di allenatori che nessuno script usa, escluse tutte le flag già usate (scansione `flagscan52`).
+- Flag nuove solo con `engine.pool()`. Dalla 0.58 il pool dà prima le 41 flag 0x20–0x4FF verificate sicure (`analisi/flag_sicure.py`: script, oggetti nascosti, codice e dati di Smeraldo, chiamate nel codice della ROM), poi 6 flag di allenatori che non combattono da nessuna parte e che il codice di Smeraldo non cita. Fino alla 0.57 dava 0x500 + id di allenatori non usati (vedi §4 per le conseguenze).
+- Variabili nuove solo con `engine.variabili().var('motivo')` (47 sicure dalla 0.58). **Missioni a più passi: una variabile come contatore**, non una flag per passo.
+- Allenatori nuovi: solo numeri "libero" di `registri/allenatori.json`. La build fallisce se un allenatore che combatte ha la flag presa dal pool o usata da script di un'altra mappa.
+- Mappe nuove, doni e leggendari: la build fallisce se non si raggiungono (grafo di `analisi/raggiungibili.py`). Le eccezioni stanno in `registri/irraggiungibili_ammesse.json`, con il motivo; una mappa nuova va comunque collegata.
 - Script con `engine.Script`, oggetti con `add_object`, cartelli con `add_bg` / `set_bg_script`.
 - Dopo il build, `registri/genera.py` in modo rigoroso fa fallire il build se una flag viene usata da mappe diverse in un modo nuovo (era la causa dei bug Arco/Regice e Katun/Registeel). Le 147 condivisioni della 0.56 sono in `registri/flag_condivise_ammesse.json`; per ammetterne una nuova va aggiunta a mano, dopo averla verificata.
 
@@ -114,15 +120,19 @@ Letti dagli script della 0.56. "Raggiungibile" vuol dire che la mappa è collega
 - **Flag nuove della 0.56:** pennelli 0x7b3, 0x7b2, 0x7b1; Smeargle consegnato 0x7b0; codici 0x7ad, 0x7ac, 0x7ab, 0x7aa; rosone 0x794, 0x793, 0x792, 0x78a.
 - **Missioni del Team Emilia:** tecnici delle Befane 0x27d, 0x27e, 0x27f; Ravenna conclusa 0x2ac.
 
-## 4b. Risorse rimaste dopo la 0.56
+- **Conflitto latente (0.58):** 0x78A (rosone "pietralunare") è anche la flag di Danielle, allenatrice della palestra di Lavaridge di Smeraldo (4.1). Oggi la 4.1 non si raggiunge; se una versione la collega la build fallisce e Danielle va spostata su un numero libero. Le flag 0x792–0x794, 0x7AA–0x7AD e 0x7B0–0x7B3 sono di allenatori della tabella delle rivincite (servono il Pokénav, assente): rischio basso.
+
+## 4b. Risorse rimaste (budget della 0.58)
 
 - **Spazio nella ROM:** la ROM è a 32 MB, il massimo del GBA, e non si allarga.
-  - Dalla 0.57 restano circa 1249 KB nelle zone dell'engine.
-  - Analisi e cose non recuperate: `relazioni/RELAZIONE_0_57.md` §3. Il gruppo 0 di Smeraldo risulta raggiungibile dall'ingresso del Safari (30.0 → 0.28), da verificare in gioco.
+  - Restano 1249 KB nelle zone dell'engine.
+  - Analisi e cose non recuperate: `relazioni/RELAZIONE_0_57.md` §3.
+  - Il gruppo 0 **non** è un insieme di vecchie mappe libere: gran parte è usata dalla Romagna (0.9 Lido, 0.10 Cervia, 0.27 Mirabilandia, 0.28 Safari di Ravenna); i nomi delle zone sono riscritti, per questo 0.12 (Lavaridge) si chiama IMOLA.
   - Posti per mappe nuove: 34.10, 34.13, 34.18, 24.39–24.41, 24.50–24.51, 24.74–24.76.
-- **Flag:** 138 nel pool di `engine.pool()`; altre 260 tra 0x20 e 0x4ff non usate da script, da controllare contro il codice di Smeraldo.
-- **Variabili:** 90 libere (`registri/variabili.json`).
+- **Flag:** 47 nel pool (41 sicure 0x20–0x4FF + 6 di allenatore). Il motivo di ogni flag esclusa è in `registri/risorse_libere.json`.
+- **Variabili:** 47 sicure (delle 90 "libere" di prima, 40 le usa il codice di Smeraldo: Repellente, giorni, lotteria…).
 - **Strumenti:** 67 numeri liberi (`registri/strumenti.json`).
+- **Allenatori:** 18 numeri liberi; 159 citati solo dal codice di Smeraldo (rivincite), da usare solo dopo un controllo.
 
 ## 5. Indirizzi tecnici
 
@@ -152,4 +162,6 @@ Letti dagli script della 0.56. "Raggiungibile" vuol dire che la mappa è collega
 6. **Flag condivise.** Una flag usata da due mappe per scopi diversi fa sparire o ricomparire cose a caso: per questo c'è il controllo rigoroso nei registri.
 7. **Callback e menu.** Sostituire una callback con un indirizzo "vicino" può aprire altre schermate (0x080860d5 apre il menu START): si usa la callback originale, 0x0808610d.
 8. **Collaudo onesto.** Le scritture in RAM sono solo fixture dichiarate, mai una prova di vittoria o di sblocco. Si aspetta la fine dei dialoghi leggendo 0x03000e41, non premendo A alla cieca.
-9. **Mappe raggiungibili.** Una mappa che esiste non è per forza raggiungibile: il Safari della 0.51 ne è l'esempio. Controlla le uscite entranti in `registri/mappe.json`.
+9. **Mappe raggiungibili.** Una mappa che esiste non è per forza raggiungibile: il Safari della 0.51 ne è l'esempio. Dalla 0.58 lo controlla la build; `analisi/cammino.py` dice anche se ci si arriva a piedi (il grafo da solo collega mappe separate da un muro di alberi).
+10. **"Libero" negli script non vuol dire libero.** Flag e variabili che nessuno script usa possono essere usate dal codice di Smeraldo (oggetti nascosti 0x1F4+, Pokénav 0x15C+, Repellente 0x4021, giorni 0x4040). Si prendono solo dai pool.
+11. **Scansioni di script.** Seguire anche gli script dopo una lotta (trainerbattle) e le lotte con id locale diverso da 0: la scansione della 0.56 non le vedeva.

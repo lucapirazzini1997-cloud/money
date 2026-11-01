@@ -2,6 +2,8 @@
 """Frontend minimo libretro (core VBA-M) con lo stesso protocollo di emu/h (stdin comandi, stderr risposte)."""
 import sys, ctypes as C, os
 CORE = os.environ.get('VBAM_CORE', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'vbam-libretro', 'src', 'libretro', 'vbam_libretro.so'))
+if not os.environ.get('VBAM_ORA_VERA'):        # orologio ripetibile (prepara_emulatori.sh applica VBAM_ORA_FISSA a RTC.cpp)
+    os.environ.setdefault('VBAM_ORA_FISSA', '1767268800'); os.environ.setdefault('TZ', 'UTC')   # 1/1/2026 12:00
 lib = C.CDLL(CORE)
 class GameInfo(C.Structure): _fields_ = [('path', C.c_char_p), ('data', C.c_void_p), ('size', C.c_size_t), ('meta', C.c_char_p)]
 class Desc(C.Structure): _fields_ = [('flags', C.c_uint64), ('ptr', C.c_void_p), ('offset', C.c_size_t), ('start', C.c_size_t), ('select', C.c_size_t), ('disconnect', C.c_size_t), ('len', C.c_size_t), ('addrspace', C.c_char_p)]
@@ -56,6 +58,10 @@ rom = open(sys.argv[1], 'rb').read(); rbuf = C.create_string_buffer(rom, len(rom
 gi = GameInfo(sys.argv[1].encode(), C.cast(rbuf, C.c_void_p), len(rom), None)
 assert lib.retro_load_game(C.byref(gi))
 lib.retro_set_controller_port_device(0, 1)
+if len(sys.argv) > 2 and os.path.exists(sys.argv[2]):   # salvataggio di partenza (come ./h ROM SAV)
+    lib.retro_get_memory_data.restype = C.c_void_p; lib.retro_get_memory_size.restype = C.c_size_t
+    sv = open(sys.argv[2], 'rb').read(); n = min(len(sv), lib.retro_get_memory_size(0))
+    C.memmove(lib.retro_get_memory_data(0), sv, n)
 lib.retro_get_memory_data.restype = C.c_void_p; lib.retro_get_memory_size.restype = C.c_size_t
 lib.retro_serialize_size.restype = C.c_size_t
 def loc(a):

@@ -1,26 +1,36 @@
 import subprocess, os, sys
 from PIL import Image
+HEX=set('0123456789abcdef')
 A,B,SEL,START,R,L,U,D,RR,LL=1,2,4,8,16,32,64,128,256,512
 # keys: A=1 B=2 SELECT=4 START=8 RIGHT=16 LEFT=32 UP=64 DOWN=128 R=256 L=512
 class Emu:
     def __init__(self, rom, sav=None):
         args=['./h',rom]+([sav] if sav else [])
-        if os.environ.get('VBAM'): args=['python3',os.path.join(os.path.dirname(os.path.abspath(__file__)),'vb.py'),rom]
+        if os.environ.get('VBAM'): args=['python3',os.path.join(os.path.dirname(os.path.abspath(__file__)),'vb.py'),rom]+([sav] if sav else [])
         self.p=subprocess.Popen(args,stdin=subprocess.PIPE,stdout=subprocess.DEVNULL,stderr=subprocess.PIPE,text=True,bufsize=1)
         self.n=0
     def cmd(self,s): self.p.stdin.write(s+'\n'); self.p.stdin.flush()
     def run(self,n): self.cmd(f'run {n}')
     def key(self,k,n=4,wait=8): self.cmd(f'key {k:x} {n}'); self.run(wait)
+    def line(self,ok):
+        # stderr porta le risposte ma anche eventuali messaggi del core: si scartano (e si tengono in self.junk)
+        while True:
+            l=self.p.stderr.readline()
+            if not l: raise EOFError('emulatore terminato: '+' | '.join(getattr(self,'junk',[])[-3:]))
+            l=l.strip()
+            if ok(l): return l
+            self.junk=getattr(self,'junk',[])+[l[:200]]
     def r(self,fmt,addr):
-        self.cmd(f'{fmt} {addr:x}'); return int(self.p.stderr.readline().strip(),16)
+        n={'r8':2,'r16':4,'r32':8}[fmt]
+        self.cmd(f'{fmt} {addr:x}'); return int(self.line(lambda l:len(l)==n and all(c in HEX for c in l)),16)
     def ram(self,addr,ln):
-        self.cmd(f'ram {addr:x} {ln}'); return bytes.fromhex(self.p.stderr.readline().strip())
+        self.cmd(f'ram {addr:x} {ln}'); return bytes.fromhex(self.line(lambda l:len(l)==2*ln and all(c in HEX for c in l)))
     def w(self,fmt,addr,v): self.cmd(f'{fmt} {addr:x} {v:x}')
     def shot(self,name,scale=2):
         self.cmd(f'shot {name}.ppm'); self.sync()
         Image.open(name+'.ppm').resize((240*scale,160*scale),0).save(name+'.png')
     def sync(self):
-        self.cmd('ping'); assert self.p.stderr.readline().strip()=='ok'
+        self.cmd('ping'); self.line(lambda l:l=='ok')
     def state(self,f): self.cmd(f'savestate {f}')
     def load(self,f): self.cmd(f'loadstate {f}')
     def close(self): self.cmd('quit')

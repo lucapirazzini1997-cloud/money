@@ -4,7 +4,7 @@
 
 **Risultato:** `Pokemon_Romagna_0_57.gba`, SHA-256 `47f53668d8b5861956938cd041fb892e541b86031e4ac7b4337e8328923897c4`.
 - Patch BPS 0.56→0.57: `rom/Pokemon_Romagna_0_56_to_0_57.bps` (159 byte), verificata riapplicandola alla 0.56.
-- **Lo SHA non è ancora in `SHA` dentro `build.py`:** manca il collaudo in emulatore (vedi §4).
+- **Collaudata in emulatore** (aggiornamento consegnato con la 0.58, vedi §4): lo SHA è ora in `SHA` dentro `build.py`.
 
 **Il gioco non cambia.** Cambiano 687 400 byte, tutti dentro le undici zone recuperate: prima erano zeri, ora sono 0xFF (spazio libero). Nessun byte fuori dalle zone è diverso dalla 0.56 (controllato confrontando le due ROM).
 
@@ -71,10 +71,10 @@ I tre blocchi grandi erano già a zero nella `base31.gba` e nella 0.47.
   - gli sprite dei personaggi sono a 0x6ada3c invece di 0x505620.
 
   Non è utilizzabile per decidere cosa c'è a un indirizzo.
-- **Vecchie mappe di Smeraldo nel gruppo 0: non sono irraggiungibili.**
-  - Il grafo di `analisi/raggiungibili.py` trova questo percorso: Ravenna → … → 34.74 → script → ingresso del Safari 30.0 → uscita verso **0.28**. Dalla 0.28, con le connessioni ai bordi, si arriva a tutta la rete dei vecchi percorsi e città di Smeraldo, gruppo 0 compreso (0.0, 0.5, 0.7…).
-  - Il grafo non sa se i bordi sono percorribili (alberi, acqua), quindi è un sospetto da provare in gioco, non un fatto. Se fosse vero, sarebbe una via per uscire dalla Romagna.
-  - Per questo il gruppo 0 non è stato toccato.
+- **Mappe del gruppo 0: non sono "vecchie mappe di Smeraldo" da liberare.** *(Corretto nella 0.58: la prima stesura di questo punto era sbagliata.)*
+  - Il gioco ha riusato gran parte del gruppo 0 per la Romagna: 0.9 è il Lido di Savio (la partenza), 0.10 Cervia, 0.27 Mirabilandia, 0.28 il Safari di Ravenna. I nomi delle zone sono stati riscritti, per questo una mappa di Smeraldo può chiamarsi "IMOLA" (0.12 è fisicamente Lavaridge).
+  - Il percorso trovato dal grafo (… → 34.74 → Safari 30.0 → 0.28 → 0.27 → 0.12) è in gran parte il gioco normale. Nella 0.58 `analisi/cammino.py` ha controllato casella per casella: anche ignorando ogni ostacolo, dalla 0.28/0.27 non si arriva a piedi alla 0.12 né alla palestra 4.1. Non è una via d'uscita dalla Romagna.
+  - Il gruppo 0 non si libera: è in uso. Restano liberabili solo le singole mappe isolate (elenco sotto).
 - **Doppioni 34.10, 34.13, 34.18 e mappe isolate.** Sono davvero irraggiungibili, ma i loro dati di mappa sono piccoli (3,5 KB in tutto, in pezzi sotto i 4 KB). Restano come posti per mappe nuove: l'elenco è sotto.
 - **Copie vecchie delle tabelle spostate nella 0.55.**
   - Tabella dei layout a 0x1fd5634: 855 voci, 3,4 KB, nessun riferimento. È sotto i 4 KB minimi, quindi non è stata presa.
@@ -104,14 +104,15 @@ Il grafo conta uscite, connessioni, SUB, warp degli script e Volo. Il codice nat
 | Differenze 0.56 → 0.57 solo dentro le zone | 687 400 byte, 0 fuori dalle zone | statico |
 | `registri/spazio.json` vede le 11 zone nuove come 0xFF libero | sì (19 zone in tutto) | statico |
 | Patch BPS 0.56→0.57 riapplicata alla 0.56 = 0.57 | sì | statico |
-| **Avvio e partita in mGBA e VBA-M** | **non fatto** | — |
+| mGBA, 13 savestate di `collaudo/play/`: stesso programma di tasti su 0.56, 0.57 e 0.57 "avvelenata" (zone riempite di byte casuali) | **uguale alla 0.56** in tutti gli 8 punti di controllo (schermo, EWRAM, IWRAM, VRAM, tavolozze, OAM) | emulatore, solo tasti |
+| mGBA e VBA-M, salvataggio vero fatto in gioco (menu → SALVA) → titolo → Continua → stesso programma | **uguale alla 0.56**, anche la ROM avvelenata | emulatore, solo tasti |
+| Ripetibilità: la 0.56 una seconda volta | uguale | emulatore |
 
-**Non verificato:** nessuna prova in emulatore. Costruire mGBA e VBA-M (`collaudo/prepara_emulatori.sh`, che li scarica da GitHub e li compila) è stato bloccato dai permessi di questa sessione. Per questo lo SHA della 0.57 non è stato aggiunto a `SHA`.
+Il collaudo è stato fatto con la consegna della 0.58 (`collaudo/t57.py`, risultati in `collaudo/risultati/057/`). Il programma di tasti: passeggiata, menu, Pokédex, squadra e riassunto, borsa e seconda tasca, passeggiata di ritorno.
 
-Il collaudo previsto, appena gli emulatori sono disponibili:
-1. avvio, Continua e una passeggiata in ogni savestate di `collaudo/play/`, su entrambi gli emulatori;
-2. screenshot confrontati con la 0.56 (devono essere identici);
-3. una ROM di prova con le zone riempite di byte casuali invece di 0xFF, sugli stessi percorsi. Se qualcosa leggesse una zona, si vedrebbe.
+- **ROM avvelenata.** Le 11 zone sono riempite di byte casuali (seme 57) invece di 0xFF. Se il gioco leggesse una zona sui percorsi provati, schermo o memoria divergerebbero: non succede.
+- **Orologio.** In mGBA l'orologio è fisso. VBA-M usava l'ora vera e i secondi cambiavano anche tra due prove della stessa 0.56, quindi nel collaudo della 0.57 i 20 byte di `sRtc` e `gLocalTime` sono stati esclusi dal confronto. Dalla 0.58 anche VBA-M ha l'ora fissa (vedi la relazione 0.58).
+- **Limite.** La prova copre i percorsi giocati (13 punti della partita più il salvataggio), non tutto il gioco. Una zona letta solo da un evento mai attraversato non verrebbe vista: per questo le zone vengono comunque da un'analisi conservativa (§2).
 
 ## 5. Risorse
 
@@ -126,8 +127,8 @@ Il collaudo previsto, appena gli emulatori sono disponibili:
 
 | Richiesta | Stato |
 |---|---|
-| Spazio: blocchi di zeri | **corretto**, 671 KB; non verificato in emulatore |
-| Spazio: mappe del gruppo 0 e doppioni | analizzato: il gruppo 0 risulta raggiungibile dal Safari, i doppioni sono troppo piccoli; elenco dei posti riusabili sopra |
+| Spazio: blocchi di zeri | **verificato**, 671 KB; collaudo in mGBA e VBA-M con la ROM avvelenata |
+| Spazio: mappe del gruppo 0 e doppioni | analizzato: il gruppo 0 è in gran parte usato dalla Romagna (correzione della 0.58), i doppioni sono troppo piccoli; elenco dei posti riusabili sopra |
 | Spazio: grafica mai usata, tabelle vecchie | analizzato, non recuperato (§3) |
 | Zone aggiunte all'engine con lo stesso controllo | **corretto** |
 | Flag, variabili, allenatori, controllo di raggiungibilità nella build, `collaudo/regressione.py`, budget | 0.58 |

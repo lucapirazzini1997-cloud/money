@@ -1,0 +1,1321 @@
+{
+ "budget": {
+  "spazio_kb": 1249,
+  "flag_pool": 47,
+  "flag_0x20_0x4ff_sicure": 41,
+  "variabili_sicure": 47,
+  "strumenti_liberi": 67,
+  "allenatori_liberi": 18
+ },
+ "flag_sicure": [
+  "0x22",
+  "0x28",
+  "0x2c",
+  "0x34",
+  "0x35",
+  "0x3c",
+  "0x3e",
+  "0x45",
+  "0x96",
+  "0x1ab",
+  "0x1da",
+  "0x1de",
+  "0x1df",
+  "0x1e0",
+  "0x1e1",
+  "0x1e2",
+  "0x1e3",
+  "0x278",
+  "0x296",
+  "0x297",
+  "0x298",
+  "0x299",
+  "0x29a",
+  "0x2ae",
+  "0x2b7",
+  "0x2b8",
+  "0x2b9",
+  "0x2ba",
+  "0x2bb",
+  "0x2d9",
+  "0x339",
+  "0x467",
+  "0x468",
+  "0x470",
+  "0x472",
+  "0x4b4",
+  "0x4dd",
+  "0x4de",
+  "0x4df",
+  "0x4ec",
+  "0x4ed"
+ ],
+ "variabili_sicure": [
+  "0x4020",
+  "0x404e",
+  "0x4052",
+  "0x4055",
+  "0x4056",
+  "0x4059",
+  "0x405b",
+  "0x405c",
+  "0x405f",
+  "0x4061",
+  "0x4062",
+  "0x4064",
+  "0x4065",
+  "0x4066",
+  "0x4067",
+  "0x4068",
+  "0x406a",
+  "0x406b",
+  "0x406c",
+  "0x406d",
+  "0x406e",
+  "0x4070",
+  "0x4073",
+  "0x4075",
+  "0x4076",
+  "0x4077",
+  "0x4078",
+  "0x4079",
+  "0x407a",
+  "0x407c",
+  "0x407d",
+  "0x407e",
+  "0x407f",
+  "0x4080",
+  "0x4081",
+  "0x4083",
+  "0x408b",
+  "0x4091",
+  "0x409b",
+  "0x409d",
+  "0x40a1",
+  "0x40a8",
+  "0x40b8",
+  "0x40bb",
+  "0x40f9",
+  "0x40fa",
+  "0x40fb"
+ ],
+ "flag_escluse": {
+  "0x46": [
+   "codice ROM: FlagSet a 0x8432a"
+  ],
+  "0x52": [
+   "Smeraldo: FLAG_RESCUED_BIRCH (data/maps/LittlerootTown/scripts.inc)",
+   "Smeraldo: FLAG_RESCUED_BIRCH (data/maps/Route101/scripts.inc)",
+   "Smeraldo: FLAG_RESCUED_BIRCH (data/scripts/players_house.inc)"
+  ],
+  "0x57": [
+   "Smeraldo: FLAG_MET_RIVAL_MOM (data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc)",
+   "Smeraldo: FLAG_MET_RIVAL_MOM (data/maps/LittlerootTown_MaysHouse_1F/scripts.inc)"
+  ],
+  "0x58": [
+   "Smeraldo: FLAG_BIRCH_AIDE_MET (data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc)"
+  ],
+  "0x72": [
+   "Smeraldo: FLAG_SCOTT_CALL_BATTLE_FRONTIER (data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc)",
+   "Smeraldo: FLAG_SCOTT_CALL_BATTLE_FRONTIER (src/field_specials.c)",
+   "codice ROM: FlagGet a 0x1385a0"
+  ],
+  "0x74": [
+   "Smeraldo: FLAG_ADVENTURE_STARTED (data/maps/LittlerootTown/scripts.inc)",
+   "Smeraldo: FLAG_ADVENTURE_STARTED (data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc)",
+   "Smeraldo: FLAG_ADVENTURE_STARTED (data/maps/OldaleTown/scripts.inc)",
+   "Smeraldo: FLAG_ADVENTURE_STARTED (data/maps/OldaleTown_Mart/scripts.inc)"
+  ],
+  "0x84": [
+   "Smeraldo: FLAG_RECEIVED_POTION_OLDALE (data/maps/OldaleTown/scripts.inc)"
+  ],
+  "0x85": [
+   "Smeraldo: FLAG_RECEIVED_AMULET_COIN (data/scripts/players_house.inc)"
+  ],
+  "0xd6": [
+   "Smeraldo: FLAG_ENABLE_WALLY_MATCH_CALL (data/maps/MauvilleCity/scripts.inc)",
+   "Smeraldo: FLAG_ENABLE_WALLY_MATCH_CALL (src/pokenav_match_call_data.c)"
+  ],
+  "0xd8": [
+   "Smeraldo: FLAG_ENABLE_MOM_MATCH_CALL (data/scripts/players_house.inc)",
+   "Smeraldo: FLAG_ENABLE_MOM_MATCH_CALL (src/pokenav_match_call_data.c)"
+  ],
+  "0xdc": [
+   "Smeraldo: FLAG_NEVER_SET_0x0DC (src/match_call.c)",
+   "codice ROM: FlagGet a 0x196338"
+  ],
+  "0xe2": [
+   "Smeraldo: FLAG_RECEIVED_STARTER_DOLL (data/maps/MauvilleCity_GameCorner/scripts.inc)"
+  ],
+  "0xff": [
+   "Smeraldo: FLAG_LATIOS_OR_LATIAS_ROAMING (data/scripts/players_house.inc)",
+   "Smeraldo: FLAG_LATIOS_OR_LATIAS_ROAMING (data/scripts/tv.inc)"
+  ],
+  "0x13d": [
+   "Smeraldo: FLAG_WONDER_CARD_UNUSED_1 (src/mystery_gift.c)"
+  ],
+  "0x14c": [
+   "Smeraldo: FLAG_WONDER_CARD_UNUSED_16 (src/mystery_gift.c)"
+  ],
+  "0x14d": [
+   "Smeraldo: FLAG_WONDER_CARD_UNUSED_17 (src/mystery_gift.c)"
+  ],
+  "0x158": [
+   "Smeraldo: FLAG_ENABLE_MR_STONE_POKENAV (src/pokenav_match_call_data.c)"
+  ],
+  "0x15c": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x15d": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x15e": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x15f": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x175": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x176": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x177": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x178": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x179": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x17a": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x17b": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x17c": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x17d": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x17e": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x17f": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x180": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x181": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x182": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x183": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x184": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x185": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x186": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x187": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x188": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x189": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x18a": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x18b": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x18c": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x18d": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x18e": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x18f": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x190": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x191": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x192": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x193": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x194": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x195": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x196": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x197": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x198": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x199": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x19a": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x19b": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x19c": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x19d": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x19e": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x19f": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x1a0": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x1a1": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x1a2": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x1a3": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x1a4": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x1a5": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x1a6": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x1a7": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x1a8": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x1a9": [
+   "Smeraldo: allenatori registrati nel Pokenav (match_call.c: inizio + REMATCH_*)"
+  ],
+  "0x1d3": [
+   "Smeraldo: FLAG_ENABLE_ROXANNE_MATCH_CALL (data/maps/RustboroCity_Gym/scripts.inc)",
+   "Smeraldo: FLAG_ENABLE_ROXANNE_MATCH_CALL (src/pokenav_match_call_data.c)"
+  ],
+  "0x1e4": [
+   "Smeraldo: FLAG_MYSTERY_GIFT_DONE (data/scripts/gift_battle_card.inc)",
+   "Smeraldo: FLAG_MYSTERY_GIFT_DONE (data/scripts/gift_pichu.inc)",
+   "Smeraldo: FLAG_MYSTERY_GIFT_DONE (src/event_data.c)",
+   "codice ROM: FlagClear a 0x9d672"
+  ],
+  "0x1e5": [
+   "Smeraldo: FLAG_MYSTERY_GIFT_1 (src/event_data.c)",
+   "codice ROM: FlagClear a 0x9d678"
+  ],
+  "0x1e6": [
+   "Smeraldo: FLAG_MYSTERY_GIFT_2 (src/event_data.c)",
+   "codice ROM: FlagClear a 0x9d680"
+  ],
+  "0x1e7": [
+   "Smeraldo: FLAG_MYSTERY_GIFT_3 (src/event_data.c)",
+   "codice ROM: FlagClear a 0x9d686"
+  ],
+  "0x1e8": [
+   "Smeraldo: FLAG_MYSTERY_GIFT_4 (src/event_data.c)",
+   "codice ROM: FlagClear a 0x9d68e"
+  ],
+  "0x1e9": [
+   "Smeraldo: FLAG_MYSTERY_GIFT_5 (src/event_data.c)",
+   "codice ROM: FlagClear a 0x9d694"
+  ],
+  "0x1ea": [
+   "Smeraldo: FLAG_MYSTERY_GIFT_6 (src/event_data.c)",
+   "codice ROM: FlagClear a 0x9d69c"
+  ],
+  "0x1eb": [
+   "Smeraldo: FLAG_MYSTERY_GIFT_7 (src/event_data.c)",
+   "codice ROM: FlagClear a 0x9d6a2"
+  ],
+  "0x1ec": [
+   "Smeraldo: FLAG_MYSTERY_GIFT_8 (src/event_data.c)",
+   "codice ROM: FlagClear a 0x9d6aa"
+  ],
+  "0x1ed": [
+   "Smeraldo: FLAG_MYSTERY_GIFT_9 (src/event_data.c)",
+   "codice ROM: FlagClear a 0x9d6b0"
+  ],
+  "0x1ee": [
+   "Smeraldo: FLAG_MYSTERY_GIFT_10 (src/event_data.c)",
+   "codice ROM: FlagClear a 0x9d6b8"
+  ],
+  "0x1ef": [
+   "Smeraldo: FLAG_MYSTERY_GIFT_11 (src/event_data.c)",
+   "codice ROM: FlagClear a 0x9d6be"
+  ],
+  "0x1f0": [
+   "Smeraldo: FLAG_MYSTERY_GIFT_12 (src/event_data.c)",
+   "codice ROM: FlagClear a 0x9d6c6"
+  ],
+  "0x1f1": [
+   "Smeraldo: FLAG_MYSTERY_GIFT_13 (src/event_data.c)",
+   "codice ROM: FlagClear a 0x9d6cc"
+  ],
+  "0x1f2": [
+   "Smeraldo: FLAG_MYSTERY_GIFT_14 (src/event_data.c)",
+   "codice ROM: FlagClear a 0x9d6d4"
+  ],
+  "0x1f3": [
+   "Smeraldo: FLAG_MYSTERY_GIFT_15 (src/event_data.c)",
+   "codice ROM: FlagClear a 0x9d6da"
+  ],
+  "0x1f4": [
+   "0.12 oggetto nascosto 4,5",
+   "Smeraldo: FLAG_HIDDEN_ITEMS_START (src/field_control_avatar.c)",
+   "Smeraldo: FLAG_HIDDEN_ITEMS_START (src/item_use.c)",
+   "Smeraldo: FLAG_HIDDEN_ITEM_LAVARIDGE_TOWN_ICE_HEAL (data/maps/LavaridgeTown/map.json)"
+  ],
+  "0x1f5": [
+   "29.1 oggetto nascosto 4,5",
+   "Smeraldo: FLAG_HIDDEN_ITEM_TRICK_HOUSE_NUGGET (data/maps/Route110_TrickHouseEnd/map.json)",
+   "Smeraldo: FLAG_HIDDEN_ITEM_TRICK_HOUSE_NUGGET (src/field_specials.c)"
+  ],
+  "0x1f6": [
+   "0.26 oggetto nascosto 26,70",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_111_STARDUST (data/maps/Route111/map.json)"
+  ],
+  "0x1f7": [
+   "0.28 oggetto nascosto 66,3",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_113_ETHER (data/maps/Route113/map.json)"
+  ],
+  "0x1f8": [
+   "0.29 oggetto nascosto 20,57",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_114_CARBOS (data/maps/Route114/map.json)"
+  ],
+  "0x1f9": [
+   "0.34 oggetto nascosto 17,82",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_119_CALCIUM (data/maps/Route119/map.json)"
+  ],
+  "0x1fa": [
+   "0.34 oggetto nascosto 38,63",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_119_ULTRA_BALL (data/maps/Route119/map.json)"
+  ],
+  "0x1fb": [
+   "0.38 oggetto nascosto 75,1",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_123_SUPER_REPEL (data/maps/Route123/map.json)"
+  ],
+  "0x1fc": [
+   "0.50 oggetto nascosto 42,51",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_124_CARBOS (data/maps/Underwater_Route124/map.json)"
+  ],
+  "0x1fd": [
+   "0.50 oggetto nascosto 14,40",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_124_GREEN_SHARD (data/maps/Underwater_Route124/map.json)"
+  ],
+  "0x1fe": [
+   "0.50 oggetto nascosto 66,34",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_124_PEARL (data/maps/Underwater_Route124/map.json)"
+  ],
+  "0x1ff": [
+   "0.50 oggetto nascosto 64,54",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_124_BIG_PEARL (data/maps/Underwater_Route124/map.json)"
+  ],
+  "0x200": [
+   "0.51 oggetto nascosto 9,77",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_126_BLUE_SHARD (data/maps/Underwater_Route126/map.json)"
+  ],
+  "0x201": [
+   "0.50 oggetto nascosto 70,64",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_124_HEART_SCALE_1 (data/maps/Underwater_Route124/map.json)"
+  ],
+  "0x202": [
+   "0.51 oggetto nascosto 30,17",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_126_HEART_SCALE (data/maps/Underwater_Route126/map.json)"
+  ],
+  "0x203": [
+   "0.51 oggetto nascosto 41,19",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_126_ULTRA_BALL (data/maps/Underwater_Route126/map.json)"
+  ],
+  "0x204": [
+   "0.51 oggetto nascosto 63,19",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_126_STARDUST (data/maps/Underwater_Route126/map.json)"
+  ],
+  "0x205": [
+   "0.51 oggetto nascosto 10,36",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_126_PEARL (data/maps/Underwater_Route126/map.json)"
+  ],
+  "0x206": [
+   "0.51 oggetto nascosto 12,35",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_126_YELLOW_SHARD (data/maps/Underwater_Route126/map.json)"
+  ],
+  "0x207": [
+   "0.51 oggetto nascosto 11,39",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_126_IRON (data/maps/Underwater_Route126/map.json)"
+  ],
+  "0x208": [
+   "0.51 oggetto nascosto 65,60",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_126_BIG_PEARL (data/maps/Underwater_Route126/map.json)"
+  ],
+  "0x209": [
+   "0.52 oggetto nascosto 12,42",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_127_STAR_PIECE (data/maps/Underwater_Route127/map.json)"
+  ],
+  "0x20a": [
+   "0.52 oggetto nascosto 50,36",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_127_HP_UP (data/maps/Underwater_Route127/map.json)"
+  ],
+  "0x20b": [
+   "0.52 oggetto nascosto 34,72",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_127_HEART_SCALE (data/maps/Underwater_Route127/map.json)"
+  ],
+  "0x20c": [
+   "0.52 oggetto nascosto 72,20",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_127_RED_SHARD (data/maps/Underwater_Route127/map.json)"
+  ],
+  "0x20d": [
+   "0.53 oggetto nascosto 38,19",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_128_PROTEIN (data/maps/Underwater_Route128/map.json)"
+  ],
+  "0x20e": [
+   "0.53 oggetto nascosto 69,18",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_128_PEARL (data/maps/Underwater_Route128/map.json)"
+  ],
+  "0x20f": [
+   "0.5 oggetto nascosto 36,31",
+   "Smeraldo: FLAG_HIDDEN_ITEM_LILYCOVE_CITY_HEART_SCALE (data/maps/LilycoveCity/map.json)"
+  ],
+  "0x210": [
+   "0.13 oggetto nascosto 2,15",
+   "Smeraldo: FLAG_HIDDEN_ITEM_FALLARBOR_TOWN_NUGGET (data/maps/FallarborTown/map.json)"
+  ],
+  "0x211": [
+   "24.21 oggetto nascosto 9,8",
+   "Smeraldo: FLAG_HIDDEN_ITEM_MT_PYRE_EXTERIOR_ULTRA_BALL (data/maps/MtPyre_Exterior/map.json)"
+  ],
+  "0x212": [
+   "0.28 oggetto nascosto 22,5",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_113_TM_DOUBLE_TEAM (data/maps/Route113/map.json)"
+  ],
+  "0x213": [
+   "24.66 oggetto nascosto 42,10",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ABANDONED_SHIP_RM_1_KEY (data/maps/AbandonedShip_HiddenFloorRooms/map.json)",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ABANDONED_SHIP_RM_1_KEY (src/field_specials.c)"
+  ],
+  "0x214": [
+   "24.66 oggetto nascosto 20,5",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ABANDONED_SHIP_RM_2_KEY (data/maps/AbandonedShip_HiddenFloorRooms/map.json)",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ABANDONED_SHIP_RM_2_KEY (src/field_specials.c)"
+  ],
+  "0x215": [
+   "24.66 oggetto nascosto 1,12",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ABANDONED_SHIP_RM_4_KEY (data/maps/AbandonedShip_HiddenFloorRooms/map.json)",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ABANDONED_SHIP_RM_4_KEY (src/field_specials.c)"
+  ],
+  "0x216": [
+   "24.66 oggetto nascosto 1,2",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ABANDONED_SHIP_RM_6_KEY (data/maps/AbandonedShip_HiddenFloorRooms/map.json)",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ABANDONED_SHIP_RM_6_KEY (src/field_specials.c)"
+  ],
+  "0x217": [
+   "25.42 oggetto nascosto 0,2",
+   "Smeraldo: FLAG_HIDDEN_ITEM_SS_TIDAL_LOWER_DECK_LEFTOVERS (data/maps/SSTidalLowerDeck/map.json)"
+  ],
+  "0x218": [
+   "0.50 oggetto nascosto 42,5",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_124_CALCIUM (data/maps/Underwater_Route124/map.json)"
+  ],
+  "0x219": [
+   "0.19 oggetto nascosto 14,55",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_104_POTION (data/maps/Route104/map.json)"
+  ],
+  "0x21a": [
+   "0.50 oggetto nascosto 45,36",
+   "Smeraldo: FLAG_HIDDEN_ITEM_UNDERWATER_124_HEART_SCALE_2 (data/maps/Underwater_Route124/map.json)"
+  ],
+  "0x21b": [
+   "0.36 oggetto nascosto 23,10",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_121_HP_UP (data/maps/Route121/map.json)"
+  ],
+  "0x21c": [
+   "0.36 oggetto nascosto 58,3",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_121_NUGGET (data/maps/Route121/map.json)"
+  ],
+  "0x21d": [
+   "0.38 oggetto nascosto 12,1",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_123_REVIVE (data/maps/Route123/map.json)"
+  ],
+  "0x21e": [
+   "0.29 oggetto nascosto 7,30",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_114_REVIVE (data/maps/Route114/map.json)"
+  ],
+  "0x21f": [
+   "0.5 oggetto nascosto 61,7",
+   "Smeraldo: FLAG_HIDDEN_ITEM_LILYCOVE_CITY_PP_UP (data/maps/LilycoveCity/map.json)"
+  ],
+  "0x220": [
+   "0.19 oggetto nascosto 7,6",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_104_SUPER_POTION (data/maps/Route104/map.json)"
+  ],
+  "0x221": [
+   "0.31 oggetto nascosto 22,9",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_116_SUPER_POTION (data/maps/Route116/map.json)"
+  ],
+  "0x222": [
+   "0.21 oggetto nascosto 53,12",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_106_STARDUST (data/maps/Route106/map.json)"
+  ],
+  "0x223": [
+   "0.21 oggetto nascosto 68,15",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_106_HEART_SCALE (data/maps/Route106/map.json)"
+  ],
+  "0x224": [
+   "24.9 oggetto nascosto 28,6",
+   "Smeraldo: FLAG_HIDDEN_ITEM_GRANITE_CAVE_B2F_EVERSTONE_1 (data/maps/GraniteCave_B2F/map.json)"
+  ],
+  "0x225": [
+   "24.9 oggetto nascosto 15,11",
+   "Smeraldo: FLAG_HIDDEN_ITEM_GRANITE_CAVE_B2F_EVERSTONE_2 (data/maps/GraniteCave_B2F/map.json)"
+  ],
+  "0x226": [
+   "0.24 oggetto nascosto 16,23",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_109_REVIVE (data/maps/Route109/map.json)"
+  ],
+  "0x227": [
+   "0.24 oggetto nascosto 9,10",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_109_GREAT_BALL (data/maps/Route109/map.json)"
+  ],
+  "0x228": [
+   "0.24 oggetto nascosto 33,5",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_109_HEART_SCALE_1 (data/maps/Route109/map.json)"
+  ],
+  "0x229": [
+   "0.25 oggetto nascosto 33,45",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_110_GREAT_BALL (data/maps/Route110/map.json)"
+  ],
+  "0x22a": [
+   "0.25 oggetto nascosto 35,39",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_110_REVIVE (data/maps/Route110/map.json)"
+  ],
+  "0x22b": [
+   "0.25 oggetto nascosto 37,67",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_110_FULL_HEAL (data/maps/Route110/map.json)"
+  ],
+  "0x22c": [
+   "0.26 oggetto nascosto 19,55",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_111_PROTEIN (data/maps/Route111/map.json)"
+  ],
+  "0x22d": [
+   "0.26 oggetto nascosto 35,66",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_111_RARE_CANDY (data/maps/Route111/map.json)"
+  ],
+  "0x22e": [
+   "24.11 oggetto nascosto 39,35",
+   "Smeraldo: FLAG_HIDDEN_ITEM_PETALBURG_WOODS_POTION (data/maps/PetalburgWoods/map.json)"
+  ],
+  "0x22f": [
+   "24.11 oggetto nascosto 26,6",
+   "Smeraldo: FLAG_HIDDEN_ITEM_PETALBURG_WOODS_TINY_MUSHROOM_1 (data/maps/PetalburgWoods/map.json)"
+  ],
+  "0x230": [
+   "24.11 oggetto nascosto 40,29",
+   "Smeraldo: FLAG_HIDDEN_ITEM_PETALBURG_WOODS_TINY_MUSHROOM_2 (data/maps/PetalburgWoods/map.json)"
+  ],
+  "0x231": [
+   "24.11 oggetto nascosto 4,19",
+   "Smeraldo: FLAG_HIDDEN_ITEM_PETALBURG_WOODS_POKE_BALL (data/maps/PetalburgWoods/map.json)"
+  ],
+  "0x232": [
+   "0.19 oggetto nascosto 3,9",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_104_POKE_BALL (data/maps/Route104/map.json)"
+  ],
+  "0x233": [
+   "0.21 oggetto nascosto 41,11",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_106_POKE_BALL (data/maps/Route106/map.json)"
+  ],
+  "0x234": [
+   "0.24 oggetto nascosto 28,20",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_109_ETHER (data/maps/Route109/map.json)"
+  ],
+  "0x235": [
+   "0.25 oggetto nascosto 4,35",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_110_POKE_BALL (data/maps/Route110/map.json)"
+  ],
+  "0x236": [
+   "0.33 oggetto nascosto 12,14",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_118_HEART_SCALE (data/maps/Route118/map.json)"
+  ],
+  "0x237": [
+   "0.33 oggetto nascosto 31,13",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_118_IRON (data/maps/Route118/map.json)"
+  ],
+  "0x238": [
+   "0.34 oggetto nascosto 26,120",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_119_FULL_HEAL (data/maps/Route119/map.json)"
+  ],
+  "0x239": [
+   "0.35 oggetto nascosto 0,86",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_120_RARE_CANDY_2 (data/maps/Route120/map.json)"
+  ],
+  "0x23a": [
+   "0.35 oggetto nascosto 24,42",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_120_ZINC (data/maps/Route120/map.json)"
+  ],
+  "0x23b": [
+   "0.35 oggetto nascosto 9,1",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_120_RARE_CANDY_1 (data/maps/Route120/map.json)"
+  ],
+  "0x23c": [
+   "0.32 oggetto nascosto 3,18",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_117_REPEL (data/maps/Route117/map.json)"
+  ],
+  "0x23d": [
+   "0.36 oggetto nascosto 72,5",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_121_FULL_HEAL (data/maps/Route121/map.json)"
+  ],
+  "0x23e": [
+   "0.38 oggetto nascosto 91,15",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_123_HYPER_POTION (data/maps/Route123/map.json)"
+  ],
+  "0x23f": [
+   "0.5 oggetto nascosto 64,31",
+   "Smeraldo: FLAG_HIDDEN_ITEM_LILYCOVE_CITY_POKE_BALL (data/maps/LilycoveCity/map.json)"
+  ],
+  "0x240": [
+   "24.13 oggetto nascosto 7,29",
+   "Smeraldo: FLAG_HIDDEN_ITEM_JAGGED_PASS_GREAT_BALL (data/maps/JaggedPass/map.json)"
+  ],
+  "0x241": [
+   "24.13 oggetto nascosto 8,10",
+   "Smeraldo: FLAG_HIDDEN_ITEM_JAGGED_PASS_FULL_HEAL (data/maps/JaggedPass/map.json)"
+  ],
+  "0x242": [
+   "24.21 oggetto nascosto 16,22",
+   "Smeraldo: FLAG_HIDDEN_ITEM_MT_PYRE_EXTERIOR_MAX_ETHER (data/maps/MtPyre_Exterior/map.json)"
+  ],
+  "0x243": [
+   "24.22 oggetto nascosto 9,25",
+   "Smeraldo: FLAG_HIDDEN_ITEM_MT_PYRE_SUMMIT_ZINC (data/maps/MtPyre_Summit/map.json)"
+  ],
+  "0x244": [
+   "24.22 oggetto nascosto 37,7",
+   "Smeraldo: FLAG_HIDDEN_ITEM_MT_PYRE_SUMMIT_RARE_CANDY (data/maps/MtPyre_Summit/map.json)"
+  ],
+  "0x245": [
+   "24.43 oggetto nascosto 30,39",
+   "Smeraldo: FLAG_HIDDEN_ITEM_VICTORY_ROAD_1F_ULTRA_BALL (data/maps/VictoryRoad_1F/map.json)"
+  ],
+  "0x246": [
+   "24.45 oggetto nascosto 28,5",
+   "Smeraldo: FLAG_HIDDEN_ITEM_VICTORY_ROAD_B2F_ELIXIR (data/maps/VictoryRoad_B2F/map.json)"
+  ],
+  "0x247": [
+   "24.45 oggetto nascosto 37,1",
+   "Smeraldo: FLAG_HIDDEN_ITEM_VICTORY_ROAD_B2F_MAX_REPEL (data/maps/VictoryRoad_B2F/map.json)"
+  ],
+  "0x248": [
+   "0.35 oggetto nascosto 31,11",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_120_REVIVE (data/maps/Route120/map.json)"
+  ],
+  "0x249": [
+   "0.19 oggetto nascosto 16,72",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_104_ANTIDOTE (data/maps/Route104/map.json)"
+  ],
+  "0x24a": [
+   "0.23 oggetto nascosto 38,14",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_108_RARE_CANDY (data/maps/Route108/map.json)"
+  ],
+  "0x24b": [
+   "0.34 oggetto nascosto 20,29",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_119_MAX_ETHER (data/maps/Route119/map.json)"
+  ],
+  "0x24c": [
+   "0.19 oggetto nascosto 16,64",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_104_HEART_SCALE (data/maps/Route104/map.json)"
+  ],
+  "0x24d": [
+   "0.20 oggetto nascosto 15,68",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_105_HEART_SCALE (data/maps/Route105/map.json)"
+  ],
+  "0x24e": [
+   "0.24 oggetto nascosto 13,16",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_109_HEART_SCALE_2 (data/maps/Route109/map.json)"
+  ],
+  "0x24f": [
+   "0.24 oggetto nascosto 8,42",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_109_HEART_SCALE_3 (data/maps/Route109/map.json)"
+  ],
+  "0x250": [
+   "0.43 oggetto nascosto 49,9",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_128_HEART_SCALE_1 (data/maps/Route128/map.json)"
+  ],
+  "0x251": [
+   "0.43 oggetto nascosto 57,21",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_128_HEART_SCALE_2 (data/maps/Route128/map.json)"
+  ],
+  "0x252": [
+   "0.43 oggetto nascosto 31,33",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_128_HEART_SCALE_3 (data/maps/Route128/map.json)"
+  ],
+  "0x253": [
+   "0.0 oggetto nascosto 11,29",
+   "Smeraldo: FLAG_HIDDEN_ITEM_PETALBURG_CITY_RARE_CANDY (data/maps/PetalburgCity/map.json)"
+  ],
+  "0x254": [
+   "0.31 oggetto nascosto 70,13",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_116_BLACK_GLASSES (data/maps/Route116/map.json)",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_116_BLACK_GLASSES (src/field_specials.c)",
+   "codice ROM: FlagGet a 0x139a6e"
+  ],
+  "0x255": [
+   "0.30 oggetto nascosto 15,49",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_115_HEART_SCALE (data/maps/Route115/map.json)"
+  ],
+  "0x256": [
+   "0.28 oggetto nascosto 73,3",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_113_NUGGET (data/maps/Route113/map.json)"
+  ],
+  "0x257": [
+   "0.38 oggetto nascosto 139,15",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_123_PP_UP (data/maps/Route123/map.json)"
+  ],
+  "0x258": [
+   "0.36 oggetto nascosto 68,8",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_121_MAX_REVIVE (data/maps/Route121/map.json)"
+  ],
+  "0x259": [
+   "24.99 oggetto nascosto 27,8",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ARTISAN_CAVE_B1F_CALCIUM (data/maps/ArtisanCave_B1F/map.json)"
+  ],
+  "0x25a": [
+   "24.99 oggetto nascosto 32,29",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ARTISAN_CAVE_B1F_ZINC (data/maps/ArtisanCave_B1F/map.json)"
+  ],
+  "0x25b": [
+   "24.99 oggetto nascosto 7,5",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ARTISAN_CAVE_B1F_PROTEIN (data/maps/ArtisanCave_B1F/map.json)"
+  ],
+  "0x25c": [
+   "24.99 oggetto nascosto 19,43",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ARTISAN_CAVE_B1F_IRON (data/maps/ArtisanCave_B1F/map.json)"
+  ],
+  "0x25d": [
+   "26.13 oggetto nascosto 32,33",
+   "Smeraldo: FLAG_HIDDEN_ITEM_SAFARI_ZONE_SOUTH_EAST_FULL_RESTORE (data/maps/SafariZone_Southeast/map.json)"
+  ],
+  "0x25e": [
+   "26.12 oggetto nascosto 31,35",
+   "Smeraldo: FLAG_HIDDEN_ITEM_SAFARI_ZONE_NORTH_EAST_RARE_CANDY (data/maps/SafariZone_Northeast/map.json)"
+  ],
+  "0x25f": [
+   "26.12 oggetto nascosto 21,5",
+   "Smeraldo: FLAG_HIDDEN_ITEM_SAFARI_ZONE_NORTH_EAST_ZINC (data/maps/SafariZone_Northeast/map.json)"
+  ],
+  "0x260": [
+   "26.13 oggetto nascosto 19,36",
+   "Smeraldo: FLAG_HIDDEN_ITEM_SAFARI_ZONE_SOUTH_EAST_PP_UP (data/maps/SafariZone_Southeast/map.json)"
+  ],
+  "0x261": [
+   "26.75 oggetto nascosto 12,9",
+   "Smeraldo: FLAG_HIDDEN_ITEM_NAVEL_ROCK_TOP_SACRED_ASH (data/maps/NavelRock_Top/map.json)"
+  ],
+  "0x262": [
+   "0.38 oggetto nascosto 138,18",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_123_RARE_CANDY (data/maps/Route123/map.json)"
+  ],
+  "0x263": [
+   "0.20 oggetto nascosto 5,56",
+   "Smeraldo: FLAG_HIDDEN_ITEM_ROUTE_105_BIG_PEARL (data/maps/Route105/map.json)"
+  ],
+  "0x264": [
+   "codice ROM: FlagSet a 0x84332",
+   "codice ROM: FlagSet a 0x861be"
+  ],
+  "0x279": [
+   "codice ROM: FlagSet a 0x84338",
+   "codice ROM: FlagGet a 0x8623e",
+   "codice ROM: FlagSet a 0x862d4"
+  ],
+  "0x2bc": [
+   "Smeraldo: FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG (data/maps/Route101/map.json)",
+   "Smeraldo: FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG (data/maps/Route101/scripts.inc)"
+  ],
+  "0x2d0": [
+   "Smeraldo: FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE (data/maps/Route101/map.json)",
+   "Smeraldo: FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE (data/maps/Route101/scripts.inc)"
+  ],
+  "0x2e9": [
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_BRENDAN (data/maps/LittlerootTown_BrendansHouse_1F/map.json)",
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_BRENDAN (data/maps/LittlerootTown_BrendansHouse_1F/scripts.inc)",
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_BRENDAN (data/scripts/new_game.inc)"
+  ],
+  "0x2ea": [
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MAY (data/maps/LittlerootTown_MaysHouse_1F/map.json)",
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MAY (data/maps/LittlerootTown_MaysHouse_1F/scripts.inc)",
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MAY (data/scripts/new_game.inc)"
+  ],
+  "0x2ee": [
+   "Smeraldo: FLAG_HIDE_ROUTE_101_ZIGZAGOON (data/maps/Route101/map.json)"
+  ],
+  "0x2f0": [
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE (data/maps/LittlerootTown/map.json)",
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE (data/maps/LittlerootTown/scripts.inc)",
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE (data/scripts/new_game.inc)"
+  ],
+  "0x31a": [
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_RIVAL (data/maps/LittlerootTown/map.json)",
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_RIVAL (data/maps/LittlerootTown/scripts.inc)",
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_RIVAL (data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc)",
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_RIVAL (data/scripts/new_game.inc)"
+  ],
+  "0x31b": [
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_BIRCH (data/maps/LittlerootTown/map.json)",
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_BIRCH (data/maps/LittlerootTown/scripts.inc)",
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_BIRCH (data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc)",
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_BIRCH (data/scripts/new_game.inc)"
+  ],
+  "0x32b": [
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CYNDAQUIL (data/maps/LittlerootTown_ProfessorBirchsLab/map.json)",
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CYNDAQUIL (data/scripts/new_game.inc)"
+  ],
+  "0x32c": [
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_TOTODILE (data/maps/LittlerootTown_ProfessorBirchsLab/map.json)",
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_TOTODILE (data/scripts/new_game.inc)"
+  ],
+  "0x346": [
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CHIKORITA (data/maps/LittlerootTown_ProfessorBirchsLab/map.json)",
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CHIKORITA (data/scripts/new_game.inc)"
+  ],
+  "0x363": [
+   "Smeraldo: FLAG_UNKNOWN_0x363 (data/scripts/new_game.inc)"
+  ],
+  "0x364": [
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_FAT_MAN (data/maps/LittlerootTown/map.json)",
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_FAT_MAN (data/maps/LittlerootTown/scripts.inc)",
+   "Smeraldo: FLAG_HIDE_LITTLEROOT_TOWN_FAT_MAN (data/scripts/new_game.inc)"
+  ],
+  "0x3df": [
+   "Smeraldo: FLAG_HIDE_ROUTE_101_BOY (data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc)",
+   "Smeraldo: FLAG_HIDE_ROUTE_101_BOY (data/maps/Route101/map.json)",
+   "Smeraldo: FLAG_HIDE_ROUTE_101_BOY (data/scripts/new_game.inc)"
+  ]
+ },
+ "variabili_escluse": {
+  "0x401b": [
+   "Smeraldo: grafica di oggetto variabile (VAR_OBJ_GFX_ID_*, event_data.c)"
+  ],
+  "0x401c": [
+   "Smeraldo: grafica di oggetto variabile (VAR_OBJ_GFX_ID_*, event_data.c)"
+  ],
+  "0x401d": [
+   "Smeraldo: grafica di oggetto variabile (VAR_OBJ_GFX_ID_*, event_data.c)"
+  ],
+  "0x401e": [
+   "Smeraldo: VAR_OBJ_GFX_ID_E (data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.inc)",
+   "Smeraldo: VAR_OBJ_GFX_ID_E (data/maps/BattleFrontier_BattleTowerMultiCorridor/scripts.inc)",
+   "Smeraldo: VAR_OBJ_GFX_ID_E (src/battle_tower.c)",
+   "Smeraldo: grafica di oggetto variabile (VAR_OBJ_GFX_ID_*, event_data.c)",
+   "codice ROM: VarSet a 0x162b86",
+   "codice ROM: VarSet a 0x162bb8"
+  ],
+  "0x4021": [
+   "Smeraldo: VAR_REPEL_STEP_COUNT (src/item_use.c)",
+   "Smeraldo: VAR_REPEL_STEP_COUNT (src/wild_encounter.c)",
+   "codice ROM: VarGet a 0xb5a76",
+   "codice ROM: VarGet a 0xb5ab8",
+   "codice ROM: VarGet a 0xfe47a"
+  ],
+  "0x4024": [
+   "Smeraldo: VAR_MIRAGE_RND_H (src/time_events.c)",
+   "codice ROM: VarGet a 0x137cc8",
+   "codice ROM: VarSet a 0x137cf8"
+  ],
+  "0x4025": [
+   "Smeraldo: VAR_MIRAGE_RND_L (src/time_events.c)",
+   "codice ROM: VarGet a 0x137cd4",
+   "codice ROM: VarSet a 0x137d04"
+  ],
+  "0x4026": [
+   "Smeraldo: VAR_SECRET_BASE_MAP (src/field_specials.c)",
+   "Smeraldo: VAR_SECRET_BASE_MAP (src/secret_base.c)",
+   "codice ROM: VarGet a 0x13963a"
+  ],
+  "0x4027": [
+   "Smeraldo: VAR_CYCLING_ROAD_RECORD_COLLISIONS (src/field_specials.c)",
+   "codice ROM: VarSet a 0x138316",
+   "codice ROM: VarGet a 0x13834e"
+  ],
+  "0x4028": [
+   "Smeraldo: VAR_CYCLING_ROAD_RECORD_TIME_L (src/field_specials.c)",
+   "codice ROM: VarGet a 0x1382e2",
+   "codice ROM: VarGet a 0x138334"
+  ],
+  "0x4029": [
+   "Smeraldo: VAR_CYCLING_ROAD_RECORD_TIME_H (src/field_specials.c)",
+   "codice ROM: VarGet a 0x1382f0",
+   "codice ROM: VarGet a 0x138340"
+  ],
+  "0x402a": [
+   "Smeraldo: VAR_FRIENDSHIP_STEP_COUNTER (src/field_control_avatar.c)",
+   "codice ROM: VarSet a 0x9ccca",
+   "codice ROM: GetVarPointer a 0x9ccdc"
+  ],
+  "0x402b": [
+   "Smeraldo: VAR_POISON_STEP_COUNTER (src/field_control_avatar.c)",
+   "codice ROM: VarSet a 0x9cd1a",
+   "codice ROM: GetVarPointer a 0x9cd34"
+  ],
+  "0x402c": [
+   "Smeraldo: VAR_RESET_RTC_ENABLE (src/event_data.c)",
+   "codice ROM: VarSet a 0x9d772",
+   "codice ROM: VarSet a 0x9d790",
+   "codice ROM: VarGet a 0x9d7b8"
+  ],
+  "0x402e": [
+   "Smeraldo: VAR_WONDER_NEWS_STEP_COUNTER (src/wonder_news.c)",
+   "codice ROM: VarSet a 0x1dbce",
+   "codice ROM: GetVarPointer a 0x1dbe0"
+  ],
+  "0x4030": [
+   "Smeraldo: VAR_FRONTIER_GAMBLER_CHALLENGE (src/field_specials.c)",
+   "codice ROM: GetVarPointer a 0x13ac32",
+   "codice ROM: VarGet a 0x13ac58"
+  ],
+  "0x4031": [
+   "Smeraldo: VAR_FRONTIER_GAMBLER_SET_CHALLENGE (src/field_specials.c)",
+   "codice ROM: VarSet a 0x13ac72",
+   "codice ROM: VarGet a 0x13ac8e",
+   "codice ROM: VarGet a 0x13acc4"
+  ],
+  "0x4038": [
+   "Smeraldo: VAR_ABNORMAL_WEATHER_STEP_COUNTER (src/field_specials.c)",
+   "codice ROM: VarSet a 0x13b726",
+   "codice ROM: VarGet a 0x13b7ea"
+  ],
+  "0x403e": [
+   "Smeraldo: VAR_ALTERING_CAVE_WILD_SET (data/scripts/gift_altering_cave.inc)",
+   "Smeraldo: VAR_ALTERING_CAVE_WILD_SET (src/pokedex_area_screen.c)",
+   "Smeraldo: VAR_ALTERING_CAVE_WILD_SET (src/wild_encounter.c)",
+   "codice ROM: VarGet a 0xb4ec4",
+   "codice ROM: VarGet a 0x13cf8e"
+  ],
+  "0x4040": [
+   "Smeraldo: VAR_DAYS (src/clock.c)",
+   "Smeraldo: VAR_DAYS (src/reset_rtc_screen.c)",
+   "codice ROM: VarSet a 0x9e92c",
+   "codice ROM: GetVarPointer a 0x9e982",
+   "codice ROM: VarSet a 0x9f506"
+  ],
+  "0x4041": [
+   "Smeraldo: VAR_FANCLUB_FAN_COUNTER (src/field_specials.c)"
+  ],
+  "0x4042": [
+   "Smeraldo: VAR_FANCLUB_LOSE_FAN_TIMER (src/field_specials.c)"
+  ],
+  "0x4046": [
+   "Smeraldo: VAR_NATIONAL_DEX (src/event_data.c)",
+   "Smeraldo: VAR_NATIONAL_DEX (src/rom_header_gf.c)",
+   "codice ROM: GetVarPointer a 0x9d558",
+   "codice ROM: GetVarPointer a 0x9d580",
+   "codice ROM: VarGet a 0x9d5ce"
+  ],
+  "0x4047": [
+   "Smeraldo: VAR_SEEDOT_SIZE_RECORD (src/pokemon_size_record.c)",
+   "codice ROM: VarSet a 0xf9e38",
+   "codice ROM: GetVarPointer a 0xf9e48",
+   "codice ROM: GetVarPointer a 0xf9e64"
+  ],
+  "0x404a": [
+   "Smeraldo: VAR_CRUISE_STEP_COUNT (src/field_specials.c)",
+   "codice ROM: GetVarPointer a 0x1383ce",
+   "codice ROM: GetVarPointer a 0x138408",
+   "codice ROM: GetVarPointer a 0x138440"
+  ],
+  "0x404b": [
+   "Smeraldo: VAR_POKELOT_RND1 (src/lottery_corner.c)",
+   "codice ROM: VarSet a 0x177c54",
+   "codice ROM: VarGet a 0x177c74"
+  ],
+  "0x404c": [
+   "Smeraldo: VAR_POKELOT_RND2 (src/lottery_corner.c)",
+   "codice ROM: VarSet a 0x177c5c",
+   "codice ROM: VarGet a 0x177c80"
+  ],
+  "0x404f": [
+   "Smeraldo: VAR_LOTAD_SIZE_RECORD (src/pokemon_size_record.c)",
+   "codice ROM: VarSet a 0xf9e90",
+   "codice ROM: GetVarPointer a 0xf9ea0",
+   "codice ROM: GetVarPointer a 0xf9ebc"
+  ],
+  "0x4051": [
+   "Smeraldo: VAR_OLDALE_TOWN_STATE (data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc)",
+   "Smeraldo: VAR_OLDALE_TOWN_STATE (data/maps/OldaleTown/map.json)",
+   "Smeraldo: VAR_OLDALE_TOWN_STATE (data/maps/OldaleTown/scripts.inc)"
+  ],
+  "0x4054": [
+   "Smeraldo: VAR_CURRENT_SECRET_BASE (src/battle_util2.c)",
+   "Smeraldo: VAR_CURRENT_SECRET_BASE (src/fldeff_misc.c)",
+   "Smeraldo: VAR_CURRENT_SECRET_BASE (src/secret_base.c)",
+   "Smeraldo: VAR_CURRENT_SECRET_BASE (src/tv.c)",
+   "codice ROM: VarGet a 0x56e9a",
+   "codice ROM: VarSet a 0xe8dc8",
+   "codice ROM: VarSet a 0xe906c",
+   "codice ROM: VarGet a 0xe922a",
+   "codice ROM: VarGet a 0xe946e",
+   "codice ROM: VarGet a 0xe9592",
+   "codice ROM: VarGet a 0xe970a",
+   "codice ROM: VarGet a 0xe97f8",
+   "codice ROM: VarGet a 0xe9a0e",
+   "codice ROM: VarGet a 0xe9a30",
+   "codice ROM: VarGet a 0xe9dfc",
+   "codice ROM: VarGet a 0xe9e4c",
+   "codice ROM: VarGet a 0xea3f4",
+   "codice ROM: VarGet a 0xea470",
+   "codice ROM: VarGet a 0xea52c",
+   "codice ROM: VarGet a 0xea574",
+   "codice ROM: VarGet a 0xea632",
+   "codice ROM: VarGet a 0xeb3ec",
+   "codice ROM: VarGet a 0xeb4b0",
+   "codice ROM: VarGet a 0xeb4e8",
+   "codice ROM: VarGet a 0xeb520",
+   "codice ROM: VarGet a 0xeb588",
+   "codice ROM: VarGet a 0xeb5f0",
+   "codice ROM: VarGet a 0xeb658",
+   "codice ROM: VarGet a 0xeb752",
+   "codice ROM: VarGet a 0xebb06",
+   "codice ROM: VarGet a 0xebb2a",
+   "codice ROM: VarGet a 0xebb4e",
+   "codice ROM: VarGet a 0xebb72",
+   "codice ROM: VarGet a 0xebb9a",
+   "codice ROM: VarGet a 0xebbca",
+   "codice ROM: VarGet a 0xebd12",
+   "codice ROM: VarGet a 0xec00e",
+   "codice ROM: VarGet a 0xec032",
+   "codice ROM: VarGet a 0xec066",
+   "codice ROM: VarGet a 0xec0c6",
+   "codice ROM: VarGet a 0xeed3c",
+   "codice ROM: VarGet a 0xfa948",
+   "codice ROM: VarGet a 0xfb092",
+   "codice ROM: VarGet a 0xfb0e4",
+   "codice ROM: VarGet a 0xfb128",
+   "codice ROM: VarGet a 0xfb160"
+  ],
+  "0x4060": [
+   "Smeraldo: VAR_ROUTE101_STATE (data/maps/Route101/map.json)",
+   "Smeraldo: VAR_ROUTE101_STATE (data/maps/Route101/scripts.inc)"
+  ],
+  "0x40c2": [
+   "Smeraldo: VAR_PACIFIDLOG_TM_RECEIVED_DAY (src/field_specials.c)",
+   "codice ROM: VarGet a 0x139b44",
+   "codice ROM: VarSet a 0x139b90"
+  ],
+  "0x40ea": [
+   "Smeraldo: VAR_DAILY_PICKED_BERRIES (src/tv.c)",
+   "codice ROM: VarGet a 0xeef56"
+  ],
+  "0x40eb": [
+   "Smeraldo: VAR_DAILY_ROULETTE (src/tv.c)",
+   "codice ROM: VarGet a 0xeeec6"
+  ],
+  "0x40ec": [
+   "Smeraldo: VAR_SECRET_BASE_STEP_COUNTER (src/secret_base.c)",
+   "Smeraldo: VAR_SECRET_BASE_STEP_COUNTER (src/tv.c)",
+   "codice ROM: VarGet a 0xea69a",
+   "codice ROM: VarSet a 0xeb3ce",
+   "codice ROM: VarSet a 0xeb46a",
+   "codice ROM: VarGet a 0xeece6"
+  ],
+  "0x40ed": [
+   "Smeraldo: VAR_SECRET_BASE_LAST_ITEM_USED (src/item.c)",
+   "Smeraldo: VAR_SECRET_BASE_LAST_ITEM_USED (src/secret_base.c)",
+   "Smeraldo: VAR_SECRET_BASE_LAST_ITEM_USED (src/tv.c)",
+   "codice ROM: VarSet a 0xd6d88",
+   "codice ROM: VarSet a 0xeb3d6",
+   "codice ROM: VarSet a 0xeb472",
+   "codice ROM: VarGet a 0xeed08"
+  ],
+  "0x40ee": [
+   "Smeraldo: VAR_SECRET_BASE_LOW_TV_FLAGS (include/constants/tv.h)",
+   "Smeraldo: VAR_SECRET_BASE_LOW_TV_FLAGS (src/fldeff_misc.c)",
+   "Smeraldo: VAR_SECRET_BASE_LOW_TV_FLAGS (src/item.c)",
+   "Smeraldo: VAR_SECRET_BASE_LOW_TV_FLAGS (src/secret_base.c)",
+   "Smeraldo: VAR_SECRET_BASE_LOW_TV_FLAGS (src/tv.c)",
+   "codice ROM: VarGet a 0xd6d6c",
+   "codice ROM: VarGet a 0xea744",
+   "codice ROM: VarGet a 0xea782",
+   "codice ROM: VarGet a 0xea934",
+   "codice ROM: VarGet a 0xea9ae",
+   "codice ROM: VarSet a 0xeb3de",
+   "codice ROM: VarSet a 0xeb47a",
+   "codice ROM: VarGet a 0xeb4f6",
+   "codice ROM: VarGet a 0xeb52e",
+   "codice ROM: VarGet a 0xeb596",
+   "codice ROM: VarGet a 0xeb5fe",
+   "codice ROM: VarGet a 0xeb666",
+   "codice ROM: VarGet a 0xeb760",
+   "codice ROM: VarGet a 0xebb14",
+   "codice ROM: VarGet a 0xebb38",
+   "codice ROM: VarGet a 0xeed10",
+   "codice ROM: VarGet a 0xfb0a0",
+   "codice ROM: VarGet a 0xfb0f2",
+   "codice ROM: VarGet a 0xfb136",
+   "codice ROM: VarGet a 0xfb16e"
+  ],
+  "0x40ef": [
+   "Smeraldo: VAR_SECRET_BASE_HIGH_TV_FLAGS (include/constants/tv.h)",
+   "Smeraldo: VAR_SECRET_BASE_HIGH_TV_FLAGS (src/secret_base.c)",
+   "Smeraldo: VAR_SECRET_BASE_HIGH_TV_FLAGS (src/tv.c)",
+   "codice ROM: VarGet a 0xea6ec",
+   "codice ROM: VarGet a 0xea7c8",
+   "codice ROM: VarGet a 0xea800",
+   "codice ROM: VarGet a 0xea84c",
+   "codice ROM: VarGet a 0xea8a0",
+   "codice ROM: VarGet a 0xea962",
+   "codice ROM: VarGet a 0xea9de",
+   "codice ROM: VarGet a 0xeaa0e",
+   "codice ROM: VarSet a 0xeb3e6",
+   "codice ROM: VarSet a 0xeb482",
+   "codice ROM: VarGet a 0xeb4be",
+   "codice ROM: VarGet a 0xeb540",
+   "codice ROM: VarGet a 0xeb5a8",
+   "codice ROM: VarGet a 0xeb610",
+   "codice ROM: VarGet a 0xebb5c",
+   "codice ROM: VarGet a 0xebb80",
+   "codice ROM: VarGet a 0xebba8",
+   "codice ROM: VarGet a 0xebbd8",
+   "codice ROM: VarGet a 0xebd20",
+   "codice ROM: VarGet a 0xec01c",
+   "codice ROM: VarGet a 0xec040",
+   "codice ROM: VarGet a 0xec074",
+   "codice ROM: VarGet a 0xec0d4",
+   "codice ROM: VarGet a 0xeed18"
+  ],
+  "0x40f0": [
+   "Smeraldo: VAR_SECRET_BASE_IS_NOT_LOCAL (src/secret_base.c)",
+   "codice ROM: VarSet a 0xeb3fa",
+   "codice ROM: VarSet a 0xeb41c",
+   "codice ROM: VarGet a 0xeb43a"
+  ],
+  "0x40f1": [
+   "Smeraldo: VAR_DAILY_BP (src/tv.c)",
+   "codice ROM: VarGet a 0xeef88"
+  ]
+ },
+ "chiamate_flag_non_calcolabili": [
+  "FlagClear a 0x12827e",
+  "FlagClear a 0x139428",
+  "FlagClear a 0x19a6e",
+  "FlagClear a 0x99dc6",
+  "FlagClear a 0xb196c",
+  "FlagClear a 0xe96c2",
+  "FlagGet a 0x124d6c",
+  "FlagGet a 0x124fae",
+  "FlagGet a 0x125048",
+  "FlagGet a 0x128270",
+  "FlagGet a 0x12a3a6",
+  "FlagGet a 0x1396e8",
+  "FlagGet a 0x139712",
+  "FlagGet a 0x139734",
+  "FlagGet a 0x13975c",
+  "FlagGet a 0x13984e",
+  "FlagGet a 0x13b92c",
+  "FlagGet a 0x13d1f2",
+  "FlagGet a 0x146162",
+  "FlagGet a 0x196410",
+  "FlagGet a 0x19643e",
+  "FlagGet a 0x197196",
+  "FlagGet a 0x19a3a",
+  "FlagGet a 0x1a3f70",
+  "FlagGet a 0x1a3f7c",
+  "FlagGet a 0x1b418",
+  "FlagGet a 0x1b592a",
+  "FlagGet a 0x1cb23c",
+  "FlagGet a 0x1d1a56",
+  "FlagGet a 0x1d1a7a",
+  "FlagGet a 0x1d1a9e",
+  "FlagGet a 0x1d1ad6",
+  "FlagGet a 0x1d1af0",
+  "FlagGet a 0x1d1b5a",
+  "FlagGet a 0x1d1d88",
+  "FlagGet a 0x1d1dec",
+  "FlagGet a 0x1d1fa8",
+  "FlagGet a 0x69dce",
+  "FlagGet a 0x8d952",
+  "FlagGet a 0x8e1b0",
+  "FlagGet a 0x99ddc",
+  "FlagGet a 0x9c688",
+  "FlagGet a 0xa0948",
+  "FlagGet a 0xb185e",
+  "FlagGet a 0xb18d8",
+  "FlagGet a 0xb1940",
+  "FlagGet a 0xb1fde",
+  "FlagGet a 0xb22c6",
+  "FlagGet a 0xc2fea",
+  "FlagGet a 0xc2ff8",
+  "FlagGet a 0xc5470",
+  "FlagGet a 0xc548a",
+  "FlagGet a 0xe25fc",
+  "FlagGet a 0xede0e",
+  "FlagGet a 0xede26",
+  "FlagGet a 0xfda00",
+  "FlagGet a 0xfdac6",
+  "FlagSet a 0x122b3c",
+  "FlagSet a 0x137b9c",
+  "FlagSet a 0x139002",
+  "FlagSet a 0x139410",
+  "FlagSet a 0x13b67a",
+  "FlagSet a 0x19a56",
+  "FlagSet a 0x1a41ae",
+  "FlagSet a 0x1a41c4",
+  "FlagSet a 0x1d1da0",
+  "FlagSet a 0x1d1e26",
+  "FlagSet a 0x1d2058",
+  "FlagSet a 0x8da54",
+  "FlagSet a 0x99db2",
+  "FlagSet a 0xb1906",
+  "FlagSet a 0xb1912",
+  "FlagSet a 0xb192a",
+  "FlagSet a 0xb1958",
+  "FlagSet a 0xb2272",
+  "FlagSet a 0xe2848",
+  "FlagSet a 0xe28a8",
+  "FlagSet a 0xe2904",
+  "FlagSet a 0xe2964",
+  "FlagSet a 0xe97ce"
+ ],
+ "fonte": "pret/pokeemerald 731ad5bfd6e6f265508d0efcca0ba42f9dcf5881"
+}

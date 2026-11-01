@@ -1,0 +1,4827 @@
+{
+ "conteggi": {
+  "usato": 634,
+  "Smeraldo": 159,
+  "forse usato": 11,
+  "riservato": 41,
+  "libero": 18
+ },
+ "conflitti": {
+  "650": [
+   "flag presa dal pool: rosone pietralunare",
+   "flag usata da script di altre mappe: 34.37"
+  ]
+ },
+ "registro": {
+  "1": {
+   "stato": "usato",
+   "mappe": [
+    "24.12",
+    "34.19"
+   ]
+  },
+  "2": {
+   "stato": "usato",
+   "mappe": [
+    "24.23"
+   ]
+  },
+  "3": {
+   "stato": "usato",
+   "mappe": [
+    "24.24",
+    "34.9"
+   ]
+  },
+  "4": {
+   "stato": "usato",
+   "mappe": [
+    "24.24",
+    "34.9"
+   ]
+  },
+  "5": {
+   "stato": "usato",
+   "mappe": [
+    "24.25",
+    "34.16"
+   ]
+  },
+  "6": {
+   "stato": "usato",
+   "mappe": [
+    "24.28"
+   ]
+  },
+  "7": {
+   "stato": "usato",
+   "mappe": [
+    "24.28"
+   ]
+  },
+  "8": {
+   "stato": "usato",
+   "mappe": [
+    "24.31"
+   ]
+  },
+  "9": {
+   "stato": "usato",
+   "mappe": [
+    "24.17",
+    "34.1"
+   ]
+  },
+  "10": {
+   "stato": "usato",
+   "mappe": [
+    "24.11",
+    "34.88"
+   ]
+  },
+  "11": {
+   "stato": "usato",
+   "mappe": [
+    "0.36",
+    "34.1"
+   ]
+  },
+  "12": {
+   "stato": "usato",
+   "mappe": [
+    "0.38",
+    "34.1"
+   ]
+  },
+  "13": {
+   "stato": "usato",
+   "mappe": [
+    "0.38",
+    "34.25"
+   ]
+  },
+  "14": {
+   "stato": "usato",
+   "mappe": [
+    "24.31",
+    "34.88"
+   ]
+  },
+  "15": {
+   "stato": "usato",
+   "mappe": [
+    "0.39",
+    "34.25"
+   ]
+  },
+  "16": {
+   "stato": "usato",
+   "mappe": [
+    "24.4",
+    "34.88"
+   ]
+  },
+  "17": {
+   "stato": "usato",
+   "mappe": [
+    "32.0",
+    "34.90"
+   ]
+  },
+  "18": {
+   "stato": "usato",
+   "mappe": [
+    "32.1",
+    "34.90"
+   ]
+  },
+  "19": {
+   "stato": "usato",
+   "mappe": [
+    "32.1",
+    "34.90"
+   ]
+  },
+  "20": {
+   "stato": "usato",
+   "mappe": [
+    "34.90",
+    "9.8"
+   ]
+  },
+  "21": {
+   "stato": "usato",
+   "mappe": [
+    "34.85",
+    "9.8"
+   ]
+  },
+  "22": {
+   "stato": "usato",
+   "mappe": [
+    "14.9",
+    "34.46"
+   ]
+  },
+  "23": {
+   "stato": "usato",
+   "mappe": [
+    "24.22",
+    "34.89"
+   ]
+  },
+  "24": {
+   "stato": "usato",
+   "mappe": [
+    "24.22",
+    "34.93"
+   ]
+  },
+  "25": {
+   "stato": "usato",
+   "mappe": [
+    "24.22",
+    "34.109"
+   ]
+  },
+  "26": {
+   "stato": "usato",
+   "mappe": [
+    "32.0",
+    "34.98"
+   ]
+  },
+  "27": {
+   "stato": "usato",
+   "mappe": [
+    "24.24",
+    "34.28"
+   ]
+  },
+  "28": {
+   "stato": "usato",
+   "mappe": [
+    "24.25",
+    "34.34"
+   ]
+  },
+  "29": {
+   "stato": "usato",
+   "mappe": [
+    "0.38",
+    "34.25"
+   ]
+  },
+  "30": {
+   "stato": "usato",
+   "mappe": [
+    "24.25",
+    "34.25"
+   ]
+  },
+  "31": {
+   "stato": "usato",
+   "mappe": [
+    "24.16",
+    "34.25"
+   ]
+  },
+  "32": {
+   "stato": "usato",
+   "mappe": [
+    "32.1",
+    "34.98"
+   ]
+  },
+  "33": {
+   "stato": "usato",
+   "mappe": [
+    "24.30"
+   ]
+  },
+  "34": {
+   "stato": "usato",
+   "mappe": [
+    "24.36"
+   ]
+  },
+  "35": {
+   "stato": "usato",
+   "mappe": [
+    "24.16"
+   ]
+  },
+  "36": {
+   "stato": "usato",
+   "mappe": [
+    "0.18"
+   ]
+  },
+  "37": {
+   "stato": "usato",
+   "mappe": [
+    "0.33"
+   ]
+  },
+  "38": {
+   "stato": "usato",
+   "mappe": [
+    "24.45"
+   ]
+  },
+  "39": {
+   "stato": "usato",
+   "mappe": [
+    "0.38"
+   ]
+  },
+  "40": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ROSE_2 (src/battle_setup.c)"
+  },
+  "41": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ROSE_3 (src/battle_setup.c)"
+  },
+  "42": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ROSE_4 (src/battle_setup.c)"
+  },
+  "43": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ROSE_5 (src/battle_setup.c)"
+  },
+  "44": {
+   "stato": "usato",
+   "mappe": [
+    "0.26"
+   ]
+  },
+  "45": {
+   "stato": "usato",
+   "mappe": [
+    "0.35"
+   ]
+  },
+  "46": {
+   "stato": "usato",
+   "mappe": [
+    "0.20"
+   ]
+  },
+  "47": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_DUSTY_2 (src/battle_setup.c)"
+  },
+  "48": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_DUSTY_3 (src/battle_setup.c)"
+  },
+  "49": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_DUSTY_4 (src/battle_setup.c)"
+  },
+  "50": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_DUSTY_5 (src/battle_setup.c)"
+  },
+  "51": {
+   "stato": "usato",
+   "mappe": [
+    "0.26"
+   ]
+  },
+  "52": {
+   "stato": "usato",
+   "mappe": [
+    "0.33"
+   ]
+  },
+  "53": {
+   "stato": "usato",
+   "mappe": [
+    "0.33",
+    "0.35"
+   ]
+  },
+  "54": {
+   "stato": "usato",
+   "mappe": [
+    "0.26",
+    "0.35"
+   ]
+  },
+  "55": {
+   "stato": "usato",
+   "mappe": [
+    "0.26",
+    "0.33"
+   ]
+  },
+  "56": {
+   "stato": "usato",
+   "mappe": [
+    "0.26",
+    "0.33",
+    "0.35"
+   ]
+  },
+  "57": {
+   "stato": "usato",
+   "mappe": [
+    "0.24"
+   ]
+  },
+  "58": {
+   "stato": "usato",
+   "mappe": [
+    "0.24"
+   ]
+  },
+  "59": {
+   "stato": "usato",
+   "mappe": [
+    "0.24"
+   ]
+  },
+  "60": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_LOLA_2 (src/battle_setup.c)"
+  },
+  "61": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_LOLA_3 (src/battle_setup.c)"
+  },
+  "62": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_LOLA_4 (src/battle_setup.c)"
+  },
+  "63": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_LOLA_5 (src/battle_setup.c)"
+  },
+  "64": {
+   "stato": "usato",
+   "mappe": [
+    "0.24"
+   ]
+  },
+  "65": {
+   "stato": "usato",
+   "mappe": [
+    "28.0"
+   ]
+  },
+  "66": {
+   "stato": "usato",
+   "mappe": [
+    "24.55"
+   ]
+  },
+  "67": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_RICKY_2 (src/battle_setup.c)"
+  },
+  "68": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_RICKY_3 (src/battle_setup.c)"
+  },
+  "69": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_RICKY_4 (src/battle_setup.c)"
+  },
+  "70": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_RICKY_5 (src/battle_setup.c)"
+  },
+  "71": {
+   "stato": "usato",
+   "mappe": [
+    "8.1"
+   ]
+  },
+  "72": {
+   "stato": "usato",
+   "mappe": [
+    "8.1"
+   ]
+  },
+  "73": {
+   "stato": "usato",
+   "mappe": [
+    "8.1"
+   ]
+  },
+  "74": {
+   "stato": "usato",
+   "mappe": [
+    "8.1"
+   ]
+  },
+  "75": {
+   "stato": "usato",
+   "mappe": [
+    "0.38"
+   ]
+  },
+  "76": {
+   "stato": "usato",
+   "mappe": [
+    "29.10"
+   ]
+  },
+  "77": {
+   "stato": "usato",
+   "mappe": [
+    "29.10"
+   ]
+  },
+  "78": {
+   "stato": "usato",
+   "mappe": [
+    "0.26"
+   ]
+  },
+  "79": {
+   "stato": "usato",
+   "mappe": [
+    "24.43"
+   ]
+  },
+  "80": {
+   "stato": "usato",
+   "mappe": [
+    "24.43"
+   ]
+  },
+  "81": {
+   "stato": "usato",
+   "mappe": [
+    "24.44"
+   ]
+  },
+  "82": {
+   "stato": "usato",
+   "mappe": [
+    "24.45"
+   ]
+  },
+  "83": {
+   "stato": "usato",
+   "mappe": [
+    "24.45"
+   ]
+  },
+  "84": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_WILTON_2 (src/battle_setup.c)"
+  },
+  "85": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_WILTON_3 (src/battle_setup.c)"
+  },
+  "86": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_WILTON_4 (src/battle_setup.c)"
+  },
+  "87": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_WILTON_5 (src/battle_setup.c)"
+  },
+  "88": {
+   "stato": "usato",
+   "mappe": [
+    "0.48"
+   ]
+  },
+  "89": {
+   "stato": "usato",
+   "mappe": [
+    "8.1"
+   ]
+  },
+  "90": {
+   "stato": "usato",
+   "mappe": [
+    "34.50",
+    "8.1"
+   ]
+  },
+  "91": {
+   "stato": "usato",
+   "mappe": [
+    "8.1"
+   ]
+  },
+  "92": {
+   "stato": "usato",
+   "mappe": [
+    "0.38"
+   ]
+  },
+  "93": {
+   "stato": "usato",
+   "mappe": [
+    "29.10"
+   ]
+  },
+  "94": {
+   "stato": "usato",
+   "mappe": [
+    "0.26"
+   ]
+  },
+  "95": {
+   "stato": "usato",
+   "mappe": [
+    "0.35"
+   ]
+  },
+  "96": {
+   "stato": "usato",
+   "mappe": [
+    "24.43"
+   ]
+  },
+  "97": {
+   "stato": "usato",
+   "mappe": [
+    "24.44"
+   ]
+  },
+  "98": {
+   "stato": "usato",
+   "mappe": [
+    "24.44"
+   ]
+  },
+  "99": {
+   "stato": "usato",
+   "mappe": [
+    "24.45"
+   ]
+  },
+  "100": {
+   "stato": "usato",
+   "mappe": [
+    "24.45"
+   ]
+  },
+  "101": {
+   "stato": "usato",
+   "mappe": [
+    "35.70"
+   ]
+  },
+  "102": {
+   "stato": "usato",
+   "mappe": [
+    "35.70"
+   ]
+  },
+  "103": {
+   "stato": "usato",
+   "mappe": [
+    "35.70"
+   ]
+  },
+  "104": {
+   "stato": "usato",
+   "mappe": [
+    "35.71"
+   ]
+  },
+  "105": {
+   "stato": "usato",
+   "mappe": [
+    "29.9"
+   ]
+  },
+  "106": {
+   "stato": "usato",
+   "mappe": [
+    "0.38"
+   ]
+  },
+  "107": {
+   "stato": "usato",
+   "mappe": [
+    "0.36"
+   ]
+  },
+  "108": {
+   "stato": "usato",
+   "mappe": [
+    "24.20"
+   ]
+  },
+  "109": {
+   "stato": "usato",
+   "mappe": [
+    "24.18"
+   ]
+  },
+  "110": {
+   "stato": "usato",
+   "mappe": [
+    "35.71"
+   ]
+  },
+  "111": {
+   "stato": "usato",
+   "mappe": [
+    "35.71"
+   ]
+  },
+  "112": {
+   "stato": "usato",
+   "mappe": [
+    "35.72"
+   ]
+  },
+  "113": {
+   "stato": "usato",
+   "mappe": [
+    "35.72"
+   ]
+  },
+  "114": {
+   "stato": "usato",
+   "mappe": [
+    "0.19"
+   ]
+  },
+  "115": {
+   "stato": "usato",
+   "mappe": [
+    "15.1"
+   ]
+  },
+  "116": {
+   "stato": "usato",
+   "mappe": [
+    "14.9",
+    "34.47"
+   ]
+  },
+  "117": {
+   "stato": "usato",
+   "mappe": [
+    "35.73"
+   ]
+  },
+  "118": {
+   "stato": "usato",
+   "mappe": [
+    "15.1"
+   ]
+  },
+  "119": {
+   "stato": "usato",
+   "mappe": [
+    "25.43"
+   ]
+  },
+  "120": {
+   "stato": "usato",
+   "mappe": [
+    "35.73"
+   ]
+  },
+  "121": {
+   "stato": "usato",
+   "mappe": [
+    "35.74"
+   ]
+  },
+  "122": {
+   "stato": "usato",
+   "mappe": [
+    "35.74"
+   ]
+  },
+  "123": {
+   "stato": "usato",
+   "mappe": [
+    "35.74"
+   ]
+  },
+  "124": {
+   "stato": "usato",
+   "mappe": [
+    "24.12"
+   ]
+  },
+  "125": {
+   "stato": "usato",
+   "mappe": [
+    "24.12"
+   ]
+  },
+  "126": {
+   "stato": "usato",
+   "mappe": [
+    "24.12"
+   ]
+  },
+  "127": {
+   "stato": "usato",
+   "mappe": [
+    "0.36"
+   ]
+  },
+  "128": {
+   "stato": "usato",
+   "mappe": [
+    "15.1"
+   ]
+  },
+  "129": {
+   "stato": "usato",
+   "mappe": [
+    "15.1"
+   ]
+  },
+  "130": {
+   "stato": "usato",
+   "mappe": [
+    "15.1"
+   ]
+  },
+  "131": {
+   "stato": "usato",
+   "mappe": [
+    "15.1"
+   ]
+  },
+  "132": {
+   "stato": "usato",
+   "mappe": [
+    "35.74"
+   ]
+  },
+  "133": {
+   "stato": "usato",
+   "mappe": [
+    "34.21"
+   ]
+  },
+  "134": {
+   "stato": "usato",
+   "mappe": [
+    "34.21"
+   ]
+  },
+  "135": {
+   "stato": "usato",
+   "mappe": [
+    "34.21"
+   ]
+  },
+  "136": {
+   "stato": "usato",
+   "mappe": [
+    "0.19",
+    "34.0"
+   ]
+  },
+  "137": {
+   "stato": "usato",
+   "mappe": [
+    "0.48"
+   ]
+  },
+  "138": {
+   "stato": "usato",
+   "mappe": [
+    "25.43"
+   ]
+  },
+  "139": {
+   "stato": "usato",
+   "mappe": [
+    "34.20"
+   ]
+  },
+  "140": {
+   "stato": "usato",
+   "mappe": [
+    "34.20"
+   ]
+  },
+  "141": {
+   "stato": "usato",
+   "mappe": [
+    "34.20"
+   ]
+  },
+  "142": {
+   "stato": "usato",
+   "mappe": [
+    "34.43"
+   ]
+  },
+  "143": {
+   "stato": "usato",
+   "mappe": [
+    "0.29"
+   ]
+  },
+  "144": {
+   "stato": "usato",
+   "mappe": [
+    "24.56"
+   ]
+  },
+  "145": {
+   "stato": "usato",
+   "mappe": [
+    "24.16"
+   ]
+  },
+  "146": {
+   "stato": "usato",
+   "mappe": [
+    "24.12"
+   ]
+  },
+  "147": {
+   "stato": "usato",
+   "mappe": [
+    "34.43"
+   ]
+  },
+  "148": {
+   "stato": "usato",
+   "mappe": [
+    "34.43"
+   ]
+  },
+  "149": {
+   "stato": "usato",
+   "mappe": [
+    "34.39"
+   ]
+  },
+  "150": {
+   "stato": "usato",
+   "mappe": [
+    "34.39"
+   ]
+  },
+  "151": {
+   "stato": "usato",
+   "mappe": [
+    "0.20",
+    "34.2"
+   ]
+  },
+  "152": {
+   "stato": "usato",
+   "mappe": [
+    "0.20"
+   ]
+  },
+  "153": {
+   "stato": "usato",
+   "mappe": [
+    "0.21"
+   ]
+  },
+  "154": {
+   "stato": "usato",
+   "mappe": [
+    "0.22"
+   ]
+  },
+  "155": {
+   "stato": "usato",
+   "mappe": [
+    "0.22"
+   ]
+  },
+  "156": {
+   "stato": "usato",
+   "mappe": [
+    "0.23"
+   ]
+  },
+  "157": {
+   "stato": "usato",
+   "mappe": [
+    "0.23"
+   ]
+  },
+  "158": {
+   "stato": "usato",
+   "mappe": [
+    "0.24"
+   ]
+  },
+  "159": {
+   "stato": "usato",
+   "mappe": [
+    "0.39"
+   ]
+  },
+  "160": {
+   "stato": "usato",
+   "mappe": [
+    "0.39"
+   ]
+  },
+  "161": {
+   "stato": "usato",
+   "mappe": [
+    "0.40"
+   ]
+  },
+  "162": {
+   "stato": "usato",
+   "mappe": [
+    "0.40"
+   ]
+  },
+  "163": {
+   "stato": "usato",
+   "mappe": [
+    "0.41"
+   ]
+  },
+  "164": {
+   "stato": "usato",
+   "mappe": [
+    "0.41"
+   ]
+  },
+  "165": {
+   "stato": "usato",
+   "mappe": [
+    "0.45"
+   ]
+  },
+  "166": {
+   "stato": "usato",
+   "mappe": [
+    "0.46"
+   ]
+  },
+  "167": {
+   "stato": "usato",
+   "mappe": [
+    "0.46"
+   ]
+  },
+  "168": {
+   "stato": "usato",
+   "mappe": [
+    "0.45"
+   ]
+  },
+  "169": {
+   "stato": "usato",
+   "mappe": [
+    "0.47"
+   ]
+  },
+  "170": {
+   "stato": "usato",
+   "mappe": [
+    "0.48"
+   ]
+  },
+  "171": {
+   "stato": "usato",
+   "mappe": [
+    "0.46"
+   ]
+  },
+  "172": {
+   "stato": "usato",
+   "mappe": [
+    "0.49"
+   ]
+  },
+  "173": {
+   "stato": "usato",
+   "mappe": [
+    "34.39"
+   ]
+  },
+  "174": {
+   "stato": "usato",
+   "mappe": [
+    "0.39"
+   ]
+  },
+  "175": {
+   "stato": "forse usato",
+   "motivo": "sequenza simile a una lotta fuori dagli eventi di mappa"
+  },
+  "176": {
+   "stato": "forse usato",
+   "motivo": "sequenza simile a una lotta fuori dagli eventi di mappa"
+  },
+  "177": {
+   "stato": "forse usato",
+   "motivo": "sequenza simile a una lotta fuori dagli eventi di mappa"
+  },
+  "178": {
+   "stato": "forse usato",
+   "motivo": "sequenza simile a una lotta fuori dagli eventi di mappa"
+  },
+  "179": {
+   "stato": "usato",
+   "mappe": [
+    "3.3",
+    "34.74"
+   ]
+  },
+  "180": {
+   "stato": "usato",
+   "mappe": [
+    "0.49"
+   ]
+  },
+  "181": {
+   "stato": "usato",
+   "mappe": [
+    "0.47"
+   ]
+  },
+  "182": {
+   "stato": "usato",
+   "mappe": [
+    "0.30",
+    "34.74"
+   ]
+  },
+  "183": {
+   "stato": "usato",
+   "mappe": [
+    "0.30",
+    "34.74"
+   ]
+  },
+  "184": {
+   "stato": "forse usato",
+   "motivo": "sequenza simile a una lotta fuori dagli eventi di mappa"
+  },
+  "185": {
+   "stato": "usato",
+   "mappe": [
+    "34.19"
+   ]
+  },
+  "186": {
+   "stato": "usato",
+   "mappe": [
+    "34.19"
+   ]
+  },
+  "187": {
+   "stato": "usato",
+   "mappe": [
+    "35.60"
+   ]
+  },
+  "188": {
+   "stato": "usato",
+   "mappe": [
+    "29.6"
+   ]
+  },
+  "189": {
+   "stato": "usato",
+   "mappe": [
+    "0.26"
+   ]
+  },
+  "190": {
+   "stato": "usato",
+   "mappe": [
+    "24.19"
+   ]
+  },
+  "191": {
+   "stato": "usato",
+   "mappe": [
+    "10.0"
+   ]
+  },
+  "192": {
+   "stato": "usato",
+   "mappe": [
+    "24.24",
+    "34.35"
+   ]
+  },
+  "193": {
+   "stato": "usato",
+   "mappe": [
+    "24.25"
+   ]
+  },
+  "194": {
+   "stato": "usato",
+   "mappe": [
+    "10.0"
+   ]
+  },
+  "195": {
+   "stato": "usato",
+   "mappe": [
+    "0.38"
+   ]
+  },
+  "196": {
+   "stato": "usato",
+   "mappe": [
+    "0.33",
+    "34.4"
+   ]
+  },
+  "197": {
+   "stato": "usato",
+   "mappe": [
+    "35.60"
+   ]
+  },
+  "198": {
+   "stato": "usato",
+   "mappe": [
+    "35.101"
+   ]
+  },
+  "199": {
+   "stato": "usato",
+   "mappe": [
+    "35.101"
+   ]
+  },
+  "200": {
+   "stato": "usato",
+   "mappe": [
+    "35.101"
+   ]
+  },
+  "201": {
+   "stato": "usato",
+   "mappe": [
+    "4.1"
+   ]
+  },
+  "202": {
+   "stato": "usato",
+   "mappe": [
+    "4.2"
+   ]
+  },
+  "203": {
+   "stato": "usato",
+   "mappe": [
+    "4.1"
+   ]
+  },
+  "204": {
+   "stato": "usato",
+   "mappe": [
+    "4.2"
+   ]
+  },
+  "205": {
+   "stato": "usato",
+   "mappe": [
+    "4.2"
+   ]
+  },
+  "206": {
+   "stato": "usato",
+   "mappe": [
+    "0.29"
+   ]
+  },
+  "207": {
+   "stato": "usato",
+   "mappe": [
+    "34.84"
+   ]
+  },
+  "208": {
+   "stato": "usato",
+   "mappe": [
+    "34.84"
+   ]
+  },
+  "209": {
+   "stato": "usato",
+   "mappe": [
+    "34.84"
+   ]
+  },
+  "210": {
+   "stato": "usato",
+   "mappe": [
+    "34.84"
+   ]
+  },
+  "211": {
+   "stato": "usato",
+   "mappe": [
+    "0.26"
+   ]
+  },
+  "212": {
+   "stato": "usato",
+   "mappe": [
+    "0.26"
+   ]
+  },
+  "213": {
+   "stato": "usato",
+   "mappe": [
+    "0.27"
+   ]
+  },
+  "214": {
+   "stato": "usato",
+   "mappe": [
+    "0.29"
+   ]
+  },
+  "215": {
+   "stato": "usato",
+   "mappe": [
+    "29.5"
+   ]
+  },
+  "216": {
+   "stato": "usato",
+   "mappe": [
+    "24.13"
+   ]
+  },
+  "217": {
+   "stato": "usato",
+   "mappe": [
+    "24.13"
+   ]
+  },
+  "218": {
+   "stato": "usato",
+   "mappe": [
+    "0.26"
+   ]
+  },
+  "219": {
+   "stato": "usato",
+   "mappe": [
+    "34.84"
+   ]
+  },
+  "220": {
+   "stato": "usato",
+   "mappe": [
+    "34.84"
+   ]
+  },
+  "221": {
+   "stato": "usato",
+   "mappe": [
+    "34.84"
+   ]
+  },
+  "222": {
+   "stato": "usato",
+   "mappe": [
+    "34.84"
+   ]
+  },
+  "223": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "224": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "225": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "226": {
+   "stato": "usato",
+   "mappe": [
+    "0.35"
+   ]
+  },
+  "227": {
+   "stato": "usato",
+   "mappe": [
+    "0.32"
+   ]
+  },
+  "228": {
+   "stato": "usato",
+   "mappe": [
+    "34.84"
+   ]
+  },
+  "229": {
+   "stato": "usato",
+   "mappe": [
+    "35.70"
+   ]
+  },
+  "230": {
+   "stato": "usato",
+   "mappe": [
+    "35.70"
+   ]
+  },
+  "231": {
+   "stato": "usato",
+   "mappe": [
+    "35.71"
+   ]
+  },
+  "232": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "233": {
+   "stato": "usato",
+   "mappe": [
+    "14.0"
+   ]
+  },
+  "234": {
+   "stato": "usato",
+   "mappe": [
+    "14.0"
+   ]
+  },
+  "235": {
+   "stato": "usato",
+   "mappe": [
+    "14.0"
+   ]
+  },
+  "236": {
+   "stato": "usato",
+   "mappe": [
+    "24.17"
+   ]
+  },
+  "237": {
+   "stato": "usato",
+   "mappe": [
+    "29.9"
+   ]
+  },
+  "238": {
+   "stato": "usato",
+   "mappe": [
+    "0.38"
+   ]
+  },
+  "239": {
+   "stato": "usato",
+   "mappe": [
+    "35.102"
+   ]
+  },
+  "240": {
+   "stato": "usato",
+   "mappe": [
+    "35.102"
+   ]
+  },
+  "241": {
+   "stato": "usato",
+   "mappe": [
+    "35.102"
+   ]
+  },
+  "242": {
+   "stato": "usato",
+   "mappe": [
+    "34.111"
+   ]
+  },
+  "243": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "244": {
+   "stato": "usato",
+   "mappe": [
+    "14.0"
+   ]
+  },
+  "245": {
+   "stato": "usato",
+   "mappe": [
+    "14.0"
+   ]
+  },
+  "246": {
+   "stato": "usato",
+   "mappe": [
+    "14.0"
+   ]
+  },
+  "247": {
+   "stato": "usato",
+   "mappe": [
+    "24.17"
+   ]
+  },
+  "248": {
+   "stato": "usato",
+   "mappe": [
+    "29.9"
+   ]
+  },
+  "249": {
+   "stato": "usato",
+   "mappe": [
+    "0.38"
+   ]
+  },
+  "250": {
+   "stato": "usato",
+   "mappe": [
+    "34.111"
+   ]
+  },
+  "251": {
+   "stato": "riservato",
+   "motivo": "flag 0x5fb usata da script (35.70)"
+  },
+  "252": {
+   "stato": "riservato",
+   "motivo": "flag 0x5fc usata da script (35.70)"
+  },
+  "253": {
+   "stato": "riservato",
+   "motivo": "flag 0x5fd usata da script (35.70)"
+  },
+  "254": {
+   "stato": "usato",
+   "mappe": [
+    "0.36"
+   ]
+  },
+  "255": {
+   "stato": "usato",
+   "mappe": [
+    "25.43"
+   ]
+  },
+  "256": {
+   "stato": "usato",
+   "mappe": [
+    "25.43"
+   ]
+  },
+  "257": {
+   "stato": "forse usato",
+   "motivo": "sequenza simile a una lotta fuori dagli eventi di mappa"
+  },
+  "258": {
+   "stato": "riservato",
+   "motivo": "flag 0x602 usata da script (35.71)"
+  },
+  "259": {
+   "stato": "riservato",
+   "motivo": "flag 0x603 usata da script (35.71)"
+  },
+  "260": {
+   "stato": "riservato",
+   "motivo": "flag 0x604 usata da script (35.71)"
+  },
+  "261": {
+   "stato": "usato",
+   "mappe": [
+    "16.0"
+   ]
+  },
+  "262": {
+   "stato": "usato",
+   "mappe": [
+    "16.1"
+   ]
+  },
+  "263": {
+   "stato": "usato",
+   "mappe": [
+    "16.2"
+   ]
+  },
+  "264": {
+   "stato": "usato",
+   "mappe": [
+    "16.3"
+   ]
+  },
+  "265": {
+   "stato": "usato",
+   "mappe": [
+    "11.3",
+    "2.1"
+   ]
+  },
+  "266": {
+   "stato": "usato",
+   "mappe": [
+    "3.3",
+    "34.36"
+   ]
+  },
+  "267": {
+   "stato": "usato",
+   "mappe": [
+    "10.0",
+    "34.51"
+   ]
+  },
+  "268": {
+   "stato": "usato",
+   "mappe": [
+    "4.1"
+   ]
+  },
+  "269": {
+   "stato": "usato",
+   "mappe": [
+    "34.74",
+    "8.1"
+   ]
+  },
+  "270": {
+   "stato": "usato",
+   "mappe": [
+    "12.1",
+    "34.112"
+   ]
+  },
+  "271": {
+   "stato": "usato",
+   "mappe": [
+    "14.0",
+    "35.9"
+   ]
+  },
+  "272": {
+   "stato": "usato",
+   "mappe": [
+    "15.0",
+    "35.26"
+   ]
+  },
+  "273": {
+   "stato": "usato",
+   "mappe": [
+    "0.31",
+    "34.36"
+   ]
+  },
+  "274": {
+   "stato": "usato",
+   "mappe": [
+    "29.4",
+    "34.21"
+   ]
+  },
+  "275": {
+   "stato": "usato",
+   "mappe": [
+    "29.4"
+   ]
+  },
+  "276": {
+   "stato": "riservato",
+   "motivo": "flag 0x614 usata da script (35.72)"
+  },
+  "277": {
+   "stato": "riservato",
+   "motivo": "flag 0x615 usata da script (35.72)"
+  },
+  "278": {
+   "stato": "riservato",
+   "motivo": "flag 0x616 usata da script (35.73)"
+  },
+  "279": {
+   "stato": "riservato",
+   "motivo": "flag 0x617 usata da script (35.73)"
+  },
+  "280": {
+   "stato": "usato",
+   "mappe": [
+    "0.31",
+    "34.36"
+   ]
+  },
+  "281": {
+   "stato": "usato",
+   "mappe": [
+    "29.4"
+   ]
+  },
+  "282": {
+   "stato": "riservato",
+   "motivo": "flag 0x61a usata da script (35.74)"
+  },
+  "283": {
+   "stato": "riservato",
+   "motivo": "flag 0x61b usata da script (35.74)"
+  },
+  "284": {
+   "stato": "riservato",
+   "motivo": "flag 0x61c usata da script (35.74)"
+  },
+  "285": {
+   "stato": "riservato",
+   "motivo": "flag 0x61d usata da script (35.74)"
+  },
+  "286": {
+   "stato": "usato",
+   "mappe": [
+    "0.36"
+   ]
+  },
+  "287": {
+   "stato": "usato",
+   "mappe": [
+    "0.32"
+   ]
+  },
+  "288": {
+   "stato": "riservato",
+   "motivo": "flag 0x620 usata da script (35.76)"
+  },
+  "289": {
+   "stato": "riservato",
+   "motivo": "flag 0x621 usata da script (35.76)"
+  },
+  "290": {
+   "stato": "riservato",
+   "motivo": "flag 0x622 usata da script (35.77)"
+  },
+  "291": {
+   "stato": "riservato",
+   "motivo": "flag 0x623 usata da script (35.77)"
+  },
+  "292": {
+   "stato": "usato",
+   "mappe": [
+    "0.26"
+   ]
+  },
+  "293": {
+   "stato": "usato",
+   "mappe": [
+    "0.18"
+   ]
+  },
+  "294": {
+   "stato": "usato",
+   "mappe": [
+    "25.43"
+   ]
+  },
+  "295": {
+   "stato": "riservato",
+   "motivo": "flag 0x627 usata da script (35.78)"
+  },
+  "296": {
+   "stato": "riservato",
+   "motivo": "flag 0x628 usata da script (35.78)"
+  },
+  "297": {
+   "stato": "riservato",
+   "motivo": "flag 0x629 usata da script (34.42)"
+  },
+  "298": {
+   "stato": "riservato",
+   "motivo": "flag 0x62a usata da script (34.44)"
+  },
+  "299": {
+   "stato": "usato",
+   "mappe": [
+    "0.26"
+   ]
+  },
+  "300": {
+   "stato": "usato",
+   "mappe": [
+    "0.36"
+   ]
+  },
+  "301": {
+   "stato": "usato",
+   "mappe": [
+    "15.1"
+   ]
+  },
+  "302": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "303": {
+   "stato": "riservato",
+   "motivo": "flag 0x62f usata da script (34.96)"
+  },
+  "304": {
+   "stato": "riservato",
+   "motivo": "flag 0x630 usata da script (26.3)"
+  },
+  "305": {
+   "stato": "usato",
+   "mappe": [
+    "34.111"
+   ]
+  },
+  "306": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ISABEL_5 (src/battle_setup.c)"
+  },
+  "307": {
+   "stato": "usato",
+   "mappe": [
+    "0.30"
+   ]
+  },
+  "308": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_TIMOTHY_2 (src/battle_setup.c)"
+  },
+  "309": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_TIMOTHY_3 (src/battle_setup.c)"
+  },
+  "310": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_TIMOTHY_4 (src/battle_setup.c)"
+  },
+  "311": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_TIMOTHY_5 (src/battle_setup.c)"
+  },
+  "312": {
+   "stato": "usato",
+   "mappe": [
+    "0.26"
+   ]
+  },
+  "313": {
+   "stato": "usato",
+   "mappe": [
+    "24.12"
+   ]
+  },
+  "314": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_SHELBY_2 (src/battle_setup.c)"
+  },
+  "315": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_SHELBY_3 (src/battle_setup.c)"
+  },
+  "316": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_SHELBY_4 (src/battle_setup.c)"
+  },
+  "317": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_SHELBY_5 (src/battle_setup.c)"
+  },
+  "318": {
+   "stato": "usato",
+   "mappe": [
+    "0.16",
+    "0.17"
+   ]
+  },
+  "319": {
+   "stato": "usato",
+   "mappe": [
+    "0.19"
+   ]
+  },
+  "320": {
+   "stato": "usato",
+   "mappe": [
+    "11.3"
+   ]
+  },
+  "321": {
+   "stato": "usato",
+   "mappe": [
+    "11.3"
+   ]
+  },
+  "322": {
+   "stato": "usato",
+   "mappe": [
+    "0.31"
+   ]
+  },
+  "323": {
+   "stato": "usato",
+   "mappe": [
+    "10.0"
+   ]
+  },
+  "324": {
+   "stato": "usato",
+   "mappe": [
+    "24.43"
+   ]
+  },
+  "325": {
+   "stato": "usato",
+   "mappe": [
+    "24.43"
+   ]
+  },
+  "326": {
+   "stato": "usato",
+   "mappe": [
+    "0.28"
+   ]
+  },
+  "327": {
+   "stato": "usato",
+   "mappe": [
+    "0.28"
+   ]
+  },
+  "328": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_CALVIN_2 (src/battle_setup.c)"
+  },
+  "329": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_CALVIN_3 (src/battle_setup.c)"
+  },
+  "330": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_CALVIN_4 (src/battle_setup.c)"
+  },
+  "331": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_CALVIN_5 (src/battle_setup.c)"
+  },
+  "332": {
+   "stato": "usato",
+   "mappe": [
+    "29.3"
+   ]
+  },
+  "333": {
+   "stato": "usato",
+   "mappe": [
+    "0.17",
+    "2.1"
+   ]
+  },
+  "334": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "335": {
+   "stato": "usato",
+   "mappe": [
+    "16.4"
+   ]
+  },
+  "336": {
+   "stato": "usato",
+   "mappe": [
+    "0.18"
+   ]
+  },
+  "337": {
+   "stato": "usato",
+   "mappe": [
+    "0.19"
+   ]
+  },
+  "338": {
+   "stato": "usato",
+   "mappe": [
+    "0.29"
+   ]
+  },
+  "339": {
+   "stato": "usato",
+   "mappe": [
+    "0.21"
+   ]
+  },
+  "340": {
+   "stato": "usato",
+   "mappe": [
+    "0.21"
+   ]
+  },
+  "341": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "342": {
+   "stato": "usato",
+   "mappe": [
+    "0.29"
+   ]
+  },
+  "343": {
+   "stato": "usato",
+   "mappe": [
+    "0.33"
+   ]
+  },
+  "344": {
+   "stato": "usato",
+   "mappe": [
+    "0.33"
+   ]
+  },
+  "345": {
+   "stato": "usato",
+   "mappe": [
+    "0.24"
+   ]
+  },
+  "346": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ELLIOT_2 (src/battle_setup.c)"
+  },
+  "347": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ELLIOT_3 (src/battle_setup.c)"
+  },
+  "348": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ELLIOT_4 (src/battle_setup.c)"
+  },
+  "349": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ELLIOT_5 (src/battle_setup.c)"
+  },
+  "350": {
+   "stato": "usato",
+   "mappe": [
+    "0.47"
+   ]
+  },
+  "351": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "352": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "353": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "354": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_BENJAMIN_2 (src/battle_setup.c)"
+  },
+  "355": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_BENJAMIN_3 (src/battle_setup.c)"
+  },
+  "356": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_BENJAMIN_4 (src/battle_setup.c)"
+  },
+  "357": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_BENJAMIN_5 (src/battle_setup.c)"
+  },
+  "358": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "359": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "360": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ABIGAIL_2 (src/battle_setup.c)"
+  },
+  "361": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ABIGAIL_3 (src/battle_setup.c)"
+  },
+  "362": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ABIGAIL_4 (src/battle_setup.c)"
+  },
+  "363": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ABIGAIL_5 (src/battle_setup.c)"
+  },
+  "364": {
+   "stato": "usato",
+   "mappe": [
+    "0.32"
+   ]
+  },
+  "365": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_DYLAN_2 (src/battle_setup.c)"
+  },
+  "366": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_DYLAN_3 (src/battle_setup.c)"
+  },
+  "367": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_DYLAN_4 (src/battle_setup.c)"
+  },
+  "368": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_DYLAN_5 (src/battle_setup.c)"
+  },
+  "369": {
+   "stato": "usato",
+   "mappe": [
+    "0.32"
+   ]
+  },
+  "370": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_MARIA_2 (src/battle_setup.c)"
+  },
+  "371": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_MARIA_3 (src/battle_setup.c)"
+  },
+  "372": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_MARIA_4 (src/battle_setup.c)"
+  },
+  "373": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_MARIA_5 (src/battle_setup.c)"
+  },
+  "374": {
+   "stato": "usato",
+   "mappe": [
+    "0.42"
+   ]
+  },
+  "375": {
+   "stato": "usato",
+   "mappe": [
+    "24.56"
+   ]
+  },
+  "376": {
+   "stato": "usato",
+   "mappe": [
+    "0.43"
+   ]
+  },
+  "377": {
+   "stato": "usato",
+   "mappe": [
+    "0.41"
+   ]
+  },
+  "378": {
+   "stato": "usato",
+   "mappe": [
+    "0.44"
+   ]
+  },
+  "379": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ISAIAH_2 (src/battle_setup.c)"
+  },
+  "380": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ISAIAH_3 (src/battle_setup.c)"
+  },
+  "381": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ISAIAH_4 (src/battle_setup.c)"
+  },
+  "382": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ISAIAH_5 (src/battle_setup.c)"
+  },
+  "383": {
+   "stato": "usato",
+   "mappe": [
+    "0.41"
+   ]
+  },
+  "384": {
+   "stato": "usato",
+   "mappe": [
+    "0.42"
+   ]
+  },
+  "385": {
+   "stato": "usato",
+   "mappe": [
+    "0.46"
+   ]
+  },
+  "386": {
+   "stato": "usato",
+   "mappe": [
+    "0.43"
+   ]
+  },
+  "387": {
+   "stato": "usato",
+   "mappe": [
+    "0.44"
+   ]
+  },
+  "388": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_KATELYN_2 (src/battle_setup.c)"
+  },
+  "389": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_KATELYN_3 (src/battle_setup.c)"
+  },
+  "390": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_KATELYN_4 (src/battle_setup.c)"
+  },
+  "391": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_KATELYN_5 (src/battle_setup.c)"
+  },
+  "392": {
+   "stato": "usato",
+   "mappe": [
+    "24.1"
+   ]
+  },
+  "393": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_NICOLAS_2 (src/battle_setup.c)"
+  },
+  "394": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_NICOLAS_3 (src/battle_setup.c)"
+  },
+  "395": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_NICOLAS_4 (src/battle_setup.c)"
+  },
+  "396": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_NICOLAS_5 (src/battle_setup.c)"
+  },
+  "397": {
+   "stato": "usato",
+   "mappe": [
+    "0.49"
+   ]
+  },
+  "398": {
+   "stato": "usato",
+   "mappe": [
+    "0.33"
+   ]
+  },
+  "399": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "400": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "401": {
+   "stato": "usato",
+   "mappe": [
+    "12.1"
+   ]
+  },
+  "402": {
+   "stato": "usato",
+   "mappe": [
+    "12.1"
+   ]
+  },
+  "403": {
+   "stato": "usato",
+   "mappe": [
+    "0.40"
+   ]
+  },
+  "404": {
+   "stato": "usato",
+   "mappe": [
+    "12.1"
+   ]
+  },
+  "405": {
+   "stato": "usato",
+   "mappe": [
+    "0.35"
+   ]
+  },
+  "406": {
+   "stato": "usato",
+   "mappe": [
+    "0.35"
+   ]
+  },
+  "407": {
+   "stato": "usato",
+   "mappe": [
+    "29.8"
+   ]
+  },
+  "408": {
+   "stato": "usato",
+   "mappe": [
+    "0.33"
+   ]
+  },
+  "409": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ROBERT_2 (src/battle_setup.c)"
+  },
+  "410": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ROBERT_3 (src/battle_setup.c)"
+  },
+  "411": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ROBERT_4 (src/battle_setup.c)"
+  },
+  "412": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ROBERT_5 (src/battle_setup.c)"
+  },
+  "413": {
+   "stato": "usato",
+   "mappe": [
+    "0.49",
+    "34.51"
+   ]
+  },
+  "414": {
+   "stato": "usato",
+   "mappe": [
+    "0.48"
+   ]
+  },
+  "415": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "416": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "417": {
+   "stato": "usato",
+   "mappe": [
+    "24.45"
+   ]
+  },
+  "418": {
+   "stato": "usato",
+   "mappe": [
+    "24.62"
+   ]
+  },
+  "419": {
+   "stato": "usato",
+   "mappe": [
+    "0.28"
+   ]
+  },
+  "420": {
+   "stato": "usato",
+   "mappe": [
+    "0.28"
+   ]
+  },
+  "421": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_LAO_2 (src/battle_setup.c)"
+  },
+  "422": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_LAO_3 (src/battle_setup.c)"
+  },
+  "423": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_LAO_4 (src/battle_setup.c)"
+  },
+  "424": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_LAO_5 (src/battle_setup.c)"
+  },
+  "425": {
+   "stato": "usato",
+   "mappe": [
+    "3.3"
+   ]
+  },
+  "426": {
+   "stato": "usato",
+   "mappe": [
+    "3.3"
+   ]
+  },
+  "427": {
+   "stato": "usato",
+   "mappe": [
+    "0.30"
+   ]
+  },
+  "428": {
+   "stato": "usato",
+   "mappe": [
+    "29.6"
+   ]
+  },
+  "429": {
+   "stato": "usato",
+   "mappe": [
+    "29.6"
+   ]
+  },
+  "430": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_CYNDY_2 (src/battle_setup.c)"
+  },
+  "431": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_CYNDY_3 (src/battle_setup.c)"
+  },
+  "432": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_CYNDY_4 (src/battle_setup.c)"
+  },
+  "433": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_CYNDY_5 (src/battle_setup.c)"
+  },
+  "434": {
+   "stato": "usato",
+   "mappe": [
+    "0.28"
+   ]
+  },
+  "435": {
+   "stato": "usato",
+   "mappe": [
+    "0.35"
+   ]
+  },
+  "436": {
+   "stato": "usato",
+   "mappe": [
+    "0.35"
+   ]
+  },
+  "437": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_MADELINE_2 (src/battle_setup.c)"
+  },
+  "438": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_MADELINE_3 (src/battle_setup.c)"
+  },
+  "439": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_MADELINE_4 (src/battle_setup.c)"
+  },
+  "440": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_MADELINE_5 (src/battle_setup.c)"
+  },
+  "441": {
+   "stato": "usato",
+   "mappe": [
+    "0.20"
+   ]
+  },
+  "442": {
+   "stato": "usato",
+   "mappe": [
+    "0.20"
+   ]
+  },
+  "443": {
+   "stato": "usato",
+   "mappe": [
+    "0.21"
+   ]
+  },
+  "444": {
+   "stato": "usato",
+   "mappe": [
+    "0.22"
+   ]
+  },
+  "445": {
+   "stato": "usato",
+   "mappe": [
+    "0.22",
+    "34.77"
+   ]
+  },
+  "446": {
+   "stato": "usato",
+   "mappe": [
+    "0.23"
+   ]
+  },
+  "447": {
+   "stato": "usato",
+   "mappe": [
+    "0.23"
+   ]
+  },
+  "448": {
+   "stato": "usato",
+   "mappe": [
+    "0.24"
+   ]
+  },
+  "449": {
+   "stato": "usato",
+   "mappe": [
+    "0.39"
+   ]
+  },
+  "450": {
+   "stato": "usato",
+   "mappe": [
+    "0.39"
+   ]
+  },
+  "451": {
+   "stato": "usato",
+   "mappe": [
+    "0.40"
+   ]
+  },
+  "452": {
+   "stato": "usato",
+   "mappe": [
+    "0.40"
+   ]
+  },
+  "453": {
+   "stato": "usato",
+   "mappe": [
+    "0.41"
+   ]
+  },
+  "454": {
+   "stato": "usato",
+   "mappe": [
+    "0.41"
+   ]
+  },
+  "455": {
+   "stato": "usato",
+   "mappe": [
+    "0.45"
+   ]
+  },
+  "456": {
+   "stato": "usato",
+   "mappe": [
+    "0.46"
+   ]
+  },
+  "457": {
+   "stato": "usato",
+   "mappe": [
+    "0.46"
+   ]
+  },
+  "458": {
+   "stato": "usato",
+   "mappe": [
+    "0.47"
+   ]
+  },
+  "459": {
+   "stato": "usato",
+   "mappe": [
+    "0.41"
+   ]
+  },
+  "460": {
+   "stato": "usato",
+   "mappe": [
+    "0.48"
+   ]
+  },
+  "461": {
+   "stato": "usato",
+   "mappe": [
+    "0.48"
+   ]
+  },
+  "462": {
+   "stato": "libero"
+  },
+  "463": {
+   "stato": "usato",
+   "mappe": [
+    "0.49"
+   ]
+  },
+  "464": {
+   "stato": "usato",
+   "mappe": [
+    "0.43"
+   ]
+  },
+  "465": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_JENNY_2 (src/battle_setup.c)"
+  },
+  "466": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_JENNY_3 (src/battle_setup.c)"
+  },
+  "467": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_JENNY_4 (src/battle_setup.c)"
+  },
+  "468": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_JENNY_5 (src/battle_setup.c)"
+  },
+  "469": {
+   "stato": "usato",
+   "mappe": [
+    "0.26"
+   ]
+  },
+  "470": {
+   "stato": "usato",
+   "mappe": [
+    "0.26"
+   ]
+  },
+  "471": {
+   "stato": "usato",
+   "mappe": [
+    "0.27"
+   ]
+  },
+  "472": {
+   "stato": "usato",
+   "mappe": [
+    "0.29"
+   ]
+  },
+  "473": {
+   "stato": "usato",
+   "mappe": [
+    "29.5"
+   ]
+  },
+  "474": {
+   "stato": "usato",
+   "mappe": [
+    "24.13"
+   ]
+  },
+  "475": {
+   "stato": "usato",
+   "mappe": [
+    "24.20"
+   ]
+  },
+  "476": {
+   "stato": "usato",
+   "mappe": [
+    "0.26"
+   ]
+  },
+  "477": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_DIANA_2 (src/battle_setup.c)"
+  },
+  "478": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_DIANA_3 (src/battle_setup.c)"
+  },
+  "479": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_DIANA_4 (src/battle_setup.c)"
+  },
+  "480": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_DIANA_5 (src/battle_setup.c)"
+  },
+  "481": {
+   "stato": "usato",
+   "mappe": [
+    "0.18"
+   ]
+  },
+  "482": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_AMY_AND_LIV_2 (src/battle_setup.c)"
+  },
+  "483": {
+   "stato": "usato",
+   "mappe": [
+    "0.19"
+   ]
+  },
+  "484": {
+   "stato": "usato",
+   "mappe": [
+    "0.38"
+   ]
+  },
+  "485": {
+   "stato": "libero"
+  },
+  "486": {
+   "stato": "libero"
+  },
+  "487": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_AMY_AND_LIV_4 (src/battle_setup.c)"
+  },
+  "488": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_AMY_AND_LIV_5 (src/battle_setup.c)"
+  },
+  "489": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_AMY_AND_LIV_6 (src/battle_setup.c)"
+  },
+  "490": {
+   "stato": "usato",
+   "mappe": [
+    "0.24"
+   ]
+  },
+  "491": {
+   "stato": "usato",
+   "mappe": [
+    "0.24"
+   ]
+  },
+  "492": {
+   "stato": "usato",
+   "mappe": [
+    "0.40"
+   ]
+  },
+  "493": {
+   "stato": "usato",
+   "mappe": [
+    "28.0"
+   ]
+  },
+  "494": {
+   "stato": "usato",
+   "mappe": [
+    "25.42",
+    "25.44",
+    "25.45",
+    "25.46",
+    "25.47",
+    "25.48",
+    "25.49",
+    "25.50",
+    "25.51",
+    "25.52",
+    "25.53",
+    "25.54",
+    "25.55",
+    "25.56",
+    "25.57",
+    "25.58",
+    "25.59"
+   ]
+  },
+  "495": {
+   "stato": "usato",
+   "mappe": [
+    "25.42"
+   ]
+  },
+  "496": {
+   "stato": "usato",
+   "mappe": [
+    "24.57"
+   ]
+  },
+  "497": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ERNEST_2 (src/battle_setup.c)"
+  },
+  "498": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ERNEST_3 (src/battle_setup.c)"
+  },
+  "499": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ERNEST_4 (src/battle_setup.c)"
+  },
+  "500": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ERNEST_5 (src/battle_setup.c)"
+  },
+  "501": {
+   "stato": "usato",
+   "mappe": [
+    "4.2"
+   ]
+  },
+  "502": {
+   "stato": "usato",
+   "mappe": [
+    "15.1"
+   ]
+  },
+  "503": {
+   "stato": "usato",
+   "mappe": [
+    "0.38"
+   ]
+  },
+  "504": {
+   "stato": "usato",
+   "mappe": [
+    "0.38"
+   ]
+  },
+  "505": {
+   "stato": "usato",
+   "mappe": [
+    "0.38"
+   ]
+  },
+  "506": {
+   "stato": "usato",
+   "mappe": [
+    "0.40"
+   ]
+  },
+  "507": {
+   "stato": "usato",
+   "mappe": [
+    "0.49"
+   ]
+  },
+  "508": {
+   "stato": "usato",
+   "mappe": [
+    "0.49"
+   ]
+  },
+  "509": {
+   "stato": "usato",
+   "mappe": [
+    "0.49"
+   ]
+  },
+  "510": {
+   "stato": "usato",
+   "mappe": [
+    "0.49"
+   ]
+  },
+  "511": {
+   "stato": "usato",
+   "mappe": [
+    "0.48"
+   ]
+  },
+  "512": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "513": {
+   "stato": "usato",
+   "mappe": [
+    "0.30"
+   ]
+  },
+  "514": {
+   "stato": "usato",
+   "mappe": [
+    "34.59"
+   ]
+  },
+  "515": {
+   "stato": "forse usato",
+   "motivo": "sequenza simile a una lotta fuori dagli eventi di mappa"
+  },
+  "516": {
+   "stato": "forse usato",
+   "motivo": "sequenza simile a una lotta fuori dagli eventi di mappa"
+  },
+  "517": {
+   "stato": "forse usato",
+   "motivo": "sequenza simile a una lotta fuori dagli eventi di mappa"
+  },
+  "518": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_EDWIN_5 (src/battle_setup.c)"
+  },
+  "519": {
+   "stato": "usato",
+   "mappe": [
+    "24.43"
+   ]
+  },
+  "520": {
+   "stato": "usato",
+   "mappe": [
+    "0.18",
+    "1.4"
+   ]
+  },
+  "521": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "522": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "523": {
+   "stato": "usato",
+   "mappe": [
+    "0.18",
+    "1.4"
+   ]
+  },
+  "524": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "525": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "526": {
+   "stato": "usato",
+   "mappe": [
+    "0.18",
+    "1.4"
+   ]
+  },
+  "527": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "528": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "529": {
+   "stato": "usato",
+   "mappe": [
+    "0.18"
+   ]
+  },
+  "530": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "531": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "532": {
+   "stato": "usato",
+   "mappe": [
+    "0.18"
+   ]
+  },
+  "533": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "534": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "535": {
+   "stato": "usato",
+   "mappe": [
+    "0.18"
+   ]
+  },
+  "536": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "537": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "538": {
+   "stato": "usato",
+   "mappe": [
+    "0.32"
+   ]
+  },
+  "539": {
+   "stato": "usato",
+   "mappe": [
+    "0.38"
+   ]
+  },
+  "540": {
+   "stato": "usato",
+   "mappe": [
+    "24.44"
+   ]
+  },
+  "541": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ISAAC_2 (src/battle_setup.c)"
+  },
+  "542": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ISAAC_3 (src/battle_setup.c)"
+  },
+  "543": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ISAAC_4 (src/battle_setup.c)"
+  },
+  "544": {
+   "stato": "riservato",
+   "motivo": "flag 0x720 usata da script (34.19)"
+  },
+  "545": {
+   "stato": "usato",
+   "mappe": [
+    "0.32"
+   ]
+  },
+  "546": {
+   "stato": "usato",
+   "mappe": [
+    "24.44"
+   ]
+  },
+  "547": {
+   "stato": "usato",
+   "mappe": [
+    "24.62"
+   ]
+  },
+  "548": {
+   "stato": "riservato",
+   "motivo": "flag 0x724 usata da script (34.19)"
+  },
+  "549": {
+   "stato": "riservato",
+   "motivo": "flag 0x725 usata da script (34.19)"
+  },
+  "550": {
+   "stato": "riservato",
+   "motivo": "flag 0x726 usata da script (34.47)"
+  },
+  "551": {
+   "stato": "riservato",
+   "motivo": "flag 0x727 usata da script (35.46)"
+  },
+  "552": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "553": {
+   "stato": "usato",
+   "mappe": [
+    "0.35"
+   ]
+  },
+  "554": {
+   "stato": "usato",
+   "mappe": [
+    "29.8"
+   ]
+  },
+  "555": {
+   "stato": "riservato",
+   "motivo": "flag 0x72b usata da script (35.47)"
+  },
+  "556": {
+   "stato": "riservato",
+   "motivo": "flag 0x72c usata da script (35.48)"
+  },
+  "557": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_JACKSON_4 (src/battle_setup.c)"
+  },
+  "558": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_JACKSON_5 (src/battle_setup.c)"
+  },
+  "559": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "560": {
+   "stato": "usato",
+   "mappe": [
+    "0.35"
+   ]
+  },
+  "561": {
+   "stato": "usato",
+   "mappe": [
+    "29.8"
+   ]
+  },
+  "562": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_CATHERINE_2 (src/battle_setup.c)"
+  },
+  "563": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_CATHERINE_3 (src/battle_setup.c)"
+  },
+  "564": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_CATHERINE_4 (src/battle_setup.c)"
+  },
+  "565": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_CATHERINE_5 (src/battle_setup.c)"
+  },
+  "566": {
+   "stato": "usato",
+   "mappe": [
+    "24.13"
+   ]
+  },
+  "567": {
+   "stato": "usato",
+   "mappe": [
+    "24.30"
+   ]
+  },
+  "568": {
+   "stato": "forse usato",
+   "motivo": "sequenza simile a una lotta fuori dagli eventi di mappa"
+  },
+  "569": {
+   "stato": "usato",
+   "mappe": [
+    "24.22"
+   ]
+  },
+  "570": {
+   "stato": "usato",
+   "mappe": [
+    "24.13"
+   ]
+  },
+  "571": {
+   "stato": "usato",
+   "mappe": [
+    "11.3"
+   ]
+  },
+  "572": {
+   "stato": "usato",
+   "mappe": [
+    "3.3"
+   ]
+  },
+  "573": {
+   "stato": "usato",
+   "mappe": [
+    "3.3"
+   ]
+  },
+  "574": {
+   "stato": "usato",
+   "mappe": [
+    "3.3"
+   ]
+  },
+  "575": {
+   "stato": "usato",
+   "mappe": [
+    "14.0"
+   ]
+  },
+  "576": {
+   "stato": "usato",
+   "mappe": [
+    "0.41"
+   ]
+  },
+  "577": {
+   "stato": "usato",
+   "mappe": [
+    "0.42"
+   ]
+  },
+  "578": {
+   "stato": "usato",
+   "mappe": [
+    "0.43"
+   ]
+  },
+  "579": {
+   "stato": "usato",
+   "mappe": [
+    "24.12"
+   ]
+  },
+  "580": {
+   "stato": "usato",
+   "mappe": [
+    "0.44"
+   ]
+  },
+  "581": {
+   "stato": "libero"
+  },
+  "582": {
+   "stato": "usato",
+   "mappe": [
+    "14.0"
+   ]
+  },
+  "583": {
+   "stato": "usato",
+   "mappe": [
+    "14.0"
+   ]
+  },
+  "584": {
+   "stato": "usato",
+   "mappe": [
+    "14.0"
+   ]
+  },
+  "585": {
+   "stato": "usato",
+   "mappe": [
+    "14.0"
+   ]
+  },
+  "586": {
+   "stato": "usato",
+   "mappe": [
+    "14.9",
+    "34.57"
+   ]
+  },
+  "587": {
+   "stato": "usato",
+   "mappe": [
+    "14.9",
+    "34.58"
+   ]
+  },
+  "588": {
+   "stato": "usato",
+   "mappe": [
+    "14.10"
+   ]
+  },
+  "589": {
+   "stato": "usato",
+   "mappe": [
+    "14.10"
+   ]
+  },
+  "590": {
+   "stato": "usato",
+   "mappe": [
+    "14.10"
+   ]
+  },
+  "591": {
+   "stato": "usato",
+   "mappe": [
+    "14.0"
+   ]
+  },
+  "592": {
+   "stato": "usato",
+   "mappe": [
+    "0.19",
+    "0.3"
+   ]
+  },
+  "593": {
+   "stato": "usato",
+   "mappe": [
+    "0.19",
+    "0.3"
+   ]
+  },
+  "594": {
+   "stato": "usato",
+   "mappe": [
+    "0.47"
+   ]
+  },
+  "595": {
+   "stato": "usato",
+   "mappe": [
+    "0.39"
+   ]
+  },
+  "596": {
+   "stato": "usato",
+   "mappe": [
+    "32.1"
+   ]
+  },
+  "597": {
+   "stato": "usato",
+   "mappe": [
+    "24.12"
+   ]
+  },
+  "598": {
+   "stato": "usato",
+   "mappe": [
+    "0.47"
+   ]
+  },
+  "599": {
+   "stato": "usato",
+   "mappe": [
+    "0.19",
+    "0.3"
+   ]
+  },
+  "600": {
+   "stato": "usato",
+   "mappe": [
+    "0.19",
+    "0.3"
+   ]
+  },
+  "601": {
+   "stato": "usato",
+   "mappe": [
+    "24.91",
+    "35.16"
+   ]
+  },
+  "602": {
+   "stato": "usato",
+   "mappe": [
+    "24.12"
+   ]
+  },
+  "603": {
+   "stato": "usato",
+   "mappe": [
+    "0.17",
+    "34.20"
+   ]
+  },
+  "604": {
+   "stato": "usato",
+   "mappe": [
+    "0.19",
+    "34.3"
+   ]
+  },
+  "605": {
+   "stato": "usato",
+   "mappe": [
+    "0.31"
+   ]
+  },
+  "606": {
+   "stato": "usato",
+   "mappe": [
+    "0.26"
+   ]
+  },
+  "607": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_HALEY_2 (src/battle_setup.c)"
+  },
+  "608": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_HALEY_3 (src/battle_setup.c)"
+  },
+  "609": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_HALEY_4 (src/battle_setup.c)"
+  },
+  "610": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_HALEY_5 (src/battle_setup.c)"
+  },
+  "611": {
+   "stato": "usato",
+   "mappe": [
+    "29.3"
+   ]
+  },
+  "612": {
+   "stato": "usato",
+   "mappe": [
+    "29.3"
+   ]
+  },
+  "613": {
+   "stato": "usato",
+   "mappe": [
+    "15.1"
+   ]
+  },
+  "614": {
+   "stato": "usato",
+   "mappe": [
+    "15.1"
+   ]
+  },
+  "615": {
+   "stato": "usato",
+   "mappe": [
+    "0.17",
+    "2.1"
+   ]
+  },
+  "616": {
+   "stato": "usato",
+   "mappe": [
+    "0.16",
+    "24.11"
+   ]
+  },
+  "617": {
+   "stato": "usato",
+   "mappe": [
+    "0.16",
+    "0.31"
+   ]
+  },
+  "618": {
+   "stato": "usato",
+   "mappe": [
+    "0.34",
+    "34.51"
+   ]
+  },
+  "619": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "620": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "621": {
+   "stato": "usato",
+   "mappe": [
+    "24.11"
+   ]
+  },
+  "622": {
+   "stato": "usato",
+   "mappe": [
+    "34.43"
+   ]
+  },
+  "623": {
+   "stato": "usato",
+   "mappe": [
+    "34.43"
+   ]
+  },
+  "624": {
+   "stato": "usato",
+   "mappe": [
+    "34.43"
+   ]
+  },
+  "625": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_JAMES_5 (src/battle_setup.c)"
+  },
+  "626": {
+   "stato": "usato",
+   "mappe": [
+    "0.27"
+   ]
+  },
+  "627": {
+   "stato": "usato",
+   "mappe": [
+    "0.27"
+   ]
+  },
+  "628": {
+   "stato": "usato",
+   "mappe": [
+    "0.29"
+   ]
+  },
+  "629": {
+   "stato": "usato",
+   "mappe": [
+    "0.29"
+   ]
+  },
+  "630": {
+   "stato": "usato",
+   "mappe": [
+    "29.5"
+   ]
+  },
+  "631": {
+   "stato": "usato",
+   "mappe": [
+    "0.31"
+   ]
+  },
+  "632": {
+   "stato": "usato",
+   "mappe": [
+    "24.13"
+   ]
+  },
+  "633": {
+   "stato": "libero"
+  },
+  "634": {
+   "stato": "libero"
+  },
+  "635": {
+   "stato": "usato",
+   "mappe": [
+    "24.4"
+   ]
+  },
+  "636": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_TRENT_2 (src/battle_setup.c)"
+  },
+  "637": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_TRENT_3 (src/battle_setup.c)"
+  },
+  "638": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_TRENT_4 (src/battle_setup.c)"
+  },
+  "639": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_TRENT_5 (src/battle_setup.c)"
+  },
+  "640": {
+   "stato": "usato",
+   "mappe": [
+    "24.16"
+   ]
+  },
+  "641": {
+   "stato": "usato",
+   "mappe": [
+    "25.43"
+   ]
+  },
+  "642": {
+   "stato": "usato",
+   "mappe": [
+    "24.62"
+   ]
+  },
+  "643": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_KIRA_AND_DAN_2 (src/battle_setup.c)"
+  },
+  "644": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_KIRA_AND_DAN_3 (src/battle_setup.c)"
+  },
+  "645": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_KIRA_AND_DAN_4 (src/battle_setup.c)"
+  },
+  "646": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_KIRA_AND_DAN_5 (src/battle_setup.c)"
+  },
+  "647": {
+   "stato": "usato",
+   "mappe": [
+    "28.0"
+   ]
+  },
+  "648": {
+   "stato": "usato",
+   "mappe": [
+    "4.1"
+   ]
+  },
+  "649": {
+   "stato": "usato",
+   "mappe": [
+    "10.0"
+   ]
+  },
+  "650": {
+   "stato": "usato",
+   "mappe": [
+    "4.1"
+   ]
+  },
+  "651": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "652": {
+   "stato": "usato",
+   "mappe": [
+    "0.35"
+   ]
+  },
+  "653": {
+   "stato": "usato",
+   "mappe": [
+    "0.35"
+   ]
+  },
+  "654": {
+   "stato": "usato",
+   "mappe": [
+    "12.1"
+   ]
+  },
+  "655": {
+   "stato": "usato",
+   "mappe": [
+    "12.1"
+   ]
+  },
+  "656": {
+   "stato": "usato",
+   "mappe": [
+    "0.2"
+   ]
+  },
+  "657": {
+   "stato": "usato",
+   "mappe": [
+    "24.43"
+   ]
+  },
+  "658": {
+   "stato": "riservato",
+   "motivo": "flag 0x792 presa dal pool: rosone ordine giusto"
+  },
+  "659": {
+   "stato": "riservato",
+   "motivo": "flag 0x793 presa dal pool: rosone seconda"
+  },
+  "660": {
+   "stato": "riservato",
+   "motivo": "flag 0x794 presa dal pool: rosone prima"
+  },
+  "661": {
+   "stato": "usato",
+   "mappe": [
+    "0.5"
+   ]
+  },
+  "662": {
+   "stato": "usato",
+   "mappe": [
+    "0.5"
+   ]
+  },
+  "663": {
+   "stato": "usato",
+   "mappe": [
+    "0.5"
+   ]
+  },
+  "664": {
+   "stato": "usato",
+   "mappe": [
+    "0.5"
+   ]
+  },
+  "665": {
+   "stato": "usato",
+   "mappe": [
+    "0.5"
+   ]
+  },
+  "666": {
+   "stato": "usato",
+   "mappe": [
+    "0.5"
+   ]
+  },
+  "667": {
+   "stato": "usato",
+   "mappe": [
+    "0.42"
+   ]
+  },
+  "668": {
+   "stato": "usato",
+   "mappe": [
+    "0.42"
+   ]
+  },
+  "669": {
+   "stato": "usato",
+   "mappe": [
+    "0.42"
+   ]
+  },
+  "670": {
+   "stato": "usato",
+   "mappe": [
+    "0.43"
+   ]
+  },
+  "671": {
+   "stato": "usato",
+   "mappe": [
+    "0.43"
+   ]
+  },
+  "672": {
+   "stato": "usato",
+   "mappe": [
+    "0.42"
+   ]
+  },
+  "673": {
+   "stato": "usato",
+   "mappe": [
+    "0.43"
+   ]
+  },
+  "674": {
+   "stato": "usato",
+   "mappe": [
+    "0.42"
+   ]
+  },
+  "675": {
+   "stato": "usato",
+   "mappe": [
+    "0.44"
+   ]
+  },
+  "676": {
+   "stato": "usato",
+   "mappe": [
+    "0.44"
+   ]
+  },
+  "677": {
+   "stato": "usato",
+   "mappe": [
+    "0.28"
+   ]
+  },
+  "678": {
+   "stato": "usato",
+   "mappe": [
+    "0.40"
+   ]
+  },
+  "679": {
+   "stato": "usato",
+   "mappe": [
+    "0.29"
+   ]
+  },
+  "680": {
+   "stato": "usato",
+   "mappe": [
+    "0.24"
+   ]
+  },
+  "681": {
+   "stato": "usato",
+   "mappe": [
+    "24.1"
+   ]
+  },
+  "682": {
+   "stato": "riservato",
+   "motivo": "flag 0x7aa presa dal pool: codici MT17 data"
+  },
+  "683": {
+   "stato": "riservato",
+   "motivo": "flag 0x7ab presa dal pool: codici ordine giusto"
+  },
+  "684": {
+   "stato": "forse usato",
+   "motivo": "sequenza simile a una lotta fuori dagli eventi di mappa"
+  },
+  "685": {
+   "stato": "riservato",
+   "motivo": "flag 0x7ad presa dal pool: codici primo"
+  },
+  "686": {
+   "stato": "usato",
+   "mappe": [
+    "0.46"
+   ]
+  },
+  "687": {
+   "stato": "usato",
+   "mappe": [
+    "0.39"
+   ]
+  },
+  "688": {
+   "stato": "riservato",
+   "motivo": "flag 0x7b0 presa dal pool: pittore: SMEARGLE consegnato"
+  },
+  "689": {
+   "stato": "riservato",
+   "motivo": "flag 0x7b1 presa dal pool: pennello 3"
+  },
+  "690": {
+   "stato": "riservato",
+   "motivo": "flag 0x7b2 presa dal pool: pennello 2"
+  },
+  "691": {
+   "stato": "riservato",
+   "motivo": "flag 0x7b3 presa dal pool: pennello 1"
+  },
+  "692": {
+   "stato": "usato",
+   "mappe": [
+    "0.22"
+   ]
+  },
+  "693": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "694": {
+   "stato": "usato",
+   "mappe": [
+    "0.31"
+   ]
+  },
+  "695": {
+   "stato": "usato",
+   "mappe": [
+    "0.31"
+   ]
+  },
+  "696": {
+   "stato": "usato",
+   "mappe": [
+    "0.19"
+   ]
+  },
+  "697": {
+   "stato": "usato",
+   "mappe": [
+    "0.24"
+   ]
+  },
+  "698": {
+   "stato": "usato",
+   "mappe": [
+    "0.24"
+   ]
+  },
+  "699": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "700": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "701": {
+   "stato": "usato",
+   "mappe": [
+    "0.25"
+   ]
+  },
+  "702": {
+   "stato": "usato",
+   "mappe": [
+    "0.18"
+   ]
+  },
+  "703": {
+   "stato": "usato",
+   "mappe": [
+    "0.18"
+   ]
+  },
+  "704": {
+   "stato": "usato",
+   "mappe": [
+    "0.26"
+   ]
+  },
+  "705": {
+   "stato": "usato",
+   "mappe": [
+    "0.26"
+   ]
+  },
+  "706": {
+   "stato": "usato",
+   "mappe": [
+    "0.26"
+   ]
+  },
+  "707": {
+   "stato": "usato",
+   "mappe": [
+    "0.26"
+   ]
+  },
+  "708": {
+   "stato": "usato",
+   "mappe": [
+    "0.28"
+   ]
+  },
+  "709": {
+   "stato": "usato",
+   "mappe": [
+    "0.28"
+   ]
+  },
+  "710": {
+   "stato": "usato",
+   "mappe": [
+    "0.28"
+   ]
+  },
+  "711": {
+   "stato": "usato",
+   "mappe": [
+    "0.28"
+   ]
+  },
+  "712": {
+   "stato": "usato",
+   "mappe": [
+    "0.29"
+   ]
+  },
+  "713": {
+   "stato": "usato",
+   "mappe": [
+    "0.29"
+   ]
+  },
+  "714": {
+   "stato": "usato",
+   "mappe": [
+    "0.29"
+   ]
+  },
+  "715": {
+   "stato": "usato",
+   "mappe": [
+    "0.33"
+   ]
+  },
+  "716": {
+   "stato": "usato",
+   "mappe": [
+    "24.86",
+    "34.75"
+   ]
+  },
+  "717": {
+   "stato": "usato",
+   "mappe": [
+    "24.86",
+    "34.75"
+   ]
+  },
+  "718": {
+   "stato": "usato",
+   "mappe": [
+    "24.87",
+    "34.76"
+   ]
+  },
+  "719": {
+   "stato": "usato",
+   "mappe": [
+    "24.87"
+   ]
+  },
+  "720": {
+   "stato": "usato",
+   "mappe": [
+    "24.87"
+   ]
+  },
+  "721": {
+   "stato": "usato",
+   "mappe": [
+    "24.88"
+   ]
+  },
+  "722": {
+   "stato": "usato",
+   "mappe": [
+    "24.88"
+   ]
+  },
+  "723": {
+   "stato": "usato",
+   "mappe": [
+    "24.88"
+   ]
+  },
+  "724": {
+   "stato": "usato",
+   "mappe": [
+    "24.89"
+   ]
+  },
+  "725": {
+   "stato": "usato",
+   "mappe": [
+    "24.90"
+   ]
+  },
+  "726": {
+   "stato": "usato",
+   "mappe": [
+    "24.91"
+   ]
+  },
+  "727": {
+   "stato": "usato",
+   "mappe": [
+    "24.91"
+   ]
+  },
+  "728": {
+   "stato": "usato",
+   "mappe": [
+    "24.91"
+   ]
+  },
+  "729": {
+   "stato": "usato",
+   "mappe": [
+    "24.87"
+   ]
+  },
+  "730": {
+   "stato": "usato",
+   "mappe": [
+    "24.88"
+   ]
+  },
+  "731": {
+   "stato": "usato",
+   "mappe": [
+    "24.89"
+   ]
+  },
+  "732": {
+   "stato": "usato",
+   "mappe": [
+    "24.91"
+   ]
+  },
+  "733": {
+   "stato": "usato",
+   "mappe": [
+    "0.47"
+   ]
+  },
+  "734": {
+   "stato": "libero"
+  },
+  "735": {
+   "stato": "usato",
+   "mappe": [
+    "0.18"
+   ]
+  },
+  "736": {
+   "stato": "usato",
+   "mappe": [
+    "0.18"
+   ]
+  },
+  "737": {
+   "stato": "usato",
+   "mappe": [
+    "0.20"
+   ]
+  },
+  "738": {
+   "stato": "usato",
+   "mappe": [
+    "0.20"
+   ]
+  },
+  "739": {
+   "stato": "usato",
+   "mappe": [
+    "0.22"
+   ]
+  },
+  "740": {
+   "stato": "usato",
+   "mappe": [
+    "0.23"
+   ]
+  },
+  "741": {
+   "stato": "usato",
+   "mappe": [
+    "0.23",
+    "35.5"
+   ]
+  },
+  "742": {
+   "stato": "usato",
+   "mappe": [
+    "0.24",
+    "35.9"
+   ]
+  },
+  "743": {
+   "stato": "usato",
+   "mappe": [
+    "0.26",
+    "35.9"
+   ]
+  },
+  "744": {
+   "stato": "usato",
+   "mappe": [
+    "0.26",
+    "35.9"
+   ]
+  },
+  "745": {
+   "stato": "usato",
+   "mappe": [
+    "0.26",
+    "35.14"
+   ]
+  },
+  "746": {
+   "stato": "usato",
+   "mappe": [
+    "0.27",
+    "35.15"
+   ]
+  },
+  "747": {
+   "stato": "usato",
+   "mappe": [
+    "0.27",
+    "35.26"
+   ]
+  },
+  "748": {
+   "stato": "usato",
+   "mappe": [
+    "0.30",
+    "34.39"
+   ]
+  },
+  "749": {
+   "stato": "usato",
+   "mappe": [
+    "0.30"
+   ]
+  },
+  "750": {
+   "stato": "usato",
+   "mappe": [
+    "0.30",
+    "35.28"
+   ]
+  },
+  "751": {
+   "stato": "usato",
+   "mappe": [
+    "0.30",
+    "35.28"
+   ]
+  },
+  "752": {
+   "stato": "usato",
+   "mappe": [
+    "0.30",
+    "35.29"
+   ]
+  },
+  "753": {
+   "stato": "usato",
+   "mappe": [
+    "0.31",
+    "35.29"
+   ]
+  },
+  "754": {
+   "stato": "usato",
+   "mappe": [
+    "0.31",
+    "35.30"
+   ]
+  },
+  "755": {
+   "stato": "usato",
+   "mappe": [
+    "0.32",
+    "35.30"
+   ]
+  },
+  "756": {
+   "stato": "usato",
+   "mappe": [
+    "0.32"
+   ]
+  },
+  "757": {
+   "stato": "usato",
+   "mappe": [
+    "0.32"
+   ]
+  },
+  "758": {
+   "stato": "usato",
+   "mappe": [
+    "0.47"
+   ]
+  },
+  "759": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "760": {
+   "stato": "usato",
+   "mappe": [
+    "0.34",
+    "34.43"
+   ]
+  },
+  "761": {
+   "stato": "usato",
+   "mappe": [
+    "0.34"
+   ]
+  },
+  "762": {
+   "stato": "usato",
+   "mappe": [
+    "0.35"
+   ]
+  },
+  "763": {
+   "stato": "usato",
+   "mappe": [
+    "0.35"
+   ]
+  },
+  "764": {
+   "stato": "usato",
+   "mappe": [
+    "0.36"
+   ]
+  },
+  "765": {
+   "stato": "usato",
+   "mappe": [
+    "0.36"
+   ]
+  },
+  "766": {
+   "stato": "usato",
+   "mappe": [
+    "0.36"
+   ]
+  },
+  "767": {
+   "stato": "usato",
+   "mappe": [
+    "0.36"
+   ]
+  },
+  "768": {
+   "stato": "usato",
+   "mappe": [
+    "0.19",
+    "0.3"
+   ]
+  },
+  "769": {
+   "stato": "usato",
+   "mappe": [
+    "0.19",
+    "0.3"
+   ]
+  },
+  "770": {
+   "stato": "usato",
+   "mappe": [
+    "35.49"
+   ]
+  },
+  "771": {
+   "stato": "usato",
+   "mappe": [
+    "35.49"
+   ]
+  },
+  "772": {
+   "stato": "usato",
+   "mappe": [
+    "35.49"
+   ]
+  },
+  "773": {
+   "stato": "usato",
+   "mappe": [
+    "35.52"
+   ]
+  },
+  "774": {
+   "stato": "usato",
+   "mappe": [
+    "35.52"
+   ]
+  },
+  "775": {
+   "stato": "usato",
+   "mappe": [
+    "35.52"
+   ]
+  },
+  "776": {
+   "stato": "usato",
+   "mappe": [
+    "35.54"
+   ]
+  },
+  "777": {
+   "stato": "usato",
+   "mappe": [
+    "35.55"
+   ]
+  },
+  "778": {
+   "stato": "usato",
+   "mappe": [
+    "35.56"
+   ]
+  },
+  "779": {
+   "stato": "usato",
+   "mappe": [
+    "35.57"
+   ]
+  },
+  "780": {
+   "stato": "usato",
+   "mappe": [
+    "35.57"
+   ]
+  },
+  "781": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_WATTSON_5 (src/battle_setup.c)"
+  },
+  "782": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_FLANNERY_2 (src/battle_setup.c)"
+  },
+  "783": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_FLANNERY_3 (src/battle_setup.c)"
+  },
+  "784": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_FLANNERY_4 (src/battle_setup.c)"
+  },
+  "785": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_FLANNERY_5 (src/battle_setup.c)"
+  },
+  "786": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_NORMAN_2 (src/battle_setup.c)"
+  },
+  "787": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_NORMAN_3 (src/battle_setup.c)"
+  },
+  "788": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_NORMAN_4 (src/battle_setup.c)"
+  },
+  "789": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_NORMAN_5 (src/battle_setup.c)"
+  },
+  "790": {
+   "stato": "usato",
+   "mappe": [
+    "35.35"
+   ]
+  },
+  "791": {
+   "stato": "usato",
+   "mappe": [
+    "35.35"
+   ]
+  },
+  "792": {
+   "stato": "usato",
+   "mappe": [
+    "35.35"
+   ]
+  },
+  "793": {
+   "stato": "usato",
+   "mappe": [
+    "35.35"
+   ]
+  },
+  "794": {
+   "stato": "usato",
+   "mappe": [
+    "35.35"
+   ]
+  },
+  "795": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_TATE_AND_LIZA_3 (src/battle_setup.c)"
+  },
+  "796": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_TATE_AND_LIZA_4 (src/battle_setup.c)"
+  },
+  "797": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_TATE_AND_LIZA_5 (src/battle_setup.c)"
+  },
+  "798": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_JUAN_2 (src/battle_setup.c)"
+  },
+  "799": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_JUAN_3 (src/battle_setup.c)"
+  },
+  "800": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_JUAN_4 (src/battle_setup.c)"
+  },
+  "801": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_JUAN_5 (src/battle_setup.c)"
+  },
+  "802": {
+   "stato": "usato",
+   "mappe": [
+    "10.0"
+   ]
+  },
+  "803": {
+   "stato": "usato",
+   "mappe": [
+    "12.1"
+   ]
+  },
+  "804": {
+   "stato": "usato",
+   "mappe": [
+    "24.107"
+   ]
+  },
+  "805": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ANABEL (src/frontier_util.c)"
+  },
+  "806": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_TUCKER (src/battle_dome.c)"
+  },
+  "807": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_SPENSER (src/frontier_util.c)"
+  },
+  "808": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_GRETA (src/frontier_util.c)"
+  },
+  "809": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_NOLAND (src/frontier_util.c)"
+  },
+  "810": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_LUCY (src/frontier_util.c)"
+  },
+  "811": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_BRANDON (src/frontier_util.c)"
+  },
+  "812": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ANDRES_2 (src/battle_setup.c)"
+  },
+  "813": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ANDRES_3 (src/battle_setup.c)"
+  },
+  "814": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ANDRES_4 (src/battle_setup.c)"
+  },
+  "815": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_ANDRES_5 (src/battle_setup.c)"
+  },
+  "816": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_CORY_2 (src/battle_setup.c)"
+  },
+  "817": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_CORY_3 (src/battle_setup.c)"
+  },
+  "818": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_CORY_4 (src/battle_setup.c)"
+  },
+  "819": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_CORY_5 (src/battle_setup.c)"
+  },
+  "820": {
+   "stato": "usato",
+   "mappe": [
+    "34.39"
+   ]
+  },
+  "821": {
+   "stato": "usato",
+   "mappe": [
+    "35.60"
+   ]
+  },
+  "822": {
+   "stato": "usato",
+   "mappe": [
+    "35.60"
+   ]
+  },
+  "823": {
+   "stato": "usato",
+   "mappe": [
+    "35.63"
+   ]
+  },
+  "824": {
+   "stato": "usato",
+   "mappe": [
+    "35.61"
+   ]
+  },
+  "825": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_KOJI_3 (src/battle_setup.c)"
+  },
+  "826": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_KOJI_4 (src/battle_setup.c)"
+  },
+  "827": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_KOJI_5 (src/battle_setup.c)"
+  },
+  "828": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_CRISTIN_2 (src/battle_setup.c)"
+  },
+  "829": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_CRISTIN_3 (src/battle_setup.c)"
+  },
+  "830": {
+   "stato": "usato",
+   "mappe": [
+    "34.20"
+   ]
+  },
+  "831": {
+   "stato": "usato",
+   "mappe": [
+    "34.20"
+   ]
+  },
+  "832": {
+   "stato": "usato",
+   "mappe": [
+    "34.20"
+   ]
+  },
+  "833": {
+   "stato": "usato",
+   "mappe": [
+    "34.68"
+   ]
+  },
+  "834": {
+   "stato": "usato",
+   "mappe": [
+    "34.68"
+   ]
+  },
+  "835": {
+   "stato": "usato",
+   "mappe": [
+    "34.68"
+   ]
+  },
+  "836": {
+   "stato": "usato",
+   "mappe": [
+    "35.0"
+   ]
+  },
+  "837": {
+   "stato": "usato",
+   "mappe": [
+    "35.0"
+   ]
+  },
+  "838": {
+   "stato": "usato",
+   "mappe": [
+    "35.0"
+   ]
+  },
+  "839": {
+   "stato": "usato",
+   "mappe": [
+    "35.10"
+   ]
+  },
+  "840": {
+   "stato": "usato",
+   "mappe": [
+    "35.10"
+   ]
+  },
+  "841": {
+   "stato": "usato",
+   "mappe": [
+    "35.10"
+   ]
+  },
+  "842": {
+   "stato": "usato",
+   "mappe": [
+    "35.27"
+   ]
+  },
+  "843": {
+   "stato": "usato",
+   "mappe": [
+    "35.27"
+   ]
+  },
+  "844": {
+   "stato": "usato",
+   "mappe": [
+    "35.27"
+   ]
+  },
+  "845": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_THALIA_3 (src/battle_setup.c)"
+  },
+  "846": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_THALIA_4 (src/battle_setup.c)"
+  },
+  "847": {
+   "stato": "Smeraldo",
+   "motivo": "TRAINER_THALIA_5 (src/battle_setup.c)"
+  },
+  "848": {
+   "stato": "usato",
+   "mappe": [
+    "29.9"
+   ]
+  },
+  "849": {
+   "stato": "usato",
+   "mappe": [
+    "29.9"
+   ]
+  },
+  "850": {
+   "stato": "usato",
+   "mappe": [
+    "29.9"
+   ]
+  },
+  "851": {
+   "stato": "libero"
+  },
+  "852": {
+   "stato": "libero"
+  },
+  "853": {
+   "stato": "libero"
+  },
+  "854": {
+   "stato": "libero"
+  },
+  "855": {
+   "stato": "usato",
+   "mappe": [
+    "34.115"
+   ]
+  },
+  "856": {
+   "stato": "usato",
+   "mappe": [
+    "34.112"
+   ]
+  },
+  "857": {
+   "stato": "libero"
+  },
+  "858": {
+   "stato": "libero"
+  },
+  "859": {
+   "stato": "libero"
+  },
+  "860": {
+   "stato": "libero"
+  },
+  "861": {
+   "stato": "libero"
+  },
+  "862": {
+   "stato": "libero"
+  },
+  "863": {
+   "stato": "libero"
+  }
+ }
+}

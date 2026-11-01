@@ -9,3 +9,7 @@ __pycache__/
 collaudo/mgba/
 collaudo/vbam-libretro/
 collaudo/h
+# uscite dei collaudi (screenshot, ROM avvelenate): i risultati da tenere sono in collaudo/risultati/
+collaudo/out57/
+collaudo/out_regressione/
+collaudo/play/log.txt

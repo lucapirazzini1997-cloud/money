@@ -6,6 +6,8 @@ Catena (ogni tappa verifica lo SHA-256 atteso):
   2. 0.54  --pezzo_055/patch_054_055.bps (la 0.55 non ha sorgenti)-->                0.55
   3. 0.55  --versioni/ (moduli Python, uno per versione)-->                            0.56, 0.57, ...
   4. registri/ rigenerati e controllo delle flag condivise.
+  5. controlli del Lotto 1 (registri/controlli.py): allenatori con flag riservata, mappe importanti o nuove
+     non raggiungibili (la build fallisce), risorse libere e budget (out/rapporto_build.json).
 
 Uso:
   python3 build.py                 build completa fino all'ultima versione in VERSIONI
@@ -23,10 +25,12 @@ SHA = {
     '054': 'a06532552a9f79744d889e948d21d713043f29a32847e78d7febae9bbdc92906',
     '055': '2bfaa8a3ada9f8bbaa1112028f85f6d1d85e00d5bc71668e1444508b45e44ad6',
     '056': 'b09eb6977ca7ceaf81be2a184d719ce6cc25229d2889e4cc3c4fa4714237495f',
+    '057': '47f53668d8b5861956938cd041fb892e541b86031e4ac7b4337e8328923897c4',   # collaudo: collaudo/risultati/057
+    '058': '47f53668d8b5861956938cd041fb892e541b86031e4ac7b4337e8328923897c4',   # = 0.57 (solo registri e controlli)
 }
 # Versioni costruite sopra la 0.55: (numero, modulo in versioni/). Ogni nuova versione aggiunge una riga
 # e il suo SHA atteso in SHA (dopo averla collaudata). Il modulo espone apply(W) -> dict (rapporto).
-VERSIONI = [('056', 'v056_cesena_rivale'), ('057', 'v057_spazio')]
+VERSIONI = [('056', 'v056_cesena_rivale'), ('057', 'v057_spazio'), ('058', 'v058_registri')]
 
 
 def sha(b): return hashlib.sha256(b).hexdigest()
@@ -77,9 +81,15 @@ def tappe_versioni(rom055):
         rapporto[ver] = m.apply(W)
         data = check(ver, bytes(W.d))
         (OUT / nome(ver)).write_bytes(data)
-    json.dump(dict(rapporto=rapporto, script=W.scripts_log, flag=engine.POOL.taken if engine.POOL else []),
+    risorse = dict(spazio_libero=W.libere(),
+                   flag_pool_restanti=len(engine.POOL.restanti()) if engine.POOL else None,
+                   variabili_restanti=len(engine.VARS.rest) if engine.VARS else None,
+                   usate=dict(flag=[f for f, _ in engine.POOL.taken] if engine.POOL else [],
+                              variabili=[v for v, _ in engine.VARS.taken] if engine.VARS else []))
+    json.dump(dict(rapporto=rapporto, script=W.scripts_log, flag=engine.POOL.taken if engine.POOL else [],
+                   variabili=engine.VARS.taken if engine.VARS else [], risorse=risorse),
               open(OUT / 'rapporto_build.json', 'w'), ensure_ascii=False, indent=1, default=str)
-    return bytes(W.d), VERSIONI[-1][0]
+    return bytes(W.d), VERSIONI[-1][0], risorse, (engine.POOL.taken if engine.POOL else [])
 
 
 def main():
@@ -93,12 +103,17 @@ def main():
         r055 = tappa_055(r054); (OUT / 'Pokemon_Romagna_0_55.gba').write_bytes(r055)
     else:
         r055 = check('055', (OUT / 'Pokemon_Romagna_0_55.gba').read_bytes())
-    final, ver = tappe_versioni(r055)
+    final, ver, risorse, presi = tappe_versioni(r055)
     if not a.senza_registri:
         print('[4] registri')
         sys.path.insert(0, str(ROOT / 'registri'))
         import genera
         genera.main(OUT / nome(ver), ROOT / 'registri', strict=True)
+        print('[5] controlli: allenatori, raggiungibilita, risorse e budget')
+        import controlli
+        budget = controlli.main(OUT / nome(ver), ROOT / 'registri', presi, risorse, strict=True)
+        rj = json.load(open(OUT / 'rapporto_build.json')); rj['budget'] = budget
+        json.dump(rj, open(OUT / 'rapporto_build.json', 'w'), ensure_ascii=False, indent=1, default=str)
     print('fatto: out/' + nome(ver))
 
 

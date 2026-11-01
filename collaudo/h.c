@@ -1,20 +1,28 @@
 #include <stdint.h>
-// Headless mGBA harness. Commands on stdin:
+// Headless mGBA harness (compilare con le stesse -D della libreria: vedi prepara_emulatori.sh). Commands on stdin:
 //  run N | key MASK N (hold keys for N frames) | shot FILE | ram ADDR LEN | w8/w16/w32 ADDR VAL | save FILE | load FILE | quit
 #include <mgba/core/core.h>
 #include <mgba/core/config.h>
 #include <mgba-util/vfs.h>
 #include <mgba/gba/core.h>
 #include <mgba/core/serialize.h>
+#include <mgba/core/log.h>
 #include <stdio.h>
+#include <stdarg.h>
 #include <stdlib.h>
 #include <string.h>
+// log di mGBA spento: andrebbe su stderr, lo stesso canale delle risposte
+static void nolog(struct mLogger*l,int c,enum mLogLevel lv,const char*f,va_list a){(void)l;(void)c;(void)lv;(void)f;(void)a;}
+static struct mLogger quiet={.log=nolog};
 int main(int argc,char**argv){
+  mLogSetDefaultLogger(&quiet);
   struct mCore*core=mCoreFind(argv[1]); if(!core){fprintf(stderr,"nocore\n");return 1;}
   core->init(core); mCoreInitConfig(core,NULL);
   unsigned w,h; core->baseVideoSize(core,&w,&h);
   uint32_t*buf=calloc(w*h,4); core->setVideoBuffer(core,buf,w);
   mCoreLoadFile(core,argv[1]);
+  // orologio (RTC) finto e ripetibile: 1/1/2026 12:00 piu' il tempo emulato; H_WALLCLOCK=1 per l'ora vera
+  if(!getenv("H_WALLCLOCK")){ core->rtc.override=RTC_FAKE_EPOCH; core->rtc.value=1767268800000LL; }
   if(argc>2){ struct VFile*sv=VFileOpen(argv[2],O_CREAT|O_RDWR); if(sv) core->loadSave(core,sv);}
   core->reset(core);
   char line[512];

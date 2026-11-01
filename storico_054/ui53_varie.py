@@ -1,0 +1,52 @@
+"""Abilità, nature, tipi, classi allenatore in italiano (0.53)."""
+ABIL_FIX = {76: 'CACOFONIA'}
+ABIL_DESC = {
+0: "Nessuna abilità speciale.", 1: "Tiene lontani i selvatici.", 2: "Fa piovere in lotta.",
+3: "Aumenta la VELOCITÀ.", 4: "Blocca i brutti colpi.", 5: "Immune ai KO in un colpo.",
+6: "Blocca l'autodistruzione.", 7: "Impedisce la paralisi.", 8: "Più elusione con la sabbia.",
+9: "Paralizza al contatto.", 10: "L'elettricità gli dà PS.", 11: "Trasforma l'acqua in PS.",
+12: "Impedisce l'infatuazione.", 13: "Annulla gli effetti meteo.", 14: "Aumenta la precisione.",
+15: "Impedisce il sonno.", 16: "Prende il tipo del colpo.", 17: "Impedisce l'avvelenamento.",
+18: "Si potenzia col fuoco.", 19: "Annulla effetti aggiuntivi.", 20: "Impedisce la confusione.",
+21: "Saldamente ancorato.", 22: "Riduce l'ATTACCO nemico.", 23: "Impedisce la fuga al nemico.",
+24: "Chi lo tocca si ferisce.", 25: "Teme solo i superefficaci.", 26: "Immune alle mosse TERRA.",
+27: "Spore al contatto.", 28: "Passa i problemi di stato.", 29: "Blocca i cali di statistiche.",
+30: "Guarisce quando si ritira.", 31: "Attira le mosse elettriche.", 32: "Aiuta gli effetti aggiuntivi.",
+33: "Più VELOCITÀ con la pioggia.", 34: "Più VELOCITÀ con il sole.", 35: "Più incontri selvatici.",
+36: "Copia l'abilità del nemico.", 37: "Aumenta l'ATTACCO.", 38: "Avvelena al contatto.",
+39: "Impedisce di tentennare.", 40: "Impedisce il congelamento.", 41: "Impedisce le scottature.",
+42: "Intrappola i tipi ACCIAIO.", 43: "Immune alle mosse sonore.", 44: "Recupera PS con la pioggia.",
+45: "Porta tempesta di sabbia.", 46: "Fa consumare più PP.", 47: "Protegge da caldo e freddo.",
+48: "Si sveglia in fretta.", 49: "Scotta al contatto.", 50: "Rende più facile la fuga.",
+51: "Blocca i cali di precisione.", 52: "Impedisce i cali di ATTACCO.", 53: "Può raccogliere strumenti.",
+54: "Agisce solo un turno su due.", 55: "Più forza, meno precisione.", 56: "Fa infatuare al contatto.",
+57: "Si potenzia con MENO.", 58: "Si potenzia con PIÙ.", 59: "Cambia con il tempo.",
+60: "Impedisce i furti.", 61: "Guarisce facendo la muta.", 62: "Più ATTACCO se ha uno stato.",
+63: "Più DIFESA se ha uno stato.", 64: "Chi assorbe PS si ferisce.", 65: "ERBA forte in difficoltà.",
+66: "FUOCO forte in difficoltà.", 67: "ACQUA forte in difficoltà.", 68: "COLEOT. forte in difficoltà.",
+69: "Nessun contraccolpo.", 70: "Fa splendere il sole.", 71: "Impedisce la fuga.",
+72: "Impedisce il sonno.", 73: "Blocca i cali di statistiche.", 74: "Aumenta l'ATTACCO.",
+75: "Blocca i brutti colpi.", 76: "Immune alle mosse sonore.", 77: "Annulla gli effetti meteo.",
+}
+NATURE = ['ARDITA', 'SCHIVA', 'AUDACE', 'DECISA', 'BIRBONA', 'SICURA', 'DOCILE', 'PLACIDA', 'SCALTRA', 'FIACCA',
+          'TIMIDA', 'LESTA', 'SERIA', 'ALLEGRA', 'INGENUA', 'MODESTA', 'MITE', 'QUIETA', 'RITROSA', 'ARDENTE',
+          'CALMA', 'GENTILE', 'VIVACE', 'CAUTA', 'FURBA']
+# 6 caratteri: icone dei tipi sono grafica (restano invariate)
+TIPI = ['NORMAL', 'LOTTA', 'VOLANT', 'VELENO', 'TERRA', 'ROCCIA', 'COLEOT', 'SPETTR', 'ACCIAI', '???',
+        'FUOCO', 'ACQUA', 'ERBA', 'ELETTR', 'PSICO', 'GHIACC', 'DRAGO', 'BUIO']
+CLASSI = {
+'{53}{54} TRAINER': 'ALLENATORE', 'HIKER': 'MONTANARO', '{53}{54} BREEDER': 'ALLEVATORE', 'COOLTRAINER': 'ASSO',
+'BIRD KEEPER': 'ORNITOLOGO', 'COLLECTOR': 'COLLEZION.', 'SWIMMER{b5}': 'NUOTATORE', 'EXPERT': 'ESPERTO',
+'BLACK BELT': 'KARATEKA', 'HEX MANIAC': 'OCCULTISTA', 'AROMA LADY': 'PROFUMIERA', 'RUIN MANIAC': 'ARCHEOLOGO',
+'INTERVIEWER': 'GIORNALISTA', 'TUBER': 'BAGNANTE', 'LADY': 'SIGNORINA', 'BEAUTY': 'MODELLA', 'RICH BOY': 'RICCASTRO',
+'POKéMANIAC': 'POKéMANIACO', 'GUITARIST': 'CHITARRISTA', 'KINDLER': 'FUOCHISTA', 'CAMPER': 'SCOUT',
+'PICNICKER': 'GITANTE', 'BUG MANIAC': 'ENTOMOLOGO', 'PSYCHIC': 'SENSITIVO', 'GENTLEMAN': 'GENTILUOMO',
+'ELITE FOUR': 'SUPERQUATTRO', 'LEADER': 'CAPOPALESTRA', 'SCHOOL KID': 'STUDENTE', 'SR. AND JR.': 'PADRE&FIGLIO',
+'WINSTRATE': 'VINCENTI', 'POKéFAN': 'POKéFAN', 'YOUNGSTER': 'RAGAZZO', 'CHAMPION': 'CAMPIONE',
+'FISHERMAN': 'PESCATORE', 'TRIATHLETE': 'TRIATLETA', 'DRAGON TAMER': 'DOMADRAGHI', 'NINJA BOY': 'NINJA',
+'BATTLE GIRL': 'LOTTATRICE', 'PARASOL LADY': 'DAMA PARASOL', 'SWIMMER{b6}': 'NUOTATRICE', 'TWINS': 'GEMELLE',
+'SAILOR': 'MARINAIO', 'BUG CATCHER': 'PIGLIAMOSCHE', '{53}{54} RANGER': 'RANGER', 'LASS': 'PUPA',
+'YOUNG COUPLE': 'GIOV. COPPIA', 'OLD COUPLE': 'COPPIA ANZ.', 'SIS AND BRO': 'FRATELLI', 'SALON MAIDEN': 'DAMA SALONE',
+'DOME ACE': 'ASSO CUPOLA', 'PALACE MAVEN': 'GRAN SAGGIO', 'ARENA TYCOON': 'MAGNATE', 'FACTORY HEAD': 'CAPOFABBRICA',
+'PIKE QUEEN': 'REGINA TUBO', 'PYRAMID KING': 'RE PIRAMIDE',
+}

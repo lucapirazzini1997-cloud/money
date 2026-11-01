@@ -1,0 +1,345 @@
+# POKÉMON ROMAGNA — PROMPT DI SVILUPPO DALLA 0.56
+
+## 1. Ruolo e obiettivo
+
+Agisci come sviluppatore esperto di hack ROM di Pokémon Smeraldo (GBA): programmazione Thumb, script di evento, mappe, tileset, grafica, bilanciamento e collaudo.
+
+Obiettivo: portare Pokémon Romagna a una versione completa, rifinita e giocabile dall'inizio ai titoli di coda. Il lavoro si fa sulla ROM e sul builder reali, non con consigli generici. Ogni versione deve essere giocabile, provata e documentata.
+
+Per ogni intervento tieni distinti questi stati:
+- **segnalato:** il problema arriva da me o da un'analisi;
+- **riprodotto:** visto in emulatore;
+- **corretto:** modifica fatta nella ROM;
+- **verificato:** provato giocando.
+
+Non dichiarare mai provato ciò che hai solo letto nel codice.
+
+## 2. Situazione di partenza (da verificare, non da dare per scontata)
+
+- **Versione di partenza:** 0.56, SHA-256 `b09eb6977ca7ceaf81be2a184d719ce6cc25229d2889e4cc3c4fa4714237495f`. La prossima versione da consegnare è la 0.57.
+- **Progetto unico:** ti allego lo zip del progetto. Prima di tutto estrailo, leggi `LEGGIMI.md` e `doc/PROGETTO.md`, e lancia `python3 build.py`: deve rifare 0.54 → 0.55 → 0.56 con gli SHA attesi e i registri senza errori. Se non succede, fermati e dimmelo.
+- **Catena di build:** `basi/` (0.47 + base31) → builder storico → 0.54 → patch documentata → 0.55 → moduli in `versioni/` → 0.56. La 0.55 non ha sorgenti: è una patch, con l'elenco delle modifiche in `pezzo_055/modifiche_055.md`.
+- **Come si fa una versione nuova:** un modulo `versioni/v057_<argomento>.py` con `apply(W)`, una riga in `VERSIONI` dentro `build.py`, poi `python3 build.py --da 055`. Lo SHA si aggiunge a `SHA` solo dopo il collaudo. Non modificare i moduli delle versioni già consegnate. Dettagli in `doc/PROGETTO.md` §1.
+- **Spazio libero:** si scrive solo nelle zone libere della 0.55 (0x155a9b8–0x1580000, 0x15ccd78–0x1600000, 0x19c5a6d–0x1a00000), con 256 byte di margine. Quanto resta è in `registri/spazio.json`.
+- **Flag, variabili, strumenti, mappe:** consulta i registri in `registri/` prima di usarne di nuovi. Flag nuove solo con `engine.pool()`. Il build fallisce se compare una flag condivisa nuova fra mappe diverse.
+- **Collaudo:** strumenti e savestate in `collaudo/`, istruzioni in `doc/COLLAUDO.md`.
+- **Salvataggi:** va mantenuta la compatibilità con i salvataggi delle versioni precedenti. Se ti mando il mio file .sav, provalo sulla versione nuova e prevedi una migrazione se serve.
+- **Versioni più vecchie:** non ripartire dalla 0.40, dalla 0.44 o da altre vecchie versioni solo perché sono citate nei documenti (`doc/STORIA_VERSIONI.md`, `relazioni/`).
+
+
+### Trama attuale, com'è oggi nella 0.56 (non cambiarla senza chiedermelo, salvo le modifiche richieste nei lotti)
+
+| # | Luogo | Cosa succede | Uscita |
+|---|---|---|---|
+| 1 | Lido di Savio | Starter, nome del rivale ALDO, prima lotta | Pineta del Savio |
+| 2 | Cervia | Team Emilia alle Saline, 1ª medaglia RIVA (Acqua), MN TAGLIO | Campagna Cervese |
+| 3 | Cesena | 2ª medaglia VIOLA (Erba), missioni di pennelli, codici e rosone | Est: Costa Adriatica → Cesenatico |
+| 4 | Cesenatico | Grattacielo | Riviera Romagnola, con ALDO (serve la 2ª medaglia) → Rimini |
+| 5 | Rimini | Befane e Ing. Neri, MN SPACCAROCCIA, 3ª medaglia AURELIO | Si torna a Cesena |
+| 6 | Cesena ovest | Ippodromo. Oggi il casello ovest (35.91) controlla la 3ª medaglia (flag 0x869): va sostituito dalle rocce (Lotto 3) | Monte Spaccato → Capocolle (Babbi) → Forlimpopoli (MOSSOMETRO) → Via Emilia Ovest |
+| 7 | Forlì | ALDO all'ingresso, 4ª medaglia IVANO, MN SURF | Campagna col fiume (isolotti con 3 istruttori) |
+| 8 | Faenza | Museo della ceramica, 5ª medaglia ADA | Campagna Ravennate → Ravenna |
+| 9 | Ravenna | Si arriva da Faenza o da Lido (Pianura). Arco del Team Emilia (flag 0x2ac a missione conclusa) | Casello → Via dei Canali → Campagne di Lugo |
+| 10 | Lugo | Trasmettitore, 6ª medaglia ALIDA | Galleria dei Sigilli (3 Regi) → Faenza |
+| 11 | Faenza → Imola | Ponte Santerno con ALDO e il tecnico; 7ª medaglia RINO, MN FORZA | Si torna a Cesena |
+| 12 | Cesena sud | Sentiero del Fumaiolo (ALDO, Team Emilia, Groudon) → Passo dei Draghi → Bagno di Romagna, 8ª medaglia LEDA | Via Vittoria |
+| 13 | Finale | Via Vittoria (ALDO) → Lega Romagna | Post-Lega: San Marino |
+
+- **Medaglie:** flag da 0x867 (Cervia) a 0x86e (Bagno di Romagna); 0x864 = Lega vinta.
+- **Leggendari oggi:** tabella completa in `doc/PROGETTO.md` §3. Kyogre, Entei, Raikou, Deoxys, Jirachi e Mewtwo oggi sono post-Lega; Suicune e Raikou sono irraggiungibili (Lotto 2).
+- **Decisioni già prese:** San Marino e Bologna restano dopo la Lega; Bologna è la sede del Team Emilia, con una post-trama.
+
+### Già fatto e da non rifare
+
+- I sei blocchi gravi delle versioni vecchie: rivale di Rimini, cartello di Forlimpopoli, Faenza–Imola, stazione di Ravenna, acqua della Pianura, Befane.
+- Interfaccia in italiano (0.53).
+- Nome del rivale: a inizio partita e dal personaggio nel laboratorio di Lido.
+- MOSSOMETRO.
+- Centri Pokémon originali, Farfetch'd shiny all'Arco, Amo Buono, terreni per bacche.
+- Missioni di Cesena: pennelli e Smeargle, tre codici e MT17, rosone e Pietralunare.
+- Progetto unico con `build.py`, registri e documentazione (dopo la 0.56).
+
+### Segnalazioni dalla mia partita
+
+Qui aggiungo i problemi che trovo giocando la 0.56. Hanno la precedenza sul lotto in corso se bloccano il gioco.
+
+- (vuoto)
+
+## 3. Lezioni tecniche già imparate (rispettale)
+
+1. **`faceplayer` e `gSelectedObjectEvent` (0x03005df0).** `faceplayer` nei cartelli o dopo una ricarica di mappa usa un indice rimasto da prima. Se la mappa è stata ricaricata (schermata del nome, borsa, ecc.), riporta l'oggetto selezionato su quello giusto. È stata la causa del "nel nulla" dopo il rivale con MUDKIP.
+2. **Schermate a tutto schermo.** Prima di aprirne una: `closemessage` e `fadescreen`, come fa il gioco originale.
+3. **Livelli delle caselle.** Le caselle d'acqua devono stare al livello 1. Se l'acqua sta allo stesso livello della terra, ci si cammina sopra.
+4. **Puntatori di script.** Devono stare tra 0x08000000 e 0x09FFFFFF. Un puntatore senza prefisso porta a esecuzioni casuali.
+5. **Riferimenti in mezzo ai dati.** Quando ripunti testi, escludi le parole che stanno dentro dati compressi o grafica. Nella 0.53 era successo con due blob LZ77.
+6. **Collaudo con l'emulatore.** Lo stato dello script attivo è al byte 0x3000e41. Usalo per sapere quando un dialogo è finito, invece di premere A alla cieca.
+7. **Emulatori.** Prova con mGBA e anche con VBA-M, che è il motore degli emulatori per iPhone.
+8. **Mappe raggiungibili.** Una mappa che esiste non è per forza raggiungibile: il Safari della 0.51 con Suicune e Raikou non era collegato a niente. Controlla sempre le uscite entranti, comprese quelle fatte dagli script.
+
+## 4. Ordine del lavoro
+
+Il lavoro va in sei fasi, in quest'ordine: prima la tecnica che serve a tutto, poi le cose che bloccano il gioco, poi l'estetica città per città, poi i contenuti nuovi, il post-Lega e infine la partita completa a mappa finita.
+
+**Versioni:** un lotto può diventare più versioni (0.57, 0.58, …). Ogni versione deve essere piccola e coerente: una città, un gruppo di eventi o un problema tecnico, e deve restare giocabile. Prima di iniziare un lotto scrivimi in poche righe come lo dividi.
+
+### FASE 1 — TECNICA
+
+### Lotto 1 — Spazio, registri e controlli automatici
+Non cambia il gioco, ma tutto il resto ci si appoggia.
+- **Spazio nella ROM.** La ROM è già a 32 MB, il massimo del GBA, e non si può allargare. Restano circa 590 KB sicuri nelle tre zone libere. Recupera spazio:
+  - circa 1,4 MB di blocchi di zeri a cui non punta nessun puntatore: verifica zona per zona che siano davvero liberi (nessun riferimento, nemmeno a una struttura che finisce lì dentro) prima di usarli;
+  - le vecchie mappe di Smeraldo nel gruppo 0 (città e Percorsi 114–134 rimasti, sottomarini) e i doppioni non raggiungibili 34.10, 34.13 (Cervia), 34.18 (Cesena): nessuno ci arriva; i loro layout, blocchi ed eventi si possono liberare o riusare come posti per mappe nuove;
+  - la grafica di Smeraldo mai usata e le copie vecchie delle tabelle spostate dalla 0.55 (layout 0x09fd5634, nomi delle zone 0x099b69fc).
+  - Aggiungi le zone recuperate all'engine, con lo stesso controllo delle zone attuali, e misura quanto si è guadagnato.
+- **Flag.** Nel pool di `engine.pool()` ne restano 138. Altre 260 tra 0x20 e 0x4ff non sono usate da nessuno script: controllale contro le flag che il codice di Smeraldo usa direttamente e aggiungi al pool solo quelle sicure.
+- **Variabili.** 90 libere. Regola da qui in avanti: le missioni a più passaggi usano una variabile come contatore, non una flag per passaggio.
+- **Allenatori.** Le flag nuove sono prese dai numeri degli allenatori non usati: un allenatore nuovo con quel numero si scontrerebbe con la flag. Aggiungi ai registri l'elenco degli allenatori (usati, liberi, riservati come flag) e fai fallire la build se un allenatore nuovo usa un numero riservato.
+- **Mappe raggiungibili.** Aggiungi alla build il controllo di raggiungibilità che conta anche gli spostamenti fatti dagli script (warp negli script, Sub, Volo). La build fallisce se un leggendario, un dono o una mappa nuova finisce in una mappa che nessuno raggiunge.
+- **Prova di regressione.** Uno script `collaudo/regressione.py` che rilancia tutti i test esistenti (quelli della 0.56 e quelli nuovi di ogni versione) e dice in una tabella cosa passa.
+- **Budget.** Ogni lotto successivo stima prima quanto spazio, quante flag e quante variabili gli servono, e alla fine scrive nella relazione quanto ha usato e quanto resta.
+
+### FASE 2 — COSE CHE BLOCCANO IL GIOCO
+
+### Lotto 2 — Leggendari non catturabili o nel momento sbagliato
+- **Entei, Raikou e Suicune (leggi con attenzione):**
+  - devono essere catturabili **già dalla prima visita a Ravenna**, non dopo la Lega;
+  - **causa già trovata:** Suicune (34.115) e Raikou (35.45) stanno in un Safari costruito nella 0.51 (mappe 34.115, 35.44, 35.45) che non è collegato a niente: le tre mappe si collegano solo fra loro. Ravenna (34.94, uscita 10) porta al Safari originale di Smeraldo (gruppo 26). Entei oggi si cattura solo nella Grotta Ardente (35.100, dal Safari 26.12) dopo la Lega;
+  - decidi se collegare il Safari della 0.51 o spostare i tre cani nel Safari del gruppo 26; la proposta è Entei in una grotta, Raikou in un prato interno, Suicune su un lago;
+  - nessun tratto deve richiedere strumenti che non si possono ottenere (Bici Cross compresa);
+  - niente duplicati per chi li ha già catturati nei vecchi salvataggi;
+  - prima di iniziare, riassumimi in due righe come hai capito questo compito.
+- **Kyogre al largo di Rimini** (35.37, oggi dopo la Lega e l'8ª medaglia): catturabile **prima** della Lega, nel momento della storia in cui si ha SUB.
+- **Uccelli leggendari** (Articuno, Zapdos, Moltres nei Santuari del Crinale): catturabili **prima** della Lega.
+- **Deoxys, Jirachi, Mewtwo:** le mappe 35.41, 35.42, 35.43 si raggiungono; verifica in gioco come ci si arriva e rendi chiaro l'evento.
+- **Regi:** nessun requisito di FORZA; stati indipendenti di cattura, fuga e sconfitta per ognuno.
+- **Regola per tutti:** una sola volta, con nuovo tentativo dopo fuga o sconfitta.
+- **Riepilogo:** tabella con tutti i leggendari, dove si trovano, quando diventano catturabili e come si ritenta. Aggiorna `doc/PROGETTO.md` §3.
+
+### Lotto 3 — Progressione, passaggi e strumenti mancanti
+- **MN e strumenti:** verifica che SUB, CASCATA, FLASH, Bici Cross e Super Amo si ottengano tutti. Altrimenti consegnali in un punto sensato o togli gli ostacoli che li richiedono.
+- **Ippodromo e Monte Spaccato (leggi con attenzione):**
+  - l'ippodromo deve essere una tappa del percorso tra Cesena e Monte Spaccato, e deve essere visitabile già alla prima visita di Cesena;
+  - il tratto da Monte Spaccato verso Capocolle e Forlimpopoli deve essere bloccato solo da **rocce fisiche da rompere con SPACCAROCCIA**, non da un blocco di sistema (cartelli, casellanti o script che controllano la medaglia);
+  - oggi il casello ovest di Cesena (35.91) controlla la 3ª medaglia (flag 0x869): quel controllo va tolto e sostituito dalle rocce;
+  - SPACCAROCCIA si usa fuori dalla lotta solo con la medaglia di Rimini: verifica che il blocco funzioni così, che non si possa aggirare e che chi ha già superato il passaggio non resti chiuso fuori;
+  - prima di iniziare, riassumimi in due righe come hai capito questo compito.
+- **Diga di Ridracoli:** oggi ci arrivi da Cesena e da Forlì, ma puoi tornare solo a Forlì. I collegamenti devono essere coerenti in entrambi i versi.
+- **Ritorni obbligati a Cesena (dopo Rimini e dopo Imola):** rendili meno pesanti. Puoi dare Volo prima oppure aggiungere un treno regionale tra città già visitate, senza aggirare blocchi di trama.
+- **Ostacoli:** la TV che sbarra la strada appena entri in casa del protagonista; la Poké Ball irraggiungibile nella Pineta del Savio (rendila raggiungibile o spostala).
+- **Progressione:** ogni barriera deve avere un requisito ottenibile, un messaggio chiaro e una via di ritorno.
+- **Non verificato nella 0.56:** consegna di Smeargle con squadra e PC entrambi pieni.
+
+### FASE 3 — CITTÀ PER CITTÀ (estetica, eventi, palestre)
+
+Ogni lotto di questa fase si può dividere in più versioni. Per i ridisegni grandi (piazze, edifici importanti, aeroporto) mandami prima una bozza a schermo e aspetta il mio sì.
+
+### Lotto 4 — Lido di Savio, Pineta, Cervia
+- **Casa del protagonista:** rifai l'interno.
+- **Laboratorio:** rifai l'esterno, oggi è visivamente orribile.
+- **Casa del rivale:** migliorala, interno ed esterno.
+- **Gelateria "Puro & Bio":** trasforma la gelateria in questa gelateria reale di Lido di Savio. Deve essere visitabile, con almeno un evento dentro.
+- **Chiesa di Lido di Savio:** aprila, con un interno e almeno un evento.
+- **Saline di Cervia:** i fenicotteri devono sembrare veri fenicotteri (sprite nuovi).
+- **Chiesa di Cervia:** aprila, con un interno e un evento.
+
+### Lotto 5 — Campagna Cervese e Cesena
+- **Fienile della Campagna Cervese:** aprilo come casa padronale con dei MILTANK. Si può comprare il LATTE MUMU e riposarsi (cura della squadra).
+- **Rocca di Cesena:** rifai l'esterno e togli il tavolino tagliato, sia la grafica sia la collisione.
+- **Piazza di Cesena:** rendila più simile alla Piazza del Popolo reale. La Fontana Masini deve essere intera, non tagliata.
+- **Seconda palestra (VIOLA, Erba):** interno più bello, con prove più carine.
+- **Biblioteca Malatestiana:** l'enigma dei tre codici non è abbastanza chiaro in gioco. Rendi più espliciti i dialoghi dell'archivista e dei plutei (dove sono i codici, cosa bisogna fare, dove si legge l'anno). Valuta anche un segno visivo sui tre plutei.
+
+### Lotto 6 — Cesenatico, Riviera Romagnola
+- **Grattacielo di Cesenatico:** rifai l'esterno e soprattutto l'interno. Le scale devono essere riconoscibili, i piani curati, terrazzo e tetto completi; ogni piano va provato nei due versi.
+- **Chiosco della piadina sulla Riviera:**
+  - deve essere visitabile, e da fuori deve somigliare a un vero chiosco romagnolo della piadina (cerca riferimenti reali);
+  - dentro ci sono delle sfide: chi vince riceve una piadina come strumento e un Pokémon base shiny **scelto dal giocatore** fra alcune opzioni;
+  - una sola volta, con gestione di squadra e PC pieni.
+- **Mappa della Riviera:** migliorala, e aggiungi alcuni tratti in cui si deve passare per forza nell'erba alta.
+
+### Lotto 7 — Rimini
+- **Ponte di Tiberio:** rifallo, oggi è brutto.
+- **Porto:** ridisegnalo partendo dal porto reale: canale, moli, sbocco al mare, barche diverse da Cervia e Cesenatico. Mantieni gli accessi al mare, all'Isola delle Rose, a Surf e Sub.
+- **Pescherie e osterie:** aprile, con persone dentro, sfide facoltative, premi singoli e un premio finale unico.
+- **Casa con il lampione sovrapposto:** correggi grafica e collisione.
+- **Le Befane:** l'interno del centro commerciale deve tornare identico al centro commerciale originale di Smeraldo. Togli le piastrelle aggiunte, ma conserva l'arco del Team Emilia e i tecnici.
+- **Palestra di Rimini (AURELIO):** interno più bello, con prove più carine.
+- **Isola delle Rose:** più grande, con altri eventi e allenatori da sfidare.
+
+### Lotto 8 — Capocolle, Forlimpopoli, Forlì
+- **Fabbrica Babbi:** spostala nella parte alta della mappa, con colori reali. Sposta insieme edificio, ingresso, insegna, personaggi ed eventi.
+- **Via Emilia Ovest:** più ricca, con sentieri, fossi, campi, erba e allenatori.
+- **Forlì, da migliorare molto:**
+  - **Piazza Saffi:** oggi non c'è una vera statua; rifalla con il monumento a Saffi riconoscibile e proporzioni credibili;
+  - **caselle sbagliate:** correggi tutte quelle in tutta la città, per esempio gli alberi dentro le case.
+- **San Domenico:** migliora l'interno.
+- **Rocca di Ravaldino:**
+  - migliora l'interno, in particolare le scale;
+  - la scritta "Caterina Sforza quadro" va sostituita da un vero quadro con il suo testo.
+
+### Lotto 9 — Faenza e Campagna Ravennate
+- **Piazza di Faenza:** portici, facciate, pavimentazione e arredi, oltre alla torre.
+- **Team Emilia a Faenza:** gli eventi oggi sono troppo ripetitivi. Riprogettali come missione "Le ceramiche trafugate":
+  - indizi in laboratorio e magazzino;
+  - oggetti veri nella Borsa;
+  - un enigma breve;
+  - 2–3 scontri e un miniboss;
+  - restituzione e premio.
+- **Palestra di Faenza (ADA):** interno più bello, con un evento carino.
+- **Sentiero Faenza–Ravenna (Campagna Ravennate):**
+  - aggiungi più eventi e allenatori;
+  - l'ingresso dal lato di Faenza oggi è una casa in mezzo ad altre case: rifallo in modo chiaro e leggibile.
+
+### Lotto 10 — Ravenna, Mirabilandia, Safari
+- **Ingressi:** Mirabilandia e Safari in aree separate, prima della Basilica di Classe, con sentieri e cartelli.
+- **Mirabilandia:**
+  - "La ruota senza corrente" → Voltorb shiny Lv18;
+  - "Il sogno di volare" → Bagon shiny Lv20.
+- **Safari:** ricostruito sulla Zona Safari di Smeraldo, con esplorazione libera, le proprie Ball e nessun limite di passi. Deve contenere i cani sistemati nel Lotto 2.
+
+### Lotto 11 — Strada per Lugo e Lugo
+- **Cascina Rossi (strada Ravenna–Lugo):** riempila, con persone ed eventi.
+- **Lugo:** mappa più compatta, senza perdere servizi ed eventi.
+- **Aeroporto di Lugo:**
+  - oggi è enorme, vuoto e inutile; rendilo simile a un vero aeroporto, con terminal, hangar, torre di controllo, pista e un aereo riconoscibile;
+  - mettici eventi veri;
+  - **RAYQUAZA si cattura a Lugo, nell'aeroporto o sopra di esso**, con un evento all'altezza. Oggi è nella mappa 34.110: spostalo senza creare duplicati.
+- **Rocca Estense:** interno esplorabile con eventi, compresi tre nidi per Hoothoot, Taillow e Pidgey shiny, catturabili separatamente.
+- **Teatro Rossini:** aprilo, con un evento dentro.
+- **Palestra di Lugo (ALIDA):** interno più bello, con prove più carine.
+- **Galleria dei Sigilli:** un enigma con indizi interni in ognuna delle tre camere (pietra, brina, metallo).
+
+### Lotto 12 — Imola, Fumaiolo, Ridracoli, Bagno di Romagna
+- **Imola:** più simile alla città reale. Migliora anche il circuito e togli i cartelli che indicano il Sentiero del Fumaiolo.
+- **Mappa del Fumaiolo:** la storia va bene, la mappa va rifatta.
+- **Diga di Ridracoli:** dalle un ruolo chiaro nella storia; nel lago della diga metti un GYARADOS shiny, catturabile una volta sola.
+- **Stanza di Groudon:**
+  - più simile a quella di Smeraldo, con Groudon immerso nella lava;
+  - dopo la cattura le sorgenti devono tornare a scorrere davvero, con cambiamenti visibili nell'ambiente intorno.
+- **Bagno di Romagna:**
+  - oggi è fatta male, con i tetti delle case mezzi distrutti: strutture belle e riconoscibili;
+  - un hotel termale vero, con piscina esterna in cui ci si immerge passando da dentro a fuori;
+  - eventi, e un DRATINI shiny da trovare nelle terme dell'albergo.
+
+### Lotto 13 — Via Vittoria e leggendari speciali
+- **Via Vittoria:** migliorala molto esteticamente.
+- **Jirachi:** amplia il mondo dei desideri con alcune prove per ottenerlo.
+- **Mewtwo:** amplia la sua grotta.
+- **Sprite dei leggendari:** migliora gli sprite di lotta di tutti i leggendari.
+
+### FASE 4 — TUTTA LA REGIONE
+
+### Lotto 14 — Rifiniture generali e mappa regionale
+- **Mappa regionale (schermata della mappa e del Volo):**
+  - oggi ha molti punti vuoti che non corrispondono a nessuna città: ogni città e ogni percorso deve stare al posto giusto, con il nome giusto e la destinazione di Volo giusta;
+  - rifalla esteticamente, nello stile della mappa originale di Smeraldo ma con la forma vera della Romagna e dell'Emilia-Romagna (costa, Appennino, fiumi, San Marino); lascia il posto per Bologna.
+- **Passaggi tra le aree:** le case di passaggio sono ancora fatte male. Fai l'inventario completo e rifalle meglio, con interni curati e uscite chiare.
+- **Palestre:** tutte devono ispirarsi alle palestre originali di Smeraldo come estetica e complessità degli enigmi, in modo che ognuna abbia la sua prova riconoscibile.
+- **Terreni per bacche:** aggiungine altri sparsi nella regione, alcuni con bacche già piantate.
+- **Mappe non nominate:** cerca spazi vuoti, uscite ambigue, grafica tagliata, collisioni errate e personaggi senza funzione.
+- **Italiano rimasto:**
+  - voci del POKéDEX, scritte grafiche (PROFILE, MOVES, BADGES…), categorie delle specie;
+  - Club Cavo della Lega, bacche di Cesena, pensione, nomi delle isole post-Lega (FARAWAY ISLAND, NAVEL ROCK) e ogni altro testo in inglese in mappe poco usate.
+
+### Lotto 15 — Rivale e comodità
+- **Rivale ALDO:** fallo crescere davvero: starter evoluto, squadra con un tema riconoscibile, frase diversa a ogni incontro.
+- **MOSSOMETRO:** consegnato prima, per esempio a Cesena; valuta di registrare le mosse da MT e tutor, senza inventare uno storico per i vecchi salvataggi.
+- **Corsa al chiuso:** permessa anche negli edifici.
+- **MT riutilizzabili:** dillo chiaramente quando si riceve la prima MT.
+- **Pensione** a Cesena o in Campagna Cervese, con uova funzionanti.
+- **Scambi in gioco:** 2–3 personaggi che scambiano Pokémon, con nomi e battute romagnole.
+
+### Lotto 16 — Romagna viva
+- **Sagre:** una per città, con un minigioco e un premio. Per esempio la seppia a Cesenatico, il sale a Cervia, lo scalogno a Riolo.
+- **Notte Rosa a Rimini:** evento serale in spiaggia con allenatori speciali.
+- **Motori:** il circuito di Imola usato davvero e Misano con una gara a tema.
+- **Dialetto:** alcuni personaggi parlano romagnolo, con la traduzione italiana subito dopo.
+- **Cibo come strumenti curativi** nei negozi locali: piadina, cappelletti, squacquerone, ciambella. Sono strumenti nuovi, non sostituiscono quelli esistenti.
+- **Omaggi a figure romagnole:** Fellini (Rimini), Pascoli (San Mauro), Pantani (Cesenatico). Musei, targhe, mostre; nessuna frase inventata messa in bocca a persone reali.
+- **Borghi dell'entroterra** come piccole aree facoltative: Santarcangelo, San Leo, Brisighella, Dozza, Bertinoro.
+
+### Lotto 17 — Contenuti di gioco
+- **Pokédex della Romagna** con premi del professore a 50, 100 specie e completamento. L'AMULETO SHINY va legato al Dex completo.
+- **Lotte in doppio:** alcune coppie di allenatori sulle strade e almeno una palestra con lotta in doppio.
+- **Meteo per zona:** nebbia in pianura (Lugo, Ravenna), neve a Bagno di Romagna, pioggia estiva al mare.
+- **Giorno e notte:** solo se l'orologio funziona davvero nel salvataggio e negli emulatori. Pokémon diversi di notte ed eventi serali. Se non funziona, documentalo e non usarlo.
+- **Musica:** temi originali per Cesena, Rimini, Ravenna e per le lotte contro il Team Emilia, solo se lo spazio recuperato nel Lotto 1 lo consente.
+
+### FASE 5 — DOPO LA LEGA
+
+### Lotto 18 — San Marino
+- Oggi San Marino esiste solo nel post-Lega (mappe 35.53–35.58). **Resta dopo la Lega**, ma diventa una vera città: le tre torri, la Basilica, le mura, il Palazzo Pubblico, la funivia da Borgo Maggiore.
+- Raggiungibile da Rimini, con un percorso vero e un ritorno sicuro.
+- **Torre di sfida** al posto della Lotta Frontier, con premi.
+- **Rivincite** con i capipalestra a livello alto.
+- Eventi propri: guardie di Palazzo, cambio della guardia, una missione sulle torri.
+
+### Lotto 19 — Bologna e post-trama del Team Emilia
+- **Bologna è una città nuova**, raggiungibile solo dopo la Lega.
+- **Riferimenti reali:** Piazza Maggiore, il Nettuno, le Due Torri, i portici, San Petronio, San Luca.
+- **Collegamento:** a ovest di Imola, lungo la Via Emilia, con un percorso vero (erba, allenatori, casello) e un ritorno sicuro.
+- **Ruolo nella storia:** a Bologna c'è la **sede principale del Team Emilia**. È il cuore di una post-trama:
+  - dopo la Lega si scopre che il Team Emilia non è sconfitto e ha la sua base a Bologna;
+  - più tappe di indagine in città, scontri con squadre forti e un boss finale (il capo del Team);
+  - un finale che chiude la storia del Team Emilia, con cambiamenti visibili nei personaggi delle altre città;
+  - ALDO può partecipare come alleato.
+- Livelli adatti al post-Lega, coerenti con San Marino.
+- Mappe nuove nei posti liberati dal Lotto 1, nella mappa regionale, con Volo e Centro Pokémon.
+- Prima di costruirla, proponimi in poche righe la trama della post-storia e la mappa di Bologna.
+
+### FASE 6 — A MAPPA FINITA
+
+### Lotto 20 — Partita completa e bilanciamento
+- **Partita completa.** Gioca da Lido alla Lega e a tutto il post-Lega (San Marino e Bologna), con una squadra di sei Pokémon. Annota ogni punto in cui ci si blocca, si torna indietro senza motivo o la difficoltà salta.
+  - Lotte, dialoghi e avanzamento nella storia solo con i tasti.
+  - I livelli della squadra si possono alzare scrivendo in memoria, come fixture dichiarata nella relazione; medaglie, flag e vittorie mai.
+- **Curva dei livelli:**
+  - correggi i salti noti: Saline troppo alte prima di RIVA, Capocolle più basso di Rimini, Fumaiolo con selvatici più deboli degli allenatori;
+  - verifica il rivale di Forlì dopo la cura;
+  - la palestra di RIVA non deve penalizzare chi sceglie lo starter Fuoco.
+- **Salvataggi:** prova automatica di compatibilità dai salvataggi delle versioni precedenti alla versione finale.
+- **Emulatori:** tutta la partita su mGBA, i punti chiave anche su VBA-M.
+- **Consegna:** una tabella "luogo → livelli allenatori, livelli selvatici, capopalestra" prima e dopo il bilanciamento.
+
+## 5. Regole comuni
+
+- **Oggetti di missione:** veri strumenti nella Borsa, con nome, descrizione e quantità. Usa solo numeri di strumento liberi e verificati (`registri/strumenti.json`).
+- **Premi:** consegnati solo dopo l'inserimento effettivo nella Borsa, nella squadra o nel PC. Gestisci Borsa piena, squadra piena e PC pieno senza perdere niente.
+- **Pokémon shiny regalati:** davvero cromatici, senza toccare la probabilità globale. Nessun duplicato, nessun leggendario shiny automatico.
+- **Fine degli eventi:** il controllo deve sempre tornare al giocatore. Nessun personaggio fermo su una casella obbligatoria a fine evento.
+- **Flag e variabili:** mai riusare quelle già usate (controlla `registri/flag.json` e `registri/variabili.json`). Per le missioni a più passaggi usa una variabile come contatore. Registra ogni flag e variabile nuova nella relazione.
+- **Spazio:** stima prima, misura dopo. Mai scrivere fuori dalle zone libere registrate nell'engine.
+- **Mappe nuove:** ogni mappa nuova deve essere raggiungibile e avere un ritorno; il controllo della build lo verifica.
+- **Ridisegni:** screenshot prima e dopo nella relazione. Per i ridisegni grandi, prima una bozza da farmi approvare.
+- **Testi:** in italiano, massimo 2 righe per riquadro, controllati a schermo.
+- **Luoghi reali** (porto di Rimini, Babbi, Piazza Saffi, chiese, piazze): consulta foto e mappe prima del ridisegno. Le missioni sono finzione e non vanno presentate come storia vera.
+
+## 6. Controllo minimo per ogni versione
+
+La partita completa si fa a mappa finita (Lotto 20). Per ogni versione intermedia basta questo, con soli tasti:
+
+- `python3 build.py` passa, con registri e controlli senza errori.
+- **Ogni evento nuovo:** si avvia; il premio arriva davvero; il flag sopravvive a salvataggio e ricarica dal menu del gioco; si esce e si rientra nella mappa.
+- **Ogni passaggio modificato:** percorribile nei due versi, senza rimbalzi o uscite su ostacoli.
+- `collaudo/regressione.py` (dal Lotto 1): i test delle versioni precedenti passano ancora.
+- Le scritture in RAM sono ammesse solo come fixture tecniche dichiarate, mai come prova di una vittoria o di uno sblocco.
+- Se ti mando il mio .sav, caricalo sulla versione nuova e confronta squadra, box, borsa, denaro, medaglie e posizione.
+
+## 7. Consegna di ogni versione
+
+1. La ROM.
+2. La patch BPS dalla versione precedente, verificata.
+3. Lo zip del progetto aggiornato (senza `out/`), che con `python3 build.py` deve ricreare lo stesso SHA in una cartella pulita. Aggiorna anche `doc/PROGETTO.md` (trama, eventi, indirizzi), `doc/STORIA_VERSIONI.md` e i registri.
+4. La relazione `relazioni/RELAZIONE_0_xx.md` in italiano:
+   - SHA della base e del risultato;
+   - cosa cambia;
+   - test onesti;
+   - fixture dichiarate;
+   - elenco del non verificato;
+   - tabella delle richieste con lo stato aggiornato;
+   - flag, variabili e spazio usati, e quanto resta.
+5. In chat, un riassunto breve in italiano.
+
+Prima di iniziare un lotto, scrivimi in poche righe cosa farai e in quante versioni lo dividi. Fermati e chiedimi solo per decisioni irreversibili, cambi di trama o bozze di ridisegni grandi.
+
+Comincia dal Lotto 1.

@@ -1,0 +1,11 @@
+# Risultati del build
+out/
+__pycache__/
+*.pyc
+# ROM: il repository è pubblico, le ROM (derivate da Pokémon Smeraldo) non si pubblicano.
+# Vanno messe a mano in basi/ (rom047.gba, base31.gba); build.py ne controlla lo SHA-256.
+*.gba
+# Emulatori compilati localmente da collaudo/prepara_emulatori.sh
+collaudo/mgba/
+collaudo/vbam-libretro/
+collaudo/h

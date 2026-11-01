@@ -1,0 +1,2335 @@
+{
+ "strumenti": [
+  {
+   "id": "0x0",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x1",
+   "nome": "MASTER BALL",
+   "tasca": 2,
+   "prezzo": 0
+  },
+  {
+   "id": "0x2",
+   "nome": "ULTRA BALL",
+   "tasca": 2,
+   "prezzo": 1200
+  },
+  {
+   "id": "0x3",
+   "nome": "MEGA BALL",
+   "tasca": 2,
+   "prezzo": 600
+  },
+  {
+   "id": "0x4",
+   "nome": "POKé BALL",
+   "tasca": 2,
+   "prezzo": 200
+  },
+  {
+   "id": "0x5",
+   "nome": "SAFARI BALL",
+   "tasca": 2,
+   "prezzo": 0
+  },
+  {
+   "id": "0x6",
+   "nome": "RETE BALL",
+   "tasca": 2,
+   "prezzo": 1000
+  },
+  {
+   "id": "0x7",
+   "nome": "SUB BALL",
+   "tasca": 2,
+   "prezzo": 1000
+  },
+  {
+   "id": "0x8",
+   "nome": "MINOR BALL",
+   "tasca": 2,
+   "prezzo": 1000
+  },
+  {
+   "id": "0x9",
+   "nome": "BIS BALL",
+   "tasca": 2,
+   "prezzo": 1000
+  },
+  {
+   "id": "0xa",
+   "nome": "TIMER BALL",
+   "tasca": 2,
+   "prezzo": 1000
+  },
+  {
+   "id": "0xb",
+   "nome": "CHIC BALL",
+   "tasca": 2,
+   "prezzo": 1000
+  },
+  {
+   "id": "0xc",
+   "nome": "PREMIER BALL",
+   "tasca": 2,
+   "prezzo": 200
+  },
+  {
+   "id": "0xd",
+   "nome": "POZIONE",
+   "tasca": 1,
+   "prezzo": 300
+  },
+  {
+   "id": "0xe",
+   "nome": "ANTIDOTO",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xf",
+   "nome": "ANTISCOTTAT.",
+   "tasca": 1,
+   "prezzo": 250
+  },
+  {
+   "id": "0x10",
+   "nome": "ANTIGELO",
+   "tasca": 1,
+   "prezzo": 250
+  },
+  {
+   "id": "0x11",
+   "nome": "SVEGLIA",
+   "tasca": 1,
+   "prezzo": 250
+  },
+  {
+   "id": "0x12",
+   "nome": "ANTIPARALISI",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0x13",
+   "nome": "RICARICA TOT.",
+   "tasca": 1,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x14",
+   "nome": "POZIONE MAX",
+   "tasca": 1,
+   "prezzo": 2500
+  },
+  {
+   "id": "0x15",
+   "nome": "IPERPOZIONE",
+   "tasca": 1,
+   "prezzo": 1200
+  },
+  {
+   "id": "0x16",
+   "nome": "SUPERPOZIONE",
+   "tasca": 1,
+   "prezzo": 700
+  },
+  {
+   "id": "0x17",
+   "nome": "CURA TOTALE",
+   "tasca": 1,
+   "prezzo": 600
+  },
+  {
+   "id": "0x18",
+   "nome": "REVITALIZ.",
+   "tasca": 1,
+   "prezzo": 1500
+  },
+  {
+   "id": "0x19",
+   "nome": "REVITAL. MAX",
+   "tasca": 1,
+   "prezzo": 4000
+  },
+  {
+   "id": "0x1a",
+   "nome": "ACQUA FRESCA",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0x1b",
+   "nome": "GASSOSA",
+   "tasca": 1,
+   "prezzo": 300
+  },
+  {
+   "id": "0x1c",
+   "nome": "LEMONSUCCO",
+   "tasca": 1,
+   "prezzo": 350
+  },
+  {
+   "id": "0x1d",
+   "nome": "LATTE MUMU",
+   "tasca": 1,
+   "prezzo": 500
+  },
+  {
+   "id": "0x1e",
+   "nome": "POLVENERGIA",
+   "tasca": 1,
+   "prezzo": 500
+  },
+  {
+   "id": "0x1f",
+   "nome": "RADICENERGIA",
+   "tasca": 1,
+   "prezzo": 800
+  },
+  {
+   "id": "0x20",
+   "nome": "POLVOCURA",
+   "tasca": 1,
+   "prezzo": 450
+  },
+  {
+   "id": "0x21",
+   "nome": "VITALERBA",
+   "tasca": 1,
+   "prezzo": 2800
+  },
+  {
+   "id": "0x22",
+   "nome": "ETERE",
+   "tasca": 1,
+   "prezzo": 1200
+  },
+  {
+   "id": "0x23",
+   "nome": "ETERE MAX",
+   "tasca": 1,
+   "prezzo": 2000
+  },
+  {
+   "id": "0x24",
+   "nome": "ELISIR",
+   "tasca": 1,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x25",
+   "nome": "ELISIR MAX",
+   "tasca": 1,
+   "prezzo": 4500
+  },
+  {
+   "id": "0x26",
+   "nome": "LAVOTTINO",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0x27",
+   "nome": "FLAUTO BLU",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0x28",
+   "nome": "FLAUTO GIALLO",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0x29",
+   "nome": "FLAUTO ROSSO",
+   "tasca": 1,
+   "prezzo": 300
+  },
+  {
+   "id": "0x2a",
+   "nome": "FLAUTO NERO",
+   "tasca": 1,
+   "prezzo": 400
+  },
+  {
+   "id": "0x2b",
+   "nome": "FLAUTO BIANCO",
+   "tasca": 1,
+   "prezzo": 500
+  },
+  {
+   "id": "0x2c",
+   "nome": "SUCCODIBACCA",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0x2d",
+   "nome": "CENEREMAGICA",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0x2e",
+   "nome": "SALE ONDOSO",
+   "tasca": 1,
+   "prezzo": 20
+  },
+  {
+   "id": "0x2f",
+   "nome": "GUSCIONDOSO",
+   "tasca": 1,
+   "prezzo": 20
+  },
+  {
+   "id": "0x30",
+   "nome": "COCCIO ROSSO",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0x31",
+   "nome": "COCCIO BLU",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0x32",
+   "nome": "COCCIO GIALLO",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0x33",
+   "nome": "COCCIO VERDE",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0x34",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x35",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x36",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x37",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x38",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x39",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x3a",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x3b",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x3c",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x3d",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x3e",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x3f",
+   "nome": "PS-SU",
+   "tasca": 1,
+   "prezzo": 9800
+  },
+  {
+   "id": "0x40",
+   "nome": "PROTEINA",
+   "tasca": 1,
+   "prezzo": 9800
+  },
+  {
+   "id": "0x41",
+   "nome": "FERRO",
+   "tasca": 1,
+   "prezzo": 9800
+  },
+  {
+   "id": "0x42",
+   "nome": "CARBURANTE",
+   "tasca": 1,
+   "prezzo": 9800
+  },
+  {
+   "id": "0x43",
+   "nome": "CALCIO",
+   "tasca": 1,
+   "prezzo": 9800
+  },
+  {
+   "id": "0x44",
+   "nome": "CARAMELLARARA",
+   "tasca": 1,
+   "prezzo": 4800
+  },
+  {
+   "id": "0x45",
+   "nome": "PP-SU",
+   "tasca": 1,
+   "prezzo": 9800
+  },
+  {
+   "id": "0x46",
+   "nome": "ZINCO",
+   "tasca": 1,
+   "prezzo": 9800
+  },
+  {
+   "id": "0x47",
+   "nome": "PP-MAX",
+   "tasca": 1,
+   "prezzo": 9800
+  },
+  {
+   "id": "0x48",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x49",
+   "nome": "SUPERGUARDIA",
+   "tasca": 1,
+   "prezzo": 700
+  },
+  {
+   "id": "0x4a",
+   "nome": "SUPERCOLPO",
+   "tasca": 1,
+   "prezzo": 650
+  },
+  {
+   "id": "0x4b",
+   "nome": "ATTACCO X",
+   "tasca": 1,
+   "prezzo": 500
+  },
+  {
+   "id": "0x4c",
+   "nome": "DIFESA X",
+   "tasca": 1,
+   "prezzo": 550
+  },
+  {
+   "id": "0x4d",
+   "nome": "VELOCIT? X",
+   "tasca": 1,
+   "prezzo": 350
+  },
+  {
+   "id": "0x4e",
+   "nome": "PRECISIONE X",
+   "tasca": 1,
+   "prezzo": 950
+  },
+  {
+   "id": "0x4f",
+   "nome": "ATT. SPEC. X",
+   "tasca": 1,
+   "prezzo": 350
+  },
+  {
+   "id": "0x50",
+   "nome": "POKé BAMBOLA",
+   "tasca": 1,
+   "prezzo": 1000
+  },
+  {
+   "id": "0x51",
+   "nome": "CODA SKITTY",
+   "tasca": 1,
+   "prezzo": 1000
+  },
+  {
+   "id": "0x52",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x53",
+   "nome": "SUPERREPELL.",
+   "tasca": 1,
+   "prezzo": 500
+  },
+  {
+   "id": "0x54",
+   "nome": "REPELL. MAX",
+   "tasca": 1,
+   "prezzo": 700
+  },
+  {
+   "id": "0x55",
+   "nome": "FUNE DI FUGA",
+   "tasca": 1,
+   "prezzo": 550
+  },
+  {
+   "id": "0x56",
+   "nome": "REPELLENTE",
+   "tasca": 1,
+   "prezzo": 350
+  },
+  {
+   "id": "0x57",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x58",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x59",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x5a",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x5b",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x5c",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x5d",
+   "nome": "PIETRASOLARE",
+   "tasca": 1,
+   "prezzo": 2100
+  },
+  {
+   "id": "0x5e",
+   "nome": "PIETRALUNARE",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x5f",
+   "nome": "PIETRAFOCAIA",
+   "tasca": 1,
+   "prezzo": 2100
+  },
+  {
+   "id": "0x60",
+   "nome": "PIETRATUONO",
+   "tasca": 1,
+   "prezzo": 2100
+  },
+  {
+   "id": "0x61",
+   "nome": "PIETRAIDRICA",
+   "tasca": 1,
+   "prezzo": 2100
+  },
+  {
+   "id": "0x62",
+   "nome": "PIETRAFOGLIA",
+   "tasca": 1,
+   "prezzo": 2100
+  },
+  {
+   "id": "0x63",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x64",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x65",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x66",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x67",
+   "nome": "MINIFUNGO",
+   "tasca": 1,
+   "prezzo": 500
+  },
+  {
+   "id": "0x68",
+   "nome": "GRANDE FUNGO",
+   "tasca": 1,
+   "prezzo": 5000
+  },
+  {
+   "id": "0x69",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x6a",
+   "nome": "PERLA",
+   "tasca": 1,
+   "prezzo": 1400
+  },
+  {
+   "id": "0x6b",
+   "nome": "GRANDE PERLA",
+   "tasca": 1,
+   "prezzo": 7500
+  },
+  {
+   "id": "0x6c",
+   "nome": "POLVOSTELLA",
+   "tasca": 1,
+   "prezzo": 2000
+  },
+  {
+   "id": "0x6d",
+   "nome": "PEZZO STELLA",
+   "tasca": 1,
+   "prezzo": 9800
+  },
+  {
+   "id": "0x6e",
+   "nome": "PEPITA",
+   "tasca": 1,
+   "prezzo": 10000
+  },
+  {
+   "id": "0x6f",
+   "nome": "SQUAMA CUORE",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0x70",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x71",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x72",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x73",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x74",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x75",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x76",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x77",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x78",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x79",
+   "nome": "MESS. AGRUME",
+   "tasca": 1,
+   "prezzo": 50
+  },
+  {
+   "id": "0x7a",
+   "nome": "MESS. PORTO",
+   "tasca": 1,
+   "prezzo": 50
+  },
+  {
+   "id": "0x7b",
+   "nome": "MESS. LUCI",
+   "tasca": 1,
+   "prezzo": 50
+  },
+  {
+   "id": "0x7c",
+   "nome": "MESS. TECNO",
+   "tasca": 1,
+   "prezzo": 50
+  },
+  {
+   "id": "0x7d",
+   "nome": "MESS. BOSCO",
+   "tasca": 1,
+   "prezzo": 50
+  },
+  {
+   "id": "0x7e",
+   "nome": "MESS. ONDA",
+   "tasca": 1,
+   "prezzo": 50
+  },
+  {
+   "id": "0x7f",
+   "nome": "MESS. PERLE",
+   "tasca": 1,
+   "prezzo": 50
+  },
+  {
+   "id": "0x80",
+   "nome": "MESS. OMBRA",
+   "tasca": 1,
+   "prezzo": 50
+  },
+  {
+   "id": "0x81",
+   "nome": "MESS. TROPIC",
+   "tasca": 1,
+   "prezzo": 50
+  },
+  {
+   "id": "0x82",
+   "nome": "MESS. SOGNO",
+   "tasca": 1,
+   "prezzo": 50
+  },
+  {
+   "id": "0x83",
+   "nome": "MESS. LUSSO",
+   "tasca": 1,
+   "prezzo": 50
+  },
+  {
+   "id": "0x84",
+   "nome": "MESS. R?TRO",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x85",
+   "nome": "BACCALIEGIA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x86",
+   "nome": "BACCASTAGNA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x87",
+   "nome": "BACCAPESCA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x88",
+   "nome": "BACCAFRAGO",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x89",
+   "nome": "BACCAPERINA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x8a",
+   "nome": "BACCAMELA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x8b",
+   "nome": "BACCARANCIA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x8c",
+   "nome": "BACCAKI",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x8d",
+   "nome": "BACCAPRUGNA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x8e",
+   "nome": "BACCACEDRO",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x8f",
+   "nome": "BACCAFICO",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x90",
+   "nome": "BACCAKIWI",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x91",
+   "nome": "BACCAMANGO",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x92",
+   "nome": "BACCAGUAVA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x93",
+   "nome": "BACCAPAIA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x94",
+   "nome": "BACCALAMPON",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x95",
+   "nome": "BACCAMORA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x96",
+   "nome": "BACCABANA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x97",
+   "nome": "BACCAPERA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x98",
+   "nome": "BACCANANAS",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x99",
+   "nome": "BACCAGRANA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x9a",
+   "nome": "BACCALGA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x9b",
+   "nome": "BACCALOQUAT",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x9c",
+   "nome": "BACCAMELON",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x9d",
+   "nome": "BACCAUVA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x9e",
+   "nome": "BACCAMODORO",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0x9f",
+   "nome": "BACCAVENA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0xa0",
+   "nome": "BACCAGOSTAN",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0xa1",
+   "nome": "BACCAMBUTAN",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0xa2",
+   "nome": "BACCALEMON",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0xa3",
+   "nome": "BACCAMELOS",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0xa4",
+   "nome": "BACCAPALMA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0xa5",
+   "nome": "BACCACOMERO",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0xa6",
+   "nome": "BACCADURIAN",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0xa7",
+   "nome": "BACCARTILLO",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0xa8",
+   "nome": "BACCALICI",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0xa9",
+   "nome": "BACCALONGAN",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0xaa",
+   "nome": "BACCASALAK",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0xab",
+   "nome": "BACCAPITAYA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0xac",
+   "nome": "BACCACOCCA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0xad",
+   "nome": "BACCALANGSA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0xae",
+   "nome": "BACCAMBOLA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0xaf",
+   "nome": "BACCAENIGMA",
+   "tasca": 4,
+   "prezzo": 20
+  },
+  {
+   "id": "0xb0",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xb1",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xb2",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xb3",
+   "nome": "LUMINPOLVERE",
+   "tasca": 1,
+   "prezzo": 10
+  },
+  {
+   "id": "0xb4",
+   "nome": "ERBACHIARA",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xb5",
+   "nome": "CRESCICAPPA",
+   "tasca": 1,
+   "prezzo": 3000
+  },
+  {
+   "id": "0xb6",
+   "nome": "CONDIV. ESP.",
+   "tasca": 1,
+   "prezzo": 3000
+  },
+  {
+   "id": "0xb7",
+   "nome": "RAPIDARTIGLI",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xb8",
+   "nome": "CALMANELLA",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xb9",
+   "nome": "MENTALERBA",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xba",
+   "nome": "BENDASCELTA",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xbb",
+   "nome": "ROCCIA DI RE",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xbc",
+   "nome": "ARGENPOLVERE",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xbd",
+   "nome": "MONETAMULETO",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xbe",
+   "nome": "VELOPURO",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0xbf",
+   "nome": "CUORUGIADA",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0xc0",
+   "nome": "DENTE ABISSI",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0xc1",
+   "nome": "SQUAMABISSI",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0xc2",
+   "nome": "PALLA FUMO",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0xc3",
+   "nome": "PIETRASTANTE",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0xc4",
+   "nome": "BANDANA",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0xc5",
+   "nome": "FORTUNUOVO",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0xc6",
+   "nome": "MIRINO",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0xc7",
+   "nome": "METALCOPERTA",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xc8",
+   "nome": "AVANZI",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0xc9",
+   "nome": "SQUAMA DRAGO",
+   "tasca": 1,
+   "prezzo": 2100
+  },
+  {
+   "id": "0xca",
+   "nome": "ELETTROPALLA",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xcb",
+   "nome": "SABBIA SOFF.",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xcc",
+   "nome": "PIETRADURA",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xcd",
+   "nome": "MIRACOLSEME",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xce",
+   "nome": "OCCHIALINERI",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xcf",
+   "nome": "CINTURANERA",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xd0",
+   "nome": "CALAMITA",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xd1",
+   "nome": "ACQUA MAGICA",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xd2",
+   "nome": "BECCAFFILATO",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xd3",
+   "nome": "VELENACULEO",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xd4",
+   "nome": "GELOMAI",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xd5",
+   "nome": "SPETTROTARGA",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xd6",
+   "nome": "CUCCH. TORTO",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xd7",
+   "nome": "CARBONELLA",
+   "tasca": 1,
+   "prezzo": 9800
+  },
+  {
+   "id": "0xd8",
+   "nome": "DENTEDIDRAGO",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xd9",
+   "nome": "SCIARPA SETA",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xda",
+   "nome": "UPGRADE",
+   "tasca": 1,
+   "prezzo": 2100
+  },
+  {
+   "id": "0xdb",
+   "nome": "CONCHINELLA",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0xdc",
+   "nome": "MAREAROMA",
+   "tasca": 1,
+   "prezzo": 9600
+  },
+  {
+   "id": "0xdd",
+   "nome": "DISTRAROMA",
+   "tasca": 1,
+   "prezzo": 9600
+  },
+  {
+   "id": "0xde",
+   "nome": "FORTUNPUGNO",
+   "tasca": 1,
+   "prezzo": 10
+  },
+  {
+   "id": "0xdf",
+   "nome": "METALPOLVERE",
+   "tasca": 1,
+   "prezzo": 10
+  },
+  {
+   "id": "0xe0",
+   "nome": "OSSOSPESSO",
+   "tasca": 1,
+   "prezzo": 500
+  },
+  {
+   "id": "0xe1",
+   "nome": "GAMBO",
+   "tasca": 1,
+   "prezzo": 200
+  },
+  {
+   "id": "0xe2",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xe3",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xe4",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xe5",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xe6",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xe7",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xe8",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xe9",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xea",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xeb",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xec",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xed",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xee",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xef",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xf0",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xf1",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xf2",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xf3",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xf4",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xf5",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xf6",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xf7",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xf8",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xf9",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xfa",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xfb",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xfc",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xfd",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0xfe",
+   "nome": "FASCIA ROSSA",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0xff",
+   "nome": "FASCIA BLU",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0x100",
+   "nome": "FASCIA ROSA",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0x101",
+   "nome": "FASCIA VERDE",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0x102",
+   "nome": "FASCIA GIALLA",
+   "tasca": 1,
+   "prezzo": 100
+  },
+  {
+   "id": "0x103",
+   "nome": "BICI DA CORSA",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x104",
+   "nome": "SALVADANAIO",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x105",
+   "nome": "CERCAOGGETTI",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x106",
+   "nome": "AMO VECCHIO",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x107",
+   "nome": "AMO BUONO",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x108",
+   "nome": "SUPER AMO",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x109",
+   "nome": "BIGLIET. NAVE",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x10a",
+   "nome": "TESSERA GARE",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x10b",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x10c",
+   "nome": "VASO WAILMER",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x10d",
+   "nome": "RAPPORTO SALE",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x10e",
+   "nome": "SACCO CENERE",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x10f",
+   "nome": "CHIAVE SOTT.",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x110",
+   "nome": "BICI CROSS",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x111",
+   "nome": "PORTA?????",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x112",
+   "nome": "LETTERA",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x113",
+   "nome": "BIGLIET. EON",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x114",
+   "nome": "GEMMA ROSSA",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x115",
+   "nome": "GEMMA BLU",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x116",
+   "nome": "SCANNER",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x117",
+   "nome": "OCCHIALONI",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x118",
+   "nome": "METEORITE",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x119",
+   "nome": "CHIAVE ST. 1",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x11a",
+   "nome": "CHIAVE ST. 2",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x11b",
+   "nome": "CHIAVE ST. 4",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x11c",
+   "nome": "CHIAVE ST. 6",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x11d",
+   "nome": "DEPOCHIAVE",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x11e",
+   "nome": "RADIFOSSILE",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x11f",
+   "nome": "FOSSILUNGHIA",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x120",
+   "nome": "DEVONSCOPIO",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x121",
+   "nome": "MT01",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x122",
+   "nome": "MT02",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x123",
+   "nome": "MT03",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x124",
+   "nome": "MT04",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x125",
+   "nome": "MT05",
+   "tasca": 3,
+   "prezzo": 1000
+  },
+  {
+   "id": "0x126",
+   "nome": "MT06",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x127",
+   "nome": "MT07",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x128",
+   "nome": "MT08",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x129",
+   "nome": "MT09",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x12a",
+   "nome": "MT10",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x12b",
+   "nome": "MT11",
+   "tasca": 3,
+   "prezzo": 2000
+  },
+  {
+   "id": "0x12c",
+   "nome": "MT12",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x12d",
+   "nome": "MT13",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x12e",
+   "nome": "MT14",
+   "tasca": 3,
+   "prezzo": 5500
+  },
+  {
+   "id": "0x12f",
+   "nome": "MT15",
+   "tasca": 3,
+   "prezzo": 7500
+  },
+  {
+   "id": "0x130",
+   "nome": "MT16",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x131",
+   "nome": "MT17",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x132",
+   "nome": "MT18",
+   "tasca": 3,
+   "prezzo": 2000
+  },
+  {
+   "id": "0x133",
+   "nome": "MT19",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x134",
+   "nome": "MT20",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x135",
+   "nome": "MT21",
+   "tasca": 3,
+   "prezzo": 1000
+  },
+  {
+   "id": "0x136",
+   "nome": "MT22",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x137",
+   "nome": "MT23",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x138",
+   "nome": "MT24",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x139",
+   "nome": "MT25",
+   "tasca": 3,
+   "prezzo": 5500
+  },
+  {
+   "id": "0x13a",
+   "nome": "MT26",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x13b",
+   "nome": "MT27",
+   "tasca": 3,
+   "prezzo": 1000
+  },
+  {
+   "id": "0x13c",
+   "nome": "MT28",
+   "tasca": 3,
+   "prezzo": 2000
+  },
+  {
+   "id": "0x13d",
+   "nome": "MT29",
+   "tasca": 3,
+   "prezzo": 2000
+  },
+  {
+   "id": "0x13e",
+   "nome": "MT30",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x13f",
+   "nome": "MT31",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x140",
+   "nome": "MT32",
+   "tasca": 3,
+   "prezzo": 2000
+  },
+  {
+   "id": "0x141",
+   "nome": "MT33",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x142",
+   "nome": "MT34",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x143",
+   "nome": "MT35",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x144",
+   "nome": "MT36",
+   "tasca": 3,
+   "prezzo": 1000
+  },
+  {
+   "id": "0x145",
+   "nome": "MT37",
+   "tasca": 3,
+   "prezzo": 2000
+  },
+  {
+   "id": "0x146",
+   "nome": "MT38",
+   "tasca": 3,
+   "prezzo": 5500
+  },
+  {
+   "id": "0x147",
+   "nome": "MT39",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x148",
+   "nome": "MT40",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x149",
+   "nome": "MT41",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x14a",
+   "nome": "MT42",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x14b",
+   "nome": "MT43",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x14c",
+   "nome": "MT44",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x14d",
+   "nome": "MT45",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x14e",
+   "nome": "MT46",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x14f",
+   "nome": "MT47",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x150",
+   "nome": "MT48",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x151",
+   "nome": "MT49",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x152",
+   "nome": "MT50",
+   "tasca": 3,
+   "prezzo": 3000
+  },
+  {
+   "id": "0x153",
+   "nome": "MN01",
+   "tasca": 3,
+   "prezzo": 0
+  },
+  {
+   "id": "0x154",
+   "nome": "MN02",
+   "tasca": 3,
+   "prezzo": 0
+  },
+  {
+   "id": "0x155",
+   "nome": "MN03",
+   "tasca": 3,
+   "prezzo": 0
+  },
+  {
+   "id": "0x156",
+   "nome": "MN04",
+   "tasca": 3,
+   "prezzo": 0
+  },
+  {
+   "id": "0x157",
+   "nome": "MN05",
+   "tasca": 3,
+   "prezzo": 0
+  },
+  {
+   "id": "0x158",
+   "nome": "MN06",
+   "tasca": 3,
+   "prezzo": 0
+  },
+  {
+   "id": "0x159",
+   "nome": "MN07",
+   "tasca": 3,
+   "prezzo": 0
+  },
+  {
+   "id": "0x15a",
+   "nome": "MN08",
+   "tasca": 3,
+   "prezzo": 0
+  },
+  {
+   "id": "0x15b",
+   "nome": "PENNELLO",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x15c",
+   "nome": "????????",
+   "tasca": 1,
+   "prezzo": 0
+  },
+  {
+   "id": "0x15d",
+   "nome": "PACCO DI OAK",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x15e",
+   "nome": "MOSSOMETRO",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x15f",
+   "nome": "REGISTRO MOLO",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x160",
+   "nome": "BUONO BICI",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x161",
+   "nome": "DENTI D'ORO",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x162",
+   "nome": "BOBINA EMILIA",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x163",
+   "nome": "REGOLATORE",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x164",
+   "nome": "PROGETTO CAVA",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x165",
+   "nome": "HELIXFOSSILE",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x166",
+   "nome": "DOMOFOSSILE",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x167",
+   "nome": "FATTURA",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x168",
+   "nome": "BICICLETTA",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x169",
+   "nome": "MAPPA ROMAGNA",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x16a",
+   "nome": "BOX PORTATILE",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x16b",
+   "nome": "AMULETO SHINY",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x16c",
+   "nome": "PORTA MT",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x16d",
+   "nome": "PORTABACCHE",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x16e",
+   "nome": "POKéTIV?",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x16f",
+   "nome": "TRIS PASS",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x170",
+   "nome": "SETTE PASS",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x171",
+   "nome": "T?",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x172",
+   "nome": "GS BALL",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x173",
+   "nome": "BIGL. AURORA",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x174",
+   "nome": "PORTAFARINA",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x175",
+   "nome": "RUBINO",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x176",
+   "nome": "ZAFFIRO",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x177",
+   "nome": "STEMMA MAGMA",
+   "tasca": 5,
+   "prezzo": 0
+  },
+  {
+   "id": "0x178",
+   "nome": "MAPPA STINTA",
+   "tasca": 5,
+   "prezzo": 0
+  }
+ ],
+ "liberi": [
+  "0x0",
+  "0x34",
+  "0x35",
+  "0x36",
+  "0x37",
+  "0x38",
+  "0x39",
+  "0x3a",
+  "0x3b",
+  "0x3c",
+  "0x3d",
+  "0x3e",
+  "0x48",
+  "0x52",
+  "0x57",
+  "0x58",
+  "0x59",
+  "0x5a",
+  "0x5b",
+  "0x5c",
+  "0x63",
+  "0x64",
+  "0x65",
+  "0x66",
+  "0x69",
+  "0x70",
+  "0x71",
+  "0x72",
+  "0x73",
+  "0x74",
+  "0x75",
+  "0x76",
+  "0x77",
+  "0x78",
+  "0xb0",
+  "0xb1",
+  "0xb2",
+  "0xe2",
+  "0xe3",
+  "0xe4",
+  "0xe5",
+  "0xe6",
+  "0xe7",
+  "0xe8",
+  "0xe9",
+  "0xea",
+  "0xeb",
+  "0xec",
+  "0xed",
+  "0xee",
+  "0xef",
+  "0xf0",
+  "0xf1",
+  "0xf2",
+  "0xf3",
+  "0xf4",
+  "0xf5",
+  "0xf6",
+  "0xf7",
+  "0xf8",
+  "0xf9",
+  "0xfa",
+  "0xfb",
+  "0xfc",
+  "0xfd",
+  "0x10b",
+  "0x15c"
+ ]
+}

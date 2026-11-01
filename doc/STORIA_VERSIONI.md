@@ -26,6 +26,7 @@ Dalla 0.40 alla 0.56. Gli SHA-256 sono quelli delle ROM conservate; le relazioni
 | 0.54 | `a06532552a9f79744d889e948d21d713043f29a32847e78d7febae9bbdc92906` | 0.53 | progetto | Blocco "nel nulla" dopo il rivale in laboratorio (gSelectedObjectEvent) |
 | 0.55 | `2bfaa8a3ada9f8bbaa1112028f85f6d1d85e00d5bc71668e1444508b45e44ad6` | 0.54 | **esterna** | Monte Spaccato, Campagna Ravennate, Forlì/Lugo/Bagno di Romagna rifatte, acqua della Pianura. Dettaglio in `pezzo_055/modifiche_055.md`. Le ROM "Storia 1" e "Storia 2" sono identiche a questa |
 | 0.56 | `b09eb6977ca7ceaf81be2a184d719ce6cc25229d2889e4cc3c4fa4714237495f` | 0.55 | progetto | Pennelli e Smeargle, tre codici e MT17, rosone e Pietralunare, nome del rivale per i salvataggi vecchi |
+| 0.57 | `47f53668d8b5861956938cd041fb892e541b86031e4ac7b4337e8328923897c4` | 0.56 | progetto | Lotto 1: 671 KB di spazio recuperato (blocchi di zeri → zone dell'engine). Il gioco non cambia. **Da collaudare in emulatore** |
 
 ## Note sulla catena
 

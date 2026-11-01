@@ -1,6 +1,6 @@
 # Pokémon Romagna — documento di progetto
 
-Stato alla **0.56** (SHA-256 `b09eb6977ca7ceaf81be2a184d719ce6cc25229d2889e4cc3c4fa4714237495f`).
+Stato alla **0.57** (SHA-256 `47f53668…97c4`, da collaudare; ultima collaudata: 0.56 `b09eb697…495f`).
 Questo è il documento di riferimento: trama, mappe, eventi, indirizzi tecnici e regole di lavoro. La storia delle versioni è in `STORIA_VERSIONI.md`, le prove in emulatore in `COLLAUDO.md`.
 
 ## 1. Come è fatto il progetto
@@ -14,7 +14,7 @@ pezzo_055/            patch_054_055.bps + modifiche_055.json/.md (la 0.55 non ha
 versioni/             engine.py + un modulo per versione (v056_cesena_rivale.py, …)
 registri/             flag, variabili, strumenti, mappe, spazio libero; genera.py li rigenera
 strumenti_rom/        lettura di mappe, script, testi (romlib, scr, text_codec, …)
-analisi/              dump.py, confronta.py, grid.py, water.py, maps.py …
+analisi/              dump.py, confronta.py, grid.py, water.py, maps.py, spazio.py, raggiungibili.py …
 collaudo/             pilota per mGBA e VBA-M, libreria di gioco, test della 0.56
 doc/                  questo documento, storia delle versioni, collaudo
 relazioni/            relazioni e audit delle versioni passate (archivio)
@@ -47,7 +47,12 @@ Ogni tappa controlla lo SHA-256 atteso e si ferma se non coincide.
 ### Regole dell'engine
 
 - `engine.init(rom055)` crea il `Writer` e controlla che la base sia la 0.55.
-- Si scrive solo nello spazio libero della 0.55, con 256 byte di margine: 0x155a9b8–0x1580000, 0x15ccd78–0x1600000, 0x19c5a6d–0x1a00000. La 0.56 ne usa una piccola parte all'inizio della prima zona; il resto è in `registri/spazio.json`.
+- Si scrive solo nelle zone dell'engine, con 256 byte di margine:
+  - le tre zone libere della 0.55: 0x155a9b8–0x1580000, 0x15ccd78–0x1600000, 0x19c5a6d–0x1a00000;
+  - dalla 0.57, undici zone recuperate da blocchi di zeri (671 KB), elencate in `versioni/v057_spazio.py` e aggiunte con `W.aggiungi_zone`.
+
+  `W.libere()` dice quanto resta; lo spazio 0xFF della ROM è in `registri/spazio.json`. Zone nuove solo dopo un'analisi come `analisi/spazio.py` e con lo stesso controllo.
+- Patch BPS: `bpslib.apply` e `bpslib.create`.
 - Flag nuove solo con `engine.pool()`: sono 0x500 + id di allenatori che nessuno script usa, escluse tutte le flag già usate (scansione `flagscan52`).
 - Script con `engine.Script`, oggetti con `add_object`, cartelli con `add_bg` / `set_bg_script`.
 - Dopo il build, `registri/genera.py` in modo rigoroso fa fallire il build se una flag viene usata da mappe diverse in un modo nuovo (era la causa dei bug Arco/Regice e Katun/Registeel). Le 147 condivisioni della 0.56 sono in `registri/flag_condivise_ammesse.json`; per ammetterne una nuova va aggiunta a mano, dopo averla verificata.
@@ -111,7 +116,10 @@ Letti dagli script della 0.56. "Raggiungibile" vuol dire che la mappa è collega
 
 ## 4b. Risorse rimaste dopo la 0.56
 
-- **Spazio nella ROM:** la ROM è a 32 MB, il massimo del GBA, e non si allarga. Restano circa 590 KB sicuri nelle tre zone dell'engine. Candidati da verificare (Lotto 1): circa 1,4 MB di blocchi di zeri senza puntatori, le vecchie mappe di Smeraldo nel gruppo 0, i doppioni 34.10, 34.13, 34.18, la grafica mai usata e le tabelle copiate dalla 0.55.
+- **Spazio nella ROM:** la ROM è a 32 MB, il massimo del GBA, e non si allarga.
+  - Dalla 0.57 restano circa 1249 KB nelle zone dell'engine.
+  - Analisi e cose non recuperate: `relazioni/RELAZIONE_0_57.md` §3. Il gruppo 0 di Smeraldo risulta raggiungibile dall'ingresso del Safari (30.0 → 0.28), da verificare in gioco.
+  - Posti per mappe nuove: 34.10, 34.13, 34.18, 24.39–24.41, 24.50–24.51, 24.74–24.76.
 - **Flag:** 138 nel pool di `engine.pool()`; altre 260 tra 0x20 e 0x4ff non usate da script, da controllare contro il codice di Smeraldo.
 - **Variabili:** 90 libere (`registri/variabili.json`).
 - **Strumenti:** 67 numeri liberi (`registri/strumenti.json`).

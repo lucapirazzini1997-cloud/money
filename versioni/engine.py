@@ -4,7 +4,8 @@ Ogni modulo di versioni/ riceve il Writer W (gia inizializzato sulla 0.55 e sull
 e scrive solo nello spazio libero. La catena e in build.py.
 
 - Base: rom055.gba (SHA-256 2bfaa8a3...4ad6), verificata all'avvio.
-- Spazio: solo le tre zone di 0xFF libere nella 0.55 (con 256 byte di margine all'inizio).
+- Spazio: le tre zone di 0xFF libere nella 0.55 (con 256 byte di margine all'inizio) e le zone recuperate
+  dalle versioni successive con W.aggiungi_zone (0.57: blocchi di zeri senza riferimenti, analisi/spazio.py).
 - Flag nuove: 0x500+id di allenatori che nessuno script cita, escluse tutte le flag gia' usate (flagscan52).
 """
 from pathlib import Path
@@ -41,6 +42,25 @@ class Writer(inject.Writer):
             if p + len(raw) <= e: break
             self.ri += 1; assert self.ri < len(self.regions), 'ROM piena'; self.cursor = self.regions[self.ri][0]
         self.cursor = p; return super().alloc(raw, label, align)
+
+    def aggiungi_zone(self, zone, etichetta=''):
+        """Zone recuperate da una versione (0.57 in poi): devono essere gia' 0xFF, allineate e senza sovrapposizioni.
+        Il margine di 256 byte e' gia' compreso nei limiti delle zone (vedi analisi/spazio.py).
+        Si accodano: l'allocatore le usa dopo le zone della 0.55."""
+        for s, e in zone:
+            assert s % 4 == 0 and e > s, (hex(s), hex(e))
+            assert all(v == 0xff for v in self.d[s:e]), 'zona %s non libera' % hex(s)
+            for a, b in self.regions: assert e <= a or s >= b, 'zona %s sovrapposta a %s' % (hex(s), hex(a))
+            self.regions.append((s, e))
+        self.log.append(('zone', etichetta, len(zone), sum(e - s for s, e in zone)))
+
+    def libere(self):
+        """Byte ancora liberi nelle zone dell'engine (dal cursore in poi)."""
+        tot = 0
+        for i, (s, e) in enumerate(self.regions):
+            if i > self.ri: tot += e - s
+            elif i == self.ri: tot += e - max(s, self.cursor)
+        return tot
 
     def enc(self, t):
         return bytes(ALPHA[c] for c in t)

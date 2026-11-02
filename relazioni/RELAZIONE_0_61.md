@@ -3,10 +3,10 @@
 **Base:** 0.60, SHA-256 `d9ca40b361d02c0404b5d6553dc8d45252087d8bebf59e4e42c942a5786b183a`.
 
 **Risultato:** `Pokemon_Romagna_0_61.gba`, SHA-256 `f3e7802535125bdc473bd328e4cf7f2b7aeb030f71a1fabb81675614acd63cbe`.
-- Patch BPS 0.60→0.61: `rom/Pokemon_Romagna_0_60_to_0_61.bps`, verificata riapplicandola.
+- Patch BPS 0.60→0.61: `rom/Pokemon_Romagna_0_60_to_0_61.bps`, (4907 byte), verificata riapplicandola.
 - Modulo: `versioni/v061_regi_mitici.py`. La build da zero rifà tutti gli SHA, controlli compresi.
 - Lo SHA è in `build.py` dopo il collaudo (§4).
-- **Salvataggi compatibili**, anche quelli fatti dentro le mappe toccate (§4, vecchio salvataggio).
+- **Salvataggi compatibili:** il salvataggio vero della regressione carica in mGBA e VBA-M; un salvataggio fatto con la 0.60 dentro la Camera di Pietra usa lo script nuovo (provato solo per Regirock, in mGBA; §4).
 
 ## 1. Cosa c'era prima
 
@@ -17,7 +17,7 @@ Letto dagli script della 0.60 e poi provato a tasti dove indicato.
 | **Regirock, Regice, Registeel** (Lv 40/42/45) | Faenza → Sentiero 35.73 → Galleria dei Sigilli 35.74 → scala 35.75 → camere 35.76/77/78 | 6ª medaglia (0x86C); senza, una sbarra sul Sentiero non fa passare | **FORZA non serve**: `analisi/percorso.py` arriva alle tre camere senza nessuna abilità (provato poi a tasti, §4). Dopo fuga o KO lo script finiva **senza dire nulla** |
 | **Deoxys** (Lv 50) | Ravenna 34.96: SURF a est fino al bordo (x 79), passaggio a coordinate al molo 35.40, cartello del **razzo** → 35.41; rientro col razzo | Lega vinta (0x864) sul razzo e su Deoxys | righe di testo più lunghe di 30 caratteri; KO e fuga con lo stesso testo |
 | **Jirachi** (Lv 50) | **portale** nel mare di Cervia (0.10, oggetto 13 a 61,22): lo script di ritorno al campo lo mostra solo dopo la Lega → 35.42 | Lega vinta | come sopra |
-| **Mewtwo** (Lv 70) | Cesenatico 34.22, uscita 8 (casella 48,33) → grotta 35.43 | Lega vinta | **non si entrava**: l'uscita sta su una casella di sabbia (comportamento 0x21) e Smeraldo fa scattare le uscite solo su porte, scale e frecce. **Riprodotto** a tasti: il personaggio sta sulla casella e spinge, non succede nulla |
+| **Mewtwo** (Lv 70) | Cesenatico 34.22, uscita 8 (casella 48,33) → grotta 35.43 | Lega vinta | **non si entrava**: l'uscita sta su una casella di sabbia (comportamento 0x21) e Smeraldo fa scattare le uscite solo su porte, scale e frecce. **Riprodotto** a tasti in mGBA, sulla build prima della correzione: il personaggio sta sulla casella e spinge, non succede nulla (`collaudo/risultati/061/mewtwo_ingresso_prima.txt`) |
 
 Flag di cattura indipendenti, già prima: Regirock 0x620, Regice 0x622, Registeel 0x627, Deoxys 0x4EB, Jirachi 0x4EA, Mewtwo 0x4EF.
 
@@ -33,7 +33,7 @@ Flag di cattura indipendenti, già prima: Regirock 0x620, Regice 0x622, Registee
 - **Razzo, rientro e portale:** stessi viaggi di prima, testi in riquadri di due righe. Razzo e rientro sono cartelli (ripuntati); portale e ritorno sono oggetti, quindi anche il vecchio script diventa un salto.
 - **Ingresso della grotta di Mewtwo:** un evento a coordinate sulla casella 48,33 di 34.22 (variabile temporanea 0x400F = 0, come al bordo est di Ravenna) porta in 35.43, una casella sopra l'uscita a freccia. L'uscita di ritorno (frecce) funzionava già.
 - **Vecchi script degli oggetti** → salto al nuovo (5 byte, byte vecchi controllati con un `assert`), per i salvataggi fatti dentro le mappe.
-- **Nessuna flag e nessuna variabile nuova.** `registri/genera.py`: condivisioni nuove 0.
+- **Nessuna flag e nessuna variabile nuova.** `registri/genera.py`: condivisioni nuove 0 (riga "condivisioni 147 (nuove 0)" del log di build).
 
 **Strumenti di analisi e collaudo:**
 - `analisi/percorso.py`: gli alberi di bacche (tipo di movimento 12) bloccano il passaggio. Prima il navigatore cercava di attraversarli (Campagna Cervese 34.20).
@@ -58,10 +58,10 @@ Script: `collaudo/t61.py` con `leg.py` e `vai.py`. Risultati in `collaudo/risult
 **Partenza:** il savestate `prog_imola.ss` (6 medaglie, Lega non vinta), come nella 0.60.
 
 **Fixture (scritture in RAM dichiarate, non prove), poi SALVA in gioco e Continua dal titolo:**
-- **SURF** a Breloom (per Jirachi e il molo del razzo); TAGLIO e SPACCAROCCIA la squadra li ha già;
-- **5 MASTER BALL;**
+- **SURF** a Breloom al posto della sua 4ª mossa (per Jirachi e il molo del razzo); TAGLIO e SPACCAROCCIA la squadra li ha già;
+- **5 MASTER BALL** in testa alla tasca Poké Ball (lo strumento che c'era scala di un posto);
 - **posizione:** Sentiero Faenza-Lugo (35.73) per i Regi, Ravenna (34.96, 60,43) per gli altri;
-- **medaglie:** per "senza 6ª medaglia" la 0x86C è messa a 0; per i mitici 7ª e 8ª medaglia (0x86D, 0x86E);
+- **medaglie:** per "senza 6ª medaglia" la 0x86C è messa a 0; nei salvataggi "prima_lega" e "mitici" 7ª e 8ª medaglia (0x86D, 0x86E);
 - **Lega vinta** (0x864) **solo** nel salvataggio "mitici": serve a provare gli eventi dopo la Lega, non è una prova di aver vinto la Lega.
 
 Tutto il resto solo con i tasti: viaggio, alberi da tagliare, SURF, passaggi a coordinate, razzo, portale, lotte.
@@ -80,7 +80,7 @@ Tutto il resto solo con i tasti: viaggio, alberi da tagliare, SURF, passaggi a c
 
 - Ritorno a piedi dalla scala fino al Sentiero (passaggio nell'altro verso): sì.
 - Il testo finale della cattura di Registeel, in mGBA, non è stato letto (i messaggi di salita di livello sono più lunghi dell'attesa della prova); flag 1 e Regi assente sono letti. In VBA-M, con l'attesa più lunga, c'è anche il testo.
-- **Senza la 6ª medaglia:** il navigatore non arriva alla Galleria; la sbarra sul Sentiero dice *"Con la sesta medaglia puoi attraversarla e raggiungere le camere di Regirock, Regice e Registeel"*.
+- **Senza la 6ª medaglia** (solo mGBA): il navigatore non arriva alla Galleria; la sbarra sul Sentiero dice *"Con la sesta medaglia puoi attraversarla e raggiungere le camere di Regirock, Regice e Registeel"*.
 
 ### Prima della Lega (mGBA)
 
@@ -104,17 +104,24 @@ Tutto il resto solo con i tasti: viaggio, alberi da tagliare, SURF, passaggi a c
 - In mGBA la prova è stata fatta due volte. Nella prima il testo finale della cattura di Mewtwo non era stato letto (attesa troppo corta dopo due salite di livello), ma flag 1, Mewtwo in squadra e grotta vuota erano confermati dopo la ricarica. Nella seconda, con l'attesa più lunga, ci sono tutti e tre i testi *"Hai catturato…"*. In VBA-M anche.
 - Il razzo è un cartello sull'acqua: si legge dalla casella sotto, in SURF.
 
-### Vecchio salvataggio
+### Vecchio salvataggio (solo mGBA)
 
 Con la 0.60 si entra nella Camera di Pietra e si salva in gioco. Lo stesso file aperto con la 0.61: parlando con Regirock risponde lo script nuovo (testo d'ingresso nuovo, poi dopo la fuga *"REGIROCK torna immobile in fondo alla camera"*). Esito in `collaudo/risultati/061/t61_vecchio.json`.
 
 ### Regressione (`collaudo/regressione.py`, 0.61 contro 0.60)
 
-REGRESSIONE
+**Tutte le 19 partenze uguali alla 0.60** (17 savestate in mGBA e il salvataggio vero in mGBA e in VBA-M): schermo, EWRAM, IWRAM (tolto l'orologio), VRAM, tavolozze e OAM. Tabella in `collaudo/risultati/061/regressione.md`.
+
+**Consegna** (`.claude/skills/consegna-versione/consegna.sh`, esito a schermo, non salvato in `risultati/`): build da zero con lo SHA atteso; BPS 0.60→0.61 di 4907 byte riapplicata e identica; zip del progetto (31 MB) ricostruito in una cartella pulita con lo stesso SHA.
 
 ### Cosa non è verificato
 
-- **Il KO di Regice, Registeel, Deoxys, Jirachi e Mewtwo.** Il ramo è lo stesso codice provato con Regirock; la squadra di prova non manda KO i Pokémon di livello 50 e 70.
+- **Vecchi salvataggi dentro le altre mappe** (Regice, Registeel, Deoxys, Jirachi, Mewtwo, portale di Cervia e ritorno): il salto dal vecchio script è lo stesso provato con Regirock, ma non c'è un esito per ognuno. E in VBA-M non è provato nemmeno Regirock.
+- **Uscita e rientro con il Pokémon catturato** per Regice, Deoxys e Jirachi (provati per Regirock, Registeel e Mewtwo).
+- **Solo in mGBA:** le prove prima della Lega (razzo chiuso, ritorno a ovest dal molo, portale assente, Mewtwo prima della Lega), quelle senza la 6ª medaglia e il vecchio salvataggio.
+- **Testi mai mostrati in collaudo:** i testi "già catturato" dei sei (l'oggetto sparisce con la cattura, quindi in gioco non dovrebbero comparire), i testi "serve la 6ª medaglia" dei Regi (la sbarra sul Sentiero ferma prima) e "serve la Lega" di Deoxys e Jirachi (razzo e portale chiusi prima). Sono reti di sicurezza; quello di Mewtwo invece si vede ed è provato.
+
+- **Il KO di Regice, Registeel, Deoxys, Jirachi e Mewtwo.** Il ramo dopo la lotta è lo stesso codice provato con Regirock; per Deoxys, Jirachi e Mewtwo cambia l'avvio della lotta (`dowildbattle` invece dello special dei Regi). Non provato per non sovraccaricare la squadra di prova (Lv 50 contro Lv 50–70).
 - **Ottenere SURF in gioco**, vincere davvero la Lega e la sconfitta del giocatore: fixture o fuori da questa versione (Lotto 3).
 - **Lugia e Ho-Oh** (MOTONAVE dopo la Lega → Monte Spaccato 26.67, script di Smeraldo): solo letti, raggiungibilità da provare.
 - **Celebi** (Pineta del Savio 0.16): lo script non ha lotta, dice solo "Il bosco risuona del richiamo di Celebi". **Segnalato**: è una decisione di storia (catturabile o no), non l'ho cambiato.
@@ -124,7 +131,7 @@ REGRESSIONE
 
 | Richiesta | Stato |
 |---|---|
-| Regi senza FORZA, con stati indipendenti di cattura, fuga e sconfitta | **verificato** (mGBA e VBA-M): FORZA non serviva già; aggiunti i testi di fuga e KO; KO provato su Regirock |
+| Regi senza FORZA, con stati indipendenti di cattura, fuga e sconfitta | **verificato in parte** (mGBA e VBA-M): cattura e fuga per tutti e tre, KO solo per Regirock: FORZA non serviva già; aggiunti i testi di fuga e KO; KO provato su Regirock |
 | Deoxys, Jirachi, Mewtwo: come ci si arriva e evento chiaro | **corretto e verificato**: percorsi provati a tasti; la grotta di Mewtwo prima non si apriva; testi che dicono cosa serve |
 | Una sola volta, nuovo tentativo dopo fuga o sconfitta, per tutti | **verificato** per la fuga di tutti e sei e il KO di Regirock; KO degli altri solo letto (§4) |
 | Tabella di tutti i leggendari in `doc/PROGETTO.md` §3 | **fatto**, con lo stato di ognuno (provato, letto, non catturabile, scollegato) |

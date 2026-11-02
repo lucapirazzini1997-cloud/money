@@ -35,4 +35,5 @@ In circa tre minuti rifà 0.54 → 0.55 → 0.56 → 0.57 → 0.58 → 0.59 → 
 | `collaudo/` | piloti per mGBA e VBA-M, libreria di gioco, `regressione.py`, test, savestate e risultati |
 | `doc/` | documentazione |
 | `relazioni/` | relazioni delle versioni passate (archivio) |
+| `.claude/` | automazioni per Claude Code: `hooks/guardia.py` (blocca modifiche ai moduli di versioni consegnate e ai pezzi congelati, ROM nei commit, `pkill -f`), `hooks/avvio.sh` (all'avvio controlla le ROM di base e prepara gli emulatori), skill `romagna-tecnica` (riferimento tecnico) e `/consegna-versione` (checklist e `consegna.sh`: build, BPS verificata, zip ricostruito in cartella pulita, regressione), subagente `revisore-relazione` |
 | `rom/` | patch BPS 0.55 → 0.56 → 0.57 → 0.58 → 0.59 → 0.60; nel pacchetto zip anche la ROM 0.60 pronta da giocare (nel repository pubblico le ROM non ci sono) |

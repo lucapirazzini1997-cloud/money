@@ -32,7 +32,7 @@ BINARI = {0xd3, 0xd4, 0xd5, 0xd6}
 BLOCCA_DIR = {0x30: 'E', 0x31: 'W', 0x32: 'N', 0x33: 'S'}           # casella che non si attraversa verso ...
 FRECCE = {0x62: 'E', 0x63: 'W', 0x64: 'N', 0x65: 'S', 0x6d: 'S', 0x6e: 'S'}   # uscite a freccia: si sta sopra e si spinge
 PORTE = (set(range(0x60, 0x70)) | {0x0e, 0x0f, 0x29, 0x8d, 0x8e}) - set(FRECCE)   # caselle d'uscita calpestabili
-STAZIONARI = {0, 1, 7, 8, 9, 10}                                     # tipi di movimento fermi
+STAZIONARI = {0, 1, 7, 8, 9, 10, 12}                                 # tipi di movimento fermi (12 = albero di bacche, dalla 0.61)
 SCR_ROCCIA, SCR_ALBERO, SCR_MASSO = 0x290b6b, 0x290a67, 0x290c74     # SPACCAROCCIA (0x869), TAGLIO, FORZA (0x86d)
 DIRS = {'N': (0, -1), 'S': (0, 1), 'W': (-1, 0), 'E': (1, 0)}
 

@@ -51,7 +51,7 @@ def lotta(g):
 
 
 def rompi(g, dn):
-    """Davanti a una roccia: A, si (SPACCAROCCIA)."""
+    """Davanti a una roccia o a un albero: A, si (SPACCAROCCIA o TAGLIO; albero dalla 0.61)."""
     g.step(DIRCH[dn], 3)
     for _ in range(4): g.key(A, 3, 45)
     g.e.run(120)
@@ -73,7 +73,7 @@ def vai(g, mappa, x, y, ab, accanto=True, max_ricalcoli=30, quota_fissa=None):
             k0, x0, y0, _, _ = stato(g)
             vivi = dict(g.lobjs_gfx()) if az == 'passo' else {}
             dx, dy = DXY.get(dn, (0, 0))
-            if vivi.get((x0 + dx, y0 + dy)) == 86 and k0 == nst[0]:
+            if vivi.get((x0 + dx, y0 + dy)) in (86, 82) and k0 == nst[0]:      # roccia o albero: A, si
                 rompi(g, dn)
             if vivi.get((x0 + dx, y0 + dy)) == 87 and k0 == nst[0]:       # masso: FORZA (A, si), poi spinta
                 g.step(DIRCH[dn], 3)
@@ -113,6 +113,8 @@ def guarda(g, x, y):
     """Si gira verso la casella (x, y) accanto."""
     _, px, py, _, _ = stato(g)
     dn = {(1, 0): 'R', (-1, 0): 'L', (0, 1): 'D', (0, -1): 'U'}[(x - px, y - py)]
+    ob = 0x02037350 + 0x24 * g.e.ram(0x02037590, 8)[5]                  # oggetto del giocatore
+    if g.e.ram(ob + 0x18, 1)[0] & 0x0f == {'D': 1, 'U': 2, 'L': 3, 'R': 4}[dn]: return   # gia' girato: niente passo
     g.step(dn, 3); g.e.run(10)
 
 

@@ -1,6 +1,6 @@
 # Pokémon Romagna — documento di progetto
 
-Stato alla **0.60** (SHA-256 `d9ca40b3…183a`, collaudata). Lotto 2 in corso: 0.59 cani leggendari, 0.60 Kyogre e uccelli, 0.61 Regi, Deoxys/Jirachi/Mewtwo e tabella completa.
+Stato alla **0.61** (SHA-256 `f3e78025…3cbe`, collaudata). Lotto 2 chiuso: 0.59 cani leggendari, 0.60 Kyogre e uccelli, 0.61 Regi, Deoxys/Jirachi/Mewtwo e tabella completa (§3).
 Questo è il documento di riferimento: trama, mappe, eventi, indirizzi tecnici e regole di lavoro. La storia delle versioni è in `STORIA_VERSIONI.md`, le prove in emulatore in `COLLAUDO.md`.
 
 ## 1. Come è fatto il progetto
@@ -30,7 +30,7 @@ Ogni tappa controlla lo SHA-256 atteso e si ferma se non coincide.
 |---|---|---|---|---|
 | 1 | `basi/rom047.gba` + `basi/base31.gba` | `storico_054/build54.py` (rifà 0.48 → 0.54 in sequenza) | 0.54 | `a0653255…2906` |
 | 2 | 0.54 | `pezzo_055/patch_054_055.bps` | 0.55 | `2bfaa8a3…4ad6` |
-| 3 | 0.55 | `versioni/v056_cesena_rivale.py`, `v057_spazio.py`, `v058_registri.py`, `v059_cani.py`, `v060_kyogre_uccelli.py` | 0.56–0.60 | `b09eb697…495f`, `47f53668…97c4`, `47f53668…97c4`, `aee694c2…ec1d`, `d9ca40b3…183a` |
+| 3 | 0.55 | `versioni/v056_cesena_rivale.py`, `v057_spazio.py`, `v058_registri.py`, `v059_cani.py`, `v060_kyogre_uccelli.py`, `v061_regi_mitici.py` | 0.56–0.61 | `b09eb697…495f`, `47f53668…97c4`, `47f53668…97c4`, `aee694c2…ec1d`, `d9ca40b3…183a`, `f3e78025…3cbe` |
 | 4 | ultima | `registri/genera.py` (modo rigoroso) | registri | — |
 | 5 | ultima | `registri/controlli.py` (allenatori, raggiungibilità, risorse, budget) | registri, `out/rapporto_build.json` | — |
 
@@ -90,25 +90,33 @@ La trama attuale è approvata. Non va cambiata senza chiedere, salvo le richiest
 
 ## 3. Leggendari, shiny e doni
 
-Letti dagli script della 0.56. "Raggiungibile" vuol dire che la mappa è collegata al resto del mondo da uscite o connessioni; non vuol dire provato in gioco.
+Tabella completa alla 0.61. **Regola del Lotto 2** (cani, Kyogre, uccelli, Regi, Deoxys, Jirachi, Mewtwo): **una sola cattura**; dopo fuga (anche per BOATO) o KO il Pokémon resta al suo posto e si ritenta subito; chi l'ha catturato trova la sala tranquilla. "Provato" = a tasti in mGBA e VBA-M (fixture dichiarate nelle relazioni); "letto" = solo dagli script.
 
-| Pokémon | Livello | Mappa | Quando | Raggiungibile |
-|---|---|---|---|---|
-| Celebi | 50 | Pineta del Savio 0.16 | durante la storia | sì |
-| Rayquaza | 70 | Lugo 34.110 | durante la storia | sì |
-| Groudon | 50 | Cuore del Fumaiolo 35.17 | evento della storia | sì |
-| Articuno / Zapdos / Moltres | 52 | Santuari del Crinale 35.31 / 35.32 / 35.33 (Via Vittoria, FORZA per il masso) | **dalla 0.60: prima della Lega**, con 8 medaglie e le rune del santuario (flag 0x4CD/0x4CE/0x4CF) | sì, provato in gioco |
-| Regirock / Regice / Registeel | 40 / 42 / 45 | Galleria dei Sigilli 35.76 / 35.77 / 35.78 | con la 6ª medaglia (0x86c) | sì |
-| Kyogre | 70 | fondale di Rimini 35.37 (cartello dell'Area Marina 34.44, SURF e SUB) | **dalla 0.60: prima della Lega**, con l'8ª medaglia (quella che dà SUB) e i piloni ovest → est (flag 0x4E1) | sì, provato in gioco |
-| Entei | 45 | Grotta Ardente 35.100 (dal Safari, 26.12) | **dalla 0.59: dalla prima visita a Ravenna** (flag 0x88F) | sì, provato in gioco |
-| Raikou | 45 | prato del Safari 26.12 | **dalla 0.59: dalla prima visita a Ravenna** (flag 0x884) | sì, provato in gioco |
-| Suicune | 45 | lago del Safari 26.13 (con SURF) | **dalla 0.59: dalla prima visita a Ravenna** (flag 0x887) | sì, provato in gioco |
-| Deoxys | 50 | 35.41 (zona RAVENNA) | dopo la Lega | sì |
-| Jirachi | 50 | 35.42 (zona CERVIA) | dopo la Lega | sì |
-| Mewtwo | 70 | 35.43 (zona CESENATICO) | dopo la Lega | sì |
-| (Suicune) | 40 | Safari della 0.51, 34.115 | stessa flag 0x887 | no, scollegato |
-| (Raikou) | 40 | Safari della 0.51, 35.45 | stessa flag 0x884 | no, scollegato |
-| (Entei) | 40 | Safari della 0.51, 35.44 | stessa flag 0x88F | no, scollegato |
+| Pokémon | Lv | Dove | Come ci si arriva | Quando | Flag di cattura | Regola, esiti | Stato |
+|---|---|---|---|---|---|---|---|
+| Entei | 45 | Grotta Ardente 35.100 | Ravenna → Safari 26.3 → 26.12 → grotta | dalla prima visita a Ravenna (0.59) | 0x88F | sì: cattura, fuga, KO | provato (0.59) |
+| Raikou | 45 | prato del Safari 26.12 | come sopra (TAGLIO, SPACCAROCCIA) | come sopra | 0x884 | sì | provato (0.59) |
+| Suicune | 45 | lago del Safari 26.13 | come sopra, poi SURF | come sopra | 0x887 | sì | provato (0.59) |
+| Regirock | 40 | Camera di Pietra 35.76 | Faenza → Sentiero 35.73 → Galleria dei Sigilli 35.74 → scala 35.75. **Nessuna abilità, niente FORZA** | 6ª medaglia (0x86C): prima la sbarra sul Sentiero non fa passare | 0x620 | sì (0.61): cattura, fuga, KO | provato (0.61) |
+| Regice | 42 | Camera di Brina 35.77 | come sopra | come sopra | 0x622 | sì (0.61) | provato (0.61), KO solo letto |
+| Registeel | 45 | Camera di Metallo 35.78 | come sopra | come sopra | 0x627 | sì (0.61) | provato (0.61), KO solo letto |
+| Articuno | 52 | Santuario 35.31 | Via Vittoria (guardia con 8 medaglie, masso con FORZA) | 8ª medaglia + rune vento → gelo (0.60) | 0x4CD | sì | provato (0.60), KO solo letto |
+| Zapdos | 52 | Santuario 35.32 | come sopra | 8ª medaglia + rune bobina → cielo | 0x4CE | sì | provato (0.60), KO solo letto |
+| Moltres | 52 | Santuario 35.33 | come sopra | 8ª medaglia + rune brace → fiamma → sole | 0x4CF | sì | provato (0.60), KO solo letto |
+| Kyogre | 70 | fondale di Rimini 35.37 | cartello dell'Area Marina 34.44 → mare 35.36, SURF e SUB | 8ª medaglia (quella che dà SUB) + piloni ovest → est (0.60) | 0x4E1 (+0x4E0) | sì | provato (0.60), KO solo letto |
+| Deoxys | 50 | 35.41 (la Luna) | Ravenna 34.96: SURF verso est fino al molo 35.40, poi il **razzo ROMAGNA-1**; rientro col razzo | dopo la Lega (0x864) | 0x4EB | sì (0.61) | provato (0.61), KO solo letto |
+| Jirachi | 50 | 35.42 (Mondo dei Desideri) | **portale** nel mare di Cervia (0.10, casella 61,22, con SURF): compare dopo la Lega; ritorno dal portale | dopo la Lega | 0x4EA | sì (0.61) | provato (0.61), KO solo letto |
+| Mewtwo | 70 | grotta 35.43 | Cesenatico 34.22, casella 48,33 (dalla 0.61 si entra davvero) | dopo la Lega; prima lo dice il testo | 0x4EF | sì (0.61) | provato (0.61), KO solo letto |
+| Rayquaza | 70 | monumento a Baracca, Lugo 34.110 | Lugo | compare con l'8ª medaglia | 0x4E3 | fuga e KO: "Puoi riprovare" (stesso testo); righe lunghe | letto |
+| Groudon | 50 | Cuore del Fumaiolo 35.17 | evento della storia (Team Emilia) | storia | 0x4CC | KO: resta e si ricattura; fuga: "potrai tornare", ma senza la flag 0x8C1 l'oggetto sparisce fino al rientro; testi di 3–4 righe | letto |
+| Celebi | — | Pineta del Savio 0.16 | oggetto 9 | — | (0x4FA nasconde) | **nessuna lotta**: dice solo "Il bosco risuona del richiamo di Celebi" | letto: non catturabile |
+| Lugia / Ho-Oh | 70 | Monte Spaccato 26.87 / 26.75 (Isola Ombelico di Smeraldo) | MOTONAVE dal porto di Ravenna (34.96) dopo la Lega → 26.67 | dopo la Lega | 0x320 / 0x321 (di Smeraldo) | script di Smeraldo | letto, raggiungibilità da provare |
+| (Regirock, Regice, Registeel di Smeraldo) | 40 | Desert Ruins 24.6, Island Cave 24.67, Ancient Tomb 24.68 | uscite in 0.26, 0.20, 0.35 | — | 0x3A7–0x3A9 | — | **non raggiungibili a piedi** dalla partenza (`analisi/percorso.py`); il registro della build, più ottimista, le conta: da chiarire nel Lotto 3 |
+| (Suicune, Raikou, Entei della 0.51) | 40 | Safari della 0.51: 34.115, 35.45, 35.44 | — | — | stesse flag dei cani | — | scollegati fino al Lotto 10 |
+
+**Regi (0.61):** la Galleria dei Sigilli si percorre a piedi senza abilità (provato a tasti, anche al ritorno sul Sentiero). Le tre camere sono indipendenti: ognuna ha la sua flag, catturarne uno non cambia gli altri. La lotta usa ancora lo special dei Regi (0x13B, con la loro musica).
+
+**Deoxys, Jirachi, Mewtwo (0.61):** restano dopo la Lega, come da progetto. Prima della Lega: il razzo dice che il volo è riservato al CAMPIONE, il portale di Cervia non c'è, Mewtwo spiega che serve il titolo di CAMPIONE. Il bordo est di Ravenna (34.96, x 79) e il bordo ovest del molo (35.40, x 0) sono passaggi a coordinate, provati nei due versi.
 
 **Cani leggendari (0.59):** si catturano nel Safari del gruppo 26, a cui porta Ravenna (uscita 10 → 26.3, ingresso libero, Poké Ball normali), già alla 5ª medaglia: servono TAGLIO, SPACCAROCCIA e SURF (per Suicune). Una cattura sola; dopo fuga, BOATO o KO il Pokémon resta al suo posto e si ritenta subito. Il Safari della 0.51 (34.115, 35.44, 35.45) resta scollegato fino al Lotto 10: i suoi cani hanno le stesse flag, quindi non ci sono doppioni.
 
@@ -124,10 +132,10 @@ Letti dagli script della 0.56. "Raggiungibile" vuol dire che la mappa è collega
 
 - **Conflitto latente (0.58):** 0x78A (rosone "pietralunare") è anche la flag di Danielle, allenatrice della palestra di Lavaridge di Smeraldo (4.1). Oggi la 4.1 non si raggiunge; se una versione la collega la build fallisce e Danielle va spostata su un numero libero. Le flag 0x792–0x794, 0x7AA–0x7AD e 0x7B0–0x7B3 sono di allenatori della tabella delle rivincite (servono il Pokénav, assente): rischio basso.
 
-## 4b. Risorse rimaste (budget della 0.60)
+## 4b. Risorse rimaste (budget della 0.61)
 
 - **Spazio nella ROM:** la ROM è a 32 MB, il massimo del GBA, e non si allarga.
-  - Restano 1246 KB nelle zone dell'engine (la 0.59 ha usato 1119 byte, la 0.60 2580).
+  - Restano 1241 KB nelle zone dell'engine (la 0.59 ha usato 1119 byte, la 0.60 2580, la 0.61 circa 4,7 KB).
   - Analisi e cose non recuperate: `relazioni/RELAZIONE_0_57.md` §3.
   - Il gruppo 0 **non** è un insieme di vecchie mappe libere: gran parte è usata dalla Romagna (0.9 Lido, 0.10 Cervia, 0.27 Mirabilandia, 0.28 Safari di Ravenna); i nomi delle zone sono riscritti, per questo 0.12 (Lavaridge) si chiama IMOLA.
   - Posti per mappe nuove: 34.10, 34.13, 34.18, 24.39–24.41, 24.50–24.51, 24.74–24.76.
@@ -167,3 +175,5 @@ Letti dagli script della 0.56. "Raggiungibile" vuol dire che la mappa è collega
 9. **Mappe raggiungibili.** Una mappa che esiste non è per forza raggiungibile: il Safari della 0.51 ne è l'esempio. Dalla 0.58 lo controlla la build; `analisi/cammino.py` dice anche se ci si arriva a piedi (il grafo da solo collega mappe separate da un muro di alberi). Dalla 0.59 `analisi/percorso.py` calcola il percorso realistico con le abilità del giocatore (quote, SURF, CASCATA, sporgenze, bici, rocce, alberi): serve per dire quali strumenti chiede un tratto.
 10. **"Libero" negli script non vuol dire libero.** Flag e variabili che nessuno script usa possono essere usate dal codice di Smeraldo (oggetti nascosti 0x1F4+, Pokénav 0x15C+, Repellente 0x4021, giorni 0x4040). Si prendono solo dai pool.
 11. **Scansioni di script.** Seguire anche gli script dopo una lotta (trainerbattle) e le lotte con id locale diverso da 0: la scansione della 0.56 non le vedeva.
+12. **Un'uscita deve stare su una casella d'uscita.** Smeraldo fa scattare un'uscita solo su porte, scale, frecce e simili: su una casella normale (sabbia, erba) non succede nulla. Era il caso della grotta di Mewtwo (34.22, corretto nella 0.61). Le altre uscite sospette fuori dalle mappe di Smeraldo (34.17 uscita 13, 35.13 → 35.18, 35.16 → 35.17) sono da controllare nel Lotto 3: possono essere solo arrivi di script.
+13. **Gli alberi di bacche bloccano.** Tipo di movimento 12: `analisi/percorso.py` li conta come ostacoli dalla 0.61.

@@ -44,6 +44,7 @@ cd .. && python3 build.py      # costruisce le ROM in out/
 | `t56ch.py` | 0.56: chiesa e rosone |
 | `t56r.py`, `t56r2.py` | 0.56: nome del rivale dal personaggio del laboratorio |
 | `save56.py` | salvataggio dal menu del gioco, riavvio da zero, "Continua", confronto dello stato |
+| `t61.py` | collaudo della 0.61: Regi a piedi senza abilità, sbarra del Sentiero senza la 6ª medaglia, razzo e portale prima e dopo la Lega, Deoxys, Jirachi, Mewtwo (fuga, KO su Regirock, cattura, ricarica), vecchio salvataggio della 0.60 |
 | `t60.py`, `leg.py` | collaudo della 0.60 (Kyogre e uccelli) e funzioni comuni per le prove sui leggendari (fixture dichiarate: medaglie, mosse, Master Ball, posizione, allenatori) |
 | `t59.py`, `vai.py` | collaudo della 0.59 (cani leggendari) e navigatore: porta il giocatore dove serve solo con i tasti, con il percorso di `analisi/percorso.py`, combattendo le lotte selvatiche |
 | `regressione.py` | **regressione** (dalla 0.58): stessa partita di prova su tutte le partenze, tabella dei risultati, confronto con una ROM di riferimento |
@@ -57,7 +58,7 @@ Esempio: `cd collaudo && python3 t56c.py` (consegna dei pennelli partendo da `t5
 ### Regressione
 
 ```sh
-python3 collaudo/regressione.py out/Pokemon_Romagna_0_60.gba --rif out/Pokemon_Romagna_0_59.gba
+python3 collaudo/regressione.py out/Pokemon_Romagna_0_61.gba --rif out/Pokemon_Romagna_0_60.gba
 ```
 
 - **Partenze:** i 13 savestate in mGBA, più un salvataggio vero fatto in gioco (menu → SALVA dal savestate `t56_reload`) e caricato con Continua in mGBA e in VBA-M.

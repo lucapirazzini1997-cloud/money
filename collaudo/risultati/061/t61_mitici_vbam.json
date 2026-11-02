@@ -1,0 +1,217 @@
+{
+ "deoxys": {
+  "molo": [
+   [
+    35,
+    40
+   ],
+   2,
+   12
+  ],
+  "razzo_no": [
+   [
+    "RAZZO ROMAGNA-1: tutto pronto! Vuoi partire per la LUNA?"
+   ],
+   [
+    [
+     35,
+     40
+    ],
+    29,
+    16
+   ]
+  ],
+  "razzo": [
+   [
+    "RAZZO ROMAGNA-1: tutto pronto! Vuoi partire per la LUNA?",
+    "3... 2... 1... Lancio!"
+   ],
+   [
+    [
+     35,
+     41
+    ],
+    6,
+    10
+   ]
+  ],
+  "parla": [
+   [
+    "Fra i crateri brilla un cristallo... DEOXYS prende forma davanti a te!",
+    "{fc}{02}{02}DEOXYS{fc}{01}{0b}"
+   ],
+   true
+  ],
+  "fuga": {
+   "testi": [
+    "DEOXYS torna a fluttuare fra i crateri. Puoi riprovare quando vuoi."
+   ],
+   "flag": 0,
+   "presente": true
+  },
+  "cattura": {
+   "testi": [
+    "Fra i crateri brilla un cristallo... DEOXYS prende forma davanti a te!",
+    "{fc}{02}{02}DEOXYS{fc}{01}{0b}",
+    "BLAZIKEN ottiene 1535 punti ESP.! ",
+    "BRELOOM ottiene 767 punti ESP.! ",
+    "I dati di DEOXYS sono stati aggiunti al POKéDEX. ",
+    "Vuoi dare un soprannome a DEOXYS?",
+    "Hai catturato DEOXYS! Il cristallo si spegne."
+   ],
+   "flag": 1,
+   "presente": false,
+   "squadra": [
+    282,
+    307,
+    410
+   ]
+  },
+  "rientro": [
+   [
+    "Il razzo è pronto per il rientro. Vuoi tornare a RAVENNA?"
+   ],
+   [
+    [
+     34,
+     96
+    ],
+    62,
+    45
+   ]
+  ]
+ },
+ "jirachi": {
+  "portale": [
+   [
+    "Sull'acqua gira un vortice di stelle: è un portale per il MONDO DEI DESIDERI! Vuoi attraversarlo?"
+   ],
+   [
+    [
+     35,
+     42
+    ],
+    14,
+    17
+   ]
+  ],
+  "parla": [
+   [
+    "Sull'acqua gira un vortice di stelle: è un portale per il MONDO DEI DESIDERI! Vuoi attraversarlo?",
+    "Sulla STELLA DEI DESIDERI dorme un piccolo Pokémon. Si sveglia e sorride: è JIRACHI!"
+   ],
+   true
+  ],
+  "fuga": {
+   "testi": [
+    "JIRACHI torna a dormire sulla stella. Puoi riprovare quando vuoi."
+   ],
+   "flag": 0,
+   "presente": true
+  },
+  "cattura": {
+   "testi": [
+    "Sulla STELLA DEI DESIDERI dorme un piccolo Pokémon. Si sveglia e sorride: è JIRACHI!",
+    "BLAZIKEN ottiene 1535 punti ESP.! ",
+    "BRELOOM ottiene 767 punti ESP.! ",
+    "DEOXYS ottiene 767 punti ESP.! ",
+    "I dati di JIRACHI sono stati aggiunti al POKéDEX. ",
+    "Vuoi dare un soprannome a JIRACHI?",
+    "Hai catturato JIRACHI! La stella brilla piano."
+   ],
+   "flag": 1,
+   "presente": false,
+   "squadra": [
+    282,
+    307,
+    410,
+    409
+   ]
+  },
+  "ritorno": [
+   [
+    "Il portale riporta al mare di CERVIA. Vuoi tornare?"
+   ],
+   [
+    [
+     0,
+     10
+    ],
+    54,
+    22
+   ]
+  ]
+ },
+ "mewtwo": {
+  "parla": [
+   [
+    "In fondo alla grotta, fra i cristalli, uno sguardo gelido... MEWTWO attacca!"
+   ],
+   true
+  ],
+  "fuga": {
+   "testi": [
+    "MEWTWO si ritira fra i cristalli. Puoi riprovare quando vuoi."
+   ],
+   "flag": 0,
+   "presente": true
+  },
+  "cattura": {
+   "testi": [
+    "In fondo alla grotta, fra i cristalli, uno sguardo gelido... MEWTWO attacca!",
+    "BLAZIKEN ottiene 2200 punti ESP.! ",
+    "BLAZIKEN sale al LV. 51!{fc}{0a} ",
+    "BRELOOM ottiene 1100 punti ESP.! ",
+    "BRELOOM sale al LV. 44!{fc}{0a} ",
+    "DEOXYS ottiene 1100 punti ESP.! ",
+    "JIRACHI ottiene 1100 punti ESP.! ",
+    "I dati di MEWTWO sono stati aggiunti al POKéDEX. ",
+    "Vuoi dare un soprannome a MEWTWO?",
+    "Hai catturato MEWTWO! La grotta torna buia."
+   ],
+   "flag": 1,
+   "presente": false,
+   "squadra": [
+    282,
+    307,
+    410,
+    409,
+    150
+   ]
+  },
+  "uscita": [
+   [
+    34,
+    22
+   ],
+   48,
+   35
+  ]
+ },
+ "ricarica": {
+  "pos": [
+   [
+    34,
+    22
+   ],
+   48,
+   35
+  ],
+  "flag": {
+   "deoxys": 1,
+   "jirachi": 1,
+   "mewtwo": 1
+  },
+  "squadra": [
+   282,
+   307,
+   410,
+   409,
+   150
+  ],
+  "mewtwo": {
+   "arrivato": true,
+   "presente": false
+  }
+ }
+}

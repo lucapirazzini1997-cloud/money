@@ -17238,12 +17238,18 @@
   "imposta": [
    "35.42 oggetto 1"
   ],
+  "controlla": [
+   "35.42 oggetto 1"
+  ],
   "oggetto": [
    "35.42 oggetto 1"
   ]
  },
  "0x4eb": {
   "imposta": [
+   "35.41 oggetto 1"
+  ],
+  "controlla": [
    "35.41 oggetto 1"
   ],
   "oggetto": [
@@ -18623,6 +18629,9 @@
   "imposta": [
    "35.43 oggetto 1"
   ],
+  "controlla": [
+   "35.43 oggetto 1"
+  ],
   "oggetto": [
    "35.43 oggetto 1"
   ]
@@ -19026,6 +19035,9 @@
   "imposta": [
    "35.76 oggetto 1"
   ],
+  "controlla": [
+   "35.76 oggetto 1"
+  ],
   "oggetto": [
    "35.76 oggetto 1"
   ]
@@ -19039,6 +19051,9 @@
   "imposta": [
    "35.77 oggetto 1"
   ],
+  "controlla": [
+   "35.77 oggetto 1"
+  ],
   "oggetto": [
    "35.77 oggetto 1"
   ]
@@ -19050,6 +19065,9 @@
  },
  "0x627": {
   "imposta": [
+   "35.78 oggetto 1"
+  ],
+  "controlla": [
    "35.78 oggetto 1"
   ],
   "oggetto": [

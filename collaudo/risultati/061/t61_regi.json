@@ -1,0 +1,159 @@
+{
+ "regirock": {
+  "arrivato_senza_abilita": true,
+  "parla": [
+   [
+    "Il colosso di pietra non si muove. Poi i suoi occhi si accendono, uno a uno!"
+   ],
+   true
+  ],
+  "fuga": {
+   "testi": [
+    "REGIROCK torna immobile in fondo alla camera. Puoi riprovare quando vuoi."
+   ],
+   "flag": 0,
+   "presente": true
+  },
+  "ko": {
+   "testi": [
+    "Il colosso di pietra non si muove. Poi i suoi occhi si accendono, uno a uno!",
+    "Il colosso di pietra non si muove. Poi i suoi occhi si accendono, uno a uno!",
+    "REGIROCK crolla, poi si rimette a guardia. Puoi riprovare quando vuoi."
+   ],
+   "turni": 2,
+   "pos": [
+    [
+     35,
+     76
+    ],
+    10,
+    5
+   ],
+   "flag": 0,
+   "presente": true
+  },
+  "cattura": {
+   "testi": [
+    "Il colosso di pietra non si muove. Poi i suoi occhi si accendono, uno a uno!",
+    "BLAZIKEN ottiene 620 punti ESP.! ",
+    "BRELOOM ottiene 1240 punti ESP.! ",
+    "I dati di REGIROCK sono stati aggiunti al POKéDEX. ",
+    "Vuoi dare un soprannome a REGIROCK?",
+    "Hai catturato REGIROCK! La camera di pietra tace."
+   ],
+   "flag": 1,
+   "presente": false,
+   "squadra": [
+    282,
+    307,
+    401
+   ]
+  }
+ },
+ "regice": {
+  "arrivato_senza_abilita": true,
+  "parla": [
+   [
+    "Una brina fitta ricopre il custode. Il suo respiro diventa gelo: REGICE si desta!"
+   ],
+   true
+  ],
+  "fuga": {
+   "testi": [
+    "REGICE torna immobile in fondo alla camera. Puoi riprovare quando vuoi."
+   ],
+   "flag": 0,
+   "presente": true
+  },
+  "cattura": {
+   "testi": [
+    "Una brina fitta ricopre il custode. Il suo respiro diventa gelo: REGICE si desta!",
+    "BLAZIKEN ottiene 648 punti ESP.! ",
+    "BRELOOM ottiene 1296 punti ESP.! ",
+    "REGIROCK ottiene 648 punti ESP.! ",
+    "I dati di REGICE sono stati aggiunti al POKéDEX. ",
+    "Vuoi dare un soprannome a REGICE?",
+    "Hai catturato REGICE! La brina si scioglie."
+   ],
+   "flag": 1,
+   "presente": false,
+   "squadra": [
+    282,
+    307,
+    401,
+    402
+   ]
+  }
+ },
+ "registeel": {
+  "arrivato_senza_abilita": true,
+  "parla": [
+   [
+    "Il custode di metallo ti fissa. Il pavimento vibra: REGISTEEL si desta!"
+   ],
+   true
+  ],
+  "fuga": {
+   "testi": [
+    "REGISTEEL torna immobile in fondo alla camera. Puoi riprovare quando vuoi."
+   ],
+   "flag": 0,
+   "presente": true
+  },
+  "cattura": {
+   "testi": [
+    "Il custode di metallo ti fissa. Il pavimento vibra: REGISTEEL si desta!",
+    "BLAZIKEN ottiene 691 punti ESP.! ",
+    "BLAZIKEN sale al LV. 51!{fc}{0a} ",
+    "BRELOOM ottiene 1382 punti ESP.! ",
+    "REGIROCK ottiene 691 punti ESP.! ",
+    "REGICE ottiene 691 punti ESP.! ",
+    "I dati di REGISTEEL sono stati aggiunti al POKéDEX. ",
+    "Vuoi dare un soprannome a REGISTEEL?"
+   ],
+   "flag": 1,
+   "presente": false,
+   "squadra": [
+    282,
+    307,
+    401,
+    402,
+    403
+   ]
+  }
+ },
+ "ricarica": {
+  "pos": [
+   [
+    35,
+    75
+   ],
+   14,
+   20
+  ],
+  "flag": {
+   "regirock": 1,
+   "regice": 1,
+   "registeel": 1
+  },
+  "registeel": {
+   "arrivato": true,
+   "presente": false
+  },
+  "regirock": {
+   "arrivato": true,
+   "presente": false
+  },
+  "ritorno_sentiero": [
+   true,
+   [
+    [
+     35,
+     73
+    ],
+    22,
+    20
+   ]
+  ]
+ }
+}

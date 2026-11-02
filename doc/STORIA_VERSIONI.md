@@ -1,6 +1,6 @@
 # Storia delle versioni
 
-Dalla 0.35 alla 0.60. Gli SHA-256 sono quelli delle ROM conservate; le relazioni complete sono in `relazioni/`.
+Dalla 0.35 alla 0.61. Gli SHA-256 sono quelli delle ROM conservate; le relazioni complete sono in `relazioni/`.
 
 **Chi l'ha fatta:** "progetto" = costruita con i builder di questo progetto; "esterna" = ricevuta già fatta, senza sorgenti.
 
@@ -30,6 +30,7 @@ Dalla 0.35 alla 0.60. Gli SHA-256 sono quelli delle ROM conservate; le relazioni
 | 0.58 | `47f53668d8b5861956938cd041fb892e541b86031e4ac7b4337e8328923897c4` (= 0.57) | 0.57 | progetto | Lotto 1: flag e variabili sicure (41 + 47), pool riordinato, registro allenatori e raggiungibilità che fanno fallire la build, cammino a piedi, `regressione.py`, budget. Stessa ROM della 0.57 |
 | 0.59 | `aee694c2535ab1524e08e2cd4447cefc16afddd10211ba4fe0fa35b64a45ec1d` | 0.58 | progetto | Lotto 2: Entei, Raikou e Suicune catturabili dalla prima visita a Ravenna (Safari del gruppo 26, senza controllo della Lega), testi in due righe, `analisi/percorso.py`. Collaudata in mGBA e VBA-M |
 | 0.60 | `d9ca40b361d02c0404b5d6553dc8d45252087d8bebf59e4e42c942a5786b183a` | 0.59 | progetto | Lotto 2: Kyogre (con SUB e 8ª medaglia) e uccelli leggendari catturabili prima della Lega, esiti cattura/KO/fuga, difetto del testo dopo il KO degli uccelli corretto. Collaudata in mGBA e VBA-M |
+| 0.61 | `f3e7802535125bdc473bd328e4cf7f2b7aeb030f71a1fabb81675614acd63cbe` | 0.60 | progetto | Lotto 2, fine: Regi a piedi senza FORZA con esiti indipendenti, Deoxys/Jirachi/Mewtwo dopo la Lega con eventi chiari (razzo, portale, grotta di Mewtwo finalmente accessibile), regola "una cattura, si ritenta dopo fuga o KO", tabella dei leggendari |
 
 ## Note sulla catena
 

@@ -1,0 +1,42 @@
+{
+ "molo": [
+  [
+   35,
+   40
+  ],
+  2,
+  12
+ ],
+ "razzo": [
+  [
+   "RAZZO ROMAGNA-1. Il volo è riservato al CAMPIONE della LEGA ROMAGNOLA."
+  ],
+  [
+   [
+    35,
+    40
+   ],
+   29,
+   16
+  ]
+ ],
+ "ritorno_a_ovest": [
+  [
+   34,
+   96
+  ],
+  79,
+  49
+ ],
+ "portale_presente": false,
+ "mewtwo": {
+  "arrivato": true,
+  "parla": [
+   [
+    "In fondo alla grotta uno sguardo gelido ti osserva. Torna quando sarai CAMPIONE della LEGA ROMAGNOLA."
+   ],
+   false
+  ],
+  "flag": 0
+ }
+}

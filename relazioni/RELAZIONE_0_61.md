@@ -124,7 +124,7 @@ Con la 0.60 si entra nella Camera di Pietra e si salva in gioco. Lo stesso file 
 - **Il KO di Regice, Registeel, Deoxys, Jirachi e Mewtwo.** Il ramo dopo la lotta è lo stesso codice provato con Regirock; per Deoxys, Jirachi e Mewtwo cambia l'avvio della lotta (`dowildbattle` invece dello special dei Regi). Non provato per non sovraccaricare la squadra di prova (Lv 50 contro Lv 50–70).
 - **Ottenere SURF in gioco**, vincere davvero la Lega e la sconfitta del giocatore: fixture o fuori da questa versione (Lotto 3).
 - **Lugia e Ho-Oh** (MOTONAVE dopo la Lega → Monte Spaccato 26.67, script di Smeraldo): solo letti, raggiungibilità da provare.
-- **Celebi** (Pineta del Savio 0.16): lo script non ha lotta, dice solo "Il bosco risuona del richiamo di Celebi". **Segnalato**: è una decisione di storia (catturabile o no), non l'ho cambiato.
+- **Celebi** (Pineta del Savio 0.16): *correzione dopo la consegna.* In una prima stesura avevo scritto che non c'era lotta: avevo letto solo l'oggetto 9 (lo sprite, nascosto). L'evento è il santuario di legno (cartello a 32,5): dopo la Lega, con la GS BALL, compare Celebi Lv 50; se non lo catturi svanisce e la GS BALL resta, quindi segue già la regola del Lotto 2. Letto negli script; l'utente l'ha provato in gioco nella 0.56. Non riprovato in questa versione.
 - **Groudon e Rayquaza** (eventi della storia): solo letti. Groudon dopo la fuga perde l'oggetto fino al rientro (manca la flag 0x8C1) e ha testi di 3–4 righe; Rayquaza ha righe troppo lunghe. Da sistemare quando si toccheranno quelle mappe.
 
 ## 5. Richieste del prompt
@@ -135,4 +135,4 @@ Con la 0.60 si entra nella Camera di Pietra e si salva in gioco. Lo stesso file 
 | Deoxys, Jirachi, Mewtwo: come ci si arriva e evento chiaro | **corretto e verificato**: percorsi provati a tasti; la grotta di Mewtwo prima non si apriva; testi che dicono cosa serve |
 | Una sola volta, nuovo tentativo dopo fuga o sconfitta, per tutti | **verificato** per la fuga di tutti e sei e il KO di Regirock; KO degli altri solo letto (§4) |
 | Tabella di tutti i leggendari in `doc/PROGETTO.md` §3 | **fatto**, con lo stato di ognuno (provato, letto, non catturabile, scollegato) |
-| Lotto 2 | **chiuso** con questa versione. Restano segnalati per il Lotto 3: rovine di Smeraldo nel registro ottimista, tre uscite su caselle sospette, Celebi senza lotta |
+| Lotto 2 | **chiuso** con questa versione. Restano segnalati per il Lotto 3: rovine di Smeraldo nel registro ottimista, tre uscite su caselle sospette |

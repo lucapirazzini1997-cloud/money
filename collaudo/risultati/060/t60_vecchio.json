@@ -1,0 +1,40 @@
+{
+ "0.59_prima": [
+  [
+   "Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario."
+  ],
+  false
+ ],
+ "0.59_dal_titolo": [
+  [
+   [
+    35,
+    31
+   ],
+   13,
+   13
+  ],
+  [
+   [
+    "Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario."
+   ],
+   false
+  ]
+ ],
+ "0.60_dal_titolo": [
+  [
+   [
+    35,
+    31
+   ],
+   13,
+   13
+  ],
+  [
+   [
+    "Il sigillo protegge ARTICUNO. Prima ascolta il vento, poi lascia che il gelo ne custodisca il soffio."
+   ],
+   false
+  ]
+ ]
+}

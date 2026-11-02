@@ -1,0 +1,26 @@
+{
+ "cartello": [
+  "MEDAGLIE"
+ ],
+ "prima_dei_piloni": [
+  [
+   "Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario."
+  ],
+  false
+ ],
+ "pilone_est_prima": [
+  "Il sigillo si spegne. Prima il pilone ovest, poi quello est."
+ ],
+ "pilone_ovest": [
+  "Il pilone OVEST risuona. Un secondo richiamo arriva da est."
+ ],
+ "pilone_est": [
+  "Il pilone EST risuona. Una corrente profonda indica il santuario di Kyogre."
+ ],
+ "parla": [
+  [
+   "Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario."
+  ],
+  false
+ ]
+}

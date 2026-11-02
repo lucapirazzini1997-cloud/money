@@ -62,6 +62,7 @@ if len(sys.argv) > 2 and os.path.exists(sys.argv[2]):   # salvataggio di partenz
     lib.retro_get_memory_data.restype = C.c_void_p; lib.retro_get_memory_size.restype = C.c_size_t
     sv = open(sys.argv[2], 'rb').read(); n = min(len(sv), lib.retro_get_memory_size(0))
     C.memmove(lib.retro_get_memory_data(0), sv, n)
+SAV_INIZIALE = open(sys.argv[2], 'rb').read() if len(sys.argv) > 2 and os.path.exists(sys.argv[2]) else b''
 lib.retro_get_memory_data.restype = C.c_void_p; lib.retro_get_memory_size.restype = C.c_size_t
 lib.retro_serialize_size.restype = C.c_size_t
 def loc(a):
@@ -76,7 +77,9 @@ def scrivi_sav():
     """Come un emulatore vero: la memoria di salvataggio della cartuccia finisce nel file .sav (a 'ping' e a 'quit')."""
     if not SAV: return
     n = lib.retro_get_memory_size(0)
-    if n: open(SAV, 'wb').write(C.string_at(lib.retro_get_memory_data(0), n))
+    if not n: return
+    cur = C.string_at(lib.retro_get_memory_data(0), n)
+    if cur != SAV_INIZIALE[:n]: open(SAV, 'wb').write(cur)      # solo se il gioco ha salvato davvero
 def runf(n):
     for _ in range(n): lib.retro_run()
 out = sys.stderr

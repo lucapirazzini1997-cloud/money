@@ -1,0 +1,71 @@
+{
+ "articuno": {
+  "senza_rune": [
+   [
+    "Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario."
+   ],
+   false
+  ],
+  "rune": [
+   [
+    "La runa VENTO si accende. Un'altra risponde in lontananza."
+   ],
+   [
+    "Il sigillo di Articuno si apre!"
+   ]
+  ],
+  "parla": [
+   [
+    "Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario."
+   ],
+   false
+  ]
+ },
+ "zapdos": {
+  "senza_rune": [
+   [
+    "Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario."
+   ],
+   false
+  ],
+  "rune": [
+   [
+    "La runa BOBINA si accende. Un'altra risponde in lontananza."
+   ],
+   [
+    "Il sigillo di Zapdos si apre!"
+   ]
+  ],
+  "parla": [
+   [
+    "Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario."
+   ],
+   false
+  ]
+ },
+ "moltres": {
+  "senza_rune": [
+   [
+    "Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario."
+   ],
+   false
+  ],
+  "rune": [
+   [
+    "La runa BRACE si accende. Un'altra risponde in lontananza."
+   ],
+   [
+    "La runa FIAMMA si accende. Un'altra risponde in lontananza."
+   ],
+   [
+    "Il sigillo di Moltres si apre!"
+   ]
+  ],
+  "parla": [
+   [
+    "Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario."
+   ],
+   false
+  ]
+ }
+}

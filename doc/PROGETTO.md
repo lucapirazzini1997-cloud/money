@@ -1,6 +1,6 @@
 # Pokémon Romagna — documento di progetto
 
-Stato alla **0.59** (SHA-256 `aee694c2…ec1d`, collaudata). Lotto 2 in corso: 0.59 cani leggendari, 0.60 Kyogre e uccelli, 0.61 Regi, Deoxys/Jirachi/Mewtwo e tabella completa.
+Stato alla **0.60** (SHA-256 `d9ca40b3…183a`, collaudata). Lotto 2 in corso: 0.59 cani leggendari, 0.60 Kyogre e uccelli, 0.61 Regi, Deoxys/Jirachi/Mewtwo e tabella completa.
 Questo è il documento di riferimento: trama, mappe, eventi, indirizzi tecnici e regole di lavoro. La storia delle versioni è in `STORIA_VERSIONI.md`, le prove in emulatore in `COLLAUDO.md`.
 
 ## 1. Come è fatto il progetto
@@ -30,7 +30,7 @@ Ogni tappa controlla lo SHA-256 atteso e si ferma se non coincide.
 |---|---|---|---|---|
 | 1 | `basi/rom047.gba` + `basi/base31.gba` | `storico_054/build54.py` (rifà 0.48 → 0.54 in sequenza) | 0.54 | `a0653255…2906` |
 | 2 | 0.54 | `pezzo_055/patch_054_055.bps` | 0.55 | `2bfaa8a3…4ad6` |
-| 3 | 0.55 | `versioni/v056_cesena_rivale.py`, `v057_spazio.py`, `v058_registri.py`, `v059_cani.py` | 0.56, 0.57, 0.58, 0.59 | `b09eb697…495f`, `47f53668…97c4`, `47f53668…97c4`, `aee694c2…ec1d` |
+| 3 | 0.55 | `versioni/v056_cesena_rivale.py`, `v057_spazio.py`, `v058_registri.py`, `v059_cani.py`, `v060_kyogre_uccelli.py` | 0.56–0.60 | `b09eb697…495f`, `47f53668…97c4`, `47f53668…97c4`, `aee694c2…ec1d`, `d9ca40b3…183a` |
 | 4 | ultima | `registri/genera.py` (modo rigoroso) | registri | — |
 | 5 | ultima | `registri/controlli.py` (allenatori, raggiungibilità, risorse, budget) | registri, `out/rapporto_build.json` | — |
 
@@ -97,9 +97,9 @@ Letti dagli script della 0.56. "Raggiungibile" vuol dire che la mappa è collega
 | Celebi | 50 | Pineta del Savio 0.16 | durante la storia | sì |
 | Rayquaza | 70 | Lugo 34.110 | durante la storia | sì |
 | Groudon | 50 | Cuore del Fumaiolo 35.17 | evento della storia | sì |
-| Articuno / Zapdos / Moltres | 52 | Santuari del Crinale 35.31 / 35.32 / 35.33 | — | sì |
+| Articuno / Zapdos / Moltres | 52 | Santuari del Crinale 35.31 / 35.32 / 35.33 (Via Vittoria, FORZA per il masso) | **dalla 0.60: prima della Lega**, con 8 medaglie e le rune del santuario (flag 0x4CD/0x4CE/0x4CF) | sì, provato in gioco |
 | Regirock / Regice / Registeel | 40 / 42 / 45 | Galleria dei Sigilli 35.76 / 35.77 / 35.78 | con la 6ª medaglia (0x86c) | sì |
-| Kyogre | 70 | fondale di Rimini 35.37 | dopo la Lega (0x864) e 8ª medaglia | sì |
+| Kyogre | 70 | fondale di Rimini 35.37 (cartello dell'Area Marina 34.44, SURF e SUB) | **dalla 0.60: prima della Lega**, con l'8ª medaglia (quella che dà SUB) e i piloni ovest → est (flag 0x4E1) | sì, provato in gioco |
 | Entei | 45 | Grotta Ardente 35.100 (dal Safari, 26.12) | **dalla 0.59: dalla prima visita a Ravenna** (flag 0x88F) | sì, provato in gioco |
 | Raikou | 45 | prato del Safari 26.12 | **dalla 0.59: dalla prima visita a Ravenna** (flag 0x884) | sì, provato in gioco |
 | Suicune | 45 | lago del Safari 26.13 (con SURF) | **dalla 0.59: dalla prima visita a Ravenna** (flag 0x887) | sì, provato in gioco |
@@ -124,10 +124,10 @@ Letti dagli script della 0.56. "Raggiungibile" vuol dire che la mappa è collega
 
 - **Conflitto latente (0.58):** 0x78A (rosone "pietralunare") è anche la flag di Danielle, allenatrice della palestra di Lavaridge di Smeraldo (4.1). Oggi la 4.1 non si raggiunge; se una versione la collega la build fallisce e Danielle va spostata su un numero libero. Le flag 0x792–0x794, 0x7AA–0x7AD e 0x7B0–0x7B3 sono di allenatori della tabella delle rivincite (servono il Pokénav, assente): rischio basso.
 
-## 4b. Risorse rimaste (budget della 0.59)
+## 4b. Risorse rimaste (budget della 0.60)
 
 - **Spazio nella ROM:** la ROM è a 32 MB, il massimo del GBA, e non si allarga.
-  - Restano 1248 KB nelle zone dell'engine (la 0.59 ha usato 1119 byte).
+  - Restano 1246 KB nelle zone dell'engine (la 0.59 ha usato 1119 byte, la 0.60 2580).
   - Analisi e cose non recuperate: `relazioni/RELAZIONE_0_57.md` §3.
   - Il gruppo 0 **non** è un insieme di vecchie mappe libere: gran parte è usata dalla Romagna (0.9 Lido, 0.10 Cervia, 0.27 Mirabilandia, 0.28 Safari di Ravenna); i nomi delle zone sono riscritti, per questo 0.12 (Lavaridge) si chiama IMOLA.
   - Posti per mappe nuove: 34.10, 34.13, 34.18, 24.39–24.41, 24.50–24.51, 24.74–24.76.

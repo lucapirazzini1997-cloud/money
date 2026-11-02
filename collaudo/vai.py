@@ -29,7 +29,24 @@ CAMPO = {0x8085d9d, 0x8085d91}              # CB2 del campo (con o senza script/
 def ow(g): return g.cb2() in CAMPO
 
 
+FUGA = True          # nelle lotte selvatiche lungo la strada si prova prima a fuggire
+
+
 def lotta(g):
+    from drv import D, R
+    if FUGA:
+        for t in range(10):
+            for _ in range(80):                                   # fino al menu della lotta
+                if ow(g) or g.e.r('r32', 0x3005d60) == pl.ACT: break
+                g.key(B, 2, 20)
+            if ow(g): break
+            g.key(D, 3, 10); g.key(R, 3, 10); g.key(A, 3, 60)
+            for _ in range(30):
+                if ow(g) or g.e.r('r32', 0x3005d60) == pl.ACT: break
+                g.key(B, 2, 20)
+            if ow(g): break
+        g.e.run(30)
+        if ow(g): log('  lotta selvatica: fuga', 'squadra', g.party(), 'pos', stato(g)[:3]); return
     info = g.battle(); log('  lotta', info[:1], 'squadra', g.party(), 'pos', stato(g)[:3])
 
 
@@ -46,7 +63,8 @@ def vai(g, mappa, x, y, ab, accanto=True, max_ricalcoli=30, quota_fissa=None):
     for giro in range(max_ricalcoli):
         k, px, py, z, surf = stato(g)
         if k == mappa and abs(px - x) + abs(py - y) <= (1 if accanto else 0): return True
-        prec = PC.cerca(R, (k, (px, py)), ab, z=z, surf=surf)
+        massi = [xy for xy, gf in g.lobjs_gfx() if gf == 87]
+        prec = PC.cerca(R, (k, (px, py)), ab, z=z, surf=surf, massi_vivi=massi)
         st = PC.raggiunge(prec, mappa, x, y) if accanto else next((s for s in prec if s[:3] == (mappa, x, y)), None)
         if st is None: log('  nessun percorso da', (k, px, py, z, surf), 'a', mappa, (x, y)); return False
         passi = PC.strada(prec, st)[1:]
@@ -54,13 +72,21 @@ def vai(g, mappa, x, y, ab, accanto=True, max_ricalcoli=30, quota_fissa=None):
         for (nst, dn, az) in passi:
             k0, x0, y0, _, _ = stato(g)
             vivi = dict(g.lobjs_gfx()) if az == 'passo' else {}
-            dx, dy = DXY[dn]
+            dx, dy = DXY.get(dn, (0, 0))
             if vivi.get((x0 + dx, y0 + dy)) == 86 and k0 == nst[0]:
                 rompi(g, dn)
+            if vivi.get((x0 + dx, y0 + dy)) == 87 and k0 == nst[0]:       # masso: FORZA (A, si), poi spinta
+                g.step(DIRCH[dn], 3)
+                for _ in range(4): g.key(A, 3, 45)
+                g.e.run(60)
             if az == 'surf':
                 g.step(DIRCH[dn], 3)
                 for _ in range(3): g.key(A, 3, 50)
                 g.e.run(150)
+            elif az in ('immersione', 'risalita'):        # SUB: A sull'acqua profonda, B sott'acqua per risalire; poi "si"
+                if az == 'risalita': g.key(B, 3, 60)
+                for _ in range(3): g.key(A, 3, 50)
+                g.e.run(240); ok = False; break
             elif az == 'uscita':
                 g.step(DIRCH[dn]); g.e.run(150)
             else:

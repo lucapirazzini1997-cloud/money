@@ -1,0 +1,187 @@
+{
+ "articuno": {
+  "senza_rune": [
+   [
+    "Il sigillo protegge ARTICUNO. Prima ascolta il vento, poi lascia che il gelo ne custodisca il soffio."
+   ],
+   false
+  ],
+  "rune": [
+   [
+    "La runa VENTO si accende. Un'altra risponde in lontananza."
+   ],
+   [
+    "Il sigillo di Articuno si apre!"
+   ]
+  ],
+  "parla": [
+   [
+    "ARTICUNO reagisce alla tua presenza. La sfida comincia!",
+    "{fc}{02}{02}ARTICUNO{fc}{01}{0b}"
+   ],
+   true
+  ],
+  "fuga": {
+   "testi": [
+    "ARTICUNO si allontana, poi torna sul suo trespolo. Puoi riprovare quando vuoi."
+   ],
+   "flag": 0,
+   "presente": true
+  },
+  "cattura": {
+   "testi": [
+    "ARTICUNO reagisce alla tua presenza. La sfida comincia!",
+    "{fc}{02}{02}ARTICUNO{fc}{01}{0b}",
+    "BLAZIKEN ottiene 1597 punti ESP.! ",
+    "BRELOOM ottiene 798 punti ESP.! ",
+    "I dati di ARTICUNO sono stati aggiunti al POKéDEX. ",
+    "Vuoi dare un soprannome a ARTICUNO?",
+    "ARTICUNO ha scelto di viaggiare con te!"
+   ],
+   "flag": 1,
+   "presente": false,
+   "squadra": [
+    282,
+    307,
+    144
+   ]
+  }
+ },
+ "zapdos": {
+  "senza_rune": [
+   [
+    "Il sigillo protegge ZAPDOS. Collega la bobina al richiamo del cielo. La messa a terra interrompe il circuito."
+   ],
+   false
+  ],
+  "rune": [
+   [
+    "La runa BOBINA si accende. Un'altra risponde in lontananza."
+   ],
+   [
+    "Il sigillo di Zapdos si apre!"
+   ]
+  ],
+  "parla": [
+   [
+    "ZAPDOS reagisce alla tua presenza. La sfida comincia!"
+   ],
+   true
+  ],
+  "fuga": {
+   "testi": [
+    "ZAPDOS si allontana, poi torna sul suo trespolo. Puoi riprovare quando vuoi."
+   ],
+   "flag": 0,
+   "presente": true
+  },
+  "cattura": {
+   "testi": [
+    "ZAPDOS reagisce alla tua presenza. La sfida comincia!",
+    "BLAZIKEN ottiene 1604 punti ESP.! ",
+    "BRELOOM ottiene 802 punti ESP.! ",
+    "ARTICUNO ottiene 802 punti ESP.! ",
+    "I dati di ZAPDOS sono stati aggiunti al POKéDEX. ",
+    "Vuoi dare un soprannome a ZAPDOS?",
+    "ZAPDOS ha scelto di viaggiare con te!"
+   ],
+   "flag": 1,
+   "presente": false,
+   "squadra": [
+    282,
+    307,
+    144,
+    145
+   ]
+  }
+ },
+ "moltres": {
+  "senza_rune": [
+   [
+    "Il sigillo protegge MOLTRES. Dal calore più piccolo al più grande: brace, fiamma e sole."
+   ],
+   false
+  ],
+  "rune": [
+   [
+    "La runa BRACE si accende. Un'altra risponde in lontananza."
+   ],
+   [
+    "La runa FIAMMA si accende. Un'altra risponde in lontananza."
+   ],
+   [
+    "Il sigillo di Moltres si apre!"
+   ]
+  ],
+  "parla": [
+   [
+    "MOLTRES reagisce alla tua presenza. La sfida comincia!",
+    "{fc}{02}{02}MOLTRES{fc}{01}{0b}"
+   ],
+   true
+  ],
+  "fuga": {
+   "testi": [
+    "MOLTRES si allontana, poi torna sul suo trespolo. Puoi riprovare quando vuoi."
+   ],
+   "flag": 0,
+   "presente": true
+  },
+  "cattura": {
+   "testi": [
+    "MOLTRES reagisce alla tua presenza. La sfida comincia!",
+    "{fc}{02}{02}MOLTRES{fc}{01}{0b}",
+    "BLAZIKEN ottiene 1612 punti ESP.! ",
+    "BLAZIKEN sale al LV. 51!{fc}{0a} ",
+    "BRELOOM ottiene 806 punti ESP.! ",
+    "ARTICUNO ottiene 806 punti ESP.! ",
+    "ZAPDOS ottiene 806 punti ESP.! ",
+    "I dati di MOLTRES sono stati aggiunti al POKéDEX. ",
+    "Vuoi dare un soprannome a MOLTRES?"
+   ],
+   "flag": 1,
+   "presente": false,
+   "squadra": [
+    282,
+    307,
+    144,
+    145,
+    146
+   ]
+  }
+ },
+ "ricarica": {
+  "pos": [
+   [
+    35,
+    28
+   ],
+   15,
+   20
+  ],
+  "flag": {
+   "articuno": 1,
+   "zapdos": 1,
+   "moltres": 1
+  },
+  "squadra": [
+   282,
+   307,
+   144,
+   145,
+   146
+  ],
+  "moltres": {
+   "arrivato": true,
+   "presente": false
+  },
+  "zapdos": {
+   "arrivato": true,
+   "presente": false
+  },
+  "articuno": {
+   "arrivato": true,
+   "presente": false
+  }
+ }
+}

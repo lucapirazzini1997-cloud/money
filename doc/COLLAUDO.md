@@ -44,6 +44,7 @@ cd .. && python3 build.py      # costruisce le ROM in out/
 | `t56ch.py` | 0.56: chiesa e rosone |
 | `t56r.py`, `t56r2.py` | 0.56: nome del rivale dal personaggio del laboratorio |
 | `save56.py` | salvataggio dal menu del gioco, riavvio da zero, "Continua", confronto dello stato |
+| `t60.py`, `leg.py` | collaudo della 0.60 (Kyogre e uccelli) e funzioni comuni per le prove sui leggendari (fixture dichiarate: medaglie, mosse, Master Ball, posizione, allenatori) |
 | `t59.py`, `vai.py` | collaudo della 0.59 (cani leggendari) e navigatore: porta il giocatore dove serve solo con i tasti, con il percorso di `analisi/percorso.py`, combattendo le lotte selvatiche |
 | `regressione.py` | **regressione** (dalla 0.58): stessa partita di prova su tutte le partenze, tabella dei risultati, confronto con una ROM di riferimento |
 | `t57.py` | collaudo della 0.57: confronto 0.56 / 0.57 / 0.57 con le zone recuperate riempite di byte casuali |
@@ -56,7 +57,7 @@ Esempio: `cd collaudo && python3 t56c.py` (consegna dei pennelli partendo da `t5
 ### Regressione
 
 ```sh
-python3 collaudo/regressione.py out/Pokemon_Romagna_0_59.gba --rif out/Pokemon_Romagna_0_58.gba
+python3 collaudo/regressione.py out/Pokemon_Romagna_0_60.gba --rif out/Pokemon_Romagna_0_59.gba
 ```
 
 - **Partenze:** i 13 savestate in mGBA, più un salvataggio vero fatto in gioco (menu → SALVA dal savestate `t56_reload`) e caricato con Continua in mGBA e in VBA-M.
@@ -112,3 +113,5 @@ Non sostituiscono la prova in gioco, ma vanno fatti a ogni versione:
 - **Savestate e ROM diverse.** Un savestate conserva in SaveBlock1 la copia degli oggetti della mappa, con i puntatori agli script della ROM su cui è stato fatto. Per confrontare due ROM dallo stesso savestate bisogna prima uscire dalla mappa e rientrare (`t59.py` lo fa con `--rif`).
 - **VBA-M scrive il salvataggio.** Dalla 0.59 `vb.py` riscrive il file `.sav` al `ping` e all'uscita, come mGBA: prima un salvataggio fatto in gioco su VBA-M si perdeva.
 - **Regressione dal salvataggio vero:** dopo Continua, Smeraldo copia i puntatori agli script di tutti i 64 oggetti della tabella della mappa, anche oltre il numero reale. Se dopo la tabella c'è spazio usato da una versione nuova, quei byte di EWRAM cambiano: è atteso e innocuo (vedi `RELAZIONE_0_59.md` §4).
+- **Fixture di posizione (dalla 0.60):** per partire da un punto della storia senza savestate si scrive la posizione in SaveBlock1 **e** nell'oggetto del giocatore (Continua ripristina anche quello), poi si salva in gioco e si continua dal titolo (`leg.fixture_posizione`).
+- **SUB:** per immergersi A sull'acqua profonda; per risalire **B** sott'acqua; poi "sì".

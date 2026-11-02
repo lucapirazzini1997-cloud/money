@@ -33,7 +33,7 @@ BLOCCA_DIR = {0x30: 'E', 0x31: 'W', 0x32: 'N', 0x33: 'S'}           # casella ch
 FRECCE = {0x62: 'E', 0x63: 'W', 0x64: 'N', 0x65: 'S', 0x6d: 'S', 0x6e: 'S'}   # uscite a freccia: si sta sopra e si spinge
 PORTE = (set(range(0x60, 0x70)) | {0x0e, 0x0f, 0x29, 0x8d, 0x8e}) - set(FRECCE)   # caselle d'uscita calpestabili
 STAZIONARI = {0, 1, 7, 8, 9, 10}                                     # tipi di movimento fermi
-SCR_ROCCIA, SCR_ALBERO, SCR_MASSO = 0x290b6b, None, None
+SCR_ROCCIA, SCR_ALBERO, SCR_MASSO = 0x290b6b, 0x290a67, 0x290c74     # SPACCAROCCIA (0x869), TAGLIO, FORZA (0x86d)
 DIRS = {'N': (0, -1), 'S': (0, 1), 'W': (-1, 0), 'E': (1, 0)}
 
 
@@ -68,13 +68,18 @@ def oggetti_bloccanti(R, m, ab, flag_alzate, script_tipo):
     return out
 
 
-def cerca(R, partenza, ab, flag_alzate=(), script_tipo=None, z=None, surf=False):
+def cerca(R, partenza, ab, flag_alzate=(), script_tipo=None, z=None, surf=False, massi_vivi=None):
     """-> {stato: (stato precedente, direzione, azione)}; stato = (mappa, x, y, quota, surf).
     azione: 'passo', 'surf' (sale in acqua), 'salto', 'uscita' (porta/scala: si arriva all'uscita di destinazione)."""
-    W = Mondo(R); flag_alzate = set(flag_alzate); script_tipo = script_tipo or {SCR_ROCCIA: 'roccia'}
+    W = Mondo(R); flag_alzate = set(flag_alzate); script_tipo = script_tipo or {SCR_ROCCIA: 'roccia', SCR_ALBERO: 'albero', SCR_MASSO: 'masso'}
     blocchi = {}
     def ostacoli(k):
-        if k not in blocchi: blocchi[k] = oggetti_bloccanti(R, W.mappa(k), ab, flag_alzate, script_tipo)
+        if k not in blocchi:
+            blocchi[k] = oggetti_bloccanti(R, W.mappa(k), ab, flag_alzate, script_tipo)
+            if massi_vivi is not None and k == partenza[0]:      # massi gia' spostati (posizioni lette in RAM)
+                rom = {(o['x'], o['y']) for o in W.mappa(k)['objects'] if script_tipo.get(o['script']) == 'masso'}
+                for xy in massi_vivi:
+                    if xy not in rom: blocchi[k][xy] = {'masso spostato': True}
         return blocchi[k]
     (k0, (x0, y0)) = partenza
     c0 = W.casella(k0, x0, y0)
@@ -83,8 +88,17 @@ def cerca(R, partenza, ab, flag_alzate=(), script_tipo=None, z=None, surf=False)
     mossa = ['', 'passo']
     def push(st, da):
         if st not in prec: prec[st] = (da, mossa[0], mossa[1]); q.append(st)
+    def sott(k): return any(c['dir'] == 6 for c in W.mappa(k)['conns'])     # mappa sott'acqua (risalita: dir 6)
+    def immersione(k, d): return next(((c['group'], c['num']) for c in W.mappa(k)['conns'] if c['dir'] == d), None)
     while q:
         st = q.popleft(); k, x, y, z, surf = st; m = W.mappa(k); cur = W.casella(k, x, y)
+        if 'sub' in ab:                                          # SUB: giu' dall'acqua profonda, su dove si puo' risalire
+            if surf and cur['b'] in (0x11, 0x12, 0x14) and immersione(k, 5):
+                tk = immersione(k, 5); t = W.casella(tk, x, y); mossa[:] = ['', 'immersione']
+                if t and t['coll'] == 0: push((tk, x, y, t['z'], False), st)
+            if sott(k) and cur['b'] != 0x19:
+                tk = immersione(k, 6); t = W.casella(tk, x, y) if tk else None; mossa[:] = ['', 'risalita']
+                if t and t['b'] in SURFABILE: push((tk, x, y, 1, True), st)
         for dn, (dx, dy) in DIRS.items():
             if BLOCCA_DIR.get(cur['b']) == dn: continue
             mossa[:] = [dn, 'passo']
@@ -141,6 +155,9 @@ def cerca(R, partenza, ab, flag_alzate=(), script_tipo=None, z=None, surf=False)
                 if dn == 'N' and 'cascata' not in ab: continue
             if t['b'] == FANGO and dn == 'N' and 'corsa' not in ab: continue
             if (t['b'] == GOBBE or t['b'] in BINARI) and 'cross' not in ab: continue
+            if sott(nk) and not surf:                            # sott'acqua si nuota come a piedi
+                if not mismatch: push((nk, nx, ny, tz if tz not in (0, 15) else z, False), st)
+                continue
             if surf:
                 if acqua and not mismatch: push((nk, nx, ny, tz if tz not in (0, 15) else z, True), st)
                 elif not acqua and tz == 3 and mismatch: push((nk, nx, ny, 3, False), st)       # scende a terra

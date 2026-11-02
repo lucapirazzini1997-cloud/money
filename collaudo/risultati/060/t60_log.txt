@@ -1,0 +1,433 @@
+KYOGRE Pokemon_Romagna_0_60.gba ((34, 44), 50, 21, 3, False)
+  cartello: ['MEDAGLIE'] ((35, 36), 3, 20)
+  fuori percorso: atteso ((35, 36), 8, 20) sono ((35, 36), 9, 20) azione passo E
+  fuori percorso: atteso ((35, 36), 10, 20) sono ((35, 36), 11, 20) azione passo E
+  accanto a Kyogre True ((35, 37), 28, 24, 3, False)
+  prima dei piloni: (['Il santuario è protetto da due risonanze. Cerca il pilone ovest e poi quello est: le correnti hanno una via anche a nord.'], False)
+  pilone est per primo: ['Il sigillo si spegne. Prima il pilone ovest, poi quello est.']
+  pilone ovest: ['Il pilone OVEST risuona. Un secondo richiamo arriva da est.']
+  pilone est: ['Il pilone EST risuona. Una corrente profonda indica il santuario di Kyogre.']
+  fuori percorso: atteso ((35, 37), 24, 18) sono ((35, 37), 24, 20) azione passo S
+  parla: ["Tra i piloni spezzati dell'ISOLA DELLE ROSE dorme un Pokémon gigantesco... KYOGRE apre gli occhi!"] lotta True
+  fuga: {'testi': ['KYOGRE si riadagia sul fondale. Puoi riprovare quando vuoi.'], 'flag': 0, 'presente': True}
+  cattura: {'testi': ["Tra i piloni spezzati dell'ISOLA DELLE ROSE dorme un Pokémon gigantesco... KYOGRE apre gli occhi!", 'BLAZIKEN ottiene 2180 punti ESP.! ', 'BRELOOM ottiene 1090 punti ESP.! ', 'I dati di KYOGRE sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a KYOGRE?', 'Hai catturato KYOGRE! Il mare torna calmo.'], 'flag': 1, 'presente': False, 'squadra': [282, 307, 404]}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  nessun percorso da ((35, 37), 28, 24, 3, False) a (35, 36) (20, 20)
+  dopo la ricarica: {'pos': ((35, 37), 28, 24), 'flag': 1, 'squadra': [282, 307, 404], 'rientro': True, 'presente_dopo_rientro': False, 'flag_dopo_rientro': 1}
+UCCELLI Pokemon_Romagna_0_60.gba ((35, 19), 18, 5, 3, False)
+  fuori percorso: atteso ((35, 27), 10, 14) sono ((35, 27), 10, 15) azione passo N
+  fuori percorso: atteso ((35, 27), 10, 14) sono ((35, 27), 10, 15) azione passo N
+  fuori percorso: atteso ((35, 27), 10, 14) sono ((35, 27), 10, 15) azione passo N
+  guardia: ['GUARDIA: Tutte e otto le medaglie! La Via Vittoria mette alla prova la tua squadra. I santuari degli uccelli sono diramazioni facoltative.'] ((35, 28), 3, 24)
+  fuori percorso: atteso ((35, 28), 4, 19) sono ((35, 28), 3, 19) azione passo E
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((35, 28), 3, 19)
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((35, 28), 10, 19)
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 19) azione passo N
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 19) azione passo N
+  fuori percorso: atteso ((35, 28), 10, 11) sono ((35, 28), 10, 12) azione passo N
+  fuori percorso: atteso ((35, 28), 21, 9) sono ((35, 28), 21, 10) azione passo N
+  fuori percorso: atteso ((35, 28), 21, 9) sono ((35, 28), 21, 10) azione passo N
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((35, 28), 21, 10)
+  fuori percorso: atteso ((35, 28), 20, 6) sono ((35, 28), 21, 6) azione passo W
+  fuori percorso: atteso ((35, 28), 20, 6) sono ((35, 28), 21, 6) azione passo W
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((35, 28), 21, 6)
+articuno accanto True ((35, 31), 13, 13)
+  senza rune: (['Il sigillo protegge ARTICUNO. Prima ascolta il vento, poi lascia che il gelo ne custodisca il soffio.'], False)
+  rune: [["La runa VENTO si accende. Un'altra risponde in lontananza."], ['Il sigillo di Articuno si apre!']]
+  parla: ['ARTICUNO reagisce alla tua presenza. La sfida comincia!', '{fc}{02}{02}ARTICUNO{fc}{01}{0b}'] lotta True
+  fuga: {'testi': ['ARTICUNO si allontana, poi torna sul suo trespolo. Puoi riprovare quando vuoi.'], 'flag': 0, 'presente': True}
+  cattura: {'testi': ['ARTICUNO reagisce alla tua presenza. La sfida comincia!', '{fc}{02}{02}ARTICUNO{fc}{01}{0b}', 'BLAZIKEN ottiene 1597 punti ESP.! ', 'BRELOOM ottiene 798 punti ESP.! ', 'I dati di ARTICUNO sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a ARTICUNO?', 'ARTICUNO ha scelto di viaggiare con te!'], 'flag': 1, 'presente': False, 'squadra': [282, 307, 144]}
+  fuori percorso: atteso ((35, 28), 10, 9) sono ((35, 28), 9, 9) azione passo E
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119), (52, 157, 157)] pos ((35, 28), 9, 9)
+  fuori percorso: atteso ((35, 28), 17, 9) sono ((35, 28), 16, 9) azione passo E
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119), (52, 157, 157)] pos ((35, 28), 16, 9)
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+  fuori percorso: atteso ((35, 28), 13, 20) sono ((35, 28), 12, 20) azione passo E
+  fuori percorso: atteso ((35, 28), 13, 20) sono ((35, 28), 12, 20) azione passo E
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119), (52, 157, 157)] pos ((35, 28), 12, 20)
+  fuori percorso: atteso ((35, 28), 14, 19) sono ((35, 28), 15, 19) azione passo W
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119), (52, 157, 157)] pos ((35, 28), 15, 19)
+  fuori percorso: atteso ((35, 28), 21, 4) sono ((35, 28), 21, 5) azione passo N
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119), (52, 157, 157)] pos ((35, 28), 21, 5)
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119), (52, 157, 157)] pos ((35, 28), 27, 3)
+zapdos accanto True ((35, 32), 13, 13)
+  senza rune: (['Il sigillo protegge ZAPDOS. Collega la bobina al richiamo del cielo. La messa a terra interrompe il circuito.'], False)
+  rune: [["La runa BOBINA si accende. Un'altra risponde in lontananza."], ['Il sigillo di Zapdos si apre!']]
+  parla: ['ZAPDOS reagisce alla tua presenza. La sfida comincia!'] lotta True
+  fuga: {'testi': ['ZAPDOS si allontana, poi torna sul suo trespolo. Puoi riprovare quando vuoi.'], 'flag': 0, 'presente': True}
+  cattura: {'testi': ['ZAPDOS reagisce alla tua presenza. La sfida comincia!', 'BLAZIKEN ottiene 1604 punti ESP.! ', 'BRELOOM ottiene 802 punti ESP.! ', 'ARTICUNO ottiene 802 punti ESP.! ', 'I dati di ZAPDOS sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a ZAPDOS?', 'ZAPDOS ha scelto di viaggiare con te!'], 'flag': 1, 'presente': False, 'squadra': [282, 307, 144, 145]}
+  fuori percorso: atteso ((35, 28), 21, 14) sono ((35, 28), 21, 13) azione passo S
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119), (52, 157, 157), (52, 168, 168)] pos ((35, 28), 21, 13)
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+  fuori percorso: atteso ((35, 28), 16, 22) sono ((35, 28), 15, 22) azione passo E
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119), (52, 157, 157), (52, 168, 168)] pos ((35, 28), 15, 22)
+moltres accanto True ((35, 33), 12, 12)
+  senza rune: (['Il sigillo protegge MOLTRES. Dal calore più piccolo al più grande: brace, fiamma e sole.'], False)
+  rune: [["La runa BRACE si accende. Un'altra risponde in lontananza."], ["La runa FIAMMA si accende. Un'altra risponde in lontananza."], ['Il sigillo di Moltres si apre!']]
+  parla: ['MOLTRES reagisce alla tua presenza. La sfida comincia!', '{fc}{02}{02}MOLTRES{fc}{01}{0b}'] lotta True
+  fuga: {'testi': ['MOLTRES si allontana, poi torna sul suo trespolo. Puoi riprovare quando vuoi.'], 'flag': 0, 'presente': True}
+  cattura: {'testi': ['MOLTRES reagisce alla tua presenza. La sfida comincia!', '{fc}{02}{02}MOLTRES{fc}{01}{0b}', 'BLAZIKEN ottiene 1612 punti ESP.! ', 'BLAZIKEN sale al LV. 51!{fc}{0a} ', 'BRELOOM ottiene 806 punti ESP.! ', 'ARTICUNO ottiene 806 punti ESP.! ', 'ZAPDOS ottiene 806 punti ESP.! ', 'I dati di MOLTRES sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a MOLTRES?'], 'flag': 1, 'presente': False, 'squadra': [282, 307, 144, 145, 146]}
+  fuori percorso: atteso ((35, 33), 14, 13) sono ((35, 33), 14, 12) azione passo S
+  fuori percorso: atteso ((35, 28), 22, 20) sono ((35, 28), 23, 20) azione passo W
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 157, 157), (52, 168, 168), (52, 157, 157)] pos ((35, 28), 23, 20)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  fuori percorso: atteso ((35, 28), 18, 22) sono ((35, 28), 17, 22) azione passo E
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 157, 157), (52, 168, 168), (52, 157, 157)] pos ((35, 28), 17, 22)
+  fuori percorso: atteso ((35, 28), 26, 22) sono ((35, 28), 25, 22) azione passo E
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 157, 157), (52, 168, 168), (52, 157, 157)] pos ((35, 28), 25, 22)
+  fuori percorso: atteso ((35, 28), 15, 19) sono ((35, 28), 15, 20) azione passo N
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 157, 157), (52, 168, 168), (52, 157, 157)] pos ((35, 28), 15, 20)
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 19) azione passo N
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 19) azione passo N
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 157, 157), (52, 168, 168), (52, 157, 157)] pos ((35, 28), 10, 13)
+  fuori percorso: atteso ((35, 28), 19, 11) sono ((35, 28), 18, 11) azione passo E
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 157, 157), (52, 168, 168), (52, 157, 157)] pos ((35, 28), 18, 11)
+  fuori percorso: atteso ((35, 28), 23, 3) sono ((35, 28), 24, 3) azione passo W
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 157, 157), (52, 168, 168), (52, 157, 157)] pos ((35, 28), 24, 3)
+  fuori percorso: atteso ((35, 28), 21, 13) sono ((35, 28), 21, 12) azione passo S
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 157, 157), (52, 168, 168), (52, 157, 157)] pos ((35, 28), 21, 12)
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+  fuori percorso: atteso ((35, 28), 14, 20) sono ((35, 28), 13, 20) azione passo E
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 157, 157), (52, 168, 168), (52, 157, 157)] pos ((35, 28), 13, 20)
+  fuori percorso: atteso ((35, 28), 10, 12) sono ((35, 28), 10, 13) azione passo N
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 157, 157), (52, 168, 168), (52, 157, 157)] pos ((35, 28), 10, 13)
+  fuori percorso: atteso ((35, 28), 20, 6) sono ((35, 28), 21, 6) azione passo W
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 157, 157), (52, 168, 168), (52, 157, 157)] pos ((35, 28), 21, 6)
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 157, 157), (52, 168, 168), (52, 157, 157)] pos ((35, 28), 4, 6)
+  fuori percorso: atteso ((35, 28), 16, 9) sono ((35, 28), 15, 9) azione passo E
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 157, 157), (52, 168, 168), (52, 157, 157)] pos ((35, 28), 15, 9)
+  fuori percorso: atteso ((35, 28), 21, 16) sono ((35, 28), 21, 15) azione passo S
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 157, 157), (52, 168, 168), (52, 157, 157)] pos ((35, 28), 21, 15)
+  fuori percorso: atteso ((35, 28), 13, 17) sono ((35, 28), 14, 17) azione passo W
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 157, 157), (52, 168, 168), (52, 157, 157)] pos ((35, 28), 14, 17)
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+  dopo la ricarica: {'pos': ((35, 28), 15, 20), 'flag': {'articuno': 1, 'zapdos': 1, 'moltres': 1}, 'squadra': [282, 307, 144, 145, 146], 'moltres': {'arrivato': True, 'presente': False}, 'zapdos': {'arrivato': True, 'presente': False}, 'articuno': {'arrivato': True, 'presente': False}}
+KYOGRE Pokemon_Romagna_0_59.gba ((34, 44), 50, 21, 3, False)
+  cartello: ['MEDAGLIE'] ((35, 36), 3, 20)
+  fuori percorso: atteso ((35, 36), 8, 20) sono ((35, 36), 9, 20) azione passo E
+  fuori percorso: atteso ((35, 36), 10, 20) sono ((35, 36), 11, 20) azione passo E
+  accanto a Kyogre True ((35, 37), 28, 24, 3, False)
+  prima dei piloni: (['Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario.'], False)
+  pilone est per primo: ['Il sigillo si spegne. Prima il pilone ovest, poi quello est.']
+  pilone ovest: ['Il pilone OVEST risuona. Un secondo richiamo arriva da est.']
+  pilone est: ['Il pilone EST risuona. Una corrente profonda indica il santuario di Kyogre.']
+  fuori percorso: atteso ((35, 37), 24, 18) sono ((35, 37), 24, 20) azione passo S
+  parla: ['Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario.'] lotta False
+UCCELLI Pokemon_Romagna_0_59.gba ((35, 19), 18, 5, 3, False)
+  fuori percorso: atteso ((35, 27), 10, 14) sono ((35, 27), 10, 15) azione passo N
+  fuori percorso: atteso ((35, 27), 10, 14) sono ((35, 27), 10, 15) azione passo N
+  fuori percorso: atteso ((35, 27), 10, 14) sono ((35, 27), 10, 15) azione passo N
+  guardia: ['GUARDIA: Tutte e otto le medaglie! La Via Vittoria mette alla prova la tua squadra. I santuari degli uccelli sono diramazioni facoltative.'] ((35, 28), 3, 24)
+  fuori percorso: atteso ((35, 28), 4, 19) sono ((35, 28), 3, 19) azione passo E
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((35, 28), 3, 19)
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((35, 28), 10, 19)
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 19) azione passo N
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 19) azione passo N
+  fuori percorso: atteso ((35, 28), 10, 11) sono ((35, 28), 10, 12) azione passo N
+  fuori percorso: atteso ((35, 28), 21, 9) sono ((35, 28), 21, 10) azione passo N
+  fuori percorso: atteso ((35, 28), 21, 9) sono ((35, 28), 21, 10) azione passo N
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((35, 28), 21, 10)
+  fuori percorso: atteso ((35, 28), 20, 6) sono ((35, 28), 21, 6) azione passo W
+  fuori percorso: atteso ((35, 28), 20, 6) sono ((35, 28), 21, 6) azione passo W
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((35, 28), 21, 6)
+articuno accanto True ((35, 31), 13, 13)
+  senza rune: (['Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario.'], False)
+  rune: [["La runa VENTO si accende. Un'altra risponde in lontananza."], ['Il sigillo di Articuno si apre!']]
+  parla: ['Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario.'] lotta False
+  fuori percorso: atteso ((35, 28), 21, 12) sono ((35, 28), 21, 11) azione passo S
+  fuori percorso: atteso ((35, 28), 21, 12) sono ((35, 28), 21, 11) azione passo S
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((35, 28), 21, 11)
+  fuori percorso: atteso ((35, 28), 20, 17) sono ((35, 28), 21, 17) azione passo W
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((35, 28), 21, 17)
+  fuori percorso: atteso ((35, 28), 10, 17) sono ((35, 28), 11, 17) azione passo W
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((35, 28), 11, 17)
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+zapdos accanto True ((35, 32), 13, 13)
+  senza rune: (['Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario.'], False)
+  rune: [["La runa BOBINA si accende. Un'altra risponde in lontananza."], ['Il sigillo di Zapdos si apre!']]
+  parla: ['Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario.'] lotta False
+  fuori percorso: atteso ((35, 28), 21, 17) sono ((35, 28), 21, 16) azione passo S
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((35, 28), 21, 16)
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+  fuori percorso: atteso ((35, 28), 15, 20) sono ((35, 28), 14, 20) azione passo E
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((35, 28), 14, 20)
+moltres accanto True ((35, 33), 12, 12)
+  senza rune: (['Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario.'], False)
+  rune: [["La runa BRACE si accende. Un'altra risponde in lontananza."], ["La runa FIAMMA si accende. Un'altra risponde in lontananza."], ['Il sigillo di Moltres si apre!']]
+  parla: ['Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario.'] lotta False
+KYOGRE Pokemon_Romagna_0_60.gba ((34, 44), 50, 21, 3, False)
+  cartello: ['MEDAGLIE'] ((35, 36), 3, 20)
+  fuori percorso: atteso ((35, 36), 8, 20) sono ((35, 36), 9, 20) azione passo E
+  fuori percorso: atteso ((35, 36), 10, 20) sono ((35, 36), 11, 20) azione passo E
+  accanto a Kyogre True ((35, 37), 28, 24, 3, False)
+  prima dei piloni: (['Il santuario è protetto da due risonanze. Cerca il pilone ovest e poi quello est: le correnti hanno una via anche a nord.'], False)
+  pilone est per primo: ['Il sigillo si spegne. Prima il pilone ovest, poi quello est.']
+  pilone ovest: ['Il pilone OVEST risuona. Un secondo richiamo arriva da est.']
+  pilone est: ['Il pilone EST risuona. Una corrente profonda indica il santuario di Kyogre.']
+  fuori percorso: atteso ((35, 37), 24, 18) sono ((35, 37), 24, 20) azione passo S
+  parla: ["Tra i piloni spezzati dell'ISOLA DELLE ROSE dorme un Pokémon gigantesco... KYOGRE apre gli occhi!"] lotta True
+  fuga: {'testi': ['KYOGRE si riadagia sul fondale. Puoi riprovare quando vuoi.'], 'flag': 0, 'presente': True}
+  cattura: {'testi': ["Tra i piloni spezzati dell'ISOLA DELLE ROSE dorme un Pokémon gigantesco... KYOGRE apre gli occhi!", 'BLAZIKEN ottiene 2180 punti ESP.! ', 'BRELOOM ottiene 1090 punti ESP.! ', 'I dati di KYOGRE sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a KYOGRE?', 'Hai catturato KYOGRE! Il mare torna calmo.'], 'flag': 1, 'presente': False, 'squadra': [282, 307, 404]}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  nessun percorso da ((35, 37), 28, 24, 3, False) a (35, 36) (20, 20)
+  dopo la ricarica: {'pos': ((35, 37), 28, 24), 'flag': 1, 'squadra': [282, 307, 404], 'rientro': True, 'presente_dopo_rientro': False, 'flag_dopo_rientro': 1}
+UCCELLI Pokemon_Romagna_0_60.gba ((0, 0), 0, 0, 0, False)
+  nessun percorso da ((0, 0), 0, 0, 0, False) a (35, 27) (10, 2)
+   non arrivo accanto a (35, 27) (10, 2)
+  guardia: None ((0, 0), 0, 0)
+  nessun percorso da ((0, 0), 0, 0, 0, False) a (35, 31) (13, 12)
+articuno accanto False ((0, 0), 0, 0)
+Traceback (most recent call last):
+  File "/home/user/money/collaudo/t60.py", line 104, in <module>
+    es = kyogre() if PARTE == 'kyogre' else uccelli()
+                                            ~~~~~~~^^
+  File "/home/user/money/collaudo/t60.py", line 81, in uccelli
+    e['senza_rune'] = leg.parla(g, c); log('  senza rune:', e['senza_rune'])
+                      ~~~~~~~~~^^^^^^
+  File "/home/user/money/collaudo/leg.py", line 83, in parla
+    vai.guarda(g, *c['xy']); g.key(A, 3, 60)
+    ~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/user/money/collaudo/vai.py", line 114, in guarda
+    dn = {(1, 0): 'R', (-1, 0): 'L', (0, 1): 'D', (0, -1): 'U'}[(x - px, y - py)]
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: (13, 12)
+PROVA prepara Pokemon_Romagna_0_60.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: flag 0x86d = 1
+   FIXTURE: flag 0x86e = 1
+   FIXTURE: mossa 70 al Pokemon 0 -> ((317, 70, 15, 52), 282)
+   FIXTURE: mossa 57 al Pokemon 1 -> ((249, 280, 202, 57), 307)
+   FIXTURE: mossa 291 al Pokemon 1 -> ((249, 280, 291, 57), 307)
+   FIXTURE: 5 MASTER BALL nella tasca Poke Ball
+   FIXTURE: flag 0x84a = 1
+   FIXTURE: flag 0x84b = 1
+   FIXTURE: flag 0x84c = 1
+   FIXTURE: flag 0x7ee = 1
+   FIXTURE: flag 0x7ef = 1
+   FIXTURE: flag 0x7f0 = 1
+   FIXTURE: flag 0x7f1 = 1
+   FIXTURE: flag 0x7f2 = 1
+   FIXTURE: flag 0x7f3 = 1
+   FIXTURE: posizione (35, 19) (18, 5)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+   bagno dal titolo: ((35, 19), 18, 5, 3, False) lega 0
+PROVA prepara Pokemon_Romagna_0_60.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: flag 0x86d = 1
+   FIXTURE: flag 0x86e = 1
+   FIXTURE: mossa 70 al Pokemon 0 -> ((317, 70, 15, 52), 282)
+   FIXTURE: mossa 57 al Pokemon 1 -> ((249, 280, 202, 57), 307)
+   FIXTURE: mossa 291 al Pokemon 1 -> ((249, 280, 291, 57), 307)
+   FIXTURE: 5 MASTER BALL nella tasca Poke Ball
+   FIXTURE: flag 0x84a = 1
+   FIXTURE: flag 0x84b = 1
+   FIXTURE: flag 0x84c = 1
+   FIXTURE: flag 0x7ee = 1
+   FIXTURE: flag 0x7ef = 1
+   FIXTURE: flag 0x7f0 = 1
+   FIXTURE: flag 0x7f1 = 1
+   FIXTURE: flag 0x7f2 = 1
+   FIXTURE: flag 0x7f3 = 1
+   FIXTURE: posizione (34, 44) (50, 21)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+   rimini dal titolo: ((34, 44), 50, 21, 3, False) lega 0
+KYOGRE Pokemon_Romagna_0_60.gba ((34, 44), 50, 21, 3, False)
+  cartello: ['MEDAGLIE'] ((35, 36), 3, 20)
+  fuori percorso: atteso ((35, 36), 8, 20) sono ((35, 36), 9, 20) azione passo E
+  fuori percorso: atteso ((35, 36), 10, 20) sono ((35, 36), 11, 20) azione passo E
+  accanto a Kyogre True ((35, 37), 28, 24, 3, False)
+  prima dei piloni: (['Il santuario è protetto da due risonanze. Cerca il pilone ovest e poi quello est: le correnti hanno una via anche a nord.'], False)
+  pilone est per primo: ['Il sigillo si spegne. Prima il pilone ovest, poi quello est.']
+  pilone ovest: ['Il pilone OVEST risuona. Un secondo richiamo arriva da est.']
+  pilone est: ['Il pilone EST risuona. Una corrente profonda indica il santuario di Kyogre.']
+  fuori percorso: atteso ((35, 37), 24, 18) sono ((35, 37), 24, 20) azione passo S
+  parla: ["Tra i piloni spezzati dell'ISOLA DELLE ROSE dorme un Pokémon gigantesco... KYOGRE apre gli occhi!"] lotta True
+  fuga: {'testi': ['KYOGRE si riadagia sul fondale. Puoi riprovare quando vuoi.'], 'flag': 0, 'presente': True}
+  cattura: {'testi': ["Tra i piloni spezzati dell'ISOLA DELLE ROSE dorme un Pokémon gigantesco... KYOGRE apre gli occhi!", 'BLAZIKEN ottiene 2180 punti ESP.! ', 'BRELOOM ottiene 1090 punti ESP.! ', 'I dati di KYOGRE sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a KYOGRE?', 'Hai catturato KYOGRE! Il mare torna calmo.'], 'flag': 1, 'presente': False, 'squadra': [282, 307, 404]}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  dopo la ricarica: {'pos': ((35, 37), 28, 24), 'flag': 1, 'squadra': [282, 307, 404], 'rientro': True, 'presente_dopo_rientro': False, 'flag_dopo_rientro': 1}
+KYOGRE Pokemon_Romagna_0_60.gba ((34, 44), 50, 21, 3, False)
+  cartello: ['MEDAGLIE'] ((35, 36), 3, 20)
+  fuori percorso: atteso ((35, 36), 8, 20) sono ((35, 36), 9, 20) azione passo E
+  fuori percorso: atteso ((35, 36), 10, 20) sono ((35, 36), 11, 20) azione passo E
+  accanto a Kyogre True ((35, 37), 28, 24, 3, False)
+  prima dei piloni: (['Il santuario è protetto da due risonanze. Cerca il pilone ovest e poi quello est: le correnti hanno una via anche a nord.'], False)
+  pilone est per primo: ['Il sigillo si spegne. Prima il pilone ovest, poi quello est.']
+  pilone ovest: ['Il pilone OVEST risuona. Un secondo richiamo arriva da est.']
+  pilone est: ['Il pilone EST risuona. Una corrente profonda indica il santuario di Kyogre.']
+  fuori percorso: atteso ((35, 37), 24, 18) sono ((35, 37), 24, 20) azione passo S
+  parla: ["Tra i piloni spezzati dell'ISOLA DELLE ROSE dorme un Pokémon gigantesco... KYOGRE apre gli occhi!"] lotta True
+  fuga: {'testi': ['KYOGRE si riadagia sul fondale. Puoi riprovare quando vuoi.'], 'flag': 0, 'presente': True}
+  cattura: {'testi': ["Tra i piloni spezzati dell'ISOLA DELLE ROSE dorme un Pokémon gigantesco... KYOGRE apre gli occhi!", 'BLAZIKEN ottiene 2180 punti ESP.! ', 'BRELOOM ottiene 1090 punti ESP.! ', 'I dati di KYOGRE sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a KYOGRE?', 'Hai catturato KYOGRE! Il mare torna calmo.'], 'flag': 1, 'presente': False, 'squadra': [282, 307, 404]}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  dopo la ricarica: {'pos': ((35, 37), 28, 24), 'flag': 1, 'squadra': [282, 307, 404], 'rientro': True, 'presente_dopo_rientro': False, 'flag_dopo_rientro': 1}
+UCCELLI Pokemon_Romagna_0_60.gba ((35, 19), 18, 5, 3, False)
+  fuori percorso: atteso ((35, 27), 10, 14) sono ((35, 27), 10, 15) azione passo N
+  fuori percorso: atteso ((35, 27), 10, 14) sono ((35, 27), 10, 15) azione passo N
+  fuori percorso: atteso ((35, 27), 10, 14) sono ((35, 27), 10, 15) azione passo N
+  guardia: ['GUARDIA: Tutte e otto le medaglie! La Via Vittoria mette alla prova la tua squadra. I santuari degli uccelli sono diramazioni facoltative.'] ((35, 28), 3, 24)
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 19) azione passo N
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 19) azione passo N
+  fuori percorso: atteso ((35, 28), 10, 11) sono ((35, 28), 10, 12) azione passo N
+articuno accanto True ((35, 31), 13, 13)
+  senza rune: (['Il sigillo protegge ARTICUNO. Prima ascolta il vento, poi lascia che il gelo ne custodisca il soffio.'], False)
+  rune: [["La runa VENTO si accende. Un'altra risponde in lontananza."], ['Il sigillo di Articuno si apre!']]
+  parla: ['ARTICUNO reagisce alla tua presenza. La sfida comincia!', '{fc}{02}{02}ARTICUNO{fc}{01}{0b}'] lotta True
+  fuga: {'testi': ['ARTICUNO si allontana, poi torna sul suo trespolo. Puoi riprovare quando vuoi.'], 'flag': 0, 'presente': True}
+  cattura: {'testi': ['ARTICUNO reagisce alla tua presenza. La sfida comincia!', '{fc}{02}{02}ARTICUNO{fc}{01}{0b}', 'BLAZIKEN ottiene 1597 punti ESP.! ', 'BRELOOM ottiene 798 punti ESP.! ', 'I dati di ARTICUNO sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a ARTICUNO?', 'ARTICUNO ha scelto di viaggiare con te!'], 'flag': 1, 'presente': False, 'squadra': [282, 307, 144]}
+  fuori percorso: atteso ((35, 28), 5, 9) sono ((35, 28), 4, 9) azione passo E
+  fuori percorso: atteso ((35, 28), 5, 9) sono ((35, 28), 4, 9) azione passo E
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119), (52, 167, 167)] pos ((35, 28), 4, 9)
+  fuori percorso: atteso ((35, 28), 20, 17) sono ((35, 28), 21, 17) azione passo W
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119), (52, 167, 167)] pos ((35, 28), 21, 17)
+  fuori percorso: atteso ((35, 28), 13, 17) sono ((35, 28), 14, 17) azione passo W
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119), (52, 167, 167)] pos ((35, 28), 14, 17)
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+  fuori percorso: atteso ((35, 28), 10, 19) sono ((35, 28), 11, 19) azione passo W
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119), (52, 167, 167)] pos ((35, 28), 11, 19)
+  fuori percorso: atteso ((35, 28), 20, 11) sono ((35, 28), 19, 11) azione passo E
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119), (52, 167, 167)] pos ((35, 28), 19, 11)
+zapdos accanto True ((35, 32), 13, 13)
+  senza rune: (['Il sigillo protegge ZAPDOS. Collega la bobina al richiamo del cielo. La messa a terra interrompe il circuito.'], False)
+  rune: [["La runa BOBINA si accende. Un'altra risponde in lontananza."], ['Il sigillo di Zapdos si apre!']]
+  parla: ['ZAPDOS reagisce alla tua presenza. La sfida comincia!'] lotta True
+  fuga: {'testi': ['ZAPDOS si allontana, poi torna sul suo trespolo. Puoi riprovare quando vuoi.'], 'flag': 0, 'presente': True}
+  cattura: {'testi': ['ZAPDOS reagisce alla tua presenza. La sfida comincia!', 'BLAZIKEN ottiene 1604 punti ESP.! ', 'BRELOOM ottiene 802 punti ESP.! ', 'ARTICUNO ottiene 802 punti ESP.! ', 'I dati di ZAPDOS sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a ZAPDOS?', 'ZAPDOS ha scelto di viaggiare con te!'], 'flag': 1, 'presente': False, 'squadra': [282, 307, 144, 145]}
+  fuori percorso: atteso ((35, 28), 21, 15) sono ((35, 28), 21, 14) azione passo S
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119), (52, 167, 167), (52, 162, 162)] pos ((35, 28), 21, 14)
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+  fuori percorso: atteso ((35, 28), 27, 22) sono ((35, 28), 26, 22) azione passo E
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119), (52, 167, 167), (52, 162, 162)] pos ((35, 28), 26, 22)
+moltres accanto True ((35, 33), 12, 12)
+  senza rune: (['Il sigillo protegge MOLTRES. Dal calore più piccolo al più grande: brace, fiamma e sole.'], False)
+  rune: [["La runa BRACE si accende. Un'altra risponde in lontananza."], ["La runa FIAMMA si accende. Un'altra risponde in lontananza."], ['Il sigillo di Moltres si apre!']]
+  parla: ['MOLTRES reagisce alla tua presenza. La sfida comincia!', '{fc}{02}{02}MOLTRES{fc}{01}{0b}'] lotta True
+  fuga: {'testi': ['MOLTRES si allontana, poi torna sul suo trespolo. Puoi riprovare quando vuoi.'], 'flag': 0, 'presente': True}
+  cattura: {'testi': ['MOLTRES reagisce alla tua presenza. La sfida comincia!', '{fc}{02}{02}MOLTRES{fc}{01}{0b}', 'BLAZIKEN ottiene 1612 punti ESP.! ', 'BLAZIKEN sale al LV. 51!{fc}{0a} ', 'BRELOOM ottiene 806 punti ESP.! ', 'ARTICUNO ottiene 806 punti ESP.! ', 'ZAPDOS ottiene 806 punti ESP.! ', 'I dati di MOLTRES sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a MOLTRES?'], 'flag': 1, 'presente': False, 'squadra': [282, 307, 144, 145, 146]}
+  fuori percorso: atteso ((35, 33), 14, 13) sono ((35, 33), 14, 12) azione passo S
+  fuori percorso: atteso ((35, 28), 22, 20) sono ((35, 28), 23, 20) azione passo W
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 167, 167), (52, 162, 162), (52, 171, 171)] pos ((35, 28), 23, 20)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  fuori percorso: atteso ((35, 28), 21, 22) sono ((35, 28), 20, 22) azione passo E
+  fuori percorso: atteso ((35, 28), 21, 22) sono ((35, 28), 20, 22) azione passo E
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 167, 167), (52, 162, 162), (52, 171, 171)] pos ((35, 28), 20, 22)
+  fuori percorso: atteso ((35, 28), 19, 20) sono ((35, 28), 20, 20) azione passo W
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 167, 167), (52, 162, 162), (52, 171, 171)] pos ((35, 28), 20, 20)
+  fuori percorso: atteso ((35, 28), 15, 19) sono ((35, 28), 15, 20) azione passo N
+  fuori percorso: atteso ((35, 28), 15, 19) sono ((35, 28), 15, 20) azione passo N
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 167, 167), (52, 162, 162), (52, 171, 171)] pos ((35, 28), 15, 20)
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 19) azione passo N
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 19) azione passo N
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 167, 167), (52, 162, 162), (52, 171, 171)] pos ((35, 28), 10, 13)
+  fuori percorso: atteso ((35, 28), 13, 11) sono ((35, 28), 12, 11) azione passo E
+  fuori percorso: atteso ((35, 28), 13, 11) sono ((35, 28), 12, 11) azione passo E
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 167, 167), (52, 162, 162), (52, 171, 171)] pos ((35, 28), 12, 11)
+  fuori percorso: atteso ((35, 28), 21, 10) sono ((35, 28), 21, 9) azione passo S
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 167, 167), (52, 162, 162), (52, 171, 171)] pos ((35, 28), 21, 9)
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+  fuori percorso: atteso ((35, 28), 19, 11) sono ((35, 28), 18, 11) azione passo E
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 167, 167), (52, 162, 162), (52, 171, 171)] pos ((35, 28), 18, 11)
+  fuori percorso: atteso ((35, 28), 18, 6) sono ((35, 28), 19, 6) azione passo W
+  fuori percorso: atteso ((35, 28), 18, 6) sono ((35, 28), 19, 6) azione passo W
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 167, 167), (52, 162, 162), (52, 171, 171)] pos ((35, 28), 19, 6)
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 167, 167), (52, 162, 162), (52, 171, 171)] pos ((35, 28), 4, 6)
+  fuori percorso: atteso ((35, 28), 14, 9) sono ((35, 28), 13, 9) azione passo E
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 167, 167), (52, 162, 162), (52, 171, 171)] pos ((35, 28), 13, 9)
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 17) azione passo S
+  fuori percorso: atteso ((35, 28), 12, 20) sono ((35, 28), 11, 20) azione passo E
+  lotta selvatica: fuga squadra [(51, 158, 158), (43, 119, 119), (52, 167, 167), (52, 162, 162), (52, 171, 171)] pos ((35, 28), 11, 20)
+  dopo la ricarica: {'pos': ((35, 28), 15, 20), 'flag': {'articuno': 1, 'zapdos': 1, 'moltres': 1}, 'squadra': [282, 307, 144, 145, 146], 'moltres': {'arrivato': True, 'presente': False}, 'zapdos': {'arrivato': True, 'presente': False}, 'articuno': {'arrivato': True, 'presente': False}}
+FINE
+KYOGRE Pokemon_Romagna_0_60.gba ((34, 44), 50, 21, 3, False)
+  cartello: ['MEDAGLIE'] ((35, 36), 3, 20)
+  fuori percorso: atteso ((35, 36), 8, 20) sono ((35, 36), 9, 20) azione passo E
+  fuori percorso: atteso ((35, 36), 10, 20) sono ((35, 36), 11, 20) azione passo E
+  accanto a Kyogre True ((35, 37), 28, 24, 3, False)
+  prima dei piloni: (['Il santuario è protetto da due risonanze. Cerca il pilone ovest e poi quello est: le correnti hanno una via anche a nord.'], False)
+  pilone est per primo: ['Il sigillo si spegne. Prima il pilone ovest, poi quello est.']
+  pilone ovest: ['Il pilone OVEST risuona. Un secondo richiamo arriva da est.']
+  pilone est: ['Il pilone EST risuona. Una corrente profonda indica il santuario di Kyogre.']
+  fuori percorso: atteso ((35, 37), 24, 18) sono ((35, 37), 24, 20) azione passo S
+  parla: ["Tra i piloni spezzati dell'ISOLA DELLE ROSE dorme un Pokémon gigantesco... KYOGRE apre gli occhi!"] lotta True
+  fuga: {'testi': ['KYOGRE si riadagia sul fondale. Puoi riprovare quando vuoi.'], 'flag': 0, 'presente': True}
+  cattura: {'testi': ["Tra i piloni spezzati dell'ISOLA DELLE ROSE dorme un Pokémon gigantesco... KYOGRE apre gli occhi!", 'BLAZIKEN ottiene 2180 punti ESP.! ', 'BRELOOM ottiene 1090 punti ESP.! ', 'I dati di KYOGRE sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a KYOGRE?', 'Hai catturato KYOGRE! Il mare torna calmo.'], 'flag': 1, 'presente': False, 'squadra': [282, 307, 404]}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  fuori percorso: atteso ((35, 36), 15, 20) sono ((35, 36), 16, 20) azione passo E
+  fuori percorso: atteso ((35, 36), 17, 20) sono ((35, 36), 18, 20) azione passo E
+  fuori percorso: atteso ((35, 36), 18, 20) sono ((35, 36), 17, 20) azione passo W
+  fuori percorso: atteso ((35, 36), 16, 20) sono ((35, 36), 15, 20) azione passo W
+  fuori percorso: atteso ((35, 36), 14, 20) sono ((35, 36), 13, 20) azione passo W
+  dopo la ricarica: {'pos': ((35, 37), 28, 24), 'flag': 1, 'squadra': [282, 307, 404], 'rientro': True, 'presente_dopo_rientro': False, 'flag_dopo_rientro': 1}
+KYOGRE Pokemon_Romagna_0_60.gba ((34, 44), 50, 21, 3, False)
+  cartello: ['MEDAGLIE'] ((35, 36), 3, 20)
+  fuori percorso: atteso ((35, 36), 8, 20) sono ((35, 36), 9, 20) azione passo E
+  fuori percorso: atteso ((35, 36), 10, 20) sono ((35, 36), 11, 20) azione passo E
+  accanto a Kyogre True ((35, 37), 28, 24, 3, False)
+  prima dei piloni: (['Il santuario è protetto da due risonanze. Cerca il pilone ovest e poi quello est: le correnti hanno una via anche a nord.'], False)
+  pilone est per primo: ['Il sigillo si spegne. Prima il pilone ovest, poi quello est.']
+  pilone ovest: ['Il pilone OVEST risuona. Un secondo richiamo arriva da est.']
+  pilone est: ['Il pilone EST risuona. Una corrente profonda indica il santuario di Kyogre.']
+  fuori percorso: atteso ((35, 37), 24, 18) sono ((35, 37), 24, 20) azione passo S
+  parla: ["Tra i piloni spezzati dell'ISOLA DELLE ROSE dorme un Pokémon gigantesco... KYOGRE apre gli occhi!"] lotta True
+  fuga: {'testi': ['KYOGRE si riadagia sul fondale. Puoi riprovare quando vuoi.'], 'flag': 0, 'presente': True}
+  cattura: {'testi': ["Tra i piloni spezzati dell'ISOLA DELLE ROSE dorme un Pokémon gigantesco... KYOGRE apre gli occhi!", 'BLAZIKEN ottiene 2180 punti ESP.! ', 'BRELOOM ottiene 1090 punti ESP.! ', 'I dati di KYOGRE sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a KYOGRE?', 'Hai catturato KYOGRE! Il mare torna calmo.'], 'flag': 1, 'presente': False, 'squadra': [282, 307, 404]}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  fuori percorso: atteso ((35, 36), 15, 20) sono ((35, 36), 16, 20) azione passo E
+  fuori percorso: atteso ((35, 36), 17, 20) sono ((35, 36), 18, 20) azione passo E
+  fuori percorso: atteso ((35, 36), 18, 20) sono ((35, 36), 17, 20) azione passo W
+  fuori percorso: atteso ((35, 36), 16, 20) sono ((35, 36), 15, 20) azione passo W
+  fuori percorso: atteso ((35, 36), 14, 20) sono ((35, 36), 13, 20) azione passo W
+  dopo la ricarica: {'pos': ((35, 37), 28, 24), 'flag': 1, 'squadra': [282, 307, 404], 'rientro': True, 'presente_dopo_rientro': False, 'flag_dopo_rientro': 1}
+  fuori percorso: atteso ((35, 27), 10, 14) sono ((35, 27), 10, 15) azione passo N
+  fuori percorso: atteso ((35, 27), 10, 14) sono ((35, 27), 10, 15) azione passo N
+  fuori percorso: atteso ((35, 27), 10, 14) sono ((35, 27), 10, 15) azione passo N
+  fuori percorso: atteso ((35, 28), 4, 19) sono ((35, 28), 3, 19) azione passo E
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((35, 28), 3, 19)
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((35, 28), 10, 19)
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 19) azione passo N
+  fuori percorso: atteso ((35, 28), 10, 18) sono ((35, 28), 10, 19) azione passo N
+  fuori percorso: atteso ((35, 28), 10, 11) sono ((35, 28), 10, 12) azione passo N
+  fuori percorso: atteso ((35, 28), 21, 9) sono ((35, 28), 21, 10) azione passo N
+  fuori percorso: atteso ((35, 28), 21, 9) sono ((35, 28), 21, 10) azione passo N
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((35, 28), 21, 10)
+  fuori percorso: atteso ((35, 28), 20, 6) sono ((35, 28), 21, 6) azione passo W
+  fuori percorso: atteso ((35, 28), 20, 6) sono ((35, 28), 21, 6) azione passo W
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((35, 28), 21, 6)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  vecchio salvataggio: {'0.59_prima': (['Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario.'], False), '0.59_dal_titolo': (((35, 31), 13, 13), (['Il richiamo di questo Pokémon si udirà dopo la vittoria alla LEGA ROMAGNOLA. Ora riposa nel suo santuario.'], False)), '0.60_dal_titolo': (((35, 31), 13, 13), (['Il sigillo protegge ARTICUNO. Prima ascolta il vento, poi lascia che il gelo ne custodisca il soffio.'], False))}
+ROM: `Pokemon_Romagna_0_60.gba` (SHA-256 d9ca40b361d02c0404b5d6553dc8d45252087d8bebf59e4e42c942a5786b183a)
+
+Riferimento: `Pokemon_Romagna_0_59.gba` (SHA-256 aee694c2535ab1524e08e2cd4447cefc16afddd10211ba4fe0fa35b64a45ec1d)
+
+| Partenza | Gira | Vivo | Callback nella ROM | Rispetto al riferimento |
+|---|---|---|---|---|
+| mGBA gpre | si | si | si | uguale |
+| mGBA prog_b6b | si | si | si | uguale |
+| mGBA prog_imola | si | si | si | uguale |
+| mGBA q8_end | si | si | si | uguale |
+| mGBA s_ce3 | si | si | si | uguale |
+| mGBA t56_church | si | si | si | uguale |
+| mGBA t56_lib2 | si | si | si | uguale |
+| mGBA t56_lib_out | si | si | si | uguale |
+| mGBA t56_pennelli | si | si | si | uguale |
+| mGBA t56_reload | si | si | si | uguale |
+| mGBA t56_rename | si | si | si | uguale |
+| mGBA t56_rename2 | si | si | si | uguale |
+| mGBA t56_smeargle | si | si | si | uguale |
+| mGBA t59_entei | si | si | si | uguale |
+| mGBA t59_raikou | si | si | si | uguale |
+| mGBA t59_ravenna | si | si | si | uguale |
+| mGBA t59_suicune | si | si | si | uguale |
+| mGBA salvataggio | si | si | si | uguale |
+| VBA-M salvataggio | si | si | si | uguale |
+
+REGRESSIONE: ok
+FINE

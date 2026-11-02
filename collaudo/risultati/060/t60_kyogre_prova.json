@@ -1,0 +1,69 @@
+{
+ "cartello": [
+  "MEDAGLIE"
+ ],
+ "prima_dei_piloni": [
+  [
+   "Il santuario è protetto da due risonanze. Cerca il pilone ovest e poi quello est: le correnti hanno una via anche a nord."
+  ],
+  false
+ ],
+ "pilone_est_prima": [
+  "Il sigillo si spegne. Prima il pilone ovest, poi quello est."
+ ],
+ "pilone_ovest": [
+  "Il pilone OVEST risuona. Un secondo richiamo arriva da est."
+ ],
+ "pilone_est": [
+  "Il pilone EST risuona. Una corrente profonda indica il santuario di Kyogre."
+ ],
+ "parla": [
+  [
+   "Tra i piloni spezzati dell'ISOLA DELLE ROSE dorme un Pokémon gigantesco... KYOGRE apre gli occhi!"
+  ],
+  true
+ ],
+ "fuga": {
+  "testi": [
+   "KYOGRE si riadagia sul fondale. Puoi riprovare quando vuoi."
+  ],
+  "flag": 0,
+  "presente": true
+ },
+ "cattura": {
+  "testi": [
+   "Tra i piloni spezzati dell'ISOLA DELLE ROSE dorme un Pokémon gigantesco... KYOGRE apre gli occhi!",
+   "BLAZIKEN ottiene 2180 punti ESP.! ",
+   "BRELOOM ottiene 1090 punti ESP.! ",
+   "I dati di KYOGRE sono stati aggiunti al POKéDEX. ",
+   "Vuoi dare un soprannome a KYOGRE?",
+   "Hai catturato KYOGRE! Il mare torna calmo."
+  ],
+  "flag": 1,
+  "presente": false,
+  "squadra": [
+   282,
+   307,
+   404
+  ]
+ },
+ "ricarica": {
+  "pos": [
+   [
+    35,
+    37
+   ],
+   28,
+   24
+  ],
+  "flag": 1,
+  "squadra": [
+   282,
+   307,
+   404
+  ],
+  "rientro": true,
+  "presente_dopo_rientro": false,
+  "flag_dopo_rientro": 1
+ }
+}

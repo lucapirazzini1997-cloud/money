@@ -1,66 +1,90 @@
-"""Bozza 2 di Monte Spaccato: campagna in pianura (pezzi del Percorso 117) e il monte a nord-ovest (Percorso 116)."""
+"""Bozza 3 della Campagna Cesenate (oggi 35.101 MONTE SPACCATO): pianura fra l'Ippodromo e Capocolle.
+Pezzi: Percorso 117 (campi recintati, macero, casa, strada), Percorso 116 (il Monte Spaccato a nord-ovest con la
+galleria verso Capocolle), Percorso 119 (assi del ponte), primario (erba, erba alta, alberi, acqua, argini).
+Uso: python3 bozze/campagna_monte_spaccato.py ROM.gba uscita.png
+"""
 import sys, struct
-sys.path[:0] = ['/home/user/money/strumenti_rom']
-import tela
+from pathlib import Path
+sys.path[:0] = [str(Path(__file__).resolve().parent.parent / 'strumenti_rom')]
+import tela, sprite
 from PIL import ImageDraw
-d = open('/home/user/money/out/Pokemon_Romagna_0_63.gba', 'rb').read()
+
+d = open(sys.argv[1], 'rb').read()
 def lay(lid): return struct.unpack_from('<I', d, 0x627fc0 + (lid - 1) * 4)[0] - 0x8000000
-L116, L117 = lay(32), lay(33)
-a116, S116 = tela.Tela.layout(d, L116); a117, S117 = tela.Tela.layout(d, L117)
+L116, L117, L119 = lay(32), lay(33), lay(35)
+_, S117 = tela.Tela.layout(d, L117); _, S119 = tela.Tela.layout(d, L119)
 W, H = 64, 40
-G = 0x3001                                                     # erba (primario, quota 3)
+G, ALTA = 0x3001, 0x300d                                        # erba, erba alta (primario, quota 3)
+RIVA_S, ACQUA, RIVA_D = 0x10b8, 0x10a1, 0x10ba                  # fiume (primario, quota 1)
+PONTE_A, PONTE_B = 0xf210, 0xf218                               # assi del ponte (Percorso 119, quota libera)
 T = tela.Tela(d, W, H, S117, G)
 def met(x, y, v, src=S117): T.metti(x, y, src, v)
-def blocco(lid, x0, y0, w, h, x, y): T.incolla({116: L116, 117: L117}[lid], x0, y0, w, h, x, y)
+def blocco(src, x0, y0, w, h, x, y): T.incolla(src, x0, y0, w, h, x, y)
 def bosco(x, y, w, h, cima=True, base=True):
-    """Alberi 2x2 del primario: chioma su erba in cima, tronco su erba in fondo."""
     for j in range(h):
         for i in range(w):
-            k = i % 2; r = j % 2
-            if r == 0: v = (0x1ce + k) if (cima and j == 0) else (0x5d4 + k)
+            k = i % 2
+            if j % 2 == 0: v = (0x31ce + k) if (cima and j == 0) else (0x5d4 + k)
             else: v = (0x5e4 + k) if (base and j == h - 1) else (0x5dc + k)
-            if r == 0 and not (cima and j == 0): v = 0x5d4 + k
-            met(x + i, y + j, v | (0x3000 if v < 0x400 else 0))
-# --- il monte a nord-ovest, con la spaccatura a V e la galleria verso Capocolle (25,11)
-blocco(116, 41, 0, 33, 13, 1, 0)
-# --- bordo: bosco
+            met(x + i, y + j, v)
+def erba_alta(x, y, w, h): T.riempi(x, y, w, h, S117, ALTA)
+
+# --- il Monte Spaccato a nord-ovest, con la spaccatura a V e la galleria (25,10) verso Capocolle
+blocco(L116, 41, 0, 33, 13, 1, 0)
+for (x, y) in ((7, 7), (7, 8), (16, 6), (30, 4), (31, 4)):      # via la seconda grotta e le buche
+    T.c[y][x] = T.c[y][x - 1]
+# --- bosco ai bordi
 bosco(0, 0, 2, 40, cima=False, base=False); bosco(62, 0, 2, 40, cima=False, base=False)
 bosco(34, 0, 28, 6, cima=False); bosco(0, 36, 64, 4, base=False)
-bosco(34, 6, 2, 8, cima=False, base=True)                       # copre il taglio del monte
-# --- strada (Via Emilia): dalla casa verso ovest, poi a nord fino alla galleria
+bosco(34, 6, 2, 8, cima=False)                                  # copre il bordo del monte
+# --- campagna ovest: frutteto, erba alta, macero, vigneto
+blocco(L117, 7, 3, 9, 5, 3, 14)
+erba_alta(13, 14, 9, 7)
+blocco(L117, 20, 1, 11, 8, 12, 27)
+T.riempi(11, 32, 4, 3, S117, G)                                # avanzo di sabbia del ritaglio
+blocco(L117, 8, 13, 10, 5, 2, 29)
+erba_alta(3, 21, 8, 6)
+# --- campagna centrale: grande prato d'erba alta, filare, vigneti
+erba_alta(28, 13, 15, 7)
+for x in (29, 33, 37, 41): bosco(x, 20, 2, 2)
+blocco(L117, 7, 3, 9, 5, 27, 28); blocco(L117, 7, 3, 9, 5, 34, 28)
+erba_alta(27, 33, 16, 3)
+# --- il fiume (da nord a sud) e il ponte della Via Emilia
+for y in range(6, 36):
+    met(44, y, RIVA_S); met(49, y, RIVA_D)
+    for x in range(45, 49): met(x, y, ACQUA)
+# --- campagna est: campo, erba alta
+blocco(L117, 8, 13, 10, 5, 51, 7)
+erba_alta(51, 13, 9, 4)
+erba_alta(51, 27, 10, 9)
+# --- casa a est: ingresso dall'IPPODROMO (porta a 55,22)
+blocco(L117, 49, 1, 6, 5, 53, 18)
+# --- Via Emilia: dalla casa verso ovest, ponte sul fiume, poi a nord fino alla galleria
 def strada_h(x0, x1, y):
     for x in range(x0, x1 + 1):
         e = 0 if x == x0 else (2 if x == x1 else 1)
         met(x, y, 0x3118 + e); met(x, y + 1, 0x3120 + e); met(x, y + 2, 0x3128 + e)
-def strada_v(x, y0, y1):
-    for y in range(y0, y1 + 1):
-        met(x, y, 0x3120); met(x + 1, y, 0x3121); met(x + 2, y, 0x3122)
-strada_v(24, 12, 24); strada_h(24, 58, 23)
+strada_h(24, 58, 23)
+for y in range(12, 25): met(24, y, 0x3120); met(25, y, 0x3121); met(26, y, 0x3122)
 met(24, 12, 0x3118); met(25, 12, 0x3119); met(26, 12, 0x311a)
 for y in (23, 24): met(25, y, 0x3121); met(26, y, 0x3121)
-met(24, 23, 0x3120); met(24, 24, 0x3120)
-# --- casa a est: ingresso dall'IPPODROMO (porta 51,5 del 117 -> 55,22)
-blocco(117, 49, 1, 6, 5, 53, 18)
-# --- campagna: vigneti e frutteti recintati, maceri, erba alta, filari
-blocco(117, 7, 3, 9, 5, 4, 16)                                  # frutteto ovest
-blocco(117, 8, 13, 10, 5, 4, 28)                                # vigneto sud-ovest
-blocco(117, 8, 13, 10, 5, 46, 29)                               # vigneto sud-est
-blocco(117, 7, 3, 9, 5, 36, 29)
-blocco(117, 20, 1, 11, 8, 15, 27)                               # macero grande
-blocco(117, 28, 13, 4, 5, 29, 15); blocco(117, 28, 13, 4, 5, 32, 16)                               # erba alta
-blocco(117, 17, 13, 3, 4, 17, 17)
-blocco(117, 31, 5, 18, 1, 30, 27)                               # staccionata lungo i campi
-for x in (38, 44, 50):                                          # alberi isolati lungo la strada
-    bosco(x, 20, 2, 2)
-for (x, y) in ((7, 7), (7, 8), (16, 6), (30, 4), (31, 4)):                       # via la seconda grotta e le buche
-    T.c[y][x] = T.c[y][x - 1]
-T.riempi(14, 32, 4, 3, S117, G)
-# angolo nord-est: frutteto, erba alta, alberi
-blocco(117, 7, 3, 9, 5, 39, 7); blocco(117, 8, 13, 10, 5, 50, 7)
-blocco(117, 28, 13, 4, 5, 41, 14); blocco(117, 28, 13, 4, 5, 44, 15)
-for x in (37, 48): bosco(x, 13, 2, 2)
+for x in range(43, 51):
+    met(x, 23, PONTE_A, S119); met(x, 24, PONTE_B, S119)
+met(44, 25, RIVA_S); met(49, 25, RIVA_D)
+for x in range(45, 49): met(x, 25, ACQUA)
+# cartelli: MONTE SPACCATO (8,9, gia' nel pezzo del 116), CAMPAGNA CESENATE accanto alla casa (52,22, gia' nel 117)
+met(42, 22, 0x403)                                              # cartello del ponte
+
 U = tela.Unione(d); vals = T.valori(U); print(U.stato())
 im = tela.anteprima(d, U, vals, W, H, 2)
-dr = ImageDraw.Draw(im)
-dr.ellipse([25 * 32 + 4, 11 * 32 + 4, 25 * 32 + 27, 11 * 32 + 27], outline=(255, 0, 0), width=4)
-im.save('out/pianura.png'); print(im.size)
+OGGETTI = [
+    (25, 11, 86),                                               # roccia di SPACCAROCCIA davanti alla galleria
+    (16, 17, 36),                                               # anziano (allenatore di oggi)
+    (27, 16, 7),                                                # ragazzino, accanto alla strada
+    (34, 15, 31),                                               # ragazzo di campagna, nell'erba alta
+    (43, 13, 49),                                               # pescatore sulla riva del fiume
+    (38, 26, 24),                                               # ragazza, lungo il vigneto
+    (55, 30, 33),                                               # uomo col cappello, nell'erba alta a est
+]
+sprite.disegna(d, im, OGGETTI, 2)
+im.save(sys.argv[2]); print(im.size)

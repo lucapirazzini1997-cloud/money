@@ -1,6 +1,6 @@
 # Storia delle versioni
 
-Dalla 0.35 alla 0.63. Gli SHA-256 sono quelli delle ROM conservate; le relazioni complete sono in `relazioni/`.
+Dalla 0.35 alla 0.64. Gli SHA-256 sono quelli delle ROM conservate; le relazioni complete sono in `relazioni/`.
 
 **Chi l'ha fatta:** "progetto" = costruita con i builder di questo progetto; "esterna" = ricevuta già fatta, senza sorgenti.
 
@@ -33,6 +33,7 @@ Dalla 0.35 alla 0.63. Gli SHA-256 sono quelli delle ROM conservate; le relazioni
 | 0.61 | `f3e7802535125bdc473bd328e4cf7f2b7aeb030f71a1fabb81675614acd63cbe` | 0.60 | progetto | Lotto 2, fine: Regi a piedi senza FORZA con esiti indipendenti, Deoxys/Jirachi/Mewtwo dopo la Lega con eventi chiari (razzo, portale, grotta di Mewtwo finalmente accessibile), regola "una cattura, si ritenta dopo fuga o KO", tabella dei leggendari |
 | 0.62 | `b8ebd0918981becb7c3d77c649d78bf92e7a29d5ec8eec14def17dd772ac9080` | 0.61 | progetto | Lotto 3, prima parte: MN e strumenti chiave verificati a tasti (CASCATA, SUB, FLASH, BICI CROSS, tre ami); testi di FLASH tradotti e di SUB in riquadri di due righe |
 | 0.63 | `d1fee9f903b1fb6dbc0b9568697b469080f3d356dedc63a9bbf9326b0c876187` | 0.62 | progetto | Lotto 3: Cesena ovest. Il casello 35.91 non controlla più la 3ª medaglia; l'Ippodromo è una tappa fra Cesena e Monte Spaccato dalla prima visita; tre rocce di SPACCAROCCIA nella tagliata di Monte Spaccato chiudono la strada per Capocolle, e spariscono per chi è già passato. Collaudata in mGBA e VBA-M |
+| 0.64 | `4eee4268983adaf4d06489aca972bd23ba6d76394aa00185cbce4bcfe152c21e` | 0.63 | progetto | Lotto 3: la Campagna Cesenate al posto di Monte Spaccato (35.101, bozza 4 approvata): pianura con fiume e cascata, campi, erba alta, sei allenatori (tre nuovi), il Monte Spaccato a nord con una roccia davanti alla galleria per Capocolle. I vecchi salvataggi fatti dentro la mappa ripartono una volta davanti alla casa. Collaudata in mGBA e VBA-M |
 
 ## Note sulla catena
 

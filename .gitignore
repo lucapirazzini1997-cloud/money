@@ -34,3 +34,8 @@ collaudo/play/t63_*.png
 collaudo/play/t63_*.json
 collaudo/play/t63_*.sav
 collaudo/play/t63_*.ppm
+collaudo/play/t64_*.png
+collaudo/play/t64_*.json
+collaudo/play/t64_*.sav
+collaudo/play/t64_*.ppm
+collaudo/play/log_t64_*.txt

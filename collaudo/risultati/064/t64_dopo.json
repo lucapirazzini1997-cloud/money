@@ -1,0 +1,213 @@
+{
+ "flag_22_inizio": 0,
+ "arrivo_campagna": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    101
+   ],
+   55,
+   23
+  ],
+  "roccia": [],
+  "flag_11": 0,
+  "var_nuova": 1
+ },
+ "oggetti": [
+  [
+   [
+    55,
+    30
+   ],
+   33
+  ]
+ ],
+ "lotta_OSVALDO": {
+  "arrivo": true,
+  "testi": [
+   "Questi campi li curo io. Vediamo se sai lottare!"
+  ],
+  "lotta": true,
+  "turni": 5,
+  "dopo": [
+   "Forte! Come la grandine sul raccolto."
+  ],
+  "flag": 1,
+  "di_nuovo": [
+   "Dall'IPPODROMO si arriva qui passando dalla mia casa."
+  ],
+  "di_nuovo_lotta": false,
+  "squadra_avversaria": [
+   [
+    128,
+    27
+   ],
+   [
+    241,
+    27
+   ]
+  ]
+ },
+ "lotta_TONINO": {
+  "arrivo": true,
+  "testi": [
+   "Il fiume scende dal monte: qui i pesci abboccano sempre!"
+  ],
+  "lotta": true,
+  "turni": 3,
+  "dopo": [
+   "Mi hai fatto scappare tutti i pesci..."
+  ],
+  "flag": 1,
+  "di_nuovo": [
+   "Con una canna da pesca, qui peschi bene tutto l'anno."
+  ],
+  "di_nuovo_lotta": false,
+  "squadra_avversaria": [
+   [
+    61,
+    26
+   ],
+   [
+    118,
+    26
+   ]
+  ]
+ },
+ "lotta_NICO": {
+  "arrivo": true,
+  "testi": [
+   "Ehi! Questa strada è mia, ci gioco da quando ero piccolo!"
+  ],
+  "lotta": true,
+  "turni": 2,
+  "dopo": [
+   "Uffa! Hai vinto tu."
+  ],
+  "flag": 1,
+  "di_nuovo": [
+   "La galleria del MONTE SPACCATO porta a CAPOCOLLE."
+  ],
+  "di_nuovo_lotta": false,
+  "squadra_avversaria": [
+   [
+    17,
+    26
+   ],
+   [
+    20,
+    25
+   ]
+  ]
+ },
+ "davanti_roccia": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    101
+   ],
+   25,
+   12
+  ],
+  "roccia": [
+   [
+    25,
+    11
+   ]
+  ],
+  "flag_11": 0,
+  "var_nuova": 1
+ },
+ "dopo_rottura": {
+  "roccia": [],
+  "pos": [
+   [
+    35,
+    101
+   ],
+   25,
+   12
+  ],
+  "flag_22": 0
+ },
+ "passa": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    92
+   ],
+   7,
+   4
+  ],
+  "roccia": null,
+  "flag_11": 0,
+  "var_nuova": 1
+ },
+ "flag_22_in_35_92": 1,
+ "torna_galleria": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    101
+   ],
+   25,
+   13
+  ],
+  "roccia": [],
+  "flag_11": 1,
+  "var_nuova": 1
+ },
+ "riva_fiume": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    101
+   ],
+   43,
+   18
+  ],
+  "roccia": [],
+  "flag_11": 1,
+  "var_nuova": 1
+ },
+ "ricarica": {
+  "pos": [
+   [
+    35,
+    101
+   ],
+   43,
+   18
+  ],
+  "flag_22": 1,
+  "var_nuova": 1,
+  "roccia": []
+ },
+ "ricarica_dopo_2s": [
+  [
+   35,
+   101
+  ],
+  43,
+  18
+ ],
+ "cesena": {
+  "ok": true,
+  "pos": [
+   [
+    34,
+    17
+   ],
+   5,
+   43
+  ],
+  "roccia": null,
+  "flag_11": 0,
+  "var_nuova": 1
+ }
+}

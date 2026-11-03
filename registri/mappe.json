@@ -15453,7 +15453,7 @@
   "cartelli": 0
  },
  "26.66": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    21,
    24
@@ -15481,7 +15481,7 @@
   "cartelli": 0
  },
  "26.67": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    17,
    13
@@ -15502,7 +15502,7 @@
   "cartelli": 0
  },
  "26.68": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    21,
    32
@@ -15530,7 +15530,7 @@
   "cartelli": 0
  },
  "26.69": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    23,
    11
@@ -15558,7 +15558,7 @@
   "cartelli": 0
  },
  "26.70": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    27,
    86
@@ -15593,7 +15593,7 @@
   "cartelli": 0
  },
  "26.71": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    9,
    8
@@ -15621,7 +15621,7 @@
   "cartelli": 0
  },
  "26.72": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    9,
    8
@@ -15649,7 +15649,7 @@
   "cartelli": 0
  },
  "26.73": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    9,
    8
@@ -15677,7 +15677,7 @@
   "cartelli": 0
  },
  "26.74": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    9,
    8
@@ -15705,7 +15705,7 @@
   "cartelli": 0
  },
  "26.75": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    25,
    28
@@ -15726,7 +15726,7 @@
   "cartelli": 1
  },
  "26.76": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    9,
    8
@@ -15754,7 +15754,7 @@
   "cartelli": 0
  },
  "26.77": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    9,
    8
@@ -15782,7 +15782,7 @@
   "cartelli": 0
  },
  "26.78": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    9,
    8
@@ -15810,7 +15810,7 @@
   "cartelli": 0
  },
  "26.79": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    9,
    8
@@ -15838,7 +15838,7 @@
   "cartelli": 0
  },
  "26.80": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    9,
    8
@@ -15866,7 +15866,7 @@
   "cartelli": 0
  },
  "26.81": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    9,
    8
@@ -15894,7 +15894,7 @@
   "cartelli": 0
  },
  "26.82": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    9,
    8
@@ -15922,7 +15922,7 @@
   "cartelli": 0
  },
  "26.83": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    9,
    8
@@ -15950,7 +15950,7 @@
   "cartelli": 0
  },
  "26.84": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    9,
    8
@@ -15978,7 +15978,7 @@
   "cartelli": 0
  },
  "26.85": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    9,
    8
@@ -16006,7 +16006,7 @@
   "cartelli": 0
  },
  "26.86": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    9,
    8
@@ -16034,7 +16034,7 @@
   "cartelli": 0
  },
  "26.87": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    22,
    22
@@ -23585,7 +23585,7 @@
   "cartelli": 0
  },
  "35.101": {
-  "nome": "MONTE SPACCATO",
+  "nome": "CAMPAGNA CESENATE",
   "dimensioni": [
    64,
    40
@@ -23594,37 +23594,30 @@
   "uscite": [
    {
     "da": [
-     58,
-     20
+     55,
+     22
     ],
     "verso": "34.19"
    },
    {
     "da": [
-     4,
-     17
+     25,
+     10
     ],
     "verso": "35.92"
    },
    {
     "da": [
-     54,
-     36
+     55,
+     22
     ],
     "verso": "34.19"
    }
   ],
   "connessioni": [],
-  "blocchi": [
-   {
-    "dove": "coord 32,26",
-    "flag": [
-     "0x5c7"
-    ]
-   }
-  ],
-  "oggetti": 6,
-  "cartelli": 2
+  "blocchi": [],
+  "oggetti": 7,
+  "cartelli": 3
  },
  "35.102": {
   "nome": "CAMPAGNA RAVENNATE",

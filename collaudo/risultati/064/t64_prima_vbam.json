@@ -1,0 +1,146 @@
+{
+ "medaglie": [
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "var_numero": "0x4020",
+ "ippodromo": {
+  "ok": true,
+  "pos": [
+   [
+    34,
+    19
+   ],
+   18,
+   30
+  ],
+  "roccia": null,
+  "flag_11": 0,
+  "var_nuova": 0
+ },
+ "arrivo_campagna": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    101
+   ],
+   55,
+   23
+  ],
+  "roccia": [],
+  "flag_11": 0,
+  "var_nuova": 1
+ },
+ "luogo": "CAMPAGNA CESENATE",
+ "oggetti": [
+  [
+   [
+    55,
+    30
+   ],
+   33
+  ]
+ ],
+ "cartello_monte": [
+  "MONTE SPACCATO La galleria porta a CAPOCOLLE poi a FORLIMPOPOLI."
+ ],
+ "cartello_casa": [
+  "CAMPAGNA CESENATE Dalla casa si torna all'IPPODROMO e a CESENA."
+ ],
+ "cartello_ponte": [
+  "VIA EMILIA A ovest MONTE SPACCATO, a est l'IPPODROMO."
+ ],
+ "davanti_roccia": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    101
+   ],
+   25,
+   12
+  ],
+  "roccia": [
+   [
+    25,
+    11
+   ]
+  ],
+  "flag_11": 0,
+  "var_nuova": 1
+ },
+ "roccia_testi": [
+  "Serve SPACCAROCCIA e la terza medaglia per rompere la roccia."
+ ],
+ "contro_roccia": {
+  "prima": [
+   [
+    35,
+    101
+   ],
+   25,
+   12
+  ],
+  "dopo": [
+   [
+    35,
+    101
+   ],
+   25,
+   12
+  ]
+ },
+ "roccia_dopo": [
+  [
+   25,
+   11
+  ]
+ ],
+ "verso_35_92": false,
+ "ritorno_ippodromo": {
+  "ok": true,
+  "pos": [
+   [
+    34,
+    19
+   ],
+   7,
+   17
+  ],
+  "roccia": null,
+  "flag_11": 0,
+  "var_nuova": 1
+ },
+ "ritorno_cesena": {
+  "ok": true,
+  "pos": [
+   [
+    34,
+    17
+   ],
+   5,
+   43
+  ],
+  "roccia": null,
+  "flag_11": 0,
+  "var_nuova": 1
+ },
+ "ricarica": {
+  "pos": [
+   [
+    34,
+    17
+   ],
+   5,
+   43
+  ],
+  "flag_22": 0
+ }
+}

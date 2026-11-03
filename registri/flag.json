@@ -135,7 +135,7 @@
    "26.1 oggetto 3",
    "26.12 oggetto 6",
    "29.6 oggetto 5",
-   "35.101 oggetto 4"
+   "35.101 oggetto 7"
   ]
  },
  "0x12": {
@@ -167,8 +167,7 @@
    "29.3 oggetto 5",
    "29.6 oggetto 6",
    "34.20 oggetto 2",
-   "34.39 oggetto 1",
-   "35.101 oggetto 5"
+   "34.39 oggetto 1"
   ]
  },
  "0x13": {
@@ -196,8 +195,7 @@
    "29.3 oggetto 4",
    "29.6 oggetto 7",
    "34.20 oggetto 3",
-   "34.39 oggetto 2",
-   "35.101 oggetto 6"
+   "34.39 oggetto 2"
   ]
  },
  "0x14": {
@@ -18823,7 +18821,6 @@
  },
  "0x5c7": {
   "controlla": [
-   "35.101 coord 32,26",
    "35.101 oggetto 2"
   ]
  },
@@ -22536,9 +22533,7 @@
    "35.1 script mappa 5",
    "35.10 cartello 26,6",
    "35.10 script mappa 5",
-   "35.101 oggetto 4",
-   "35.101 oggetto 5",
-   "35.101 oggetto 6",
+   "35.101 oggetto 7",
    "35.11 script mappa 5",
    "35.12 script mappa 5",
    "35.13 script mappa 5",

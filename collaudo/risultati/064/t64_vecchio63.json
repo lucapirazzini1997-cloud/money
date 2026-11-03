@@ -1,0 +1,78 @@
+{
+ "titolo": [
+  [
+   35,
+   101
+  ],
+  55,
+  23
+ ],
+ "var_nuova": 1,
+ "dopo_4s": {
+  "pos": [
+   [
+    35,
+    101
+   ],
+   55,
+   23
+  ],
+  "var_nuova": 1,
+  "oggetti": [
+   [
+    [
+     55,
+     30
+    ],
+    33
+   ]
+  ]
+ },
+ "cammina": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    101
+   ],
+   50,
+   25
+  ],
+  "roccia": [],
+  "flag_11": 0,
+  "var_nuova": 1
+ },
+ "ricarica": {
+  "pos": [
+   [
+    35,
+    101
+   ],
+   50,
+   25
+  ],
+  "var_nuova": 1
+ },
+ "ricarica_dopo_4s": [
+  [
+   35,
+   101
+  ],
+  50,
+  25
+ ],
+ "ippodromo": {
+  "ok": true,
+  "pos": [
+   [
+    34,
+    19
+   ],
+   7,
+   17
+  ],
+  "roccia": null,
+  "flag_11": 0,
+  "var_nuova": 1
+ }
+}

@@ -9,6 +9,9 @@ Uso: python3 t63.py ROM --parte=prima|dopo|vecchio|riproduci|vecchio62 (riproduc
           le rocce non ci sono; SALVA e Continua; si va a Cesena e si torna a Capocolle.
   vecchio da prog_imola.ss. Fixture: posizione a Capocolle (35.60, 38,17), flag 0x22 a 0 (salvataggio gia' oltre
           il vecchio casello). Verso est: le rocce non ci sono e si arriva a Cesena.
+  riproduci  sulla ROM 0.62: da s_ce3.ss il casello rimanda a Cesena; da prog_imola.ss (fixture: posizione a
+          Monte Spaccato, poi SALVA -> t63_riproduci6.sav) si arriva a 35.92 senza ostacoli.
+  vecchio62  sulla 0.63, con t63_riproduci6.sav (salvataggio vero della 0.62): rocce, passaggio, ritorno a Cesena.
 """
 import os, sys, json, shutil
 ROM = os.path.abspath(sys.argv[1]); os.environ['ROMF'] = os.path.relpath(ROM, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'play'))

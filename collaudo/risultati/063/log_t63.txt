@@ -1,0 +1,153 @@
+PROVA x Pokemon_Romagna_0_63.gba partenza s_ce3.ss ((34, 17), 41, 4, 3, False) cb2 0x8085d9d
+PROVA prima Pokemon_Romagna_0_63.gba partenza s_ce3.ss ((34, 17), 41, 4, 3, False) cb2 0x8085d9d
+PROVA dopo Pokemon_Romagna_0_63.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (35, 101) (56, 21)
+   FIXTURE: mossa 249 al Pokemon 0 -> ((317, 119, 15, 249), 282)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  dal titolo: ((35, 101), 56, 21, 3, False) medaglie [1, 1, 1, 1, 1, 1, 0, 0] flag 0x22 0
+   ippodromo {'ok': True, 'pos': ((34, 19), 18, 30), 'rocce': None}
+  fuori percorso: atteso ((34, 19), 16, 19) sono ((34, 19), 17, 19) azione passo W
+  lotta selvatica: fuga squadra [(18, 46, 52), (14, 43, 43)] pos ((34, 19), 17, 19)
+  fuori percorso: atteso ((35, 101), 58, 29) sono ((35, 101), 58, 30) azione passo N
+  fuori percorso: atteso ((35, 101), 58, 29) sono ((35, 101), 58, 30) azione passo N
+  lotta selvatica: fuga squadra [(18, 46, 52), (14, 43, 43)] pos ((35, 101), 58, 30)
+  fuori percorso: atteso ((35, 101), 58, 24) sono ((35, 101), 58, 25) azione passo N
+  fuori percorso: atteso ((35, 101), 58, 24) sono ((35, 101), 58, 25) azione passo N
+  lotta selvatica: fuga squadra [(18, 46, 52), (14, 43, 43)] pos ((35, 101), 58, 25)
+   monte_spaccato {'ok': True, 'pos': ((35, 101), 57, 21), 'rocce': []}
+   davanti_rocce {'ok': True, 'pos': ((35, 101), 15, 17), 'rocce': [(14, 16), (14, 17), (14, 18)]}
+   corridoio_nord {'ok': True, 'pos': ((35, 101), 13, 3), 'rocce': []}
+   corridoio_sud {'ok': True, 'pos': ((35, 101), 13, 36), 'rocce': []}
+  nessun percorso da ((35, 101), 13, 36, 3, False) a (35, 92) (6, 4)
+   ritorno_ippodromo {'ok': True, 'pos': ((34, 19), 7, 17), 'rocce': None}
+   ritorno_cesena {'ok': True, 'pos': ((34, 17), 5, 43), 'rocce': None}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+   di_nuovo_ippodromo {'ok': True, 'pos': ((34, 19), 18, 30), 'rocce': None}
+FINE prima
+PROVA dopo Pokemon_Romagna_0_63.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (35, 101) (56, 21)
+   FIXTURE: mossa 249 al Pokemon 0 -> ((317, 119, 15, 249), 282)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  dal titolo: ((35, 101), 56, 21, 3, False) medaglie [1, 1, 1, 1, 1, 1, 0, 0] flag 0x22 0
+   davanti_rocce {'ok': True, 'pos': ((35, 101), 15, 17), 'rocce': [(14, 16), (14, 17), (14, 18)]}
+   esce_ippodromo {'ok': True, 'pos': ((34, 19), 7, 17), 'rocce': None}
+   rientra {'ok': True, 'pos': ((35, 101), 57, 21), 'rocce': []}
+   passa {'ok': True, 'pos': ((35, 92), 7, 4), 'rocce': None}
+   torna_monte {'ok': True, 'pos': ((35, 101), 7, 17), 'rocce': []}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  nessun percorso da ((35, 101), 7, 17, 3, False) a (34, 17) (6, 43)
+   cesena {'ok': False, 'pos': ((35, 101), 7, 17), 'rocce': []}
+  nessun percorso da ((35, 101), 7, 17, 3, False) a (35, 101) (56, 21)
+   di_nuovo_monte {'ok': False, 'pos': ((35, 101), 7, 17), 'rocce': []}
+   capocolle {'ok': True, 'pos': ((35, 60), 39, 17), 'rocce': None}
+FINE dopo
+PROVA dopo Pokemon_Romagna_0_63.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (35, 101) (56, 21)
+   FIXTURE: mossa 249 al Pokemon 0 -> ((317, 119, 15, 249), 282)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  dal titolo: ((35, 101), 56, 21, 3, False) medaglie [1, 1, 1, 1, 1, 1, 0, 0] flag 0x22 0
+   davanti_rocce {'ok': True, 'pos': ((35, 101), 15, 17), 'rocce': [(14, 16), (14, 17), (14, 18)], 'flag_11_13': [0, 0, 0]}
+   esce_ippodromo {'ok': True, 'pos': ((34, 19), 7, 17), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+   rientra {'ok': True, 'pos': ((35, 101), 16, 17), 'rocce': [(14, 16), (14, 17), (14, 18)], 'flag_11_13': [0, 0, 0]}
+   passa {'ok': True, 'pos': ((35, 92), 7, 4), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+   torna_monte {'ok': True, 'pos': ((35, 101), 7, 17), 'rocce': [], 'flag_11_13': [1, 1, 1]}
+   accanto_rocce_ovest {'ok': True, 'pos': ((35, 101), 12, 17), 'rocce': [], 'flag_11_13': [1, 1, 1]}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  fuori percorso: atteso ((34, 19), 13, 30) sono ((34, 19), 12, 30) azione passo E
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((34, 19), 12, 30)
+   cesena {'ok': True, 'pos': ((34, 17), 5, 43), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+   di_nuovo_monte {'ok': True, 'pos': ((35, 101), 57, 21), 'rocce': [], 'flag_11_13': [1, 1, 1]}
+   capocolle {'ok': True, 'pos': ((35, 60), 39, 17), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+FINE dopo
+PROVA vecchio Pokemon_Romagna_0_63.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (35, 60) (38, 17)
+   FIXTURE: flag 0x22 = 0
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  dal titolo: ((35, 60), 38, 17, 3, False) medaglie [1, 1, 1, 1, 1, 1, 0, 0] flag 0x22 0
+   casello_92 {'ok': True, 'pos': ((35, 92), 5, 4), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+   monte {'ok': True, 'pos': ((35, 101), 12, 17), 'rocce': [], 'flag_11_13': [1, 1, 1]}
+   oltre_rocce {'ok': True, 'pos': ((35, 101), 20, 17), 'rocce': [], 'flag_11_13': [1, 1, 1]}
+  fuori percorso: atteso ((34, 19), 16, 30) sono ((34, 19), 15, 30) azione passo E
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((34, 19), 15, 30)
+   cesena {'ok': True, 'pos': ((34, 17), 5, 43), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+FINE vecchio
+PROVA prima Pokemon_Romagna_0_63.gba partenza s_ce3.ss ((34, 17), 41, 4, 3, False) cb2 0x8085d9d
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  dal titolo: ((34, 17), 41, 4, 3, False) medaglie [1, 0, 0, 0, 0, 0, 0, 0] flag 0x22 0
+   ippodromo {'ok': True, 'pos': ((34, 19), 18, 30), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+   monte_spaccato {'ok': True, 'pos': ((35, 101), 57, 21), 'rocce': [], 'flag_11_13': [0, 0, 0]}
+   davanti_rocce {'ok': True, 'pos': ((35, 101), 15, 17), 'rocce': [(14, 16), (14, 17), (14, 18)], 'flag_11_13': [0, 0, 0]}
+   corridoio_nord {'ok': True, 'pos': ((35, 101), 13, 3), 'rocce': [], 'flag_11_13': [0, 0, 0]}
+   corridoio_sud {'ok': True, 'pos': ((35, 101), 13, 36), 'rocce': [], 'flag_11_13': [0, 0, 0]}
+  nessun percorso da ((35, 101), 13, 36, 3, False) a (35, 92) (6, 4)
+   ritorno_ippodromo {'ok': True, 'pos': ((34, 19), 7, 17), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+  fuori percorso: atteso ((34, 19), 16, 30) sono ((34, 19), 15, 30) azione passo E
+  lotta selvatica: fuga squadra [(18, 52, 52), (14, 43, 43)] pos ((34, 19), 15, 30)
+   ritorno_cesena {'ok': True, 'pos': ((34, 17), 5, 43), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+   di_nuovo_ippodromo {'ok': True, 'pos': ((34, 19), 18, 30), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+FINE prima
+  dal titolo: ((34, 17), 41, 4, 3, False) medaglie [1, 0, 0, 0, 0, 0, 0, 0] flag 0x22 0
+   ippodromo {'ok': True, 'pos': ((34, 19), 18, 30), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+   monte_spaccato {'ok': True, 'pos': ((35, 101), 57, 21), 'rocce': [], 'flag_11_13': [0, 0, 0]}
+   davanti_rocce {'ok': True, 'pos': ((35, 101), 15, 17), 'rocce': [(14, 16), (14, 17), (14, 18)], 'flag_11_13': [0, 0, 0]}
+   corridoio_nord {'ok': True, 'pos': ((35, 101), 13, 3), 'rocce': [], 'flag_11_13': [0, 0, 0]}
+   corridoio_sud {'ok': True, 'pos': ((35, 101), 13, 36), 'rocce': [], 'flag_11_13': [0, 0, 0]}
+  nessun percorso da ((35, 101), 13, 36, 3, False) a (35, 92) (6, 4)
+   ritorno_ippodromo {'ok': True, 'pos': ((34, 19), 7, 17), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+  fuori percorso: atteso ((34, 19), 16, 30) sono ((34, 19), 15, 30) azione passo E
+  lotta selvatica: fuga squadra [(18, 52, 52), (14, 43, 43)] pos ((34, 19), 15, 30)
+   ritorno_cesena {'ok': True, 'pos': ((34, 17), 5, 43), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+   di_nuovo_ippodromo {'ok': True, 'pos': ((34, 19), 18, 30), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+FINE prima
+  dal titolo: ((35, 101), 56, 21, 3, False) medaglie [1, 1, 1, 1, 1, 1, 0, 0] flag 0x22 0
+   davanti_rocce {'ok': True, 'pos': ((35, 101), 15, 17), 'rocce': [(14, 16), (14, 17), (14, 18)], 'flag_11_13': [0, 0, 0]}
+   esce_ippodromo {'ok': True, 'pos': ((34, 19), 7, 17), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+   rientra {'ok': True, 'pos': ((35, 101), 16, 17), 'rocce': [(14, 16), (14, 17), (14, 18)], 'flag_11_13': [0, 0, 0]}
+   passa {'ok': True, 'pos': ((35, 92), 7, 4), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+   torna_monte {'ok': True, 'pos': ((35, 101), 7, 17), 'rocce': [], 'flag_11_13': [1, 1, 1]}
+   accanto_rocce_ovest {'ok': True, 'pos': ((35, 101), 12, 17), 'rocce': [], 'flag_11_13': [1, 1, 1]}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  fuori percorso: atteso ((34, 19), 13, 30) sono ((34, 19), 12, 30) azione passo E
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((34, 19), 12, 30)
+   cesena {'ok': True, 'pos': ((34, 17), 5, 43), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+  fuori percorso: atteso ((34, 19), 18, 21) sono ((34, 19), 18, 22) azione passo N
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((34, 19), 18, 22)
+   di_nuovo_monte {'ok': True, 'pos': ((35, 101), 57, 21), 'rocce': [], 'flag_11_13': [1, 1, 1]}
+   capocolle {'ok': True, 'pos': ((35, 60), 39, 17), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+FINE dopo
+  dal titolo: ((35, 60), 38, 17, 3, False) medaglie [1, 1, 1, 1, 1, 1, 0, 0] flag 0x22 0
+   casello_92 {'ok': True, 'pos': ((35, 92), 5, 4), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+   monte {'ok': True, 'pos': ((35, 101), 12, 17), 'rocce': [], 'flag_11_13': [1, 1, 1]}
+   oltre_rocce {'ok': True, 'pos': ((35, 101), 20, 17), 'rocce': [], 'flag_11_13': [1, 1, 1]}
+  fuori percorso: atteso ((34, 19), 14, 30) sono ((34, 19), 13, 30) azione passo E
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((34, 19), 13, 30)
+   cesena {'ok': True, 'pos': ((34, 17), 5, 43), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+FINE vecchio
+PROVA riproduci Pokemon_Romagna_0_62.gba partenza s_ce3.ss ((34, 17), 41, 4, 3, False) cb2 0x8085d9d
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  dal titolo: ((34, 17), 41, 4, 3, False) medaglie [1, 0, 0, 0, 0, 0, 0, 0] flag 0x22 0
+  fuori percorso: atteso ((35, 91), 2, 4) sono ((35, 91), 3, 4) azione passo W
+  fuori percorso: atteso ((35, 91), 2, 4) sono ((35, 91), 3, 4) azione passo W
+  fuori percorso: atteso ((35, 91), 2, 4) sono ((35, 91), 3, 4) azione passo W
+  fuori percorso: atteso ((35, 91), 2, 4) sono ((35, 91), 3, 4) azione passo W
+PROVA riproduci Pokemon_Romagna_0_62.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (35, 101) (56, 21)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  riproduci {'una_medaglia_verso_monte': False, 'una_medaglia_pos': ((35, 91), 8, 4), 'testi': ['Prima conquista la terza medaglia a RIMINI. Poi torna a Cesena: Monte Spaccato porta a Babbi, Forlimpopoli e Forlì.'], 'sei_medaglie_35_92': True, 'sei_medaglie_pos': ((35, 92), 7, 4)}
+FINE riproduci
+   davanti_rocce {'ok': True, 'pos': ((35, 101), 16, 17), 'rocce': [(14, 16), (14, 17), (14, 18)], 'flag_11_13': [0, 0, 0]}
+   passa {'ok': True, 'pos': ((35, 92), 7, 4), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+   monte {'ok': True, 'pos': ((35, 101), 12, 17), 'rocce': [], 'flag_11_13': [1, 1, 1]}
+  fuori percorso: atteso ((34, 19), 10, 30) sono ((34, 19), 10, 29) azione passo S
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((34, 19), 10, 29)
+   cesena {'ok': True, 'pos': ((34, 17), 5, 43), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+FINE vecchio62
+   davanti_rocce {'ok': True, 'pos': ((35, 101), 16, 17), 'rocce': [(14, 16), (14, 17), (14, 18)], 'flag_11_13': [0, 0, 0]}
+   passa {'ok': True, 'pos': ((35, 92), 7, 4), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+   monte {'ok': True, 'pos': ((35, 101), 12, 17), 'rocce': [], 'flag_11_13': [1, 1, 1]}
+  fuori percorso: atteso ((34, 19), 10, 30) sono ((34, 19), 10, 29) azione passo S
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((34, 19), 10, 29)
+   cesena {'ok': True, 'pos': ((34, 17), 5, 43), 'rocce': None, 'flag_11_13': [0, 0, 0]}
+FINE vecchio62

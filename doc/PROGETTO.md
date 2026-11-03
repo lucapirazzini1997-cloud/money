@@ -1,6 +1,6 @@
 # Pokémon Romagna — documento di progetto
 
-Stato alla **0.63** (SHA-256 `d1fee9f9…6187`, collaudata). Lotto 2 chiuso (0.59–0.61). Lotto 3 in corso: 0.62 MN e strumenti chiave (tutti si ottengono; testi di FLASH e SUB corretti); 0.63 Cesena ovest (Ippodromo sul percorso dalla prima visita, rocce di SPACCAROCCIA a Monte Spaccato al posto del controllo del casello). Prossime: 0.64 nuovo Fumaiolo (bozza approvata), 0.65 treno regionale con scena, 0.66 collegamenti e ostacoli, 0.67 barriere.
+Stato alla **0.63** (SHA-256 `d1fee9f9…6187`, collaudata). Lotto 2 chiuso (0.59–0.61). Lotto 3 in corso: 0.62 MN e strumenti chiave (tutti si ottengono; testi di FLASH e SUB corretti); 0.63 Cesena ovest (Ippodromo sul percorso dalla prima visita, rocce di SPACCAROCCIA a Monte Spaccato al posto del controllo del casello). Prossime: 0.64 Monte Spaccato ridisegnato (richiesto dopo la 0.63; bozza inviata, in attesa del sì), poi nuovo Fumaiolo (bozza approvata), treno regionale con scena, collegamenti e ostacoli, barriere.
 Questo è il documento di riferimento: trama, mappe, eventi, indirizzi tecnici e regole di lavoro. La storia delle versioni è in `STORIA_VERSIONI.md`, le prove in emulatore in `COLLAUDO.md`.
 
 ## 1. Come è fatto il progetto

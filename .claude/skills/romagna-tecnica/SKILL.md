@@ -8,6 +8,9 @@ user-invocable: false
 
 Le regole di processo stanno in `Prompt_Pokemon_Romagna_0_57.txt` (radice). Qui solo i fatti tecnici.
 
+## Mappe
+**Ogni mappa nuova o ridisegnata va mostrata all'utente finita (immagine con allenatori, cartelli, rocce, uscite) e si aspetta il sì prima di scrivere il modulo.** Bozze in `bozze/` (con `strumenti_rom/tela.py`).
+
 ## Catena di build
 `basi/` → 0.54 (`storico_054/build54.py`) → 0.55 (`pezzo_055/patch_054_055.bps`) → moduli `versioni/vXXX_*.py`
 (ognuno espone `apply(W) -> dict`) → `registri/genera.py` (controllo stretto delle flag condivise) →

@@ -47,6 +47,10 @@ Ogni tappa controlla lo SHA-256 atteso e si ferma se non coincide.
 4b. Nella relazione copia il budget da `out/rapporto_build.json` (voce `budget`).
 5. I moduli si applicano in ordine sullo stesso `Writer`: non modificare un modulo di una versione già consegnata, altrimenti cambia lo SHA di tutte quelle successive.
 
+### Regola delle mappe (richiesta dell'utente dopo la 0.63)
+
+**Ogni mappa nuova o ridisegnata si mostra all'utente finita prima di metterla nel gioco**: immagine completa (`strumenti_rom/tela.py`, `anteprima`) con allenatori, cartelli, rocce, uscite e incontri al loro posto, e si aspetta il suo sì. Solo dopo si scrive il modulo e si collauda. Le correzioni chieste ripartono da una nuova immagine.
+
 ### Regole dell'engine
 
 - `engine.init(rom055)` crea il `Writer` e controlla che la base sia la 0.55.

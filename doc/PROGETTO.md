@@ -1,6 +1,6 @@
 # Pokémon Romagna — documento di progetto
 
-Stato alla **0.64** (SHA-256 `4eee4268…c21e`, collaudata). Lotto 2 chiuso (0.59–0.61). Lotto 3 in corso: 0.62 MN e strumenti chiave (tutti si ottengono; testi di FLASH e SUB corretti); 0.63 Cesena ovest (Ippodromo sul percorso dalla prima visita, rocce di SPACCAROCCIA a Monte Spaccato al posto del controllo del casello); 0.64 la Campagna Cesenate al posto di Monte Spaccato (35.101 ridisegnata dalla bozza 4 approvata). Prossime: 0.65 Ridracoli ridisegnata con l'evento del Gyarados rosso (bozza 2 approvata), poi nuovo Fumaiolo (bozza approvata), treno regionale con scena, collegamenti e ostacoli, barriere.
+Stato alla **0.64** (SHA-256 `82ac35d2…7f70`, collaudata). Lotto 2 chiuso (0.59–0.61). Lotto 3 in corso: 0.62 MN e strumenti chiave (tutti si ottengono; testi di FLASH e SUB corretti); 0.63 Cesena ovest (Ippodromo sul percorso dalla prima visita, rocce di SPACCAROCCIA a Monte Spaccato al posto del controllo del casello); 0.64 la Campagna Cesenate al posto di Monte Spaccato (35.101 ridisegnata dalla bozza 4 approvata). Prossime: 0.65 Ridracoli ridisegnata con l'evento del Gyarados rosso (bozza 2 approvata), poi nuovo Fumaiolo (bozza approvata), treno regionale con scena, collegamenti e ostacoli, barriere.
 Questo è il documento di riferimento: trama, mappe, eventi, indirizzi tecnici e regole di lavoro. La storia delle versioni è in `STORIA_VERSIONI.md`, le prove in emulatore in `COLLAUDO.md`.
 
 ## 1. Come è fatto il progetto
@@ -30,7 +30,7 @@ Ogni tappa controlla lo SHA-256 atteso e si ferma se non coincide.
 |---|---|---|---|---|
 | 1 | `basi/rom047.gba` + `basi/base31.gba` | `storico_054/build54.py` (rifà 0.48 → 0.54 in sequenza) | 0.54 | `a0653255…2906` |
 | 2 | 0.54 | `pezzo_055/patch_054_055.bps` | 0.55 | `2bfaa8a3…4ad6` |
-| 3 | 0.55 | `versioni/v056_cesena_rivale.py`, `v057_spazio.py`, `v058_registri.py`, `v059_cani.py`, `v060_kyogre_uccelli.py`, `v061_regi_mitici.py`, `v062_strumenti.py`, `v063_cesena_ovest.py`, `v064_campagna_cesenate.py` | 0.56–0.64 | `b09eb697…495f`, `47f53668…97c4`, `47f53668…97c4`, `aee694c2…ec1d`, `d9ca40b3…183a`, `f3e78025…3cbe`, `b8ebd091…9080`, `d1fee9f9…6187`, `4eee4268…c21e` |
+| 3 | 0.55 | `versioni/v056_cesena_rivale.py`, `v057_spazio.py`, `v058_registri.py`, `v059_cani.py`, `v060_kyogre_uccelli.py`, `v061_regi_mitici.py`, `v062_strumenti.py`, `v063_cesena_ovest.py`, `v064_campagna_cesenate.py` | 0.56–0.64 | `b09eb697…495f`, `47f53668…97c4`, `47f53668…97c4`, `aee694c2…ec1d`, `d9ca40b3…183a`, `f3e78025…3cbe`, `b8ebd091…9080`, `d1fee9f9…6187`, `82ac35d2…7f70` |
 | 4 | ultima | `registri/genera.py` (modo rigoroso) | registri | — |
 | 5 | ultima | `registri/controlli.py` (allenatori, raggiungibilità, risorse, budget) | registri, `out/rapporto_build.json` | — |
 

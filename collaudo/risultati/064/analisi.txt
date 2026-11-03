@@ -12,3 +12,5 @@ abilita: spacca,taglio | mappe raggiunte: 175
   35.60:38,17 raggiunta in 105 passi; da (39, 17); surf=False; mappe: 34.17 > 35.91 > 34.19 > 35.101 > 35.92 > 35.60
 abilita: taglio | mappe raggiunte: 148
   34.17:6,43 raggiunta in 47 passi; da (5, 43); surf=False; mappe: 35.101 > 34.19 > 35.91 > 34.17
+== righe.py
+righe.py: uscita 0 (nessuna riga stampata = nessun riquadro oltre 2 righe)

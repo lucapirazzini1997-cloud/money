@@ -8,7 +8,7 @@ Hack ROM di Pokémon Smeraldo ambientata in Romagna. Questa cartella contiene tu
 python3 build.py
 ```
 
-In circa tre minuti rifà 0.54 → 0.55 → 0.56 → 0.57 → 0.58 → 0.59 → 0.60 → 0.61 → 0.62 → 0.63 → 0.64 controllando lo SHA-256 di ogni tappa, poi rigenera i registri e fa i controlli del Lotto 1 (allenatori, raggiungibilità, budget). Il risultato è `out/Pokemon_Romagna_0_64.gba`, SHA-256 `4eee4268983adaf4d06489aca972bd23ba6d76394aa00185cbce4bcfe152c21e`. Servono Python 3 e numpy (Pillow per il collaudo).
+In circa tre minuti rifà 0.54 → 0.55 → 0.56 → 0.57 → 0.58 → 0.59 → 0.60 → 0.61 → 0.62 → 0.63 → 0.64 controllando lo SHA-256 di ogni tappa, poi rigenera i registri e fa i controlli del Lotto 1 (allenatori, raggiungibilità, budget). Il risultato è `out/Pokemon_Romagna_0_64.gba`, SHA-256 `82ac35d2135894815f412ca51666f31f900e5ab778b1d8838c46bb1bbda27f70`. Servono Python 3 e numpy (Pillow per il collaudo).
 
 **ROM:** il repository è pubblico, quindi le ROM non ci sono. Metti a mano `basi/rom047.gba` e `basi/base31.gba` (la build ne controlla lo SHA).
 

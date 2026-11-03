@@ -114,7 +114,7 @@
  "lotta_NICO": {
   "arrivo": true,
   "testi": [
-   "Ehi! Questa strada è mia, ci gioco da quando ero piccolo!"
+   "Ehi! Questa strada è mia, ci gioco da quando sono nato!"
   ],
   "lotta": true,
   "turni": 2,
@@ -151,7 +151,7 @@
    },
    {
     "testi": [
-     "Ehi! Questa strada è mia, ci gioco da quando ero piccolo!"
+     "Ehi! Questa strada è mia, ci gioco da quando sono nato!"
     ],
     "squadra": [
      [
@@ -252,7 +252,11 @@
   ],
   "flag_22": 1,
   "var_nuova": 1,
-  "roccia": []
+  "flag_allenatori": {
+   "NICO": 1,
+   "TONINO": 1,
+   "OSVALDO": 1
+  }
  },
  "ricarica_dopo_2s": [
   [
@@ -262,6 +266,28 @@
   43,
   18
  ],
+ "dopo_ricarica_galleria": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    101
+   ],
+   25,
+   13
+  ],
+  "roccia": [],
+  "flag_11": 1,
+  "var_nuova": 1
+ },
+ "NICO_dopo_ricarica": {
+  "testi": [
+   "MEDAGLIE",
+   "La galleria del MONTE SPACCATO porta a CAPOCOLLE."
+  ],
+  "lotta": false,
+  "flag": 1
+ },
  "cesena": {
   "ok": true,
   "pos": [

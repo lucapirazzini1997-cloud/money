@@ -7,17 +7,18 @@ PROVA dopo Pokemon_Romagna_0_64.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, 
    FIXTURE: posizione (34, 19) (8, 17)
    FIXTURE: mossa 249 al Pokemon 0 -> ((317, 119, 15, 249), 282)
    salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA dopo mGBA Pokemon_Romagna_0_64.gba
   dal titolo: ((34, 19), 8, 17, 3, False) medaglie [1, 1, 1, 1, 1, 1, 0, 0] flag 0x22 0
    arrivo_campagna {'ok': True, 'pos': ((35, 101), 55, 23), 'roccia': [], 'flag_11': 0, 'var_nuova': 1}
   fuori percorso: atteso ((35, 101), 55, 29) sono ((35, 101), 55, 28) azione passo S
   lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((35, 101), 55, 28)
-   OSVALDO {'arrivo': True, 'testi': ['Questi campi li curo io. Vediamo se sai lottare!'], 'lotta': True, 'turni': 5, 'dopo': ['Forte! Come la grandine sul raccolto.'], 'flag': 1, 'di_nuovo': ["Dall'IPPODROMO si arriva qui passando dalla mia casa."], 'di_nuovo_lotta': False, 'squadra_avversaria': [(128, 27), (241, 27)]}
-   TONINO {'arrivo': True, 'testi': ['Il fiume scende dal monte: qui i pesci abboccano sempre!'], 'lotta': True, 'turni': 3, 'dopo': ['Mi hai fatto scappare tutti i pesci...'], 'flag': 1, 'di_nuovo': ["Con una canna da pesca, qui peschi bene tutto l'anno."], 'di_nuovo_lotta': False, 'squadra_avversaria': [(61, 26), (118, 26)]}
+   OSVALDO {'arrivo': True, 'testi': ['Questi campi li curo io. Vediamo se sai lottare!'], 'lotta': True, 'turni': 5, 'dopo': ['Forte! Come la grandine sul raccolto.'], 'flag': 1, 'di_nuovo': ["Dall'IPPODROMO si arriva qui passando dalla mia casa."], 'di_nuovo_lotta': False, 'squadra_avversaria': [(128, 27), (241, 27)], 'tentativi': [{'testi': ['Questi campi li curo io. Vediamo se sai lottare!'], 'squadra': [(128, 27), (241, 27)], 'flag': 1}]}
+   TONINO {'arrivo': True, 'testi': ['Il fiume scende dal monte: qui i pesci abboccano sempre!'], 'lotta': True, 'turni': 3, 'dopo': ['Mi hai fatto scappare tutti i pesci...'], 'flag': 1, 'di_nuovo': ["Con una canna da pesca, qui peschi bene tutto l'anno."], 'di_nuovo_lotta': False, 'squadra_avversaria': [(61, 26), (118, 26)], 'tentativi': [{'testi': ['Il fiume scende dal monte: qui i pesci abboccano sempre!'], 'squadra': [(61, 26), (118, 26)], 'flag': 1}]}
   fuori percorso: atteso ((35, 101), 40, 16) sono ((35, 101), 41, 16) azione passo W
   lotta selvatica: fuga squadra [(50, 129, 155), (43, 119, 119)] pos ((35, 101), 41, 16)
   fuori percorso: atteso ((35, 101), 34, 16) sono ((35, 101), 35, 16) azione passo W
   lotta selvatica: fuga squadra [(50, 129, 155), (43, 119, 119)] pos ((35, 101), 35, 16)
-   NICO {'arrivo': True, 'testi': ['Ehi! Questa strada è mia, ci gioco da quando ero piccolo!'], 'lotta': True, 'turni': 2, 'dopo': ['Uffa! Hai vinto tu.'], 'flag': 1, 'di_nuovo': ['La galleria del MONTE SPACCATO porta a CAPOCOLLE.'], 'di_nuovo_lotta': False, 'squadra_avversaria': [(17, 26), (20, 25)]}
+   NICO {'arrivo': True, 'testi': ['Ehi! Questa strada è mia, ci gioco da quando sono nato!'], 'lotta': True, 'turni': 2, 'dopo': ['Uffa! Hai vinto tu.'], 'flag': 1, 'di_nuovo': ['La galleria del MONTE SPACCATO porta a CAPOCOLLE.'], 'di_nuovo_lotta': False, 'squadra_avversaria': [(17, 26), (20, 25)], 'tentativi': [{'testi': ['Ehi! Questa strada è mia, ci gioco da quando sono nato!'], 'squadra': [(17, 26), (20, 25)], 'flag': 1}]}
    davanti_roccia {'ok': True, 'pos': ((35, 101), 25, 12), 'roccia': [(25, 11)], 'flag_11': 0, 'var_nuova': 1}
    passa {'ok': True, 'pos': ((35, 92), 7, 4), 'roccia': None, 'flag_11': 0, 'var_nuova': 1}
    torna_galleria {'ok': True, 'pos': ((35, 101), 25, 13), 'roccia': [], 'flag_11': 1, 'var_nuova': 1}
@@ -25,8 +26,10 @@ PROVA dopo Pokemon_Romagna_0_64.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, 
   lotta selvatica: fuga squadra [(51, 132, 158), (44, 122, 122)] pos ((35, 101), 31, 18)
    riva_fiume {'ok': True, 'pos': ((35, 101), 43, 18), 'roccia': [], 'flag_11': 1, 'var_nuova': 1}
    salvataggio: testo finale AAAAAAA ha salvato la partita.
+   dopo_ricarica_galleria {'ok': True, 'pos': ((35, 101), 25, 13), 'roccia': [], 'flag_11': 1, 'var_nuova': 1}
    cesena {'ok': True, 'pos': ((34, 17), 5, 43), 'roccia': None, 'flag_11': 0, 'var_nuova': 1}
 FINE dopo
+PROVA dopo VBA-M Pokemon_Romagna_0_64.gba
   dal titolo: ((34, 19), 8, 17, 3, False) medaglie [1, 1, 1, 1, 1, 1, 0, 0] flag 0x22 0
    arrivo_campagna {'ok': True, 'pos': ((35, 101), 55, 23), 'roccia': [], 'flag_11': 0, 'var_nuova': 1}
   fuori percorso: atteso ((35, 101), 55, 29) sono ((35, 101), 55, 28) azione passo S
@@ -35,7 +38,7 @@ FINE dopo
    TONINO {'arrivo': True, 'testi': ['Il fiume scende dal monte: qui i pesci abboccano sempre!'], 'lotta': True, 'turni': 4, 'dopo': ['Mi hai fatto scappare tutti i pesci...'], 'flag': 1, 'di_nuovo': ["Con una canna da pesca, qui peschi bene tutto l'anno."], 'di_nuovo_lotta': False, 'squadra_avversaria': [(61, 26), (118, 26)], 'tentativi': [{'testi': ['Il fiume scende dal monte: qui i pesci abboccano sempre!'], 'squadra': [(61, 26), (118, 26)], 'flag': 1}]}
   fuori percorso: atteso ((35, 101), 34, 16) sono ((35, 101), 35, 16) azione passo W
   lotta selvatica: fuga squadra [(50, 128, 155), (43, 119, 119)] pos ((35, 101), 35, 16)
-   NICO {'arrivo': True, 'testi': ['Ehi! Questa strada è mia, ci gioco da quando ero piccolo!'], 'lotta': True, 'turni': 2, 'dopo': ['Uffa! Hai vinto tu.'], 'flag': 1, 'di_nuovo': ['La galleria del MONTE SPACCATO porta a CAPOCOLLE.'], 'di_nuovo_lotta': False, 'squadra_avversaria': [(17, 26), (20, 25)], 'tentativi': [{'testi': ["Con una canna da pesca, qui peschi bene tutto l'anno."], 'squadra': [(66, 25)], 'flag': 0}, {'testi': ['Ehi! Questa strada è mia, ci gioco da quando ero piccolo!'], 'squadra': [(17, 26), (20, 25)], 'flag': 1}]}
+   NICO {'arrivo': True, 'testi': ['Ehi! Questa strada è mia, ci gioco da quando sono nato!'], 'lotta': True, 'turni': 2, 'dopo': ['Uffa! Hai vinto tu.'], 'flag': 1, 'di_nuovo': ['La galleria del MONTE SPACCATO porta a CAPOCOLLE.'], 'di_nuovo_lotta': False, 'squadra_avversaria': [(17, 26), (20, 25)], 'tentativi': [{'testi': ["Con una canna da pesca, qui peschi bene tutto l'anno."], 'squadra': [(66, 25)], 'flag': 0}, {'testi': ['Ehi! Questa strada è mia, ci gioco da quando sono nato!'], 'squadra': [(17, 26), (20, 25)], 'flag': 1}]}
    davanti_roccia {'ok': True, 'pos': ((35, 101), 25, 12), 'roccia': [(25, 11)], 'flag_11': 0, 'var_nuova': 1}
    passa {'ok': True, 'pos': ((35, 92), 7, 4), 'roccia': None, 'flag_11': 0, 'var_nuova': 1}
    torna_galleria {'ok': True, 'pos': ((35, 101), 25, 13), 'roccia': [], 'flag_11': 1, 'var_nuova': 1}
@@ -43,10 +46,12 @@ FINE dopo
   lotta selvatica: fuga squadra [(51, 131, 158), (44, 122, 122)] pos ((35, 101), 42, 18)
    riva_fiume {'ok': True, 'pos': ((35, 101), 43, 18), 'roccia': [], 'flag_11': 1, 'var_nuova': 1}
    salvataggio: testo finale AAAAAAA ha salvato la partita.
+   dopo_ricarica_galleria {'ok': True, 'pos': ((35, 101), 25, 13), 'roccia': [], 'flag_11': 1, 'var_nuova': 1}
    cesena {'ok': True, 'pos': ((34, 17), 5, 43), 'roccia': None, 'flag_11': 0, 'var_nuova': 1}
 FINE dopo
 PROVA prima Pokemon_Romagna_0_64.gba partenza s_ce3.ss ((34, 17), 41, 4, 3, False) cb2 0x8085d9d
    salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA prima mGBA Pokemon_Romagna_0_64.gba
   dal titolo: ((34, 17), 41, 4, 3, False) medaglie [1, 0, 0, 0, 0, 0, 0, 0] flag 0x22 0
    ippodromo {'ok': True, 'pos': ((34, 19), 18, 30), 'roccia': None, 'flag_11': 0, 'var_nuova': 0}
    arrivo_campagna {'ok': True, 'pos': ((35, 101), 55, 23), 'roccia': [], 'flag_11': 0, 'var_nuova': 1}
@@ -62,6 +67,7 @@ PROVA prima Pokemon_Romagna_0_64.gba partenza s_ce3.ss ((34, 17), 41, 4, 3, Fals
    ritorno_cesena {'ok': True, 'pos': ((34, 17), 5, 43), 'roccia': None, 'flag_11': 0, 'var_nuova': 1}
    salvataggio: testo finale AAAAAAA ha salvato la partita.
 FINE prima
+PROVA prima VBA-M Pokemon_Romagna_0_64.gba
   dal titolo: ((34, 17), 41, 4, 3, False) medaglie [1, 0, 0, 0, 0, 0, 0, 0] flag 0x22 0
    ippodromo {'ok': True, 'pos': ((34, 19), 18, 30), 'roccia': None, 'flag_11': 0, 'var_nuova': 0}
    arrivo_campagna {'ok': True, 'pos': ((35, 101), 55, 23), 'roccia': [], 'flag_11': 0, 'var_nuova': 1}
@@ -77,14 +83,22 @@ FINE prima
    ritorno_cesena {'ok': True, 'pos': ((34, 17), 5, 43), 'roccia': None, 'flag_11': 0, 'var_nuova': 1}
    salvataggio: testo finale AAAAAAA ha salvato la partita.
 FINE prima
+PROVA vecchio62 mGBA Pokemon_Romagna_0_64.gba t63_riproduci6.sav
    cammina {'ok': True, 'pos': ((35, 101), 50, 25), 'roccia': [], 'flag_11': 0, 'var_nuova': 1}
    salvataggio: testo finale AAAAAAA ha salvato la partita.
    ippodromo {'ok': True, 'pos': ((34, 19), 7, 17), 'roccia': None, 'flag_11': 0, 'var_nuova': 1}
 FINE vecchio62
+PROVA vecchio62 VBA-M Pokemon_Romagna_0_64.gba t63_riproduci6.sav
+   cammina {'ok': True, 'pos': ((35, 101), 50, 25), 'roccia': [], 'flag_11': 0, 'var_nuova': 1}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+   ippodromo {'ok': True, 'pos': ((34, 19), 7, 17), 'roccia': None, 'flag_11': 0, 'var_nuova': 1}
+FINE vecchio62
+PROVA vecchio63 mGBA Pokemon_Romagna_0_64.gba t64_crea63.sav
    cammina {'ok': True, 'pos': ((35, 101), 50, 25), 'roccia': [], 'flag_11': 0, 'var_nuova': 1}
    salvataggio: testo finale AAAAAAA ha salvato la partita.
    ippodromo {'ok': True, 'pos': ((34, 19), 7, 17), 'roccia': None, 'flag_11': 0, 'var_nuova': 1}
 FINE vecchio63
+PROVA vecchio63 VBA-M Pokemon_Romagna_0_64.gba t64_crea63.sav
    cammina {'ok': True, 'pos': ((35, 101), 50, 25), 'roccia': [], 'flag_11': 0, 'var_nuova': 1}
    salvataggio: testo finale AAAAAAA ha salvato la partita.
    ippodromo {'ok': True, 'pos': ((34, 19), 7, 17), 'roccia': None, 'flag_11': 0, 'var_nuova': 1}

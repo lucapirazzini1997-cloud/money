@@ -1,0 +1,6 @@
+fine: nessun riquadro oltre le 2 righe negli script di 34.42 26.3 35.26 24.7 34.22 34.44 34.96 (0.62)
+
+0.61, stesso controllo:
+35.26 oggetto 4 loadword a 0x173136f testo 0x173141d righe 3 | Con SUB puoi immergerti nelle acque / scure. Al largo di RIMINI ci sono i\lresti dell'ISOLA DELLE ROSE... / I 
+35.26 oggetto 4 loadword a 0x1731379 testo 0x1731383 righe 3 | Sono un sommozzatore della riviera. / Batti LEDA e ti insegnerò a scendere\lsul fondo del mare.
+24.7 oggetto 1 loadword a 0x22de15 testo 0x22de40 righe 3 | Hey, you. / It gets awfully dark ahead.\lIt'll be tough trying to explore. / That guy who came by earlier… / S

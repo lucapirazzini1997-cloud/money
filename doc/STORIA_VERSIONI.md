@@ -1,6 +1,6 @@
 # Storia delle versioni
 
-Dalla 0.35 alla 0.61. Gli SHA-256 sono quelli delle ROM conservate; le relazioni complete sono in `relazioni/`.
+Dalla 0.35 alla 0.62. Gli SHA-256 sono quelli delle ROM conservate; le relazioni complete sono in `relazioni/`.
 
 **Chi l'ha fatta:** "progetto" = costruita con i builder di questo progetto; "esterna" = ricevuta già fatta, senza sorgenti.
 
@@ -31,6 +31,7 @@ Dalla 0.35 alla 0.61. Gli SHA-256 sono quelli delle ROM conservate; le relazioni
 | 0.59 | `aee694c2535ab1524e08e2cd4447cefc16afddd10211ba4fe0fa35b64a45ec1d` | 0.58 | progetto | Lotto 2: Entei, Raikou e Suicune catturabili dalla prima visita a Ravenna (Safari del gruppo 26, senza controllo della Lega), testi in due righe, `analisi/percorso.py`. Collaudata in mGBA e VBA-M |
 | 0.60 | `d9ca40b361d02c0404b5d6553dc8d45252087d8bebf59e4e42c942a5786b183a` | 0.59 | progetto | Lotto 2: Kyogre (con SUB e 8ª medaglia) e uccelli leggendari catturabili prima della Lega, esiti cattura/KO/fuga, difetto del testo dopo il KO degli uccelli corretto. Collaudata in mGBA e VBA-M |
 | 0.61 | `f3e7802535125bdc473bd328e4cf7f2b7aeb030f71a1fabb81675614acd63cbe` | 0.60 | progetto | Lotto 2, fine: Regi a piedi senza FORZA con esiti indipendenti, Deoxys/Jirachi/Mewtwo dopo la Lega con eventi chiari (razzo, portale, grotta di Mewtwo finalmente accessibile), regola "una cattura, si ritenta dopo fuga o KO", tabella dei leggendari |
+| 0.62 | `b8ebd0918981becb7c3d77c649d78bf92e7a29d5ec8eec14def17dd772ac9080` | 0.61 | progetto | Lotto 3, prima parte: MN e strumenti chiave verificati a tasti (CASCATA, SUB, FLASH, BICI CROSS, tre ami); testi di FLASH tradotti e di SUB in riquadri di due righe |
 
 ## Note sulla catena
 

@@ -1,6 +1,6 @@
 # Pokémon Romagna — documento di progetto
 
-Stato alla **0.61** (SHA-256 `f3e78025…3cbe`, collaudata). Lotto 2 chiuso: 0.59 cani leggendari, 0.60 Kyogre e uccelli, 0.61 Regi, Deoxys/Jirachi/Mewtwo e tabella completa (§3).
+Stato alla **0.62** (SHA-256 `b8ebd091…9080`, collaudata). Lotto 2 chiuso (0.59–0.61). Lotto 3 in corso: 0.62 MN e strumenti chiave (tutti si ottengono; testi di FLASH e SUB corretti). Prossime: 0.63 Cesena ovest/Ippodromo, 0.64 nuovo Fumaiolo (bozza approvata), 0.65 treno regionale con scena, 0.66 collegamenti e ostacoli, 0.67 barriere.
 Questo è il documento di riferimento: trama, mappe, eventi, indirizzi tecnici e regole di lavoro. La storia delle versioni è in `STORIA_VERSIONI.md`, le prove in emulatore in `COLLAUDO.md`.
 
 ## 1. Come è fatto il progetto
@@ -30,7 +30,7 @@ Ogni tappa controlla lo SHA-256 atteso e si ferma se non coincide.
 |---|---|---|---|---|
 | 1 | `basi/rom047.gba` + `basi/base31.gba` | `storico_054/build54.py` (rifà 0.48 → 0.54 in sequenza) | 0.54 | `a0653255…2906` |
 | 2 | 0.54 | `pezzo_055/patch_054_055.bps` | 0.55 | `2bfaa8a3…4ad6` |
-| 3 | 0.55 | `versioni/v056_cesena_rivale.py`, `v057_spazio.py`, `v058_registri.py`, `v059_cani.py`, `v060_kyogre_uccelli.py`, `v061_regi_mitici.py` | 0.56–0.61 | `b09eb697…495f`, `47f53668…97c4`, `47f53668…97c4`, `aee694c2…ec1d`, `d9ca40b3…183a`, `f3e78025…3cbe` |
+| 3 | 0.55 | `versioni/v056_cesena_rivale.py`, `v057_spazio.py`, `v058_registri.py`, `v059_cani.py`, `v060_kyogre_uccelli.py`, `v061_regi_mitici.py`, `v062_strumenti.py` | 0.56–0.62 | `b09eb697…495f`, `47f53668…97c4`, `47f53668…97c4`, `aee694c2…ec1d`, `d9ca40b3…183a`, `f3e78025…3cbe`, `b8ebd091…9080` |
 | 4 | ultima | `registri/genera.py` (modo rigoroso) | registri | — |
 | 5 | ultima | `registri/controlli.py` (allenatori, raggiungibilità, risorse, budget) | registri, `out/rapporto_build.json` | — |
 
@@ -132,10 +132,10 @@ Tabella completa alla 0.61. **Regola del Lotto 2** (cani, Kyogre, uccelli, Regi,
 
 - **Conflitto latente (0.58):** 0x78A (rosone "pietralunare") è anche la flag di Danielle, allenatrice della palestra di Lavaridge di Smeraldo (4.1). Oggi la 4.1 non si raggiunge; se una versione la collega la build fallisce e Danielle va spostata su un numero libero. Le flag 0x792–0x794, 0x7AA–0x7AD e 0x7B0–0x7B3 sono di allenatori della tabella delle rivincite (servono il Pokénav, assente): rischio basso.
 
-## 4b. Risorse rimaste (budget della 0.61)
+## 4b. Risorse rimaste (budget della 0.62)
 
 - **Spazio nella ROM:** la ROM è a 32 MB, il massimo del GBA, e non si allarga.
-  - Restano 1241 KB nelle zone dell'engine (la 0.59 ha usato 1119 byte, la 0.60 2580, la 0.61 circa 4,7 KB).
+  - Restano 1240 KB nelle zone dell'engine (la 0.59 ha usato 1119 byte, la 0.60 2580, la 0.61 circa 4,7 KB, la 0.62 meno di 1 KB).
   - Analisi e cose non recuperate: `relazioni/RELAZIONE_0_57.md` §3.
   - Il gruppo 0 **non** è un insieme di vecchie mappe libere: gran parte è usata dalla Romagna (0.9 Lido, 0.10 Cervia, 0.27 Mirabilandia, 0.28 Safari di Ravenna); i nomi delle zone sono riscritti, per questo 0.12 (Lavaridge) si chiama IMOLA.
   - Posti per mappe nuove: 34.10, 34.13, 34.18, 24.39–24.41, 24.50–24.51, 24.74–24.76.
@@ -177,3 +177,5 @@ Tabella completa alla 0.61. **Regola del Lotto 2** (cani, Kyogre, uccelli, Regi,
 11. **Scansioni di script.** Seguire anche gli script dopo una lotta (trainerbattle) e le lotte con id locale diverso da 0: la scansione della 0.56 non le vedeva.
 12. **Un'uscita deve stare su una casella d'uscita.** Smeraldo fa scattare un'uscita solo su porte, scale, frecce e simili: su una casella normale (sabbia, erba) non succede nulla. Era il caso della grotta di Mewtwo (34.22, corretto nella 0.61). Le altre uscite sospette fuori dalle mappe di Smeraldo (34.17 uscita 13, 35.13 → 35.18, 35.16 → 35.17) sono da controllare nel Lotto 3: possono essere solo arrivi di script.
 13. **Gli alberi di bacche bloccano.** Tipo di movimento 12: `analisi/percorso.py` li conta come ostacoli dalla 0.61.
+14. **Numeri degli strumenti: controllarli in `registri/strumenti.json`.** Nella 0.62 avevo usato a memoria numeri sbagliati per gli ami (0x10F è CHIAVE SOTT., non SUPER AMO): gli ami sono 0x106 VECCHIO, 0x107 BUONO, 0x108 SUPER. Chi consegna cosa: `analisi/doni.py`; testi oltre le 2 righe: `analisi/righe.py`.
+15. **Strumenti chiave e MN (0.62):** CASCATA Safari Ravenna 26.3 (8ª medaglia), SUB Bagno di Romagna 35.26 (8ª), FLASH Grotta Granito 24.7 (dall'Appennino 0.21), BICI CROSS Cesenatico 34.42, AMO VECCHIO Cesenatico 34.22, AMO BUONO Rimini 34.44, SUPER AMO Ravenna 34.96 (5ª).

@@ -1,0 +1,373 @@
+{
+ "amo_vecchio": {
+  "prima": false,
+  "arrivato": true,
+  "pos": [
+   [
+    34,
+    22
+   ],
+   39,
+   18
+  ],
+  "testi": [
+   "Prova a pescare dal molo! Ti presto il mio AMO VECCHIO.",
+   "Hai ottenuto: AMO VECCHIO!",
+   "AAAAAAA mette AMO VECCHIO nella tasca STRUM. BASE.",
+   "AAAAAAA mette AMO VECCHIO nella tasca STRUM. BASE."
+  ],
+  "dopo": true,
+  "flag": 1,
+  "seconda_volta": [
+   "Prova a pescare dal molo! Ti presto il mio AMO VECCHIO.",
+   "Prova a pescare dal molo! Ti presto il mio AMO VECCHIO."
+  ]
+ },
+ "bici_cross": {
+  "prima": false,
+  "arrivato": true,
+  "pos": [
+   [
+    34,
+    42
+   ],
+   12,
+   9
+  ],
+  "testi": [
+   "Ti piacciono i salti? Oltre alla BICI DA CORSA esiste la BICI CROSS: salta i binari e le rocce strette. Te la regalo: scegli tu quale usare.",
+   "Hai ottenuto: BICI CROSS!",
+   "AAAAAAA mette BICI CROSS nella tasca STRUM. BASE.",
+   "Con la BICI CROSS tieni premuto B per saltare. Le aree a nord del SAFARI ti aspettano!",
+   "Con la BICI CROSS tieni premuto B per saltare. Le aree a nord del SAFARI ti aspettano!"
+  ],
+  "dopo": true,
+  "flag": 1,
+  "seconda_volta": [
+   "Con la BICI CROSS tieni premuto B per saltare. Le aree a nord del SAFARI ti aspettano!",
+   "Con la BICI CROSS tieni premuto B per saltare. Le aree a nord del SAFARI ti aspettano!"
+  ]
+ },
+ "ricarica_cesenatico": {
+  "pos": [
+   [
+    34,
+    42
+   ],
+   12,
+   9
+  ],
+  "strumenti": {
+   "amo_vecchio": true,
+   "bici_cross": true
+  },
+  "flag": {
+   "amo_vecchio": 1,
+   "bici_cross": 1
+  }
+ },
+ "rientro_amo_vecchio": {
+  "uscito": true,
+  "fuori": [
+   34,
+   42
+  ],
+  "tornato": true,
+  "testi": [
+   "Prova a pescare dal molo! Ti presto il mio AMO VECCHIO.",
+   "Prova a pescare dal molo! Ti presto il mio AMO VECCHIO."
+  ],
+  "nuovo_dono": false,
+  "in_borsa": true
+ },
+ "rientro_bici_cross": {
+  "uscito": true,
+  "fuori": [
+   34,
+   22
+  ],
+  "tornato": true,
+  "testi": [
+   "Con la BICI CROSS tieni premuto B per saltare. Le aree a nord del SAFARI ti aspettano!",
+   "Con la BICI CROSS tieni premuto B per saltare. Le aree a nord del SAFARI ti aspettano!"
+  ],
+  "nuovo_dono": false,
+  "in_borsa": true
+ },
+ "amo_buono": {
+  "prima": false,
+  "arrivato": true,
+  "pos": [
+   [
+    34,
+    44
+   ],
+   10,
+   21
+  ],
+  "testi": [
+   "MEDAGLIE",
+   "Nel porto canale abboccano pesci che non vedi in mare aperto. Prova con questo!",
+   "Hai ottenuto: AMO BUONO!",
+   "AAAAAAA mette AMO BUONO nella tasca STRUM. BASE.",
+   "Con l'AMO BUONO peschi POKéMON più forti. Prova nel canale e in mare.",
+   "Con l'AMO BUONO peschi POKéMON più forti. Prova nel canale e in mare."
+  ],
+  "dopo": true,
+  "seconda_volta": [
+   "Con l'AMO BUONO peschi POKéMON più forti. Prova nel canale e in mare.",
+   "Con l'AMO BUONO peschi POKéMON più forti. Prova nel canale e in mare."
+  ]
+ },
+ "ricarica_rimini": {
+  "pos": [
+   [
+    34,
+    44
+   ],
+   10,
+   21
+  ],
+  "strumenti": {
+   "amo_buono": true
+  },
+  "flag": {}
+ },
+ "rientro_amo_buono": {
+  "uscito": true,
+  "fuori": [
+   34,
+   45
+  ],
+  "tornato": true,
+  "testi": [
+   "Con l'AMO BUONO peschi POKéMON più forti. Prova nel canale e in mare.",
+   "Con l'AMO BUONO peschi POKéMON più forti. Prova nel canale e in mare."
+  ],
+  "nuovo_dono": false,
+  "in_borsa": true
+ },
+ "super_amo": {
+  "prima": false,
+  "arrivato": true,
+  "pos": [
+   [
+    34,
+    96
+   ],
+   63,
+   46
+  ],
+  "testi": [
+   "MEDAGLIE",
+   "Hai la quinta medaglia? Allora sei pronto per i pesci grossi del ravennate.",
+   "Hai ottenuto: SUPER AMO!",
+   "AAAAAAA mette SUPER AMO nella tasca STRUM. BASE.",
+   "Col SUPER AMO abboccano i POKéMON più rari. Anche nei canali e nei laghi!",
+   "Col SUPER AMO abboccano i POKéMON più rari. Anche nei canali e nei laghi!"
+  ],
+  "dopo": true,
+  "flag": 1,
+  "seconda_volta": [
+   "Col SUPER AMO abboccano i POKéMON più rari. Anche nei canali e nei laghi!",
+   "Col SUPER AMO abboccano i POKéMON più rari. Anche nei canali e nei laghi!"
+  ]
+ },
+ "ricarica_ravenna": {
+  "pos": [
+   [
+    34,
+    96
+   ],
+   63,
+   46
+  ],
+  "strumenti": {
+   "super_amo": true
+  },
+  "flag": {
+   "super_amo": 1
+  }
+ },
+ "rientro_super_amo": {
+  "uscito": true,
+  "fuori": [
+   34,
+   108
+  ],
+  "tornato": true,
+  "testi": [
+   "Col SUPER AMO abboccano i POKéMON più rari. Anche nei canali e nei laghi!",
+   "Col SUPER AMO abboccano i POKéMON più rari. Anche nei canali e nei laghi!"
+  ],
+  "nuovo_dono": false,
+  "in_borsa": true
+ },
+ "cascata": {
+  "prima": false,
+  "arrivato": true,
+  "pos": [
+   [
+    26,
+    3
+   ],
+   30,
+   34
+  ],
+  "testi": [
+   "MEDAGLIE",
+   "Hai otto medaglie! Nell'area Sud-est c'è una cascata che nessuno risale da anni. Prendi questa MN: con CASCATA potrai risalirla.",
+   "Hai ottenuto: MN07!",
+   "AAAAAAA mette MN07 nella tasca MT E MN.",
+   "CASCATA si usa fuori dalla lotta davanti a una cascata. Serve l'ottava medaglia.",
+   "CASCATA si usa fuori dalla lotta davanti a una cascata. Serve l'ottava medaglia."
+  ],
+  "dopo": true,
+  "flag": 1,
+  "seconda_volta": [
+   "Benvenuto al SAFARI RAVENNA! Qui giri quanto vuoi, senza biglietto. Usa le tue Poké Ball: niente Safari Ball, niente passi contati. Dicono che tre Pokémon leggendari vivano nelle zone più lontane...",
+   "Benvenuto al SAFARI RAVENNA! Qui giri quanto vuoi, senza biglietto. Usa le tue Poké Ball: niente Safari Ball, niente passi contati. Dicono che tre Pokémon leggendari vivano nelle zone più lontane..."
+  ]
+ },
+ "ricarica_safari8": {
+  "pos": [
+   [
+    26,
+    3
+   ],
+   30,
+   34
+  ],
+  "strumenti": {
+   "cascata": true
+  },
+  "flag": {
+   "cascata": 1
+  }
+ },
+ "rientro_cascata": {
+  "uscito": true,
+  "fuori": [
+   34,
+   94
+  ],
+  "tornato": true,
+  "testi": [
+   "Benvenuto al SAFARI RAVENNA! Qui giri quanto vuoi, senza biglietto. Usa le tue Poké Ball: niente Safari Ball, niente passi contati. Dicono che tre Pokémon leggendari vivano nelle zone più lontane...",
+   "Benvenuto al SAFARI RAVENNA! Qui giri quanto vuoi, senza biglietto. Usa le tue Poké Ball: niente Safari Ball, niente passi contati. Dicono che tre Pokémon leggendari vivano nelle zone più lontane..."
+  ],
+  "nuovo_dono": false,
+  "in_borsa": true
+ },
+ "sub": {
+  "prima": false,
+  "arrivato": true,
+  "pos": [
+   [
+    35,
+    26
+   ],
+   11,
+   26
+  ],
+  "testi": [
+   "MEDAGLIE",
+   "Hai l'ottava medaglia! Allora sei pronto per il mare aperto.",
+   "Hai ottenuto: MN08!",
+   "AAAAAAA mette MN08 nella tasca MT E MN.",
+   "Con SUB ti immergi nelle acque scure del mare aperto. Al largo di RIMINI ci sono i resti dell'ISOLA DELLE ROSE. I pescatori dicono che laggiù dorme un POKéMON enorme.",
+   "Con SUB ti immergi nelle acque scure del mare aperto. Al largo di RIMINI ci sono i resti dell'ISOLA DELLE ROSE. I pescatori dicono che laggiù dorme un POKéMON enorme."
+  ],
+  "dopo": true,
+  "flag": 1,
+  "seconda_volta": [
+   "Con SUB ti immergi nelle acque scure del mare aperto. Al largo di RIMINI ci sono i resti dell'ISOLA DELLE ROSE. I pescatori dicono che laggiù dorme un POKéMON enorme.",
+   "Con SUB ti immergi nelle acque scure del mare aperto. Al largo di RIMINI ci sono i resti dell'ISOLA DELLE ROSE. I pescatori dicono che laggiù dorme un POKéMON enorme."
+  ]
+ },
+ "ricarica_bagno8": {
+  "pos": [
+   [
+    35,
+    26
+   ],
+   11,
+   26
+  ],
+  "strumenti": {
+   "sub": true
+  },
+  "flag": {
+   "sub": 1
+  }
+ },
+ "rientro_sub": {
+  "uscito": true,
+  "fuori": [
+   35,
+   19
+  ],
+  "tornato": true,
+  "testi": [
+   "Con SUB ti immergi nelle acque scure del mare aperto. Al largo di RIMINI ci sono i resti dell'ISOLA DELLE ROSE. I pescatori dicono che laggiù dorme un POKéMON enorme.",
+   "Con SUB ti immergi nelle acque scure del mare aperto. Al largo di RIMINI ci sono i resti dell'ISOLA DELLE ROSE. I pescatori dicono che laggiù dorme un POKéMON enorme."
+  ],
+  "nuovo_dono": false,
+  "in_borsa": true
+ },
+ "flash": {
+  "prima": false,
+  "arrivato": true,
+  "pos": [
+   [
+    24,
+    7
+   ],
+   37,
+   9
+  ],
+  "testi": [
+   "Ehi, tu! Più avanti la grotta è buia come la notte. Tieni questa MN: con FLASH non ti perderai nel buio.",
+   "Hai ottenuto: MN05!",
+   "AAAAAAA mette MN05 nella tasca MT E MN.",
+   "Insegna FLASH a un POKéMON e usala fuori dalla lotta. Illuminerà anche le grotte più scure della ROMAGNA.",
+   "Insegna FLASH a un POKéMON e usala fuori dalla lotta. Illuminerà anche le grotte più scure della ROMAGNA."
+  ],
+  "dopo": true,
+  "flag": 1,
+  "seconda_volta": [
+   "Insegna FLASH a un POKéMON e usala fuori dalla lotta. Illuminerà anche le grotte più scure della ROMAGNA.",
+   "Insegna FLASH a un POKéMON e usala fuori dalla lotta. Illuminerà anche le grotte più scure della ROMAGNA."
+  ]
+ },
+ "ricarica_appennino": {
+  "pos": [
+   [
+    24,
+    7
+   ],
+   37,
+   9
+  ],
+  "strumenti": {
+   "flash": true
+  },
+  "flag": {
+   "flash": 1
+  }
+ },
+ "rientro_flash": {
+  "uscito": true,
+  "fuori": [
+   0,
+   21
+  ],
+  "tornato": true,
+  "testi": [
+   "Insegna FLASH a un POKéMON e usala fuori dalla lotta. Illuminerà anche le grotte più scure della ROMAGNA.",
+   "Insegna FLASH a un POKéMON e usala fuori dalla lotta. Illuminerà anche le grotte più scure della ROMAGNA."
+  ],
+  "nuovo_dono": false,
+  "in_borsa": true
+ }
+}

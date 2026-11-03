@@ -60,6 +60,7 @@ def apri(state, fix):
         for f in fix: f(g)
         leg.salva(g); g.e.close(); shutil.copy(g.sav, sav)
     g = leg.ricarica(shutil.copy(sav, os.path.join(PLAY, 'leg_tmp.sav')))
+    log('PROVA', PARTE, 'VBA-M' if os.environ.get('VBAM') else 'mGBA', os.path.basename(ROM))
     log('  dal titolo:', vai.stato(g), 'medaglie', [pl.flag(g.e, f) for f in range(0x867, 0x86f)], 'flag 0x22', pl.flag(g.e, APERTO))
     return g
 
@@ -137,8 +138,14 @@ def dopo():
     tappa(g, es, 'torna_galleria', K, 25, 13, {'taglio'}, accanto=False)
     tappa(g, es, 'riva_fiume', K, 43, 18, {'taglio'}, accanto=False)
     leg.salva(g); g.e.close(); g = leg.ricarica(g.sav)
-    es['ricarica'] = dict(pos=vai.stato(g)[:3], flag_22=pl.flag(g.e, APERTO), var_nuova=g.var(NUOVA), roccia=roccia(g))
+    es['ricarica'] = dict(pos=vai.stato(g)[:3], flag_22=pl.flag(g.e, APERTO), var_nuova=g.var(NUOVA),
+                          flag_allenatori={n: pl.flag(g.e, 0x500 + v[3]) for n, v in NUOVI.items()})
     g.e.run(120); es['ricarica_dopo_2s'] = vai.stato(g)[:3]
+    tappa(g, es, 'dopo_ricarica_galleria', K, 25, 13, {'taglio'}, accanto=False)   # roccia: qui e' in vista
+    x, y, gfx, tid = NUOVI['NICO']
+    vai.vai(g, K, x, y, {'taglio'})
+    vis, lotta = leg.parla(g, dict(xy=(x, y), gfx=gfx)); leg.chiudi_testi(g, 10)
+    es['NICO_dopo_ricarica'] = dict(testi=vis, lotta=lotta, flag=pl.flag(g.e, 0x500 + tid))
     tappa(g, es, 'cesena', (34, 17), 6, 43, {'taglio'})
     g.shot('t64_dopo'); g.close(); return es
 
@@ -152,6 +159,7 @@ def crea63():
 
 
 def vecchio(savname):
+    log('PROVA', PARTE, 'VBA-M' if os.environ.get('VBAM') else 'mGBA', os.path.basename(ROM), savname)
     g = leg.ricarica(shutil.copy(os.path.join(PLAY, savname), os.path.join(PLAY, 'leg_tmp.sav')))
     es = dict(titolo=vai.stato(g)[:3], var_nuova=g.var(NUOVA))
     g.e.run(240); leg.chiudi_testi(g, 5)

@@ -1,0 +1,2 @@
+righe di disegno: modulo 60, bozza 60, diverse 0
+blocchi di 35.101 nella ROM uguali al disegno: 0 diversi su 2560

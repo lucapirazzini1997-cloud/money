@@ -101,7 +101,7 @@ def disegna(d):
         met(x, 23, PONTE_A, S119); met(x, 24, PONTE_B, S119)
     met(44, 25, RIVA_S); met(49, 25, RIVA_D)
     for x in range(45, 49): met(x, 25, ACQUA)
-    # cartelli: MONTE SPACCATO (8,9, gia' nel pezzo del 116), CAMPAGNA CESENATE accanto alla casa (52,22, gia' nel 117)
+    # cartelli: MONTE SPACCATO (8,9, gia' nel pezzo del 116), CAMPAGNA CESENATE accanto alla casa (53,22, gia' nel 117)
     met(42, 22, 0x403)                                              # cartello del ponte
 
 
@@ -114,7 +114,7 @@ VECCHI = {0xc6: (16, 17, 36, None, False),          # ILARIO: com'era (classe 5,
           0xc8: (34, 15, 31, 216, False)}           # PIERO: come ETHAN (ragazzo di campagna)
 NUOVI = [  # numero, x, y, gfx, riferimento, nome, squadra [(specie, livello)], presentazione, sconfitta, dopo
     (462, 27, 16, 7, 273, 'NICO', [(20, 25), (17, 26)],
-     "Ehi! Questa strada è mia,\nci gioco da quando ero piccolo!",
+     "Ehi! Questa strada è mia,\nci gioco da quando sono nato!",
      "Uffa! Hai vinto tu.",
      "La galleria del MONTE SPACCATO\nporta a CAPOCOLLE."),
     (485, 43, 13, 49, 496, 'TONINO', [(61, 26), (118, 26)],
@@ -223,7 +223,7 @@ def apply(W):
 
     # ---- 6. testi che parlavano di Monte Spaccato
     ripunta(W, 0x1599d0a, "CASELLANTE: A est c'è CESENA.\nA ovest l'IPPODROMO DEL SAVIO\n\n"
-                          "e poi la CAMPAGNA CESENATE,\nverso CAPOCOLLE e FORLIMPOPOLI.")
+                          "e poi la CAMPAGNA CESENATE,\nverso CAPOCOLLE, FORLIMPOPOLI.")
     ripunta(W, 0x2d2672, "Con la terza medaglia puoi\nusare SPACCAROCCIA all'aperto.\n\n"
                          "Oltre l'IPPODROMO di CESENA,\nuna roccia chiude la galleria\n\n"
                          "del MONTE SPACCATO. VOLO\nti aiuterà a tornare.")

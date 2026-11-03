@@ -1,0 +1,13 @@
+== 1. build completa
+== 2. BPS rom/Pokemon_Romagna_0_63_to_0_64.bps
+  ok 6363 byte, riapplicata
+== 3. zip senza out/ e ricostruzione in cartella pulita
+  ok: zip 31M, la cartella pulita rifà lo stesso SHA
+== 4. regressione contro la 063
+| mGBA t59_suicune | si | si | si | uguale |
+| mGBA salvataggio | si | si | si | uguale |
+| VBA-M salvataggio | si | si | si | uguale |
+
+REGRESSIONE: ok
+  tabella: /tmp/claude-0/-home-user-money/d75d548a-a7d4-55dc-8e3f-f28f68942021/scratchpad/consegna064/regressione (copiala in collaudo/risultati/064/ se va tenuta)
+fatto. Da inviare: /tmp/claude-0/-home-user-money/d75d548a-a7d4-55dc-8e3f-f28f68942021/scratchpad/consegna064/Pokemon_Romagna_0_64.gba /home/user/money/rom/Pokemon_Romagna_0_63_to_0_64.bps /tmp/claude-0/-home-user-money/d75d548a-a7d4-55dc-8e3f-f28f68942021/scratchpad/consegna064/Pokemon_Romagna_0_64_progetto.zip /home/user/money/relazioni/RELAZIONE_0_64.md

@@ -3,7 +3,7 @@
 **Base:** 0.63, SHA-256 `d1fee9f903b1fb6dbc0b9568697b469080f3d356dedc63a9bbf9326b0c876187`.
 
 **Risultato:** `Pokemon_Romagna_0_64.gba`, SHA-256 `82ac35d2135894815f412ca51666f31f900e5ab778b1d8838c46bb1bbda27f70`.
-- Patch BPS 0.63→0.64: `rom/Pokemon_Romagna_0_63_to_0_64.bps` (BYTES byte), verificata riapplicandola (`consegna.sh`, log in `collaudo/risultati/064/consegna.txt`).
+- Patch BPS 0.63→0.64: `rom/Pokemon_Romagna_0_63_to_0_64.bps` (6363 byte), verificata riapplicandola (`consegna.sh`, log in `collaudo/risultati/064/consegna.txt`).
 - Modulo: `versioni/v064_campagna_cesenate.py`. La build da zero rifà tutti gli SHA; lo zip senza `out/` ricostruito in una cartella pulita rifà lo stesso SHA (stesso log).
 - Lo SHA è in `build.py` dopo il collaudo (§5).
 - **Salvataggi compatibili:** stessa mappa (35.101), stesse dimensioni, stesso layout; una variabile nuova (a 0 nei vecchi salvataggi). Un salvataggio vero della 0.63 e uno della 0.62 fatti dentro la mappa vecchia caricano nella 0.64 e proseguono, tutti e due in mGBA e in VBA-M (§5).
@@ -132,7 +132,7 @@ In chat, dopo la 0.63 (regola nuova: ogni mappa ridisegnata si mostra finita e s
 
 ### Regressione (`collaudo/regressione.py`, 0.64 contro 0.63)
 
-REGRESSIONE_QUI
+Tutte le 17 partenze in mGBA e il salvataggio vero in mGBA e VBA-M girano e sono **uguali** alla 0.63 (`collaudo/risultati/064/regressione.md`, 19 righe "uguale"). Nessuna partenza è nella Campagna Cesenate, quindi la regressione non tocca la mappa cambiata: le prove sono quelle sopra.
 
 ### Cosa non è verificato
 - Il riquadro con il nome del luogo che compare entrando non è stato letto sullo schermo: il nome è letto dalla ROM.

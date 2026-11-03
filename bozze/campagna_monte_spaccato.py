@@ -12,10 +12,10 @@ from PIL import ImageDraw
 d = open(sys.argv[1], 'rb').read()
 def lay(lid): return struct.unpack_from('<I', d, 0x627fc0 + (lid - 1) * 4)[0] - 0x8000000
 L116, L117, L119 = lay(32), lay(33), lay(35)
-_, S117 = tela.Tela.layout(d, L117); _, S119 = tela.Tela.layout(d, L119)
+_, S117 = tela.Tela.layout(d, L117); _, S119 = tela.Tela.layout(d, L119); _, S116 = tela.Tela.layout(d, L116)
 W, H = 64, 40
 G, ALTA = 0x3001, 0x300d                                        # erba, erba alta (primario, quota 3)
-RIVA_S, ACQUA, RIVA_D = 0x10b8, 0x10a1, 0x10ba                  # fiume (primario, quota 1)
+RIVA_S, ACQUA, RIVA_D = 0x1190, 0x1170, 0x1192                  # fiume (primario, quota 1, come il lago del 114)
 PONTE_A, PONTE_B = 0xf210, 0xf218                               # assi del ponte (Percorso 119, quota libera)
 T = tela.Tela(d, W, H, S117, G)
 def met(x, y, v, src=S117): T.metti(x, y, src, v)
@@ -33,10 +33,16 @@ def erba_alta(x, y, w, h): T.riempi(x, y, w, h, S117, ALTA)
 blocco(L116, 41, 0, 33, 13, 1, 0)
 for (x, y) in ((7, 7), (7, 8), (16, 6), (30, 4), (31, 4)):      # via la seconda grotta e le buche
     T.c[y][x] = T.c[y][x - 1]
+# --- il monte prosegue verso est (stesso Percorso 116, stesso scarto di colonne): niente taglio netto
+blocco(L116, 74, 0, 26, 11, 34, 0)
+for x in range(39, 62): met(x, 11, 0x079, S116)                  # piede del monte
+for y in range(0, 12): met(60, y, 0x072, S116); met(61, y, 0x0a2, S116)
+for y in range(0, 12):
+    for x in range(34, 61):
+        if (T.c[y][x][1] & 1023) in (0x0e1, 0x1b0, 0x0af): T.c[y][x] = (S116, 0x071)   # via buche e massi
 # --- bosco ai bordi
 bosco(0, 0, 2, 40, cima=False, base=False); bosco(62, 0, 2, 40, cima=False, base=False)
-bosco(34, 0, 28, 6, cima=False); bosco(0, 36, 64, 4, base=False)
-bosco(34, 6, 2, 8, cima=False)                                  # copre il bordo del monte
+bosco(0, 36, 64, 4, base=False)
 # --- campagna ovest: frutteto, erba alta, macero, vigneto
 blocco(L117, 7, 3, 9, 5, 3, 14)
 erba_alta(13, 14, 9, 7)
@@ -50,12 +56,14 @@ for x in (29, 33, 37, 41): bosco(x, 20, 2, 2)
 blocco(L117, 7, 3, 9, 5, 27, 28); blocco(L117, 7, 3, 9, 5, 34, 28)
 erba_alta(27, 33, 16, 3)
 # --- il fiume (da nord a sud) e il ponte della Via Emilia
-for y in range(6, 36):
+for y in range(12, 40):                                         # fino al bordo sud, sotto il bosco
     met(44, y, RIVA_S); met(49, y, RIVA_D)
     for x in range(45, 49): met(x, y, ACQUA)
+for y in range(0, 11):                                          # la sorgente: cascata giu' dal monte
+    for x in range(45, 49): met(x, y, 0x10b9)
+for x, v in zip(range(45, 49), (0x102c, 0x1034, 0x1034, 0x103c)): met(x, 11, v)
 # --- campagna est: campo, erba alta
-blocco(L117, 8, 13, 10, 5, 51, 7)
-erba_alta(51, 13, 9, 4)
+blocco(L117, 8, 13, 10, 5, 51, 12)
 erba_alta(51, 27, 10, 9)
 # --- casa a est: ingresso dall'IPPODROMO (porta a 55,22)
 blocco(L117, 49, 1, 6, 5, 53, 18)
@@ -87,4 +95,5 @@ OGGETTI = [
     (55, 30, 33),                                               # uomo col cappello, nell'erba alta a est
 ]
 sprite.disegna(d, im, OGGETTI, 2)
+sprite.numeri(im, [(x, y, str(k)) for k, (x, y, _) in enumerate(OGGETTI)], 2)
 im.save(sys.argv[2]); print(im.size)

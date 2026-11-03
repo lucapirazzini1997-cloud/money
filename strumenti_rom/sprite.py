@@ -70,3 +70,14 @@ def disegna(d, im, oggetti, scala=1):
         t = 16 * scala
         im.paste(s, (x * t + (t - s.width) // 2, y * t + t - s.height), s)
     return im
+
+
+def numeri(im, etichette, scala=1):
+    """Numeri di riferimento accanto agli oggetti delle bozze: etichette = [(x, y, testo)]."""
+    from PIL import ImageDraw
+    dr = ImageDraw.Draw(im); t = 16 * scala
+    for x, y, testo in etichette:
+        px, py = x * t + t, y * t - t // 2
+        dr.rectangle([px - 1, py - 1, px + 7 * len(testo) + 3, py + 12], fill=(20, 20, 20))
+        dr.text((px + 1, py), testo, fill=(255, 230, 0))
+    return im

@@ -1,0 +1,249 @@
+{
+ "medaglie": [
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ippodromo": {
+  "ok": true,
+  "pos": [
+   [
+    34,
+    19
+   ],
+   18,
+   30
+  ],
+  "rocce": null,
+  "flag_11_13": [
+   0,
+   0,
+   0
+  ]
+ },
+ "percorso_ippodromo": [
+  34,
+  19
+ ],
+ "monte_spaccato": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    101
+   ],
+   57,
+   21
+  ],
+  "rocce": [],
+  "flag_11_13": [
+   0,
+   0,
+   0
+  ]
+ },
+ "davanti_rocce": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    101
+   ],
+   15,
+   17
+  ],
+  "rocce": [
+   [
+    14,
+    16
+   ],
+   [
+    14,
+    17
+   ],
+   [
+    14,
+    18
+   ]
+  ],
+  "flag_11_13": [
+   0,
+   0,
+   0
+  ]
+ },
+ "roccia_testi": [
+  "Serve SPACCAROCCIA e la terza medaglia per rompere la roccia."
+ ],
+ "contro_roccia": {
+  "prima": [
+   [
+    35,
+    101
+   ],
+   15,
+   17
+  ],
+  "dopo": [
+   [
+    35,
+    101
+   ],
+   15,
+   17
+  ]
+ },
+ "rocce_dopo": [
+  [
+   14,
+   16
+  ],
+  [
+   14,
+   17
+  ],
+  [
+   14,
+   18
+  ]
+ ],
+ "corridoio_nord": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    101
+   ],
+   13,
+   3
+  ],
+  "rocce": [],
+  "flag_11_13": [
+   0,
+   0,
+   0
+  ]
+ },
+ "contro_alberi_nord": {
+  "prima": [
+   [
+    35,
+    101
+   ],
+   13,
+   3
+  ],
+  "dopo": [
+   [
+    35,
+    101
+   ],
+   13,
+   3
+  ]
+ },
+ "corridoio_sud": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    101
+   ],
+   13,
+   36
+  ],
+  "rocce": [],
+  "flag_11_13": [
+   0,
+   0,
+   0
+  ]
+ },
+ "contro_alberi_sud": {
+  "prima": [
+   [
+    35,
+    101
+   ],
+   13,
+   36
+  ],
+  "dopo": [
+   [
+    35,
+    101
+   ],
+   13,
+   36
+  ]
+ },
+ "verso_35_92": false,
+ "ritorno_ippodromo": {
+  "ok": true,
+  "pos": [
+   [
+    34,
+    19
+   ],
+   7,
+   17
+  ],
+  "rocce": null,
+  "flag_11_13": [
+   0,
+   0,
+   0
+  ]
+ },
+ "ritorno_cesena": {
+  "ok": true,
+  "pos": [
+   [
+    34,
+    17
+   ],
+   5,
+   43
+  ],
+  "rocce": null,
+  "flag_11_13": [
+   0,
+   0,
+   0
+  ]
+ },
+ "ricarica": {
+  "pos": [
+   [
+    34,
+    17
+   ],
+   5,
+   43
+  ],
+  "flag_22": 0,
+  "medaglia3": 0
+ },
+ "di_nuovo_ippodromo": {
+  "ok": true,
+  "pos": [
+   [
+    34,
+    19
+   ],
+   18,
+   30
+  ],
+  "rocce": null,
+  "flag_11_13": [
+   0,
+   0,
+   0
+  ]
+ }
+}

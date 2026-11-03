@@ -105,7 +105,8 @@
  },
  "0x11": {
   "imposta": [
-   "0.45 script mappa 3"
+   "0.45 script mappa 3",
+   "35.101 script mappa 3"
   ],
   "oggetto": [
    "0.19 oggetto 30",
@@ -133,12 +134,14 @@
    "24.97 oggetto 3",
    "26.1 oggetto 3",
    "26.12 oggetto 6",
-   "29.6 oggetto 5"
+   "29.6 oggetto 5",
+   "35.101 oggetto 4"
   ]
  },
  "0x12": {
   "imposta": [
-   "0.45 script mappa 3"
+   "0.45 script mappa 3",
+   "35.101 script mappa 3"
   ],
   "oggetto": [
    "0.18 oggetto 14",
@@ -164,12 +167,14 @@
    "29.3 oggetto 5",
    "29.6 oggetto 6",
    "34.20 oggetto 2",
-   "34.39 oggetto 1"
+   "34.39 oggetto 1",
+   "35.101 oggetto 5"
   ]
  },
  "0x13": {
   "imposta": [
-   "0.45 script mappa 3"
+   "0.45 script mappa 3",
+   "35.101 script mappa 3"
   ],
   "oggetto": [
    "0.18 oggetto 15",
@@ -191,7 +196,8 @@
    "29.3 oggetto 4",
    "29.6 oggetto 7",
    "34.20 oggetto 3",
-   "34.39 oggetto 2"
+   "34.39 oggetto 2",
+   "35.101 oggetto 6"
   ]
  },
  "0x14": {
@@ -387,6 +393,14 @@
  "0x21": {
   "controlla": [
    "1.4 oggetto 1"
+  ]
+ },
+ "0x22": {
+  "imposta": [
+   "35.92 script mappa 3"
+  ],
+  "controlla": [
+   "35.101 script mappa 3"
   ]
  },
  "0x23": {
@@ -19130,16 +19144,25 @@
   ]
  },
  "0x720": {
+  "imposta": [
+   "34.19 script mappa 3"
+  ],
   "oggetto": [
    "34.19 oggetto 5"
   ]
  },
  "0x724": {
+  "imposta": [
+   "34.19 script mappa 3"
+  ],
   "oggetto": [
    "34.19 oggetto 6"
   ]
  },
  "0x725": {
+  "imposta": [
+   "34.19 script mappa 3"
+  ],
   "oggetto": [
    "34.19 oggetto 7"
   ]
@@ -22513,6 +22536,9 @@
    "35.1 script mappa 5",
    "35.10 cartello 26,6",
    "35.10 script mappa 5",
+   "35.101 oggetto 4",
+   "35.101 oggetto 5",
+   "35.101 oggetto 6",
    "35.11 script mappa 5",
    "35.12 script mappa 5",
    "35.13 script mappa 5",
@@ -22569,10 +22595,6 @@
    "35.7 script mappa 5",
    "35.8 script mappa 5",
    "35.9 script mappa 5",
-   "35.91 coord 3,2",
-   "35.91 coord 3,3",
-   "35.91 coord 3,4",
-   "35.91 coord 3,5",
    "4.0 script mappa 5",
    "4.1 script mappa 5",
    "4.2 script mappa 5",

@@ -1,6 +1,6 @@
 # Pokémon Romagna — documento di progetto
 
-Stato alla **0.62** (SHA-256 `b8ebd091…9080`, collaudata). Lotto 2 chiuso (0.59–0.61). Lotto 3 in corso: 0.62 MN e strumenti chiave (tutti si ottengono; testi di FLASH e SUB corretti). Prossime: 0.63 Cesena ovest/Ippodromo, 0.64 nuovo Fumaiolo (bozza approvata), 0.65 treno regionale con scena, 0.66 collegamenti e ostacoli, 0.67 barriere.
+Stato alla **0.63** (SHA-256 `d1fee9f9…6187`, collaudata). Lotto 2 chiuso (0.59–0.61). Lotto 3 in corso: 0.62 MN e strumenti chiave (tutti si ottengono; testi di FLASH e SUB corretti); 0.63 Cesena ovest (Ippodromo sul percorso dalla prima visita, rocce di SPACCAROCCIA a Monte Spaccato al posto del controllo del casello). Prossime: 0.64 nuovo Fumaiolo (bozza approvata), 0.65 treno regionale con scena, 0.66 collegamenti e ostacoli, 0.67 barriere.
 Questo è il documento di riferimento: trama, mappe, eventi, indirizzi tecnici e regole di lavoro. La storia delle versioni è in `STORIA_VERSIONI.md`, le prove in emulatore in `COLLAUDO.md`.
 
 ## 1. Come è fatto il progetto
@@ -30,7 +30,7 @@ Ogni tappa controlla lo SHA-256 atteso e si ferma se non coincide.
 |---|---|---|---|---|
 | 1 | `basi/rom047.gba` + `basi/base31.gba` | `storico_054/build54.py` (rifà 0.48 → 0.54 in sequenza) | 0.54 | `a0653255…2906` |
 | 2 | 0.54 | `pezzo_055/patch_054_055.bps` | 0.55 | `2bfaa8a3…4ad6` |
-| 3 | 0.55 | `versioni/v056_cesena_rivale.py`, `v057_spazio.py`, `v058_registri.py`, `v059_cani.py`, `v060_kyogre_uccelli.py`, `v061_regi_mitici.py`, `v062_strumenti.py` | 0.56–0.62 | `b09eb697…495f`, `47f53668…97c4`, `47f53668…97c4`, `aee694c2…ec1d`, `d9ca40b3…183a`, `f3e78025…3cbe`, `b8ebd091…9080` |
+| 3 | 0.55 | `versioni/v056_cesena_rivale.py`, `v057_spazio.py`, `v058_registri.py`, `v059_cani.py`, `v060_kyogre_uccelli.py`, `v061_regi_mitici.py`, `v062_strumenti.py`, `v063_cesena_ovest.py` | 0.56–0.63 | `b09eb697…495f`, `47f53668…97c4`, `47f53668…97c4`, `aee694c2…ec1d`, `d9ca40b3…183a`, `f3e78025…3cbe`, `b8ebd091…9080`, `d1fee9f9…6187` |
 | 4 | ultima | `registri/genera.py` (modo rigoroso) | registri | — |
 | 5 | ultima | `registri/controlli.py` (allenatori, raggiungibilità, risorse, budget) | registri, `out/rapporto_build.json` | — |
 
@@ -74,7 +74,7 @@ La trama attuale è approvata. Non va cambiata senza chiedere, salvo le richiest
 | 3 | Cesena (34.17) | 2ª medaglia **VIOLA** (Erba). Missioni della 0.56: pennelli e Smeargle, tre codici e MT17, rosone e Pietralunare. Hitmon in dono (34.25). | Est: Costa Adriatica → Cesenatico |
 | 4 | Cesenatico (34.22) | Grattacielo. | Riviera Romagnola (34.43) con ALDO, serve la 2ª medaglia → Rimini |
 | 5 | Rimini (34.44, 34.47) | Le Befane (34.54–34.59) con Ing. Neri e i tre tecnici; MN SPACCAROCCIA; 3ª medaglia **AURELIO**. Starter di Johto in dono (34.48). | Ritorno a Cesena |
-| 6 | Cesena ovest | Ippodromo; casello ovest (35.91), oggi controlla la 3ª medaglia (0x869). | Monte Spaccato (35.101) → Capocolle (35.60, Babbi) → Forlimpopoli (35.61, MOSSOMETRO) → Via Emilia Ovest |
+| 6 | Cesena ovest | Casello ovest (35.91, nessun controllo dalla 0.63) → Ippodromo del Savio (34.19, dal cancello sud; visitabile dalla prima visita a Cesena) → cancello ovest → Monte Spaccato (35.101). Nella tagliata tre rocce (14,16–18): servono SPACCAROCCIA (ADA, Rimini 34.48) e la 3ª medaglia. Entrando nel casello 35.92 si alza la flag 0x22 e le rocce non ricompaiono più. | Casello 35.92 → Capocolle (35.60, Babbi) → Forlimpopoli (35.61, MOSSOMETRO) → Via Emilia Ovest |
 | 7 | Forlì (34.68/34.84) | ALDO all'ingresso; 4ª medaglia **IVANO**; MN SURF. | Campagna col fiume (isolotti con 3 istruttori) |
 | 8 | Faenza (34.85) | Museo della ceramica; 5ª medaglia **ADA**. | Campagna Ravennate (35.102) → Ravenna |
 | 9 | Ravenna (34.94, 34.96) | Si arriva da Faenza o dal Lido (Pianura Romagnola 34.93). Arco del Team Emilia: flag **0x2ac** a missione conclusa. Mirabilandia (34.114) e Safari (gruppo 26). | Casello 35.98 (richiede 0x2ac) → Via dei Canali (35.70) → Campagne di Lugo (35.71) |
@@ -132,14 +132,14 @@ Tabella completa alla 0.61. **Regola del Lotto 2** (cani, Kyogre, uccelli, Regi,
 
 - **Conflitto latente (0.58):** 0x78A (rosone "pietralunare") è anche la flag di Danielle, allenatrice della palestra di Lavaridge di Smeraldo (4.1). Oggi la 4.1 non si raggiunge; se una versione la collega la build fallisce e Danielle va spostata su un numero libero. Le flag 0x792–0x794, 0x7AA–0x7AD e 0x7B0–0x7B3 sono di allenatori della tabella delle rivincite (servono il Pokénav, assente): rischio basso.
 
-## 4b. Risorse rimaste (budget della 0.62)
+## 4b. Risorse rimaste (budget della 0.63)
 
 - **Spazio nella ROM:** la ROM è a 32 MB, il massimo del GBA, e non si allarga.
-  - Restano 1240 KB nelle zone dell'engine (la 0.59 ha usato 1119 byte, la 0.60 2580, la 0.61 circa 4,7 KB, la 0.62 meno di 1 KB).
+  - Restano 1239 KB nelle zone dell'engine (la 0.59 ha usato 1119 byte, la 0.60 2580, la 0.61 circa 4,7 KB, la 0.62 e la 0.63 meno di 1 KB ciascuna).
   - Analisi e cose non recuperate: `relazioni/RELAZIONE_0_57.md` §3.
   - Il gruppo 0 **non** è un insieme di vecchie mappe libere: gran parte è usata dalla Romagna (0.9 Lido, 0.10 Cervia, 0.27 Mirabilandia, 0.28 Safari di Ravenna); i nomi delle zone sono riscritti, per questo 0.12 (Lavaridge) si chiama IMOLA.
   - Posti per mappe nuove: 34.10, 34.13, 34.18, 24.39–24.41, 24.50–24.51, 24.74–24.76.
-- **Flag:** 47 nel pool (41 sicure 0x20–0x4FF + 6 di allenatore). Il motivo di ogni flag esclusa è in `registri/risorse_libere.json`.
+- **Flag:** 46 nel pool (40 sicure 0x20–0x4FF + 6 di allenatore; la 0.63 ha preso 0x22). Il motivo di ogni flag esclusa è in `registri/risorse_libere.json`.
 - **Variabili:** 47 sicure (delle 90 "libere" di prima, 40 le usa il codice di Smeraldo: Repellente, giorni, lotteria…).
 - **Strumenti:** 67 numeri liberi (`registri/strumenti.json`).
 - **Allenatori:** 18 numeri liberi; 159 citati solo dal codice di Smeraldo (rivincite), da usare solo dopo un controllo.
@@ -179,3 +179,4 @@ Tabella completa alla 0.61. **Regola del Lotto 2** (cani, Kyogre, uccelli, Regi,
 13. **Gli alberi di bacche bloccano.** Tipo di movimento 12: `analisi/percorso.py` li conta come ostacoli dalla 0.61.
 14. **Numeri degli strumenti: controllarli in `registri/strumenti.json`.** Nella 0.62 avevo usato a memoria numeri sbagliati per gli ami (0x10F è CHIAVE SOTT., non SUPER AMO): gli ami sono 0x106 VECCHIO, 0x107 BUONO, 0x108 SUPER. Chi consegna cosa: `analisi/doni.py`; testi oltre le 2 righe: `analisi/righe.py`.
 15. **Strumenti chiave e MN (0.62):** CASCATA Safari Ravenna 26.3 (8ª medaglia), SUB Bagno di Romagna 35.26 (8ª), FLASH Grotta Granito 24.7 (dall'Appennino 0.21), BICI CROSS Cesenatico 34.42, AMO VECCHIO Cesenatico 34.22, AMO BUONO Rimini 34.44, SUPER AMO Ravenna 34.96 (5ª).
+16. **Oggetti nascosti da uno script di mappa (0.63).** Le rocce di Monte Spaccato hanno flag temporanee (0x11–0x13, azzerate a ogni cambio di mappa, come in Smeraldo); lo script d'ingresso (tipo 3) le alza se 0x22 è a 1. `analisi/percorso.py` non legge gli script di mappa: per pianificare si danno le flag come alzate (`--flag`, o `vai.FLAG_ALZATE` nel collaudo); quello che conta resta la prova a tasti.

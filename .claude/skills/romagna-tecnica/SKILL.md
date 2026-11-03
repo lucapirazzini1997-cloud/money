@@ -80,6 +80,8 @@ dir 6 = risalita (dalla mappa sott'acqua). In gioco: A sull'acqua profonda per i
   (stati `(mappa, x, y, z, surf)`; abilità surf, spacca, taglio, forza, cascata, corsa, cross, sub, flash).
 - `collaudo/vai.py`: `vai(g, mappa, x, y, ab)` naviga a tasti ripianificando dalla posizione vera
   (rocce, massi, surf, sub, uscite, lotte selvatiche con fuga). `stato(g)`, `ow(g)`, `guarda(g, x, y)`.
+  `vai.FLAG_ALZATE` (dalla 0.63): flag da dare per alzate al pianificatore quando uno script di mappa nasconde oggetti
+  (percorso.py non legge gli script di mappa). VBA-M non legge i savestate di mGBA: si riparte da un `.sav` fatto in mGBA.
 - `collaudo/leg.py`: `parla`, `presente`, `testo`, `chiudi_testi` (**solo B**: con A si riparla al leggendario),
   `menu_lotta`, `fuggi`, `ko`, `salva`, `ricarica(sav, rom)`, `specie_squadra`, `leggi`;
   fixture: `fixture` (5 MASTER BALL), `fixture_surf`, `fixture_mossa`, `fixture_flag`, `fixture_posizione`.

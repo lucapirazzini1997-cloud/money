@@ -29,6 +29,7 @@ CAMPO = {0x8085d9d, 0x8085d91}              # CB2 del campo (con o senza script/
 def ow(g): return g.cb2() in CAMPO
 
 
+FLAG_ALZATE = set()  # flag date per alzate al pianificatore (oggetti nascosti da script di mappa); dalla 0.63
 FUGA = True          # nelle lotte selvatiche lungo la strada si prova prima a fuggire
 
 
@@ -64,7 +65,7 @@ def vai(g, mappa, x, y, ab, accanto=True, max_ricalcoli=30, quota_fissa=None):
         k, px, py, z, surf = stato(g)
         if k == mappa and abs(px - x) + abs(py - y) <= (1 if accanto else 0): return True
         massi = [xy for xy, gf in g.lobjs_gfx() if gf == 87]
-        prec = PC.cerca(R, (k, (px, py)), ab, z=z, surf=surf, massi_vivi=massi)
+        prec = PC.cerca(R, (k, (px, py)), ab, flag_alzate=FLAG_ALZATE, z=z, surf=surf, massi_vivi=massi)
         st = PC.raggiunge(prec, mappa, x, y) if accanto else next((s for s in prec if s[:3] == (mappa, x, y)), None)
         if st is None: log('  nessun percorso da', (k, px, py, z, surf), 'a', mappa, (x, y)); return False
         passi = PC.strada(prec, st)[1:]

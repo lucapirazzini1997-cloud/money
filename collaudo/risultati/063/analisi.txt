@@ -1,0 +1,17 @@
+# analisi/righe.py sulla 0.63 (35.91 35.101 34.48 35.92 34.19): nessun riquadro oltre le 2 righe
+# percorso.py sulla 0.63 da Cesena 34.17:30,30
+abilita: taglio | mappe raggiunte: 148
+  34.19:20,20 raggiunta in 67 passi; da (19, 20); surf=False; mappe: 34.17 > 35.91 > 34.19
+  35.101:56,20 raggiunta in 108 passi; da (56, 21); surf=False; mappe: 34.17 > 35.91 > 34.19 > 35.101
+  35.92:6,4 NON raggiunta
+  35.60:30,17 NON raggiunta
+abilita: spacca,taglio | mappe raggiunte: 175
+  34.19:20,20 raggiunta in 67 passi; da (19, 20); surf=False; mappe: 34.17 > 35.91 > 34.19
+  35.101:56,20 raggiunta in 108 passi; da (56, 21); surf=False; mappe: 34.17 > 35.91 > 34.19 > 35.101
+  35.92:6,4 raggiunta in 182 passi; da (7, 4); surf=False; mappe: 34.17 > 35.91 > 34.19 > 35.101 > 35.92
+  35.60:30,17 raggiunta in 201 passi; da (31, 17); surf=False; mappe: 34.17 > 35.91 > 34.19 > 35.101 > 35.92 > 35.60
+abilita: cascata,corsa,cross,flash,forza,sub,surf,taglio | mappe raggiunte: 162
+  34.19:20,20 raggiunta in 67 passi; da (19, 20); surf=False; mappe: 34.17 > 35.91 > 34.19
+  35.101:56,20 raggiunta in 108 passi; da (56, 21); surf=False; mappe: 34.17 > 35.91 > 34.19 > 35.101
+  35.92:6,4 NON raggiunta
+  35.60:30,17 NON raggiunta

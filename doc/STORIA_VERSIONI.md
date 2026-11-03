@@ -1,6 +1,6 @@
 # Storia delle versioni
 
-Dalla 0.35 alla 0.62. Gli SHA-256 sono quelli delle ROM conservate; le relazioni complete sono in `relazioni/`.
+Dalla 0.35 alla 0.63. Gli SHA-256 sono quelli delle ROM conservate; le relazioni complete sono in `relazioni/`.
 
 **Chi l'ha fatta:** "progetto" = costruita con i builder di questo progetto; "esterna" = ricevuta già fatta, senza sorgenti.
 
@@ -32,6 +32,7 @@ Dalla 0.35 alla 0.62. Gli SHA-256 sono quelli delle ROM conservate; le relazioni
 | 0.60 | `d9ca40b361d02c0404b5d6553dc8d45252087d8bebf59e4e42c942a5786b183a` | 0.59 | progetto | Lotto 2: Kyogre (con SUB e 8ª medaglia) e uccelli leggendari catturabili prima della Lega, esiti cattura/KO/fuga, difetto del testo dopo il KO degli uccelli corretto. Collaudata in mGBA e VBA-M |
 | 0.61 | `f3e7802535125bdc473bd328e4cf7f2b7aeb030f71a1fabb81675614acd63cbe` | 0.60 | progetto | Lotto 2, fine: Regi a piedi senza FORZA con esiti indipendenti, Deoxys/Jirachi/Mewtwo dopo la Lega con eventi chiari (razzo, portale, grotta di Mewtwo finalmente accessibile), regola "una cattura, si ritenta dopo fuga o KO", tabella dei leggendari |
 | 0.62 | `b8ebd0918981becb7c3d77c649d78bf92e7a29d5ec8eec14def17dd772ac9080` | 0.61 | progetto | Lotto 3, prima parte: MN e strumenti chiave verificati a tasti (CASCATA, SUB, FLASH, BICI CROSS, tre ami); testi di FLASH tradotti e di SUB in riquadri di due righe |
+| 0.63 | `d1fee9f903b1fb6dbc0b9568697b469080f3d356dedc63a9bbf9326b0c876187` | 0.62 | progetto | Lotto 3: Cesena ovest. Il casello 35.91 non controlla più la 3ª medaglia; l'Ippodromo è una tappa fra Cesena e Monte Spaccato dalla prima visita; tre rocce di SPACCAROCCIA nella tagliata di Monte Spaccato chiudono la strada per Capocolle, e spariscono per chi è già passato. Collaudata in mGBA e VBA-M |
 
 ## Note sulla catena
 

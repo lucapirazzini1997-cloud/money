@@ -36,7 +36,7 @@ SHA = {
 }
 # Versioni costruite sopra la 0.55: (numero, modulo in versioni/). Ogni nuova versione aggiunge una riga
 # e il suo SHA atteso in SHA (dopo averla collaudata). Il modulo espone apply(W) -> dict (rapporto).
-VERSIONI = [('056', 'v056_cesena_rivale'), ('057', 'v057_spazio'), ('058', 'v058_registri'), ('059', 'v059_cani'), ('060', 'v060_kyogre_uccelli'), ('061', 'v061_regi_mitici'), ('062', 'v062_strumenti'), ('063', 'v063_cesena_ovest'), ('064', 'v064_campagna_cesenate')]
+VERSIONI = [('056', 'v056_cesena_rivale'), ('057', 'v057_spazio'), ('058', 'v058_registri'), ('059', 'v059_cani'), ('060', 'v060_kyogre_uccelli'), ('061', 'v061_regi_mitici'), ('062', 'v062_strumenti'), ('063', 'v063_cesena_ovest'), ('064', 'v064_campagna_cesenate'), ('065', 'v065_ridracoli')]
 
 
 def sha(b): return hashlib.sha256(b).hexdigest()

@@ -1,10 +1,10 @@
 {
  "conteggi": {
-  "usato": 637,
+  "usato": 642,
   "Smeraldo": 159,
   "forse usato": 11,
   "riservato": 41,
-  "libero": 15
+  "libero": 10
  },
  "conflitti": {
   "650": [
@@ -3273,7 +3273,10 @@
    ]
   },
   "581": {
-   "stato": "libero"
+   "stato": "usato",
+   "mappe": [
+    "35.51"
+   ]
   },
   "582": {
    "stato": "usato",
@@ -3585,10 +3588,16 @@
    ]
   },
   "633": {
-   "stato": "libero"
+   "stato": "usato",
+   "mappe": [
+    "35.51"
+   ]
   },
   "634": {
-   "stato": "libero"
+   "stato": "usato",
+   "mappe": [
+    "35.51"
+   ]
   },
   "635": {
    "stato": "usato",
@@ -4150,7 +4159,10 @@
    ]
   },
   "734": {
-   "stato": "libero"
+   "stato": "usato",
+   "mappe": [
+    "35.51"
+   ]
   },
   "735": {
    "stato": "usato",
@@ -4788,7 +4800,10 @@
    ]
   },
   "851": {
-   "stato": "libero"
+   "stato": "usato",
+   "mappe": [
+    "35.51"
+   ]
   },
   "852": {
    "stato": "libero"

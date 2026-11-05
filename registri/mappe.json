@@ -21950,29 +21950,43 @@
   "nome": "RIDRACOLI",
   "dimensioni": [
    44,
-   34
+   62
   ],
   "tipo": 3,
   "uscite": [
    {
     "da": [
-     20,
-     33
+     24,
+     61
     ],
     "verso": "35.50"
    },
    {
     "da": [
-     21,
-     27
+     29,
+     42
     ],
     "verso": "35.52"
+   },
+   {
+    "da": [
+     23,
+     61
+    ],
+    "verso": "35.50"
+   },
+   {
+    "da": [
+     25,
+     61
+    ],
+    "verso": "35.50"
    }
   ],
   "connessioni": [],
   "blocchi": [],
-  "oggetti": 2,
-  "cartelli": 1
+  "oggetti": 8,
+  "cartelli": 2
  },
  "35.52": {
   "nome": "RIDRACOLI",

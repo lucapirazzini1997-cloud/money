@@ -1,16 +1,13 @@
 {
  "budget": {
-  "spazio_kb": 1212,
-  "flag_pool": 43,
-  "flag_0x20_0x4ff_sicure": 40,
-  "variabili_sicure": 46,
+  "spazio_kb": 1177,
+  "flag_pool": 37,
+  "flag_0x20_0x4ff_sicure": 37,
+  "variabili_sicure": 45,
   "strumenti_liberi": 67,
-  "allenatori_liberi": 15
+  "allenatori_liberi": 10
  },
  "flag_sicure": [
-  "0x28",
-  "0x2c",
-  "0x34",
   "0x35",
   "0x3c",
   "0x3e",
@@ -50,7 +47,6 @@
   "0x4ed"
  ],
  "variabili_sicure": [
-  "0x404e",
   "0x4052",
   "0x4055",
   "0x4056",

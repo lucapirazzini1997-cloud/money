@@ -446,6 +446,18 @@
    "2.1 script mappa 1"
   ]
  },
+ "0x28": {
+  "imposta": [
+   "35.51 oggetto 1",
+   "35.51 script mappa 3"
+  ],
+  "azzera": [
+   "35.51 script mappa 3"
+  ],
+  "oggetto": [
+   "35.51 oggetto 1"
+  ]
+ },
  "0x29": {
   "imposta": [
    "0.9 oggetto 4"
@@ -468,6 +480,17 @@
   ],
   "controlla": [
    "0.9 oggetto 4"
+  ]
+ },
+ "0x2c": {
+  "imposta": [
+   "35.51 oggetto 1"
+  ],
+  "controlla": [
+   "35.51 oggetto 1",
+   "35.51 oggetto 2",
+   "35.51 oggetto 7",
+   "35.51 script mappa 3"
   ]
  },
  "0x2d": {
@@ -533,6 +556,11 @@
   ],
   "controlla": [
    "34.8 oggetto 1"
+  ]
+ },
+ "0x34": {
+  "oggetto": [
+   "35.51 oggetto 8"
   ]
  },
  "0x36": {
@@ -19198,6 +19226,11 @@
    "35.48 script mappa 2"
   ]
  },
+ "0x77a": {
+  "controlla": [
+   "35.51 oggetto 7"
+  ]
+ },
  "0x78a": {
   "imposta": [
    "34.37 cartello 7,3",
@@ -19316,6 +19349,13 @@
  "0x7b3": {
   "oggetto": [
    "34.33 oggetto 3"
+  ]
+ },
+ "0x7de": {
+  "controlla": [
+   "35.51 oggetto 2",
+   "35.51 oggetto 7",
+   "35.51 script mappa 3"
   ]
  },
  "0x7ee": {
@@ -19485,6 +19525,11 @@
  "0x838": {
   "controlla": [
    "35.61 oggetto 1"
+  ]
+ },
+ "0x853": {
+  "controlla": [
+   "35.51 oggetto 7"
   ]
  },
  "0x860": {
@@ -39539,6 +39584,7 @@
    "35.46 script mappa 2",
    "35.47 script mappa 2",
    "35.48 script mappa 2",
+   "35.51 oggetto 1",
    "35.61 oggetto 5",
    "35.76 oggetto 1",
    "35.77 oggetto 1",
@@ -39588,6 +39634,7 @@
    "35.46 script mappa 2",
    "35.47 script mappa 2",
    "35.48 script mappa 2",
+   "35.51 oggetto 1",
    "35.61 oggetto 5",
    "35.76 oggetto 1",
    "35.77 oggetto 1",

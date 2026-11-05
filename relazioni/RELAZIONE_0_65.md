@@ -114,7 +114,7 @@ Tre scelte di storia erano rimaste aperte; senza risposta ho usato quelle annunc
 | Un passo da (30,35) a (31,35): la recluta del coronamento vede il giocatore, parla e lotta da sola (MIGHTYENA 40, WEEZING 41); flag a 1 | sì | sì |
 | CORRADO prima della seconda recluta: "Prima te la vedi con le mie reclute!", nessuna lotta | sì | sì |
 | Un passo in (40,30): la recluta della riva vede il giocatore e lotta (MAGNETON 41, MANECTRIC 41); flag a 1 | sì | sì |
-| CORRADO: lotta (MIGHTYENA 42, CAMERUPT 42, SHARPEDO 43), poi "Ritirata!", "Il lago ribolle... Un GYARADOS rosso emerge…"; il GYARADOS è sulla mappa (22,27), 0x28 = 0 | sì | VBAM_CORRADO |
+| CORRADO: lotta (MIGHTYENA 42, CAMERUPT 42, SHARPEDO 43), poi "Ritirata!", "Il lago ribolle... Un GYARADOS rosso emerge…"; il GYARADOS è sulla mappa (22,27), 0x28 = 0 | sì | sì (alla terza corsa, vedi sotto) |
 | Custode dopo CORRADO: "Il GYARADOS rosso è emerso…"; CORRADO: "è ancora furioso" | sì | sì |
 | SALVA sul coronamento, Continua: si resta lì, il GYARADOS c'è, variabile 0x404E = 1 | sì | sì |
 
@@ -148,7 +148,8 @@ Tre scelte di storia erano rimaste aperte; senza risposta ho usato quelle annunc
 **Altre note sulle prove**
 - Nella prima corsa di `gyarados` il Pokémon catturato era un **BRELOOM di livello 0**, cromatico: il comando nativo rifà il Pokémon da 0x8004/0x8005, che non avevo impostato. Corretto nel modulo (prima dello SHA), poi `prima` e `gyarados` rifatte sulla ROM corretta.
 - Dopo il KO del GYARADOS il BRELOOM di prova vuole imparare una mossa: il collaudo risponde "sì" a "Smettere di imparare…?" (solo B la faceva ripetere).
-- **CORRADO in VBA-M:** VBAM_NOTA
+- **CORRADO in VBA-M:** nelle prime due corse, quando BLAZIKEN va KO, il pilota apre la scheda di BRELOOM invece di mandarlo in campo e resta nel menu della squadra. La lotta si chiude poi da sola tra un tasto e l'altro: CORRADO battuto (flag a 1), GYARADOS visibile, testo "dopo" del custode, GYARADOS presente dopo Continua; però i testi del momento in cui emerge non sono stati registrati. Il collaudo ora esce dalla scheda (B) e manda il Pokémon in campo (A); alla terza corsa la lotta e i testi sono registrati come in mGBA. Le due corse scartate sono in `collaudo/risultati/065/corse_scartate/`.
+- L'uscita dalla scheda è stata aggiunta dopo le corse in mGBA, dove non è servita; tocca solo il pilota di lotta.
 - Il pianificatore (`vai.py`) non usa CASCATA: la salita è fatta a tasti nella prova. Un allenatore che si avvicina resta nella casella nuova fino al cambio di mappa: le prove passano a lato.
 - Nei log ci sono "fuori percorso" e "lotta selvatica: fuga": incontri nell'erba e in acqua. Testi rimasti nel buffer (per esempio "Natura INGENUA…" dopo una lotta, "MEDAGLIE") vengono da menu aperti dal pilota, non dagli script.
 - Log: `collaudo/risultati/065/log_t65.txt`; ogni corsa comincia con una riga "PROVA <parte> <emulatore>".

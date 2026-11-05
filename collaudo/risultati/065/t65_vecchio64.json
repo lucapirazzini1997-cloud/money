@@ -1,0 +1,111 @@
+{
+ "titolo": [
+  [
+   35,
+   51
+  ],
+  24,
+  41
+ ],
+ "var_nuova": 1,
+ "dopo_4s": {
+  "pos": [
+   [
+    35,
+    51
+   ],
+   24,
+   41
+  ],
+  "var_nuova": 1,
+  "oggetti": [
+   [
+    [
+     31,
+     34
+    ],
+    119
+   ],
+   [
+    [
+     31,
+     45
+    ],
+    55
+   ]
+  ],
+  "nascosto": 1,
+  "preso": 0,
+  "acqua": 0,
+  "allenatori": {
+   "GIANNI": 0,
+   "ERMES": 0,
+   "RECLUTA_DIGA": 0,
+   "RECLUTA_RIVA": 0,
+   "CORRADO": 0
+  }
+ },
+ "cammina": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    51
+   ],
+   24,
+   45
+  ],
+  "lotte": [],
+  "nascosto": 1,
+  "preso": 0,
+  "acqua": 0,
+  "allenatori": {
+   "GIANNI": 0,
+   "ERMES": 0,
+   "RECLUTA_DIGA": 0,
+   "RECLUTA_RIVA": 0,
+   "CORRADO": 0
+  }
+ },
+ "ricarica": {
+  "pos": [
+   [
+    35,
+    51
+   ],
+   24,
+   45
+  ],
+  "var_nuova": 1
+ },
+ "ricarica_dopo_4s": [
+  [
+   35,
+   51
+  ],
+  24,
+  45
+ ],
+ "verso_3550": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    50
+   ],
+   18,
+   3
+  ],
+  "lotte": [],
+  "nascosto": 1,
+  "preso": 0,
+  "acqua": 0,
+  "allenatori": {
+   "GIANNI": 0,
+   "ERMES": 0,
+   "RECLUTA_DIGA": 0,
+   "RECLUTA_RIVA": 0,
+   "CORRADO": 0
+  }
+ }
+}

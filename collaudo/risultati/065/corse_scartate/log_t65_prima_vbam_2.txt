@@ -1,0 +1,35 @@
+PROVA prima VBA-M Pokemon_Romagna_0_65.gba
+  dal titolo: ((34, 68), 39, 54, 3, False) medaglie [1, 1, 1, 1, 1, 1, 1, 0] {'nascosto': 0, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+  guida {'arrivo': True, 'testi': ['Ingresso per sentiero di Ridracoli. Vuoi che ti accompagni lungo il collegamento?'], 'pos': ((35, 50), 18, 34)}
+   cartello (16, 31) ['RIDRACOLI A nord la DIGA e il LAGO.']
+   custode 35.50 ['A nord ci sono la DIGA DI RIDRACOLI e la CENTRALE. Il TEAM EMILIA si aggira da quelle parti...', 'A nord ci sono la DIGA DI RIDRACOLI e la CENTRALE. Il TEAM EMILIA si aggira da quelle parti...']
+   arrivo_3551 {'ok': True, 'pos': ((35, 51), 24, 60), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   cartello (22, 39) ['DIGA DI RIDRACOLI Sali la scala per il lago. La CENTRALE è a destra.']
+   custode ['Il TEAM EMILIA si è accampato sulla riva est della diga. Col loro sonar il GYARADOS del lago è furioso! Dal coronamento si va a est. Ti prego, fermali!', 'Il TEAM EMILIA si è accampato sulla riva est della diga. Col loro sonar il GYARADOS del lago è furioso! Dal coronamento si va a est. Ti prego, fermali!']
+   centrale {'ok': True, 'pos': ((35, 52), 14, 25), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   uscita_centrale {'ok': True, 'pos': ((35, 51), 28, 44), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   FIXTURE: squadra curata [(50, 155, 155), (43, 119, 119)]
+   GIANNI {'tentativi': [{'arrivo': True, 'testi': ['Salgo alla diga ogni domenica. Ti va una lotta in salita?'], 'lotta': True, 'squadra': [(75, 39), (383, 40)], 'dopo': ['Che fiato che hai!'], 'flag': 1}], 'flag': 1, 'di_nuovo': ['Dalla scala nel muro si sale in cima alla diga.'], 'di_nuovo_lotta': False, 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   scala {'ok': True, 'pos': ((35, 51), 24, 35), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   FIXTURE: squadra curata [(50, 155, 155), (43, 119, 119)]
+   ERMES {'tentativi': [{'arrivo': True, 'testi': ["Da quando c'è il TEAM EMILIA il lago non dà più pesci!"], 'lotta': True, 'squadra': [(119, 40), (324, 39)], 'dopo': ["Almeno la lotta l'ho fatta."], 'flag': 1}], 'flag': 1, 'di_nuovo': ['Il GYARADOS del lago è nervoso: stai attento.'], 'di_nuovo_lotta': False, 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   prima_della_recluta {'ok': True, 'pos': ((35, 51), 30, 35), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   FIXTURE: squadra curata [(51, 158, 158), (44, 122, 122)]
+   RECLUTA_DIGA {'da': ((35, 51), 30, 35), 'testi': ['Il GYARADOS del lago è nervoso: stai attento.', 'Alt! La diga adesso è del TEAM EMILIA!'], 'lotta': True, 'squadra': [(110, 41), (287, 40)], 'dopo': ['Uffa... il capo non sarà contento.'], 'flag': 1, 'pos': ((35, 51), 31, 35)}
+   riva_est {'ok': True, 'pos': ((35, 51), 39, 31), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   verso_corrado {'ok': True, 'pos': ((35, 51), 39, 15), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+  corrado presto {'testi': ['CORRADO: Prima te la vedi con le mie reclute!'], 'lotta': False, 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   sotto_recluta {'ok': True, 'pos': ((35, 51), 39, 31), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   FIXTURE: squadra curata [(51, 158, 158), (44, 122, 122)]
+   RECLUTA_RIVA {'da': ((35, 51), 40, 31), 'testi': ['CORRADO: Prima te la vedi con le mie reclute!', 'Il nostro sonar fa infuriare il GYARADOS del lago!'], 'lotta': True, 'squadra': [(82, 41), (338, 41)], 'dopo': ['Il sonar... si è rotto!'], 'flag': 1, 'pos': ((35, 51), 40, 30)}
+   da_corrado {'ok': True, 'pos': ((35, 51), 39, 15), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 0}}
+   FIXTURE: squadra curata [(51, 158, 158), (44, 122, 122)]
+  corrado {'testi': ['Un ragazzino alla diga? Ti mostro chi comanda qui!'], 'lotta': True, 'squadra': [(287, 42), (340, 42)], 'dopo': ['Natura {fc}{01}{05}{fc}{03}{06}INGENUA{fc}{01}{01}{fc}{03}{02}, incontrato al {f9}{05}{fc}{01}{05}{fc}{03}{06}2{fc}{01}{01}{fc}{03}{02}, {fc}{01}{05}{fc}{03}{06}PINETA DEL SAVIO{fc}{01}{01}{fc}{03}{02}.', 'Cosa vuoi fare?', 'Scegli un POKéMON.'], 'gyarados': False, 'oggetti': [((40, 15), 196)], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 0}}
+  lotta [(307, 44, 340, 42)] squadra [(52, 0, 161), (45, 117, 124)] pos ((35, 51), 39, 15)
+  fuori percorso: atteso ((35, 51), 39, 16) sono ((35, 51), 39, 15) azione passo S
+  fuori percorso: atteso ((35, 51), 39, 16) sono ((35, 51), 39, 15) azione passo S
+  fuori percorso: atteso ((35, 51), 39, 16) sono ((35, 51), 39, 15) azione passo S
+  fuori percorso: atteso ((35, 51), 39, 16) sono ((35, 51), 39, 15) azione passo S
+   coronamento {'ok': True, 'pos': ((35, 51), 22, 34), 'lotte': [], 'nascosto': 0, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+FINE prima

@@ -1,0 +1,263 @@
+{
+ "inizio": {
+  "gyarados": true,
+  "nascosto": 0,
+  "preso": 0,
+  "acqua": 0,
+  "allenatori": {
+   "GIANNI": 1,
+   "ERMES": 1,
+   "RECLUTA_DIGA": 1,
+   "RECLUTA_RIVA": 1,
+   "CORRADO": 1
+  }
+ },
+ "al_gyarados": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    51
+   ],
+   22,
+   28
+  ],
+  "lotte": [],
+  "nascosto": 0,
+  "preso": 0,
+  "acqua": 0,
+  "allenatori": {
+   "GIANNI": 1,
+   "ERMES": 1,
+   "RECLUTA_DIGA": 1,
+   "RECLUTA_RIVA": 1,
+   "CORRADO": 1
+  }
+ },
+ "in_surf": true,
+ "parla": {
+  "testi": [
+   "Il GYARADOS rosso è furioso! Calmalo con una lotta!"
+  ],
+  "lotta": true
+ },
+ "fuga": {
+  "testi": [
+   "Il GYARADOS resta al centro del lago, furioso. Puoi riprovare quando vuoi."
+  ],
+  "presente": true,
+  "pos": [
+   [
+    35,
+    51
+   ],
+   22,
+   28
+  ],
+  "nascosto": 0,
+  "preso": 0,
+  "acqua": 0,
+  "allenatori": {
+   "GIANNI": 1,
+   "ERMES": 1,
+   "RECLUTA_DIGA": 1,
+   "RECLUTA_RIVA": 1,
+   "CORRADO": 1
+  }
+ },
+ "ko": {
+  "testi": [
+   "Il GYARADOS rosso è furioso! Calmalo con una lotta!",
+   "Vuoi cancellare una mossa per far posto a LEGGIMENTE?",
+   "{fc}{08}{20}Smettere di imparare LEGGIMENTE?",
+   "BRELOOM non impara LEGGIMENTE. ",
+   "{f9}{05}45{77}{77}{fc}{01}{0e}{fc}{03}{0f}{b6}",
+   "Il GYARADOS si inabissa, poi riemerge, ancora furioso. Puoi riprovare quando vuoi."
+  ],
+  "lotta": true,
+  "turni": 5,
+  "avversario": [
+   [
+    130,
+    40
+   ]
+  ],
+  "presente": true,
+  "pos": [
+   [
+    35,
+    51
+   ],
+   22,
+   28
+  ],
+  "nascosto": 0,
+  "preso": 0,
+  "acqua": 0,
+  "allenatori": {
+   "GIANNI": 1,
+   "ERMES": 1,
+   "RECLUTA_DIGA": 1,
+   "RECLUTA_RIVA": 1,
+   "CORRADO": 1
+  }
+ },
+ "cattura": {
+  "testi": [
+   "Il GYARADOS rosso è furioso! Calmalo con una lotta!",
+   "BLAZIKEN ottiene 1222 punti ESP.! ",
+   "BRELOOM ottiene 611 punti ESP.! ",
+   "I dati di GYARADOS sono stati aggiunti al POKéDEX. ",
+   "Vuoi dare un soprannome a GYARADOS?",
+   "Hai calmato e catturato il GYARADOS rosso! Il lago torna tranquillo."
+  ],
+  "lotta": true,
+  "squadra": [
+   282,
+   307,
+   130
+  ],
+  "livello": [
+   40,
+   136,
+   136
+  ],
+  "cromatico": true,
+  "presente": false,
+  "oggetti": [
+   [
+    [
+     31,
+     34
+    ],
+    119
+   ]
+  ],
+  "nascosto": 1,
+  "preso": 1,
+  "acqua": 0,
+  "allenatori": {
+   "GIANNI": 1,
+   "ERMES": 1,
+   "RECLUTA_DIGA": 1,
+   "RECLUTA_RIVA": 1,
+   "CORRADO": 1
+  }
+ },
+ "parla_dopo": [
+  "Hai calmato e catturato il GYARADOS rosso! Il lago torna tranquillo.",
+  "Hai calmato e catturato il GYARADOS rosso! Il lago torna tranquillo."
+ ],
+ "verso_corrado": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    51
+   ],
+   39,
+   15
+  ],
+  "lotte": [],
+  "nascosto": 1,
+  "preso": 1,
+  "acqua": 0,
+  "allenatori": {
+   "GIANNI": 1,
+   "ERMES": 1,
+   "RECLUTA_DIGA": 1,
+   "RECLUTA_RIVA": 1,
+   "CORRADO": 1
+  }
+ },
+ "corrado_calmo": [
+  "CORRADO: L'hai calmato tu? Il capo non ci crederà...",
+  "CORRADO: L'hai calmato tu? Il capo non ci crederà..."
+ ],
+ "custode_calmo": [
+  "Il lago è di nuovo calmo. Grazie di cuore! La CENTRALE è qui accanto: ci sono ancora delle reclute.",
+  "Il lago è di nuovo calmo. Grazie di cuore! La CENTRALE è qui accanto: ci sono ancora delle reclute."
+ ],
+ "ricarica": {
+  "pos": [
+   [
+    35,
+    51
+   ],
+   30,
+   45
+  ],
+  "gyarados": false,
+  "squadra": [
+   282,
+   307,
+   130
+  ],
+  "nascosto": 1,
+  "preso": 1,
+  "acqua": 0,
+  "allenatori": {
+   "GIANNI": 1,
+   "ERMES": 1,
+   "RECLUTA_DIGA": 1,
+   "RECLUTA_RIVA": 1,
+   "CORRADO": 1
+  }
+ },
+ "esce_3550": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    50
+   ],
+   18,
+   3
+  ],
+  "lotte": [],
+  "nascosto": 1,
+  "preso": 1,
+  "acqua": 0,
+  "allenatori": {
+   "GIANNI": 1,
+   "ERMES": 1,
+   "RECLUTA_DIGA": 1,
+   "RECLUTA_RIVA": 1,
+   "CORRADO": 1
+  }
+ },
+ "rientra": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    51
+   ],
+   24,
+   58
+  ],
+  "lotte": [],
+  "nascosto": 1,
+  "preso": 1,
+  "acqua": 0,
+  "allenatori": {
+   "GIANNI": 1,
+   "ERMES": 1,
+   "RECLUTA_DIGA": 1,
+   "RECLUTA_RIVA": 1,
+   "CORRADO": 1
+  }
+ },
+ "rientro": {
+  "gyarados": false,
+  "oggetti": [
+   [
+    [
+     21,
+     52
+    ],
+    31
+   ]
+  ]
+ }
+}

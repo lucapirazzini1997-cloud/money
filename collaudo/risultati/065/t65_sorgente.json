@@ -1,0 +1,154 @@
+{
+ "inizio": {
+  "borsa_d1": [
+   [
+    209,
+    1
+   ]
+  ],
+  "nascosto": 1,
+  "preso": 0,
+  "acqua": 0,
+  "allenatori": {
+   "GIANNI": 0,
+   "ERMES": 0,
+   "RECLUTA_DIGA": 0,
+   "RECLUTA_RIVA": 0,
+   "CORRADO": 0
+  }
+ },
+ "senza_cascata": {
+  "ok": false,
+  "pos": [
+   [
+    35,
+    51
+   ],
+   24,
+   41
+  ],
+  "lotte": [],
+  "nascosto": 1,
+  "preso": 0,
+  "acqua": 0,
+  "allenatori": {
+   "GIANNI": 0,
+   "ERMES": 0,
+   "RECLUTA_DIGA": 0,
+   "RECLUTA_RIVA": 0,
+   "CORRADO": 0
+  }
+ },
+ "piede_cascata": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    51
+   ],
+   12,
+   13
+  ],
+  "lotte": [],
+  "nascosto": 1,
+  "preso": 0,
+  "acqua": 0,
+  "allenatori": {
+   "GIANNI": 0,
+   "ERMES": 0,
+   "RECLUTA_DIGA": 0,
+   "RECLUTA_RIVA": 0,
+   "CORRADO": 0
+  }
+ },
+ "cascata": {
+  "testi": [
+   "{05} una grande cascata. Vuoi usare CASCATA?",
+   "BRELOOM usa CASCATA."
+  ],
+  "pos": [
+   [
+    35,
+    51
+   ],
+   12,
+   9
+  ],
+  "surf": true
+ },
+ "riva_sorgente": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    51
+   ],
+   10,
+   8
+  ],
+  "lotte": [],
+  "nascosto": 1,
+  "preso": 0,
+  "acqua": 0,
+  "allenatori": {
+   "GIANNI": 0,
+   "ERMES": 0,
+   "RECLUTA_DIGA": 0,
+   "RECLUTA_RIVA": 0,
+   "CORRADO": 0
+  }
+ },
+ "cartello": [
+  "SORGENTE DEL BIDENTE Qui nasce il fiume che riempie il lago."
+ ],
+ "palla": {
+  "testi": [
+   "AAAAAAA trova: ACQUA MAGICA!",
+   "AAAAAAA mette ACQUA MAGICA nella tasca STRUMENTI."
+  ],
+  "borsa_d1": [
+   [
+    209,
+    2
+   ]
+  ],
+  "oggetti": [],
+  "nascosto": 1,
+  "preso": 0,
+  "acqua": 1,
+  "allenatori": {
+   "GIANNI": 0,
+   "ERMES": 0,
+   "RECLUTA_DIGA": 0,
+   "RECLUTA_RIVA": 0,
+   "CORRADO": 0
+  }
+ },
+ "ricarica": {
+  "pos": [
+   [
+    35,
+    51
+   ],
+   10,
+   8
+  ],
+  "oggetti": [],
+  "borsa_d1": [
+   [
+    209,
+    2
+   ]
+  ],
+  "nascosto": 1,
+  "preso": 0,
+  "acqua": 1,
+  "allenatori": {
+   "GIANNI": 0,
+   "ERMES": 0,
+   "RECLUTA_DIGA": 0,
+   "RECLUTA_RIVA": 0,
+   "CORRADO": 0
+  }
+ }
+}

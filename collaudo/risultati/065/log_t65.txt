@@ -1,0 +1,206 @@
+PROVA prima Pokemon_Romagna_0_65.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: flag 0x86d = 1
+   FIXTURE: posizione (34, 68) (39, 54)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA prima mGBA Pokemon_Romagna_0_65.gba
+  dal titolo: ((34, 68), 39, 54, 3, False) medaglie [1, 1, 1, 1, 1, 1, 1, 0] {'nascosto': 0, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+  guida {'arrivo': True, 'testi': ['Ingresso per sentiero di Ridracoli. Vuoi che ti accompagni lungo il collegamento?'], 'pos': ((35, 50), 18, 34)}
+   cartello (16, 31) ['RIDRACOLI A nord la DIGA e il LAGO.']
+   custode 35.50 ['A nord ci sono la DIGA DI RIDRACOLI e la CENTRALE. Il TEAM EMILIA si aggira da quelle parti...', 'A nord ci sono la DIGA DI RIDRACOLI e la CENTRALE. Il TEAM EMILIA si aggira da quelle parti...']
+   arrivo_3551 {'ok': True, 'pos': ((35, 51), 24, 60), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   cartello (22, 39) ['DIGA DI RIDRACOLI Sali la scala per il lago. La CENTRALE è a destra.']
+   custode ['Il TEAM EMILIA si è accampato sulla riva est della diga. Col loro sonar il GYARADOS del lago è furioso! Dal coronamento si va a est. Ti prego, fermali!', 'Il TEAM EMILIA si è accampato sulla riva est della diga. Col loro sonar il GYARADOS del lago è furioso! Dal coronamento si va a est. Ti prego, fermali!']
+   centrale {'ok': True, 'pos': ((35, 52), 14, 25), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   uscita_centrale {'ok': True, 'pos': ((35, 51), 28, 44), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   FIXTURE: squadra curata [(50, 155, 155), (43, 119, 119)]
+   GIANNI {'tentativi': [{'arrivo': True, 'testi': ['Salgo alla diga ogni domenica. Ti va una lotta in salita?'], 'lotta': True, 'squadra': [(75, 39), (383, 40)], 'dopo': ['Che fiato che hai!'], 'flag': 1}], 'flag': 1, 'di_nuovo': ['Dalla scala nel muro si sale in cima alla diga.'], 'di_nuovo_lotta': False, 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   scala {'ok': True, 'pos': ((35, 51), 24, 35), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   FIXTURE: squadra curata [(50, 155, 155), (43, 119, 119)]
+   FIXTURE: squadra curata [(50, 155, 155), (43, 119, 119)]
+   ERMES {'tentativi': [{'arrivo': True, 'testi': ["Da quando c'è il TEAM EMILIA il lago non dà più pesci!"], 'lotta': True, 'squadra': [(119, 40), (324, 39)], 'dopo': ['Natura {fc}{01}{05}{fc}{03}{06}INGENUA{fc}{01}{01}{fc}{03}{02}, incontrato al {f9}{05}{fc}{01}{05}{fc}{03}{06}2{fc}{01}{01}{fc}{03}{02}, {fc}{01}{05}{fc}{03}{06}PINETA DEL SAVIO{fc}{01}{01}{fc}{03}{02}.', 'Cosa vuoi fare?', 'Scegli un POKéMON.'], 'flag': 0}, {'arrivo': True, 'testi': ['Cosa vuoi fare?'], 'lotta': True, 'squadra': [(119, 40)], 'dopo': ["Almeno la lotta l'ho fatta."], 'flag': 1}], 'flag': 1, 'di_nuovo': ['Il GYARADOS del lago è nervoso: stai attento.'], 'di_nuovo_lotta': False, 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   prima_della_recluta {'ok': True, 'pos': ((35, 51), 30, 35), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   FIXTURE: squadra curata [(51, 158, 158), (44, 122, 122)]
+   RECLUTA_DIGA {'da': ((35, 51), 30, 35), 'testi': ['Il GYARADOS del lago è nervoso: stai attento.', 'Alt! La diga adesso è del TEAM EMILIA!'], 'lotta': True, 'squadra': [(110, 41), (287, 40)], 'dopo': ['Uffa... il capo non sarà contento.'], 'flag': 1, 'pos': ((35, 51), 31, 35)}
+   riva_est {'ok': True, 'pos': ((35, 51), 39, 31), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   verso_corrado {'ok': True, 'pos': ((35, 51), 39, 15), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+  corrado presto {'testi': ['CORRADO: Prima te la vedi con le mie reclute!'], 'lotta': False, 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   sotto_recluta {'ok': True, 'pos': ((35, 51), 39, 31), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   FIXTURE: squadra curata [(51, 158, 158), (44, 122, 122)]
+   RECLUTA_RIVA {'da': ((35, 51), 40, 31), 'testi': ['CORRADO: Prima te la vedi con le mie reclute!', 'Il nostro sonar fa infuriare il GYARADOS del lago!'], 'lotta': True, 'squadra': [(82, 41), (338, 41)], 'dopo': ['Il sonar... si è rotto!'], 'flag': 1, 'pos': ((35, 51), 40, 30)}
+   da_corrado {'ok': True, 'pos': ((35, 51), 39, 15), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 0}}
+   FIXTURE: squadra curata [(51, 158, 158), (44, 122, 122)]
+  corrado {'testi': ['Un ragazzino alla diga? Ti mostro chi comanda qui!'], 'lotta': True, 'squadra': [(287, 42), (331, 43), (340, 42)], 'dopo': ['Il sonar... il lago... Cosa abbiamo fatto?', 'CORRADO: Il GYARADOS è fuori controllo... Ritirata!', 'Il lago ribolle... Un GYARADOS rosso emerge infuriato al centro del lago!'], 'gyarados': True, 'oggetti': [((22, 27), 184), ((40, 15), 196)], 'nascosto': 0, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+   coronamento {'ok': True, 'pos': ((35, 51), 22, 34), 'lotte': [], 'nascosto': 0, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+FINE prima
+   FIXTURE: mossa 57 al Pokemon 1 -> ((249, 280, 202, 57), 307)
+   FIXTURE: 5 MASTER BALL nella tasca Poke Ball
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA gyarados mGBA Pokemon_Romagna_0_65.gba
+  dal titolo: ((35, 51), 22, 34, 3, False) medaglie [1, 1, 1, 1, 1, 1, 1, 0] {'nascosto': 0, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+  fuori percorso: atteso ((35, 51), 22, 32) sono ((35, 51), 22, 31) azione passo N
+  fuori percorso: atteso ((35, 51), 22, 30) sono ((35, 51), 22, 29) azione passo N
+   al_gyarados {'ok': True, 'pos': ((35, 51), 22, 28), 'lotte': [], 'nascosto': 0, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+   FIXTURE: squadra curata [(52, 161, 161), (44, 122, 122)]
+  fuga {'testi': ['Il GYARADOS resta al centro del lago, furioso. Puoi riprovare quando vuoi.'], 'presente': True, 'pos': ((35, 51), 22, 28), 'nascosto': 0, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+   FIXTURE: squadra curata [(52, 161, 161), (44, 122, 122)]
+  KO {'testi': ['Il GYARADOS rosso è furioso! Calmalo con una lotta!', 'Ma BRELOOM non può imparare più di quattro mosse. ', 'Vuoi cancellare una mossa per far posto a LEGGIMENTE?', '{fc}{08}{20}Smettere di imparare LEGGIMENTE?', 'BRELOOM non impara LEGGIMENTE. ', '{f9}{05}45{77}{77}{fc}{01}{0e}{fc}{03}{0f}{b6}', 'Il GYARADOS si inabissa, poi riemerge, ancora furioso. Puoi riprovare quando vuoi.'], 'lotta': True, 'turni': 3, 'avversario': [(130, 40)], 'presente': True, 'pos': ((35, 51), 22, 28), 'nascosto': 0, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+   FIXTURE: squadra curata [(52, 161, 161), (45, 124, 124)]
+  cattura {'testi': ['Il GYARADOS rosso è furioso! Calmalo con una lotta!', 'BLAZIKEN ottiene 1222 punti ESP.! ', 'BRELOOM ottiene 611 punti ESP.! ', 'I dati di GYARADOS sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a GYARADOS?', 'Hai calmato e catturato il GYARADOS rosso! Il lago torna tranquillo.'], 'lotta': True, 'squadra': [282, 307, 130], 'livello': (40, 136, 136), 'cromatico': True, 'presente': False, 'oggetti': [((31, 34), 119)], 'nascosto': 1, 'preso': 1, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+  fuori percorso: atteso ((35, 51), 23, 26) sono ((35, 51), 23, 25) azione passo N
+  fuori percorso: atteso ((35, 51), 23, 24) sono ((35, 51), 23, 23) azione passo N
+  fuori percorso: atteso ((35, 51), 23, 22) sono ((35, 51), 23, 21) azione passo N
+  fuori percorso: atteso ((35, 51), 25, 15) sono ((35, 51), 26, 15) azione passo E
+  fuori percorso: atteso ((35, 51), 27, 15) sono ((35, 51), 28, 15) azione passo E
+  fuori percorso: atteso ((35, 51), 29, 15) sono ((35, 51), 30, 15) azione passo E
+  lotta selvatica: fuga squadra [(52, 161, 161), (45, 124, 124), (40, 136, 136)] pos ((35, 51), 30, 15)
+  fuori percorso: atteso ((35, 51), 31, 15) sono ((35, 51), 32, 15) azione passo E
+  fuori percorso: atteso ((35, 51), 33, 15) sono ((35, 51), 34, 15) azione passo E
+  fuori percorso: atteso ((35, 51), 35, 15) sono ((35, 51), 36, 15) azione passo E
+  fuori percorso: atteso ((35, 51), 37, 15) sono ((35, 51), 38, 15) azione passo E
+   verso_corrado {'ok': True, 'pos': ((35, 51), 39, 15), 'lotte': [], 'nascosto': 1, 'preso': 1, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+  testi dopo ['BRELOOM usa SURF!', "CORRADO: L'hai calmato tu? Il capo non ci crederà...", "CORRADO: L'hai calmato tu? Il capo non ci crederà..."] ['Il lago è di nuovo calmo. Grazie di cuore! La CENTRALE è qui accanto: ci sono ancora delle reclute.', 'Il lago è di nuovo calmo. Grazie di cuore! La CENTRALE è qui accanto: ci sono ancora delle reclute.']
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  fuori percorso: atteso ((35, 51), 30, 46) sono ((35, 51), 30, 45) azione passo S
+  fuori percorso: atteso ((35, 51), 30, 46) sono ((35, 51), 30, 45) azione passo S
+   esce_3550 {'ok': True, 'pos': ((35, 50), 18, 3), 'lotte': [], 'nascosto': 1, 'preso': 1, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+   rientra {'ok': True, 'pos': ((35, 51), 24, 58), 'lotte': [], 'nascosto': 1, 'preso': 1, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+FINE gyarados
+PROVA sorgente Pokemon_Romagna_0_65.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: flag 0x86d = 1
+   FIXTURE: flag 0x86e = 1
+   FIXTURE: mossa 57 al Pokemon 1 -> ((249, 280, 202, 57), 307)
+   FIXTURE: mossa 127 al Pokemon 1 -> ((249, 280, 127, 57), 307)
+   FIXTURE: posizione (35, 51) (24, 41)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA sorgente mGBA Pokemon_Romagna_0_65.gba
+  dal titolo: ((35, 51), 24, 41, 3, False) medaglie [1, 1, 1, 1, 1, 1, 1, 1] {'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+  nessun percorso da ((35, 51), 24, 41, 3, False) a (35, 51) (10, 8)
+   senza_cascata {'ok': False, 'pos': ((35, 51), 24, 41), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+  fuori percorso: atteso ((35, 51), 24, 32) sono ((35, 51), 24, 31) azione passo N
+  fuori percorso: atteso ((35, 51), 24, 30) sono ((35, 51), 24, 29) azione passo N
+  fuori percorso: atteso ((35, 51), 24, 28) sono ((35, 51), 24, 27) azione passo N
+  fuori percorso: atteso ((35, 51), 24, 26) sono ((35, 51), 24, 25) azione passo N
+  fuori percorso: atteso ((35, 51), 24, 24) sono ((35, 51), 24, 23) azione passo N
+  fuori percorso: atteso ((35, 51), 24, 22) sono ((35, 51), 24, 21) azione passo N
+  fuori percorso: atteso ((35, 51), 24, 20) sono ((35, 51), 24, 19) azione passo N
+  fuori percorso: atteso ((35, 51), 24, 18) sono ((35, 51), 24, 17) azione passo N
+  fuori percorso: atteso ((35, 51), 24, 16) sono ((35, 51), 24, 15) azione passo N
+  fuori percorso: atteso ((35, 51), 24, 14) sono ((35, 51), 24, 13) azione passo N
+  fuori percorso: atteso ((35, 51), 22, 13) sono ((35, 51), 23, 13) azione passo W
+  fuori percorso: atteso ((35, 51), 20, 13) sono ((35, 51), 19, 13) azione passo W
+  fuori percorso: atteso ((35, 51), 13, 13) sono ((35, 51), 12, 13) azione passo W
+   piede_cascata {'ok': True, 'pos': ((35, 51), 12, 13), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+  cascata {'testi': ['{05} una grande cascata. Vuoi usare CASCATA?', 'BRELOOM usa CASCATA.'], 'pos': ((35, 51), 12, 9), 'surf': True}
+  fuori percorso: atteso ((35, 51), 12, 8) sono ((35, 51), 12, 7) azione passo N
+  fuori percorso: atteso ((35, 51), 10, 8) sono ((35, 51), 11, 8) azione passo W
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((35, 51), 11, 8)
+   riva_sorgente {'ok': True, 'pos': ((35, 51), 10, 8), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   cartello (9, 5) ['SORGENTE DEL BIDENTE Qui nasce il fiume che riempie il lago.']
+  palla {'testi': ['AAAAAAA trova: ACQUA MAGICA!', 'AAAAAAA mette ACQUA MAGICA nella tasca STRUMENTI.'], 'borsa_d1': [(209, 2)], 'oggetti': [], 'nascosto': 1, 'preso': 0, 'acqua': 1, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+FINE sorgente
+PROVA crea64 Pokemon_Romagna_0_64.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: flag 0x86d = 1
+   FIXTURE: posizione (35, 51) (35, 29)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  crea64 {'pos_064': ((35, 51), 35, 29)}
+FINE crea64
+PROVA vecchio64 mGBA Pokemon_Romagna_0_65.gba t65_crea64.sav
+   {'titolo': ((35, 51), 24, 41), 'var_nuova': 1, 'dopo_4s': {'pos': ((35, 51), 24, 41), 'var_nuova': 1, 'oggetti': [((31, 34), 119), ((31, 45), 55)], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}}
+   cammina {'ok': True, 'pos': ((35, 51), 24, 45), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+   verso_3550 {'ok': True, 'pos': ((35, 50), 18, 3), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+FINE vecchio64
+PROVA prima VBA-M Pokemon_Romagna_0_65.gba
+  dal titolo: ((34, 68), 39, 54, 3, False) medaglie [1, 1, 1, 1, 1, 1, 1, 0] {'nascosto': 0, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+  guida {'arrivo': True, 'testi': ['Ingresso per sentiero di Ridracoli. Vuoi che ti accompagni lungo il collegamento?'], 'pos': ((35, 50), 18, 34)}
+   cartello (16, 31) ['RIDRACOLI A nord la DIGA e il LAGO.']
+   custode 35.50 ['A nord ci sono la DIGA DI RIDRACOLI e la CENTRALE. Il TEAM EMILIA si aggira da quelle parti...', 'A nord ci sono la DIGA DI RIDRACOLI e la CENTRALE. Il TEAM EMILIA si aggira da quelle parti...']
+   arrivo_3551 {'ok': True, 'pos': ((35, 51), 24, 60), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   cartello (22, 39) ['DIGA DI RIDRACOLI Sali la scala per il lago. La CENTRALE è a destra.']
+   custode ['Il TEAM EMILIA si è accampato sulla riva est della diga. Col loro sonar il GYARADOS del lago è furioso! Dal coronamento si va a est. Ti prego, fermali!', 'Il TEAM EMILIA si è accampato sulla riva est della diga. Col loro sonar il GYARADOS del lago è furioso! Dal coronamento si va a est. Ti prego, fermali!']
+   centrale {'ok': True, 'pos': ((35, 52), 14, 25), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   uscita_centrale {'ok': True, 'pos': ((35, 51), 28, 44), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   FIXTURE: squadra curata [(50, 155, 155), (43, 119, 119)]
+   GIANNI {'tentativi': [{'arrivo': True, 'testi': ['Salgo alla diga ogni domenica. Ti va una lotta in salita?'], 'lotta': True, 'squadra': [(75, 39), (383, 40)], 'dopo': ['Che fiato che hai!'], 'flag': 1}], 'flag': 1, 'di_nuovo': ['Dalla scala nel muro si sale in cima alla diga.'], 'di_nuovo_lotta': False, 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   scala {'ok': True, 'pos': ((35, 51), 24, 35), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   FIXTURE: squadra curata [(50, 155, 155), (43, 119, 119)]
+   ERMES {'tentativi': [{'arrivo': True, 'testi': ["Da quando c'è il TEAM EMILIA il lago non dà più pesci!"], 'lotta': True, 'squadra': [(119, 40), (324, 39)], 'dopo': ["Almeno la lotta l'ho fatta."], 'flag': 1}], 'flag': 1, 'di_nuovo': ['Il GYARADOS del lago è nervoso: stai attento.'], 'di_nuovo_lotta': False, 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   prima_della_recluta {'ok': True, 'pos': ((35, 51), 30, 35), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   FIXTURE: squadra curata [(51, 158, 158), (44, 122, 122)]
+   RECLUTA_DIGA {'da': ((35, 51), 30, 35), 'testi': ['Il GYARADOS del lago è nervoso: stai attento.', 'Alt! La diga adesso è del TEAM EMILIA!'], 'lotta': True, 'squadra': [(110, 41), (287, 40)], 'dopo': ['Uffa... il capo non sarà contento.'], 'flag': 1, 'pos': ((35, 51), 31, 35)}
+   riva_est {'ok': True, 'pos': ((35, 51), 39, 31), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   verso_corrado {'ok': True, 'pos': ((35, 51), 39, 15), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+  corrado presto {'testi': ['CORRADO: Prima te la vedi con le mie reclute!'], 'lotta': False, 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   sotto_recluta {'ok': True, 'pos': ((35, 51), 39, 31), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   FIXTURE: squadra curata [(51, 158, 158), (44, 122, 122)]
+   RECLUTA_RIVA {'da': ((35, 51), 40, 31), 'testi': ['CORRADO: Prima te la vedi con le mie reclute!', 'Il nostro sonar fa infuriare il GYARADOS del lago!'], 'lotta': True, 'squadra': [(82, 41), (338, 41)], 'dopo': ['Il sonar... si è rotto!'], 'flag': 1, 'pos': ((35, 51), 40, 30)}
+   da_corrado {'ok': True, 'pos': ((35, 51), 39, 15), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 0}}
+   FIXTURE: squadra curata [(51, 158, 158), (44, 122, 122)]
+  corrado {'testi': ['Un ragazzino alla diga? Ti mostro chi comanda qui!'], 'lotta': True, 'squadra': [(287, 42), (331, 43), (340, 42)], 'dopo': ['Il sonar... il lago... Cosa abbiamo fatto?', 'CORRADO: Il GYARADOS è fuori controllo... Ritirata!', 'Il lago ribolle... Un GYARADOS rosso emerge infuriato al centro del lago!'], 'gyarados': True, 'oggetti': [((22, 27), 184), ((40, 15), 196)], 'nascosto': 0, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+   coronamento {'ok': True, 'pos': ((35, 51), 22, 34), 'lotte': [], 'nascosto': 0, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+FINE prima
+PROVA gyarados VBA-M Pokemon_Romagna_0_65.gba
+  dal titolo: ((35, 51), 22, 34, 3, False) medaglie [1, 1, 1, 1, 1, 1, 1, 0] {'nascosto': 0, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+  fuori percorso: atteso ((35, 51), 22, 32) sono ((35, 51), 22, 31) azione passo N
+  fuori percorso: atteso ((35, 51), 22, 30) sono ((35, 51), 22, 29) azione passo N
+   al_gyarados {'ok': True, 'pos': ((35, 51), 22, 28), 'lotte': [], 'nascosto': 0, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+   FIXTURE: squadra curata [(52, 161, 161), (44, 122, 122)]
+  fuga {'testi': ['Il GYARADOS resta al centro del lago, furioso. Puoi riprovare quando vuoi.'], 'presente': True, 'pos': ((35, 51), 22, 28), 'nascosto': 0, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+   FIXTURE: squadra curata [(52, 161, 161), (44, 122, 122)]
+  KO {'testi': ['Il GYARADOS rosso è furioso! Calmalo con una lotta!', 'Vuoi cancellare una mossa per far posto a LEGGIMENTE?', '{fc}{08}{20}Smettere di imparare LEGGIMENTE?', 'BRELOOM non impara LEGGIMENTE. ', '{f9}{05}45{77}{77}{fc}{01}{0e}{fc}{03}{0f}{b6}', 'Il GYARADOS si inabissa, poi riemerge, ancora furioso. Puoi riprovare quando vuoi.'], 'lotta': True, 'turni': 5, 'avversario': [(130, 40)], 'presente': True, 'pos': ((35, 51), 22, 28), 'nascosto': 0, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+   FIXTURE: squadra curata [(52, 161, 161), (45, 124, 124)]
+  cattura {'testi': ['Il GYARADOS rosso è furioso! Calmalo con una lotta!', 'BLAZIKEN ottiene 1222 punti ESP.! ', 'BRELOOM ottiene 611 punti ESP.! ', 'I dati di GYARADOS sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a GYARADOS?', 'Hai calmato e catturato il GYARADOS rosso! Il lago torna tranquillo.'], 'lotta': True, 'squadra': [282, 307, 130], 'livello': (40, 136, 136), 'cromatico': True, 'presente': False, 'oggetti': [((31, 34), 119)], 'nascosto': 1, 'preso': 1, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+  fuori percorso: atteso ((35, 51), 23, 26) sono ((35, 51), 23, 25) azione passo N
+  fuori percorso: atteso ((35, 51), 23, 24) sono ((35, 51), 23, 23) azione passo N
+  fuori percorso: atteso ((35, 51), 23, 22) sono ((35, 51), 23, 21) azione passo N
+  fuori percorso: atteso ((35, 51), 25, 15) sono ((35, 51), 26, 15) azione passo E
+  fuori percorso: atteso ((35, 51), 27, 15) sono ((35, 51), 28, 15) azione passo E
+  fuori percorso: atteso ((35, 51), 29, 15) sono ((35, 51), 30, 15) azione passo E
+  fuori percorso: atteso ((35, 51), 32, 15) sono ((35, 51), 31, 15) azione passo E
+  lotta selvatica: fuga squadra [(52, 161, 161), (45, 124, 124), (40, 136, 136)] pos ((35, 51), 31, 15)
+  fuori percorso: atteso ((35, 51), 32, 15) sono ((35, 51), 33, 15) azione passo E
+  fuori percorso: atteso ((35, 51), 34, 15) sono ((35, 51), 35, 15) azione passo E
+  fuori percorso: atteso ((35, 51), 36, 15) sono ((35, 51), 37, 15) azione passo E
+  fuori percorso: atteso ((35, 51), 38, 15) sono ((35, 51), 39, 15) azione passo E
+   verso_corrado {'ok': True, 'pos': ((35, 51), 39, 15), 'lotte': [], 'nascosto': 1, 'preso': 1, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+  testi dopo ["CORRADO: L'hai calmato tu? Il capo non ci crederà...", "CORRADO: L'hai calmato tu? Il capo non ci crederà..."] ['Il lago è di nuovo calmo. Grazie di cuore! La CENTRALE è qui accanto: ci sono ancora delle reclute.', 'Il lago è di nuovo calmo. Grazie di cuore! La CENTRALE è qui accanto: ci sono ancora delle reclute.']
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  fuori percorso: atteso ((35, 51), 30, 46) sono ((35, 51), 30, 45) azione passo S
+  fuori percorso: atteso ((35, 51), 30, 46) sono ((35, 51), 30, 45) azione passo S
+   esce_3550 {'ok': True, 'pos': ((35, 50), 18, 3), 'lotte': [], 'nascosto': 1, 'preso': 1, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+   rientra {'ok': True, 'pos': ((35, 51), 24, 58), 'lotte': [], 'nascosto': 1, 'preso': 1, 'acqua': 0, 'allenatori': {'GIANNI': 1, 'ERMES': 1, 'RECLUTA_DIGA': 1, 'RECLUTA_RIVA': 1, 'CORRADO': 1}}
+FINE gyarados
+PROVA sorgente VBA-M Pokemon_Romagna_0_65.gba
+  dal titolo: ((35, 51), 24, 41, 3, False) medaglie [1, 1, 1, 1, 1, 1, 1, 1] {'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+  nessun percorso da ((35, 51), 24, 41, 3, False) a (35, 51) (10, 8)
+   senza_cascata {'ok': False, 'pos': ((35, 51), 24, 41), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+  fuori percorso: atteso ((35, 51), 24, 32) sono ((35, 51), 24, 31) azione passo N
+  fuori percorso: atteso ((35, 51), 24, 30) sono ((35, 51), 24, 29) azione passo N
+  fuori percorso: atteso ((35, 51), 24, 28) sono ((35, 51), 24, 27) azione passo N
+  fuori percorso: atteso ((35, 51), 24, 26) sono ((35, 51), 24, 25) azione passo N
+  fuori percorso: atteso ((35, 51), 24, 24) sono ((35, 51), 24, 23) azione passo N
+  fuori percorso: atteso ((35, 51), 24, 22) sono ((35, 51), 24, 21) azione passo N
+  fuori percorso: atteso ((35, 51), 24, 20) sono ((35, 51), 24, 19) azione passo N
+  fuori percorso: atteso ((35, 51), 24, 18) sono ((35, 51), 24, 17) azione passo N
+  fuori percorso: atteso ((35, 51), 24, 16) sono ((35, 51), 24, 15) azione passo N
+  fuori percorso: atteso ((35, 51), 24, 14) sono ((35, 51), 24, 13) azione passo N
+  fuori percorso: atteso ((35, 51), 22, 13) sono ((35, 51), 23, 13) azione passo W
+  fuori percorso: atteso ((35, 51), 20, 13) sono ((35, 51), 19, 13) azione passo W
+  fuori percorso: atteso ((35, 51), 13, 13) sono ((35, 51), 12, 13) azione passo W
+   piede_cascata {'ok': True, 'pos': ((35, 51), 12, 13), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+  cascata {'testi': ['{05} una grande cascata. Vuoi usare CASCATA?', 'BRELOOM usa CASCATA.'], 'pos': ((35, 51), 12, 9), 'surf': True}
+  fuori percorso: atteso ((35, 51), 12, 8) sono ((35, 51), 12, 7) azione passo N
+   riva_sorgente {'ok': True, 'pos': ((35, 51), 10, 8), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   cartello (9, 5) ['SORGENTE DEL BIDENTE Qui nasce il fiume che riempie il lago.']
+  palla {'testi': ['AAAAAAA trova: ACQUA MAGICA!', 'AAAAAAA mette ACQUA MAGICA nella tasca STRUMENTI.'], 'borsa_d1': [(209, 2)], 'oggetti': [], 'nascosto': 1, 'preso': 0, 'acqua': 1, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+FINE sorgente
+PROVA vecchio64 VBA-M Pokemon_Romagna_0_65.gba t65_crea64.sav
+   {'titolo': ((35, 51), 24, 41), 'var_nuova': 1, 'dopo_4s': {'pos': ((35, 51), 24, 41), 'var_nuova': 1, 'oggetti': [((31, 34), 119), ((31, 45), 55)], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}}
+   cammina {'ok': True, 'pos': ((35, 51), 24, 45), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+   verso_3550 {'ok': True, 'pos': ((35, 50), 18, 3), 'lotte': [], 'nascosto': 1, 'preso': 0, 'acqua': 0, 'allenatori': {'GIANNI': 0, 'ERMES': 0, 'RECLUTA_DIGA': 0, 'RECLUTA_RIVA': 0, 'CORRADO': 0}}
+FINE vecchio64

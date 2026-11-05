@@ -75,6 +75,20 @@ def apri(start, fix, nome=None):
     return g
 
 
+def chiudi(g, n=60):
+    """Come leg.chiudi_testi (solo B), ma a "Smettere di imparare ...?" risponde si' (A): dopo una lotta vinta un
+    Pokemon puo' voler imparare una mossa, e con il solo B la domanda si ripete."""
+    vis = []
+    for i in range(n):
+        t = leg.testo(g)
+        if t and (not vis or vis[-1] != t): vis.append(t)
+        if vai.ow(g) and g.e.ram(0x03000e41, 1)[0] == 0:
+            g.e.run(30)
+            if vai.ow(g) and g.e.ram(0x03000e41, 1)[0] == 0: break
+        g.key(A if 'Smettere di imparare' in t else B, 3, 40)
+    return vis
+
+
 def in_lotta(g):
     return not vai.ow(g)
 
@@ -85,7 +99,7 @@ def vai_e(g, es, nome, mappa, x, y, ab=AB, accanto=True):
     for _ in range(4):
         ok = vai.vai(g, mappa, x, y, ab, accanto=accanto)
         if ok or vai.ow(g): break
-        info = leg.ko(g); lotte.append(sorted({(i[3], i[4]) for i in info})); leg.chiudi_testi(g, 20)
+        info = leg.ko(g); lotte.append(sorted({(i[3], i[4]) for i in info})); chiudi(g, 20)
     es[nome] = dict(ok=ok, pos=vai.stato(g)[:3], lotte=lotte, **flags(g)); log('  ', nome, es[nome]); return ok
 
 
@@ -107,7 +121,7 @@ def lotta_vista(g, es, nome, dn):
         g.key(A, 3, 30) if t else g.e.run(20)
     lotta = in_lotta(g)
     info = leg.ko(g) if lotta else []
-    dopo = leg.chiudi_testi(g, 20)
+    dopo = chiudi(g, 20)
     es['vista_' + nome] = dict(da=p0, testi=vis, lotta=lotta, squadra=sorted({(i[3], i[4]) for i in info}),
                                dopo=dopo, flag=pl.flag(g.e, 0x500 + tid), pos=vai.stato(g)[:3])
     log('  ', nome, es['vista_' + nome])
@@ -120,12 +134,12 @@ def lotta_parla(g, es, nome, chiave=None):
         ok = vai.vai(g, K, x, y, AB); cura(g)
         vis, lotta = leg.parla(g, dict(xy=(x, y), gfx=gfx))
         info = leg.ko(g) if lotta else []
-        dopo = leg.chiudi_testi(g, 30)
+        dopo = chiudi(g, 30)
         flag = pl.flag(g.e, 0x500 + tid)
         tentativi.append(dict(arrivo=ok, testi=vis, lotta=lotta, squadra=sorted({(i[3], i[4]) for i in info}),
                               dopo=dopo, flag=flag))
         if flag or not lotta: break
-    vis2, lotta2 = leg.parla(g, dict(xy=(x, y), gfx=gfx)); leg.chiudi_testi(g, 10)
+    vis2, lotta2 = leg.parla(g, dict(xy=(x, y), gfx=gfx)); chiudi(g, 10)
     es[chiave or 'lotta_' + nome] = dict(tentativi=tentativi, flag=flag, di_nuovo=vis2, di_nuovo_lotta=lotta2, **flags(g))
     log('  ', nome, es[chiave or 'lotta_' + nome])
 
@@ -149,11 +163,11 @@ def prima():
     for nome, (x, y) in dict(cartello_3550=(16, 31)).items():
         es[nome] = leggi_testi(g, (35, 50), x, y)
     vai.vai(g, (35, 50), 25, 6, AB); vis, _ = leg.parla(g, dict(xy=(25, 6), gfx=55))
-    es['custode_3550'] = vis + leg.chiudi_testi(g, 10); log('   custode 35.50', es['custode_3550'])
+    es['custode_3550'] = vis + chiudi(g, 10); log('   custode 35.50', es['custode_3550'])
     vai_e(g, es, 'arrivo_3551', K, 24, 60, accanto=False)
     es['oggetti_arrivo'] = oggetti(g); es['gyarados_arrivo'] = gyarados_presente(g)
     es['cartello_diga'] = leggi_testi(g, K, 22, 39)
-    vai.vai(g, K, 31, 45, AB); vis, _ = leg.parla(g, dict(xy=(31, 45), gfx=55)); es['custode_prima'] = vis + leg.chiudi_testi(g, 10)
+    vai.vai(g, K, 31, 45, AB); vis, _ = leg.parla(g, dict(xy=(31, 45), gfx=55)); es['custode_prima'] = vis + chiudi(g, 10)
     log('   custode', es['custode_prima'])
     vai_e(g, es, 'centrale', (35, 52), 14, 25, accanto=False)
     vai_e(g, es, 'uscita_centrale', K, 28, 44, accanto=False)
@@ -182,12 +196,12 @@ def prima():
         if in_lotta(g): break
         g.key(A, 3, 40)
     info = leg.ko(g) if in_lotta(g) else []
-    dopo = leg.chiudi_testi(g, 40)
+    dopo = chiudi(g, 40)
     es['corrado'] = dict(testi=vis, lotta=bool(info), squadra=sorted({(i[3], i[4]) for i in info}), dopo=dopo,
                          gyarados=gyarados_presente(g), oggetti=oggetti(g), **flags(g))
     log('  corrado', es['corrado'])
-    vis, _ = leg.parla(g, dict(xy=(40, 15), gfx=196)); es['corrado_dopo'] = vis + leg.chiudi_testi(g, 10)
-    vai.vai(g, K, 31, 45, AB); vis, _ = leg.parla(g, dict(xy=(31, 45), gfx=55)); es['custode_dopo'] = vis + leg.chiudi_testi(g, 10)
+    vis, _ = leg.parla(g, dict(xy=(40, 15), gfx=196)); es['corrado_dopo'] = vis + chiudi(g, 10)
+    vai.vai(g, K, 31, 45, AB); vis, _ = leg.parla(g, dict(xy=(31, 45), gfx=55)); es['custode_dopo'] = vis + chiudi(g, 10)
     vai_e(g, es, 'coronamento', K, 22, 34, accanto=False)
     leg.salva(g); g.e.close(); shutil.copy(g.sav, os.path.join(PLAY, 't65_prima_fine%s.sav' % ('_vbam' if VBAM else '')))
     g = leg.ricarica(g.sav)
@@ -244,26 +258,27 @@ def gyarados():
     vai_e(g, es, 'al_gyarados', K, 22, 27, AB2)
     es['in_surf'] = bool(g.e.ram(0x02037590, 1)[0] & 8)
     cura(g); vis, lotta = leg.parla(g, GY); es['parla'] = dict(testi=vis, lotta=lotta)
-    leg.fuggi(g); vis = leg.chiudi_testi(g)
+    leg.fuggi(g); vis = chiudi(g)
     es['fuga'] = dict(testi=vis, presente=gyarados_presente(g), pos=vai.stato(g)[:3], **flags(g)); log('  fuga', es['fuga'])
     cura(g); vis, lotta = leg.parla(g, GY)
-    info = leg.ko(g) if lotta else []; vis2 = leg.chiudi_testi(g, 40)
+    info = leg.ko(g) if lotta else []; vis2 = chiudi(g, 40)
     es['ko'] = dict(testi=vis + vis2, lotta=lotta, turni=len(info), avversario=sorted({(i[3], i[4]) for i in info}),
                     presente=gyarados_presente(g), pos=vai.stato(g)[:3], **flags(g)); log('  KO', es['ko'])
     if vai.stato(g)[0] != K: vai_e(g, es, 'torna', K, 22, 27, AB2)
     cura(g); vis, lotta = leg.parla(g, GY)
     n0 = len(g.party())
     if lotta:
-        leg.menu_lotta(g); g.throw(); vis2 = leg.chiudi_testi(g, 40)
+        leg.menu_lotta(g); g.throw(); vis2 = chiudi(g, 40)
     else: vis2 = []
     sq = leg.specie_squadra(g)
     es['cattura'] = dict(testi=vis + vis2, lotta=lotta, squadra=sq, livello=g.party()[-1] if len(g.party()) > n0 else None,
                          cromatico=shiny(g, len(g.party()) - 1) if len(g.party()) > n0 else None,
                          presente=gyarados_presente(g), oggetti=oggetti(g), **flags(g)); log('  cattura', es['cattura'])
-    vis, _ = leg.parla(g, GY); es['parla_dopo'] = vis + leg.chiudi_testi(g, 10)
+    try: vis, _ = leg.parla(g, GY); es['parla_dopo'] = vis + chiudi(g, 10)
+    except KeyError: es['parla_dopo'] = 'non accanto: %s' % (vai.stato(g)[:3],)
     vai_e(g, es, 'verso_corrado', K, 39, 15, AB2, accanto=False)
-    vis, _ = leg.parla(g, dict(xy=(40, 15), gfx=196)); es['corrado_calmo'] = vis + leg.chiudi_testi(g, 10)
-    vai.vai(g, K, 31, 45, AB2); vis, _ = leg.parla(g, dict(xy=(31, 45), gfx=55)); es['custode_calmo'] = vis + leg.chiudi_testi(g, 10)
+    vis, _ = leg.parla(g, dict(xy=(40, 15), gfx=196)); es['corrado_calmo'] = vis + chiudi(g, 10)
+    vai.vai(g, K, 31, 45, AB2); vis, _ = leg.parla(g, dict(xy=(31, 45), gfx=55)); es['custode_calmo'] = vis + chiudi(g, 10)
     log('  testi dopo', es['corrado_calmo'], es['custode_calmo'])
     leg.salva(g); g.e.close(); g = leg.ricarica(g.sav)
     es['ricarica'] = dict(pos=vai.stato(g)[:3], gyarados=gyarados_presente(g), squadra=leg.specie_squadra(g), **flags(g))
@@ -286,9 +301,19 @@ def sorgente():
     es = dict(inizio=dict(borsa_d1=[x for x in borsa(g) if x[0] == 0xd1], **flags(g)))
     AB3 = AB | {'surf', 'cascata'}
     vai_e(g, es, 'senza_cascata', K, 10, 8, AB | {'surf'}, accanto=False)          # deve fallire
-    vai_e(g, es, 'riva_sorgente', K, 10, 8, AB3, accanto=False)
+    # ai piedi della cascata del Bidente (12,13) in SURF; A verso la cascata, "si'": si risale fino al laghetto alto
+    vai_e(g, es, 'piede_cascata', K, 12, 13, AB | {'surf'}, accanto=False)
+    vai.guarda(g, 12, 12); g.key(A, 3, 60); vis = []
+    for i in range(80):
+        t = leg.testo(g)
+        if t and (not vis or vis[-1] != t): vis.append(t)
+        if i > 5 and vai.ow(g) and g.e.ram(0x03000e41, 1)[0] == 0 and vai.stato(g)[2] < 10: break
+        g.key(A, 3, 40) if '?' in t or i < 4 else g.e.run(30)
+    g.e.run(60)
+    es['cascata'] = dict(testi=vis, pos=vai.stato(g)[:3], surf=bool(g.e.ram(0x02037590, 1)[0] & 8)); log('  cascata', es['cascata'])
+    vai_e(g, es, 'riva_sorgente', K, 10, 8, AB | {'surf'}, accanto=False)
     es['cartello'] = leggi_testi(g, K, 9, 5)
-    vai.vai(g, K, 9, 8, AB3); vai.guarda(g, 9, 8); g.key(A, 3, 60); vis = leg.chiudi_testi(g, 30)
+    vai.vai(g, K, 9, 8, AB3); vai.guarda(g, 9, 8); g.key(A, 3, 60); vis = chiudi(g, 30)
     es['palla'] = dict(testi=vis, borsa_d1=[x for x in borsa(g) if x[0] == 0xd1], oggetti=oggetti(g), **flags(g))
     log('  palla', es['palla'])
     leg.salva(g); g.e.close(); g = leg.ricarica(g.sav)
@@ -309,7 +334,7 @@ def vecchio(savname):
     log('PROVA', PARTE, 'VBA-M' if VBAM else 'mGBA', os.path.basename(ROM), savname)
     g = leg.ricarica(shutil.copy(os.path.join(PLAY, savname), os.path.join(PLAY, 'leg_tmp.sav')))
     es = dict(titolo=vai.stato(g)[:3], var_nuova=g.var(NUOVA))
-    g.e.run(240); leg.chiudi_testi(g, 5)
+    g.e.run(240); chiudi(g, 5)
     es['dopo_4s'] = dict(pos=vai.stato(g)[:3], var_nuova=g.var(NUOVA), oggetti=oggetti(g), **flags(g))
     log('  ', es)
     vai_e(g, es, 'cammina', K, 24, 45, accanto=False)

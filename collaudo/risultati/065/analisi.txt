@@ -1,0 +1,43 @@
+== abilita: -
+  35.51:24,42 raggiunta in 22 passi; da (24, 43); surf=False; mappe: 35.50 > 35.51
+  35.52:14,25 raggiunta in 29 passi; da (14, 26); surf=False; mappe: 35.50 > 35.51 > 35.52
+  35.51:12,35 raggiunta in 41 passi; da (13, 35); surf=False; mappe: 35.50 > 35.51
+  35.51:31,35 raggiunta in 36 passi; da (30, 35); surf=False; mappe: 35.50 > 35.51
+  35.51:40,28 raggiunta in 52 passi; da (39, 28); surf=False; mappe: 35.50 > 35.51
+  35.51:40,16 raggiunta in 64 passi; da (39, 16); surf=False; mappe: 35.50 > 35.51
+  35.51:22,27 NON raggiunta
+  35.51:9,8 NON raggiunta
+  35.51:9,5 NON raggiunta
+== abilita: surf
+  35.51:24,42 raggiunta in 22 passi; da (24, 43); surf=False; mappe: 35.50 > 35.51
+  35.52:14,25 raggiunta in 29 passi; da (14, 26); surf=False; mappe: 35.50 > 35.51 > 35.52
+  35.51:12,35 raggiunta in 41 passi; da (13, 35); surf=False; mappe: 35.50 > 35.51
+  35.51:31,35 raggiunta in 36 passi; da (30, 35); surf=False; mappe: 35.50 > 35.51
+  35.51:40,28 raggiunta in 52 passi; da (39, 28); surf=False; mappe: 35.50 > 35.51
+  35.51:40,16 raggiunta in 64 passi; da (39, 16); surf=False; mappe: 35.50 > 35.51
+  35.51:22,27 raggiunta in 39 passi; da (23, 27); surf=True; mappe: 35.50 > 35.51
+  35.51:9,8 NON raggiunta
+  35.51:9,5 NON raggiunta
+== abilita: surf,cascata
+  35.51:24,42 raggiunta in 22 passi; da (24, 43); surf=False; mappe: 35.50 > 35.51
+  35.52:14,25 raggiunta in 29 passi; da (14, 26); surf=False; mappe: 35.50 > 35.51 > 35.52
+  35.51:12,35 raggiunta in 41 passi; da (13, 35); surf=False; mappe: 35.50 > 35.51
+  35.51:31,35 raggiunta in 36 passi; da (30, 35); surf=False; mappe: 35.50 > 35.51
+  35.51:40,28 raggiunta in 52 passi; da (39, 28); surf=False; mappe: 35.50 > 35.51
+  35.51:40,16 raggiunta in 64 passi; da (39, 16); surf=False; mappe: 35.50 > 35.51
+  35.51:22,27 raggiunta in 39 passi; da (23, 27); surf=True; mappe: 35.50 > 35.51
+  35.51:9,8 raggiunta in 71 passi; da (10, 8); surf=False; mappe: 35.50 > 35.51
+  35.51:9,5 raggiunta in 74 passi; da (10, 5); surf=False; mappe: 35.50 > 35.51
+== abilita: surf,spacca,taglio,forza,corsa,cross,sub,flash
+  35.51:24,42 raggiunta in 22 passi; da (24, 43); surf=False; mappe: 35.50 > 35.51
+  35.52:14,25 raggiunta in 29 passi; da (14, 26); surf=False; mappe: 35.50 > 35.51 > 35.52
+  35.51:12,35 raggiunta in 41 passi; da (13, 35); surf=False; mappe: 35.50 > 35.51
+  35.51:31,35 raggiunta in 36 passi; da (30, 35); surf=False; mappe: 35.50 > 35.51
+  35.51:40,28 raggiunta in 52 passi; da (39, 28); surf=False; mappe: 35.50 > 35.51
+  35.51:40,16 raggiunta in 64 passi; da (39, 16); surf=False; mappe: 35.50 > 35.51
+  35.51:22,27 raggiunta in 39 passi; da (23, 27); surf=True; mappe: 35.50 > 35.51
+  35.51:9,8 NON raggiunta
+  35.51:9,5 NON raggiunta
+== ritorno: da 35.51 (24,41) a Forli e al Sentiero del Fumaiolo? (solo guide di 35.50: warp di script, non contati)
+  35.50:20,33 raggiunta in 55 passi; da (19, 33); surf=False; mappe: 35.51 > 35.50
+  35.50:31,33 raggiunta in 66 passi; da (30, 33); surf=False; mappe: 35.51 > 35.50

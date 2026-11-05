@@ -1,0 +1,4 @@
+1) righe di disegno della bozza: 75 - mancanti nel modulo: 0
+2) caselle diverse fra bozza e modulo: 5 [(9, 5), (10, 2), (23, 36), (24, 36), (25, 36)]
+3) blocchi della ROM diversi dalla tela del modulo: 3 [(23, 61), (24, 61), (25, 61)]
+TUTTO OK

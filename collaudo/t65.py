@@ -89,6 +89,23 @@ def chiudi(g, n=60):
     return vis
 
 
+def lotta(g):
+    """leg.ko fino alla fine della lotta. Se dopo un KO il pilota resta nel menu della squadra (in VBA-M a volte
+    apre la scheda del Pokemon invece di mandarlo in campo): B esce dalla scheda, A su "Cosa vuoi fare?" lo manda
+    in campo, poi si continua a lottare."""
+    info = []
+    for _ in range(8):
+        info += leg.ko(g)
+        if vai.ow(g): break
+        for _ in range(20):
+            t = leg.testo(g)
+            if g.cb2() == pl.BATCB and g.e.r('r32', 0x3005d60) == pl.ACT: break
+            if vai.ow(g): break
+            if 'Natura' in t: g.key(B, 3, 40)
+            else: g.key(A, 3, 40)
+    return info
+
+
 def in_lotta(g):
     return not vai.ow(g)
 
@@ -119,10 +136,10 @@ def lotta_vista(g, es, nome, dn):
         if in_lotta(g): break
         if i > 10 and vai.ow(g) and g.e.ram(0x03000e41, 1)[0] == 0 and not t: g.e.run(20)
         g.key(A, 3, 30) if t else g.e.run(20)
-    lotta = in_lotta(g)
-    info = leg.ko(g) if lotta else []
+    lotta_ = in_lotta(g)
+    info = lotta(g) if lotta_ else []
     dopo = chiudi(g, 20)
-    es['vista_' + nome] = dict(da=p0, testi=vis, lotta=lotta, squadra=sorted({(i[3], i[4]) for i in info}),
+    es['vista_' + nome] = dict(da=p0, testi=vis, lotta=lotta_, squadra=sorted({(i[3], i[4]) for i in info}),
                                dopo=dopo, flag=pl.flag(g.e, 0x500 + tid), pos=vai.stato(g)[:3])
     log('  ', nome, es['vista_' + nome])
 
@@ -180,8 +197,8 @@ def prima():
     # CORRADO prima della seconda recluta: rifiuta la lotta (si passa lungo x=39, fuori dalla vista della recluta,
     # che guarda in basso da 40,27 per 3 caselle)
     vai_e(g, es, 'verso_corrado', K, 39, 15, accanto=False)
-    vis, lotta = premi_a(g, 40, 15)
-    es['corrado_presto'] = dict(testi=vis, lotta=lotta, **flags(g)); log('  corrado presto', es['corrado_presto'])
+    vis, lotta_p = premi_a(g, 40, 15)
+    es['corrado_presto'] = dict(testi=vis, lotta=lotta_p, **flags(g)); log('  corrado presto', es['corrado_presto'])
     vai_e(g, es, 'sotto_recluta', K, 39, 31, accanto=False)
     passo(g, 'R'); es['sotto_recluta']['dopo_passo'] = vai.stato(g)[:3]
     lotta_vista(g, es, 'RECLUTA_RIVA', 'U')
@@ -195,7 +212,7 @@ def prima():
         if t and (not vis or vis[-1] != t): vis.append(t)
         if in_lotta(g): break
         g.key(A, 3, 40)
-    info = leg.ko(g) if in_lotta(g) else []
+    info = lotta(g) if in_lotta(g) else []
     dopo = chiudi(g, 40)
     es['corrado'] = dict(testi=vis, lotta=bool(info), squadra=sorted({(i[3], i[4]) for i in info}), dopo=dopo,
                          gyarados=gyarados_presente(g), oggetti=oggetti(g), **flags(g))

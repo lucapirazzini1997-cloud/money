@@ -22,6 +22,9 @@ Dopo (0.65), dalla bozza 2 approvata (bozze/ridracoli.py; il disegno e' copiato 
   - Incontri: l'erba prende la tabella di terra di 35.50 (stessa zona); acqua e pesca restano quelle di prima.
   - Testi di 35.50 (guida, cartello, custode) riscritti in due righe; la missione della centrale resta facoltativa.
   - Vecchi salvataggi fatti dentro 35.51: come nella 0.64, una volta sola si riparte dalla strada sotto la diga.
+Differenze dalla bozza, tutte per poter giocare (collaudo/confronto_bozza_065.py): frecce d'uscita (23-25,61);
+primo gradino della scala (23-25,36), che nella bozza era muro; cartello e Poke Ball della sorgente spostati da
+(10,2) e (8,4), caselle di roccia irraggiungibili, alla riva sopra la cascata (9,5) e (9,8).
 """
 import struct
 import engine as E

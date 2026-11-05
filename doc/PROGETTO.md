@@ -1,6 +1,6 @@
 # Pokémon Romagna — documento di progetto
 
-Stato alla **0.64** (SHA-256 `82ac35d2…7f70`, collaudata). Lotto 2 chiuso (0.59–0.61). Lotto 3 in corso: 0.62 MN e strumenti chiave (tutti si ottengono; testi di FLASH e SUB corretti); 0.63 Cesena ovest (Ippodromo sul percorso dalla prima visita, rocce di SPACCAROCCIA a Monte Spaccato al posto del controllo del casello); 0.64 la Campagna Cesenate al posto di Monte Spaccato (35.101 ridisegnata dalla bozza 4 approvata). Prossime: 0.65 Ridracoli ridisegnata con l'evento del Gyarados rosso (bozza 2 approvata), poi nuovo Fumaiolo (bozza approvata), treno regionale con scena, collegamenti e ostacoli, barriere.
+Stato alla **0.65** (SHA-256 `ad1bfa2d…9a94`, collaudata). Lotto 2 chiuso (0.59–0.61). Lotto 3 in corso: 0.62 MN e strumenti chiave (tutti si ottengono; testi di FLASH e SUB corretti); 0.63 Cesena ovest (Ippodromo sul percorso dalla prima visita, rocce di SPACCAROCCIA a Monte Spaccato al posto del controllo del casello); 0.64 la Campagna Cesenate al posto di Monte Spaccato (35.101 ridisegnata dalla bozza 4 approvata); 0.65 Ridracoli ridisegnata (35.51, bozza 2 approvata) con il TEAM EMILIA e il GYARADOS rosso. Prossime: nuovo Fumaiolo (bozza approvata), treno regionale con scena, collegamenti e ostacoli, barriere.
 Questo è il documento di riferimento: trama, mappe, eventi, indirizzi tecnici e regole di lavoro. La storia delle versioni è in `STORIA_VERSIONI.md`, le prove in emulatore in `COLLAUDO.md`.
 
 ## 1. Come è fatto il progetto
@@ -30,7 +30,7 @@ Ogni tappa controlla lo SHA-256 atteso e si ferma se non coincide.
 |---|---|---|---|---|
 | 1 | `basi/rom047.gba` + `basi/base31.gba` | `storico_054/build54.py` (rifà 0.48 → 0.54 in sequenza) | 0.54 | `a0653255…2906` |
 | 2 | 0.54 | `pezzo_055/patch_054_055.bps` | 0.55 | `2bfaa8a3…4ad6` |
-| 3 | 0.55 | `versioni/v056_cesena_rivale.py`, `v057_spazio.py`, `v058_registri.py`, `v059_cani.py`, `v060_kyogre_uccelli.py`, `v061_regi_mitici.py`, `v062_strumenti.py`, `v063_cesena_ovest.py`, `v064_campagna_cesenate.py` | 0.56–0.64 | `b09eb697…495f`, `47f53668…97c4`, `47f53668…97c4`, `aee694c2…ec1d`, `d9ca40b3…183a`, `f3e78025…3cbe`, `b8ebd091…9080`, `d1fee9f9…6187`, `82ac35d2…7f70` |
+| 3 | 0.55 | `versioni/v056_cesena_rivale.py`, `v057_spazio.py`, `v058_registri.py`, `v059_cani.py`, `v060_kyogre_uccelli.py`, `v061_regi_mitici.py`, `v062_strumenti.py`, `v063_cesena_ovest.py`, `v064_campagna_cesenate.py`, `v065_ridracoli.py` | 0.56–0.64 | `b09eb697…495f`, `47f53668…97c4`, `47f53668…97c4`, `aee694c2…ec1d`, `d9ca40b3…183a`, `f3e78025…3cbe`, `b8ebd091…9080`, `d1fee9f9…6187`, `82ac35d2…7f70` |
 | 4 | ultima | `registri/genera.py` (modo rigoroso) | registri | — |
 | 5 | ultima | `registri/controlli.py` (allenatori, raggiungibilità, risorse, budget) | registri, `out/rapporto_build.json` | — |
 
@@ -83,7 +83,7 @@ La trama attuale è approvata. Non va cambiata senza chiedere, salvo le richiest
 | 8 | Faenza (34.85) | Museo della ceramica; 5ª medaglia **ADA**. | Campagna Ravennate (35.102) → Ravenna |
 | 9 | Ravenna (34.94, 34.96) | Si arriva da Faenza o dal Lido (Pianura Romagnola 34.93). Arco del Team Emilia: flag **0x2ac** a missione conclusa. Mirabilandia (34.114) e Safari (gruppo 26). | Casello 35.98 (richiede 0x2ac) → Via dei Canali (35.70) → Campagne di Lugo (35.71) |
 | 10 | Lugo (34.110/34.111) | Trasmettitore; 6ª medaglia **ALIDA**. | Sentiero → Galleria dei Sigilli (35.74, i tre Regi) → Faenza |
-| 11 | Faenza → Imola (35.1) | Ponte Santerno (35.0) con ALDO e il tecnico, che si sposta con la 6ª medaglia; 7ª medaglia **RINO**; MN FORZA. | Ritorno a Cesena |
+| 11 | Faenza → Imola (35.1) | Ponte Santerno (35.0) con ALDO e il tecnico, che si sposta con la 6ª medaglia; 7ª medaglia **RINO**; MN FORZA. Facoltativo, dalla 7ª medaglia: **Ridracoli** (guida di Forlì 34.68 o Sentiero del Fumaiolo 35.10 → 35.50 → 35.51, dalla 0.65): TEAM EMILIA alla diga (due reclute, poi CORRADO), il GYARADOS rosso nel lago, la CENTRALE (35.52) con la missione delle tre guardie; sopra la cascata la sorgente del Bidente (CASCATA). | Ritorno a Cesena |
 | 12 | Cesena sud | Sentiero del Fumaiolo (35.10): ALDO, Team Emilia, Groudon nel Cuore del Fumaiolo (35.17) → Passo dei Draghi (35.18) → Bagno di Romagna (35.19), 8ª medaglia **LEDA**. | Via Vittoria |
 | 13 | Finale | Via Vittoria (35.27) con ALDO → Lega Romagna (35.34). | Post-Lega |
 | — | Post-Lega | San Marino (35.53–35.58). Decisioni prese: **San Marino e Bologna restano dopo la Lega**; a Bologna c'è la sede del Team Emilia, con una post-trama. | — |
@@ -113,6 +113,7 @@ Tabella completa alla 0.61. **Regola del Lotto 2** (cani, Kyogre, uccelli, Regi,
 | Mewtwo | 70 | grotta 35.43 | Cesenatico 34.22, casella 48,33 (dalla 0.61 si entra davvero) | dopo la Lega; prima lo dice il testo | 0x4EF | sì (0.61) | provato (0.61), KO solo letto |
 | Rayquaza | 70 | monumento a Baracca, Lugo 34.110 | Lugo | compare con l'8ª medaglia | 0x4E3 | fuga e KO: "Puoi riprovare" (stesso testo); righe lunghe | letto |
 | Groudon | 50 | Cuore del Fumaiolo 35.17 | evento della storia (Team Emilia) | storia | 0x4CC | KO: resta e si ricattura; fuga: "potrai tornare", ma senza la flag 0x8C1 l'oggetto sparisce fino al rientro; testi di 3–4 righe | letto |
+| Gyarados cromatico | 40 | lago di Ridracoli 35.51 (22,27) | guida di Forlì o Sentiero del Fumaiolo (7ª medaglia) → 35.50 → 35.51; SURF | compare quando si batte CORRADO del TEAM EMILIA (prima le due reclute) | 0x2C (oggetto: 0x28) | sì (0.65): cattura, fuga, KO; sempre cromatico (nativo 0x09730055 con 0x8004/0x8005) | provato (0.65) |
 | Celebi | 50 | santuario di legno nella Pineta del Savio 0.16 (cartello a 32,5) | si posa la **GS BALL** nell'incavo (la dà il PROF. PINO, il Birch della Romagna, nel laboratorio di Lido di Savio 1.4, appena si è Campione) | dopo la Lega (0x864) e con la GS BALL | 0x4E4 | sì: se non lo catturi svanisce, la GS BALL resta e si riprova | letto; provato dall'utente nella 0.56 |
 | Lugia / Ho-Oh | 70 | Monte Spaccato 26.87 / 26.75 (Isola Ombelico di Smeraldo) | MOTONAVE dal porto di Ravenna (34.96) dopo la Lega → 26.67 | dopo la Lega | 0x320 / 0x321 (di Smeraldo) | script di Smeraldo | letto, raggiungibilità da provare |
 | (Regirock, Regice, Registeel di Smeraldo) | 40 | Desert Ruins 24.6, Island Cave 24.67, Ancient Tomb 24.68 | uscite in 0.26, 0.20, 0.35 | — | 0x3A7–0x3A9 | — | **non raggiungibili a piedi** dalla partenza (`analisi/percorso.py`); il registro della build, più ottimista, le conta: da chiarire nel Lotto 3 |
@@ -124,7 +125,7 @@ Tabella completa alla 0.61. **Regola del Lotto 2** (cani, Kyogre, uccelli, Regi,
 
 **Cani leggendari (0.59):** si catturano nel Safari del gruppo 26, a cui porta Ravenna (uscita 10 → 26.3, ingresso libero, Poké Ball normali), già alla 5ª medaglia: servono TAGLIO, SPACCAROCCIA e SURF (per Suicune). Una cattura sola; dopo fuga, BOATO o KO il Pokémon resta al suo posto e si ritenta subito. Il Safari della 0.51 (34.115, 35.44, 35.45) resta scollegato fino al Lotto 10: i suoi cani hanno le stesse flag, quindi non ci sono doppioni.
 
-**Shiny:** Torkoal 34.33 (Parco della Rocca di Cesena), Skarmory 34.38 (Cesenatico), Farfetch'd 34.47 (Arco di Rimini), Shuckle 35.61 (Forlimpopoli), giostre di Mirabilandia con Ponyta, Aipom, Marill (35.46–35.48), Smeargle Lv15 dal pittore di Cesena (0.56).
+**Shiny:** Gyarados 35.51 (Ridracoli, 0.65), Torkoal 34.33 (Parco della Rocca di Cesena), Skarmory 34.38 (Cesenatico), Farfetch'd 34.47 (Arco di Rimini), Shuckle 35.61 (Forlimpopoli), giostre di Mirabilandia con Ponyta, Aipom, Marill (35.46–35.48), Smeargle Lv15 dal pittore di Cesena (0.56).
 
 **Doni:** starter a Lido 1.4, Eevee 34.0, starter di Kanto 34.8, Hitmonchan/Hitmonlee 34.25, starter di Johto 34.48, Miltank 35.63 (Capocolle), Chansey 35.66 (Forlimpopoli).
 
@@ -136,17 +137,17 @@ Tabella completa alla 0.61. **Regola del Lotto 2** (cani, Kyogre, uccelli, Regi,
 
 - **Conflitto latente (0.58):** 0x78A (rosone "pietralunare") è anche la flag di Danielle, allenatrice della palestra di Lavaridge di Smeraldo (4.1). Oggi la 4.1 non si raggiunge; se una versione la collega la build fallisce e Danielle va spostata su un numero libero. Le flag 0x792–0x794, 0x7AA–0x7AD e 0x7B0–0x7B3 sono di allenatori della tabella delle rivincite (servono il Pokénav, assente): rischio basso.
 
-## 4b. Risorse rimaste (budget della 0.64)
+## 4b. Risorse rimaste (budget della 0.65)
 
 - **Spazio nella ROM:** la ROM è a 32 MB, il massimo del GBA, e non si allarga.
-  - Restano 1212 KB nelle zone dell'engine (la 0.59 ha usato 1119 byte, la 0.60 2580, la 0.61 circa 4,7 KB, la 0.62 e la 0.63 meno di 1 KB ciascuna, la 0.64 27 KB: un tileset nuovo).
+  - Restano 1177 KB nelle zone dell'engine (la 0.59 ha usato 1119 byte, la 0.60 2580, la 0.61 circa 4,7 KB, la 0.62 e la 0.63 meno di 1 KB ciascuna, la 0.64 27 KB: un tileset nuovo; la 0.65 35 KB: tileset, blocchi della mappa 44×62, sprite e tavolozza del GYARADOS).
   - Analisi e cose non recuperate: `relazioni/RELAZIONE_0_57.md` §3.
   - Il gruppo 0 **non** è un insieme di vecchie mappe libere: gran parte è usata dalla Romagna (0.9 Lido, 0.10 Cervia, 0.27 Mirabilandia, 0.28 Safari di Ravenna); i nomi delle zone sono riscritti, per questo 0.12 (Lavaridge) si chiama IMOLA.
   - Posti per mappe nuove: 34.10, 34.13, 34.18, 24.39–24.41, 24.50–24.51, 24.74–24.76.
-- **Flag:** 43 nel pool (40 sicure 0x20–0x4FF + 3 di allenatore; la 0.63 ha preso 0x22, la 0.64 ha tolto dal pool le flag dei tre allenatori nuovi 462, 485, 486). Il motivo di ogni flag esclusa è in `registri/risorse_libere.json`.
-- **Variabili:** 46 sicure (la 0.64 ne ha presa una) (delle 90 "libere" di prima, 40 le usa il codice di Smeraldo: Repellente, giorni, lotteria…).
+- **Flag:** 37 nel pool, tutte sicure 0x20–0x4FF (la 0.63 ha preso 0x22, la 0.64 ha tolto dal pool le flag dei tre allenatori nuovi 462, 485, 486; la 0.65 ha preso 0x28, 0x2C, 0x34 e ha tolto dal pool le 3 flag di allenatore che vi restavano, ora dei suoi allenatori). Il motivo di ogni flag esclusa è in `registri/risorse_libere.json`.
+- **Variabili:** 45 sicure (la 0.64 e la 0.65 ne hanno presa una ciascuna) (delle 90 "libere" di prima, 40 le usa il codice di Smeraldo: Repellente, giorni, lotteria…).
 - **Strumenti:** 67 numeri liberi (`registri/strumenti.json`).
-- **Allenatori:** 15 numeri liberi (la 0.64 ha usato 462, 485, 486); 159 citati solo dal codice di Smeraldo (rivincite), da usare solo dopo un controllo.
+- **Allenatori:** 10 numeri liberi (la 0.64 ha usato 462, 485, 486; la 0.65 581, 633, 634, 734, 851); 159 citati solo dal codice di Smeraldo (rivincite), da usare solo dopo un controllo.
 
 ## 5. Indirizzi tecnici
 
@@ -185,3 +186,5 @@ Tabella completa alla 0.61. **Regola del Lotto 2** (cani, Kyogre, uccelli, Regi,
 15. **Strumenti chiave e MN (0.62):** CASCATA Safari Ravenna 26.3 (8ª medaglia), SUB Bagno di Romagna 35.26 (8ª), FLASH Grotta Granito 24.7 (dall'Appennino 0.21), BICI CROSS Cesenatico 34.42, AMO VECCHIO Cesenatico 34.22, AMO BUONO Rimini 34.44, SUPER AMO Ravenna 34.96 (5ª).
 16. **Oggetti nascosti da uno script di mappa (0.63).** Le rocce di Monte Spaccato hanno flag temporanee (0x11–0x13, azzerate a ogni cambio di mappa, come in Smeraldo); lo script d'ingresso (tipo 3) le alza se 0x22 è a 1. `analisi/percorso.py` non legge gli script di mappa: per pianificare si danno le flag come alzate (`--flag`, o `vai.FLAG_ALZATE` nel collaudo); quello che conta resta la prova a tasti.
 17. **Mappa ridisegnata al suo posto (0.64).** Se il layout è usato da una sola mappa e le dimensioni restano, i blocchi si riscrivono al loro posto e il tileset secondario nuovo (tela.Unione) si aggancia al layout. Il disegno della bozza approvata si copia nel modulo (congelato). I vecchi salvataggi fatti dentro la mappa possono stare su caselle che ora sono muri: si controlla con `collaudo/vecchie_pos_064.py`, e una variabile alzata dallo script d'ingresso (tipo 3) più uno script di frame (tipo 2) riporta una volta sola il giocatore a un punto sicuro. Lo script d'ingresso gira solo entrando da un'uscita, non con Continua.
+18. **Selvatico cromatico (0.65).** Il comando nativo 0x09730055 rifà il Pokémon nemico da 0x8004 (specie) e 0x8005 (livello): vanno impostati dopo `setwildbattle`. Senza, nel primo collaudo è uscito un BRELOOM di livello 0.
+19. **Collaudo con allenatori che vedono e cascate (0.65).** Un allenatore che si avvicina resta nella casella nuova fino al cambio di mappa, ma il pianificatore lo crede al suo posto: si passa a lato. `vai.py` non usa CASCATA: in t65 la salita si fa a tasti (A verso la cascata in SURF, sì).

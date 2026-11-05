@@ -48,6 +48,7 @@ cd .. && python3 build.py      # costruisce le ROM in out/
 | `t62.py` | collaudo della 0.62: i sette doni (MN e strumenti chiave) presi a tasti, controllo nella BORSA, ricarica, uscita e rientro; rifiuti del SUPER AMO senza 5ª medaglia e di SUB senza 8ª |
 | `t63.py` | collaudo della 0.63: Cesena → casello → Ippodromo → Monte Spaccato dalla prima visita; rocce e corridoi chiusi senza la 3ª medaglia; rocce rotte, passaggio aperto (flag 0x22), ricarica; vecchio salvataggio a Capocolle che torna a Cesena |
 | `t64.py` | collaudo della 0.64: Campagna Cesenate dalla prima visita (porta della casa, cartelli, roccia che rifiuta), lotte con i tre allenatori nuovi, roccia rotta e passaggio a 35.92, ricarica dentro la mappa; vecchi salvataggi veri della 0.63 e della 0.62 fatti dentro la mappa vecchia (`crea63` sulla ROM 0.63). `vecchie_pos_064.py`: caselle calpestabili nella mappa vecchia da cui nella nuova non si esce |
+| `t65.py` | collaudo della 0.65: Ridracoli dalla guida di Forlì (35.50 → 35.51), centrale, quattro allenatori (due reclute che vedono il giocatore), CORRADO che rifiuta e poi lotta, il GYARADOS che emerge; fuga, KO e cattura del GYARADOS cromatico, ricarica e rientro; sorgente con CASCATA (salita a tasti) e ACQUA MAGICA; vecchio salvataggio vero della 0.64 dentro la mappa (`crea64` sulla ROM 0.64). `testi_065.py`, `confronto_bozza_065.py`, `vecchie_pos_065.py`: controlli statici |
 | `t60.py`, `leg.py` | collaudo della 0.60 (Kyogre e uccelli) e funzioni comuni per le prove sui leggendari (fixture dichiarate: medaglie, mosse, Master Ball, posizione, allenatori) |
 | `t59.py`, `vai.py` | collaudo della 0.59 (cani leggendari) e navigatore: porta il giocatore dove serve solo con i tasti, con il percorso di `analisi/percorso.py`, combattendo le lotte selvatiche |
 | `regressione.py` | **regressione** (dalla 0.58): stessa partita di prova su tutte le partenze, tabella dei risultati, confronto con una ROM di riferimento |
@@ -61,7 +62,7 @@ Esempio: `cd collaudo && python3 t56c.py` (consegna dei pennelli partendo da `t5
 ### Regressione
 
 ```sh
-python3 collaudo/regressione.py out/Pokemon_Romagna_0_64.gba --rif out/Pokemon_Romagna_0_63.gba
+python3 collaudo/regressione.py out/Pokemon_Romagna_0_65.gba --rif out/Pokemon_Romagna_0_64.gba
 ```
 
 - **Partenze:** i 13 savestate in mGBA, più un salvataggio vero fatto in gioco (menu → SALVA dal savestate `t56_reload`) e caricato con Continua in mGBA e in VBA-M.

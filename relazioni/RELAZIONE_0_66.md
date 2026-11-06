@@ -79,13 +79,13 @@
 **Script e risultati**
 - Lo script è `collaudo/t66.py`, con `leg.py` e `vai.py`. I risultati sono in `collaudo/risultati/066/` (json di ogni parte, `log_t66.txt`; riassunto con `collaudo/riassunto_t66.py`).
 - Ogni prova parte da un salvataggio fatto con SALVA in gioco e caricato con Continua dal titolo. In VBA-M si riparte dallo stesso `.sav` fatto in mGBA.
-- Tutte le corse sono sulla ROM finale `d794870a…4f84`.
+- Tutte le corse sono sulla ROM finale `d794870a…4f84` (lo SHA è in `regressione.md`; i log riportano il nome del file, rifatto dalla build con questo SHA). Le parti in VBA-M sono state fatte dopo tutte quelle in mGBA, ognuna dal suo `.sav` fatto in mGBA; nel log l'ordine delle parti VBA-M non è quello delle tabelle.
 
 **Fixture (scritture in RAM dichiarate, non prove):**
 - `aldo`: da `prog_imola.ss` (6 medaglie, BLAZIKEN 50 e BRELOOM 43). **7ª medaglia** (0x86D) e posizione a Cesena (34.17, 46,48), sopra gli eventi che portano al Sentiero.
-- `sentiero`: come sopra, più **ALDO già affrontato** (0x496: la sua lotta è nella parte `aldo`), **FORZA e SURF** a BRELOOM.
+- `sentiero`: come sopra, più **ALDO già affrontato** (0x496: la sua lotta è nella parte `aldo`), **FORZA e SURF** a BRELOOM; **squadra curata** all'inizio.
 - `santuario`: dal salvataggio finale di `sentiero` (fatto in gioco). **5 MASTER BALL**; **squadra curata** prima di ogni lotta (la squadra di prova ha due Pokémon).
-- **BASSI** (5 Pokémon, Lv 47–50): la squadra di prova perde. Il collaudo torna a uno stato fatto subito prima della lotta e alza le flag della vittoria (0x759 allenatore, 0x4C9, 0x4CA) come **fixture**: serve a provare il Cuore e il Passo, **la vittoria su BASSI non è provata**.
+- **BASSI** (5 Pokémon, Lv 47–50, letti dalla ROM; nella lotta registrata se ne vedono 3): la squadra di prova perde. Il collaudo torna a uno stato fatto subito prima della lotta e alza le flag della vittoria (0x759 allenatore, 0x4C9, 0x4CA) come **fixture**: serve a provare il Cuore e il Passo, **la vittoria su BASSI non è provata**.
 - `ridracoli`: 7ª medaglia, ALDO già affrontato, posizione in 35.50 vicino alla guida del sentiero orientale.
 - `crea65` (sulla ROM 0.65): 7ª medaglia e posizione nella vecchia 35.13 (16,20), prima di un SALVA vero.
 
@@ -102,12 +102,12 @@
 | Prova | mGBA | VBA-M |
 |---|---|---|
 | Arrivo (19,97); ALDO (0x496 a 1) non c'è | sì | sì |
-| Bacheca (17,98): la bacheca di prima; cartello (21,98), guida (21,96), guida per Ridracoli (17,96, "no"), cartello del rifugio (27,59): testi nuovi del §3 | sì | sì |
+| Bacheca (17,98): la bacheca di prima; cartello (21,98), guida (21,96), guida per Ridracoli (17,96, "no": testo di prima), cartello del rifugio (27,59): testi nuovi del §3 | sì | sì |
 | Porta del rifugio (33,37) → 35.11 e ritorno (33,39) | sì | sì |
 | Eremo: escursionista (9,73); missione di FORZA (5,73): "Una dimostrazione perfetta!", POZIONE MAX | sì | sì |
-| Masso (7,72) spinto con FORZA, grotta (7,71) → 35.12 (10,29); il masso del vecchio rompicapo non c'è; guida (18,27) | sì | sì |
+| Masso (7,72) spinto con FORZA (prova: si entra nella grotta), grotta (7,71) → 35.12 (10,29); il masso del vecchio rompicapo non c'è; guida (18,27) | sì | sì |
 | Scala (21,23) → 35.13 (20,36); incisione (23,35) e guida (21,34): testi | sì | sì |
-| Ritorno: scala → 35.12, freccia (10,29) → Sentiero (vedi note) | sì | sì |
+| Ritorno: scala → 35.12 (sì); freccia (10,29) → Sentiero: `torna_sentiero` è falso, il pilota resta sulla freccia; l'arrivo sul Sentiero è registrato dal passo dopo (`stele`), senza che il log dica da quale uscita | sì, al secondo comando | sì, al secondo comando |
 | Cima: stele del TEVERE (10,4): "Sulla stele è inciso…"; strumento (8,2): IPERPOZIONE, flag 0x140 | sì | sì |
 | SALVA e Continua: si resta (9,2), variabile 0x4052 = 1 | sì | sì |
 
@@ -115,7 +115,7 @@
 
 | Prova | mGBA | VBA-M |
 |---|---|---|
-| Grotta delle Sorgenti → ingresso nord di sinistra → Passo (14,40); un passo sulla scala (14,37): "Il passo verso BAGNO DI ROMAGNA è chiuso…", si torna a (14,39) | sì | sì |
+| Grotta delle Sorgenti → Passo (il pilota arriva in 14,38; l'arrivo in 14,40 e l'ingresso usato non sono registrati); un passo sulla scala (14,37): "Il passo verso BAGNO DI ROMAGNA è chiuso…", si torna a (14,39) | sì | sì |
 | Nodo del Sale: recluta battuta a tasti (tre Pokémon, Lv 44–45), "Hai spento nodo del sale…", 0x4C7; conduttore spento | sì | sì |
 | Nodo dell'Argilla: recluta battuta a tasti (tre Pokémon tra cui CLAYDOL, Lv 44–45), 0x4C8; conduttore spento | sì | sì |
 | Sala di BASSI: soccorso (cura); porta profonda prima di BASSI: "bloccata dall'impianto" | sì | sì |
@@ -155,6 +155,9 @@ Tutte le 17 partenze in mGBA e il salvataggio vero in mGBA e VBA-M girano e sono
 - Gli **incontri** selvatici delle mappe nuove: le tabelle sono quelle di prima, non provate a parte.
 - Il ritorno all'ingresso dei vecchi salvataggi è provato per la Grotta delle Sorgenti; per le altre 7 mappe è lo stesso script con un altro punto d'arrivo (letto).
 - Da Bagno giù per il Passo verso il santuario: letto (percorso), non provato a tasti.
+- L'ingresso al Sentiero dagli eventi di **33.18** (stesso script di 34.17, provato da 34.17); il ritorno dal Sentiero a **Cesena** dalle frecce (18–20,99); il viaggio con la **guida per Ridracoli** (Sentiero → 35.50).
+- **Testi vecchi con direzioni sbagliate** (trovati nella revisione, non corretti in questa versione per non cambiare la ROM collaudata; vanno nella 0.67): la guida del Cuore dopo GROUDON dice che il passo è "a sud-est del santuario" (ora è l'ingresso nord di sinistra); l'escursionista dell'incisione dice "l'argilla a est" (ora è a nord, a destra). Anche "non e ancora disponibile" della guida per Ridracoli è senza accento (testo di prima).
+- Screenshot prima e dopo delle mappe in emulatore: non ci sono; le immagini delle mappe sono quelle fatte dalla ROM (bozze approvate e immagine finale inviata in chat).
 
 ## 6. Strumenti di analisi
 
@@ -165,7 +168,7 @@ Tutte le 17 partenze in mGBA e il salvataggio vero in mGBA e VBA-M girano e sono
 | Richiesta | Stato |
 |---|---|
 | Mappe mostrate finite e approvate prima del modulo | **fatto**: Sentiero (bozza rimescolata) e le sette stanze approvate in chat; ritocchi per poter giocare dichiarati (§3.9) |
-| Il Fumaiolo: la storia va bene, la mappa va rifatta | **corretto e verificato**: storia, personaggi e script di prima, mappe nuove |
+| Il Fumaiolo: la storia va bene, la mappa va rifatta | **corretto e verificato**: storia, personaggi e script di prima, mappe nuove; due testi vecchi con direzioni da aggiornare (0.67) |
 | Sentiero non più uguale al Percorso 119 | **corretto**: pezzi rimescolati, colle dell'Eremo, sorgente del Tevere; i pezzi si riconoscono ancora |
 | Vecchi salvataggi | **verificato** con un salvataggio vero della 0.65 fatto dentro la vecchia grotta |
 | Testi in italiano, massimo 2 righe e 30 caratteri | **corretto** per i testi nuovi (`testi.txt`); restano lunghi i testi comuni del masso di FORZA di Smeraldo, non toccati |

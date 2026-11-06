@@ -4,7 +4,7 @@
 
 **Risultato:** `Pokemon_Romagna_0_65.gba`, SHA-256 `ad1bfa2d6eec44389edbb35a5e802dfe49fb7ede7aa3f5fc1ced63f9baa69a94`.
 - Patch BPS 0.64→0.65: `rom/Pokemon_Romagna_0_64_to_0_65.bps` (13342 byte), verificata riapplicandola (`consegna.sh`, log in `collaudo/risultati/065/consegna.txt`).
-- Modulo: `versioni/v065_ridracoli.py`. La build da zero rifà tutti gli SHA; lo zip senza `out/` ricostruito in una cartella pulita rifà lo stesso SHA (stesso log).
+- Modulo: `versioni/v065_ridracoli.py`. La build da zero rifà tutti gli SHA; lo zip senza `out/` ricostruito in una cartella pulita rifà lo stesso SHA (stesso log). Lo zip è stato fatto insieme a quello della 0.66, dallo stesso albero: contiene anche il modulo 0.66, e la cartella pulita rifà gli SHA della 0.65 e della 0.66.
 - Lo SHA è in `build.py` dopo il collaudo (§5).
 - **Salvataggi compatibili:** stessa mappa (35.51) con layout nuovo e più alta (da 44×34 a 44×62), una variabile nuova (a 0 nei vecchi salvataggi). Un salvataggio vero della 0.64 fatto dentro la vecchia 35.51 carica nella 0.65 e prosegue, in mGBA e in VBA-M (§5).
 
@@ -146,6 +146,7 @@ Tre scelte di storia erano rimaste aperte; senza risposta ho usato quelle annunc
 | **vecchio64**, salvataggio vero della 0.64 in 35.51 (35,29), oggi lago: dopo Continua nella 0.65 il giocatore è sulla strada sotto la diga (24,41), variabile 1; si cammina fino a (24,45); SALVA, Continua: si resta lì; si arriva a 35.50 | sì | sì |
 
 **Altre note sulle prove**
+- **ERMES in mGBA:** il primo tentativo di `lotta_ERMES` non si chiude (il pilota resta nei menu, flag 0); al secondo giro di `lotta_parla`, con la squadra curata di nuovo, la lotta si chiude e la flag va a 1.
 - Nella prima corsa di `gyarados` il Pokémon catturato era un **BRELOOM di livello 0**, cromatico: il comando nativo rifà il Pokémon da 0x8004/0x8005, che non avevo impostato. Corretto nel modulo (prima dello SHA), poi `prima` e `gyarados` rifatte sulla ROM corretta.
 - Dopo il KO del GYARADOS il BRELOOM di prova vuole imparare una mossa: il collaudo risponde "sì" a "Smettere di imparare…?" (solo B la faceva ripetere).
 - **CORRADO in VBA-M:** nelle prime due corse, quando BLAZIKEN va KO, il pilota apre la scheda di BRELOOM invece di mandarlo in campo e resta nel menu della squadra. La lotta si chiude poi da sola tra un tasto e l'altro: CORRADO battuto (flag a 1), GYARADOS visibile, testo "dopo" del custode, GYARADOS presente dopo Continua; però i testi del momento in cui emerge non sono stati registrati. Il collaudo ora esce dalla scheda (B) e manda il Pokémon in campo (A); alla terza corsa la lotta e i testi sono registrati come in mGBA. Le due corse scartate sono in `collaudo/risultati/065/corse_scartate/`.
@@ -173,6 +174,9 @@ Tutte le 17 partenze in mGBA e il salvataggio vero in mGBA e VBA-M girano e sono
 - Il **BAMBOLONE REGIROCK** delle basi segrete ora mostrerebbe il GYARADOS: non provato (letto).
 - Gli **incontri** dell'erba di 35.51 (tabella di 35.50) non sono stati provati a parte; le lotte selvatiche viste nelle prove sono partite camminando e in SURF.
 - La **guida del Sentiero del Fumaiolo** (35.10 → 35.50) non è stata usata in questa versione; non cambia.
+- La **guida di 35.50 per Forlì** (testo riscritto) non è stata usata per il viaggio: provato solo Forlì → 35.50.
+- L'**ACQUA MAGICA** dopo uscita e rientro dalla mappa: provata solo dopo SALVA e Continua.
+- Screenshot prima e dopo in emulatore: non ci sono; le immagini delle mappe sono quelle fatte dalla ROM.
 - La **missione della centrale** (35.52) non è stata rifatta: la mappa non cambia e la porta porta ancora lì (provato andata e ritorno).
 - Il testo della guida di Forlì (34.68: "Ingresso per sentiero di Ridracoli…") è ancora lungo: Forlì non è toccata da questa versione; va con le barriere e i testi lunghi.
 - Lo sprite del GYARADOS è stato visto nelle anteprime fatte dalla ROM (`sprite.py`), non in una schermata dell'emulatore; in gioco l'oggetto c'è (letto dalla RAM degli oggetti).

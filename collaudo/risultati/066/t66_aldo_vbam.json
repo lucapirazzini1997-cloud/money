@@ -1,0 +1,49 @@
+{
+ "arrivo": {
+  "pos": [
+   [
+    35,
+    10
+   ],
+   19,
+   97
+  ],
+  "oggetti": [
+   [
+    [
+     17,
+     96
+    ],
+    24
+   ],
+   [
+    [
+     20,
+     95
+    ],
+    135
+   ],
+   [
+    [
+     21,
+     96
+    ],
+    24
+   ]
+  ]
+ },
+ "lotta_partita": {
+  "testi": [
+   "ALDO: Il Team Emilia si muove verso il Fumaiolo. Prima di dividerci voglio essere sicuro che siamo pronti. Una sfida, poi ci aiutiamo.",
+   "ALDO: Mostrami la tua strategia!",
+   "{fc}{02}{02}SWELLOW{fc}{01}{0b}{b5}",
+   "ALLENATORE ALDO ti sfida! ",
+   "ALLENATORE ALDO manda in campo SWELLOW!",
+   "{fc}{02}{02}SWELLOW{fc}{01}{0b}{b5}",
+   "Vai! BLAZIKEN!",
+   "{fc}{02}{02}BLAZIKEN{fc}{01}{0b}{b5}",
+   "Cosa deve fare BLAZIKEN?"
+  ],
+  "in_lotta": true
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "guida": {
+  "testi": [
+   "Il sentiero orientale porta alla VALLE DEL SAVIO. Vieni?"
+  ],
+  "pos": [
+   [
+    35,
+    10
+   ],
+   18,
+   96
+  ]
+ },
+ "aldo": {
+  "testi": [
+   "Il sentiero orientale porta alla VALLE DEL SAVIO. Vieni?"
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    10
+   ],
+   18,
+   96
+  ]
+ }
+}

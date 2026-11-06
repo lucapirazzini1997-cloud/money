@@ -1,0 +1,409 @@
+{
+ "numeri": {
+  "nuova": "0x4052",
+  "masso": "0x35"
+ },
+ "arrivo": {
+  "pos": [
+   [
+    35,
+    10
+   ],
+   19,
+   97
+  ]
+ },
+ "oggetti_arrivo": [
+  [
+   [
+    17,
+    96
+   ],
+   24
+  ],
+  [
+   [
+    21,
+    96
+   ],
+   24
+  ]
+ ],
+ "bacheca": {
+  "arrivo": true,
+  "testi": [
+   "BACHECA DI VALLE DEL SAVIO. Vuoi leggere l'obiettivo principale? Scegli No per le piccole missioni locali.",
+   "Una presa sulla montagna: da completare. Cerca il personaggio o i pannelli in questa zona."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    10
+   ],
+   18,
+   98
+  ],
+  "aldo": 1,
+  "nodo_sale": 0,
+  "nodo_argilla": 0,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 0
+ },
+ "cartello_ingresso": {
+  "arrivo": true,
+  "testi": [
+   "SENTIERO DEL FUMAIOLO CESENA è a sud. Il sentiero risale il SAVIO fino alla cima."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    10
+   ],
+   20,
+   98
+  ],
+  "aldo": 1,
+  "nodo_sale": 0,
+  "nodo_argilla": 0,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 0
+ },
+ "guida": {
+  "arrivo": true,
+  "testi": [
+   "GUIDA: Il sentiero risale il SAVIO fino alla cima del FUMAIOLO. Il RIFUGIO è a nord, sulla strada di destra. L'EREMO è a ovest, oltre il ponte. Il masso davanti all'EREMO si sposta con FORZA."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    10
+   ],
+   20,
+   96
+  ],
+  "aldo": 1,
+  "nodo_sale": 0,
+  "nodo_argilla": 0,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 0
+ },
+ "guida_ridracoli": {
+  "arrivo": true,
+  "testi": [
+   "Ingresso per collegamento per Ridracoli. Vuoi che ti accompagni lungo il collegamento?",
+   "Ti aspetto qui. Il viaggio è gratuito e puoi sempre tornare."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    10
+   ],
+   18,
+   96
+  ],
+  "aldo": 1,
+  "nodo_sale": 0,
+  "nodo_argilla": 0,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 0
+ },
+ "cartello_rifugio": {
+  "arrivo": true,
+  "testi": [
+   "RIFUGIO DEL FUMAIOLO: a nord. EREMO DI SANT'ALBERICO: torna al ponte e vai a ovest."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    10
+   ],
+   27,
+   60
+  ],
+  "aldo": 1,
+  "nodo_sale": 0,
+  "nodo_argilla": 0,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 0
+ },
+ "rifugio": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    11
+   ],
+   12,
+   18
+  ]
+ },
+ "fuori_dal_rifugio": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    10
+   ],
+   33,
+   39
+  ]
+ },
+ "escursionista_eremo": {
+  "arrivo": true,
+  "testi": [
+   "Il santuario è una cavità antica. Il Fumaiolo non è un vulcano: il potere di Groudon dorme molto più in profondità."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    10
+   ],
+   10,
+   73
+  ],
+  "aldo": 1,
+  "nodo_sale": 0,
+  "nodo_argilla": 0,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 0
+ },
+ "missione_forza": {
+  "arrivo": true,
+  "testi": [
+   "Hai ottenuto: POZIONE MAX!",
+   "AAAAAAA mette POZIONE MAX nella tasca STRUMENTI.",
+   "Una dimostrazione perfetta! Questo è per te."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    10
+   ],
+   6,
+   73
+  ],
+  "aldo": 1,
+  "nodo_sale": 0,
+  "nodo_argilla": 0,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 0
+ },
+ "massi_prima": [
+  [
+   7,
+   72
+  ]
+ ],
+ "grotta_eremo": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    12
+   ],
+   10,
+   29
+  ]
+ },
+ "oggetti_3512": [
+  [
+   [
+    18,
+    27
+   ],
+   24
+  ]
+ ],
+ "guida_3512": {
+  "arrivo": true,
+  "testi": [
+   "GUIDA: Questa grotta scende nel cuore del FUMAIOLO. La scala porta alla GROTTA DELLE SORGENTI."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    12
+   ],
+   17,
+   27
+  ],
+  "aldo": 1,
+  "nodo_sale": 0,
+  "nodo_argilla": 0,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 0
+ },
+ "sorgenti": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    13
+   ],
+   20,
+   36
+  ]
+ },
+ "cartello_sorgenti": {
+  "arrivo": true,
+  "testi": [
+   "SANTUARIO DEL FUMAIOLO Nord, da sinistra: PASSO DEI DRAGHI, sala di BASSI, nodo dell'ARGILLA. Ovest, oltre il lago: nodo del SALE."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    13
+   ],
+   22,
+   35
+  ],
+  "aldo": 1,
+  "nodo_sale": 0,
+  "nodo_argilla": 0,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 0
+ },
+ "guida_sorgenti": {
+  "arrivo": true,
+  "testi": [
+   "GUIDA: Le frane chiudono il Passo dei Draghi. Ferma il Team Emilia e placa Groudon nel Cuore del Fumaiolo."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    13
+   ],
+   20,
+   34
+  ],
+  "aldo": 1,
+  "nodo_sale": 0,
+  "nodo_argilla": 0,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 0
+ },
+ "torna_eremo": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    12
+   ],
+   21,
+   23
+  ]
+ },
+ "torna_sentiero": {
+  "ok": false,
+  "pos": [
+   [
+    35,
+    12
+   ],
+   10,
+   29
+  ]
+ },
+ "massi_dopo": [],
+ "stele": {
+  "arrivo": true,
+  "testi": [
+   "Sulla stele è inciso: QUI NASCE IL FIUME SACRO AI DESTINI DI ROMA. {05} la sorgente del TEVERE."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    10
+   ],
+   9,
+   4
+  ],
+  "aldo": 1,
+  "nodo_sale": 0,
+  "nodo_argilla": 0,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 0
+ },
+ "strumento": {
+  "arrivo": true,
+  "testi": [
+   "Hai ottenuto: IPERPOZIONE!",
+   "AAAAAAA mette IPERPOZIONE nella tasca STRUMENTI."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    10
+   ],
+   9,
+   2
+  ],
+  "aldo": 1,
+  "nodo_sale": 0,
+  "nodo_argilla": 0,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 1
+ },
+ "ricarica": {
+  "pos": [
+   [
+    35,
+    10
+   ],
+   9,
+   2
+  ],
+  "var_nuova": 1,
+  "aldo": 1,
+  "nodo_sale": 0,
+  "nodo_argilla": 0,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 1
+ },
+ "ricarica_dopo_2s": [
+  [
+   35,
+   10
+  ],
+  9,
+  2
+ ]
+}

@@ -1,0 +1,49 @@
+PROVA sentiero Pokemon_Romagna_0_66.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: flag 0x86d = 1
+   FIXTURE: mossa 70 al Pokemon 1 -> ((249, 280, 70, 73), 307)
+   FIXTURE: mossa 57 al Pokemon 1 -> ((249, 280, 70, 57), 307)
+   FIXTURE: posizione (34, 17) (46, 48)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA sentiero mGBA Pokemon_Romagna_0_66.gba
+  dal titolo: ((34, 17), 46, 48, 3, False) medaglie [1, 1, 1, 1, 1, 1, 1, 0] {'aldo': 0, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   FIXTURE: squadra curata [(50, 155, 155), (43, 119, 119)]
+  arrivo {'pos': ((35, 10), 19, 97)}
+  ALDO {'testi': ['ALDO: Il Team Emilia si muove verso il Fumaiolo. Prima di dividerci voglio essere sicuro che siamo pronti. Una sfida, poi ci aiutiamo.', 'ALDO: Mostrami la tua strategia!', '{fc}{02}{02}SWELLOW{fc}{01}{0b}{b5}', '{f9}{05}51{77}{77}{fc}{01}{0c}{fc}{03}{0d}{b5}'], 'lotta': [(184, 43), (285, 45), (305, 42), (338, 43), (376, 44)], 'pos': ((35, 1), 4, 7), 'oggetti': [], 'aldo': 0, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+  nessun percorso da ((35, 1), 4, 7, 3, False) a (35, 10) (17, 98)
+   bacheca {'arrivo': False, 'testi': [], 'lotta': [], 'pos': ((35, 1), 4, 7), 'aldo': 0, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+  nessun percorso da ((35, 1), 4, 7, 3, False) a (35, 10) (21, 98)
+   cartello_ingresso {'arrivo': False, 'testi': [], 'lotta': [], 'pos': ((35, 1), 4, 7), 'aldo': 0, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+  nessun percorso da ((35, 1), 4, 7, 3, False) a (35, 10) (21, 96)
+   guida {'arrivo': False, 'testi': [], 'lotta': [], 'pos': ((35, 1), 4, 7), 'aldo': 0, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+  nessun percorso da ((35, 1), 4, 7, 3, False) a (35, 10) (17, 96)
+   guida_ridracoli {'arrivo': False, 'testi': [], 'lotta': [], 'pos': ((35, 1), 4, 7), 'aldo': 0, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+  nessun percorso da ((35, 1), 4, 7, 3, False) a (35, 10) (27, 59)
+   cartello_rifugio {'arrivo': False, 'testi': [], 'lotta': [], 'pos': ((35, 1), 4, 7), 'aldo': 0, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+  nessun percorso da ((35, 1), 4, 7, 3, False) a (35, 11) (12, 18)
+   rifugio {'ok': False, 'pos': ((35, 1), 4, 7)}
+  nessun percorso da ((35, 1), 4, 7, 3, False) a (35, 10) (33, 39)
+   fuori_dal_rifugio {'ok': False, 'pos': ((35, 1), 4, 7)}
+  nessun percorso da ((35, 1), 4, 7, 3, False) a (35, 10) (9, 73)
+   escursionista_eremo {'arrivo': False, 'testi': [], 'lotta': [], 'pos': ((35, 1), 4, 7), 'aldo': 0, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+  nessun percorso da ((35, 1), 4, 7, 3, False) a (35, 10) (5, 73)
+   missione_forza {'arrivo': False, 'testi': [], 'lotta': [], 'pos': ((35, 1), 4, 7), 'aldo': 0, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+  nessun percorso da ((35, 1), 4, 7, 3, False) a (35, 12) (10, 29)
+   grotta_eremo {'ok': False, 'pos': ((35, 1), 4, 7)}
+  nessun percorso da ((35, 1), 4, 7, 3, False) a (35, 12) (18, 27)
+   guida_3512 {'arrivo': False, 'testi': [], 'lotta': [], 'pos': ((35, 1), 4, 7), 'aldo': 0, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+  nessun percorso da ((35, 1), 4, 7, 3, False) a (35, 13) (20, 36)
+   sorgenti {'ok': False, 'pos': ((35, 1), 4, 7)}
+  nessun percorso da ((35, 1), 4, 7, 3, False) a (35, 13) (19, 33)
+   cartello_sorgenti {'arrivo': False, 'testi': [], 'lotta': [], 'pos': ((35, 1), 4, 7), 'aldo': 0, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+  nessun percorso da ((35, 1), 4, 7, 3, False) a (35, 13) (21, 34)
+   guida_sorgenti {'arrivo': False, 'testi': [], 'lotta': [], 'pos': ((35, 1), 4, 7), 'aldo': 0, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+  nessun percorso da ((35, 1), 4, 7, 3, False) a (35, 12) (21, 23)
+   torna_eremo {'ok': False, 'pos': ((35, 1), 4, 7)}
+  nessun percorso da ((35, 1), 4, 7, 3, False) a (35, 10) (7, 71)
+   torna_sentiero {'ok': False, 'pos': ((35, 1), 4, 7)}
+  nessun percorso da ((35, 1), 4, 7, 3, False) a (35, 10) (10, 4)
+   stele {'arrivo': False, 'testi': [], 'lotta': [], 'pos': ((35, 1), 4, 7), 'aldo': 0, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+  nessun percorso da ((35, 1), 4, 7, 3, False) a (35, 10) (8, 2)
+   strumento {'arrivo': False, 'testi': [], 'lotta': [], 'pos': ((35, 1), 4, 7), 'aldo': 0, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+FINE sentiero

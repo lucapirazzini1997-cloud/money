@@ -1,0 +1,262 @@
+PROVA aldo Pokemon_Romagna_0_66.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: flag 0x86d = 1
+   FIXTURE: posizione (34, 17) (46, 48)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA aldo mGBA Pokemon_Romagna_0_66.gba
+  dal titolo: ((34, 17), 46, 48, 3, False) medaglie [1, 1, 1, 1, 1, 1, 1, 0] {'aldo': 0, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+  ALDO {'arrivo': {'pos': ((35, 10), 19, 97), 'oggetti': [((17, 96), 24), ((20, 95), 135), ((21, 96), 24)]}, 'lotta_partita': {'testi': ['ALDO: Il Team Emilia si muove verso il Fumaiolo. Prima di dividerci voglio essere sicuro che siamo pronti. Una sfida, poi ci aiutiamo.', 'ALDO: Mostrami la tua strategia!', '{fc}{02}{02}SWELLOW{fc}{01}{0b}{b5}', 'ALLENATORE ALDO ti sfida! ', 'ALLENATORE ALDO manda in campo SWELLOW!', '{fc}{02}{02}SWELLOW{fc}{01}{0b}{b5}', 'Vai! BLAZIKEN!', '{fc}{02}{02}BLAZIKEN{fc}{01}{0b}{b5}', 'Cosa deve fare BLAZIKEN?'], 'in_lotta': True}}
+FINE aldo
+PROVA sentiero Pokemon_Romagna_0_66.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: flag 0x86d = 1
+   FIXTURE: flag 0x496 = 1
+   FIXTURE: mossa 70 al Pokemon 1 -> ((249, 280, 70, 73), 307)
+   FIXTURE: mossa 57 al Pokemon 1 -> ((249, 280, 70, 57), 307)
+   FIXTURE: posizione (34, 17) (46, 48)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA sentiero mGBA Pokemon_Romagna_0_66.gba
+  dal titolo: ((34, 17), 46, 48, 3, False) medaglie [1, 1, 1, 1, 1, 1, 1, 0] {'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   FIXTURE: squadra curata [(50, 155, 155), (43, 119, 119)]
+  arrivo {'pos': ((35, 10), 19, 97)}
+   bacheca {'arrivo': True, 'testi': ["BACHECA DI VALLE DEL SAVIO. Vuoi leggere l'obiettivo principale? Scegli No per le piccole missioni locali.", 'Una presa sulla montagna: da completare. Cerca il personaggio o i pannelli in questa zona.'], 'lotta': [], 'pos': ((35, 10), 18, 98), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   cartello_ingresso {'arrivo': True, 'testi': ['SENTIERO DEL FUMAIOLO CESENA è a sud. Il sentiero risale il SAVIO fino alla cima.'], 'lotta': [], 'pos': ((35, 10), 20, 98), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   guida {'arrivo': True, 'testi': ["GUIDA: Il sentiero risale il SAVIO fino alla cima del FUMAIOLO. Il RIFUGIO è a nord, sulla strada di destra. L'EREMO è a ovest, oltre il ponte. Il masso davanti all'EREMO si sposta con FORZA."], 'lotta': [], 'pos': ((35, 10), 20, 96), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   guida_ridracoli {'arrivo': True, 'testi': ['Ingresso per collegamento per Ridracoli. Vuoi che ti accompagni lungo il collegamento?', 'Ti aspetto qui. Il viaggio è gratuito e puoi sempre tornare.'], 'lotta': [], 'pos': ((35, 10), 18, 96), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   cartello_rifugio {'arrivo': True, 'testi': ["RIFUGIO DEL FUMAIOLO: a nord. EREMO DI SANT'ALBERICO: torna al ponte e vai a ovest."], 'lotta': [], 'pos': ((35, 10), 27, 60), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   rifugio {'ok': True, 'pos': ((35, 11), 12, 18)}
+   fuori_dal_rifugio {'ok': True, 'pos': ((35, 10), 33, 39)}
+   escursionista_eremo {'arrivo': True, 'testi': ['Il santuario è una cavità antica. Il Fumaiolo non è un vulcano: il potere di Groudon dorme molto più in profondità.'], 'lotta': [], 'pos': ((35, 10), 10, 73), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   missione_forza {'arrivo': True, 'testi': ['Hai ottenuto: POZIONE MAX!', 'AAAAAAA mette POZIONE MAX nella tasca STRUMENTI.', 'Una dimostrazione perfetta! Questo è per te.'], 'lotta': [], 'pos': ((35, 10), 6, 73), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+  fuori percorso: atteso ((35, 10), 7, 72) sono ((35, 10), 6, 72) azione passo E
+  fuori percorso: atteso ((35, 10), 7, 72) sono ((35, 10), 6, 72) azione passo E
+   grotta_eremo {'ok': True, 'pos': ((35, 12), 10, 29)}
+  fuori percorso: atteso ((35, 12), 12, 27) sono ((35, 12), 13, 27) azione passo E
+   guida_3512 {'arrivo': True, 'testi': ['GUIDA: Questa grotta scende nel cuore del FUMAIOLO. La scala porta alla GROTTA DELLE SORGENTI.'], 'lotta': [], 'pos': ((35, 12), 17, 27), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   sorgenti {'ok': True, 'pos': ((35, 13), 20, 36)}
+   cartello_sorgenti {'arrivo': True, 'testi': ["SANTUARIO DEL FUMAIOLO Nord, da sinistra: PASSO DEI DRAGHI, sala di BASSI, nodo dell'ARGILLA. Ovest, oltre il lago: nodo del SALE."], 'lotta': [], 'pos': ((35, 13), 22, 35), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   guida_sorgenti {'arrivo': True, 'testi': ['GUIDA: Le frane chiudono il Passo dei Draghi. Ferma il Team Emilia e placa Groudon nel Cuore del Fumaiolo.'], 'lotta': [], 'pos': ((35, 13), 20, 34), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   torna_eremo {'ok': True, 'pos': ((35, 12), 21, 23)}
+   torna_sentiero {'ok': False, 'pos': ((35, 12), 10, 29)}
+   stele {'arrivo': True, 'testi': ['Sulla stele è inciso: QUI NASCE IL FIUME SACRO AI DESTINI DI ROMA. {05} la sorgente del TEVERE.'], 'lotta': [], 'pos': ((35, 10), 9, 4), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   strumento {'arrivo': True, 'testi': ['Hai ottenuto: IPERPOZIONE!', 'AAAAAAA mette IPERPOZIONE nella tasca STRUMENTI.'], 'lotta': [], 'pos': ((35, 10), 9, 2), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+FINE sentiero
+   FIXTURE: 5 MASTER BALL nella tasca Poke Ball
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA santuario mGBA Pokemon_Romagna_0_66.gba
+  dal titolo: ((35, 10), 9, 2, 3, False) medaglie [1, 1, 1, 1, 1, 1, 1, 0] {'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+  fuori percorso: atteso ((35, 10), 7, 72) sono ((35, 10), 8, 72) azione passo W
+  fuori percorso: atteso ((35, 10), 7, 72) sono ((35, 10), 8, 72) azione passo W
+  fuori percorso: atteso ((35, 12), 10, 26) sono ((35, 12), 10, 25) azione passo N
+  fuori percorso: atteso ((35, 12), 12, 25) sono ((35, 12), 13, 25) azione passo E
+  fuori percorso: atteso ((35, 12), 13, 23) sono ((35, 12), 13, 22) azione passo N
+  fuori percorso: atteso ((35, 12), 15, 23) sono ((35, 12), 16, 23) azione passo E
+  fuori percorso: atteso ((35, 13), 20, 32) sono ((35, 13), 20, 31) azione passo N
+  fuori percorso: atteso ((35, 13), 20, 30) sono ((35, 13), 20, 29) azione passo N
+  fuori percorso: atteso ((35, 13), 20, 28) sono ((35, 13), 20, 27) azione passo N
+  fuori percorso: atteso ((35, 13), 20, 26) sono ((35, 13), 20, 25) azione passo N
+  fuori percorso: atteso ((35, 13), 20, 24) sono ((35, 13), 20, 23) azione passo N
+  fuori percorso: atteso ((35, 13), 20, 22) sono ((35, 13), 20, 21) azione passo N
+  fuori percorso: atteso ((35, 13), 21, 20) sono ((35, 13), 22, 20) azione passo E
+  fuori percorso: atteso ((35, 13), 22, 18) sono ((35, 13), 22, 17) azione passo N
+  fuori percorso: atteso ((35, 13), 22, 16) sono ((35, 13), 22, 15) azione passo N
+  fuori percorso: atteso ((35, 13), 22, 14) sono ((35, 13), 22, 13) azione passo N
+  fuori percorso: atteso ((35, 13), 22, 12) sono ((35, 13), 22, 11) azione passo N
+  fuori percorso: atteso ((35, 13), 22, 10) sono ((35, 13), 22, 9) azione passo N
+  fuori percorso: atteso ((35, 13), 22, 8) sono ((35, 13), 22, 7) azione passo N
+  fuori percorso: atteso ((35, 13), 22, 6) sono ((35, 13), 22, 5) azione passo N
+   frane_prima_partenza {'ok': True, 'pos': ((35, 18), 14, 38)}
+   frane_prima {'testi': ['Il passo verso BAGNO DI ROMAGNA è chiuso dalla crisi del Fumaiolo. Ferma il Team Emilia e affronta Groudon per riaprire le sorgenti.'], 'posizioni': [((35, 18), 14, 37), ((35, 18), 14, 39)], 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+  fuori percorso: atteso ((35, 13), 13, 8) sono ((35, 13), 13, 9) azione passo S
+  fuori percorso: atteso ((35, 13), 13, 10) sono ((35, 13), 13, 11) azione passo S
+  fuori percorso: atteso ((35, 13), 13, 12) sono ((35, 13), 13, 13) azione passo S
+  fuori percorso: atteso ((35, 13), 13, 14) sono ((35, 13), 13, 15) azione passo S
+  fuori percorso: atteso ((35, 13), 13, 16) sono ((35, 13), 13, 17) azione passo S
+  fuori percorso: atteso ((35, 13), 11, 16) sono ((35, 13), 10, 16) azione passo W
+   FIXTURE: squadra curata [(50, 155, 155), (43, 119, 119)]
+   recluta_sale {'testi': ['TEAM EMILIA: La rete del Fumaiolo non si fermerà per te!', '{fc}{02}{02}WEEZING{fc}{01}{0b}{b5}', 'Il nodo non riceve più energia...', "Hai spento nodo del sale. Ora controlla l'altro settore. Con entrambi i nodi spenti puoi entrare da Bassi."], 'lotta': [(82, 44), (110, 44), (340, 45)], 'vinta': True, 'pos': ((35, 14), 15, 4), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   conduttore_sale {'arrivo': True, 'testi': ["Il conduttore è spento. Il Direttore Bassi non può più alimentare la rete dall'esterno."], 'lotta': [], 'pos': ((35, 14), 15, 11), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   recluta_sale_dopo {'arrivo': True, 'testi': ["Il conduttore è spento. Il Direttore Bassi non può più alimentare la rete dall'esterno."], 'lotta': [], 'pos': ((35, 14), 15, 4), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+  fuori percorso: atteso ((35, 13), 11, 16) sono ((35, 13), 12, 16) azione passo E
+  fuori percorso: atteso ((35, 13), 12, 14) sono ((35, 13), 12, 13) azione passo N
+  fuori percorso: atteso ((35, 13), 12, 12) sono ((35, 13), 12, 11) azione passo N
+  fuori percorso: atteso ((35, 13), 12, 10) sono ((35, 13), 12, 9) azione passo N
+  fuori percorso: atteso ((35, 13), 12, 8) sono ((35, 13), 12, 7) azione passo N
+   FIXTURE: squadra curata [(50, 155, 155), (44, 122, 122)]
+   recluta_argilla {'testi': ['TEAM EMILIA: La rete del Fumaiolo non si fermerà per te!', '{fc}{02}{02}CLAYDOL{fc}{01}{0b}', 'Il nodo non riceve più energia...', "Hai spento nodo dell'argilla. Ora controlla l'altro settore. Con entrambi i nodi spenti puoi entrare da Bassi."], 'lotta': [(287, 45), (319, 44), (384, 45)], 'vinta': True, 'pos': ((35, 15), 12, 12), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   conduttore_argilla {'arrivo': True, 'testi': ["Il conduttore è spento. Il Direttore Bassi non può più alimentare la rete dall'esterno."], 'lotta': [], 'pos': ((35, 15), 10, 11), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   recluta_argilla_dopo {'arrivo': True, 'testi': ["Il conduttore è spento. Il Direttore Bassi non può più alimentare la rete dall'esterno."], 'lotta': [], 'pos': ((35, 15), 10, 12), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   soccorso {'arrivo': True, 'testi': ['SOCCORSO: Riposa qui. Preparerò la tua squadra prima della caverna profonda.', 'La tua squadra è pronta. Puoi tornare qui per riposare e prepararti.'], 'lotta': [], 'pos': ((35, 16), 15, 31), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   porta_prima {'arrivo': True, 'testi': ["La porta profonda è bloccata dall'impianto. Affronta Bassi dopo aver spento entrambi i nodi."], 'lotta': [], 'pos': ((35, 16), 10, 3), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   FIXTURE: squadra curata [(51, 158, 158), (44, 122, 122)]
+   FIXTURE: flag 0x759 = 1
+   FIXTURE: flag 0x4c9 = 1
+   FIXTURE: flag 0x4ca = 1
+   bassi {'testi': ['BASSI: Tutte le città hanno costruito la mia rete senza saperlo! Il potere di Groudon darà energia alla mia nuova Emilia!', '{fc}{02}{02}MIGHTYENA{fc}{01}{0b}{b5}', '{f9}{06}{77}5:{77}5'], 'lotta': [(169, 50), (287, 47), (340, 49)], 'vinta': False, 'pos': ((35, 1), 4, 7), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1, 'fixture_dopo_sconfitta': ['0x759', '0x4c9', '0x4ca'], 'pos_dopo': ((35, 16), 10, 4)}
+  porta dopo {'testi': ['La rete è spenta. Il Cuore del Fumaiolo è davanti a te. Prepara strumenti e squadra.'], 'pos': ((35, 17), 5, 5), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 1, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   guida_cuore {'arrivo': True, 'testi': ['GUIDA: Salva prima di affrontare Groudon. Puoi catturarlo o placarlo in lotta. Se fuggi, la crisi resta aperta.'], 'lotta': [], 'pos': ((35, 17), 7, 21), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 1, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   FIXTURE: squadra curata [(51, 158, 158), (44, 122, 122)]
+  GROUDON {'testi': ['Groudon reagisce alla tua presenza. La sfida sta per cominciare!', '{fc}{02}{02}GROUDON{fc}{01}{0b}', 'BLAZIKEN ottiene 1557 punti ESP.! ', 'BRELOOM ottiene 778 punti ESP.! ', 'I dati di GROUDON sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a GROUDON?', 'Groudon è al sicuro. La rete del Team Emilia è spenta e le sorgenti tornano a scorrere. Il Passo dei Draghi è libero.'], 'cattura': {'specie': 405, 'livello': (50, 172, 172)}, 'oggetti': [], 'pos': ((35, 17), 17, 26), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 1, 'groudon_fatto': 1, 'groudon_ogg': 1, 'strumento_tevere': 1}
+   uscita_cuore {'ok': True, 'pos': ((35, 16), 8, 2)}
+  fuori percorso: atteso ((35, 13), 17, 8) sono ((35, 13), 17, 9) azione passo S
+  fuori percorso: atteso ((35, 13), 18, 10) sono ((35, 13), 19, 10) azione passo E
+  fuori percorso: atteso ((35, 13), 20, 10) sono ((35, 13), 21, 10) azione passo E
+  fuori percorso: atteso ((35, 13), 21, 12) sono ((35, 13), 21, 13) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 14) sono ((35, 13), 21, 15) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 16) sono ((35, 13), 21, 17) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 18) sono ((35, 13), 21, 19) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 20) sono ((35, 13), 21, 21) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 22) sono ((35, 13), 21, 23) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 24) sono ((35, 13), 21, 25) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 26) sono ((35, 13), 21, 27) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 28) sono ((35, 13), 21, 29) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 30) sono ((35, 13), 21, 31) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 32) sono ((35, 13), 21, 33) azione passo S
+  guida al passo {'testi': ['GUIDA: Le sorgenti sono tornate calme. Il Passo dei Draghi e Bagno di Romagna ti aspettano.'], 'pos': ((35, 18), 15, 39)}
+   frane_dopo_partenza {'ok': True, 'pos': ((35, 18), 14, 38)}
+   frane_dopo {'testi': ['GUIDA: Le sorgenti sono tornate calme. Il Passo dei Draghi e Bagno di Romagna ti aspettano.'], 'posizioni': [((35, 18), 14, 37)], 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 1, 'groudon_fatto': 1, 'groudon_ogg': 1, 'strumento_tevere': 1}
+   guida_passo {'arrivo': True, 'testi': ["I Pokémon Drago seguono il calore delle sorgenti. Nell'erba innevata troverai Bagon, Vibrava, Altaria, Dragonair e qualche Shelgon."], 'lotta': [], 'pos': ((35, 18), 16, 38), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 1, 'groudon_fatto': 1, 'groudon_ogg': 1, 'strumento_tevere': 1}
+   escursionista_passo {'arrivo': True, 'testi': ['Bagno di Romagna è oltre il passo. Il paese vive tra neve e terme: la palestra di Leda custodisce questi luoghi.'], 'lotta': [], 'pos': ((35, 18), 21, 10), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 1, 'groudon_fatto': 1, 'groudon_ogg': 1, 'strumento_tevere': 1}
+   strumento_passo {'arrivo': True, 'testi': ['Hai ottenuto: ULTRA BALL!', 'AAAAAAA mette ULTRA BALL nella tasca POKé BALL.'], 'lotta': [], 'pos': ((35, 18), 9, 20), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 1, 'groudon_fatto': 1, 'groudon_ogg': 1, 'strumento_tevere': 1}
+   bagno {'ok': True, 'pos': ((35, 19), 0, 17)}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+FINE santuario
+PROVA ridracoli Pokemon_Romagna_0_66.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: flag 0x86d = 1
+   FIXTURE: flag 0x496 = 1
+   FIXTURE: posizione (35, 50) (31, 36)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA ridracoli mGBA Pokemon_Romagna_0_66.gba
+  dal titolo: ((35, 50), 31, 36, 3, False) medaglie [1, 1, 1, 1, 1, 1, 1, 0] {'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+  guida {'testi': ['Il sentiero orientale porta alla VALLE DEL SAVIO. Vieni?'], 'pos': ((35, 10), 18, 96)}
+FINE ridracoli
+PROVA crea65 Pokemon_Romagna_0_65.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: flag 0x86d = 1
+   FIXTURE: posizione (35, 13) (16, 20)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+  crea65 {'pos_065': ((35, 13), 16, 20)}
+FINE crea65
+PROVA vecchio65 mGBA Pokemon_Romagna_0_66.gba t66_crea65.sav
+   {'titolo': ((35, 13), 20, 35), 'var_nuova': 1, 'dopo_4s': {'pos': ((35, 13), 20, 35), 'var_nuova': 1}}
+   cammina {'ok': True, 'pos': ((35, 13), 17, 34)}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+   verso_eremo {'ok': True, 'pos': ((35, 12), 10, 28)}
+FINE vecchio65
+PROVA aldo VBA-M Pokemon_Romagna_0_66.gba
+  dal titolo: ((34, 17), 46, 48, 3, False) medaglie [1, 1, 1, 1, 1, 1, 1, 0] {'aldo': 0, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+  ALDO {'arrivo': {'pos': ((35, 10), 19, 97), 'oggetti': [((17, 96), 24), ((20, 95), 135), ((21, 96), 24)]}, 'lotta_partita': {'testi': ['ALDO: Il Team Emilia si muove verso il Fumaiolo. Prima di dividerci voglio essere sicuro che siamo pronti. Una sfida, poi ci aiutiamo.', 'ALDO: Mostrami la tua strategia!', '{fc}{02}{02}SWELLOW{fc}{01}{0b}{b5}', 'ALLENATORE ALDO ti sfida! ', 'ALLENATORE ALDO manda in campo SWELLOW!', '{fc}{02}{02}SWELLOW{fc}{01}{0b}{b5}', 'Vai! BLAZIKEN!', '{fc}{02}{02}BLAZIKEN{fc}{01}{0b}{b5}', 'Cosa deve fare BLAZIKEN?'], 'in_lotta': True}}
+FINE aldo
+PROVA ridracoli VBA-M Pokemon_Romagna_0_66.gba
+  dal titolo: ((35, 50), 31, 36, 3, False) medaglie [1, 1, 1, 1, 1, 1, 1, 0] {'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+  guida {'testi': ['Il sentiero orientale porta alla VALLE DEL SAVIO. Vieni?'], 'pos': ((35, 10), 18, 96)}
+FINE ridracoli
+PROVA santuario VBA-M Pokemon_Romagna_0_66.gba
+  dal titolo: ((35, 10), 9, 2, 3, False) medaglie [1, 1, 1, 1, 1, 1, 1, 0] {'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+  fuori percorso: atteso ((35, 10), 7, 72) sono ((35, 10), 8, 72) azione passo W
+  fuori percorso: atteso ((35, 10), 7, 72) sono ((35, 10), 8, 72) azione passo W
+  fuori percorso: atteso ((35, 12), 10, 26) sono ((35, 12), 10, 25) azione passo N
+  fuori percorso: atteso ((35, 12), 12, 25) sono ((35, 12), 13, 25) azione passo E
+  fuori percorso: atteso ((35, 12), 13, 23) sono ((35, 12), 13, 22) azione passo N
+  fuori percorso: atteso ((35, 12), 15, 23) sono ((35, 12), 16, 23) azione passo E
+  fuori percorso: atteso ((35, 13), 20, 32) sono ((35, 13), 20, 31) azione passo N
+  fuori percorso: atteso ((35, 13), 20, 30) sono ((35, 13), 20, 29) azione passo N
+  fuori percorso: atteso ((35, 13), 20, 28) sono ((35, 13), 20, 27) azione passo N
+  fuori percorso: atteso ((35, 13), 20, 26) sono ((35, 13), 20, 25) azione passo N
+  fuori percorso: atteso ((35, 13), 20, 24) sono ((35, 13), 20, 23) azione passo N
+  fuori percorso: atteso ((35, 13), 20, 22) sono ((35, 13), 20, 21) azione passo N
+  fuori percorso: atteso ((35, 13), 21, 20) sono ((35, 13), 22, 20) azione passo E
+  fuori percorso: atteso ((35, 13), 22, 18) sono ((35, 13), 22, 17) azione passo N
+  fuori percorso: atteso ((35, 13), 22, 16) sono ((35, 13), 22, 15) azione passo N
+  fuori percorso: atteso ((35, 13), 22, 14) sono ((35, 13), 22, 13) azione passo N
+  fuori percorso: atteso ((35, 13), 22, 12) sono ((35, 13), 22, 11) azione passo N
+  fuori percorso: atteso ((35, 13), 22, 10) sono ((35, 13), 22, 9) azione passo N
+  fuori percorso: atteso ((35, 13), 22, 8) sono ((35, 13), 22, 7) azione passo N
+  fuori percorso: atteso ((35, 13), 22, 6) sono ((35, 13), 22, 5) azione passo N
+   frane_prima_partenza {'ok': True, 'pos': ((35, 18), 14, 38)}
+   frane_prima {'testi': ['Il passo verso BAGNO DI ROMAGNA è chiuso dalla crisi del Fumaiolo. Ferma il Team Emilia e affronta Groudon per riaprire le sorgenti.'], 'posizioni': [((35, 18), 14, 37), ((35, 18), 14, 39)], 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+  fuori percorso: atteso ((35, 13), 13, 8) sono ((35, 13), 13, 9) azione passo S
+  fuori percorso: atteso ((35, 13), 13, 10) sono ((35, 13), 13, 11) azione passo S
+  fuori percorso: atteso ((35, 13), 13, 12) sono ((35, 13), 13, 13) azione passo S
+  fuori percorso: atteso ((35, 13), 13, 14) sono ((35, 13), 13, 15) azione passo S
+  fuori percorso: atteso ((35, 13), 13, 16) sono ((35, 13), 13, 17) azione passo S
+  fuori percorso: atteso ((35, 13), 11, 16) sono ((35, 13), 10, 16) azione passo W
+   FIXTURE: squadra curata [(50, 155, 155), (43, 119, 119)]
+   recluta_sale {'testi': ['TEAM EMILIA: La rete del Fumaiolo non si fermerà per te!', '{fc}{02}{02}WEEZING{fc}{01}{0b}{b5}', 'Il nodo non riceve più energia...', "Hai spento nodo del sale. Ora controlla l'altro settore. Con entrambi i nodi spenti puoi entrare da Bassi."], 'lotta': [(82, 44), (110, 44), (340, 45)], 'vinta': True, 'pos': ((35, 14), 15, 4), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   conduttore_sale {'arrivo': True, 'testi': ["Il conduttore è spento. Il Direttore Bassi non può più alimentare la rete dall'esterno."], 'lotta': [], 'pos': ((35, 14), 15, 11), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   recluta_sale_dopo {'arrivo': True, 'testi': ["Il conduttore è spento. Il Direttore Bassi non può più alimentare la rete dall'esterno."], 'lotta': [], 'pos': ((35, 14), 15, 4), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+  fuori percorso: atteso ((35, 13), 11, 16) sono ((35, 13), 12, 16) azione passo E
+  fuori percorso: atteso ((35, 13), 12, 14) sono ((35, 13), 12, 13) azione passo N
+  fuori percorso: atteso ((35, 13), 12, 12) sono ((35, 13), 12, 11) azione passo N
+  fuori percorso: atteso ((35, 13), 12, 10) sono ((35, 13), 12, 9) azione passo N
+  fuori percorso: atteso ((35, 13), 12, 8) sono ((35, 13), 12, 7) azione passo N
+   FIXTURE: squadra curata [(50, 155, 155), (44, 122, 122)]
+   recluta_argilla {'testi': ['TEAM EMILIA: La rete del Fumaiolo non si fermerà per te!', '{fc}{02}{02}CLAYDOL{fc}{01}{0b}', 'Il nodo non riceve più energia...', "Hai spento nodo dell'argilla. Ora controlla l'altro settore. Con entrambi i nodi spenti puoi entrare da Bassi."], 'lotta': [(287, 45), (319, 44), (384, 45)], 'vinta': True, 'pos': ((35, 15), 12, 12), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   conduttore_argilla {'arrivo': True, 'testi': ["Il conduttore è spento. Il Direttore Bassi non può più alimentare la rete dall'esterno."], 'lotta': [], 'pos': ((35, 15), 10, 11), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   recluta_argilla_dopo {'arrivo': True, 'testi': ["Il conduttore è spento. Il Direttore Bassi non può più alimentare la rete dall'esterno."], 'lotta': [], 'pos': ((35, 15), 10, 12), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   soccorso {'arrivo': True, 'testi': ['SOCCORSO: Riposa qui. Preparerò la tua squadra prima della caverna profonda.', 'La tua squadra è pronta. Puoi tornare qui per riposare e prepararti.'], 'lotta': [], 'pos': ((35, 16), 15, 31), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   porta_prima {'arrivo': True, 'testi': ["La porta profonda è bloccata dall'impianto. Affronta Bassi dopo aver spento entrambi i nodi."], 'lotta': [], 'pos': ((35, 16), 10, 3), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   FIXTURE: squadra curata [(51, 158, 158), (44, 122, 122)]
+   FIXTURE: flag 0x759 = 1
+   FIXTURE: flag 0x4c9 = 1
+   FIXTURE: flag 0x4ca = 1
+   bassi {'testi': ['BASSI: Tutte le città hanno costruito la mia rete senza saperlo! Il potere di Groudon darà energia alla mia nuova Emilia!', '{fc}{02}{02}MIGHTYENA{fc}{01}{0b}{b5}', '{f9}{06}{77}5:{77}5'], 'lotta': [(169, 50), (287, 47), (340, 49)], 'vinta': False, 'pos': ((35, 1), 4, 7), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1, 'fixture_dopo_sconfitta': ['0x759', '0x4c9', '0x4ca'], 'pos_dopo': ((35, 16), 10, 4)}
+  porta dopo {'testi': ['La rete è spenta. Il Cuore del Fumaiolo è davanti a te. Prepara strumenti e squadra.'], 'pos': ((35, 17), 5, 5), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 1, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   guida_cuore {'arrivo': True, 'testi': ['GUIDA: Salva prima di affrontare Groudon. Puoi catturarlo o placarlo in lotta. Se fuggi, la crisi resta aperta.'], 'lotta': [], 'pos': ((35, 17), 7, 21), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 1, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   FIXTURE: squadra curata [(51, 158, 158), (44, 122, 122)]
+  GROUDON {'testi': ['Groudon reagisce alla tua presenza. La sfida sta per cominciare!', '{fc}{02}{02}GROUDON{fc}{01}{0b}', 'BLAZIKEN ottiene 1557 punti ESP.! ', 'BRELOOM ottiene 778 punti ESP.! ', 'I dati di GROUDON sono stati aggiunti al POKéDEX. ', 'Vuoi dare un soprannome a GROUDON?', 'Groudon è al sicuro. La rete del Team Emilia è spenta e le sorgenti tornano a scorrere. Il Passo dei Draghi è libero.'], 'cattura': {'specie': 405, 'livello': (50, 168, 168)}, 'oggetti': [], 'pos': ((35, 17), 17, 26), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 1, 'groudon_fatto': 1, 'groudon_ogg': 1, 'strumento_tevere': 1}
+   uscita_cuore {'ok': True, 'pos': ((35, 16), 8, 2)}
+  fuori percorso: atteso ((35, 13), 17, 8) sono ((35, 13), 17, 9) azione passo S
+  fuori percorso: atteso ((35, 13), 18, 10) sono ((35, 13), 19, 10) azione passo E
+  fuori percorso: atteso ((35, 13), 20, 10) sono ((35, 13), 21, 10) azione passo E
+  fuori percorso: atteso ((35, 13), 21, 12) sono ((35, 13), 21, 13) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 14) sono ((35, 13), 21, 15) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 16) sono ((35, 13), 21, 17) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 18) sono ((35, 13), 21, 19) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 20) sono ((35, 13), 21, 21) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 22) sono ((35, 13), 21, 23) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 24) sono ((35, 13), 21, 25) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 26) sono ((35, 13), 21, 27) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 28) sono ((35, 13), 21, 29) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 30) sono ((35, 13), 21, 31) azione passo S
+  fuori percorso: atteso ((35, 13), 21, 32) sono ((35, 13), 21, 33) azione passo S
+  guida al passo {'testi': ['GUIDA: Le sorgenti sono tornate calme. Il Passo dei Draghi e Bagno di Romagna ti aspettano.'], 'pos': ((35, 18), 15, 39)}
+   frane_dopo_partenza {'ok': True, 'pos': ((35, 18), 14, 38)}
+   frane_dopo {'testi': ['GUIDA: Le sorgenti sono tornate calme. Il Passo dei Draghi e Bagno di Romagna ti aspettano.'], 'posizioni': [((35, 18), 14, 37)], 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 1, 'groudon_fatto': 1, 'groudon_ogg': 1, 'strumento_tevere': 1}
+   guida_passo {'arrivo': True, 'testi': ["I Pokémon Drago seguono il calore delle sorgenti. Nell'erba innevata troverai Bagon, Vibrava, Altaria, Dragonair e qualche Shelgon."], 'lotta': [], 'pos': ((35, 18), 16, 38), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 1, 'groudon_fatto': 1, 'groudon_ogg': 1, 'strumento_tevere': 1}
+   escursionista_passo {'arrivo': True, 'testi': ['Bagno di Romagna è oltre il passo. Il paese vive tra neve e terme: la palestra di Leda custodisce questi luoghi.'], 'lotta': [], 'pos': ((35, 18), 21, 10), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 1, 'groudon_fatto': 1, 'groudon_ogg': 1, 'strumento_tevere': 1}
+   strumento_passo {'arrivo': True, 'testi': ['Hai ottenuto: ULTRA BALL!', 'AAAAAAA mette ULTRA BALL nella tasca POKé BALL.'], 'lotta': [], 'pos': ((35, 18), 9, 20), 'aldo': 1, 'nodo_sale': 1, 'nodo_argilla': 1, 'bassi': 1, 'groudon_fatto': 1, 'groudon_ogg': 1, 'strumento_tevere': 1}
+   bagno {'ok': True, 'pos': ((35, 19), 0, 17)}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+FINE santuario
+PROVA sentiero VBA-M Pokemon_Romagna_0_66.gba
+  dal titolo: ((34, 17), 46, 48, 3, False) medaglie [1, 1, 1, 1, 1, 1, 1, 0] {'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   FIXTURE: squadra curata [(50, 155, 155), (43, 119, 119)]
+  arrivo {'pos': ((35, 10), 19, 97)}
+   bacheca {'arrivo': True, 'testi': ["BACHECA DI VALLE DEL SAVIO. Vuoi leggere l'obiettivo principale? Scegli No per le piccole missioni locali.", 'Una presa sulla montagna: da completare. Cerca il personaggio o i pannelli in questa zona.'], 'lotta': [], 'pos': ((35, 10), 18, 98), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   cartello_ingresso {'arrivo': True, 'testi': ['SENTIERO DEL FUMAIOLO CESENA è a sud. Il sentiero risale il SAVIO fino alla cima.'], 'lotta': [], 'pos': ((35, 10), 20, 98), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   guida {'arrivo': True, 'testi': ["GUIDA: Il sentiero risale il SAVIO fino alla cima del FUMAIOLO. Il RIFUGIO è a nord, sulla strada di destra. L'EREMO è a ovest, oltre il ponte. Il masso davanti all'EREMO si sposta con FORZA."], 'lotta': [], 'pos': ((35, 10), 20, 96), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   guida_ridracoli {'arrivo': True, 'testi': ['Ingresso per collegamento per Ridracoli. Vuoi che ti accompagni lungo il collegamento?', 'Ti aspetto qui. Il viaggio è gratuito e puoi sempre tornare.'], 'lotta': [], 'pos': ((35, 10), 18, 96), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   cartello_rifugio {'arrivo': True, 'testi': ["RIFUGIO DEL FUMAIOLO: a nord. EREMO DI SANT'ALBERICO: torna al ponte e vai a ovest."], 'lotta': [], 'pos': ((35, 10), 27, 60), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   rifugio {'ok': True, 'pos': ((35, 11), 12, 18)}
+   fuori_dal_rifugio {'ok': True, 'pos': ((35, 10), 33, 39)}
+   escursionista_eremo {'arrivo': True, 'testi': ['Il santuario è una cavità antica. Il Fumaiolo non è un vulcano: il potere di Groudon dorme molto più in profondità.'], 'lotta': [], 'pos': ((35, 10), 10, 73), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   missione_forza {'arrivo': True, 'testi': ['Hai ottenuto: POZIONE MAX!', 'AAAAAAA mette POZIONE MAX nella tasca STRUMENTI.', 'Una dimostrazione perfetta! Questo è per te.'], 'lotta': [], 'pos': ((35, 10), 6, 73), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+  fuori percorso: atteso ((35, 10), 7, 72) sono ((35, 10), 6, 72) azione passo E
+  fuori percorso: atteso ((35, 10), 7, 72) sono ((35, 10), 6, 72) azione passo E
+   grotta_eremo {'ok': True, 'pos': ((35, 12), 10, 29)}
+  fuori percorso: atteso ((35, 12), 12, 27) sono ((35, 12), 13, 27) azione passo E
+   guida_3512 {'arrivo': True, 'testi': ['GUIDA: Questa grotta scende nel cuore del FUMAIOLO. La scala porta alla GROTTA DELLE SORGENTI.'], 'lotta': [], 'pos': ((35, 12), 17, 27), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   sorgenti {'ok': True, 'pos': ((35, 13), 20, 36)}
+   cartello_sorgenti {'arrivo': True, 'testi': ["SANTUARIO DEL FUMAIOLO Nord, da sinistra: PASSO DEI DRAGHI, sala di BASSI, nodo dell'ARGILLA. Ovest, oltre il lago: nodo del SALE."], 'lotta': [], 'pos': ((35, 13), 22, 35), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   guida_sorgenti {'arrivo': True, 'testi': ['GUIDA: Le frane chiudono il Passo dei Draghi. Ferma il Team Emilia e placa Groudon nel Cuore del Fumaiolo.'], 'lotta': [], 'pos': ((35, 13), 20, 34), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   torna_eremo {'ok': True, 'pos': ((35, 12), 21, 23)}
+   torna_sentiero {'ok': False, 'pos': ((35, 12), 10, 29)}
+   stele {'arrivo': True, 'testi': ['Sulla stele è inciso: QUI NASCE IL FIUME SACRO AI DESTINI DI ROMA. {05} la sorgente del TEVERE.'], 'lotta': [], 'pos': ((35, 10), 9, 4), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 0}
+   strumento {'arrivo': True, 'testi': ['Hai ottenuto: IPERPOZIONE!', 'AAAAAAA mette IPERPOZIONE nella tasca STRUMENTI.'], 'lotta': [], 'pos': ((35, 10), 9, 2), 'aldo': 1, 'nodo_sale': 0, 'nodo_argilla': 0, 'bassi': 0, 'groudon_fatto': 0, 'groudon_ogg': 0, 'strumento_tevere': 1}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+FINE sentiero
+PROVA vecchio65 VBA-M Pokemon_Romagna_0_66.gba t66_crea65.sav
+   {'titolo': ((35, 13), 20, 35), 'var_nuova': 1, 'dopo_4s': {'pos': ((35, 13), 20, 35), 'var_nuova': 1}}
+   cammina {'ok': True, 'pos': ((35, 13), 17, 34)}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+   verso_eremo {'ok': True, 'pos': ((35, 12), 10, 28)}
+FINE vecchio65

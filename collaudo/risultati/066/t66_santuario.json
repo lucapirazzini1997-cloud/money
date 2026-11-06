@@ -1,0 +1,556 @@
+{
+ "inizio": {
+  "pos": [
+   [
+    35,
+    10
+   ],
+   9,
+   2
+  ],
+  "aldo": 1,
+  "nodo_sale": 0,
+  "nodo_argilla": 0,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 1
+ },
+ "frane_prima_partenza": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    18
+   ],
+   14,
+   38
+  ]
+ },
+ "frane_prima": {
+  "testi": [
+   "Il passo verso BAGNO DI ROMAGNA è chiuso dalla crisi del Fumaiolo. Ferma il Team Emilia e affronta Groudon per riaprire le sorgenti."
+  ],
+  "posizioni": [
+   [
+    [
+     35,
+     18
+    ],
+    14,
+    37
+   ],
+   [
+    [
+     35,
+     18
+    ],
+    14,
+    39
+   ]
+  ],
+  "aldo": 1,
+  "nodo_sale": 0,
+  "nodo_argilla": 0,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 1
+ },
+ "recluta_sale": {
+  "testi": [
+   "TEAM EMILIA: La rete del Fumaiolo non si fermerà per te!",
+   "{fc}{02}{02}WEEZING{fc}{01}{0b}{b5}",
+   "Il nodo non riceve più energia...",
+   "Hai spento nodo del sale. Ora controlla l'altro settore. Con entrambi i nodi spenti puoi entrare da Bassi."
+  ],
+  "lotta": [
+   [
+    82,
+    44
+   ],
+   [
+    110,
+    44
+   ],
+   [
+    340,
+    45
+   ]
+  ],
+  "vinta": true,
+  "pos": [
+   [
+    35,
+    14
+   ],
+   15,
+   4
+  ],
+  "aldo": 1,
+  "nodo_sale": 1,
+  "nodo_argilla": 0,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 1
+ },
+ "conduttore_sale": {
+  "arrivo": true,
+  "testi": [
+   "Il conduttore è spento. Il Direttore Bassi non può più alimentare la rete dall'esterno."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    14
+   ],
+   15,
+   11
+  ],
+  "aldo": 1,
+  "nodo_sale": 1,
+  "nodo_argilla": 0,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 1
+ },
+ "recluta_sale_dopo": {
+  "arrivo": true,
+  "testi": [
+   "Il conduttore è spento. Il Direttore Bassi non può più alimentare la rete dall'esterno."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    14
+   ],
+   15,
+   4
+  ],
+  "aldo": 1,
+  "nodo_sale": 1,
+  "nodo_argilla": 0,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 1
+ },
+ "recluta_argilla": {
+  "testi": [
+   "TEAM EMILIA: La rete del Fumaiolo non si fermerà per te!",
+   "{fc}{02}{02}CLAYDOL{fc}{01}{0b}",
+   "Il nodo non riceve più energia...",
+   "Hai spento nodo dell'argilla. Ora controlla l'altro settore. Con entrambi i nodi spenti puoi entrare da Bassi."
+  ],
+  "lotta": [
+   [
+    287,
+    45
+   ],
+   [
+    319,
+    44
+   ],
+   [
+    384,
+    45
+   ]
+  ],
+  "vinta": true,
+  "pos": [
+   [
+    35,
+    15
+   ],
+   12,
+   12
+  ],
+  "aldo": 1,
+  "nodo_sale": 1,
+  "nodo_argilla": 1,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 1
+ },
+ "conduttore_argilla": {
+  "arrivo": true,
+  "testi": [
+   "Il conduttore è spento. Il Direttore Bassi non può più alimentare la rete dall'esterno."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    15
+   ],
+   10,
+   11
+  ],
+  "aldo": 1,
+  "nodo_sale": 1,
+  "nodo_argilla": 1,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 1
+ },
+ "recluta_argilla_dopo": {
+  "arrivo": true,
+  "testi": [
+   "Il conduttore è spento. Il Direttore Bassi non può più alimentare la rete dall'esterno."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    15
+   ],
+   10,
+   12
+  ],
+  "aldo": 1,
+  "nodo_sale": 1,
+  "nodo_argilla": 1,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 1
+ },
+ "soccorso": {
+  "arrivo": true,
+  "testi": [
+   "SOCCORSO: Riposa qui. Preparerò la tua squadra prima della caverna profonda.",
+   "La tua squadra è pronta. Puoi tornare qui per riposare e prepararti."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    16
+   ],
+   15,
+   31
+  ],
+  "aldo": 1,
+  "nodo_sale": 1,
+  "nodo_argilla": 1,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 1
+ },
+ "porta_prima": {
+  "arrivo": true,
+  "testi": [
+   "La porta profonda è bloccata dall'impianto. Affronta Bassi dopo aver spento entrambi i nodi."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    16
+   ],
+   10,
+   3
+  ],
+  "aldo": 1,
+  "nodo_sale": 1,
+  "nodo_argilla": 1,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 1
+ },
+ "bassi": {
+  "testi": [
+   "BASSI: Tutte le città hanno costruito la mia rete senza saperlo! Il potere di Groudon darà energia alla mia nuova Emilia!",
+   "{fc}{02}{02}MIGHTYENA{fc}{01}{0b}{b5}",
+   "{f9}{06}{77}5:{77}5"
+  ],
+  "lotta": [
+   [
+    169,
+    50
+   ],
+   [
+    287,
+    47
+   ],
+   [
+    340,
+    49
+   ]
+  ],
+  "vinta": false,
+  "pos": [
+   [
+    35,
+    1
+   ],
+   4,
+   7
+  ],
+  "aldo": 1,
+  "nodo_sale": 1,
+  "nodo_argilla": 1,
+  "bassi": 0,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 1,
+  "fixture_dopo_sconfitta": [
+   "0x759",
+   "0x4c9",
+   "0x4ca"
+  ],
+  "pos_dopo": [
+   [
+    35,
+    16
+   ],
+   10,
+   4
+  ]
+ },
+ "porta_dopo": {
+  "testi": [
+   "La rete è spenta. Il Cuore del Fumaiolo è davanti a te. Prepara strumenti e squadra."
+  ],
+  "pos": [
+   [
+    35,
+    17
+   ],
+   5,
+   5
+  ],
+  "aldo": 1,
+  "nodo_sale": 1,
+  "nodo_argilla": 1,
+  "bassi": 1,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 1
+ },
+ "guida_cuore": {
+  "arrivo": true,
+  "testi": [
+   "GUIDA: Salva prima di affrontare Groudon. Puoi catturarlo o placarlo in lotta. Se fuggi, la crisi resta aperta."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    17
+   ],
+   7,
+   21
+  ],
+  "aldo": 1,
+  "nodo_sale": 1,
+  "nodo_argilla": 1,
+  "bassi": 1,
+  "groudon_fatto": 0,
+  "groudon_ogg": 0,
+  "strumento_tevere": 1
+ },
+ "groudon": {
+  "testi": [
+   "Groudon reagisce alla tua presenza. La sfida sta per cominciare!",
+   "{fc}{02}{02}GROUDON{fc}{01}{0b}",
+   "BLAZIKEN ottiene 1557 punti ESP.! ",
+   "BRELOOM ottiene 778 punti ESP.! ",
+   "I dati di GROUDON sono stati aggiunti al POKéDEX. ",
+   "Vuoi dare un soprannome a GROUDON?",
+   "Groudon è al sicuro. La rete del Team Emilia è spenta e le sorgenti tornano a scorrere. Il Passo dei Draghi è libero."
+  ],
+  "cattura": {
+   "specie": 405,
+   "livello": [
+    50,
+    172,
+    172
+   ]
+  },
+  "oggetti": [],
+  "pos": [
+   [
+    35,
+    17
+   ],
+   17,
+   26
+  ],
+  "aldo": 1,
+  "nodo_sale": 1,
+  "nodo_argilla": 1,
+  "bassi": 1,
+  "groudon_fatto": 1,
+  "groudon_ogg": 1,
+  "strumento_tevere": 1
+ },
+ "uscita_cuore": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    16
+   ],
+   8,
+   2
+  ]
+ },
+ "sceso_dalla_porta": [
+  [
+   35,
+   16
+  ],
+  8,
+  3
+ ],
+ "guida_al_passo": {
+  "testi": [
+   "GUIDA: Le sorgenti sono tornate calme. Il Passo dei Draghi e Bagno di Romagna ti aspettano."
+  ],
+  "pos": [
+   [
+    35,
+    18
+   ],
+   15,
+   39
+  ]
+ },
+ "frane_dopo_partenza": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    18
+   ],
+   14,
+   38
+  ]
+ },
+ "frane_dopo": {
+  "testi": [
+   "GUIDA: Le sorgenti sono tornate calme. Il Passo dei Draghi e Bagno di Romagna ti aspettano."
+  ],
+  "posizioni": [
+   [
+    [
+     35,
+     18
+    ],
+    14,
+    37
+   ]
+  ],
+  "aldo": 1,
+  "nodo_sale": 1,
+  "nodo_argilla": 1,
+  "bassi": 1,
+  "groudon_fatto": 1,
+  "groudon_ogg": 1,
+  "strumento_tevere": 1
+ },
+ "guida_passo": {
+  "arrivo": true,
+  "testi": [
+   "I Pokémon Drago seguono il calore delle sorgenti. Nell'erba innevata troverai Bagon, Vibrava, Altaria, Dragonair e qualche Shelgon."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    18
+   ],
+   16,
+   38
+  ],
+  "aldo": 1,
+  "nodo_sale": 1,
+  "nodo_argilla": 1,
+  "bassi": 1,
+  "groudon_fatto": 1,
+  "groudon_ogg": 1,
+  "strumento_tevere": 1
+ },
+ "escursionista_passo": {
+  "arrivo": true,
+  "testi": [
+   "Bagno di Romagna è oltre il passo. Il paese vive tra neve e terme: la palestra di Leda custodisce questi luoghi."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    18
+   ],
+   21,
+   10
+  ],
+  "aldo": 1,
+  "nodo_sale": 1,
+  "nodo_argilla": 1,
+  "bassi": 1,
+  "groudon_fatto": 1,
+  "groudon_ogg": 1,
+  "strumento_tevere": 1
+ },
+ "strumento_passo": {
+  "arrivo": true,
+  "testi": [
+   "Hai ottenuto: ULTRA BALL!",
+   "AAAAAAA mette ULTRA BALL nella tasca POKé BALL."
+  ],
+  "lotta": [],
+  "pos": [
+   [
+    35,
+    18
+   ],
+   9,
+   20
+  ],
+  "aldo": 1,
+  "nodo_sale": 1,
+  "nodo_argilla": 1,
+  "bassi": 1,
+  "groudon_fatto": 1,
+  "groudon_ogg": 1,
+  "strumento_tevere": 1
+ },
+ "bagno": {
+  "ok": true,
+  "pos": [
+   [
+    35,
+    19
+   ],
+   0,
+   17
+  ]
+ },
+ "ricarica": {
+  "pos": [
+   [
+    35,
+    19
+   ],
+   0,
+   17
+  ],
+  "aldo": 1,
+  "nodo_sale": 1,
+  "nodo_argilla": 1,
+  "bassi": 1,
+  "groudon_fatto": 1,
+  "groudon_ogg": 1,
+  "strumento_tevere": 1
+ }
+}

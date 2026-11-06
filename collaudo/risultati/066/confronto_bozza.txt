@@ -1,0 +1,19 @@
+35.10: pixel diversi [] (dichiarati [(10, 4)]), collisione/quota diverse [], comportamenti non dichiarati []
+   oggetti True [(21, 96), (9, 73), (7, 72), (20, 95), (5, 73), (8, 2), (17, 96)]
+   uscite True [(7, 71), (18, 99), (19, 99), (20, 99), (33, 37)]
+   cartelli True [(10, 4), (17, 98), (21, 98), (27, 59)]
+35.12: pixel diversi [] (dichiarati []), collisione/quota diverse [], comportamenti non dichiarati []
+   oggetti [(13, 10), (18, 27)], uscite [(10, 29), (21, 23)], frane [], cartelli [] ok
+35.13: pixel diversi [] (dichiarati []), collisione/quota diverse [], comportamenti non dichiarati []
+   oggetti [(15, 4), (21, 34)], uscite [(7, 11), (13, 3), (17, 3), (20, 3), (20, 36)], frane [], cartelli [(23, 35)] ok
+35.14: pixel diversi [] (dichiarati []), collisione/quota diverse [], comportamenti non dichiarati []
+   oggetti [(16, 4), (16, 11)], uscite [(7, 21)], frane [], cartelli [] ok
+35.15: pixel diversi [] (dichiarati []), collisione/quota diverse [], comportamenti non dichiarati []
+   oggetti [(11, 12), (10, 10)], uscite [(12, 15)], frane [], cartelli [] ok
+35.16: pixel diversi [] (dichiarati []), collisione/quota diverse [], comportamenti non dichiarati []
+   oggetti [(10, 5), (9, 3), (14, 31)], uscite [(8, 2), (17, 33)], frane [], cartelli [] ok
+35.17: pixel diversi [] (dichiarati []), collisione/quota diverse [], comportamenti non dichiarati []
+   oggetti [(17, 25), (7, 22)], uscite [(5, 4)], frane [], cartelli [] ok
+35.18: pixel diversi [] (dichiarati []), collisione/quota diverse [], comportamenti non dichiarati []
+   oggetti [(17, 38), (21, 9), (8, 20)], uscite [(13, 5), (14, 5), (14, 40), (15, 40)], frane [(14, 37), (15, 37)], cartelli [] ok
+TUTTO OK

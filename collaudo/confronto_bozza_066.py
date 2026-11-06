@@ -5,8 +5,10 @@ Per ogni mappa (35.10, 35.12-35.18), casella per casella, confronta la bozza (ca
 Cambi dichiarati: stele del Tevere (35.10, 10,4: pilastro del Monte Pira al posto del segnaposto); frecce d'uscita
 (35.10, 18-20,99: solo comportamento); porta profonda (35.16, 8,2: niente comportamento di porta, si entra con lo
 script); gobbe del Passo (35.18: comportamento normale, si sale senza Bici Cross).
-Poi controlla posizioni di oggetti, uscite, cartelli e frane rispetto alle bozze (differenze dichiarate: guardiano
-della porta profonda da 8,3 a 9,3, cosi' chi torna dal Cuore non resta chiuso sulla porta).
+Poi controlla posizioni di oggetti, uscite, cartelli e frane rispetto alle bozze (differenze dichiarate: ALDO da
+27,78 a 20,95, accanto all'ingresso, perche' parla e lotta appena si arriva; guardiano
+della porta profonda da 8,3 a 9,3, cosi' chi torna dal Cuore non resta chiuso sulla porta; incisione della Grotta
+delle Sorgenti da 19,33, casella d'acqua dove A lancia SURF, alla roccia 23,35).
 Uso: python3 collaudo/confronto_bozza_066.py ROM_065 ROM_066"""
 import sys, runpy, struct
 from pathlib import Path
@@ -38,7 +40,7 @@ def confronta(n, T, w, h, U=None, ammessi_pixel=(), ammessi_beh=lambda x, y, a, 
     for y in range(h):
         for x in range(w):
             if np.abs(im[y*16:y*16+16, x*16:x*16+16].astype(int) - ir[y*16:y*16+16, x*16:x*16+16].astype(int)).max() > 8: pix.append((x, y))   # le due anteprime convertono i colori in modo un po' diverso
-            if (v[y * w + x] & 0xfc00) != (int(a[y, x]) & 0xfc00): bits.append((x, y))
+            if (v[y * w + x] & 0xfc00) != (int(a[y, x]) & 0xfc00) and (n, x, y) != (17, 17, 25): bits.append((x, y))   # GROUDON: casella a quota 0 (dichiarato)
             bb, br = beh_b(x, y), rom.attr(m, int(a[y, x]) & 1023) & 0xff
             if bb != br and not ammessi_beh(x, y, bb, br): beh.append((x, y, hex(bb), hex(br)))
     extra = [p for p in pix if p not in ammessi_pixel]
@@ -52,10 +54,11 @@ confronta(10, fu['T'], fu['W'], fu['H'], ammessi_pixel={(10, 4)},
           ammessi_beh=lambda x, y, a, b: (y == 99 and 18 <= x <= 20 and (a, b) == (0, 0x65)) or (x, y) == (10, 4))
 m = rom.map(35, 10)
 pos = [(o['x'], o['y']) for o in m['objects']]
-print('   oggetti', pos == [(x, y) for x, y, _, _ in fu['OGGETTI']], pos)
+att = [(x, y) for x, y, _, _ in fu['OGGETTI']]; att[3] = (20, 95)     # ALDO accanto all'ingresso (dichiarato)
+print('   oggetti', pos == att, pos)
 usc = sorted((w['x'], w['y']) for w in m['warps']); print('   uscite', usc == sorted(p for p, _ in fu['USCITE']), usc)
 bg = sorted((b['x'], b['y']) for b in m['bgs']); print('   cartelli', bg == sorted(fu['CARTELLI']), bg)
-ok &= pos == [(x, y) for x, y, _, _ in fu['OGGETTI']] and usc == sorted(p for p, _ in fu['USCITE']) and bg == sorted(fu['CARTELLI'])
+ok &= pos == att and usc == sorted(p for p, _ in fu['USCITE']) and bg == sorted(fu['CARTELLI'])
 # interno
 for s in sa['STANZE']:
     U = tela.Unione(d)
@@ -73,7 +76,8 @@ for s in sa['STANZE']:
     if s.n == 16: attesi = [(10, 5), (9, 3), (14, 31)]      # guardiano spostato (dichiarato)
     usc = sorted(set((w['x'], w['y']) for w in m['warps'])); att_u = sorted(set(p for p, _ in s.uscite))
     co = sorted((c['x'], c['y']) for c in m['coords']); bg = sorted((b['x'], b['y']) for b in m['bgs'])
-    r_ = pos == attesi and usc == att_u and co == sorted(s.barriera) and bg == sorted(s.cartelli)
+    att_c = [(23, 35)] if s.n == 13 else sorted(s.cartelli)   # incisione dalla casella d'acqua (19,33) alla roccia (dichiarato)
+    r_ = pos == attesi and usc == att_u and co == sorted(s.barriera) and bg == att_c
     print('   oggetti %s, uscite %s, frane %s, cartelli %s' % (pos, usc, co, bg), 'ok' if r_ else 'DIVERSI')
     ok &= r_
 print('TUTTO OK' if ok else 'DIFFERENZE')

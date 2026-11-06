@@ -73,7 +73,8 @@ def disegna_sentiero(d):
     return T
 
 
-SENT_OGGETTI = [(21, 96), (9, 73), (7, 72), (27, 78), (5, 73), (8, 2), (17, 96)]   # oggetti 1-7, come oggi
+SENT_OGGETTI = [(21, 96), (9, 73), (7, 72), (20, 95), (5, 73), (8, 2), (17, 96)]   # oggetti 1-7, come oggi
+# ALDO (4): nella bozza a (27,78); parla e lotta appena si arriva (script di frame), quindi sta accanto all'ingresso
 SENT_ARRIVO_CESENA, SENT_ARRIVO_RIDRACOLI = (19, 97), (18, 96)
 GROTTA_EREMO, PORTA_RIFUGIO = (7, 71), (33, 37)
 
@@ -106,7 +107,7 @@ def stanze(d):
             for j in (2, 3): s.come(x0 + i, j, 16 + i, j)
     s.uscite = [(20, 36), (7, 11), (20, 3), (17, 3), (13, 3)]
     s.oggetti = [(15, 4), (21, 34)]
-    s.cartelli = [(19, 33)]
+    s.cartelli = [(23, 35)]                         # bozza: (19,33), che e' acqua (A lancia SURF): sulla roccia
     s.arrivo = (20, 35); out.append(s)
     s = Stanza(d, 14, 'Nodo del Sale', 339)
     s.come(23, 3, 24, 3); s.come(23, 2, 24, 2); s.come(21, 9, 22, 9); s.come(21, 8, 22, 8)
@@ -250,6 +251,9 @@ def apply(W):
             for i, (refs, attr) in enumerate(U.meta):
                 if attr & 0xff == 0xd1: U.meta[i] = (refs, attr & 0xff00); n += 1
             assert n > 0
+        if s.n == 17:
+            x, y = s.oggetti[0]; assert (vals[y * s.w + x] >> 12) == 1
+            vals[y * s.w + x] &= 0x0fff
         beh = comportamento(U, vals, s.w)
         if s.porta_finta:
             x, y = s.porta_finta; v = vals[y * s.w + x]; k_ = v & 1023
@@ -268,6 +272,10 @@ def apply(W):
         if s.n == 12:
             assert ogg[0]['gfx'] == 87 and ogg[0]['flag'] == 0
             ogg[0]['flag'] = F_MASSO
+        if s.n == 17:                                # GROUDON sta sul bordo della lava (quota 1): l'oggetto prende la quota
+            assert ogg[0]['gfx'] == 206                              # della riva (3) e la sua casella quota 0, perche'
+            ogg[0]['elev'] = 3                                       # Smeraldo gli da' la quota della casella: con 1
+                                                                     # A dal giocatore (quota 3) non lo trova
         ws = [dict(w) for w in m['warps']]
         for w, (x, y) in zip(ws, s.uscite): w.update(x=x, y=y)
         for (x, y), i in getattr(s, 'extra', []): ws.append(dict(ws[i], x=x, y=y))
@@ -279,7 +287,7 @@ def apply(W):
                            script=c0['script'] - B if c0['script'] >= B else c0['script']) for x, y in s.barriera]
         bgs = [dict(b) for b in m['bgs']]
         if s.cartelli:
-            assert len(bgs) == 1; bgs[0].update(x=s.cartelli[0][0], y=s.cartelli[0][1])
+            assert len(bgs) == 1; bgs[0].update(x=s.cartelli[0][0], y=s.cartelli[0][1], elev=0)
             p = bgs[0]['arg'] - B; ripunta(W, p + 2, T_CARTELLO_SORGENTI)
         W.set_events(*k, objects=ogg, warps=ws, coords=coords, bgs=bgs)
         arrivi[s.n] = s.arrivo

@@ -1,0 +1,48 @@
+abilita (nessuna)
+  caselle: {'35.10': 1081, '35.11': 335}
+   rifugio 35.11                        si
+   grotta dell'Eremo 35.12              no
+   Grotta delle Sorgenti 35.13          no
+   Nodo del Sale (recluta 16,4)         no
+   Nodo dell'Argilla (recluta 11,12)    no
+   BASSI (10,5)                         no
+   guardiano della porta (9,3)          no
+   Passo dei Draghi                     no
+   Bagno di Romagna 35.19               no
+   stele del Tevere (10,4)              si
+abilita ('forza',)
+  caselle: {'35.10': 1083, '35.11': 335, '35.12': 117, '35.13': 17}
+   rifugio 35.11                        si
+   grotta dell'Eremo 35.12              si
+   Grotta delle Sorgenti 35.13          si
+   Nodo del Sale (recluta 16,4)         no
+   Nodo dell'Argilla (recluta 11,12)    no
+   BASSI (10,5)                         no
+   guardiano della porta (9,3)          no
+   Passo dei Draghi                     no
+   Bagno di Romagna 35.19               no
+   stele del Tevere (10,4)              si
+abilita ('surf',)
+  caselle: {'35.10': 1879, '35.11': 335}
+   rifugio 35.11                        si
+   grotta dell'Eremo 35.12              no
+   Grotta delle Sorgenti 35.13          no
+   Nodo del Sale (recluta 16,4)         no
+   Nodo dell'Argilla (recluta 11,12)    no
+   BASSI (10,5)                         no
+   guardiano della porta (9,3)          no
+   Passo dei Draghi                     no
+   Bagno di Romagna 35.19               no
+   stele del Tevere (10,4)              si
+abilita ('surf', 'forza')
+  caselle: {'35.10': 1881, '35.11': 335, '35.12': 165, '35.13': 288, '35.14': 149, '35.15': 109, '35.16': 378, '35.17': 154, '35.18': 277, '35.19': 1533}
+   rifugio 35.11                        si
+   grotta dell'Eremo 35.12              si
+   Grotta delle Sorgenti 35.13          si
+   Nodo del Sale (recluta 16,4)         si
+   Nodo dell'Argilla (recluta 11,12)    si
+   BASSI (10,5)                         si
+   guardiano della porta (9,3)          si
+   Passo dei Draghi                     si
+   Bagno di Romagna 35.19               si
+   stele del Tevere (10,4)              si

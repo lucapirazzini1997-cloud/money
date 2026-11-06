@@ -3,7 +3,7 @@
 **Base:** 0.65, SHA-256 `ad1bfa2d6eec44389edbb35a5e802dfe49fb7ede7aa3f5fc1ced63f9baa69a94`.
 
 **Risultato:** `Pokemon_Romagna_0_66.gba`, SHA-256 `d794870a35a619553550d0913395fb5d900e122d50085bc4ec6cab5276b74f84`.
-- Patch BPS 0.65→0.66: `rom/Pokemon_Romagna_0_65_to_0_66.bps` (BPS_BYTE byte), verificata riapplicandola (`consegna.sh`, log in `collaudo/risultati/066/consegna.txt`).
+- Patch BPS 0.65→0.66: `rom/Pokemon_Romagna_0_65_to_0_66.bps` (49153 byte), verificata riapplicandola (`consegna.sh`, log in `collaudo/risultati/066/consegna.txt`).
 - Modulo: `versioni/v066_fumaiolo.py`. La build da zero rifà tutti gli SHA; lo zip senza `out/` ricostruito in una cartella pulita rifà lo stesso SHA (stesso log).
 - Lo SHA è in `build.py` dopo il collaudo (§5).
 - **Salvataggi compatibili:** stesse mappe (35.10, 35.12–35.18) con layout nuovi, stessi oggetti con gli stessi numeri e script, stesse uscite con gli stessi indici; una variabile nuova (a 0 nei vecchi salvataggi). Un salvataggio vero della 0.65 fatto dentro la vecchia Grotta (35.13) carica nella 0.66 e prosegue, in mGBA e in VBA-M (§5).

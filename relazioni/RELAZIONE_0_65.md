@@ -3,7 +3,7 @@
 **Base:** 0.64, SHA-256 `82ac35d2135894815f412ca51666f31f900e5ab778b1d8838c46bb1bbda27f70`.
 
 **Risultato:** `Pokemon_Romagna_0_65.gba`, SHA-256 `ad1bfa2d6eec44389edbb35a5e802dfe49fb7ede7aa3f5fc1ced63f9baa69a94`.
-- Patch BPS 0.64→0.65: `rom/Pokemon_Romagna_0_64_to_0_65.bps` (BPS_BYTE byte), verificata riapplicandola (`consegna.sh`, log in `collaudo/risultati/065/consegna.txt`).
+- Patch BPS 0.64→0.65: `rom/Pokemon_Romagna_0_64_to_0_65.bps` (13342 byte), verificata riapplicandola (`consegna.sh`, log in `collaudo/risultati/065/consegna.txt`).
 - Modulo: `versioni/v065_ridracoli.py`. La build da zero rifà tutti gli SHA; lo zip senza `out/` ricostruito in una cartella pulita rifà lo stesso SHA (stesso log).
 - Lo SHA è in `build.py` dopo il collaudo (§5).
 - **Salvataggi compatibili:** stessa mappa (35.51) con layout nuovo e più alta (da 44×34 a 44×62), una variabile nuova (a 0 nei vecchi salvataggi). Un salvataggio vero della 0.64 fatto dentro la vecchia 35.51 carica nella 0.65 e prosegue, in mGBA e in VBA-M (§5).

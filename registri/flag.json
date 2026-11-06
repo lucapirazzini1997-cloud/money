@@ -563,6 +563,14 @@
    "35.51 oggetto 8"
   ]
  },
+ "0x35": {
+  "imposta": [
+   "35.12 script mappa 3"
+  ],
+  "oggetto": [
+   "35.12 oggetto 1"
+  ]
+ },
  "0x36": {
   "controlla": [
    "34.9 oggetto 1",
@@ -8518,7 +8526,7 @@
    "35.10 oggetto 5"
   ],
   "controlla": [
-   "35.10 cartello 26,6",
+   "35.10 cartello 17,98",
    "35.10 oggetto 5"
   ]
  },
@@ -9412,20 +9420,8 @@
    "35.16 script mappa 5",
    "35.17 oggetto 2",
    "35.17 script mappa 5",
-   "35.18 coord 7,1",
-   "35.18 coord 7,10",
-   "35.18 coord 7,11",
-   "35.18 coord 7,18",
-   "35.18 coord 7,19",
-   "35.18 coord 7,20",
-   "35.18 coord 7,23",
-   "35.18 coord 7,24",
-   "35.18 coord 7,25",
-   "35.18 coord 7,28",
-   "35.18 coord 7,6",
-   "35.18 coord 7,7",
-   "35.18 coord 7,8",
-   "35.18 coord 7,9",
+   "35.18 coord 14,37",
+   "35.18 coord 15,37",
    "35.18 script mappa 5",
    "35.19 script mappa 5",
    "35.2 script mappa 5",
@@ -17197,7 +17193,7 @@
    "34.93 cartello 26,30",
    "34.96 cartello 34,39",
    "35.1 cartello 24,38",
-   "35.10 cartello 26,6"
+   "35.10 cartello 17,98"
   ]
  },
  "0x4e5": {
@@ -17225,7 +17221,7 @@
    "34.93 cartello 26,30",
    "34.96 cartello 34,39",
    "35.1 cartello 24,38",
-   "35.10 cartello 26,6"
+   "35.10 cartello 17,98"
   ]
  },
  "0x4e6": {
@@ -20280,7 +20276,7 @@
    "35.0 script mappa 5",
    "35.1 cartello 24,38",
    "35.1 script mappa 5",
-   "35.10 cartello 26,6",
+   "35.10 cartello 17,98",
    "35.10 oggetto 4",
    "35.10 script mappa 2",
    "35.10 script mappa 5",
@@ -21060,7 +21056,7 @@
    "35.0 script mappa 5",
    "35.1 cartello 24,38",
    "35.1 script mappa 5",
-   "35.10 cartello 26,6",
+   "35.10 cartello 17,98",
    "35.10 script mappa 5",
    "35.11 script mappa 5",
    "35.12 script mappa 5",
@@ -21795,7 +21791,7 @@
    "35.0 script mappa 5",
    "35.1 cartello 24,38",
    "35.1 script mappa 5",
-   "35.10 cartello 26,6",
+   "35.10 cartello 17,98",
    "35.10 oggetto 4",
    "35.10 script mappa 2",
    "35.10 script mappa 5",
@@ -22576,7 +22572,7 @@
    "35.0 script mappa 5",
    "35.1 cartello 24,38",
    "35.1 script mappa 5",
-   "35.10 cartello 26,6",
+   "35.10 cartello 17,98",
    "35.10 script mappa 5",
    "35.101 oggetto 7",
    "35.11 script mappa 5",
@@ -23306,7 +23302,7 @@
    "35.0 script mappa 5",
    "35.1 cartello 24,38",
    "35.1 script mappa 5",
-   "35.10 cartello 26,6",
+   "35.10 cartello 17,98",
    "35.10 oggetto 4",
    "35.10 script mappa 2",
    "35.10 script mappa 5",
@@ -24047,7 +24043,7 @@
    "35.0 script mappa 5",
    "35.1 cartello 24,38",
    "35.1 script mappa 5",
-   "35.10 cartello 26,6",
+   "35.10 cartello 17,98",
    "35.10 script mappa 5",
    "35.102 coord 10,41",
    "35.102 coord 11,41",
@@ -24889,7 +24885,7 @@
    "35.0 script mappa 5",
    "35.1 cartello 24,38",
    "35.1 script mappa 5",
-   "35.10 cartello 26,6",
+   "35.10 cartello 17,98",
    "35.10 script mappa 5",
    "35.11 script mappa 5",
    "35.12 script mappa 5",
@@ -25700,7 +25696,7 @@
    "35.0 script mappa 5",
    "35.1 cartello 24,38",
    "35.1 script mappa 5",
-   "35.10 cartello 26,6",
+   "35.10 cartello 17,98",
    "35.10 oggetto 3",
    "35.10 oggetto 4",
    "35.10 oggetto 7",
@@ -25714,20 +25710,8 @@
    "35.15 script mappa 5",
    "35.16 script mappa 5",
    "35.17 script mappa 5",
-   "35.18 coord 7,1",
-   "35.18 coord 7,10",
-   "35.18 coord 7,11",
-   "35.18 coord 7,18",
-   "35.18 coord 7,19",
-   "35.18 coord 7,20",
-   "35.18 coord 7,23",
-   "35.18 coord 7,24",
-   "35.18 coord 7,25",
-   "35.18 coord 7,28",
-   "35.18 coord 7,6",
-   "35.18 coord 7,7",
-   "35.18 coord 7,8",
-   "35.18 coord 7,9",
+   "35.18 coord 14,37",
+   "35.18 coord 15,37",
    "35.18 script mappa 5",
    "35.19 script mappa 5",
    "35.2 script mappa 5",
@@ -26462,7 +26446,7 @@
    "35.0 script mappa 5",
    "35.1 cartello 24,38",
    "35.1 script mappa 5",
-   "35.10 cartello 26,6",
+   "35.10 cartello 17,98",
    "35.10 oggetto 4",
    "35.10 script mappa 2",
    "35.10 script mappa 5",

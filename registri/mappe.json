@@ -20933,37 +20933,51 @@
  "35.10": {
   "nome": "SENTIERO FUMAIOLO",
   "dimensioni": [
-   56,
-   52
+   40,
+   100
   ],
   "tipo": 3,
   "uscite": [
    {
     "da": [
-     28,
-     0
+     19,
+     99
     ],
     "verso": "34.17"
    },
    {
     "da": [
-     8,
-     18
+     33,
+     37
     ],
     "verso": "35.11"
    },
    {
     "da": [
-     43,
-     13
+     7,
+     71
     ],
     "verso": "35.12"
+   },
+   {
+    "da": [
+     18,
+     99
+    ],
+    "verso": "34.17"
+   },
+   {
+    "da": [
+     20,
+     99
+    ],
+    "verso": "34.17"
    }
   ],
   "connessioni": [],
   "blocchi": [],
   "oggetti": 7,
-  "cartelli": 2
+  "cartelli": 4
  },
  "35.11": {
   "nome": "SENTIERO FUMAIOLO",
@@ -20989,22 +21003,22 @@
  "35.12": {
   "nome": "SANTUARIO FUMAIOLO",
   "dimensioni": [
-   28,
-   20
+   30,
+   32
   ],
   "tipo": 4,
   "uscite": [
    {
     "da": [
-     3,
-     15
+     10,
+     29
     ],
     "verso": "35.10"
    },
    {
     "da": [
-     24,
-     4
+     21,
+     23
     ],
     "verso": "35.13"
    }
@@ -21017,43 +21031,43 @@
  "35.13": {
   "nome": "SANTUARIO FUMAIOLO",
   "dimensioni": [
-   32,
-   28
+   29,
+   38
   ],
   "tipo": 4,
   "uscite": [
    {
     "da": [
-     4,
-     24
+     20,
+     36
     ],
     "verso": "35.12"
    },
    {
     "da": [
-     4,
-     7
+     7,
+     11
     ],
     "verso": "35.14"
    },
    {
     "da": [
-     27,
-     8
+     20,
+     3
     ],
     "verso": "35.15"
    },
    {
     "da": [
-     16,
-     4
+     17,
+     3
     ],
     "verso": "35.16"
    },
    {
     "da": [
-     25,
-     24
+     13,
+     3
     ],
     "verso": "35.18"
    }
@@ -21066,15 +21080,15 @@
  "35.14": {
   "nome": "SANTUARIO FUMAIOLO",
   "dimensioni": [
-   22,
-   20
+   28,
+   24
   ],
   "tipo": 8,
   "uscite": [
    {
     "da": [
-     11,
-     19
+     7,
+     21
     ],
     "verso": "35.13"
    }
@@ -21087,15 +21101,15 @@
  "35.15": {
   "nome": "SANTUARIO FUMAIOLO",
   "dimensioni": [
-   22,
-   20
+   24,
+   17
   ],
   "tipo": 8,
   "uscite": [
    {
     "da": [
-     11,
-     19
+     12,
+     15
     ],
     "verso": "35.13"
    }
@@ -21108,22 +21122,22 @@
  "35.16": {
   "nome": "SANTUARIO FUMAIOLO",
   "dimensioni": [
-   24,
-   22
+   33,
+   39
   ],
   "tipo": 8,
   "uscite": [
    {
     "da": [
-     12,
-     21
+     17,
+     33
     ],
     "verso": "35.13"
    },
    {
     "da": [
-     12,
-     4
+     8,
+     2
     ],
     "verso": "35.17"
    }
@@ -21136,15 +21150,15 @@
  "35.17": {
   "nome": "CUORE FUMAIOLO",
   "dimensioni": [
-   32,
-   28
+   27,
+   30
   ],
   "tipo": 4,
   "uscite": [
    {
     "da": [
-     15,
-     24
+     5,
+     4
     ],
     "verso": "35.16"
    }
@@ -21157,22 +21171,36 @@
  "35.18": {
   "nome": "PASSO DEI DRAGHI",
   "dimensioni": [
-   36,
-   30
+   30,
+   41
   ],
   "tipo": 3,
   "uscite": [
    {
     "da": [
-     3,
-     24
+     14,
+     40
     ],
     "verso": "35.13"
    },
    {
     "da": [
-     33,
-     6
+     13,
+     5
+    ],
+    "verso": "35.19"
+   },
+   {
+    "da": [
+     15,
+     40
+    ],
+    "verso": "35.13"
+   },
+   {
+    "da": [
+     14,
+     5
     ],
     "verso": "35.19"
    }
@@ -21180,7 +21208,7 @@
   "connessioni": [],
   "blocchi": [
    {
-    "dove": "coord 7,1",
+    "dove": "coord 14,37",
     "flag": [
      "0x4cb",
      "0x86d"

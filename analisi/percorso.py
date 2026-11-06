@@ -3,6 +3,8 @@
 
 Diverso da cammino.py (ottimistico): qui contano
   - quota delle caselle (elevazione): si passa solo fra quote uguali, o da/verso quota 0 e 15 (come Smeraldo);
+    sulle caselle a quota 0 (scale, passaggi) il giocatore prende quota 0 e poi va a qualunque quota, su quelle
+    a quota 15 tiene la sua (ObjectEventUpdateElevation; corretto nella 0.66: prima teneva la quota anche sulla 0);
   - acqua: serve SURF (si entra in acqua da quota 3, si scende a terra su quota 3); CASCATA per risalire;
   - sporgenze: si saltano solo nel loro verso (si atterra due caselle oltre);
   - pendii fangosi (Bici Corsa), pendii a gobbe e binari (Bici Cross): solo con la bici giusta;
@@ -156,19 +158,19 @@ def cerca(R, partenza, ab, flag_alzate=(), script_tipo=None, z=None, surf=False,
             if t['b'] == FANGO and dn == 'N' and 'corsa' not in ab: continue
             if (t['b'] == GOBBE or t['b'] in BINARI) and 'cross' not in ab: continue
             if sott(nk) and not surf:                            # sott'acqua si nuota come a piedi
-                if not mismatch: push((nk, nx, ny, tz if tz not in (0, 15) else z, False), st)
+                if not mismatch: push((nk, nx, ny, tz if tz != 15 else z, False), st)
                 continue
             if surf:
                 if acqua and not mismatch: push((nk, nx, ny, tz if tz not in (0, 15) else z, True), st)
                 elif not acqua and tz == 3 and mismatch: push((nk, nx, ny, 3, False), st)       # scende a terra
-                elif not acqua and not mismatch: push((nk, nx, ny, tz if tz not in (0, 15) else z, False), st)
+                elif not acqua and not mismatch: push((nk, nx, ny, tz if tz != 15 else z, False), st)
                 continue
             if acqua:
                 mossa[1] = 'surf'
                 if 'surf' in ab and z == 3 and (mismatch or tz in (0, 1)): push((nk, nx, ny, 1, True), st)
                 continue
             if mismatch: continue
-            push((nk, nx, ny, tz if tz not in (0, 15) else z, False), st)
+            push((nk, nx, ny, tz if tz != 15 else z, False), st)
     return prec
 
 

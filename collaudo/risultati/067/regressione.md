@@ -1,0 +1,25 @@
+ROM: `Pokemon_Romagna_0_67.gba` (SHA-256 aa5724473410d034397f8ac75583e6639659c0d23feda031538d99d739fbfe7b)
+
+Riferimento: `Pokemon_Romagna_0_66.gba` (SHA-256 d794870a35a619553550d0913395fb5d900e122d50085bc4ec6cab5276b74f84)
+
+| Partenza | Gira | Vivo | Callback nella ROM | Rispetto al riferimento |
+|---|---|---|---|---|
+| mGBA gpre | si | si | si | uguale |
+| mGBA prog_b6b | si | si | si | uguale |
+| mGBA prog_imola | si | si | si | diverso: squadra.EWRAM, squadra.IWRAM, squadra.VRAM, squadra.OAM, riassunto.EWRAM ... |
+| mGBA q8_end | si | si | si | uguale |
+| mGBA s_ce3 | si | si | si | diverso: cammina.EWRAM, cammina.IWRAM, cammina.VRAM, menu.EWRAM, menu.IWRAM ... |
+| mGBA t56_church | si | si | si | diverso: squadra.EWRAM, squadra.IWRAM, squadra.VRAM, riassunto.EWRAM, riassunto.IWRAM ... |
+| mGBA t56_lib2 | si | si | si | diverso: squadra.EWRAM, squadra.IWRAM, squadra.VRAM, riassunto.EWRAM, riassunto.IWRAM ... |
+| mGBA t56_lib_out | si | si | si | diverso: squadra.EWRAM, squadra.IWRAM, squadra.VRAM, riassunto.EWRAM, riassunto.IWRAM ... |
+| mGBA t56_pennelli | si | si | si | diverso: squadra.EWRAM, squadra.IWRAM, squadra.VRAM, riassunto.EWRAM, riassunto.IWRAM ... |
+| mGBA t56_reload | si | si | si | diverso: squadra.EWRAM, squadra.IWRAM, squadra.VRAM, riassunto.EWRAM, riassunto.IWRAM ... |
+| mGBA t56_rename | si | si | si | diverso: cammina.EWRAM, cammina.IWRAM, cammina.VRAM, cammina.OAM, menu.schermo ... |
+| mGBA t56_rename2 | si | si | si | diverso: cammina.EWRAM, cammina.IWRAM, cammina.VRAM, cammina.OAM, menu.schermo ... |
+| mGBA t56_smeargle | si | si | si | diverso: squadra.EWRAM, squadra.IWRAM, squadra.VRAM, riassunto.EWRAM, riassunto.IWRAM ... |
+| mGBA t59_entei | si | si | si | diverso: squadra.EWRAM, squadra.IWRAM, squadra.VRAM, riassunto.EWRAM, riassunto.IWRAM ... |
+| mGBA t59_raikou | si | si | si | uguale |
+| mGBA t59_ravenna | si | si | si | diverso: cammina.schermo, cammina.EWRAM, cammina.IWRAM, cammina.VRAM, cammina.OAM ... |
+| mGBA t59_suicune | si | si | si | diverso: squadra.schermo, squadra.EWRAM, squadra.IWRAM, squadra.VRAM, squadra.OAM ... |
+| mGBA salvataggio | si | si | si | diverso: avvio.EWRAM, avvio.IWRAM, avvio.VRAM, cammina.EWRAM, cammina.IWRAM ... |
+| VBA-M salvataggio | si | si | si | diverso: avvio.EWRAM, avvio.VRAM, cammina.EWRAM, cammina.VRAM, menu.EWRAM ... |

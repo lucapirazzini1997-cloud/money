@@ -36,6 +36,7 @@ CITTA = {'CESENA': ((34, 17), (82, 8)), 'RIMINI': ((34, 47), (54, 11)), 'FORLI':
 def numeri():
     """Variabile del viaggio e flag del primo viaggio, letti dagli script della carrozza."""
     m = _R.map(*CARROZZA); ms = dict(_R.map_scripts(m)); d = _R.data
+    if 2 not in ms: return None, None                       # ROM 0.66 (crea66): niente treno
     tab = ms[2]; var = struct.unpack_from('<H', d, tab)[0]
     p = struct.unpack_from('<I', d, tab + 4)[0] - 0x8000000
     assert d[p] == 0x69 and d[p + 4] == 0x2b

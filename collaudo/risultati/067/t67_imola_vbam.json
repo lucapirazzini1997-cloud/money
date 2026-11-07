@@ -1,0 +1,63 @@
+{
+ "ingresso_imola": {
+  "arrivo": true,
+  "pos": [
+   [
+    24,
+    51
+   ],
+   6,
+   11
+  ]
+ },
+ "imola_cesena": {
+  "arrivo_capotreno": true,
+  "testi": [
+   "CAPOTRENO: Stazione di IMOLA! Dove vuoi andare?",
+   "Un biglietto per RIMINI?",
+   "Un biglietto per CESENA?",
+   "CAPOTRENO: Ecco il biglietto per CESENA. Per chi allena Pokémon è gratis! Il regionale è in partenza. Sali pure!",
+   "VIAGGIATORE: Hai visto dal finestrino? Il treno corre lungo la VIA EMILIA. Una volta da Rimini a Imola si andava a piedi. Adesso ci vuole un attimo! Io scendo alla prossima: mia sorella fa la piadina ",
+   "CAPOTRENO: Prossima fermata: CESENA. Scendete dal lato del binario."
+  ],
+  "domande": [
+   "RIMINI",
+   "CESENA"
+  ],
+  "mappe": [
+   "(24, 51)",
+   "(24, 74)",
+   "(24, 39)"
+  ],
+  "pos": [
+   [
+    24,
+    39
+   ],
+   6,
+   4
+  ],
+  "var_treno": 0,
+  "primo_viaggio": 1
+ },
+ "uscita_cesena": {
+  "pos": [
+   [
+    34,
+    17
+   ],
+   82,
+   9
+  ],
+  "porta": [
+   [
+    34,
+    17
+   ],
+   [
+    82,
+    8
+   ]
+  ]
+ }
+}

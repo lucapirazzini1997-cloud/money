@@ -1,0 +1,61 @@
+{
+ "titolo": [
+  [
+   34,
+   17
+  ],
+  82,
+  10
+ ],
+ "porta_subito": {
+  "arrivo": true,
+  "pos": [
+   [
+    24,
+    39
+   ],
+   6,
+   11
+  ]
+ },
+ "fuori_1": {
+  "pos": [
+   [
+    34,
+    17
+   ],
+   82,
+   9
+  ],
+  "porta": [
+   [
+    34,
+    17
+   ],
+   [
+    82,
+    8
+   ]
+  ]
+ },
+ "uscita_citta": true,
+ "dopo_uscita": [
+  [
+   35,
+   87
+  ],
+  4,
+  4
+ ],
+ "porta_dopo_rientro": {
+  "arrivo": true,
+  "pos": [
+   [
+    24,
+    39
+   ],
+   6,
+   11
+  ]
+ }
+}

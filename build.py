@@ -35,6 +35,7 @@ SHA = {
     '064': '82ac35d2135894815f412ca51666f31f900e5ab778b1d8838c46bb1bbda27f70',   # collaudo: collaudo/risultati/064
     '065': 'ad1bfa2d6eec44389edbb35a5e802dfe49fb7ede7aa3f5fc1ced63f9baa69a94',   # collaudo: collaudo/risultati/065
     '066': 'd794870a35a619553550d0913395fb5d900e122d50085bc4ec6cab5276b74f84',   # collaudo: collaudo/risultati/066
+    '067': 'aa5724473410d034397f8ac75583e6639659c0d23feda031538d99d739fbfe7b',   # collaudo: collaudo/risultati/067
 }
 # Versioni costruite sopra la 0.55: (numero, modulo in versioni/). Ogni nuova versione aggiunge una riga
 # e il suo SHA atteso in SHA (dopo averla collaudata). Il modulo espone apply(W) -> dict (rapporto).

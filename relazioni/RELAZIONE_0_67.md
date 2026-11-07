@@ -3,8 +3,8 @@
 **Base:** 0.66, SHA-256 `d794870a35a619553550d0913395fb5d900e122d50085bc4ec6cab5276b74f84`.
 
 **Risultato:** `Pokemon_Romagna_0_67.gba`, SHA-256 `aa5724473410d034397f8ac75583e6639659c0d23feda031538d99d739fbfe7b`.
-- Patch BPS 0.66→0.67: `rom/Pokemon_Romagna_0_66_to_0_67.bps` (CONSEGNA).
-- Modulo: `versioni/v067_treno.py`. La build da zero rifà tutti gli SHA.
+- Patch BPS 0.66→0.67: `rom/Pokemon_Romagna_0_66_to_0_67.bps` (98892 byte), verificata riapplicandola (`consegna.sh`, log in `collaudo/risultati/067/consegna.txt`). È più grande delle ultime perché contiene la grafica del primario ricompressa e, per ogni città, layout e tabella dei metatile copiati.
+- Modulo: `versioni/v067_treno.py`. La build da zero rifà tutti gli SHA; lo zip senza `out/` ricostruito in una cartella pulita rifà lo stesso SHA.
 - Lo SHA è in `build.py` dopo il collaudo (§5).
 - **Salvataggi compatibili:** le mappe nuove usano posti liberi (24.39–24.41, 24.50, 24.51, 24.74); nelle città cambiano solo 4 caselle del cartello e la porta di una casa che era chiusa; una flag e una variabile nuove (a 0 nei vecchi salvataggi). Un salvataggio vero della 0.66 fatto davanti alla futura stazione di Cesena: §5.
 
@@ -87,7 +87,46 @@ La stima dello spazio era bassa: non avevo contato la copia di tabella e layout 
 
 ## 5. Collaudo (solo tasti; fixture dichiarate)
 
-RISULTATI
+**Script e risultati**
+- Lo script è `collaudo/t67.py`, con `leg.py` e `vai.py`.
+- I risultati sono in `collaudo/risultati/067/`: json di ogni parte e `log_t67.txt`.
+- La ROM è quella finale `aa572447…fe7b` in mGBA e in VBA-M. VBA-M riparte dal salvataggio vero fatto in mGBA.
+
+**Fixture dichiarate:** posizione di partenza (davanti alla stazione di Rimini, di Imola o di Cesena) e 7ª medaglia (0x86D) nella parte "imola". Le partenze sono da `prog_imola.ss`, con 6 medaglie e già sulla mappa del Volo Cesena, Rimini, Forlì, Faenza e Imola. Nessuna scrittura in RAM durante le prove.
+
+| Prova | mGBA | VBA-M |
+|---|---|---|
+| Rimini: porta → sala (6,11); biglietteria (fermate); viaggiatore in attesa | ok | ok |
+| Rimini → Cesena: domanda CESENA, sì; carrozza; il VIAGGIATORE parla (primo viaggio, flag 0x3C a 1); il CAPOTRENO annuncia "Prossima fermata: CESENA"; arrivo sul binario di Cesena (6,4); variabile 0x4055 di nuovo 0 | ok | ok |
+| Uscita dalla sala → Cesena (82,9), sotto la porta | ok | ok |
+| Cesena → Forlì: domande RIMINI (no), FORLÌ (sì); secondo viaggio senza le chiacchiere; arrivo a Forlì, uscita a (72,56) | ok | ok |
+| A Forlì si rifiuta tutto: domande RIMINI, CESENA, FAENZA, IMOLA (mai FORLÌ), poi il saluto | ok | ok |
+| Imola (7ª medaglia) → Cesena: domande RIMINI (no), CESENA (sì); arrivo e uscita a Cesena | ok | ok |
+| SALVA dentro la sala di Rimini, Continua: si riparte nella sala (4,9); uscita a Rimini (54,12) | ok | ok |
+| Vecchio salvataggio vero della 0.66 (`crea66`, fatto sulla 0.66 a Cesena (82,10)), caricato nella 0.67: il cartello si vede subito; si entra dalla porta; dopo l'uscita dalla città e il rientro si entra di nuovo | ok | ok |
+
+**Controlli statici**
+- `confronto_bozza.txt` (`confronto_bozza_067.py`): TUTTO OK.
+  - Nelle 5 città, fra 0.66 e 0.67, cambiano solo le 4 caselle del cartello, uguali alla bozza. Collisione e comportamento cambiano solo sulla porta (0x60, collisione 0); c'è l'uscita nuova verso la sala; il cartello "porta chiusa" non c'è più.
+  - Sale e carrozza: immagini uguali alla bozza, oggetti e uscite come in bozza. Differenza dichiarata: c'è solo il cartello della biglietteria.
+- `primario.txt` (`primario_067.py`): ho disegnato tutte le 780 mappe della 0.66 e della 0.67. Cambiano solo le 5 città (con i loro alias del gruppo 33, che sono la stessa intestazione), le 5 sale e la carrozza: gli 8 tile del primario non si vedono altrove.
+- `testi.txt` (`testi_067.py`): 176 riquadri dei testi nuovi, tutti entro 2 righe da 30 caratteri.
+- Build: raggiungibilità "nuove 0, problemi 0"; le mappe nuove si raggiungono (sale dalle porte, carrozza dagli script).
+
+### Regressione (`collaudo/regressione.py`, 0.67 contro 0.66)
+Le 19 partenze (17 savestate in mGBA e il salvataggio vero in mGBA e VBA-M) girano, sono vive e la callback resta nella ROM. Però **15 sono "diverse"** dalla 0.66:
+- la RAM;
+- lo schermo in 4 casi: a Ravenna un passante in un altro punto, vicino a Suicune un MARILL invece di un WOOPER, pochi pixel nel menu di `t56_rename`.
+
+**Causa provata:** ho fatto una ROM di prova uguale alla 0.66 con la **sola** grafica del primario ricompressa come nella 0.67: stessi tile, niente cartello, niente treno. La sua regressione contro la 0.66 dà le stesse 15 partenze diverse e le stesse 4 uguali. Le 136 schermate mGBA della ROM di prova e della 0.67 sono identiche una per una (`regressione_solo_primario.md`, `regressione_nota.txt`).
+
+Le differenze quindi vengono dalla ricompressione: cambiano i tempi di caricamento delle mappe e con loro il generatore casuale. Non vengono dal treno e non sono errori di grafica.
+
+### Cosa non è verificato
+- Il caso "nessuna città sbloccata", cioè una stazione visitata prima della 2ª medaglia: letto, non provato (servirebbe una partenza più indietro).
+- I viaggi verso FAENZA e IMOLA e dalle stazioni di Faenza e Forlì verso le altre: è lo stesso script con un'altra destinazione, letto. Provati a tasti 3 viaggi (Rimini→Cesena, Cesena→Forlì, Imola→Cesena) e il rifiuto a Forlì.
+- Il viaggiatore della carrozza quando gli si parla (A) dopo il primo viaggio: durante la scena il giocatore è bloccato, e alla fine si scende subito.
+- In VBA-M il cartello è controllato dalle immagini fatte dalla ROM e dalla schermata di mGBA; non ho fatto una schermata in VBA-M.
 
 ## 6. Richieste
 

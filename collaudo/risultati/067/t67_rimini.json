@@ -1,0 +1,210 @@
+{
+ "ingresso_rimini": {
+  "arrivo": true,
+  "pos": [
+   [
+    24,
+    40
+   ],
+   6,
+   11
+  ]
+ },
+ "biglietteria": {
+  "arrivo": true,
+  "testi": [
+   "BIGLIETTERIA AUTOMATICA Fuori servizio. Fermate del regionale: IMOLA, FAENZA, FORL{09}, CESENA, RIMINI. Chiedi al CAPOTRENO."
+  ],
+  "pos": [
+   [
+    24,
+    40
+   ],
+   11,
+   8
+  ]
+ },
+ "viaggiatore": {
+  "arrivo": true,
+  "testi": [
+   "Aspetto il regionale. Fa sempre un po' di ritardo... Però arriva, e in un attimo sei dall'altra parte della Romagna!"
+  ],
+  "pos": [
+   [
+    24,
+    40
+   ],
+   2,
+   9
+  ]
+ },
+ "rimini_cesena": {
+  "arrivo_capotreno": true,
+  "testi": [
+   "CAPOTRENO: Stazione di RIMINI! Dove vuoi andare?",
+   "Un biglietto per CESENA?",
+   "CAPOTRENO: Ecco il biglietto per CESENA. Per chi allena Pokémon è gratis! Il regionale è in partenza. Sali pure!",
+   "VIAGGIATORE: Hai visto dal finestrino? Il treno corre lungo la VIA EMILIA. Una volta da Rimini a Imola si andava a piedi. Adesso ci vuole un attimo! Io scendo alla prossima: mia sorella fa la piadina ",
+   "CAPOTRENO: Prossima fermata: CESENA. Scendete dal lato del binario."
+  ],
+  "domande": [
+   "CESENA"
+  ],
+  "mappe": [
+   "(24, 40)",
+   "(24, 74)",
+   "(24, 39)"
+  ],
+  "pos": [
+   [
+    24,
+    39
+   ],
+   6,
+   4
+  ],
+  "var_treno": 0,
+  "primo_viaggio": 1
+ },
+ "uscita_cesena": {
+  "pos": [
+   [
+    34,
+    17
+   ],
+   82,
+   9
+  ],
+  "porta": [
+   [
+    34,
+    17
+   ],
+   [
+    82,
+    8
+   ]
+  ]
+ },
+ "ingresso_cesena": {
+  "arrivo": true,
+  "pos": [
+   [
+    24,
+    39
+   ],
+   6,
+   11
+  ]
+ },
+ "cesena_forli": {
+  "arrivo_capotreno": true,
+  "testi": [
+   "CAPOTRENO: Stazione di CESENA! Dove vuoi andare?",
+   "Un biglietto per RIMINI?",
+   "Un biglietto per FORL{09}?",
+   "CAPOTRENO: Ecco il biglietto per FORL{09}. Per chi allena Pokémon è gratis! Il regionale è in partenza. Sali pure!",
+   "CAPOTRENO: Prossima fermata: FORL{09}. Scendete dal lato del binario."
+  ],
+  "domande": [
+   "RIMINI",
+   "FORLÌ"
+  ],
+  "mappe": [
+   "(24, 39)",
+   "(24, 74)",
+   "(24, 41)"
+  ],
+  "pos": [
+   [
+    24,
+    41
+   ],
+   6,
+   4
+  ],
+  "var_treno": 0,
+  "primo_viaggio": 1
+ },
+ "uscita_forli": {
+  "pos": [
+   [
+    34,
+    68
+   ],
+   72,
+   56
+  ],
+  "porta": [
+   [
+    34,
+    68
+   ],
+   [
+    72,
+    55
+   ]
+  ]
+ },
+ "ingresso_forli": {
+  "arrivo": true,
+  "pos": [
+   [
+    24,
+    41
+   ],
+   6,
+   11
+  ]
+ },
+ "forli_rifiuto": {
+  "arrivo_capotreno": true,
+  "testi": [
+   "CAPOTRENO: Stazione di FORL{09}! Dove vuoi andare?",
+   "Un biglietto per RIMINI?",
+   "Un biglietto per CESENA?",
+   "Un biglietto per FAENZA?",
+   "Un biglietto per IMOLA?",
+   "CAPOTRENO: Va bene. Il regionale passa spesso, torna quando vuoi!"
+  ],
+  "domande": [
+   "RIMINI",
+   "CESENA",
+   "FAENZA",
+   "IMOLA"
+  ],
+  "mappe": [
+   "(24, 41)"
+  ],
+  "pos": [
+   [
+    24,
+    41
+   ],
+   7,
+   9
+  ],
+  "var_treno": 0,
+  "primo_viaggio": 1
+ },
+ "uscita_forli_2": {
+  "pos": [
+   [
+    34,
+    68
+   ],
+   72,
+   56
+  ],
+  "porta": [
+   [
+    34,
+    68
+   ],
+   [
+    72,
+    55
+   ]
+  ]
+ }
+}

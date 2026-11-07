@@ -1,0 +1,10 @@
+Regressione 0.67 contro 0.66 (regressione.md): le 19 partenze girano, sono vive, la callback resta nella ROM.
+15 partenze sono "diverse" (RAM, e lo schermo in t56_rename/rename2 menu, t59_ravenna, t59_suicune: un passante
+in un altro punto, un MARILL al posto di un WOOPER, pochi pixel nel menu).
+
+Prova della causa: ROM di prova = 0.66 con la SOLA grafica del primario ricompressa come nella 0.67 (stessi tile,
+nessun cartello, nient'altro del treno), regressione --solo-mgba contro la 0.66 (regressione_solo_primario.md):
+le stesse 15 partenze diverse e le stesse 4 uguali. Le 136 schermate mGBA della ROM di prova e della 0.67 sono
+identiche una per una (0 diverse).
+Conclusione: le differenze vengono dalla ricompressione del primario (LZ con soli letterali: cambiano i tempi di
+caricamento delle mappe e quindi il generatore casuale), non dal treno e non da errori di grafica.

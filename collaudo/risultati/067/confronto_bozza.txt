@@ -1,0 +1,12 @@
+Cesena  caselle cambiate [(80, 7), (81, 7), (82, 7), (83, 7)] (attese [(80, 7), (81, 7), (82, 7), (83, 7)]), diverse dalla bozza [], collisione/quota [(82, 8)], comportamento [(82, 8)], uscite nuove [(82, 8, 24, 39)], porta chiusa False -> ok
+Rimini  caselle cambiate [(52, 10), (53, 10), (54, 10), (55, 10)] (attese [(52, 10), (53, 10), (54, 10), (55, 10)]), diverse dalla bozza [], collisione/quota [(54, 11)], comportamento [(54, 11)], uscite nuove [(54, 11, 24, 40)], porta chiusa False -> ok
+Forli   caselle cambiate [(70, 54), (71, 54), (72, 54), (73, 54)] (attese [(70, 54), (71, 54), (72, 54), (73, 54)]), diverse dalla bozza [], collisione/quota [(72, 55)], comportamento [(72, 55)], uscite nuove [(72, 55, 24, 41)], porta chiusa False -> ok
+Faenza  caselle cambiate [(38, 4), (39, 4), (40, 4), (41, 4)] (attese [(38, 4), (39, 4), (40, 4), (41, 4)]), diverse dalla bozza [], collisione/quota [(40, 5)], comportamento [(40, 5)], uscite nuove [(40, 5, 24, 50)], porta chiusa False -> ok
+Imola   caselle cambiate [(55, 18), (56, 18), (57, 18), (58, 18)] (attese [(55, 18), (56, 18), (57, 18), (58, 18)]), diverse dalla bozza [], collisione/quota [(57, 19)], comportamento [(57, 19)], uscite nuove [(57, 19, 24, 51)], porta chiusa False -> ok
+sala Cesena  (24, 39): diverse dalla bozza [], oggetti [(7, 8, 115), (1, 9, 21), (10, 2, 26)], cartelli [(12, 8)], uscite [(6, 11), (7, 11)] -> ok
+sala Rimini  (24, 40): diverse dalla bozza [], oggetti [(7, 8, 115), (1, 9, 21), (10, 2, 26)], cartelli [(12, 8)], uscite [(6, 11), (7, 11)] -> ok
+sala Forli   (24, 41): diverse dalla bozza [], oggetti [(7, 8, 115), (1, 9, 21), (10, 2, 26)], cartelli [(12, 8)], uscite [(6, 11), (7, 11)] -> ok
+sala Faenza  (24, 50): diverse dalla bozza [], oggetti [(7, 8, 115), (1, 9, 21), (10, 2, 26)], cartelli [(12, 8)], uscite [(6, 11), (7, 11)] -> ok
+sala Imola   (24, 51): diverse dalla bozza [], oggetti [(7, 8, 115), (1, 9, 21), (10, 2, 26)], cartelli [(12, 8)], uscite [(6, 11), (7, 11)] -> ok
+carrozza 24.74: diverse dalla bozza [], oggetti [(10, 3, 21), (3, 7, 115)] -> ok
+TUTTO OK

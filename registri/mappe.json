@@ -10288,88 +10288,88 @@
   "cartelli": 0
  },
  "24.39": {
-  "nome": "PONTE SANTERNO",
+  "nome": "CESENA",
   "dimensioni": [
-   23,
-   23
+   13,
+   12
   ],
-  "tipo": 4,
+  "tipo": 8,
   "uscite": [
    {
     "da": [
-     13,
-     5
-    ],
-    "verso": "24.38"
-   },
-   {
-    "da": [
-     5,
+     6,
      11
     ],
-    "verso": "24.40"
-   }
-  ],
-  "connessioni": [],
-  "blocchi": [],
-  "oggetti": 0,
-  "cartelli": 0
- },
- "24.40": {
-  "nome": "PONTE SANTERNO",
-  "dimensioni": [
-   21,
-   21
-  ],
-  "tipo": 4,
-  "uscite": [
-   {
-    "da": [
-     5,
-     10
-    ],
-    "verso": "24.39"
+    "verso": "34.17"
    },
-   {
-    "da": [
-     8,
-     14
-    ],
-    "verso": "24.41"
-   }
-  ],
-  "connessioni": [],
-  "blocchi": [],
-  "oggetti": 0,
-  "cartelli": 0
- },
- "24.41": {
-  "nome": "PONTE SANTERNO",
-  "dimensioni": [
-   19,
-   21
-  ],
-  "tipo": 4,
-  "uscite": [
    {
     "da": [
      7,
-     14
+     11
     ],
-    "verso": "24.40"
-   },
-   {
-    "da": [
-     12,
-     6
-    ],
-    "verso": "24.42"
+    "verso": "34.17"
    }
   ],
   "connessioni": [],
   "blocchi": [],
-  "oggetti": 0,
-  "cartelli": 0
+  "oggetti": 3,
+  "cartelli": 1
+ },
+ "24.40": {
+  "nome": "RIMINI",
+  "dimensioni": [
+   13,
+   12
+  ],
+  "tipo": 8,
+  "uscite": [
+   {
+    "da": [
+     6,
+     11
+    ],
+    "verso": "34.47"
+   },
+   {
+    "da": [
+     7,
+     11
+    ],
+    "verso": "34.47"
+   }
+  ],
+  "connessioni": [],
+  "blocchi": [],
+  "oggetti": 3,
+  "cartelli": 1
+ },
+ "24.41": {
+  "nome": "FORLI",
+  "dimensioni": [
+   13,
+   12
+  ],
+  "tipo": 8,
+  "uscite": [
+   {
+    "da": [
+     6,
+     11
+    ],
+    "verso": "34.68"
+   },
+   {
+    "da": [
+     7,
+     11
+    ],
+    "verso": "34.68"
+   }
+  ],
+  "connessioni": [],
+  "blocchi": [],
+  "oggetti": 3,
+  "cartelli": 1
  },
  "24.42": {
   "nome": "PONTE SANTERNO",
@@ -10729,30 +10729,60 @@
   "cartelli": 1
  },
  "24.50": {
-  "nome": "SHOAL CAVE",
+  "nome": "FAENZA",
   "dimensioni": [
-   35,
-   35
+   13,
+   12
   ],
-  "tipo": 4,
-  "uscite": [],
+  "tipo": 8,
+  "uscite": [
+   {
+    "da": [
+     6,
+     11
+    ],
+    "verso": "34.85"
+   },
+   {
+    "da": [
+     7,
+     11
+    ],
+    "verso": "34.85"
+   }
+  ],
   "connessioni": [],
   "blocchi": [],
-  "oggetti": 0,
-  "cartelli": 0
+  "oggetti": 3,
+  "cartelli": 1
  },
  "24.51": {
-  "nome": "SHOAL CAVE",
+  "nome": "IMOLA",
   "dimensioni": [
-   46,
-   38
+   13,
+   12
   ],
-  "tipo": 4,
-  "uscite": [],
+  "tipo": 8,
+  "uscite": [
+   {
+    "da": [
+     6,
+     11
+    ],
+    "verso": "35.1"
+   },
+   {
+    "da": [
+     7,
+     11
+    ],
+    "verso": "35.1"
+   }
+  ],
   "connessioni": [],
   "blocchi": [],
-  "oggetti": 0,
-  "cartelli": 0
+  "oggetti": 3,
+  "cartelli": 1
  },
  "24.52": {
   "nome": "NEW MAUVILLE",
@@ -11602,16 +11632,16 @@
   "cartelli": 0
  },
  "24.74": {
-  "nome": "AQUA HIDEOUT",
+  "nome": "CESENA",
   "dimensioni": [
-   28,
-   30
+   16,
+   12
   ],
-  "tipo": 4,
+  "tipo": 8,
   "uscite": [],
   "connessioni": [],
   "blocchi": [],
-  "oggetti": 0,
+  "oggetti": 2,
   "cartelli": 0
  },
  "24.75": {
@@ -17405,6 +17435,13 @@
      43
     ],
     "verso": "35.87"
+   },
+   {
+    "da": [
+     82,
+     8
+    ],
+    "verso": "24.39"
    }
   ],
   "connessioni": [],
@@ -17417,7 +17454,7 @@
    }
   ],
   "oggetti": 13,
-  "cartelli": 64
+  "cartelli": 63
  },
  "34.18": {
   "nome": "CESENA",
@@ -18477,6 +18514,13 @@
      51
     ],
     "verso": "34.54"
+   },
+   {
+    "da": [
+     54,
+     11
+    ],
+    "verso": "24.40"
    }
   ],
   "connessioni": [],
@@ -18489,7 +18533,7 @@
    }
   ],
   "oggetti": 7,
-  "cartelli": 35
+  "cartelli": 34
  },
  "34.48": {
   "nome": "RIMINI",
@@ -19135,12 +19179,19 @@
      33
     ],
     "verso": "35.96"
+   },
+   {
+    "da": [
+     72,
+     55
+    ],
+    "verso": "24.41"
    }
   ],
   "connessioni": [],
   "blocchi": [],
   "oggetti": 18,
-  "cartelli": 49
+  "cartelli": 48
  },
  "34.69": {
   "nome": "FORLI",
@@ -19660,12 +19711,19 @@
      4
     ],
     "verso": "35.102"
+   },
+   {
+    "da": [
+     40,
+     5
+    ],
+    "verso": "24.50"
    }
   ],
   "connessioni": [],
   "blocchi": [],
   "oggetti": 12,
-  "cartelli": 45
+  "cartelli": 44
  },
  "34.86": {
   "nome": "FAENZA",
@@ -20755,12 +20813,19 @@
      21
     ],
     "verso": "35.0"
+   },
+   {
+    "da": [
+     57,
+     19
+    ],
+    "verso": "24.51"
    }
   ],
   "connessioni": [],
   "blocchi": [],
   "oggetti": 8,
-  "cartelli": 11
+  "cartelli": 10
  },
  "35.2": {
   "nome": "IMOLA",

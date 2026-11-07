@@ -1,0 +1,5 @@
+mappe disegnate 780 non disegnabili 0
+diverse [(24, 39), (24, 40), (24, 41), (24, 50), (24, 51), (24, 74), (33, 18), (33, 48), (33, 69), (33, 86), (34, 17), (34, 47), (34, 68), (34, 85), (35, 1)]
+alias delle citta' (stessa intestazione) [(33, 18), (33, 48), (33, 69), (33, 86)]
+diverse inattese []
+OK

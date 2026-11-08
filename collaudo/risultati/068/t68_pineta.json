@@ -1,0 +1,27 @@
+{
+ "arrivo": true,
+ "pos": [
+  [
+   0,
+   16
+  ],
+  35,
+  24
+ ],
+ "ball": {
+  "testi": [
+   "Hai ottenuto: POZIONE!",
+   "AAAAAAA mette POZIONE nella tasca STRUMENTI."
+  ],
+  "flag": 1,
+  "pos": [
+   [
+    0,
+    16
+   ],
+   35,
+   24
+  ],
+  "ball_visibile": false
+ }
+}

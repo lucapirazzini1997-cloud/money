@@ -1,0 +1,66 @@
+PROVA casa Pokemon_Romagna_0_68.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (0, 9) (8, 17)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA casa mGBA Pokemon_Romagna_0_68.gba t68_casa.sav
+  dal titolo: ((0, 9), 8, 17, 3, False) flag Ball 0
+   porta {'prima': ((0, 9), 8, 17), 'dopo': ((1, 0), 9, 9)}
+   primo_passo {'prima': ((1, 0), 9, 9), 'dopo': ((1, 0), 9, 8)}
+   uscita {'prima': ((1, 0), 9, 9), 'dopo': ((0, 9), 8, 17)}
+   {'porta': {'prima': ((0, 9), 8, 17), 'dopo': ((1, 0), 9, 9)}, 'dentro': ((1, 0), 9, 9), 'primo_passo': {'prima': ((1, 0), 9, 9), 'dopo': ((1, 0), 9, 8)}, 'scale': True, 'camera': ((1, 0), 12, 2), 'giu': True, 'di_nuovo_giu': ((1, 1), 10, 2), 'verso_porta': True, 'uscita': {'prima': ((1, 0), 9, 9), 'dopo': ((0, 9), 8, 17)}, 'fuori': ((0, 9), 8, 17)}
+FINE casa
+PROVA casa VBA-M Pokemon_Romagna_0_68.gba t68_casa.sav
+  dal titolo: ((0, 9), 8, 17, 3, False) flag Ball 0
+   porta {'prima': ((0, 9), 8, 17), 'dopo': ((1, 0), 9, 9)}
+   primo_passo {'prima': ((1, 0), 9, 9), 'dopo': ((1, 0), 9, 8)}
+   uscita {'prima': ((1, 0), 9, 9), 'dopo': ((0, 9), 8, 17)}
+   {'porta': {'prima': ((0, 9), 8, 17), 'dopo': ((1, 0), 9, 9)}, 'dentro': ((1, 0), 9, 9), 'primo_passo': {'prima': ((1, 0), 9, 9), 'dopo': ((1, 0), 9, 8)}, 'scale': True, 'camera': ((1, 0), 12, 2), 'giu': True, 'di_nuovo_giu': ((1, 1), 10, 2), 'verso_porta': True, 'uscita': {'prima': ((1, 0), 9, 9), 'dopo': ((0, 9), 8, 17)}, 'fuori': ((0, 9), 8, 17)}
+FINE casa
+PROVA crea67 Pokemon_Romagna_0_67.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (1, 0) (9, 9)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA crea67 mGBA Pokemon_Romagna_0_67.gba t68_crea67_casa.sav
+  dal titolo: ((1, 0), 9, 9, 3, False) flag Ball 0
+PROVA crea67 Pokemon_Romagna_0_67.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (0, 16) (33, 25)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA crea67 mGBA Pokemon_Romagna_0_67.gba t68_crea67_pineta.sav
+  dal titolo: ((0, 16), 33, 25, 3, False) flag Ball 0
+   {'crea67_casa': {'pos': ((1, 0), 9, 9), 'flag_ball': 0}, 'crea67_pineta': {'pos': ((0, 16), 33, 25), 'flag_ball': 0}}
+FINE crea67
+PROVA pineta Pokemon_Romagna_0_68.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (0, 16) (19, 5)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA pineta mGBA Pokemon_Romagna_0_68.gba t68_pineta.sav
+  dal titolo: ((0, 16), 19, 5, 3, False) flag Ball 0
+  fuori percorso: atteso ((0, 16), 23, 21) sono ((0, 16), 23, 20) azione passo S
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((0, 16), 23, 20)
+  fuori percorso: atteso ((0, 16), 28, 25) sono ((0, 16), 27, 25) azione passo E
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((0, 16), 27, 25)
+  ball {'testi': ['Hai ottenuto: POZIONE!', 'AAAAAAA mette POZIONE nella tasca STRUMENTI.'], 'flag': 1, 'pos': ((0, 16), 35, 24), 'ball_visibile': False}
+FINE pineta
+PROVA pineta VBA-M Pokemon_Romagna_0_68.gba t68_pineta.sav
+  dal titolo: ((0, 16), 19, 5, 3, False) flag Ball 0
+  fuori percorso: atteso ((0, 16), 23, 21) sono ((0, 16), 23, 20) azione passo S
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((0, 16), 23, 20)
+  fuori percorso: atteso ((0, 16), 27, 25) sono ((0, 16), 26, 25) azione passo E
+  lotta selvatica: fuga squadra [(50, 155, 155), (43, 119, 119)] pos ((0, 16), 26, 25)
+  ball {'testi': ['Hai ottenuto: POZIONE!', 'AAAAAAA mette POZIONE nella tasca STRUMENTI.'], 'flag': 1, 'pos': ((0, 16), 35, 24), 'ball_visibile': False}
+FINE pineta
+PROVA vecchio67 mGBA Pokemon_Romagna_0_68.gba t68_crea67_casa.sav
+  dal titolo: ((1, 0), 9, 9, 3, False) flag Ball 0
+   casa_su {'prima': ((1, 0), 9, 9), 'dopo': ((1, 0), 9, 8)}
+PROVA vecchio67 mGBA Pokemon_Romagna_0_68.gba t68_crea67_pineta.sav
+  dal titolo: ((0, 16), 33, 25, 3, False) flag Ball 0
+   pineta_gira {'prima': ((0, 16), 33, 25), 'dopo': ((0, 16), 33, 25)}
+   pineta_destra {'prima': ((0, 16), 33, 25), 'dopo': ((0, 16), 34, 25)}
+  ball {'testi': ['Hai ottenuto: POZIONE!', 'AAAAAAA mette POZIONE nella tasca STRUMENTI.'], 'flag': 1, 'pos': ((0, 16), 35, 24), 'ball_visibile': False}
+FINE vecchio67
+PROVA vecchio67 VBA-M Pokemon_Romagna_0_68.gba t68_crea67_casa.sav
+  dal titolo: ((1, 0), 9, 9, 3, False) flag Ball 0
+   casa_su {'prima': ((1, 0), 9, 9), 'dopo': ((1, 0), 9, 8)}
+PROVA vecchio67 VBA-M Pokemon_Romagna_0_68.gba t68_crea67_pineta.sav
+  dal titolo: ((0, 16), 33, 25, 3, False) flag Ball 0
+   pineta_gira {'prima': ((0, 16), 33, 25), 'dopo': ((0, 16), 33, 25)}
+   pineta_destra {'prima': ((0, 16), 33, 25), 'dopo': ((0, 16), 34, 25)}
+  ball {'testi': ['Hai ottenuto: POZIONE!', 'AAAAAAA mette POZIONE nella tasca STRUMENTI.'], 'flag': 1, 'pos': ((0, 16), 35, 24), 'ball_visibile': False}
+FINE vecchio67

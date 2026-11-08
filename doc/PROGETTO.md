@@ -1,6 +1,6 @@
 # Pokémon Romagna — documento di progetto
 
-Stato alla **0.67** (SHA-256 `aa572447…fe7b`, collaudata). Lotto 2 chiuso (0.59–0.61). Lotto 3 in corso: 0.62 MN e strumenti chiave (tutti si ottengono; testi di FLASH e SUB corretti); 0.63 Cesena ovest (Ippodromo sul percorso dalla prima visita, rocce di SPACCAROCCIA a Monte Spaccato al posto del controllo del casello); 0.64 la Campagna Cesenate al posto di Monte Spaccato (35.101 ridisegnata dalla bozza 4 approvata); 0.65 Ridracoli ridisegnata (35.51, bozza 2 approvata) con il TEAM EMILIA e il GYARADOS rosso; 0.66 il nuovo Fumaiolo (Sentiero 35.10 e interno 35.12–35.18 dalle bozze approvate); 0.67 il treno regionale (stazioni a Rimini, Cesena, Forlì, Faenza, Imola; sala del binario e carrozza con la scena del viaggio). Prossime: collegamenti e ostacoli, barriere e testi lunghi (con i due testi vecchi del Fumaiolo).
+Stato alla **0.68** (SHA-256 `d4a65459…d964`, collaudata). Lotto 2 chiuso (0.59–0.61). Lotto 3 in corso: 0.62 MN e strumenti chiave (tutti si ottengono; testi di FLASH e SUB corretti); 0.63 Cesena ovest (Ippodromo sul percorso dalla prima visita, rocce di SPACCAROCCIA a Monte Spaccato al posto del controllo del casello); 0.64 la Campagna Cesenate al posto di Monte Spaccato (35.101 ridisegnata dalla bozza 4 approvata); 0.65 Ridracoli ridisegnata (35.51, bozza 2 approvata) con il TEAM EMILIA e il GYARADOS rosso; 0.66 il nuovo Fumaiolo (Sentiero 35.10 e interno 35.12–35.18 dalle bozze approvate); 0.67 il treno regionale (stazioni a Rimini, Cesena, Forlì, Faenza, Imola; sala del binario e carrozza con la scena del viaggio); 0.68 ostacoli (TV della casa del protagonista spostata, siepe aperta verso la Poké Ball della Pineta del Savio). Prossime: barriere e testi lunghi (con i due testi vecchi del Fumaiolo).
 Questo è il documento di riferimento: trama, mappe, eventi, indirizzi tecnici e regole di lavoro. La storia delle versioni è in `STORIA_VERSIONI.md`, le prove in emulatore in `COLLAUDO.md`.
 
 ## 1. Come è fatto il progetto
@@ -30,7 +30,7 @@ Ogni tappa controlla lo SHA-256 atteso e si ferma se non coincide.
 |---|---|---|---|---|
 | 1 | `basi/rom047.gba` + `basi/base31.gba` | `storico_054/build54.py` (rifà 0.48 → 0.54 in sequenza) | 0.54 | `a0653255…2906` |
 | 2 | 0.54 | `pezzo_055/patch_054_055.bps` | 0.55 | `2bfaa8a3…4ad6` |
-| 3 | 0.55 | `versioni/v056_cesena_rivale.py`, `v057_spazio.py`, `v058_registri.py`, `v059_cani.py`, `v060_kyogre_uccelli.py`, `v061_regi_mitici.py`, `v062_strumenti.py`, `v063_cesena_ovest.py`, `v064_campagna_cesenate.py`, `v065_ridracoli.py`, `v066_fumaiolo.py`, `v067_treno.py` | 0.56–0.67 | `b09eb697…495f`, `47f53668…97c4`, `47f53668…97c4`, `aee694c2…ec1d`, `d9ca40b3…183a`, `f3e78025…3cbe`, `b8ebd091…9080`, `d1fee9f9…6187`, `82ac35d2…7f70`, `ad1bfa2d…9a94`, `d794870a…4f84`, `aa572447…fe7b` |
+| 3 | 0.55 | `versioni/v056_cesena_rivale.py`, `v057_spazio.py`, `v058_registri.py`, `v059_cani.py`, `v060_kyogre_uccelli.py`, `v061_regi_mitici.py`, `v062_strumenti.py`, `v063_cesena_ovest.py`, `v064_campagna_cesenate.py`, `v065_ridracoli.py`, `v066_fumaiolo.py`, `v067_treno.py`, `v068_ostacoli.py` | 0.56–0.68 | `b09eb697…495f`, `47f53668…97c4`, `47f53668…97c4`, `aee694c2…ec1d`, `d9ca40b3…183a`, `f3e78025…3cbe`, `b8ebd091…9080`, `d1fee9f9…6187`, `82ac35d2…7f70`, `ad1bfa2d…9a94`, `d794870a…4f84`, `aa572447…fe7b`, `d4a65459…d964` |
 | 4 | ultima | `registri/genera.py` (modo rigoroso) | registri | — |
 | 5 | ultima | `registri/controlli.py` (allenatori, raggiungibilità, risorse, budget) | registri, `out/rapporto_build.json` | — |
 
@@ -137,7 +137,7 @@ Tabella completa alla 0.61. **Regola del Lotto 2** (cani, Kyogre, uccelli, Regi,
 
 - **Conflitto latente (0.58):** 0x78A (rosone "pietralunare") è anche la flag di Danielle, allenatrice della palestra di Lavaridge di Smeraldo (4.1). Oggi la 4.1 non si raggiunge; se una versione la collega la build fallisce e Danielle va spostata su un numero libero. Le flag 0x792–0x794, 0x7AA–0x7AD e 0x7B0–0x7B3 sono di allenatori della tabella delle rivincite (servono il Pokénav, assente): rischio basso.
 
-## 4b. Risorse rimaste (budget della 0.67)
+## 4b. Risorse rimaste (budget della 0.68, uguale alla 0.67)
 
 - **Spazio nella ROM:** la ROM è a 32 MB, il massimo del GBA, e non si allarga.
   - Restano 793 KB nelle zone dell'engine (la 0.59 ha usato 1119 byte, la 0.60 2580, la 0.61 circa 4,7 KB, la 0.62 e la 0.63 meno di 1 KB ciascuna, la 0.64 27 KB: un tileset nuovo; la 0.65 35 KB: tileset, blocchi della mappa 44×62, sprite e tavolozza del GYARADOS; la 0.66 234 KB: 8 tileset secondari e i blocchi delle 8 mappe del Fumaiolo; la 0.67 150 KB: grafica del primario con il cartello STAZIONE, per ogni città copia della tabella dei metatile e del layout, la carrozza).

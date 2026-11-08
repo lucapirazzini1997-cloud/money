@@ -1,6 +1,6 @@
 # Storia delle versioni
 
-Dalla 0.35 alla 0.67. Gli SHA-256 sono quelli delle ROM conservate; le relazioni complete sono in `relazioni/`.
+Dalla 0.35 alla 0.68. Gli SHA-256 sono quelli delle ROM conservate; le relazioni complete sono in `relazioni/`.
 
 **Chi l'ha fatta:** "progetto" = costruita con i builder di questo progetto; "esterna" = ricevuta già fatta, senza sorgenti.
 
@@ -37,6 +37,7 @@ Dalla 0.35 alla 0.67. Gli SHA-256 sono quelli delle ROM conservate; le relazioni
 | 0.65 | `ad1bfa2d6eec44389edbb35a5e802dfe49fb7ede7aa3f5fc1ced63f9baa69a94` | 0.64 | progetto | Lotto 3: Ridracoli ridisegnata (35.51, 44×62, bozza 2 approvata): valle, centrale, scala nella diga, lago vero con SURF, baia e Rio Celluzze, accampamento del TEAM EMILIA. Evento: due reclute e CORRADO, poi il GYARADOS rosso (cromatico, Lv 40, una cattura, si ritenta dopo fuga o KO). Sorgente del Bidente con CASCATA (ACQUA MAGICA). I vecchi salvataggi dentro la mappa ripartono una volta sotto la diga. Collaudata in mGBA e VBA-M |
 | 0.66 | `d794870a35a619553550d0913395fb5d900e122d50085bc4ec6cab5276b74f84` | 0.65 | progetto | Lotto 3: il nuovo Fumaiolo dalle bozze approvate. Sentiero (35.10, 40×100): si risale il Savio da Cesena, RIFUGIO, EREMO DI SANT'ALBERICO con il masso di FORZA, sorgente del TEVERE con la stele. Interno (35.12–35.18) da Cascata Meteora, Covo Magma, Grotta Terra e Passo Selvaggio; stessi personaggi e script; Passo dei Draghi senza Bici Cross. Vecchi salvataggi dentro queste mappe ripartono una volta dall'ingresso. `percorso.py` segue Smeraldo sulle caselle a quota 0. Collaudata in mGBA e VBA-M |
 | 0.67 | `aa5724473410d034397f8ac75583e6639659c0d23feda031538d99d739fbfe7b` | 0.66 | progetto | Lotto 3: il treno regionale dalla bozza approvata. Stazioni con il cartello STAZIONE a Rimini, Cesena, Forlì, Faenza e Imola (case chiuse aperte); sala del binario (24.39–24.41, 24.50, 24.51) con il CAPOTRENO che offre le città della mappa del Volo, biglietto gratis; carrozza (24.74) con la scena del viaggio. Cartello in 8 tile liberi del primario. Collaudata in mGBA e VBA-M |
+| 0.68 | `d4a65459b46f01b9c23e84c593ebda2a1669c5cdf4602ac6825af81a996bd964` | 0.67 | progetto | Lotto 3, ostacoli (bozza approvata): nella casa del protagonista (1.0) la TV si sposta di due caselle a sinistra e non blocca più l'ingresso; nella Pineta del Savio (0.16) la siepe si apre in (34,25) e la Poké Ball (POZIONE, 36,24) si raggiunge. 9 caselle, niente flag né testi. Collaudata in mGBA e VBA-M; regressione uguale alla 0.67 |
 
 ## Note sulla catena
 

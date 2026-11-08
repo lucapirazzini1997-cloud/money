@@ -1,0 +1,11 @@
+ROM 0.67 contro 0.68: stessa lunghezza True - byte diversi 18
+mappa 1.0 casella (6,7): 0x3261 -> 0x3663
+mappa 1.0 casella (7,7): 0x3262 -> 0x3664
+mappa 1.0 casella (8,7): 0x3663 -> 0x3261
+mappa 1.0 casella (9,7): 0x3664 -> 0x3262
+mappa 1.0 casella (6,8): 0x326f -> 0x3671
+mappa 1.0 casella (7,8): 0x3270 -> 0x3672
+mappa 1.0 casella (8,8): 0x3671 -> 0x326f
+mappa 1.0 casella (9,8): 0x3672 -> 0x3270
+mappa 0.16 casella (34,25): 0x3616 -> 0x3001
+byte diversi fuori dai blocchi delle due mappe: 0

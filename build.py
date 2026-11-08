@@ -36,10 +36,11 @@ SHA = {
     '065': 'ad1bfa2d6eec44389edbb35a5e802dfe49fb7ede7aa3f5fc1ced63f9baa69a94',   # collaudo: collaudo/risultati/065
     '066': 'd794870a35a619553550d0913395fb5d900e122d50085bc4ec6cab5276b74f84',   # collaudo: collaudo/risultati/066
     '067': 'aa5724473410d034397f8ac75583e6639659c0d23feda031538d99d739fbfe7b',   # collaudo: collaudo/risultati/067
+    '068': 'd4a65459b46f01b9c23e84c593ebda2a1669c5cdf4602ac6825af81a996bd964',   # collaudo: collaudo/risultati/068
 }
 # Versioni costruite sopra la 0.55: (numero, modulo in versioni/). Ogni nuova versione aggiunge una riga
 # e il suo SHA atteso in SHA (dopo averla collaudata). Il modulo espone apply(W) -> dict (rapporto).
-VERSIONI = [('056', 'v056_cesena_rivale'), ('057', 'v057_spazio'), ('058', 'v058_registri'), ('059', 'v059_cani'), ('060', 'v060_kyogre_uccelli'), ('061', 'v061_regi_mitici'), ('062', 'v062_strumenti'), ('063', 'v063_cesena_ovest'), ('064', 'v064_campagna_cesenate'), ('065', 'v065_ridracoli'), ('066', 'v066_fumaiolo'), ('067', 'v067_treno')]
+VERSIONI = [('056', 'v056_cesena_rivale'), ('057', 'v057_spazio'), ('058', 'v058_registri'), ('059', 'v059_cani'), ('060', 'v060_kyogre_uccelli'), ('061', 'v061_regi_mitici'), ('062', 'v062_strumenti'), ('063', 'v063_cesena_ovest'), ('064', 'v064_campagna_cesenate'), ('065', 'v065_ridracoli'), ('066', 'v066_fumaiolo'), ('067', 'v067_treno'), ('068', 'v068_ostacoli')]
 
 
 def sha(b): return hashlib.sha256(b).hexdigest()

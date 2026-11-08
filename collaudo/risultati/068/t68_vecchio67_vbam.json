@@ -1,0 +1,89 @@
+{
+ "casa_titolo": [
+  [
+   1,
+   0
+  ],
+  9,
+  9
+ ],
+ "casa_su": {
+  "prima": [
+   [
+    1,
+    0
+   ],
+   9,
+   9
+  ],
+  "dopo": [
+   [
+    1,
+    0
+   ],
+   9,
+   8
+  ]
+ },
+ "pineta_titolo": [
+  [
+   0,
+   16
+  ],
+  33,
+  25
+ ],
+ "pineta_gira": {
+  "prima": [
+   [
+    0,
+    16
+   ],
+   33,
+   25
+  ],
+  "dopo": [
+   [
+    0,
+    16
+   ],
+   33,
+   25
+  ]
+ },
+ "pineta_destra": {
+  "prima": [
+   [
+    0,
+    16
+   ],
+   33,
+   25
+  ],
+  "dopo": [
+   [
+    0,
+    16
+   ],
+   34,
+   25
+  ]
+ },
+ "arrivo": true,
+ "ball": {
+  "testi": [
+   "Hai ottenuto: POZIONE!",
+   "AAAAAAA mette POZIONE nella tasca STRUMENTI."
+  ],
+  "flag": 1,
+  "pos": [
+   [
+    0,
+    16
+   ],
+   35,
+   24
+  ],
+  "ball_visibile": false
+ }
+}

@@ -1,0 +1,6 @@
+== 1. build completa
+== 2. BPS rom/Pokemon_Romagna_0_68_to_0_69.bps
+  ok 4072 byte, riapplicata
+== 3. zip senza out/ e ricostruzione in cartella pulita
+  ok: zip 31M, la cartella pulita rifà lo stesso SHA
+fatto. Da inviare: /tmp/claude-0/-home-user-money/d75d548a-a7d4-55dc-8e3f-f28f68942021/scratchpad/consegna_069/Pokemon_Romagna_0_69.gba /home/user/money/rom/Pokemon_Romagna_0_68_to_0_69.bps /tmp/claude-0/-home-user-money/d75d548a-a7d4-55dc-8e3f-f28f68942021/scratchpad/consegna_069/Pokemon_Romagna_0_69_progetto.zip /home/user/money/relazioni/RELAZIONE_0_69.md

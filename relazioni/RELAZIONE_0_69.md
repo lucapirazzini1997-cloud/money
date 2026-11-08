@@ -3,7 +3,7 @@
 **Base:** 0.68, SHA-256 `d4a65459b46f01b9c23e84c593ebda2a1669c5cdf4602ac6825af81a996bd964`.
 
 **Risultato:** `Pokemon_Romagna_0_69.gba`, SHA-256 `e0a23d7f7c2430cf529ebb2bdf6b9b301d91e0f97340965cbaaa99a0348b3424`.
-- Patch BPS 0.68→0.69: `rom/Pokemon_Romagna_0_68_to_0_69.bps` (CONSEGNA).
+- Patch BPS 0.68→0.69: `rom/Pokemon_Romagna_0_68_to_0_69.bps` (4072 byte), verificata riapplicandola (`consegna.sh`, log in `collaudo/risultati/069/consegna.txt`). Lo zip senza `out/` ricostruito in una cartella pulita rifà lo stesso SHA.
 - Modulo: `versioni/v069_testi.py`. Strumenti nuovi: `analisi/barriere.py`, `analisi/testi_lunghi.py`.
 - Lo SHA è in `build.py` dopo il collaudo (§5).
 - **Salvataggi compatibili:** cambiano solo testi e i puntatori ai testi nelle istruzioni degli script; nessuna mappa, flag o variabile.

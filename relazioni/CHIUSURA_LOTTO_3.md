@@ -93,3 +93,19 @@ Il Lotto 3 è chiuso.
 - I riquadri successivi al primo dei tre testi del pittore: non li ho guardati a schermo.
 - Il livello 15 di SMEARGLE nel PC: non l'ho letto, perché nel PC il livello non è salvato a parte. La specie e il cromatismo sono letti dai dati del box.
 - Quale uscita del Sentiero ha usato il pilota per tornare a Cesena.
+
+## 7. I 611 testi vecchi con righe di 31–42 caratteri: non riscritti
+
+Su richiesta ("se è una cosa utile") ho provato a rimpaginarli tutti a 30 caratteri con `analisi/rifluisci.py`.
+- **Come funziona:** cambia solo gli spazi, gli a capo e i cambi di riquadro, quindi si potrebbe riscrivere sul posto senza spazio nuovo.
+- **Esito sulle 181 mappe raggiungibili:**
+  - 611 testi rimpaginabili;
+  - i riquadri salgono da 1055 a 1362 (+29%), e 264 testi ne avrebbero uno in più;
+  - i riquadri con una sola riga di 10 caratteri o meno passano da 23 a 160 ("squadra!", "clienti.", "TAGLIO.").
+- **Esempio:** "INFERMIERA: Benvenuto al Centro / Pokémon di CESENA. | Mi occupo subito della tua squadra!" diventerebbe "INFERMIERA: Benvenuto al / Centro Pokémon di CESENA. | Mi occupo subito della tua / squadra!".
+
+**Decisione: non li riscrivo.**
+- A schermo i testi di oggi entrano nel riquadro: una riga di 41 caratteri è stata vista intera nella 0.69.
+- La rimpaginazione automatica li renderebbe più lunghi e più spezzati.
+- Il limite di 30 caratteri resta la regola per i testi nuovi e riscritti.
+- Un testo vecchio si riscrive a mano quando si lavora sulla sua mappa: per esempio nei lotti città per città.

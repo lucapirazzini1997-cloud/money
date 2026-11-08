@@ -1,0 +1,69 @@
+{
+ "andata": {
+  "arrivo": true,
+  "testi": [
+   "Sono la guida per la diga di RIDRACOLI. Vuoi che ti accompagni?"
+  ],
+  "dopo": [
+   [
+    35,
+    50
+   ],
+   18,
+   34
+  ]
+ },
+ "forli": {
+  "arrivo": true,
+  "testi": [
+   "Vuoi seguire la guida fino a FORL{09}?"
+  ],
+  "dopo": [
+   [
+    34,
+    68
+   ],
+   39,
+   52
+  ]
+ },
+ "di_nuovo_valle": {
+  "arrivo": true,
+  "testi": [
+   "Sono la guida per la diga di RIDRACOLI. Vuoi che ti accompagni?"
+  ],
+  "dopo": [
+   [
+    35,
+    50
+   ],
+   18,
+   34
+  ]
+ },
+ "ritorno": {
+  "arrivo": true,
+  "testi": [
+   "Il sentiero orientale porta alla VALLE DEL SAVIO. Vieni?"
+  ],
+  "dopo": [
+   [
+    35,
+    10
+   ],
+   18,
+   96
+  ]
+ },
+ "cesena": {
+  "arrivo": true,
+  "pos": [
+   [
+    34,
+    17
+   ],
+   46,
+   46
+  ]
+ }
+}

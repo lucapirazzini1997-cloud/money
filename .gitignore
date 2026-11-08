@@ -71,3 +71,9 @@ collaudo/play/t69_*.ss
 collaudo/play/log_t69_*.txt
 collaudo/play/schermo_*.png
 collaudo/play/schermo_*.ppm
+collaudo/play/t70_*.png
+collaudo/play/t70_*.json
+collaudo/play/t70_*.sav
+collaudo/play/t70_*.ppm
+collaudo/play/t70_*.ss
+collaudo/play/log_t70_*.txt

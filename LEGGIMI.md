@@ -19,7 +19,7 @@ In circa tre minuti rifà 0.54 → 0.55 → 0.56 → 0.57 → 0.58 → 0.59 → 
 3. `doc/COLLAUDO.md`: come si gioca in emulatore senza intervento umano.
 4. `Prompt_Pokemon_Romagna_0_57.txt`: il prompt di sviluppo dalla 0.56, con i lotti di lavoro.
 5. `registri/`: flag, variabili, strumenti, mappe, spazio libero, allenatori, raggiungibilità e risorse libere: da consultare prima di usarne di nuovi.
-6. `relazioni/RELAZIONE_0_57.md` e `RELAZIONE_0_58.md`: il Lotto 1; `RELAZIONE_0_59.md`, `RELAZIONE_0_60.md` e `RELAZIONE_0_61.md`: Lotto 2 (cani; Kyogre e uccelli; Regi, Deoxys, Jirachi, Mewtwo).
+6. `relazioni/RELAZIONE_0_57.md` e `RELAZIONE_0_58.md`: il Lotto 1; `RELAZIONE_0_59.md`, `RELAZIONE_0_60.md` e `RELAZIONE_0_61.md`: Lotto 2 (cani; Kyogre e uccelli; Regi, Deoxys, Jirachi, Mewtwo). Lotto 3: da `RELAZIONE_0_62.md` a `RELAZIONE_0_69.md`, chiuso da `CHIUSURA_LOTTO_3.md` (SMEARGLE con squadra e PC pieni, guide di Ridracoli; nessuna ROM nuova).
 
 ## Cartelle
 

@@ -1,0 +1,12 @@
+PROVA ridracoli Pokemon_Romagna_0_69.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: flag 0x86d = 1
+   FIXTURE: flag 0x496 = 1
+   FIXTURE: posizione (35, 10) (17, 97)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA ridracoli mGBA Pokemon_Romagna_0_69.gba t70_ridracoli.sav ((35, 10), 19, 97, 3, False)
+   andata {"arrivo": true, "testi": ["Sono la guida per la diga di RIDRACOLI. Vuoi che ti accompagni?"], "dopo": [[35, 50], 18, 34]}
+   forli {"arrivo": true, "testi": ["Vuoi seguire la guida fino a FORL{09}?"], "dopo": [[34, 68], 39, 52]}
+   di_nuovo_valle {"arrivo": true, "testi": ["Sono la guida per la diga di RIDRACOLI. Vuoi che ti accompagni?"], "dopo": [[35, 50], 18, 34]}
+   ritorno {"arrivo": true, "testi": ["Il sentiero orientale porta alla VALLE DEL SAVIO. Vieni?"], "dopo": [[35, 10], 18, 96]}
+   cesena {'arrivo': True, 'pos': ((34, 17), 46, 46)}
+FINE ridracoli

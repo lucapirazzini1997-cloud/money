@@ -1,0 +1,9 @@
+PROVA pieni VBA-M Pokemon_Romagna_0_69.gba t70_pieni.sav
+  partenza {"pos": [[34, 33], 12, 21], "squadra": [281, 306, 281, 281, 281, 281], "pennelli": 3, "fatto": 0, "pc": {"occupati": 420, "smeargle": []}}
+   pieni {"arrivo": true, "testi": ["PITTORE: Tutti e tre i miei pennelli! Grazie! Uno SMEARGLE mi ha seguito fin qui: vuole viaggiare con chi ama i colori.", "PITTORE: Non hai posto né in squadra né nel PC. Tengo io SMEARGLE: torna quando avrai spazio."], "pos": [[34, 17], 31, 24], "squadra": [281, 306, 281, 281, 281, 281], "pennelli": 3, "fatto": 0, "pc": {"occupati": 420, "smeargle": []}}
+   libera {"arrivo": true, "pc_prima": 420, "pos": [[34, 26], 10, 2], "squadra": [281, 306, 281, 281, 281, 281], "pennelli": 3, "fatto": 0, "pc": {"occupati": 419, "smeargle": []}}
+   consegna {"arrivo": true, "testi": ["PITTORE: Tutti e tre i miei pennelli! Grazie! Uno SMEARGLE mi ha seguito fin qui: vuole viaggiare con chi ama i colori.", "Hai ricevuto SMEARGLE! La squadra è piena: è stato mandato al PC."], "pos": [[34, 17], 31, 24], "squadra": [281, 306, 281, 281, 281, 281], "pennelli": 0, "fatto": 1, "pc": {"occupati": 420, "smeargle": [[0, {"specie": 235, "shiny": true}]]}}
+   dopo {"arrivo": true, "testi": ["PITTORE: Ho finito il ritratto della fontana. Prenditi cura di SMEARGLE!"], "pos": [[34, 17], 31, 24], "squadra": [281, 306, 281, 281, 281, 281], "pennelli": 0, "fatto": 1, "pc": {"occupati": 420, "smeargle": [[0, {"specie": 235, "shiny": true}]]}}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+   ricaricato {"pos": [[34, 17], 31, 24], "squadra": [281, 306, 281, 281, 281, 281], "pennelli": 0, "fatto": 1, "pc": {"occupati": 420, "smeargle": [[0, {"specie": 235, "shiny": true}]]}}
+FINE pieni

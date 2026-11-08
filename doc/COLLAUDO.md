@@ -124,3 +124,9 @@ Non sostituiscono la prova in gioco, ma vanno fatti a ogni versione:
 - **Regressione dal salvataggio vero:** dopo Continua, Smeraldo copia i puntatori agli script di tutti i 64 oggetti della tabella della mappa, anche oltre il numero reale. Se dopo la tabella c'è spazio usato da una versione nuova, quei byte di EWRAM cambiano: è atteso e innocuo (vedi `RELAZIONE_0_59.md` §4).
 - **Fixture di posizione (dalla 0.60):** per partire da un punto della storia senza savestate si scrive la posizione in SaveBlock1 **e** nell'oggetto del giocatore (Continua ripristina anche quello), poi si salva in gioco e si continua dal titolo (`leg.fixture_posizione`).
 - **SUB:** per immergersi A sull'acqua profonda; per risalire **B** sott'acqua; poi "sì".
+
+## 7. Note dalla chiusura del Lotto 3
+
+- **PC a tasti** (`t70.py`, `libera_dal_pc`): Centro Pokémon, A sul PC → PC DI QUALCUNO → SPOSTA POKéMON → A sul Pokémon → LIBERA → **Su** e A (il cursore del sì/no parte su NO) → B a "Continuare con il BOX?". Se a "Liberare?" si preme solo A si risponde no, e il successivo A prende il Pokémon in mano: il posto sembra vuoto ma non lo è.
+- **PC pieno come fixture:** i 420 posti stanno da SaveBlock3 (`0x3005d94`) + 4, 80 byte ciascuno (BoxPokemon = i primi 80 byte del Pokémon di squadra).
+- **Fixture di posizione da un'altra mappa:** scritta mentre il personaggio è nel labirinto della Rocca (34.33) per farlo comparire a Cesena, dopo Continua lo lascia invisibile. In quel caso si cammina invece di usarla.

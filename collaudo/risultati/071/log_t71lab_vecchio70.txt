@@ -1,0 +1,8 @@
+PROVA vecchio70 mGBA Pokemon_Romagna_0_71.gba t71lab_crea70_lab.sav dal titolo: ((1, 4), 6, 10, 3, False)
+   v_uscita_0 {'prima': ((1, 4), 6, 11), 'dopo': ((1, 4), 6, 11)}
+   v_uscita_1 {'prima': ((1, 4), 6, 11), 'dopo': ((1, 4), 6, 12)}
+   v_uscita_2 {'prima': ((1, 4), 6, 12), 'dopo': ((0, 9), 13, 28)}
+PROVA vecchio70 mGBA Pokemon_Romagna_0_71.gba t71lab_crea70_lido.sav dal titolo: ((0, 9), 13, 28, 3, False)
+   v_porta_0 {'prima': ((0, 9), 13, 28), 'dopo': ((1, 4), 6, 12)}
+   {'lab_titolo': ((1, 4), 6, 10), 'v_uscita_verso': True, 'v_uscita_0': {'prima': ((1, 4), 6, 11), 'dopo': ((1, 4), 6, 11)}, 'v_uscita_1': {'prima': ((1, 4), 6, 11), 'dopo': ((1, 4), 6, 12)}, 'v_uscita_2': {'prima': ((1, 4), 6, 12), 'dopo': ((0, 9), 13, 28)}, 'v_uscita_fuori': ((0, 9), 13, 28), 'lido_titolo': ((0, 9), 13, 28), 'v_porta_davanti': True, 'v_porta_0': {'prima': ((0, 9), 13, 28), 'dopo': ((1, 4), 6, 12)}, 'v_porta_dentro': ((1, 4), 6, 12)}
+FINE vecchio70

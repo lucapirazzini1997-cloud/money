@@ -104,3 +104,14 @@ dir 6 = risalita (dalla mappa sott'acqua). In gioco: A sull'acqua profonda per i
 - Bordo di un layout nuovo: il metatile 0 del primario degli interni si vede rosa; serve un metatile nero.
 - Tela con primario degli interni: `tela.Unione(d, 0x55ea40)`; le palette 0–5 del primario (1: ruggine/bianco,
   5: cielo/mare/sabbia/nero) si usano per disegnare senza occupare posti del secondario.
+
+## Esterni rifatti (dalla 0.71)
+- Il secondario di Lido (0x1fe349c, solo di Lido) ha le palette 6-12 piene: un pezzo di Smeraldo si porta ricolorandolo
+  tile per tile nella palette più vicina fra quelle già caricate (`UnioneLido.ricolora` in `v071_laboratorio.py`),
+  tenendo le palette di origine agli stessi posti (`U.slot[(sec, k)] = k`).
+- Un pezzo preso dal bordo di un'altra mappa porta con sé lo strato basso di quella (es. il muretto del molo): si
+  sostituisce con le refs dell'erba (`fondo`).
+- La tabella dei layout vera è `W.table` (rilocata), non 0x627fc0 per gli id alti (631 lì non è un puntatore).
+- Pilota: dopo `vai.vai` i primi tasti di direzione possono non muovere il personaggio (anche sull'erba aperta):
+  per entrare in una porta ripetere il tasto finché la mappa cambia. Sull'uscita di un interno (freccia) si spinge
+  ancora stando sulla casella.

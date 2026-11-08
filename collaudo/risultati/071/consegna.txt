@@ -1,0 +1,4 @@
+== 1. build completa
+== 2. BPS rom/Pokemon_Romagna_0_70_to_0_71.bps
+  ok 27376 byte, riapplicata
+== 3. zip senza out/ e ricostruzione in cartella pulita

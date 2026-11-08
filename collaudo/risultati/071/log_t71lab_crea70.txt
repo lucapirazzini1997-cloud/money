@@ -1,0 +1,10 @@
+PROVA crea70 Pokemon_Romagna_0_70.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (1, 4) (6, 10)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA crea70 mGBA Pokemon_Romagna_0_70.gba t71lab_crea70_lab.sav dal titolo: ((1, 4), 6, 10, 3, False)
+PROVA crea70 Pokemon_Romagna_0_70.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (0, 9) (13, 28)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA crea70 mGBA Pokemon_Romagna_0_70.gba t71lab_crea70_lido.sav dal titolo: ((0, 9), 13, 28, 3, False)
+   {'crea70_lab': ((1, 4), 6, 10), 'crea70_lido': ((0, 9), 13, 28)}
+FINE crea70

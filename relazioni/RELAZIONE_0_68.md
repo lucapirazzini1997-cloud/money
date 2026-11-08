@@ -3,7 +3,7 @@
 **Base:** 0.67, SHA-256 `aa5724473410d034397f8ac75583e6639659c0d23feda031538d99d739fbfe7b`.
 
 **Risultato:** `Pokemon_Romagna_0_68.gba`, SHA-256 `d4a65459b46f01b9c23e84c593ebda2a1669c5cdf4602ac6825af81a996bd964`.
-- Patch BPS 0.67→0.68: `rom/Pokemon_Romagna_0_67_to_0_68.bps` (§5).
+- Patch BPS 0.67→0.68: `rom/Pokemon_Romagna_0_67_to_0_68.bps` (58 byte), verificata riapplicandola (`consegna.sh`, log in `collaudo/risultati/068/consegna.txt`). Lo zip senza `out/` ricostruito in una cartella pulita rifà lo stesso SHA.
 - Modulo: `versioni/v068_ostacoli.py`; bozza approvata: `bozze/ostacoli.py`.
 - Lo SHA è in `build.py` dopo il collaudo (§5).
 - **Salvataggi compatibili:** cambiano solo 9 caselle di due mappe; nessuna flag, variabile o testo nuovo. Due salvataggi veri della 0.67 (in casa e nella Pineta): §5.

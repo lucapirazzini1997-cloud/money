@@ -1,0 +1,237 @@
+Inventario delle barriere sulla ROM 0.68 (le barriere della 0.69 sono le stesse: cambiano solo i testi).
+Mappe raggiungibili a piedi dall'inizio con tutte le abilita' (analisi/percorso.py): 181.
+
+== Eventi a coordinate sulle mappe raggiungibili
+0.9 0x1fd2a40 var 0x400e=0 n1 [(18, 40)]
+    cond ['checkflag 0x20'] set [] mov [] warp
+    "Un momento! Non puoi lasciare / il Lido / senza un Pokémon. Passa dal / laboratorio!"
+0.9 0x1fd2ab0 var 0x400e=0 n1 [(19, 40)]
+    cond ['checkflag 0x20'] set [] mov [] warp
+    "Un momento! Non puoi lasciare / il Lido / senza un Pokémon. Passa dal / laboratorio!"
+0.9 0x1fd2b20 var 0x400e=0 n1 [(20, 40)]
+    cond ['checkflag 0x20'] set [] mov [] warp
+    "Un momento! Non puoi lasciare / il Lido / senza un Pokémon. Passa dal / laboratorio!"
+0.9 0x1fd2b90 var 0x400e=0 n1 [(21, 40)]
+    cond ['checkflag 0x20'] set [] mov [] warp
+    "Un momento! Non puoi lasciare / il Lido / senza un Pokémon. Passa dal / laboratorio!"
+0.9 0x1fd2c00 var 0x400e=0 n1 [(46, 40)]
+    cond ['checkflag 0x20'] set [] mov [] warp
+    "Un momento! Non puoi lasciare / il Lido / senza un Pokémon. Passa dal / laboratorio!"
+0.9 0x1fd2c70 var 0x400e=0 n1 [(47, 40)]
+    cond ['checkflag 0x20'] set [] mov [] warp
+    "Un momento! Non puoi lasciare / il Lido / senza un Pokémon. Passa dal / laboratorio!"
+0.9 0x1fd2ce0 var 0x400e=0 n1 [(48, 40)]
+    cond ['checkflag 0x20'] set [] mov [] warp
+    "Un momento! Non puoi lasciare / il Lido / senza un Pokémon. Passa dal / laboratorio!"
+0.9 0x1fd2d50 var 0x400e=0 n1 [(49, 40)]
+    cond ['checkflag 0x20'] set [] mov [] warp
+    "Un momento! Non puoi lasciare / il Lido / senza un Pokémon. Passa dal / laboratorio!"
+0.9 0x1fd2e0c var 0x400e=0 n1 [(19, 7)]
+    cond ['checkflag 0x20', 'checkflag 0x86b'] set [] mov [] warp
+    "Un momento! Non puoi lasciare / il Lido / senza un Pokémon. Passa dal / laboratorio!"
+    "Il passaggio verso Ravenna è / chiuso. / Serve la quinta medaglia per / passare."
+0.9 0x1fd2ee4 var 0x400e=0 n1 [(20, 7)]
+    cond ['checkflag 0x20', 'checkflag 0x86b'] set [] mov [] warp
+    "Un momento! Non puoi lasciare / il Lido / senza un Pokémon. Passa dal / laboratorio!"
+    "Il passaggio verso Ravenna è / chiuso. / Serve la quinta medaglia per / passare."
+1.4 0x2cbb99 var 0x4002=0 n2 [(6, 11), (7, 11)]
+    cond ['checkflag 0x20', 'checkflag 0x31'] set [] mov ['0x6', '0x6', '0x6', '0x6', '0x6'] 
+    "{fd}{06}: Hai scelto il tuo compagno! / Facciamo subito una prova? / Il professore ci cura prima e dopo. / Ved"
+    "{fd}{06}: Adesso sei pronto per la PINETA. / Ci rivediamo lungo la VIA EMILIA!"
+    "{fd}{06}: Scegli prima uno starter. Io ti / aspetto qui!"
+    "Il tuo vicino di casa è / arrivato di corsa al / laboratorio. / Come si chiama il tuo amico?"
+34.6 0x2cc7bb var 0x4001=0 n1 [(9, 3)]
+    cond ['checkflag 0x3a'] set [] mov ['0xff'] warp
+    "I piani superiori sono riservati / all'osservatorio. Serve il rapporto / del MUSEO DELLE SALINE. Il curatore t"
+34.15 0x17302f0 var 0x4001=0 n1 [(19, 2)]
+    cond [] set ['setvar 0x4001'] mov [] 
+    "Attenzione: la porta rossa è la / STANZA CHEATER! / Dentro c'è un venditore che regala / MASTER BALL e CARAMEL"
+34.17 0x1a88a34 var 0x400e=0 n4 [(45, 50), (46, 50), (47, 50)]
+    cond ['checkflag 0x86d'] set [] mov [] warp
+    "Il sentiero sale verso il / Fumaiolo. Servono la Medaglia / di Imola e un Pokémon che / conosca Forza."
+34.22 0x155eb48 var 0x400f=0 n1 [(48, 33)]
+    cond [] set [] mov [] warp
+34.43 0x1a67b20 var 0x400e=0 n5 [(21, 54), (22, 54), (23, 54)]
+    cond ['checkflag 0x4e9', 'checkflag 0x868'] set ['setflag 0x4e9'] mov [] warp
+    "{fd}{06}: Verso Rimini si passa / di qui! Hai la Medaglia / Collina: adesso voglio una / vera sfida."
+    "{fd}{06}: Prima conquista la / Medaglia Collina nella / palestra di Cesena. Ti / aspetto qui per la nostra / s"
+34.47 0x1fd40d0 var 0x400e=0 n2 [(70, 33), (71, 33)]
+    cond ['checkflag 0x726'] set ['setflag 0x726', 'setflag 0x8c1', 'setvar 0x8004', 'setvar 0x8005'] mov [] 
+    "Sotto l'Arco di Augusto / qualcosa di bianco piomba dal / cielo: un FARFETCH'D dalle / piume che brillano!"
+    "Il FARFETCH'D vola via sopra / i tetti. Ripassa sotto / l'arco: potrebbe tornare."
+    "Il FARFETCH'D si ritira sul / cornicione dell'arco. Puoi / riprovare: ripassa sotto / l'arcata."
+    "Hai catturato il FARFETCH'D / cromatico! L'Arco di Augusto / ha visto di peggio."
+34.96 0x190ed64 var 0x400f=0 n1 [(79, 47)]
+    cond [] set [] mov [] warp
+34.96 0x190ed70 var 0x400f=0 n1 [(79, 48)]
+    cond [] set [] mov [] warp
+34.96 0x190ed7c var 0x400f=0 n1 [(79, 49)]
+    cond [] set [] mov [] warp
+34.96 0x190ed88 var 0x400f=0 n1 [(79, 50)]
+    cond [] set [] mov [] warp
+34.96 0x190ed94 var 0x400f=0 n1 [(79, 51)]
+    cond [] set [] mov [] warp
+
+== Personaggi e cartelli con testi di blocco (parole: medaglia, chiuso, serve, passaggio...)
+0.9 obj6 (41,34) gfx29 mov8 flag0x0 ['checkflag 0x23']
+    "Quei tecnici comprano terreni e dicono / di valorizzare la costa. / Ma chi decide cosa ci serve davvero? / Vorrei vedere i loro progetti."
+0.10 obj1 (7,42) gfx29 mov8 flag0x0 []
+    "La palestra aspetta: qualcuno ha / bloccato i rilievi nelle SALINE. / Entra dal passaggio a ovest. RIVA / vuole capire cosa succede prima / della sfida."
+2.1 obj1 (12,4) gfx125 mov8 flag0x0 ['checkflag 0x23', 'checkflag 0x26', 'checkflag 0x27', 'checkflag 0x867']
+    "RIVA: Prima della medaglia dobbiamo / proteggere le saline. Vai / a ovest di CERVIA e aiuta la / ricercatrice."
+26.1 obj3 (25,10) gfx86 mov1 flag0x11 ['checkflag 0x869']
+    "Serve SPACCAROCCIA e la terza / medaglia per rompere la roccia."
+26.1 obj4 (25,13) gfx86 mov1 flag0x12 ['checkflag 0x869']
+    "Serve SPACCAROCCIA e la terza / medaglia per rompere la roccia."
+26.1 obj5 (28,14) gfx86 mov1 flag0x13 ['checkflag 0x869']
+    "Serve SPACCAROCCIA e la terza / medaglia per rompere la roccia."
+26.1 obj6 (23,6) gfx86 mov1 flag0x14 ['checkflag 0x869']
+    "Serve SPACCAROCCIA e la terza / medaglia per rompere la roccia."
+26.1 obj7 (20,7) gfx86 mov1 flag0x15 ['checkflag 0x869']
+    "Serve SPACCAROCCIA e la terza / medaglia per rompere la roccia."
+26.1 obj8 (27,7) gfx86 mov1 flag0x16 ['checkflag 0x869']
+    "Serve SPACCAROCCIA e la terza / medaglia per rompere la roccia."
+26.3 obj1 (31,34) gfx31 mov8 flag0x0 ['checkflag 0x630', 'checkflag 0x86e']
+    "CASCATA si usa fuori dalla / lotta davanti a una cascata. / Serve l'ottava medaglia."
+26.12 obj3 (11,11) gfx86 mov1 flag0x15 ['checkflag 0x869']
+    "Serve SPACCAROCCIA e la terza / medaglia per rompere la roccia."
+26.12 obj5 (8,13) gfx86 mov1 flag0x13 ['checkflag 0x869']
+    "Serve SPACCAROCCIA e la terza / medaglia per rompere la roccia."
+26.12 obj6 (9,7) gfx86 mov1 flag0x11 ['checkflag 0x869']
+    "Serve SPACCAROCCIA e la terza / medaglia per rompere la roccia."
+26.12 obj7 (8,10) gfx86 mov1 flag0x14 ['checkflag 0x869']
+    "Serve SPACCAROCCIA e la terza / medaglia per rompere la roccia."
+26.12 obj8 (12,8) gfx86 mov1 flag0x12 ['checkflag 0x869']
+    "Serve SPACCAROCCIA e la terza / medaglia per rompere la roccia."
+34.1 obj1 (6,3) gfx19 mov8 flag0x0 ['checkflag 0x14b', 'checkflag 0x274', 'checkflag 0x275', 'checkflag 0x276', 'checkitem 0x104']
+    "Tieni il Portamonete: / serve per giocare."
+34.1 obj6 (0,2) gfx33 mov8 flag0x14b []
+    "Di qui non si passa. / Saletta privata del Panama. / Chiedi al barista."
+34.3 obj3 (8,4) gfx20 mov8 flag0x0 ['checkflag 0x48']
+    "NADIA: Queste cure servono se incontri / un tipo ELETTRO. / Tieni due ANTIPARALISI!"
+34.5 obj4 (3,6) gfx29 mov8 flag0x0 []
+    "Torna quando vuoi: le mosse / non si dimenticano mai / davvero."
+34.6 obj1 (5,5) gfx29 mov8 flag0x0 ['checkflag 0x3a', 'checkitem 0x10d']
+    "I piani superiori sono riservati / all'osservatorio. Serve il rapporto / del MUSEO DELLE SALINE. Il curatore ti / spiegherà tutto."
+34.8 obj5 (8,6) gfx46 mov8 flag0x0 ['checkflag 0x23', 'checkflag 0x270', 'checkflag 0x867']
+    "RICERCATRICE: Hai difeso le saline e / conquistato la Medaglia Salina. / Il municipio ringrazia te e la tua / squadra: / scegli uno dei tre compagni di Kanto!"
+34.12 obj1 (5,7) gfx22 mov8 flag0x0 ['checkflag 0x3a', 'checkflag 0x42']
+    "Il curatore mi ha avvisata: hai salvato / i dati delle saline! / Sono la guardiaparco della costa. / Questa MN01 insegna TAGLIO. / Dopo la Medaglia Salina potrai aprire il / passaggio costiero!"
+    "Insegna TAGLIO a un POKEMON dalla / tasca MT e MN della BORSA. / Serve la Medaglia Salina per usarlo / sugli alberelli all'aperto. / Anche ZIGZAGOON può impararlo. Il / sentiero breve collega le città"
+34.14 obj1 (4,12) gfx82 mov8 flag0x43 ['checkflag 0x867']
+    "Serve TAGLIO e la Medaglia Salina per / rimuovere questo alberello."
+34.14 obj2 (5,12) gfx82 mov8 flag0x44 ['checkflag 0x867']
+    "Serve TAGLIO e la Medaglia Salina per / rimuovere questo alberello."
+34.15 obj1 (16,6) gfx24 mov8 flag0x0 []
+    "GOVERNANTE: Ho rifatto letti e / asciugamani. La stanza senza numero è / prenotata da un venditore molto / riservato."
+34.17 obj4 (91,41) gfx19 mov8 flag0x0 []
+    "A est trovi la strada per Cesenatico. / Dopo la seconda medaglia, prosegui / lungo la riviera verso Rimini."
+34.17 obj13 (32,24) gfx48 mov9 flag0x0 ['checkflag 0x7b0', 'checkitem 0x15b']
+    "PITTORE: Non hai posto né in / squadra né nel PC. Tengo io / SMEARGLE: torna quando avrai / spazio."
+34.19 obj5 (4,17) gfx86 mov8 flag0x720 ['checkflag 0x869']
+    "Serve SPACCAROCCIA e la terza / medaglia per rompere la roccia."
+34.19 obj6 (4,16) gfx86 mov8 flag0x724 ['checkflag 0x869']
+    "Serve SPACCAROCCIA e la terza / medaglia per rompere la roccia."
+34.19 obj7 (4,18) gfx86 mov8 flag0x725 ['checkflag 0x869']
+    "Serve SPACCAROCCIA e la terza / medaglia per rompere la roccia."
+34.19 obj9 (40,12) gfx14 mov9 flag0x0 []
+    "SCUDERIA: Per Capocolle / servono le rocce... e la / medaglia giusta."
+34.20 obj2 (2,5) gfx82 mov8 flag0x12 ['checkflag 0x867']
+    "Serve TAGLIO e la Medaglia Salina per / rimuovere questo alberello."
+34.20 obj3 (3,5) gfx82 mov8 flag0x13 ['checkflag 0x867']
+    "Serve TAGLIO e la Medaglia Salina per / rimuovere questo alberello."
+34.20 obj4 (5,7) gfx19 mov8 flag0x0 []
+    "Gli alberelli cedono a TAGLIO. La / MEDAGLIA SALINA permette di usarlo. / Ai lati trovi prati e allenatori: la via / centrale ti porta a CESENA."
+34.20 obj5 (7,3) gfx135 mov8 flag0x493 ['checkflag 0x493', 'checkflag 0x498', 'checkflag 0x864', 'checkflag 0x867', 'checkflag 0x868', 'checkflag 0x86a', 'checkflag 0x86d', 'checkflag 0x86e', 'checkflag 0x879']
+    "{fd}{06}: Ti raggiungo prima dei / campi! Una medaglia non basta / a farmi cambiare idea: sono / ancora io quello da battere."
+34.20 obj10 (14,46) gfx35 mov10 flag0x0 []
+    "GIORGIO: Dopo la Medaglia / Arco la strada per Forlì si / apre."
+34.21 obj3 (10,9) gfx29 mov8 flag0x0 []
+    "Non hai spazio per tenerlo… / Torna quando avrai fatto posto."
+34.22 obj5 (41,40) gfx49 mov8 flag0x0 []
+    "A sud c'è Rimini. Per percorrere la / riviera serve la seconda medaglia. / Il Team Emilia è arrivato anche laggiù."
+34.25 obj6 (6,14) gfx29 mov8 flag0x0 ['checkflag 0x271', 'checkflag 0x272', 'checkflag 0x273']
+    "Hitmonlee e Hitmonchan sono tuoi! Con / loro ricevi la MN Volo. / La Medaglia Collina di Cesena permette / di usarla fuori dalla lotta. / Prima di Forlì visita Rimini. Lì otterrai / Spaccaroccia."
+34.34 obj1 (8,5) gfx119 mov8 flag0x0 ['checkflag 0x26d']
+    "Area tecnica riservata. Senza prove / non ti dico nulla. / Parla al mercato e alla curatrice del / MUSEO DELLA MARINERIA."
+34.36 obj1 (10,4) gfx16 mov8 flag0x0 ['checkflag 0x268', 'checkflag 0x269', 'checkflag 0x26e', 'checkflag 0x867', 'checkflag 0x868']
+    "La terza palestra ti aspetta a Rimini. / Con Volo ritorni nelle città visitate. / Per aprire la strada verso Forlì / servono Spaccaroccia e la terza / medaglia."
+    "Prima conquista la medaglia / di Cervia."
+34.39 obj1 (23,12) gfx86 mov8 flag0x12 ['checkflag 0x869']
+    "Serve SPACCAROCCIA e la terza / medaglia per rompere la roccia."
+34.39 obj2 (24,12) gfx86 mov8 flag0x13 ['checkflag 0x869']
+    "Serve SPACCAROCCIA e la terza / medaglia per rompere la roccia."
+34.39 obj3 (26,15) gfx55 mov8 flag0x0 []
+    "Per superare le rocce serve / Spaccaroccia. / La ottieni a Rimini e puoi usarla dopo / la terza medaglia."
+34.43 obj3 (27,54) gfx135 mov8 flag0x4e9 ['checkflag 0x4e9', 'checkflag 0x868']
+    "{fd}{06}: Verso Rimini si passa / di qui! Hai la Medaglia / Collina: adesso voglio una / vera sfida."
+    "{fd}{06}: Prima conquista la / Medaglia Collina nella / palestra di Cesena. Ti / aspetto qui per la nostra / sfida."
+34.44 obj4 (21,34) gfx24 mov8 flag0x0 ['checkflag 0x864']
+    "Il passaggio per San Marino e / Monte Titano non e ancora / disponibile. Torna dopo la / Lega."
+34.47 obj4 (34,22) gfx9 mov8 flag0x0 []
+    "Dopo la seconda medaglia uso Volo per / tornare ai paesi già visitati. / La MN è il premio del Teatro Bonci."
+34.48 obj1 (8,4) gfx46 mov8 flag0x0 ['checkflag 0x27a', 'checkflag 0x27b', 'checkflag 0x27c', 'checkflag 0x27f', 'checkflag 0x280', 'checkitem 0x164']
+    "Con la terza medaglia puoi / usare SPACCAROCCIA all'aperto. / Oltre l'IPPODROMO di CESENA, / una roccia chiude la galleria / del MONTE SPACCATO. VOLO / ti aiuterà a tornare."
+34.48 obj3 (13,8) gfx46 mov8 flag0x0 ['checkflag 0x27f', 'checkflag 0x284', 'checkflag 0x869']
+    "ELIO: Dopo la missione di Ada e la terza / medaglia ti affiderò un Pokémon di / Johto."
+34.51 obj1 (12,4) gfx55 mov8 flag0x0 ['checkflag 0x27f', 'checkflag 0x281', 'checkflag 0x282', 'checkflag 0x283', 'checkflag 0x868', 'checkflag 0x869']
+    "Prima conquista la seconda / medaglia a Cesena."
+34.51 obj4 (10,23) gfx23 mov8 flag0x0 []
+    "Questa è la terza palestra. Aiuta prima / Ada e supera i due / allenatori, poi affronta Aurelio. / La Medaglia Arco autorizza / Spaccaroccia. Ti servirà sulle rocce / a ovest dell'ippodromo di Cesena."
+34.57 obj1 (0,5) gfx51 mov8 flag0x0 []
+    "Corro sul lungomare con il mio Doduo. / Qui compro ciò che serve / per allenarci senza affaticarlo."
+34.58 obj3 (13,4) gfx35 mov8 flag0x0 []
+    "Aspetto che liberi il passaggio quel / tecnico al banco. / Ha un tesserino del Team Emilia."
+34.66 obj2 (2,4) gfx16 mov8 flag0x0 []
+    "Aspetto mio figlio prima di uscire. / Vuole passare dalle Befane, / io preferisco la fontana in piazza."
+34.67 obj1 (15,3) gfx49 mov8 flag0x0 []
+    "In officina ripariamo le reti. Le bobine / rubate non servono / a pescare: hanno un altro scopo."
+34.68 obj18 (39,51) gfx24 mov8 flag0x0 ['checkflag 0x86d']
+    "Il passaggio per sentiero di / Ridracoli non e ancora / disponibile. Prima conquista / la settima medaglia a Imola."
+34.69 obj1 (3,3) gfx16 mov8 flag0x0 ['checkflag 0x28a', 'checkflag 0x869']
+    "Servono i rilievi del museo. Parla con / Lia al municipio e poi con Nello al San / Domenico."
+34.71 obj1 (16,22) gfx46 mov8 flag0x0 ['checkflag 0x285', 'checkflag 0x28a', 'checkflag 0x28b']
+    "NELLO: Studio campioni di terreno. Lia, / nel municipio di Piazza Saffi, conserva / i contratti che mi servono."
+34.71 obj5 (25,7) gfx24 mov8 flag0x0 ['checkflag 0x28a', 'checkflag 0x295', 'checkflag 0x86a']
+    "MARINA: La piena ha interrotto la Via / Emilia a ovest. Serve Surf per / raggiungere Faenza. / All'argine di Forlì, oltre l'uscita / occidentale, ti aspettano tre / istruttori di canoa. Superali e par"
+    "MARINA: Dario aspetta dopo i tre / istruttori all'argine occidentale. La / quarta medaglia permette di usare Surf / fuori dalla lotta."
+34.74 obj1 (12,4) gfx44 mov8 flag0x0 ['checkflag 0x28a', 'checkflag 0x28c', 'checkflag 0x28d', 'checkflag 0x28e', 'checkflag 0x28f', 'checkflag 0x869', 'checkflag 0x86a', 'checkitem 0x155']
+    "IVANO: La quarta medaglia e / la MN03 SURF ti permettono di / attraversare i meandri verso / FAENZA. Supera Mauro, Giada e / Diego sugli isolotti. I / nuotatori ti sfideranno lungo / il fiume."
+    "Ricevi la MN SURF! La / medaglia appena conquistata / ne permette l'uso fuori dalla / lotta."
+    "Prima conquista la terza / medaglia a Rimini."
+34.74 obj2 (6,19) gfx44 mov8 flag0x0 ['checkflag 0x28a', 'checkflag 0x28c']
+    "Servono i rilievi del museo. Parla con / Lia al municipio e poi con Nello al San / Domenico."
+34.74 obj3 (18,14) gfx24 mov8 flag0x0 ['checkflag 0x28a', 'checkflag 0x28d']
+    "Servono i rilievi del museo. Parla con / Lia al municipio e poi con Nello al San / Domenico."
+34.74 obj4 (6,9) gfx33 mov8 flag0x0 ['checkflag 0x28a', 'checkflag 0x28e']
+    "Servono i rilievi del museo. Parla con / Lia al municipio e poi con Nello al San / Domenico."
+34.75 obj1 (16,24) gfx119 mov8 flag0x28a ['checkflag 0x286', 'checkflag 0x287']
+    "Servono i rilievi del museo. Parla con / Lia al municipio e poi con Nello al San / Domenico."
+34.75 obj2 (15,6) gfx120 mov8 flag0x28a ['checkflag 0x287', 'checkflag 0x288']
+    "Servono i rilievi del museo. Parla con / Lia al municipio e poi con Nello al San / Domenico."
+34.76 obj1 (11,9) gfx196 mov8 flag0x28a ['checkflag 0x288', 'checkflag 0x289']
+    "Servono i rilievi del museo. Parla con / Lia al municipio e poi con Nello al San / Domenico."
+34.83 obj1 (7,5) gfx46 mov8 flag0x0 []
+    "VENDITORE SEGRETO: Questa è la STANZA / CHEATER! / Ora hai 999 Master Ball e 999 Caramelle / Rare. Torna quando vuoi: riporto le / scorte a 999."
+34.85 obj7 (57,44) gfx8 mov8 flag0x0 ['checkflag 0x86b', 'checkflag 0x86c']
+    "Aiuta il museo della ceramica / e conquista la quinta / medaglia di Ada. Poi il / casello a nord-est conduce a / Ravenna."
+    "Hai la sesta medaglia! A nord / trovi la galleria facoltativa / dei tre Regi verso Lugo. A / OVEST parte la strada per / IMOLA e la settima palestra."
+34.85 obj12 (2,29) gfx117 mov9 flag0x86c []
+    "VIGILE: Il ponte del / Santerno, verso Imola, è / chiuso per i danni del Team / EMILIA. / Riapre dopo la vittoria sul / capopalestra di Lugo."
+34.90 obj1 (12,4) gfx20 mov8 flag0x0 ['checkflag 0x2a2', 'checkflag 0x2a3', 'checkflag 0x2a4', 'checkflag 0x2a5', 'checkflag 0x2b2', 'checkflag 0x86a']
+    "ADA: Hai conquistato la Medaglia / Maiolica!"
+    "Prima conquista la quarta / medaglia a Forlì e raggiungi / Faenza con Surf."
+34.96 obj12 (4,35) gfx117 mov10 flag0x2ab []
+    "VIGILE: Il sentiero dei / canali è chiuso. Il Team / EMILIA ha manomesso le chiuse / in città. / Finché non risolvi il guaio, / nessuno passa."
+34.96 obj13 (64,46) gfx7 mov8 flag0x0 ['checkflag 0x62f', 'checkflag 0x86b']
+    "Torna quando avrai la quinta / medaglia: il SUPER AMO è per / pescatori esperti."
+    "Hai la quinta medaglia? / Allora sei pronto per i pesci / grossi del ravennate."
+34.110 obj1 (39,27) gfx16 mov8 flag0x0 ['checkflag 0x409']
+    "Lugo è salva. Sfida ALIDA per / la sesta medaglia. Poi / attraversa la galleria verso / FAENZA: da Faenza parte la / strada per IMOLA."
+34.110 obj7 (33,32) gfx16 mov8 flag0x0 ['checkflag 0x4a8']
+    "Mi serve una dimostrazione di / Braciere, non un incendio! / Porta un Pokemon che conosce / quella mossa."
+34.111 obj5 (14,6) gfx56 mov8 flag0x0 ['checkflag 0x409', 'checkflag 0x465', 'checkflag 0x466']
+    "Il trasmettitore è spento! / Alida ti aspetta in palestra. / Dopo la sesta medaglia la / galleria per Faenza e la / strada Faenza-Imola saranno / aperte."
+34.112 obj1 (10,6) gfx29 mov8 flag0x0 ['checkflag 0x2ac', 'checkflag 0x409', 'checkflag 0x86b', 'checkflag 0x86c']
+    "ALIDA: Il cielo e tuo! / Ottieni la MEDAGLIA ALA! / Ora puoi usare VOLO fuori lotta."
+    "Dopo la sesta medaglia / attraversa la galleria LUGO- / FAENZA, con le camere dei tre / Regi. Da FAENZA parte la / strada per IMOLA, a ovest e / sud-ovest di Lugo."

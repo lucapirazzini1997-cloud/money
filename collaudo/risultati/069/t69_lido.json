@@ -1,0 +1,25 @@
+{
+ "ravenna": {
+  "arrivo": true,
+  "testi": [
+   "Verso RAVENNA non si passa: serve la quinta medaglia."
+  ],
+  "dopo": [
+   [
+    0,
+    9
+   ],
+   20,
+   9
+  ],
+  "ritorno": true,
+  "pos_ritorno": [
+   [
+    0,
+    9
+   ],
+   20,
+   12
+  ]
+ }
+}

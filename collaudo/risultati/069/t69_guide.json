@@ -1,0 +1,30 @@
+{
+ "guida_ridracoli": {
+  "arrivo": true,
+  "testi": [
+   "Il sentiero per RIDRACOLI è ancora chiuso. Torna con la settima medaglia, quella di IMOLA."
+  ],
+  "dopo": [
+   [
+    34,
+    68
+   ],
+   39,
+   52
+  ]
+ },
+ "vigile_faenza": {
+  "arrivo": true,
+  "testi": [
+   "VIGILE: Il ponte del Santerno, verso Imola, è chiuso per i danni del Team EMILIA. Riapre dopo la vittoria sul capopalestra di Lugo."
+  ],
+  "dopo": [
+   [
+    34,
+    85
+   ],
+   2,
+   30
+  ]
+ }
+}

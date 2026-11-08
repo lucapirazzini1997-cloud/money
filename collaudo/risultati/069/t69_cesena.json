@@ -1,0 +1,48 @@
+{
+ "fumaiolo": {
+  "arrivo": true,
+  "testi": [
+   "Il sentiero sale verso il Fumaiolo. Servono la Medaglia di Imola e un Pokémon che conosca Forza."
+  ],
+  "dopo": [
+   [
+    34,
+    17
+   ],
+   46,
+   50
+  ],
+  "ritorno": true,
+  "pos_ritorno": [
+   [
+    34,
+    17
+   ],
+   46,
+   45
+  ]
+ },
+ "rimini": {
+  "arrivo": true,
+  "testi": [
+   "ALDO: Prima conquista la Medaglia Collina nella palestra di Cesena. Ti aspetto qui per la nostra sfida."
+  ],
+  "dopo": [
+   [
+    34,
+    43
+   ],
+   23,
+   50
+  ],
+  "ritorno": true,
+  "pos_ritorno": [
+   [
+    34,
+    43
+   ],
+   23,
+   47
+  ]
+ }
+}

@@ -1,0 +1,159 @@
+Correzioni sul posto della 0.69 (out/rapporto_build.json):
+
+APOSTROFI (22 testi)
+0x2c9b7d Hai ottenuto la MEDAGLIA SALINA! La / prima tappa e' completata. Un giorno / arriverai fino a IMOLA! 
+        => Hai ottenuto la MEDAGLIA SALINA! La / prima tappa è completata. Un giorno / arriverai fino a IMOLA!
+0x2c9cc3 La strada per CESENA e' in cantiere. / Intanto sfida la palestra di RIVA! 
+        => La strada per CESENA è in cantiere. / Intanto sfida la palestra di RIVA!
+0x2c9f61 La temperatura delle falde aumenta. / Non e' il sole a scaldarle... 
+        => La temperatura delle falde aumenta. / Non è il sole a scaldarle...
+0x2c9fe5 CERVIA La citta' del sale dolce. 
+        => CERVIA La città del sale dolce.
+0x2ca3aa Questi rilievi sono proprieta' del TEAM / EMILIA! Stiamo valorizzando / l'Emilia orientale. Tu torna a giocare / sul lungomare! 
+        => Questi rilievi sono proprietà del TEAM / EMILIA! Stiamo valorizzando / l'Emilia orientale. Tu torna a giocare / sul lungomare!
+0x2ca48d Portero' i dati a Bologna. Qui sotto / c'e' qualcosa che vale piu' / del sale! Questa non finisce qui! 
+        => Porterò i dati a Bologna. Qui sotto / c'è qualcosa che vale più / del sale! Questa non finisce qui!
+0x2ca624 La mia prova e' superata. Controlla la / valvola e poi torna / al ponte centrale. 
+        => La mia prova è superata. Controlla la / valvola e poi torna / al ponte centrale.
+0x2ca7b1 Entrambe le valvole sono aperte. Il / ponte e' sicuro: RIVA ti / aspetta! 
+        => Entrambe le valvole sono aperte. Il / ponte è sicuro: RIVA ti / aspetta!
+0x2ca860 Grazie! Ora posso recuperare i dati. / Non cercano sale: misurano / un'energia che arriva dall'APPENNINO. / Avvisero' RIVA. / Tieni questa SUPERPOZIONE per la / sfida. 
+        => Grazie! Ora posso recuperare i dati. / Non cercano sale: misurano / un'energia che arriva dall'APPENNINO. / Avviserò RIVA. / Tieni questa SUPERPOZIONE per la / sfida.
+0x2ca950 RIVA ha ricevuto il rapporto. Nella sua / palestra ti aspettano / due apprendisti e le valvole del canale. / Questo mistero continuera' / verso CESENA. 
+        => RIVA ha ricevuto il rapporto. Nella sua / palestra ti aspettano / due apprendisti e le valvole del canale. / Questo mistero continuerà / verso CESENA.
+0x2caa71 Benvenuto al VISTAMARE! Mare, balconi / e allenatori di passaggio. / Se cerchi il professore, la stazione di / ricerca e' piu' a sud. 
+        => Benvenuto al VISTAMARE! Mare, balconi / e allenatori di passaggio. / Se cerchi il professore, la stazione di / ricerca è più a sud.
+0x2cab45 Benvenuto al PANAMA! Mettiti comodo: / qui il lungomare e' casa. / Oggi si parla soltanto degli strani / strumenti arrivati alle / saline. 
+        => Benvenuto al PANAMA! Mettiti comodo: / qui il lungomare è casa. / Oggi si parla soltanto degli strani / strumenti arrivati alle / saline.
+0x2cac3f Il TEAM EMILIA dice che questa e' / Emilia orientale. Il marinaio del / tavolo accanto ha quasi rovesciato la / sedia! 
+        => Il TEAM EMILIA dice che questa è / Emilia orientale. Il marinaio del / tavolo accanto ha quasi rovesciato la / sedia!
+0x2caecb Benvenuto in municipio! La PIAZZA / GARIBALDI e' il cuore di CERVIA. / Se cerchi le saline, attraversa il ponte / e vai a ovest. 
+        => Benvenuto in municipio! La PIAZZA / GARIBALDI è il cuore di CERVIA. / Se cerchi le saline, attraversa il ponte / e vai a ovest.
+0x2cb6ff Benvenuto al PANAMA! Un tavolo sotto / la veranda? / Per il tuo viaggio ho una POZIONE. La / PINETA e' lunga: portala con te! 
+        => Benvenuto al PANAMA! Un tavolo sotto / la veranda? / Per il tuo viaggio ho una POZIONE. La / PINETA è lunga: portala con te!
+0x2cb777 Dal PANAMA si vede il lungomare. La / porta del bosco e' a sud del lido. / I pescatori di CERVIA parlano di / strumenti strani nelle SALINE. 
+        => Dal PANAMA si vede il lungomare. La / porta del bosco è a sud del lido. / I pescatori di CERVIA parlano di / strumenti strani nelle SALINE.
+0x2cbec8 Sono il custode della TORRE. Dalla / loggia sorveglio le SALINE. / Ho visto dei tecnici senza permesso. / Vai a controllare e torna da me. / Se li hai gia' fermati, il tuo rapporto / merita una ricompensa! 
+        => Sono il custode della TORRE. Dalla / loggia sorveglio le SALINE. / Ho visto dei tecnici senza permesso. / Vai a controllare e torna da me. / Se li hai già fermati, il tuo rapporto / merita una ricompensa!
+0x2cca05 ELIO: Va bene, passa! Ma RITA controlla / l'ingresso del casello. / I dati sono gia' nelle mani del nostro / responsabile BRUNO! 
+        => ELIO: Va bene, passa! Ma RITA controlla / l'ingresso del casello. / I dati sono già nelle mani del nostro / responsabile BRUNO!
+0x2ccb34 RITA: Uff! Il casello e' tuo. BRUNO non / sara' contento. 
+        => RITA: Uff! Il casello è tuo. BRUNO non / sarà contento.
+0x2ccf86 Queste vibrazioni arrivano / dall'Appennino, non dal mare. / Il TEAM EMILIA cerca qualcosa sotto le / montagne... / Questo campione e' una PIETRAIDRICA. / Conservalo per il tuo viaggio! 
+        => Queste vibrazioni arrivano / dall'Appennino, non dal mare. / Il TEAM EMILIA cerca qualcosa sotto le / montagne... / Questo campione è una PIETRAIDRICA. / Conservalo per il tuo viaggio!
+0x2cd036 Avvisero' la stazione di ricerca. La / prossima pista porta a Cesena. 
+        => Avviserò la stazione di ricerca. La / prossima pista porta a Cesena.
+0x2cdb8b Ottima sfida! La valvola a sinistra e' / pronta. Vai a girarla! 
+        => Ottima sfida! La valvola a sinistra è / pronta. Vai a girarla!
+
+ACCENTI (110 lettere)
+0x2ce69d 0x2ce6af e->è
+0x2cebd9 0x2cec42 sara->sarà
+0x2cf273 0x2cf2c3 puo->può
+0xf10000 0xf10012 e->è
+0xf10000 0xf10016 piu->più
+0xf14310 0xf14328 piu->più
+0xf1e344 0xf1e376 citta->città
+0xf1f0bc 0xf1f0d9 e->è
+0xf1f1e4 0xf1f1eb e->è
+0xf1f1e4 0xf1f1f7 e->è
+0xf1f1e4 0xf1f219 e->è
+0xf1f288 0xf1f28f e->è
+0xf1f288 0xf1f2be normalita->normalità
+0xf1f2c4 0xf1f2ce gia->già
+0xf1f2c4 0xf1f2ef e->è
+0xf1f364 0xf1f3ae piu->più
+0xf1f5c0 0xf1f5c8 e->è
+0xf1f5f4 0xf1f60b e->è
+0xf1f5f4 0xf1f619 gia->già
+0xf1f70c 0xf1f721 e->è
+0xf1f70c 0xf1f739 e->è
+0xf1f768 0xf1f7c4 e->è
+0xf1f93c 0xf1f942 e->è
+0xf1f974 0xf1f97a gia->già
+0xf31000 0xf31010 e->è
+0xf31054 0xf31067 sara->sarà
+0xf3107c 0xf3109e piu->più
+0xf31358 0xf31367 e->è
+0xf31358 0xf31387 e->è
+0xf314b4 0xf314bb e->è
+0xf315bc 0xf315dd e->è
+0xf3161c 0xf31642 gia->già
+0x1b0d668 0x1b0d675 e->è
+0x1b0d668 0x1b0d689 gia->già
+0x1b0da18 0x1b0da25 e->è
+0x1b0da18 0x1b0da39 gia->già
+0x1b0dab4 0x1b0daf8 quantita->quantità
+0x1b0db50 0x1b0db54 e->è
+0x1b0dd84 0x1b0dd8a gia->già
+0x1b0de18 0x1b0de2c e->è
+0x1b0e6d8 0x1b0e6ff e->è
+0x1b0e78c 0x1b0e7b9 c'e->c'è
+0x1b0e814 0x1b0e821 e->è
+0x1d408dc 0x1d4091c e->è
+0x1d84274 0x1d8427f e->è
+0x1d842b8 0x1d842c3 e->è
+0x1d842fc 0x1d84307 e->è
+0x1d8dd74 0x1d8dda0 e->è
+0x1d94bb8 0x1d94be4 e->è
+0x1d9b878 0x1d9b8a1 piu->più
+0x1d9b878 0x1d9b8b0 piu->più
+0x1d9b93c 0x1d9b965 piu->più
+0x1d9b93c 0x1d9b974 piu->più
+0x1d9b9e4 0x1d9ba0e piu->più
+0x1d9b9e4 0x1d9ba1d piu->più
+0x1d9ba40 0x1d9ba6c e->è
+0x1d9baac 0x1d9bac1 piu->più
+0x1d9baac 0x1d9bad0 piu->più
+0x1da709c 0x1da70df e->è
+0x1da8654 0x1da8673 e->è
+0x1da8654 0x1da8696 c'e->c'è
+0x1dab02c 0x1dab047 studio->studiò
+0x1dab02c 0x1dab084 citta->città
+0x1dab0a4 0x1dab0ba studio->studiò
+0x1dab0a4 0x1dab0f7 citta->città
+0x1dac5e0 0x1dac616 e->è
+0x1dacba8 0x1dacbde e->è
+0x1dad1e4 0x1dad21a e->è
+0x1dad4d0 0x1dad506 e->è
+0x1dad7e0 0x1dad816 e->è
+0x1dadad8 0x1dadb0e e->è
+0x1dce464 0x1dce478 e->è
+0x1dce464 0x1dce4ad e->è
+0x1dd0aa0 0x1dd0ab4 e->è
+0x1dd0aa0 0x1dd0ae9 e->è
+0x1dd3fd4 0x1dd3fe8 e->è
+0x1dd3fd4 0x1dd401d e->è
+0x1dd5fc0 0x1dd5fd4 e->è
+0x1dd5fc0 0x1dd6009 e->è
+0x1dd8cbc 0x1dd8cd0 e->è
+0x1dd8cbc 0x1dd8d05 e->è
+0x1ddedc8 0x1ddeddc e->è
+0x1ddedc8 0x1ddee11 e->è
+0x1de5014 0x1de5028 e->è
+0x1de5014 0x1de505d e->è
+0x1de5444 0x1de544b citta->città
+0x1de549c 0x1de54a3 citta->città
+0x1de8b5c 0x1de8b70 e->è
+0x1de8b5c 0x1de8ba5 e->è
+0x1deaacc 0x1deaae0 e->è
+0x1deaacc 0x1deab15 e->è
+0x1debdf4 0x1debe08 e->è
+0x1debdf4 0x1debe3d e->è
+0x1dedbcc 0x1dedbe0 e->è
+0x1dedbcc 0x1dedc15 e->è
+0x1df014c 0x1df0160 e->è
+0x1df014c 0x1df0195 e->è
+0x1df1860 0x1df1874 e->è
+0x1df1860 0x1df18a9 e->è
+0x1df2ef8 0x1df2f0c e->è
+0x1df2ef8 0x1df2f41 e->è
+0x1dfe260 0x1dfe2c1 e->è
+0x1dfe260 0x1dfe2e6 e->è
+0x1dfe504 0x1dfe50a e->è
+0x1dfe5c0 0x1dfe61a e->è
+0x1e17f98 0x1e17fda e->è
+0x1e3a0a0 0x1e3a0f7 e->è
+0x1e5f29c 0x1e5f2a9 e->è
+0x1e5f29c 0x1e5f2c6 e->è
+0x1e5f29c 0x1e5f2ca gia->già

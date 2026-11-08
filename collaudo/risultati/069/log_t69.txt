@@ -1,0 +1,53 @@
+PROVA cesena Pokemon_Romagna_0_69.gba partenza s_ce3.ss ((34, 17), 41, 4, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (34, 17) (46, 47)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA cesena mGBA Pokemon_Romagna_0_69.gba t69_cesena.sav
+  dal titolo: ((34, 17), 46, 47, 3, False) medaglie 10000000
+  fuori percorso: atteso ((34, 17), 46, 48) sono ((34, 17), 46, 47) azione passo S
+   fumaiolo {'arrivo': True, 'testi': ['Il sentiero sale verso il Fumaiolo. Servono la Medaglia di Imola e un Pokémon che conosca Forza.'], 'dopo': ((34, 17), 46, 50), 'ritorno': True, 'pos_ritorno': ((34, 17), 46, 45)}
+PROVA cesena Pokemon_Romagna_0_69.gba partenza s_ce3.ss ((34, 17), 41, 4, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (34, 43) (23, 51)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA cesena mGBA Pokemon_Romagna_0_69.gba t69_cesena_rimini.sav
+  dal titolo: ((34, 43), 23, 51, 3, False) medaglie 10000000
+   rimini {'arrivo': True, 'testi': ['ALDO: Prima conquista la Medaglia Collina nella palestra di Cesena. Ti aspetto qui per la nostra sfida.'], 'dopo': ((34, 43), 23, 50), 'ritorno': True, 'pos_ritorno': ((34, 43), 23, 47)}
+FINE cesena
+PROVA cesena VBA-M Pokemon_Romagna_0_69.gba t69_cesena.sav
+  dal titolo: ((34, 17), 46, 47, 3, False) medaglie 10000000
+  fuori percorso: atteso ((34, 17), 46, 48) sono ((34, 17), 46, 47) azione passo S
+   fumaiolo {'arrivo': True, 'testi': ['Il sentiero sale verso il Fumaiolo. Servono la Medaglia di Imola e un Pokémon che conosca Forza.'], 'dopo': ((34, 17), 46, 50), 'ritorno': True, 'pos_ritorno': ((34, 17), 46, 45)}
+PROVA cesena VBA-M Pokemon_Romagna_0_69.gba t69_cesena_rimini.sav
+  dal titolo: ((34, 43), 23, 51, 3, False) medaglie 10000000
+   rimini {'arrivo': True, 'testi': ['ALDO: Prima conquista la Medaglia Collina nella palestra di Cesena. Ti aspetto qui per la nostra sfida.'], 'dopo': ((34, 43), 23, 50), 'ritorno': True, 'pos_ritorno': ((34, 43), 23, 47)}
+FINE cesena
+PROVA guide Pokemon_Romagna_0_69.gba partenza t59_ravenna.ss ((34, 94), 19, 20, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (34, 68) (39, 53)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA guide mGBA Pokemon_Romagna_0_69.gba t69_guide.sav
+  dal titolo: ((34, 68), 39, 53, 3, False) medaglie 11111000
+   guida_ridracoli {'arrivo': True, 'testi': ['Il sentiero per RIDRACOLI è ancora chiuso. Torna con la settima medaglia, quella di IMOLA.'], 'dopo': ((34, 68), 39, 52)}
+PROVA guide Pokemon_Romagna_0_69.gba partenza t59_ravenna.ss ((34, 94), 19, 20, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (34, 85) (2, 31)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA guide mGBA Pokemon_Romagna_0_69.gba t69_guide_faenza.sav
+  dal titolo: ((34, 85), 2, 31, 3, False) medaglie 11111000
+   vigile_faenza {'arrivo': True, 'testi': ['VIGILE: Il ponte del Santerno, verso Imola, è chiuso per i danni del Team EMILIA. Riapre dopo la vittoria sul capopalestra di Lugo.'], 'dopo': ((34, 85), 2, 30)}
+FINE guide
+PROVA guide VBA-M Pokemon_Romagna_0_69.gba t69_guide.sav
+  dal titolo: ((34, 68), 39, 53, 3, False) medaglie 11111000
+   guida_ridracoli {'arrivo': True, 'testi': ['Il sentiero per RIDRACOLI è ancora chiuso. Torna con la settima medaglia, quella di IMOLA.'], 'dopo': ((34, 68), 39, 52)}
+PROVA guide VBA-M Pokemon_Romagna_0_69.gba t69_guide_faenza.sav
+  dal titolo: ((34, 85), 2, 31, 3, False) medaglie 11111000
+   vigile_faenza {'arrivo': True, 'testi': ['VIGILE: Il ponte del Santerno, verso Imola, è chiuso per i danni del Team EMILIA. Riapre dopo la vittoria sul capopalestra di Lugo.'], 'dopo': ((34, 85), 2, 30)}
+FINE guide
+PROVA lido Pokemon_Romagna_0_69.gba partenza q8_end.ss ((1, 4), 8, 9, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (0, 9) (20, 9)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA lido mGBA Pokemon_Romagna_0_69.gba t69_lido.sav
+  dal titolo: ((0, 9), 20, 9, 3, False) medaglie 00000000
+   ravenna {'arrivo': True, 'testi': ['Verso RAVENNA non si passa: serve la quinta medaglia.'], 'dopo': ((0, 9), 20, 9), 'ritorno': True, 'pos_ritorno': ((0, 9), 20, 12)}
+FINE lido
+PROVA lido VBA-M Pokemon_Romagna_0_69.gba t69_lido.sav
+  dal titolo: ((0, 9), 20, 9, 3, False) medaglie 00000000
+   ravenna {'arrivo': True, 'testi': ['Verso RAVENNA non si passa: serve la quinta medaglia.'], 'dopo': ((0, 9), 20, 9), 'ritorno': True, 'pos_ritorno': ((0, 9), 20, 12)}
+FINE lido

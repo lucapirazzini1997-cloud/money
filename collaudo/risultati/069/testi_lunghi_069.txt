@@ -1,0 +1,612 @@
+0.10 ogg 1 0x2ca9e0 La palestra aspetta: qualcuno ha / bloccato i rilievi nelle SALINE. | Entra dal passaggio a ovest. RIVA / vuole capire cosa succede prima | della sfida.
+0.10 ogg 2 0x2c9fac Emilia orientale? Mo va là! Questa è / ROMAGNA!
+0.10 ogg 3 0x2cb7fe Devo salpare, ma manca un pacco di / campioni dei MAGAZZINI DEL SALE. | Puoi chiedere al custode? Ti aspetto / qui, sul porto.
+0.10 ogg 3 0x2cb93d Perfetto, adesso possiamo salpare! / Prendi queste MEGA BALL. | Il sale porta con sé tanti minerali. Il / professore vuole studiarli.
+0.10 ogg 3 0x2cb9be Consegna fatta! Nei porti si lavora / meglio quando ci si dà una mano.
+0.10 ogg 4 0x2d1a6d Osservo le maree del porto. Nelle saline / l'acqua sembra calma, | ma ospita creature sorprendenti.
+0.10 ogg 5 0x2c91cb PORTO CANALE DI CERVIA Barche, / banchine e ristoranti. | I due ponti collegano il borgo alla / TORRE e alla PIAZZA.
+0.10 ogg 6 0x2c9088 TORRE SAN MICHELE Custode del porto e / del sale. | Dalla loggia si vedono il canale e i / MAGAZZINI DEL SALE.
+0.10 ogg 7 0x2c90f1 MAGAZZINI DEL SALE Il canale portava / il sale al mare. | Oggi alcuni strumenti rilevano strane / vibrazioni nelle SALINE.
+0.10 ogg 8 0x2ca04b RIVA usa il tipo ACQUA. Prima aiuta chi / lavora nelle SALINE. | Poi sfida i due apprendisti e apri le / valvole sui percorsi laterali. | Il ponte centrale conduce a RIVA. Un / POKéMON ERBA può aiutarti!
+0.10 ogg 9 0x2d2391 Seguo il canale fino alla Torre. Da lì / passo al museo per capire | come lavoravano nelle saline.
+0.10 ogg 10 0x2c9166 PIAZZA GARIBALDI Il cuore di CERVIA. | Tra i portici del municipio si / incontrano marinai e allenatori.
+0.10 ogg 11 0x2d1d14 Ho prenotato alla locanda sul porto. / Prima, però, voglio vedere | i magazzini del sale dall'altra riva.
+0.10 cart 37,24 0x2cde6f MUSA - MUSEO DEL SALE Nel Magazzino / Torre, accanto | alla TORRE SAN MICHELE. Il sentiero a / ovest porta alle SALINE.
+0.10 cart 36,8 0x2cdee1 MAGAZZINO DARSENA Deposito del sale e / archivio | delle consegne del porto.
+0.10 cart 4,44 0x2cdf2a SENTIERO DELLE SALINE Bacini, / fenicotteri e casello. | Il MUSA conserva i dati dei nostri / rilevamenti.
+0.10 cart 45,2 0x2cda62 PASSAGGIO COSTIERO LIDO DI SAVIO - / CERVIA | Percorso breve. Gli alberelli possono / essere rimossi con TAGLIO.
+0.16 ogg 1 0x2c990d LUCA: Una lotta nella pineta? Vediamo / come te la cavi!
+0.16 ogg 1 0x2c9959 Nell'erba trovi anche WURMPLE e / NINCADA. Porta delle POKé BALL!
+0.16 ogg 2 0x2c9ee3 L'erba alta è piena di vita. Il / sentiero è libero: scegli tu!
+0.16 ogg 3 0x2cb434 MATTEO: Qui gli insetti si mimetizzano. / Riesci a seguire i miei POKéMON?
+0.16 ogg 3 0x2cb47d Non sei caduto nella mia ragnatela!
+0.16 ogg 3 0x2cb4a1 WURMPLE può evolversi in due modi. Io / studio quello che succede dopo!
+0.16 ogg 4 0x2cb4e8 SARA: Sotto la corteccia c'è vita! / NINCADA, facciamo vedere chi sei!
+0.16 ogg 4 0x2cb52e La tua squadra ha buone radici!
+0.16 ogg 4 0x2cb54e NINCADA vive nascosto nel terreno. / Nell'erba trovi anche SHROOMISH.
+0.16 ogg 5 0x2cb592 Sto registrando i richiami dei POKéMON / e le vibrazioni del suolo. | Da CERVIA arrivano strani segnali. / Qualcuno usa sonde nelle SALINE.
+0.16 ogg 5 0x2cb618 Hai fermato il TEAM EMILIA? Le mie / misure hanno ancora picchi. | La causa sembra arrivare da ovest, / verso le montagne dell'APPENNINO.
+0.16 ogg 6 0x2cb302 Una busta: SEMI PER NORA. La raccogli / con cura. | Nora abita a LIDO DI SAVIO, nel / giardino a ovest del laboratorio.
+0.16 ogg 8 0x2cb69c Una sosta prima di CERVIA? Ho acqua e / un po' d'ombra per tutti. | La tua squadra può riposarsi qui.
+0.16 cart 22,2 0x2cbb0c PINETA DI SAVIO Il sentiero serpeggia / fino a CERVIA. | Attraversa l'erba alta con un POKéMON. / Le radure nascondono piccole | sorprese.
+0.16 cart 29,9 0x17327e5 SANTUARIO DELLA PINETA / Non disturbare il custode del bosco.
+0.9 ogg 1 0x2d2407 ZIA ADA: Prima di tornare in pineta, / lascia riposare i tuoi Pokémon.
+0.9 ogg 1 0x2d244c La tua squadra è pronta! Salutami Aldo / quando lo incontri.
+0.9 ogg 2 0x2d193a {6}: Ti aspetto alla stazione di / ricerca. | Il professore prepara i nostri / compagni!
+0.9 ogg 3 0x2c9dae Oggi il mare è tranquillo. I WINGULL, / invece, sono agitati.
+0.9 ogg 4 0x2cb279 Sono NORA, curo gli alberi del lido. Ho / perso una busta di semi in PINETA. | Era vicino alla radura occidentale. Se / la trovi, riportamela!
+0.9 ogg 4 0x2cb374 I miei semi! Grazie, {1}. / Pianteremo nuovi pini lungo il viale. | Queste POZIONI sono per te. Anche i / POKéMON hanno bisogno di cure!
+0.9 ogg 4 0x2cb3f6 Ogni bosco comincia da un seme. Torna a / trovarmi dopo CERVIA!
+0.9 ogg 5 0x2c901c LUNGOMARE DI LIDO DI SAVIO Spiaggia e / Adriatico a est. | A sud il sentiero nella PINETA conduce / verso CERVIA.
+0.9 ogg 6 0x2cba04 Quei tecnici comprano terreni e dicono / di valorizzare la costa. | Ma chi decide cosa ci serve davvero? / Vorrei vedere i loro progetti.
+0.9 ogg 6 0x2cba88 Quindi era il TEAM EMILIA! Una livella / non basta a fare progresso. | Ora dobbiamo capire dove portano tutti / quei cavi e quelle sonde.
+0.9 ogg 7 0x2d19ff Fra i pini sento spesso fruscii. Non / sono sempre foglie: qualche | Pokémon raro si nasconde nell'erba.
+0.9 ogg 8 0x2c9df4 LIDO DI SAVIO Tra il mare e la pineta.
+0.9 ogg 9 0x2c8f3c HOTEL VISTAMARE Balconi affacciati / sull'Adriatico. | La piscina sembra il posto perfetto / per allenare un piccolo MUDKIP!
+0.9 ogg 10 0x2c8fb3 BAR PANAMA Una sosta sul lungomare. | I clienti discutono di mare, PINETA e / della prossima sfida a CERVIA.
+0.9 ogg 11 0x2d1997 Aldo vive nella casa azzurra. Passiamo / le serate a confrontare | i Pokémon incontrati in pineta.
+0.9 ogg 16 0x2d0d6a VENDITORE: Le Poké Ball sono in / vendita | fin da oggi! Porto anche Pozioni e / Repellenti per la pineta.
+0.9 ogg 17 0x1731ae6 Oh, sei il CAMPIONE della ROMAGNA! | Oggi l'ISOLA MIRAGGIO si vede / benissimo. Ti ci porto in barca?
+0.9 cart 11,28 0x2c9e24 STAZIONE DI RICERCA ADRIATICA PROF. / PINO - Ambiente e POKéMON.
+0.9 cart 22,7 0x2da61a VERSO RAVENNA - FOCE DEL SAVIO | Oltre la foce serve Surf. Attraversala / dopo l'evento degli istruttori a Forlì.
+0.9 cart 16,2 0xf10238 A nord si trova la FOCE DEL SAVIO. / Da qui il fiume arriva al mare.
+0.9 mappa 2 0x1da6610 {6} ti aspetta alla stazione / di ricerca. Prima di partire | sconfiggilo: il professore / cura la squadra per la sfida.
+0.9 mappa 2 0x2ce4ed MAMMA: Prima di partire, tieni! Le / SCARPE DA CORSA: premi B. | Nello ZAINO trovi MAPPA ROMAGNA e BOX / PORTATILE, strumenti chiave. | Il BOX collega la squadra al PC: puoi / cambiare POKEMON anche in viaggio! | Hai anche l'AMULE
+1.0 ogg 1 0x2c9491 Prima di partire, riposati un po'. I tuoi / POKéMON sono di nuovo in forma!
+1.4 ogg 1 0x2c958a Benvenuto alla stazione di ricerca di / LIDO DI SAVIO! Sono il PROF. PINO. | Studio i POKéMON della ROMAGNA: dal / mare alle montagne. Scegli una delle | tre POKé BALL. Il tuo viaggio comincia / qui!
+1.4 ogg 1 0x2c9648 Segui la pineta fino a CERVIA. Nelle / saline succede qualcosa. Poi andrai | verso CESENA e la VIA EMILIA: il / cammino continua a ovest.
+1.4 ogg 1 0x2c96cc Il TEAM EMILIA misura le saline? Allora / le voci erano vere. Le falde scendono | dall'APPENNINO. Forse cercano / qualcosa laggiù. Per ora osserva, | {1}. Questa storia è appena / iniziata.
+1.4 ogg 2 0x2c9e6c Tre POKé BALL, tre compagni. ERBA a / sinistra, FUOCO al centro. | ACQUA a destra. Parla anche con il / professore!
+1.4 ogg 3 0x2c9781 TREECKO ama i boschi e le pinete. Lo / scegli come primo compagno?
+1.4 ogg 3 0x2c9846 Ecco il tuo primo POKéMON! Ti do il / POKéDEX, 5 POKé BALL e 3 POZIONI per il | viaggio. Puoi correre tenendo premuto / B. Ci vediamo dopo le saline!
+1.4 ogg 3 0x2c98d6 Hai già scelto il tuo compagno. / Prenditi cura di lui!
+1.4 ogg 3 0x2cbd99 {6}: Hai scelto il tuo compagno! / Facciamo subito una prova? | Il professore ci cura prima e dopo. / Vediamo come lotti!
+1.4 ogg 3 0x2cbe0e {6}: Un giorno sfideremo la LEGA!
+1.4 ogg 3 0x2cbe4c {6}: Adesso sei pronto per la PINETA. / Ci rivediamo lungo la VIA EMILIA!
+1.4 ogg 3 0x2cbe95 {6}: Scegli prima uno starter. Io ti / aspetto qui!
+1.4 ogg 4 0x2c97c2 TORCHIC scalda anche le giornate più / fredde. Vuoi sceglierlo?
+1.4 ogg 5 0x2c9801 MUDKIP si trova a casa nei canali e / vicino al mare. Vuoi sceglierlo?
+1.4 ogg 7 0x155ca78 Il tuo amico d'infanzia si chiama {6}.
+1.4 ogg 7 0x155cb0c D'ora in poi si chiamerà {6}.
+2.1 ogg 1 0x2c9aad Sono RIVA, CAPOPALESTRA di CERVIA. / L'acqua insegna ad adattarsi. | Preparati: la mia squadra conosce ogni / canale delle saline!
+2.1 ogg 1 0x2c9b2a Segui la corrente, ma scegli sempre la / tua direzione!
+2.1 ogg 1 0x2c9bde Osserva i POKéMON, {1}. Prima di / noi sentono i cambiamenti.
+2.1 ogg 1 0x2ca7f7 RIVA: Prima della medaglia dobbiamo / proteggere le saline. Vai | a ovest di CERVIA e aiuta la / ricercatrice.
+2.1 ogg 1 0x2ca74f Il ponte è sotto pressione. Apri / entrambe le valvole laterali dopo | aver sfidato gli apprendisti.
+2.1 ogg 2 0x2cdacd Due prove, due valvole, un ponte! NICO / e LIA restano alle postazioni. | Sconfiggili e gira le valvole sui lati / delle due vasche. | Quando il ponte si apre, raggiungi RIVA. / Prima aiuta il museo!
+2.1 ogg 3 0x2ca4f0 Sono NICO, apprendista salinaro. Per / controllare la prima valvola | devi superare la mia prova!
+2.1 ogg 3 0x2ca54e Hai tenuto la rotta! Ora puoi girare la / valvola qui a sinistra.
+2.1 ogg 3 0x2cdbfe Resto alla mia postazione. Il ponte si / apre con due valvole!
+2.1 ogg 4 0x2ca58e Sono LIA. La seconda valvola regola il / canale verso RIVA. | Prima, una sfida!
+2.1 ogg 4 0x2ca5da Il flusso è dalla tua parte. La valvola / è in fondo a questa | passerella.
+2.1 cart 4,19 0x2ca6fa L'apprendista non ha ancora / autorizzato questa valvola. Prima | affronta la sua prova.
+2.1 cart 4,19 0x2ca672 Hai aperto la VALVOLA OVEST! Una vasca / smette di premere sul ponte.
+2.1 cart 4,19 0x2cdc5a Le due pompe sono in equilibrio! Il / ponte verso RIVA è ora aperto.
+2.1 cart 20,19 0x2ca6b6 Hai aperto la VALVOLA EST! Ora il / flusso verso il ponte è stabile.
+2.2 ogg 1 0x2c9516 Ora stanno tutti bene. Buon viaggio in / ROMAGNA!
+2.4 ogg 1 0x2d233e MARKET DI CERVIA: Poké Ball, Pozioni e / tutto il necessario per le saline!
+2.4 ogg 2 0x2d2015 Finalmente hanno messo le Poké Ball / sullo scaffale! Ne porto sempre | qualcuna quando visito le saline.
+2.4 ogg 3 0x2d2084 Ho già un Repellente per il viaggio. Se / cerchi un raro Lapras, invece, | lascia che l'erba ti sorprenda.
+2.4 ogg 4 0x2cc5d7 Questo è il negozio del porto. / Rifornisce chi esplora la PINETA | e gli argini delle SALINE. | Le POKé BALL sono utili nel bosco. / Porta anche qualche ANTIDOTO!
+22.0 ogg 1 0x17329ed Sono la SIGNORA della PENSIONE. / Possiamo allevare i tuoi POKéMON. | Vuoi che ne alleviamo uno?
+22.0 ogg 1 0x1732a4a Quale POKéMON dobbiamo allevare?
+22.0 ogg 1 0x1732a6b Bene, ci prenderemo cura del tuo / {2} per un po'. | Torna a riprenderlo più tardi.
+22.0 ogg 1 0x1732aba Possiamo allevare due dei tuoi / POKéMON. Ne vuoi lasciare un altro?
+22.0 ogg 1 0x1732b2f Se mi lasci quel POKéMON, con chi / lotterai? Torna un'altra volta.
+22.0 ogg 1 0x1732b71 Eh? Su, su. | Se mi lasci quel POKéMON, te ne / resterà uno solo. | Faresti meglio a catturarne / qualcun altro, sai?
+22.0 ogg 1 0x1732bfd Ah, sei tu! Che piacere vederti. / Il tuo POKéMON sta benissimo!
+22.0 ogg 1 0x1732c3c Vuoi riprendere il tuo POKéMON?
+26.1 ogg 3 0x290bff Questa roccia si può rompere. Vuoi / usare SPACCAROCCIA?
+26.1 ogg 3 0x290c36 Serve SPACCAROCCIA e la terza / medaglia per rompere la roccia.
+34.0 ogg 1 0x2d799e Lo Zaino è pieno. Libera un posto: la / ricompensa resta qui per te.
+34.0 ogg 1 0x2d8200 RECEPTION: Benvenuto al Vistamare! Le / camere sono al piano superiore. | Per il tuo viaggio ti offro due / Superpozioni. Qui puoi anche riposare.
+34.0 ogg 1 0x2d828d RECEPTION: Le camere 101 e 102 / guardano la costa. La 103 e la 104 | ospitano allenatori? in fondo c'è una / porta curiosa.
+34.0 ogg 2 0x2d830d FACCHINO: Consegno le valigie in / camera. Il corridoio resta libero per | gli ospiti: le stanze hanno tutte una / porta propria.
+34.0 ogg 3 0x2cc50a Dal balcone del VISTAMARE vedo / l'Adriatico: nessun albero oltre il | mare! | La reception aiuta gli escursionisti e / collabora con Nora.
+34.0 ogg 4 0x2cd0f5 DARIO: Prima una sfida! Voglio vedere / come tratti la squadra.
+34.0 ogg 4 0x2cc9e0 Il piano aveva un piccolo difetto...
+34.0 ogg 4 0x2cd133 Mi hai convinto! Questo EEVEE vuole / esplorare la Romagna con te.
+34.0 ogg 4 0x2cd174 EEVEE può evolversi in tanti modi. La / scelta spetta a voi due!
+34.0 ogg 4 0x2cd1b4 Hai già sei POKEMON. Fai spazio e / torna: EEVEE ti aspetterà.
+34.0 ogg 4 0x2cd33e Prima passa dal laboratorio: il / professore ti aspetta!
+34.1 ogg 1 0x2d09c5 BARISTA: Tre vittorie, tre MT! Il / Panama è casa tua.
+34.1 ogg 1 0x2d0917 BARISTA: Sfida Lele, Sara e Toni. Se li / batti tutti, ti regalo tre MT: | Fulmine, Geloraggio e Lanciafiamme! | Le MT non si consumano: puoi insegnarle / a più Pokémon compatibili.
+34.1 ogg 2 0x2d02d2 LELE: Caffè e una lotta? Accendiamo / questa giornata!
+34.1 ogg 2 0x2d0326 LELE: Per le altre sfide cerca Sara e / Toni.
+34.1 ogg 2 0x2d183f LELE: Prima passa dal laboratorio. La / scintilla migliore è un nuovo compagno!
+34.1 ogg 3 0x2d0375 SARA: Dopo il mare mi alleno qui. Vediamo / se sai seguire la corrente!
+34.1 ogg 3 0x2d03d9 SARA: Toni porta sempre Pokémon di / Fuoco.
+34.1 ogg 3 0x2d1897 SARA: Il professore ti aspetta. Torna / con il tuo primo Pokémon e ti sfiderò!
+34.1 ogg 4 0x2d0426 TONI: Panino caldo e una lotta! I miei / Pokémon sono focosi.
+34.1 ogg 4 0x2d0462 Hai spento il mio entusiasmo... per / poco!
+34.1 ogg 4 0x2d048c TONI: Il barista premia chi batte noi / tre.
+34.1 ogg 4 0x2d18ee TONI: Ci vuole una squadra! Scegli un / Pokémon al laboratorio.
+34.100 ogg 1 0x2d7942 Completa prima i rilievi: il referente / della missione ti indica il prossimo | passo.
+34.100 ogg 1 0x2da0ab MAESTRO MOSAICISTA: Grazie! Le / tessere sono al sicuro. Questa MT Palla | Ombra è per la tua squadra.
+34.100 ogg 1 0x2da10e MAESTRO MOSAICISTA: Le tessere / raccontano molto più di un disegno. | Porta i rilievi di Ravenna a chi studia / l'Appennino.
+34.100 ogg 2 0x2dabd9 Cerco una tessera azzurra per finire il / mare. Nel mio mosaico il sole nasce | sempre a est.
+34.101 ogg 1 0x11e58f8 INFERMIERA: Benvenuto al Centro / Pokémon di Ravenna! Curo subito | la tua squadra.
+34.101 ogg 2 0x2dae0f Sono arrivata dalla basilica di Classe. / Qui riposiamo prima di tornare verso | Lido di Savio.
+34.101 ogg 3 0x2dae74 Mi hanno insegnato a leggere gli indizi / nelle pietre. Ora controllo anche le | mosse della squadra.
+34.102 ogg 1 0x2dafb4 RAVENNA MARKET: Ti aiuto a preparare il / prossimo viaggio. Di cosa hai bisogno?
+34.102 ogg 2 0x2daedf Alla foce ho visto un Pokémon raro. / Porto più Ball e uno strumento per | curare la paralisi.
+34.103 ogg 1 0x2db053 Sono un torniante. Con due mani e un / po' d'acqua trasformo una zolla in una | ciotola. Il Pokémon del museo guarda / sempre il tornio.
+34.104 ogg 1 0x2db0df Raccolgo le storie dei rioni. Da questa / finestra vedo i colori delle ceramiche | prima di portarli in piazza.
+34.105 ogg 1 0x2db154 Ho messo ad asciugare gli smalti. Il / fiume è ancora alto: per Forlì torna | dalla riva usando Surf.
+34.106 ogg 1 0x2db1bf Questa stanza conserva i miei bozzetti / delle basiliche. Mi piace osservare la | luce sui mattoni prima di disegnare.
+34.107 ogg 1 0x2db23b Nel quaderno segno i simboli che trovo / nelle pietre. Camilla controlla i | documenti negli archivi della piazza.
+34.108 ogg 1 0x2db2b3 Lavoro alla darsena. La sera sistemo le / corde e riposo sul divano: domani la | marea ci aspetta presto.
+34.109 ogg 1 0x2d9877 RENATO: Alla darsena si impara a / seguire il vento. Si lotta?
+34.109 ogg 1 0x2d98b4 La tua squadra ha trovato il ritmo / giusto!
+34.109 ogg 1 0x2d98df RENATO: Ravenna conserva storie anche / nelle pietre bianche.
+34.11 ogg 1 0x2ccce1 Grazie! Hai liberato le saline. Il sale / contiene minerali insoliti. | Ho preparato un RAPPORTO SALE. / Portalo al custode della TORRE. | Ti affido anche ACQUA MAGICA: rafforza / le mosse di tipo ACQUA!
+34.11 ogg 1 0x2ccda3 Dalla loggia della TORRE possiamo / confrontare questi dati con quelli | delle antenne costiere. La palestra / ora ti aspetta!
+34.11 ogg 1 0x2ccc66 Benvenuto al MUSA del porto. Il TEAM / EMILIA occupa il casello | delle SALINE, oltre il sentiero. Fermali / e riportaci i dati!
+34.11 ogg 2 0x2cd404 I bacini fanno evaporare l'acqua. La / raccolta del sale richiede tempo!
+34.11 ogg 3 0x2ca117 Il sale conserva molte cose. Queste / acque conservano un segreto. | Mio nonno parlava di una forza / nascosta sotto l'APPENNINO.
+34.11 cart 4,1 0x2cd44b ACQUA, SOLE E SALE Una rete di canali / alimenta i bacini. | La fauna delle saline dipende / dall'equilibrio dell'acqua.
+34.110 ogg 2 0xf14068 Il CAVALLINO RAMPANTE e / il simbolo di FRANCESCO BARACCA.
+34.110 ogg 3 0xf140b0 La PALESTRA è di tipo VOLANTE. / ALIDA ti aspetta al suo interno.
+34.110 ogg 4 0xf140fc AEROPORTO DI VILLA SAN MARTINO. / Qui si impara a volare!
+34.110 ogg 6 0x1730f8e Sopra il monumento a BARACCA il vento / ruggisce. RAYQUAZA scende dal cielo!
+34.110 ogg 6 0x1730fd9 RAYQUAZA torna a volteggiare sopra / LUGO. Puoi riprovare.
+34.110 cart 57,25 0xf14200 MUSEO FRANCESCO BARACCA. / Un pioniere del volo e il suo SPAD VII.
+34.110 cart 56,42 0xf14290 PALESTRA DI LUGO. / CAPOPALESTRA ALIDA - Tipo VOLANTE.
+34.110 cart 62,42 0xf31fbc PALESTRA VOLANTE. / Sfida ALIDA per la MEDAGLIA ALA.
+34.112 ogg 1 0xf31000 ALIDA: Il cielo è tuo! | Ottieni la MEDAGLIA ALA! / Ora puoi usare VOLO fuori lotta.
+34.112 ogg 2 0xf16ac0 Benvenuto nella PALESTRA / VOLANTE di LUGO! | I tipi ELETTRO, GHIACCIO e ROCCIA / possono aiutarti.
+34.113 cart 10,24 0xf16cb0 AERO CLUB FRANCESCO BARACCA. / Scuola di volo e aeromodellismo.
+34.116 ogg 1 0x11e5788 INFERMIERA: Benvenuto al Centro / Pokémon di Lugo! Mi occupo della | tua squadra.
+34.116 ogg 2 0x2d73a7 Il mio Machoke è esausto dopo / l'allenamento. Una cura prima della | prossima sfida gli restituisce energia.
+34.116 ogg 3 0x11e582c Preparo la squadra per Alida. / Un Pokémon Elettro o Ghiaccio | può aiutarmi contro il tipo Volante.
+34.117 ogg 2 0x2d748f Ho preso una Rete Ball per tornare alle / saline. Cerco ancora quel Lapras che | tutti dicono di aver visto.
+34.12 ogg 1 0x2cd717 Il curatore mi ha avvisata: hai salvato / i dati delle saline! | Sono la guardiaparco della costa. / Questa MN01 insegna TAGLIO. | Dopo la Medaglia Salina potrai aprire il / passaggio costiero!
+34.12 ogg 1 0x2cd7cf Insegna TAGLIO a un POKEMON dalla / tasca MT e MN della BORSA. | Serve la Medaglia Salina per usarlo / sugli alberelli all'aperto. | Anche ZIGZAGOON può impararlo. Il / sentiero breve collega le città.
+34.12 ogg 1 0x2cd891 Prima aiutaci al museo delle saline. Il / custode verificherà il rapporto.
+34.12 ogg 2 0x1731f8f Queste vibrazioni arrivano / dall'Appennino, non dal mare. | Il TEAM EMILIA cerca qualcosa / sotto le montagne... | Dalla TORRE ho raccolto tre campioni. / Sono tuoi!
+34.12 ogg 2 0x1732091 Avviserò la stazione di ricerca. / La prossima pista porta a Cesena.
+34.12 cart 7,4 0x2cde00 Punto il telescopio verso nord. Si vede / il VISTAMARE di Lido! | Premi A o B per tornare alla loggia della / TORRE.
+34.14 ogg 1 0x290ada Questo alberello può essere rimosso / con TAGLIO! | Vuoi usare TAGLIO?
+34.14 ogg 1 0x290b29 Serve TAGLIO e la Medaglia Salina per / rimuovere questo alberello.
+34.15 ogg 1 0x2d8392 GOVERNANTE: Ho rifatto letti e / asciugamani. La stanza senza numero è | prenotata da un venditore molto / riservato.
+34.16 ogg 1 0x2ce003 I tecnici del TEAM EMILIA hanno / occupato il casello. | I campioni vanno al curatore del MUSA, / accanto alla TORRE!
+34.16 ogg 2 0x2ccaf8 Prima risolvi la questione con il mio / collega sul sentiero.
+34.16 ogg 2 0x2ccb6c BRUNO: Le saline sono un nodo della / nostra rete energetica. | Le montagne forniranno il resto. Tu non / hai visto niente!
+34.16 ogg 3 0x2d1ad6 Aiuto a raccogliere i campioni d'acqua. / Se incontri un Lapras fra i canneti, | annota il punto: è molto raro!
+34.17 ogg 1 0x2ce60b Benvenuto a CESENA! La ROCCA domina la / piazza da colle Garampo. | La PALESTRA coltiva POKEMON Erba. / VIOLA sta studiando il fiume SAVIO.
+34.17 ogg 2 0x2ce69d La FONTANA MASINI è il nostro punto di / ritrovo. Esprimi un desiderio!
+34.17 ogg 3 0x2ce6ef Nei frutteti l'acqua arriva dal SAVIO. / Ultimamente le piante si seccano. | La biblioteca conserva i vecchi / registri dei canali di irrigazione.
+34.17 ogg 4 0x2ce788 A est trovi la strada per Cesenatico. / Dopo la seconda medaglia, prosegui | lungo la riviera verso Rimini.
+34.17 ogg 5 0x2ce7fc Ogni libro racconta una storia. Parla / alla studiosa Malatestiana.
+34.17 ogg 6 0x2d0de3 Disegno la fontana davanti al / municipio. | La Rocca domina la stessa piazza: sono / i miei due soggetti preferiti!
+34.17 ogg 7 0x2d0e5b Dal Bonci alla Malatestiana passo / sempre davanti al Duomo. A ovest | mi aspetta la piazza del municipio.
+34.17 ogg 8 0x2d0ecb Le campane accompagnano il mercato. / Entra se vuoi riposare un momento | prima di riprendere il viaggio.
+34.17 cart 15,12 0x2ce84a ROCCA MALATESTIANA Corte, / camminamenti e archivio antico.
+34.17 cart 10,44 0x2ce890 IPPODROMO DEL SAVIO Una deviazione / fra i prati.
+34.17 cart 83,37 0x2ce8cc PALESTRA DI CESENA VIOLA, custode dei / giardini. Tipo Erba.
+34.19 ogg 1 0x2cfe41 Allenarsi non vuol dire scommettere. / Questa RAPIDARTIGLI aiuta chi | vuole migliorare il proprio passo.
+34.19 ogg 2 0x2ce963 Alleniamo PONYTA sulla pista. Non / scommettiamo: impariamo a correre!
+34.19 ogg 3 0x2cfccf Ponyta vuole tornare in pista! Alla / prossima corsa, allenatore.
+34.19 ogg 4 0x2d0f3a Questa è una pista di allenamento. Nel / prato centrale corrono Ponyta, | Growlithe, Vulpix e Doduo!
+34.2 ogg 1 0x2d1b4b OSTE: Ho apparecchiato per i salinari. A / loro devo le storie che racconto | quando il porto si svuota.
+34.2 ogg 2 0x2d1d83 Il mio amico fa il salinaro. Gioca con la / sua squadra dopo cena | e sa riconoscere ogni vento.
+34.2 ogg 3 0x2ce0f1 GIANNI: Sono appena tornato dal porto. / Prima di ordinare, | una sfida con la mia squadra?
+34.2 ogg 3 0x2ce20f GIANNI: Bella sfida! Tieni tre BACCHE / ARANCIO: | curano i POKEMON in difficoltà.
+34.2 ogg 3 0x2ce33a Buon viaggio! Tra porto e piazza / troverai altri Allenatori | e strumenti utili.
+34.20 ogg 1 0x2cfb7b La campagna e piena di sorprese!
+34.20 ogg 1 0x2cfbb1 Mi alleno lungo il Savio. Domani proverò / una squadra diversa.
+34.20 ogg 4 0x2ce9b4 Gli alberelli cedono a TAGLIO. La / MEDAGLIA SALINA permette di usarlo. | Ai lati trovi prati e allenatori: la via / centrale ti porta a CESENA.
+34.20 ogg 5 0x1da5128 {6}: Ti raggiungo prima dei / campi! Una medaglia non basta | a farmi cambiare idea: sono / ancora io quello da battere.
+34.21 ogg 1 0x2cfc09 Il mare mi chiama, ma prima una sfida!
+34.21 ogg 1 0x2cfc4c La brezza cambia i miei piani. Tu hai / tenuto salda la rotta!
+34.21 ogg 2 0x2cea4b Acqua, terra ed elettricita: i prati / verso la costa ospitano tipi diversi.
+34.21 ogg 3 0x1732e37 Guarda che me lo tengo davvero! / Lo vuoi, vero?
+34.21 ogg 3 0x1732e66 Non hai spazio per tenerlo… / Torna quando avrai fatto posto.
+34.21 ogg 3 0x1732f18 Ah, sei tu! Che piacere vederti. / Il tuo {2} sta benone.
+34.21 cart 7,11 0x173253d PENSIONE POKéMON / Alleviamo i tuoi Pokémon con cura.
+34.21 cart 2,11 0x173257d OVEST: CESENA / Rocca Malatestiana e Piazza del Popolo.
+34.21 cart 37,11 0x17325bd EST: CESENATICO / Porto canale e museo della marineria.
+34.22 ogg 1 0x2ceaa2 La pescheria è sulla riva nord. Le / casse sparite non erano di pesce.
+34.22 ogg 2 0x2ceaf3 LEONARDO studio questo porto. Al / museo conserviamo i suoi rilievi. | Le barche storiche del canale hanno / vele colorate tutte diverse!
+34.22 ogg 3 0x2ceb83 Il GRATTACIELO guarda l'Adriatico. / Strani tecnici occupano il piano alto.
+34.22 ogg 4 0x2cfecb Prova a pescare dal molo! Ti presto il / mio AMO VECCHIO.
+34.22 ogg 5 0x2d3bda A sud c'è Rimini. Per percorrere la / riviera serve la seconda medaglia. | Il Team Emilia è arrivato anche laggiù.
+34.22 cart 3,31 0x17325fd CESENATICO / Il porto canale disegnato da Leonardo.
+34.22 cart 3,33 0x1732639 OVEST: COSTA ADRIATICA E CESENA | La PENSIONE POKéMON è lungo la strada.
+34.22 cart 41,41 0x1732689 RIVIERA ROMAGNOLA / Spiaggia fino a Rimini e Cesenatico.
+34.22 cart 52,33 0x1730a83 Le onde si sono calmate. Dalla grotta / arriva una luce violacea... | Vuoi entrare?
+34.22 cart 52,33 0x1730a0f L'ingresso della grotta è sbarrato / da massi e onde altissime. | I pescatori dicono che solo un / CAMPIONE può entrarci.
+34.23 ogg 1 0x2cebd9 SINDACA: Benvenuto in piazza! Aiuta la / biblioteca a capire i problemi | dei nostri canali. CESENA te ne sarà / grata.
+34.23 ogg 2 0x2d0fa4 Archivi del Comune: da questa finestra / vedo la Fontana Masini. La biblioteca | ci aiuta a conservare i documenti.
+34.24 ogg 1 0x2cef20 STUDIOSA: Un registro del SAVIO e / sparito da una spedizione a | CESENATICO. | Il TEAM EMILIA usa i canali per / trasportare sensori e campioni. | Parla al mercato ittico, poi confronta i / rilievi al MUSEO DELLA MARINERIA. | VIO
+34.24 ogg 1 0x2cf035 Questo registro prova il loro piano! / Misurano l'energia dell'Appennino. | Il sensore del grattacielo è spento. / Viola può tornare ad allenarsi. | Prendi questo Seme Miracolo. È il dono / dei nostri coltivatori.
+34.24 ogg 1 0x2cf101 Il registro porta ora a RIMINI. Prima di / Forlì indaga anche lì. | L'energia non nasce dal mare: arriva da / sotto le montagne.
+34.24 ogg 2 0x2d101d Sto studiando gli alberi del Savio. / Alcuni sono cresciuti prima | che nascessero i miei nonni!
+34.25 ogg 1 0x2d04db LISA: Sul palco conta il ritmo. Riesci a / seguire i miei passi?
+34.25 ogg 1 0x2d051a Ottimo tempo, nessun passo falso!
+34.25 ogg 1 0x2d053c LISA: Sei pronto per il resto del corpo / di ballo.
+34.25 ogg 2 0x2d0592 ENZO: Ogni movimento ha un peso. / Concentrazione e piedi leggeri!
+34.25 ogg 2 0x2d05d3 Mi hai fatto perdere l'equilibrio!
+34.25 ogg 2 0x2d05f6 ENZO: Nello sport conta allenare anche / la testa.
+34.25 ogg 3 0x2d064b NINA: Alterno passi rapidi e colpi / precisi. | La mia coreografia è una sfida!
+34.25 ogg 4 0x2d070b OMAR: Giro, cambio direzione e attacco! / Il mio compagno ama le piroette.
+34.25 ogg 4 0x2d0754 Hai letto tutte le mie piroette!
+34.25 ogg 4 0x2d0775 OMAR: Nei Box c'è posto per nuovi / compagni.
+34.25 ogg 5 0x2d07c5 GAIA: Ultima esibizione della / compagnia. | Non lasciarti distrarre dal finale!
+34.25 ogg 5 0x2d0812 Applausi: hai chiuso la coreografia!
+34.25 ogg 5 0x2d0837 GAIA: Dopo le cinque sfide ti aspetta / un dono.
+34.25 ogg 6 0x2d0274 Squadra e Box sono pieni. Libera un / posto per il tuo dono.
+34.25 ogg 6 0x2d0b31 Hitmonlee e Hitmonchan sono tuoi! Con / loro ricevi la MN Volo. | La Medaglia Collina di Cesena permette / di usarla fuori dalla lotta. | Prima di Forlì visita Rimini. Lì otterrai / Spaccaroccia.
+34.25 ogg 6 0x2d0aac SPETTATORE: Sfida tutti e cinque i / ballerini sul palco del Bonci. | Ho due compagni perfetti per chi / impara a muoversi con precisione!
+34.25 ogg 7 0x2cfd33 Al BONCI le luci fanno fiorire il / palcoscenico. Prendi GIORNODISOLE!
+34.25 ogg 8 0x2d11be Lascia libere le scale del palco. I / cinque artisti ti aspettano | per una prova a ritmo di lotta.
+34.26 ogg 1 0x2d16ed INFERMIERA: Benvenuto al Centro / Pokémon di CESENA. | Mi occupo subito della tua squadra!
+34.26 ogg 1 0x2d1744 La squadra è pronta per i giardini e le / colline di Cesena!
+34.26 ogg 2 0x2d1454 Ho appena curato la squadra. Per la / palestra Erba proverò | a far crescere il mio Vulpix.
+34.27 ogg 1 0x2ceee0 Benvenuto! Ecco gli strumenti utili per / la campagna e la costa.
+34.27 ogg 2 0x2d152f Ho comprato Poké Ball e Repellenti. Le / MT rimangono nello Zaino | anche dopo aver insegnato la mossa.
+34.28 ogg 1 0x2cf17c TEAM EMILIA: Queste casse sono / nostre! | Modernizziamo l'Emilia orientale. | Come? Si chiama ROMAGNA? Lo vedremo / dopo la lotta!
+34.28 ogg 1 0x2cf20f Il registro e al GRATTACIELO. Il museo / conserva un rilievo che | ti aiutera a capire il collegamento.
+34.28 ogg 1 0x2cf273 Un tecnico ha preso le nostre casse. / Cerchi qualcuno? La biblioteca di | CESENA può spiegarti cosa succede.
+34.28 ogg 2 0x2d1083 La pescheria apre molto presto. Quelle / casse dei tecnici, però, | non avevano affatto odore di pesce.
+34.29 ogg 1 0x2cf2dd CURATRICE: Questo rilievo di LEONARDO / mostra il percorso del canale. | Il sensore del porto invia i dati al / GRATTACIELO. Porta questa copia | e chiedi spiegazioni ai tecnici!
+34.29 ogg 1 0x2cf388 Le barche raccontano la vita dei / marinai. Al MERCATO ITTICO hanno | un problema con dei finti tecnici.
+34.29 ogg 1 0xf1050c CURATRICE: Hai battuto il Team / Emilia. Hai meritato la mia fiducia! | Queste sono le CHIAVI DEL / GRATTACIELO. Adesso puoi entrare.
+34.29 ogg 2 0x2d10f0 Guarda i modelli delle barche. Ogni vela / racconta una famiglia | e ogni scafo una storia diversa.
+34.3 ogg 1 0x2d1bb9 CUOCO: Ogni mattina scelgo il pescato. / Il profumo del brodo si sente | fin dall'altra sponda del canale.
+34.3 ogg 2 0x2d1de9 Il mio Wingull mi segue al ristorante. / Non gli lascio rubare nulla: dopo | gli preparo una porzione tutta sua.
+34.3 ogg 3 0x2ce149 NADIA: I POKEMON delle saline si / allenano nei canali. | Ti mostro cosa sanno fare!
+34.3 ogg 3 0x2ce25f NADIA: Queste cure servono se incontri / un tipo ELETTRO. | Tieni due ANTIPARALISI!
+34.30 ogg 1 0x2d179a INFERMIERA: Benvenuto al Centro / Pokémon di CESENATICO. | Mi occupo subito della tua squadra!
+34.30 ogg 1 0x2d17f5 Ora puoi tornare a esplorare il porto e / la costa di Cesenatico!
+34.30 ogg 2 0x2d14b5 I marinai vengono qui dopo il turno. Il / PC è nell'angolo, ma il Box portatile | funziona anche durante il viaggio.
+34.32 ogg 1 0x1731932 Benvenuto nella ROCCA MALATESTIANA! | Il grande portone in fondo alla sala / dà sul PARCO DELLA ROCCA. | Gli antichi raccontavano di una forza / dormiente in fondo al labirinto...
+34.33 ogg 1 0x2cfd9c Un manoscritto parla di un custode / dormiente nelle montagne. | Le vibrazioni tornano nelle cronache. / Prendi questa CARAMELLA RARA.
+34.33 ogg 2 0x17315f4 Un TORKOAL dal guscio dorato sbuffa / fumo in fondo al labirinto!
+34.33 ogg 2 0x1731634 Il TORKOAL dorato si accuccia di nuovo / nel suo angolo. Puoi riprovare.
+34.33 cart 17,30 0x1732981 PARCO DELLA ROCCA / Il grande labirinto di siepi. | In fondo, dicono, vive un Pokémon / che sbuffa fumo dorato...
+34.34 ogg 1 0x2cf3ed TEAM EMILIA: Hai trovato la linea! Non / arriverai al responsabile.
+34.34 ogg 1 0x2cf42f Il capo e al piano superiore. Usa la / scala accanto ai pannelli.
+34.34 ogg 1 0x2cf46f Area tecnica riservata. Senza prove / non ti dico nulla. | Parla al mercato e alla curatrice del / MUSEO DELLA MARINERIA.
+34.35 ogg 1 0x2cf4e3 RESPONSABILE DARIO: Questo nodo / misura l'energia per i nostri impianti. | Da qui la rete arrivera fino a IMOLA. / Ora levati di mezzo!
+34.35 ogg 1 0x2cf566 Il sensore si e spento... Mi ritirerò!
+34.35 ogg 1 0x2cf614 Non è finita. Altri nodi della rete sono / già in costruzione verso ovest.
+34.36 ogg 1 0x2cf6ff VIOLA: Hai protetto il SAVIO! Vediamo / se la tua squadra cresce | forte come i nostri giardini!
+34.36 ogg 1 0x2cf824 VIOLA: Prima risolvi il mistero del / registro. La MALATESTIANA ti guidera | fino al porto di CESENATICO.
+34.36 ogg 1 0x2cf88a Affronta i due custodi delle aiuole. / Ognuno ti insegnera a conoscere | una diversa pianta POKEMON.
+34.36 ogg 1 0x2cf8eb La terza palestra ti aspetta a Rimini. / Con Volo ritorni nelle città visitate. | Per aprire la strada verso Forlì / servono Spaccaroccia e la terza | medaglia.
+34.36 ogg 2 0x2cf9bf Le tue radici sono ancora piu forti!
+34.36 ogg 2 0x2cf9e4 CUSTODE: Le radici cercano acqua. La / tua squadra sa trovare la strada.
+34.36 ogg 3 0x2cfa56 Prova a superare le mie foglie!
+34.36 ogg 3 0x2cfa76 Hai fatto crescere una bella squadra!
+34.36 ogg 3 0x2cfa9c GIARDINIERA: Anche le sconfitte fanno / crescere un allenatore.
+34.36 ogg 4 0x2cf65d VIOLA allena POKEMON di tipo Erba. / Prima aiuta la BIBLIOTECA, poi sfida | i due custodi delle aiuole. | Le sfide si svolgono parlando: nessuno / ti tagliera la strada.
+34.37 ogg 1 0x2d1227 Sono il custode del Duomo. Qui teniamo / una piccola raccolta | di storie dei viaggiatori del Savio.
+34.37 ogg 2 0x2d1291 Dalla piazza sono arrivata a piedi. Le / ombre del campanile cambiano | mentre i miei Pokémon riposano.
+34.37 ogg 3 0x2d86aa Le panche lasciano libera la navata. Le / note salgono verso l'abside: anche i | Pokémon sembrano ascoltare.
+34.38 ogg 1 0x2d0c48 Una piuma metallica brilla sulla / piattaforma. | Uno Skarmory dai colori insoliti scende / dal cielo e ti osserva!
+34.38 ogg 1 0x2d0cb6 Skarmory torna a sorvolare il tetto. / Potrai provare di nuovo a catturarlo.
+34.38 ogg 1 0x2d0d01 Il sensore acceso tiene lontani i / Pokémon. | Ferma prima il responsabile del Team / Emilia.
+34.38 ogg 2 0x2d12fe Ho riaperto le scale per il tetto. Dopo / aver spento il sensore, guarda | la piattaforma al centro: qualcosa / brilla.
+34.38 cart 11,17 0x2d1379 TETTO DEL GRATTACIELO Osservatorio / sull'Adriatico.
+34.39 ogg 3 0x2d13b5 Per superare le rocce serve / Spaccaroccia. | La ottieni a Rimini e puoi usarla dopo / la terza medaglia.
+34.39 ogg 4 0x2d68df GIADA: Ho attraversato la Via Emilia di / corsa. Ti va di allenarti?
+34.39 ogg 4 0x2d6922 La tua squadra ha più fiato della mia!
+34.4 ogg 1 0x2d1c29 OSTESSA: Qui si mangia dopo il lavoro. / C'è chi racconta di sensori strani | e chi preferisce parlare di allenamenti.
+34.4 ogg 2 0x2d1e5f Dalla pineta sono arrivato affamato. / Ora penso alla palestra: ho allenato | un Pokémon Erba per affrontarla.
+34.4 ogg 3 0x2ce19a LUCA: Ho esplorato gli argini. ACQUA, / ELETTRO e TERRA: | non basta portare un solo tipo!
+34.4 ogg 3 0x2ce2af LUCA: Ti sei meritato due POZIONI per il / viaggio!
+34.40 ogg 1 0x2d15a2 MAMMA DI {6}: Lui riempie casa di / appunti sugli allenamenti. | Siediti: curo la tua squadra.
+34.41 ogg 1 0x2d1607 {6} ha segnato sul tappeto i passi / per schivare e avvicinarsi. | Sogna di arrivare alla Lega.
+34.41 cart 5,3 0x2d166d Diario di Aldo: pineta, saline, Via / Emilia... Voglio vedere tutto | prima di scegliere la mia squadra.
+34.43 ogg 1 0x2d34e3 Corro fino a Rimini ogni mattina. Hai / fiato anche per una lotta?
+34.43 ogg 2 0x2d3d20 Fra le dune cerco le piume degli uccelli / marini. In quest'erba | si nascondono anche Pokémon rari.
+34.44 ogg 1 0x2d3d8a Le casse del deposito sud non sono / state caricate da noi. | Chiedi alla capitaneria.
+34.44 ogg 2 0x2d3de6 Seguo le correnti fra i moli. Oggi però i / tecnici spaventano | perfino i Pokémon più tranquilli.
+34.44 ogg 3 0x2d3e4e Conto le barche: due blu e una verde. Da / grande voglio disegnarne | una con la vela a forma di Wingull!
+34.44 cart 7,29 0x2d3ebd PORTO DI RIMINI Capitaneria a nord, / deposito a sud. | Centro storico verso ovest.
+34.45 ogg 1 0x2d3f16 CAPITANO: Ada conosce i vecchi / registri. Nell'Arengo, in centro, | ti spiegherà le consegne sospette. | Il deposito si trova sulla banchina / sud. | C'è un tecnico che non risponde alle / domande dei marinai.
+34.45 ogg 2 0x2d3fe6 Annotiamo ogni barca in arrivo. Quella / del Team Emilia ha scaricato | bobine prima dell'alba.
+34.46 ogg 1 0x2d2990 Il tecnico evita le tue domande. / Raccogli prima gli indizi: l'archivista | Ada ti aspetta nel Palazzo / dell'Arengo.
+34.46 ogg 1 0x2d2a36 TEAM EMILIA: Questo deposito / valorizza l'Emilia orientale! | Il registro? Non è per i turisti.
+34.46 ogg 1 0x2d2a93 Ehi! Quelle erano casse delicate!
+34.46 ogg 1 0x2d2ab5 Recuperi il registro dei trasporti. Una / consegna parte dal Ponte di | Tiberio. L'archivista saprà / interpretarlo.
+34.46 ogg 2 0x2d404b Questo è un deposito di reti. Quelle / macchine non sono nostre. | Spero che tu possa farle spegnere.
+34.47 ogg 1 0x2d2b59 TEAM EMILIA: Non fissare il ponte! / Stiamo solo cercando un collegamento | con l'energia delle montagne.
+34.47 ogg 1 0x2d2bbf Altro che collegamento... mi hai / staccato!
+34.47 ogg 1 0x2d2bea Il corriere lascia una fattura. Tre / tecnici si nascondono a Le Befane: | terzo, quarto e quinto piano.
+34.47 ogg 2 0x2d40b6 Questa è Piazza Cavour. Il Palazzo / dell'Arengo raccoglie | i documenti della nostra città.
+34.47 ogg 3 0x2d4118 L'Arco di Augusto è un antico ingresso / alla città. Una porta aperta | può raccontare secoli di viaggi.
+34.47 ogg 4 0x2d4186 Dopo la seconda medaglia uso Volo per / tornare ai paesi già visitati. | La MN è il premio del Teatro Bonci.
+34.47 ogg 5 0x2d41f8 Le Befane sono nel quartiere sud. / Cinque reparti, scale e ascensore: | prima guardo sempre il piano guida.
+34.47 ogg 6 0x2d426a Da questa strada torno al porto. / Attraversa la riviera verso nord | per rientrare a Cesenatico.
+34.47 cart 74,26 0x2d4322 ARCO DI AUGUSTO Le pietre / custodiscono la memoria | della città e dei suoi viaggiatori.
+34.47 cart 50,21 0x2d4381 PIAZZA CAVOUR Arengo, fontana e / incontri | nel cuore di Rimini.
+34.47 cart 65,18 0x2d43c8 PALESTRA DI RIMINI AURELIO, custode / delle fondamenta. | Tipo Roccia. Medaglia Arco.
+34.48 ogg 1 0x2d267c ARCHIVISTA ADA: Dal porto spariscono / casse di pietra e bobine elettriche. | Il Team Emilia scava vicino al ponte. / Vai alla capitaneria, poi controlla | il deposito sulla banchina sud.
+34.48 ogg 1 0x2d2730 Nel deposito sulla banchina sud c'è chi / nasconde i registri. | La capitaneria sa dove cercare.
+34.48 ogg 1 0x2d278d Il registro cita un corriere al Ponte di / Tiberio, a nord-ovest | del centro. Parla con lui.
+34.48 ogg 1 0x2d27e7 Il corriere ha indicato Le Befane. / Cerca i tecnici al terzo e quarto | piano, poi sali al quinto.
+34.48 ogg 1 0x2d2847 ADA: Hai fermato l'estrattore! Queste / pietre sono al sicuro. | Ti affido la MN Spaccaroccia. Aurelio / deve però certificare | che sai usarla: sfidalo in palestra.
+34.48 ogg 1 0x2d3481 Non c'è spazio nello Zaino. Torna / quando puoi ritirare il premio.
+34.48 ogg 2 0x2d4423 Ada lavora fra gli scaffali. I marinai / cercano un aiuto | per gli strani carichi del porto.
+34.48 ogg 3 0x2d5730 ELIO: Hai salvato il ponte e superato / Aurelio! | La ricerca di Pino collabora con Johto. / Scegli uno di questi tre compagni.
+34.48 ogg 3 0x2d57aa Il compagno di Johto si unisce al tuo / viaggio, al livello 20! | Se la squadra era piena, ti aspetta nel / Box.
+34.48 ogg 3 0x2d5815 ELIO: Dopo la missione di Ada e la terza / medaglia ti affiderò un Pokémon di | Johto.
+34.48 ogg 3 0x2d5868 ELIO: Come sta il tuo compagno? A Forlì / Pino studia i terreni acquistati dal | Team Emilia.
+34.48 ogg 3 0x2d58c2 Squadra e Box sono pieni. Libera un / posto: il dono resta qui per te.
+34.49 ogg 1 0x2d4486 Abito vicino al ponte da una vita. La / pietra resiste, ma va rispettata. | Non è una batteria da svuotare.
+34.49 ogg 2 0x2d44f7 Studio i disegni degli archi. Mi piace / capire come ogni pietra | sostiene quella che le sta accanto.
+34.5 ogg 1 0x2d1ca5 LOCANDIERE: Ho una stanza per i / viaggiatori che arrivano dal Savio. | La strada per Cesena passa a sud.
+34.5 ogg 2 0x2d1ed3 Domani parto per Cesenatico. Voglio / confrontare i due porti | e guardare le barche storiche.
+34.5 ogg 3 0x2ce2e1 Un ospite assetato non parte bene. / Tieni un'ACQUA FRESCA: | fa bene anche ai tuoi POKEMON.
+34.5 ogg 5 0x19b85d0 {2} conosce una sola mossa: / non può dimenticarla.
+34.50 ogg 1 0x2d4563 Il profumo del caffè arriva in piazza. / Siediti un momento: viaggiare | con i Pokémon mette appetito.
+34.50 ogg 2 0x2d359e Aspetto il caffè. Ti va una lotta / mentre il barista prepara la miscela?
+34.50 ogg 2 0x2d35e6 Il caffè non mi ha dato la carica!
+34.50 ogg 3 0x2d45cf Ho visitato il porto questa mattina. / Ora disegno l'Arco sul mio taccuino. | Domani salirò al ponte.
+34.51 ogg 1 0x2d320e AURELIO: Hai protetto le pietre che / raccontano la nostra storia. | Ora mostrami la forza con cui / affronterai la Via Emilia!
+34.51 ogg 1 0x2d331c La MT Rocciotomba rallenta / l'avversario. | Puoi insegnarla più volte. | Recupera Spaccaroccia da Ada e riapri / la strada verso Forlì. | Da Cesena puoi già usare Volo.
+34.51 ogg 1 0x2d33bc AURELIO: Il Team Emilia mette in / pericolo il ponte e il porto. | Aiuta Ada, nell'Arengo, poi sfidami.
+34.51 ogg 1 0x2d3420 Supera prima i due allenatori fra le / terrazze di pietra. | Poi proveremo la tua squadra.
+34.51 ogg 2 0x2d3020 L'arenaria cede, ma la squadra no. / Vediamo come affronti la Roccia!
+34.51 ogg 2 0x2d3081 Acqua, Erba e Lotta aiutano contro le / nostre pietre.
+34.51 ogg 3 0x2d30e2 Ogni ponte comincia dalle fondamenta. / Le mie sono Pokémon Roccia!
+34.51 ogg 3 0x2d3143 Aurelio ti aspetta in fondo. Scegli / bene le mosse della squadra.
+34.51 ogg 4 0x2d463a Questa è la terza palestra. Aiuta prima / Ada e supera i due | allenatori, poi affronta Aurelio. | La Medaglia Arco autorizza / Spaccaroccia. Ti servirà sulle rocce | a ovest dell'ippodromo di Cesena.
+34.52 ogg 1 0x2d39db INFERMIERA: Benvenuto a Rimini! / Rimettiamo in forma la tua squadra.
+34.52 ogg 1 0x2d3a1f I tuoi Pokémon sono pronti. Buona / esplorazione del centro!
+34.52 ogg 2 0x2d4702 Finalmente una sosta. Rimini è grande: / porto, centro | e negozi meritano viaggi diversi.
+34.53 ogg 1 0x2d3655 Benvenuto al Market di Rimini! Ho Ball e / strumenti per il viaggio.
+34.53 ogg 2 0x2d4762 Ho scelto le Rete Ball. Con i Pokémon / Acqua della costa | mi sono sempre state utili.
+34.54 ogg 1 0x2d47bf LE BEFANE Benvenuto nel centro / commerciale! | I nostri cinque piani ti aspettano.
+34.54 ogg 2 0x2d4818 Mi piace il cinema della riviera. Qui / invece salgo al tetto | per guardare il panorama.
+34.55 ogg 1 0x2d4877 Piano 1: accoglienza e informazioni. / Rifornimenti al 2, sport al 3, | MT al 4, pausa e terrazza al 5.
+34.55 ogg 2 0x2d48e4 Conservo i biglietti dei viaggiatori. Il / più buffo? Un signore ha scritto | Bologna anche sulla destinazione!
+34.55 ogg 3 0x2d4959 Il mio Azumarill ama le vetrine. Devo / tenerlo lontano dal banco | delle bibite o finisce per berle tutte.
+34.55 ogg 4 0x2d49ca Ho promesso una Ball nuova al mio / fratellino. Spero di trovare | quella con i suoi colori preferiti.
+34.55 ogg 5 0x2d4a36 L'ascensore è a sinistra, le scale / sulla destra. | Con queste borse scelgo il primo.
+34.56 ogg 1 0x2d378f Qui trovi le bevande per una pausa. Il / tetto ha una terrazza tranquilla.
+34.56 ogg 2 0x2d4ab3 Tengo un Antidoto nello Zaino. La / pineta mi ha insegnato | a non partire impreparata.
+34.56 ogg 3 0x2d4b10 Cerco Rete Ball per una spedizione. Il / commesso mi ha consigliato | anche una scorta di Repellenti.
+34.56 ogg 4 0x2d3727 Farmacia Pokémon, secondo piano. Non / partire con la squadra affaticata.
+34.56 ogg 5 0x2d36b9 Secondo piano: tutto per le catture. / Scegli la Ball adatta al tuo incontro!
+34.57 ogg 1 0x2d4b7b Corro sul lungomare con il mio Doduo. / Qui compro ciò che serve | per allenarci senza affaticarlo.
+34.57 ogg 2 0x2d4be4 Le vitamine costano parecchio. Per ora / preferisco una camminata | lunga e qualche buona lotta.
+34.57 ogg 3 0x2d4c4a Quel commesso nasconde delle bobine. / Non sembrano affatto attrezzi | per l'allenamento.
+34.57 ogg 4 0x2d37f1 Terzo piano: preparazione sportiva. Le / vitamine aiutano l'allenamento.
+34.57 ogg 5 0x2d2c84 TEAM EMILIA: Queste bobine sono un / nuovo attrezzo da palestra! | Lasciaci lavorare in pace.
+34.57 ogg 5 0x2d2cfc Disattivi la prima bobina. Al quarto / piano c'è il regolatore: | non basta spegnere questo.
+34.58 ogg 1 0x2d4ca9 Leggo la descrizione di ogni MT. Una / mossa ben scelta conta | più di una squadra troppo grande.
+34.58 ogg 2 0x2d4d10 Le MT si possono riutilizzare. Ho / insegnato la stessa mossa | a due dei miei Pokémon.
+34.58 ogg 3 0x2d4d6d Aspetto che liberi il passaggio quel / tecnico al banco. | Ha un tesserino del Team Emilia.
+34.58 ogg 4 0x2d3857 Quarto piano, reparto MT. Le MT della / Romagna si riutilizzano.
+34.58 ogg 5 0x2d2de4 E invece hai fermato il regolatore!
+34.58 ogg 5 0x2d2e08 Il regolatore è spento. Il responsabile / ti aspetta al quinto | piano, vicino alle vetrine.
+34.59 ogg 1 0x2d4dce Sul tetto c'è un distributore! Mi basta / una bibita per inventare | un picnic con i miei Pokémon.
+34.59 ogg 2 0x2d4e36 Non mi fidavo di quei tecnici. Dicevano / che il ponte doveva | finanziare l'Emilia orientale.
+34.59 ogg 3 0x2d38b5 Quinto piano, strumenti da viaggio. Un / repellente rende più rapidi i ritorni.
+34.59 ogg 4 0x2d4e9a Sono la responsabile del piano. I / tecnici si sono presentati | con documenti poco convincenti.
+34.59 ogg 5 0x2d391f Una merenda prima di tornare al porto? / Il banco delle bevande è aperto.
+34.59 ogg 6 0x2d2e96 ING. NERI: Pietra, acqua, elettricità: / un solo impianto per tutta la costa. | Le montagne alimenteranno Bologna. Tu / tornerai a fare shopping!
+34.59 ogg 6 0x2d2f22 Impossibile! Avevo previsto ogni / costo!
+34.59 ogg 6 0x2d2f4a L'estrattore si spegne. Neri ritira i / suoi tecnici, ma parla di nuove | perforazioni nell'Appennino. | Porta ad Ada il progetto recuperato. / Le Befane tornano ai loro negozi.
+34.59 ogg 7 0x2d4f00 Dalla vetrina osservo la città. L'Arco / e il ponte sono molto | più belli senza quei macchinari.
+34.6 ogg 1 0x2cce9a Questo rapporto è preoccupante. La / TORRE può aiutarci a capirlo. | Ti apro la scala dell'osservatorio. / Tieni anche una SUPERPOZIONE.
+34.6 ogg 1 0x2ccf1f Sali al secondo piano, nella loggia. / Troverai archivio e telescopio. | L'osservatrice ti sta aspettando.
+34.6 ogg 1 0x2cce1c I piani superiori sono riservati / all'osservatorio. Serve il rapporto | del MUSEO DELLE SALINE. Il curatore ti / spiegherà tutto.
+34.60 ogg 1 0x2d3b8e Piano raggiunto. Le porte si aprono. / Esci per visitare il reparto.
+34.61 ogg 1 0x2d4f67 Il vento della terrazza porta l'odore / del mare. Dopo tanto shopping | avevo bisogno di questa pausa.
+34.61 ogg 2 0x2d4fd3 Ho salito cinque piani a piedi. La / prossima volta scelgo l'ascensore!
+34.61 ogg 3 0x2d5022 Questa è la terrazza delle Befane. Il / bancone al quinto piano vende | strumenti per il viaggio.
+34.61 ogg 4 0x2d5089 I Pokémon imparano tante mosse. Io / invece sto imparando | a scegliere senza comprare tutto.
+34.61 cart 9,1 0x2d3981 Distributore di bevande. Seleziona / cosa acquistare.
+34.62 ogg 1 0x2d50ec Restauro i modelli dei vecchi ponti. / Ogni arco distribuisce il peso | sulle pietre vicine, come una squadra.
+34.62 ogg 2 0x2d5160 Ho portato all'artigiano un disegno. / Vorrei costruire un ponte in miniatura | per il mio giardino di Pokémon.
+34.63 ogg 1 0x2d51d5 Dalla finestra seguo le barche. Quando / al porto si accendono luci | strane il mio Wingull diventa / irrequieto.
+34.63 ogg 2 0x2d524a Mia nonna mi insegna i nodi marinari. Il / primo mi è riuscito? gli altri | sembrano grovigli di Tangela.
+34.64 ogg 1 0x2d52b9 Benvenuto alla piccola pensione. Le / camere sono pronte per chi | viaggia fra la costa e la Via Emilia.
+34.64 ogg 2 0x2d5327 Sono arrivato da Cesena per il ponte. / Ho dormito qui: il mercato del porto | si sente fin dalle prime ore.
+34.65 ogg 1 0x2d5399 Ricompongo mosaici di sassi colorati. / Il Team Emilia voleva portarli via | come materiale per i suoi conduttori.
+34.65 ogg 2 0x2d5411 Ho disegnato un Nosepass sul mosaico. / Mancava una pietra per il naso: | ho scelto quella più rossa.
+34.66 ogg 1 0x2d547c Studio gli alberi del quartiere. Danno / ombra alla piazza senza | chiudere la vista dei monumenti.
+34.66 ogg 2 0x2d54e5 Aspetto mio figlio prima di uscire. / Vuole passare dalle Befane, | io preferisco la fontana in piazza.
+34.67 ogg 1 0x2d5552 In officina ripariamo le reti. Le bobine / rubate non servono | a pescare: hanno un altro scopo.
+34.67 ogg 2 0x2d55b8 Cerco una cima per la mia barca. Il nodo / deve reggere anche | quando il mare cambia umore.
+34.68 ogg 1 0x2d6a46 Benvenuto a Forlì! La Via Emilia arriva / da Cesena, a est. Piazza Saffi è a nord | della strada? la Rocca è a sud.
+34.68 ogg 2 0x2d6abf Questa è Piazza Saffi. Il municipio / guarda San Mercuriale? verso ovest | trovi il San Domenico.
+34.68 ogg 3 0x2d6b26 I compratori hanno riempito il / municipio di contratti. Poi hanno | portato bobine alla Rocca. Non mi / sembravano restauratori.
+34.68 ogg 4 0x2d6bab Corro lungo i portici con il mio Machop. / Il passo deve essere regolare anche | quando una lotta si allunga.
+34.68 ogg 5 0x2d6c1e Il Centro e il Market sono qui a sud / della Via Emilia. Mi preparo prima di | entrare alla Rocca.
+34.68 ogg 6 0x2d6c86 Quando suonano le campane il mio / Taillow torna sul davanzale. Ha un | orologio migliore del mio!
+34.68 ogg 7 0x2d6cee Disegno le ombre dei portici. Se le / metti bene, perfino un piccolo edificio | sembra avere profondità.
+34.68 ogg 8 0x2d6d5c Nello conserva campioni delle saline / nel museo. È preoccupato per i minerali | che gli hanno portato.
+34.68 ogg 9 0x2d6dc9 Ivano allena Pokémon Lotta. Tre / tatami, tre stili diversi: preparati | prima di sfidarlo.
+34.68 ogg 10 0x2d6e2a La Rocca di Ravaldino ricorda Caterina / Sforza. Il mastio non dovrebbe vibrare | come una macchina!
+34.68 ogg 11 0x2d6e94 Ho visto un Vulpix nei prati fuori / città. Mi ha lasciato un'impronta calda | sulla scarpa.
+34.68 ogg 12 0x2d6ef6 Questo corso scende verso l'Appennino / e Bagno di Romagna. La strada delle | terme sarà percorribile nel prossimo / capitolo.
+34.68 ogg 15 0x19b88d0 {6}: Aspetta, la tua squadra / è stanca. Prima la curo io: | voglio una lotta vera!
+34.68 cart 37,19 0x2d6f78 PIAZZA SAFFI Municipio, San Mercuriale / e portici. Museo San Domenico a ovest.
+34.68 cart 58,40 0x2d6fcf PALESTRA DI FORLÌ IVANO, il maestro / della costanza. Tipo Lotta. Medaglia | Impeto.
+34.68 cart 37,50 0x2d7029 ROCCA DI RAVALDINO Cortile storico e / sala del mastio.
+34.68 cart 4,34 0x2d871c VIA EMILIA - ARGINE DI FORLÌ | La piena ha interrotto il ponte. Surf / permette di attraversare il fiume | verso Faenza. Marina al San Domenico / organizza il corso.
+34.69 ogg 1 0x2d5932 LIA: Benvenuto negli archivi di Forlì. / Le società del Team Emilia stanno | comprando terreni verso le montagne. | Nei contratti compare un minerale delle / saline. Nello, al Museo San Domenico, | sta confrontando i campioni. Par
+34.69 ogg 1 0x2d5a14 LIA: I contratti sono sospesi. I tuoi / rilievi mostrano che l'impianto della | Rocca puntava verso Bagno di Romagna. | Ivano ti aspetta alla palestra Lotta. / Ti servirà una squadra pronta per | l'Appennino.
+34.69 ogg 1 0x2d6816 Servono i rilievi del museo. Parla con / Lia al municipio e poi con Nello al San | Domenico.
+34.69 ogg 2 0x2d711a Un contratto dice energia condivisa. / La riga dopo destina ogni kilowatt a | una società di Bologna!
+34.69 ogg 3 0x2d7185 Ho chiesto che i documenti restino / pubblici. Valorizzare una città | comincia ascoltando chi la abita.
+34.7 ogg 1 0x2cadc3 Questi sono i MAGAZZINI DEL SALE. Ogni / sacco racconta il lavoro dei | salinari. Non lasceremo che il TEAM / EMILIA si porti via tutto.
+34.7 ogg 1 0x2cb877 Il pacco per il pescatore? Eccolo. Sono / campioni di sale per la ricerca. | Tienilo asciutto e riportaglielo sulla / banchina nord del canale.
+34.7 ogg 1 0x2cb901 Il pescatore aspetta sul canale, / vicino al ponte orientale.
+34.7 ogg 2 0x2cae46 Le acque delle saline vengono da falde / collegate alla pianura. Le | misure del TEAM EMILIA sembrano / puntare molto più in profondità.
+34.70 ogg 1 0x2d71f3 Custodisco l'abbazia di San / Mercuriale. Le campane sentono il | vento: oggi il pavimento sente / qualcosa di diverso.
+34.70 ogg 2 0x2d726e Sto leggendo la storia del campanile. / La Rocca, invece, è lungo il corso a sud | della piazza.
+34.71 ogg 1 0x2d5b3b NELLO: Queste vene conducono energia. / Anche l'argilla di Faenza potrebbe | farlo. | Ho riconosciuto una bobina delle saline / nei loro carichi. L'hanno portata alla | Rocca di Ravaldino, a sud della piazza. | Controlla il cortil
+34.71 ogg 1 0x2d5c67 NELLO: Il ponte, le saline e la Rocca / sono nodi di una rete. Qualcosa sotto | l'Appennino la alimenta. | Questa MT Granfisico aiuterà la / squadra a prepararsi. Il campione | resta al sicuro nel museo.
+34.71 ogg 1 0x2d5d29 NELLO: L'impianto è spento, ma la rete / continua verso le terme. Dopo la | palestra dovremo seguirla sulle / montagne.
+34.71 ogg 1 0x2d5d9b NELLO: Studio campioni di terreno. Lia, / nel municipio di Piazza Saffi, conserva | i contratti che mi servono.
+34.71 ogg 1 0x2d6879 Lo Zaino è pieno. Libera spazio: la tua / ricompensa resta disponibile.
+34.71 ogg 2 0x2d72d4 Questo campione non brilla. Nello dice / che non tutte le cose preziose devono | luccicare.
+34.71 ogg 3 0x2d7335 Mi piace modellare l'argilla. Quella che / viene da Faenza conduce una strana | corrente nei loro strumenti.
+34.71 ogg 5 0x2d7a15 MARINA: La piena ha interrotto la Via / Emilia a ovest. Serve Surf per | raggiungere Faenza. | All'argine di Forlì, oltre l'uscita / occidentale, ti aspettano tre | istruttori di canoa. Superali e parla / con Dario, in fondo alla 
+34.71 ogg 5 0x2d7af5 MARINA: Dario aspetta dopo i tre / istruttori all'argine occidentale. La | quarta medaglia permette di usare Surf / fuori dalla lotta.
+34.72 ogg 1 0x2d77c3 INFERMIERA: Benvenuto al Centro / Pokémon di Forlì! Mi occupo della tua | squadra.
+34.72 ogg 1 0x2d7812 I tuoi compagni sono pronti. Buona / esplorazione della piazza e della | Rocca!
+34.72 ogg 3 0x2d741a Uso il Box portatile per preparare la / squadra alla palestra. Mi manca un | Pokémon con una buona mossa Psico.
+34.73 ogg 1 0x2d786f Market di Forlì: Ball, cure e strumenti / per l'Appennino. Cosa ti serve?
+34.74 ogg 1 0x2d65b4 IVANO: Hai difeso Forlì con decisione. / Ora dimostra equilibrio, forza e | rispetto per i tuoi compagni!
+34.74 ogg 1 0x2d661a Una squadra così unita merita questa / medaglia!
+34.74 ogg 1 0x2d6739 IVANO: Le apparecchiature del Team / Emilia fanno tremare la città. Aiuta Lia | al municipio e Nello al museo prima della / nostra sfida.
+34.74 ogg 1 0x2d67bd IVANO: Supera Massimo, Daria e Renzo / sui tre tatami. Poi sarà il nostro | turno.
+34.74 ogg 2 0x2d6358 MASSIMO: Nel primo tatami conta la / disciplina!
+34.74 ogg 2 0x2d63a3 Prova anche gli altri due tatami.
+34.74 ogg 3 0x2d63fa DARIA: Un buon passo vale quanto un / buon colpo.
+34.74 ogg 3 0x2d642a Hai trovato il mio punto debole!
+34.74 ogg 3 0x2d644b Ivano guarda come rispetti la tua / squadra.
+34.74 ogg 4 0x2d64ab RENZO: Il terzo tatami è la prova della / costanza!
+34.74 ogg 4 0x2d64fa Tre prove concluse: il maestro ti / aspetta.
+34.74 ogg 5 0x2d7501 Quarta palestra: tipo Lotta. Prima / spegni il quadro della Rocca, poi | supera i tre tatami e affronta Ivano.
+34.75 ogg 1 0x2d5e3c SILAS: Modernizzare è semplice: / chiamiamo questa zona Emilia orientale | e mandiamo la bolletta a Bologna!
+34.75 ogg 1 0x2d5ea5 La bolletta l'hai pagata tu... con le / mosse!
+34.75 ogg 1 0x2d5ed2 SILAS: Irma sorveglia il cortile / interno. Il nostro ingegnere è nella | sala del mastio.
+34.75 ogg 2 0x2d5f5e IRMA: Non rubiamo energia. La / valorizziamo... molto lontano da qui!
+34.75 ogg 2 0x2d5fa2 Forse avevo valorizzato troppo la mia / squadra.
+34.75 ogg 2 0x2d5fd1 IRMA: Valli comanda l'impianto. La / scala al centro porta nella sala del | mastio.
+34.75 ogg 3 0x2d7575 I tecnici hanno montato il quadro nella / sala in fondo. Bisogna fermare Silas e | Irma prima di salire.
+34.76 ogg 1 0x2d6056 ING. VALLI: Le saline erano una prova. / Da questi terreni estrarremo una forza | che dorme sotto le montagne!
+34.76 ogg 1 0x2d60c1 Il circuito ha perso la carica...
+34.76 ogg 1 0x2d60e3 VALLI: Il motore resta acceso. Se / tocchi il quadro lassù, perderemo il | collegamento con le terme.
+34.76 cart 13,5 0x2d618a Il pannello mostra tre linee: SALE, / TERRENI e TERME. Interrompi | l'estrazione.
+34.76 cart 13,5 0x2d61d8 La vibrazione si placa. Il Team Emilia / abbandona la Rocca. | Un ordine rimasto sul banco cita / perforazioni a Bagno di Romagna. Porta | i risultati a Nello, poi affronta Ivano.
+34.76 cart 13,5 0x2d6284 Il quadro è bloccato dai tecnici. Devi / fermare i tre membri del Team Emilia | prima di spegnerlo.
+34.76 cart 13,5 0x2d62e4 Il motore è spento. Una spia segna / ancora il nodo delle TERME.
+34.77 ogg 1 0x2d75e3 Benvenuto al Caffè Saffi! Il tavolo di / Fabiola è libero soltanto fra una lotta | e l'altra.
+34.77 ogg 2 0x2d699a FABIOLA: Il barista sta preparando il / caffè. Facciamo una lotta mentre | aspettiamo?
+34.77 ogg 2 0x2d69ed Il tuo allenamento mi ha svegliata!
+34.77 ogg 3 0x2d7646 Ho viaggiato dal porto di Cesenatico / fin qui. Domani torno sulla costa: le | barche non si aggiustano da sole.
+34.78 ogg 1 0x2d76bc Mio padre restaurava gli orologi della / piazza. Il Team Emilia mi voleva | comprare il giardino: ho rifiutato.
+34.78 ogg 2 0x2d7731 Il mio libro parla dei Pokémon delle / montagne. Voglio visitare le terme con | mio fratello quando riapriranno la / strada.
+34.79 ogg 1 0x2d84f0 La luce del mare arriva fino al cuscino. / Ho lasciato una Caramella Rara accanto | alla valigia: prendila pure.
+34.8 ogg 1 0x2cc015 MUNICIPIO: Cerchiamo un volontario per / verificare i lavori nelle SALINE. | Il custode della TORRE raccoglie i / rapporti. Parla prima con lui. | Con un rapporto verificato possiamo / darti tre MEGA BALL per la ricerca.
+34.8 ogg 1 0x2cc0e8 Il tuo rapporto è agli atti. / Contatteremo la stazione costiera.
+34.8 ogg 2 0x2caf46 Avviso: le autorizzazioni del TEAM / EMILIA sono ancora da verificare. | Nessuno ha approvato il nome Emilia / orientale!
+34.8 ogg 3 0x2d1f37 Ho visto crescere questa piazza. I / giovani partono all'avventura, | ma tornano sempre a raccontarla.
+34.8 ogg 4 0x2d1fa3 Sto ritirando un permesso di ricerca. / La scienziata segue un progetto | con tre Pokémon arrivati da Kanto.
+34.8 ogg 5 0x2d011a RICERCATRICE: Hai difeso le saline e / conquistato la Medaglia Salina. | Il municipio ringrazia te e la tua / squadra: | scegli uno dei tre compagni di Kanto!
+34.8 ogg 5 0x2d01b1 Il Pokémon di Kanto ora è tuo! Se / serve, ti aspetta nel Box.
+34.8 ogg 5 0x2d01ee Come cresce il compagno di Kanto? / Saluta la studiosa di Cesena!
+34.8 ogg 5 0x2d022e Libera le saline e vinci in palestra. Poi / torna qui: abbiamo un dono!
+34.8 cart 12,1 0x2cd9da Archivio comunale: porto, saline e / manutenzione del sentiero costiero. | Per l'accesso all'osservatorio / rivolgiti alla TORRE SAN MICHELE.
+34.80 ogg 1 0x2d8566 Sto studiando la mappa sul letto. Con / Surf visiterò la basilica di Classe | passando dalla foce del Savio.
+34.81 ogg 1 0x2d85d8 Le corde asciugano sul balcone. Un / buon marinaio riposa prima di una lunga | traversata.
+34.82 ogg 1 0x2d8638 Disegno i balconi del Vistamare e le / vele del porto. Ogni città avrà un | colore diverso nel mio taccuino.
+34.83 ogg 1 0x2d8140 VENDITORE SEGRETO: Questa è la STANZA / CHEATER! | Ora hai 999 Master Ball e 999 Caramelle / Rare. Torna quando vuoi: riporto le | scorte a 999.
+34.83 cart 7,1 0x2d84a2 STANZA CHEATER - Rifornimenti a 999. / Entra e parla con il venditore.
+34.85 ogg 1 0x2da18f FAENZA - Benvenuto nella città della / ceramica! Gli archivi del Podestà sono | a nord della piazza.
+34.85 ogg 2 0x2da1f9 Questa è Piazza del Popolo. I portici / collegano la vita del mercato alla | piazza vicina.
+34.85 ogg 3 0x2da25a La Cattedrale guarda Piazza della / Libertà. La fontana lega i colori della | pietra e dell'acqua.
+34.85 ogg 4 0x2da2c2 Ho modellato una minuscola Poké Ball / d'argilla! Devo ancora smaltarla senza | farla crepare.
+34.85 ogg 5 0x2d95e6 BRUNO: Nel giardino ogni allenamento / lascia una nuova impronta. Una lotta?
+34.85 ogg 5 0x2d9631 La tua squadra ha trovato il ritmo / giusto!
+34.85 ogg 5 0x2d965c BRUNO: La palestra è a sud-est della / piazza.
+34.85 ogg 6 0x2da326 La palestra di Faenza usa Pokémon / Terra. Aiuta il MIC prima di sfidare Ada.
+34.85 cart 8,13 0x2da579 MIC - MUSEO INTERNAZIONALE DELLE / CERAMICHE
+34.85 cart 19,14 0x2da5ad PALAZZO DEL PODESTÀ - ARCHIVI E / PIAZZA DEL POPOLO
+34.85 cart 51,40 0x2da5e8 PALESTRA TERRA - ADA - MEDAGLIA / MAIOLICA
+34.86 ogg 1 0x2d88c9 ALMA: Nei contratti del Team Emilia / compare un'argilla che conduce | energia. | Il campione è esposto al MIC, a / nord-ovest della piazza. La curatrice | Vera ha notato qualcosa di strano.
+34.86 ogg 1 0x2d897e ALMA: Vera, al MIC, controlla le schede / dei campioni. Questa rete collega il | sale, le rocce e l'argilla delle nostre / città.
+34.86 ogg 2 0x2da3ef I colori dei rioni raccontano le sfide / del Palio. Qui ogni famiglia custodisce | una storia.
+34.87 ogg 1 0x2da453 Questi mattoni mostrano il lavoro di / tante generazioni. Lascia libera la | navata per chi entra.
+34.88 ogg 1 0x2d8a25 VERA: Hanno nascosto un trasmettitore / tra le ceramiche! Tre tecnici lo | sorvegliano. | Fermali nell'ordine: Enea, Marta e il / responsabile. Poi disattiva il pannello | al centro della sala.
+34.88 ogg 1 0x2d8add VERA: Il trasmettitore va spento dal / pannello. Per la ricompensa parla al | maestro nella bottega, a sud-ovest.
+34.88 ogg 2 0x2d8b80 ENEA: Il campione d'argilla alimenta il / nostro impianto. Questo museo è sotto | contratto!
+34.88 ogg 2 0x2d8bd9 ENEA: Hai trovato una strategia / migliore della mia.
+34.88 ogg 2 0x2d8c0d ENEA: Marta custodisce i collegamenti. / Senza quelle bobine il nostro piano non | funziona.
+34.88 ogg 3 0x2d8c9b MARTA: Questi cavi portano la corrente / verso ovest. Faenza deve diventare | una risorsa dell'Emilia orientale!
+34.88 ogg 3 0x2d8d08 MARTA: Hai trovato una strategia / migliore della mia.
+34.88 ogg 3 0x2d8d3d MARTA: L'ingegner Ferro ha la / frequenza principale. Il trasmettitore | è sul banco al centro.
+34.88 ogg 4 0x2d8dce ING. FERRO: Il minerale conduce la / forza delle montagne. Bologna avrà | energia e io una promozione!
+34.88 ogg 4 0x2d8e31 ING. FERRO: Hai trovato una strategia / migliore della mia.
+34.88 ogg 4 0x2d8e6b ING. FERRO: Non toccare il pannello! / Quel tracciato rivela dove perforeremo | le prossime volte.
+34.88 ogg 5 0x2da4bb Volevo vedere le maioliche. Quel rumore / elettrico non appartiene a un museo!
+34.88 cart 11,11 0x2d8efd Scolleghi il trasmettitore dalle / ceramiche. La sala smette di vibrare. | Un tracciato unisce Faenza alle terme / dell'Appennino. Il Team Emilia | abbandona il museo.
+34.88 cart 11,11 0x2d8f9d Il trasmettitore è spento. Il disegno / delle linee somiglia alle venature di | una foglia.
+34.89 ogg 1 0x2d9035 MAESTRO CERAMISTA: Hai protetto i / nostri campioni. Ti dono la MT Fossa. | Ada, alla palestra Terra, vuole / conoscere l'allenatore che ha fermato | il trasmettitore.
+34.89 ogg 1 0x2d90d5 MAESTRO CERAMISTA: L'argilla cambia / nelle mani giuste. Il legame con un | Pokémon richiede la stessa pazienza.
+34.89 ogg 2 0x2d96b5 IRIS: I Pokémon mi aiutano a cuocere e / modellare l'argilla. Ti mostro come!
+34.89 ogg 2 0x2d9701 La tua squadra ha trovato il ritmo / giusto!
+34.89 ogg 2 0x2d972c IRIS: Il calore deve essere giusto, / così come il tempo di una mossa.
+34.9 ogg 1 0x2cc970 ELIO: Fermo! Rilievi riservati al TEAM / EMILIA. Valorizziamo questa | Emilia orientale! Come? Non si chiama / così?
+34.9 ogg 2 0x2cca80 RITA: Quei minerali conducono energia. / Non solo sale, capisci? | Il casello diventerà un centro / privato del TEAM EMILIA!
+34.9 ogg 3 0x2cd375 Quelli nell'acqua sono FLAMIGO! / Camminano nei bacini poco profondi. | Resta sugli argini e osservali senza / disturbare la colonia.
+34.9 cart 49,17 0x2cdf8f CASELLO DELLE SALINE Stazione di / raccolta dei campioni. | Per la storia del sale, visita il MUSA / sul porto di CERVIA.
+34.9 cart 58,26 0x1732871 SALINE DI CERVIA / Ovest: le vasche e la SALINA CAMILLONE. | Est: il varco per CERVIA.
+34.90 ogg 1 0x2d9500 ADA: La Terra può sostenere o / travolgere. Mostrami come la tua | squadra trova il proprio equilibrio!
+34.90 ogg 1 0x2d9564 La tua squadra ha trovato il ritmo / giusto!
+34.90 ogg 1 0x2d958f ADA: Hai conquistato la Medaglia / Maiolica!
+34.90 ogg 2 0x2d9177 OLMO: Un'impronta sulla sabbia / racconta come ti muovi. Fammi vedere il | passo della tua squadra!
+34.90 ogg 2 0x2d91d7 OLMO: Hai trovato una strategia / migliore della mia.
+34.90 ogg 2 0x2d920b OLMO: Il primo banco è superato. Cerca / Nora tra i campioni della parte destra.
+34.90 ogg 3 0x2d928f NORA: Acqua e argilla possono / mescolarsi. Il mio terreno cambia forma | durante la lotta!
+34.90 ogg 3 0x2d92e7 NORA: Hai trovato una strategia / migliore della mia.
+34.90 ogg 3 0x2d931b NORA: Hai trovato una buona / combinazione. Viola ti aspetta vicino | alle impronte più antiche.
+34.90 ogg 4 0x2d93ad VIOLA: Queste pietre conservano / tracce del passato. La mia squadra sa | difendere le proprie radici!
+34.90 ogg 4 0x2d9410 VIOLA: Hai trovato una strategia / migliore della mia.
+34.90 ogg 4 0x2d9445 VIOLA: Ora Ada può valutare ciò che hai / imparato. Portale una squadra pronta.
+34.90 ogg 5 0x2da511 I tre banchi di argilla preparano alla / quinta palestra. Acqua ed Erba aiutano | contro la Terra.
+34.91 ogg 1 0x11f0020 INFERMIERA: Benvenuto al Centro / Pokémon di Faenza! Curo subito | la tua squadra.
+34.91 ogg 2 0x2dacd9 Dopo il museo ho portato qui la / squadra. Le lotte lunghe consumano | anche i PP: la cura li ripristina.
+34.91 ogg 3 0x2dad48 Preparo un Pokémon Acqua per Ada. Con / Surf ho attraversato la piena senza | cambiare percorso.
+34.92 ogg 1 0x2daf50 FAENZA MARKET: Ti aiuto a preparare il / prossimo viaggio. Di cosa hai bisogno?
+34.92 ogg 2 0x2dadae Ho comprato Ultra Ball per i Pokémon / delle campagne. Il negoziante ha anche | Repellenti.
+34.93 ogg 1 0x2da691 Qui il Savio incontra la costa. Mantieni / la rotta: le due rive non sono collegate | da un ponte.
+34.93 ogg 2 0x2d979d EROS: Questa foce è piena di sorprese. / Vediamo se la tua squadra è pronta!
+34.93 ogg 2 0x2d97e8 La tua squadra ha trovato il ritmo / giusto!
+34.93 ogg 2 0x2d9813 EROS: Oltre l'acqua trovi Classe? / Ravenna è più a nord.
+34.93 cart 16,33 0x2da6f9 FOCE DEL SAVIO - Classe e Ravenna a / nord. Lido di Savio a sud.
+34.94 ogg 1 0x2da741 Il campanile cilindrico è il nostro / punto di riferimento. La basilica è | aperta ai viaggiatori.
+34.94 ogg 2 0x2da7a9 L'antico porto non è più sul mare. Qui / la costa è cambiata nel corso dei | secoli.
+34.95 ogg 1 0x2da803 Osserva il mosaico nell'abside. Il / pannello a destra custodisce i rilievi | che Camilla cerca.
+34.95 ogg 2 0x2da869 Sto copiando le tessere blu e oro. Da / vicino formano piccoli quadrati? da | lontano diventano un paesaggio.
+34.95 cart 13,3 0x2d9be4 Una tessera riporta il simbolo delle / sorgenti. I tecnici cercano una | corrispondenza tra mosaici e minerali! | Con entrambi i rilievi puoi controllare / il mausoleo di Teodorico.
+34.95 cart 13,3 0x2d9c92 Il simbolo è nel taccuino. Al mausoleo, / una scatola emette lo stesso ritmo | rilevato a Forlì.
+34.96 ogg 1 0x2da8dc RAVENNA - Città di mosaici e memorie. / Camilla, negli archivi della piazza, | segue una strana indagine.
+34.96 ogg 2 0x2da94b Questa zona resta tranquilla. La tomba / è un piccolo tempio: entra e osserva la | lapide.
+34.96 ogg 3 0x2da9ab Il mausoleo ha due livelli e una grande / copertura di pietra. Il colore chiaro lo | distingue dai monumenti di mattoni.
+34.96 ogg 4 0x2daa29 Mi piace camminare dalla piazza alla / Zona del Silenzio. Ogni strada cambia il | suono dei passi.
+34.96 ogg 5 0x2daa91 L'atelier è qui accanto. Il maestro / trasforma frammenti di vetro in | immagini e insegna ai giovani artisti.
+34.96 ogg 8 0xf1e3cc Da qui puoi raggiungere LUGO. / Visita la Rocca e il Pavaglione.
+34.96 ogg 9 0x1730b42 CAMPIONE! La MOTONAVE è pronta. | Si va all'ISOLA OMBELICO, dove / riposano LUGIA e HO-OH. Partiamo?
+34.96 ogg 9 0x1730ad3 Questa è la MOTONAVE per le isole / leggendarie dell'Adriatico. | Imbarchiamo solo il CAMPIONE della / LEGA POKéMON!
+34.96 cart 36,25 0x2dac3c TOMBA DI DANTE - ZONA DEL SILENZIO
+34.96 cart 63,12 0x2dac68 MAUSOLEO DI TEODORICO - PARCO DELLA / PIETRA BIANCA
+34.96 cart 9,19 0x2daca3 RAVENNA - PIAZZA DEL POPOLO E ARCHIVI / CIVICI
+34.96 cart 65,29 0xf1e344 LUGO - NUOVO COLLEGAMENTO. / Passaggio verso la città di BARACCA.
+34.97 ogg 1 0x2dab05 Il pannello sopra l'altare racconta il / disegno che Camilla sta studiando. Puoi | leggerlo dal lato sinistro.
+34.97 cart 6,4 0x2d9ab1 Tra gli appunti della lapide trovi un / disegno: tre vene convergono sotto le | montagne. | Lo copi nel taccuino di ricerca. Il / mosaico di Classe contiene un secondo | indizio.
+34.97 cart 6,4 0x2d9b5a Hai già annotato il disegno della / lapide. Il riferimento successivo è | nella basilica di Classe.
+34.98 ogg 1 0x2d9d2d NILO: Copio le iscrizioni per la / centrale. Non intralciare la | valorizzazione dell'Emilia orientale!
+34.98 ogg 1 0x2d9d91 NILO: Hai trovato una strategia / migliore della mia.
+34.98 ogg 1 0x2d9dc5 NILO: Tea registra le vibrazioni. Il / dispositivo è nascosto lungo la parete | occidentale.
+34.98 ogg 2 0x2d9e53 TEA: Queste pietre rispondono alla / stessa frequenza dell'Appennino. Il | registratore deve restare acceso!
+34.98 ogg 2 0x2d9ebc TEA: Hai trovato una strategia migliore / della mia.
+34.98 ogg 2 0x2d9eef TEA: Hai interrotto il rilievo. Adesso il / pannello è senza sorveglianza, ma non | ti diremo altro.
+34.98 cart 4,9 0x2d9f80 Spegni il registratore nascosto. Le / pietre tornano silenziose e i tecnici | fuggono. | Il maestro dell'atelier potrà / recuperare le tessere danneggiate.
+34.98 cart 4,9 0x2da014 Il registratore è spento. I rilievi / parlano di una forza dormiente e di | acque termali.
+34.99 ogg 1 0x2d9946 CAMILLA: Alcuni tecnici fotografano / iscrizioni senza permesso. | Confronta la lapide alla Tomba di Dante / e il mosaico nella basilica di Classe. | Poi controlla il mausoleo di Teodorico, / nel parco a nord-est.
+34.99 ogg 1 0x2d9a12 CAMILLA: Il maestro mosaicista, / nell'atelier a sud-est, ti ricompenserà | quando avrai fermato i tecnici del / mausoleo.
+34.99 ogg 2 0x2dab79 Sto ordinando copie e fotografie delle / iscrizioni. Ogni reperto ha una scheda | diversa.
+35.35 ogg 1 0x17320eb Sto finendo i passatelli in brodo, / ma una lotta non la rifiuto mai!
+35.35 ogg 1 0x173212f Mi è andato di traverso il brodo!
+35.35 ogg 2 0x17321a3 Il mio Pokémon ha mangiato tre / piatti di strozzapreti. È carico!
+35.35 ogg 2 0x1732203 Le aie erano i cortili delle case / coloniche, dove si batteva il grano.
+35.35 ogg 3 0x1732263 Prima il Sangiovese, poi la lotta! / Anzi no, prima la lotta!
+35.35 ogg 4 0x173230f Vengo qui ogni domenica con la / famiglia. Vediamo cosa sai fare!
+35.35 ogg 4 0x173236e L'oste tiene un SNORLAX in cucina. / Pensa a quante piadine mangia!
+35.35 ogg 5 0x17323c7 Sono l'ultimo tavolo e il più duro. / I miei Pokémon sono cresciuti a Cervia!
+35.35 ogg 5 0x173242e Ora parla con l'OSTE. Ha qualcosa / per chi batte tutti i clienti.
+35.35 ogg 6 0x1731898 OSTE: Trattalo bene, quello SNORLAX. / E torna per un piatto di cappelletti!
+35.35 ogg 6 0x17318e3 OSTE: Non hai più posto per lui... / Libera un posto nel PC e torna.
+35.35 ogg 6 0x1731710 OSTE: Benvenuto alla CASA DELLE AIE! / Qui si mangia come una volta. | Ai tavoli ci sono cinque allenatori / che non si alzano finché non perdono. | Battili tutti e ti darò il mio / ospite più pigro e più raro!
+35.38 ogg 1 0x2cc39d Questo sentiero conduce alle SALINE. / Resta sugli argini fra i bacini. | I FLAMIGO si avvicinano al tramonto. Il / custode della TORRE li osserva.
+testi con riquadri troppo lunghi: 611 su 1797

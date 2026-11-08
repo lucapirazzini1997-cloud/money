@@ -77,3 +77,9 @@ collaudo/play/t70_*.sav
 collaudo/play/t70_*.ppm
 collaudo/play/t70_*.ss
 collaudo/play/log_t70_*.txt
+collaudo/play/t70casa_*.png
+collaudo/play/t70casa_*.json
+collaudo/play/t70casa_*.sav
+collaudo/play/t70casa_*.ppm
+collaudo/play/t70casa_*.ss
+collaudo/play/log_t70casa_*.txt

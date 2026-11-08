@@ -95,3 +95,12 @@ dir 6 = risalita (dalla mappa sott'acqua). In gioco: A sull'acqua profonda per i
   dalla mappa.
 - `collaudo/regressione.py ROM --rif ROM_PRECEDENTE`: 17 savestate in mGBA + salvataggio vero in mGBA e VBA-M.
 - Per fermare un emulatore: `ps aux | grep ... | awk '{print $2}' | xargs kill` (mai `pkill -f`: chiude anche la shell).
+
+## Interni (dalla 0.70)
+- Il PC di casa (script con `setvar 0x8004 1` + `special 0xd9`) scrive da solo i metatile 0x27E (spento) e 0x27F
+  (acceso) nella casella guardata: in un secondario nuovo quei due id devono essere il PC (v070 `fissa`).
+- Comportamenti di Smeraldo con testi inglesi: TV 0x86 ("MOM might like this program…"), cartina 0x85 (tradotta
+  sul posto nella 0.70). Un evento bg sulla casella ha la precedenza sul comportamento.
+- Bordo di un layout nuovo: il metatile 0 del primario degli interni si vede rosa; serve un metatile nero.
+- Tela con primario degli interni: `tela.Unione(d, 0x55ea40)`; le palette 0–5 del primario (1: ruggine/bianco,
+  5: cielo/mare/sabbia/nero) si usano per disegnare senza occupare posti del secondario.

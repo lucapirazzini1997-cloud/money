@@ -1,0 +1,106 @@
+{
+ "pt_titolo": {
+  "pos": [
+   [
+    1,
+    0
+   ],
+   9,
+   8
+  ],
+  "oggetti": [
+   [
+    [
+     5,
+     20
+    ],
+    24
+   ]
+  ]
+ },
+ "pt_su": true,
+ "pt_camera": [
+  [
+   1,
+   1
+  ],
+  1,
+  2
+ ],
+ "pt_giu": true,
+ "pt_di_nuovo": {
+  "pos": [
+   [
+    1,
+    0
+   ],
+   3,
+   3
+  ],
+  "oggetti": [
+   [
+    [
+     11,
+     3
+    ],
+    215
+   ]
+  ]
+ },
+ "pt_porta": true,
+ "pt_uscita": {
+  "prima": [
+   [
+    1,
+    0
+   ],
+   9,
+   9
+  ],
+  "dopo": [
+   [
+    0,
+    9
+   ],
+   8,
+   17
+  ]
+ },
+ "cam_titolo": {
+  "pos": [
+   [
+    1,
+    1
+   ],
+   3,
+   6
+  ]
+ },
+ "cam_pc": {
+  "arrivo": true,
+  "testi": [
+   "AAAAAAA accende il PC.",
+   "Cosa vuoi fare?"
+  ],
+  "cb2": [
+   "0x8085d9d"
+  ],
+  "pos": [
+   [
+    1,
+    1
+   ],
+   8,
+   2
+  ]
+ },
+ "cam_giu": true,
+ "cam_pt": [
+  [
+   1,
+   0
+  ],
+  3,
+  3
+ ]
+}

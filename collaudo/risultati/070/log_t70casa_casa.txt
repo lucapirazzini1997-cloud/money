@@ -1,0 +1,14 @@
+PROVA casa Pokemon_Romagna_0_70.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (0, 9) (8, 17)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA casa mGBA Pokemon_Romagna_0_70.gba t70casa_casa.sav dal titolo: ((0, 9), 8, 17, 3, False)
+   porta {'prima': ((0, 9), 8, 17), 'dopo': ((1, 0), 9, 9)}
+   mamma {'arrivo': True, 'testi': ["Prima di partire, riposati un po'. I tuoi POKéMON sono di nuovo in forma!"], 'cb2': ['0x8085d9d'], 'pos': ((1, 0), 11, 4)}
+   tv {'arrivo': True, 'testi': ["In TV c'è il meteo del mare: ADRIATICO calmo e bandiera bianca. Si può fare il bagno!"], 'cb2': ['0x8085d9d'], 'pos': ((1, 0), 2, 4)}
+   pc {'arrivo': True, 'testi': ['AAAAAAA accende il PC.', 'Cosa vuoi fare?'], 'cb2': ['0x8085d9d'], 'pos': ((1, 1), 8, 2)}
+   tv_camera {'arrivo': True, 'testi': ['Danno un documentario sulle SALINE di CERVIA e sui loro fenicotteri.'], 'cb2': ['0x8085d9d'], 'pos': ((1, 1), 4, 2)}
+   cartina {'arrivo': True, 'testi': ['AAAAAAA guarda la cartina della ROMAGNA.'], 'cb2': ['0x8085d9d', '0x81706a9'], 'pos': ((1, 1), 6, 2)}
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+   continua {'pos': ((1, 0), 3, 3), 'oggetti': [((11, 3), 215)]}
+   uscita {'prima': ((1, 0), 9, 9), 'dopo': ((0, 9), 8, 17)}
+FINE casa

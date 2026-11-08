@@ -1,0 +1,3162 @@
+{
+ "prova": {
+  "mGBA gpre": {
+   "cammina": {
+    "schermo": "4ad8d46c6e90",
+    "colori": 43,
+    "callback": 134448105,
+    "EWRAM": "a045d8fe5536",
+    "IWRAM": "8af942e4cdc8",
+    "VRAM": "c74506ed37bb",
+    "PAL": "842de9ad50e2",
+    "OAM": "6680a3ec93c1"
+   },
+   "menu": {
+    "schermo": "4ad8d46c6e90",
+    "colori": 43,
+    "callback": 134448105,
+    "EWRAM": "5a81c852a40a",
+    "IWRAM": "58fb65084075",
+    "VRAM": "c74506ed37bb",
+    "PAL": "842de9ad50e2",
+    "OAM": "6680a3ec93c1"
+   },
+   "pokedex": {
+    "schermo": "0d75e1cdfc83",
+    "colori": 45,
+    "callback": 134448105,
+    "EWRAM": "f61c25bfd40a",
+    "IWRAM": "219915e06da7",
+    "VRAM": "f38672b606c0",
+    "PAL": "260629d0d025",
+    "OAM": "a88a1eea31ce"
+   },
+   "squadra": {
+    "schermo": "bc022f8f6d02",
+    "colori": 32,
+    "callback": 135988689,
+    "EWRAM": "6c75427f84be",
+    "IWRAM": "7befb052fb70",
+    "VRAM": "c3e40d02d89c",
+    "PAL": "edbf372804aa",
+    "OAM": "81f0ea5ddefb"
+   },
+   "riassunto": {
+    "schermo": "f6c42a316e22",
+    "colori": 30,
+    "callback": 135988689,
+    "EWRAM": "bb59cd518547",
+    "IWRAM": "16edb2e00552",
+    "VRAM": "69c5ff28c3c2",
+    "PAL": "edbf372804aa",
+    "OAM": "81f0ea5ddefb"
+   },
+   "borsa": {
+    "schermo": "bc022f8f6d02",
+    "colori": 32,
+    "callback": 135988689,
+    "EWRAM": "bd91ab712bba",
+    "IWRAM": "fd4af0f85b31",
+    "VRAM": "c3e40d02d89c",
+    "PAL": "edbf372804aa",
+    "OAM": "81f0ea5ddefb"
+   },
+   "tasca2": {
+    "schermo": "98d7a70548c8",
+    "colori": 32,
+    "callback": 135988689,
+    "EWRAM": "1fbfddbbdfca",
+    "IWRAM": "9fda1bba7e37",
+    "VRAM": "9900b67a7f2f",
+    "PAL": "63aceb8b3be9",
+    "OAM": "1c2bca02e648"
+   },
+   "ritorno": {
+    "schermo": "db01de4cf9d1",
+    "colori": 50,
+    "callback": 134448105,
+    "EWRAM": "41c7765d1e14",
+    "IWRAM": "e342dcca994c",
+    "VRAM": "45cdae58422d",
+    "PAL": "cec77e0dd2f3",
+    "OAM": "24fbe4d5b9aa"
+   }
+  },
+  "mGBA prog_b6b": {
+   "cammina": {
+    "schermo": "f11038776f37",
+    "colori": 12,
+    "callback": 134765981,
+    "EWRAM": "328e5f6f82b5",
+    "IWRAM": "109a3bcccced",
+    "VRAM": "d73ab7a68ae3",
+    "PAL": "f13e48bcc5bc",
+    "OAM": "accb8db390ae"
+   },
+   "menu": {
+    "schermo": "5c79ff6df2b7",
+    "colori": 20,
+    "callback": 134765981,
+    "EWRAM": "7767917ec71f",
+    "IWRAM": "f75aeda97667",
+    "VRAM": "4693ef236a14",
+    "PAL": "f13e48bcc5bc",
+    "OAM": "65d3c1fdcc93"
+   },
+   "pokedex": {
+    "schermo": "39aca1dce70b",
+    "colori": 33,
+    "callback": 135988689,
+    "EWRAM": "6edd2b5b2bfc",
+    "IWRAM": "e38e3b255d31",
+    "VRAM": "ac9c6b3854f3",
+    "PAL": "7f67f44b12c7",
+    "OAM": "eb6b20d24821"
+   },
+   "squadra": {
+    "schermo": "ec591b0b633a",
+    "colori": 12,
+    "callback": 134765981,
+    "EWRAM": "359b1c22779d",
+    "IWRAM": "c7177854c065",
+    "VRAM": "f5135ec39252",
+    "PAL": "f13e48bcc5bc",
+    "OAM": "e546b490cecb"
+   },
+   "riassunto": {
+    "schermo": "ec591b0b633a",
+    "colori": 12,
+    "callback": 134765981,
+    "EWRAM": "03e5cc99bc6c",
+    "IWRAM": "c90cb0c66f1a",
+    "VRAM": "f5135ec39252",
+    "PAL": "f13e48bcc5bc",
+    "OAM": "4726875a4e59"
+   },
+   "borsa": {
+    "schermo": "7aa3ab1864d0",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "10f283398b03",
+    "IWRAM": "0027654ce238",
+    "VRAM": "e5c83a35dad6",
+    "PAL": "5b9acd5924a4",
+    "OAM": "db71ea0c8b12"
+   },
+   "tasca2": {
+    "schermo": "7aa3ab1864d0",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "6049f921e7e3",
+    "IWRAM": "df50c9100d0f",
+    "VRAM": "e5c83a35dad6",
+    "PAL": "5b9acd5924a4",
+    "OAM": "db71ea0c8b12"
+   },
+   "ritorno": {
+    "schermo": "616c06db8010",
+    "colori": 11,
+    "callback": 134765981,
+    "EWRAM": "6e9003a55f5f",
+    "IWRAM": "63a337040839",
+    "VRAM": "987699dae0de",
+    "PAL": "9cd6fb2e4f11",
+    "OAM": "92ecbf707345"
+   }
+  },
+  "mGBA prog_imola": {
+   "cammina": {
+    "schermo": "1112e185823f",
+    "colori": 9,
+    "callback": 134765981,
+    "EWRAM": "1bb9a89e3c52",
+    "IWRAM": "a05f8dc36a95",
+    "VRAM": "29541b527d5a",
+    "PAL": "6be80999dcd6",
+    "OAM": "4f282d510f99"
+   },
+   "menu": {
+    "schermo": "be370e3318d9",
+    "colori": 14,
+    "callback": 134765981,
+    "EWRAM": "a40d70405650",
+    "IWRAM": "d0f76bd21f4d",
+    "VRAM": "b5c46f1cdce7",
+    "PAL": "6be80999dcd6",
+    "OAM": "b29baaf11295"
+   },
+   "pokedex": {
+    "schermo": "39aca1dce70b",
+    "colori": 33,
+    "callback": 135988689,
+    "EWRAM": "469cd8979c7c",
+    "IWRAM": "cb865cce209d",
+    "VRAM": "ac9c6b3854f3",
+    "PAL": "c32ea930d248",
+    "OAM": "eb6b20d24821"
+   },
+   "squadra": {
+    "schermo": "cccb2da4ca87",
+    "colori": 10,
+    "callback": 134765981,
+    "EWRAM": "1967376ba400",
+    "IWRAM": "e9edb04d41a0",
+    "VRAM": "6603bbbb287c",
+    "PAL": "6be80999dcd6",
+    "OAM": "c794f9319ccb"
+   },
+   "riassunto": {
+    "schermo": "cccb2da4ca87",
+    "colori": 10,
+    "callback": 134765981,
+    "EWRAM": "5ef25aefb145",
+    "IWRAM": "3d31b3e70f3a",
+    "VRAM": "c8630fef1eca",
+    "PAL": "6be80999dcd6",
+    "OAM": "706ede8f46cb"
+   },
+   "borsa": {
+    "schermo": "721dc96e3d26",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "2e38fa65e5b9",
+    "IWRAM": "c82ea8489df1",
+    "VRAM": "0dc2a026576b",
+    "PAL": "5b9acd5924a4",
+    "OAM": "db71ea0c8b12"
+   },
+   "tasca2": {
+    "schermo": "7e565f8e42f6",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "d4b03c848e1b",
+    "IWRAM": "eefb9fa0dde0",
+    "VRAM": "4ce1330f6095",
+    "PAL": "5b9acd5924a4",
+    "OAM": "db71ea0c8b12"
+   },
+   "ritorno": {
+    "schermo": "e4ff0925c440",
+    "colori": 37,
+    "callback": 134765981,
+    "EWRAM": "5c919ef5925d",
+    "IWRAM": "41b13d05fc55",
+    "VRAM": "9539c05b0dc8",
+    "PAL": "7ce0c30fe13c",
+    "OAM": "a9b146dc6685"
+   }
+  },
+  "mGBA q8_end": {
+   "cammina": {
+    "schermo": "f189b45cdfb4",
+    "colori": 25,
+    "callback": 134765981,
+    "EWRAM": "2732164d646d",
+    "IWRAM": "98bf356de836",
+    "VRAM": "7511dfcfd8da",
+    "PAL": "2d357a4eb602",
+    "OAM": "523363268a6a"
+   },
+   "menu": {
+    "schermo": "4f4d606b2aec",
+    "colori": 29,
+    "callback": 134765981,
+    "EWRAM": "186dce41c688",
+    "IWRAM": "b044190f1229",
+    "VRAM": "aa3eca4e9e2f",
+    "PAL": "2d357a4eb602",
+    "OAM": "3af59d45680a"
+   },
+   "pokedex": {
+    "schermo": "52a302475fdf",
+    "colori": 16,
+    "callback": 134986073,
+    "EWRAM": "d7198cba349c",
+    "IWRAM": "9504039cd285",
+    "VRAM": "e5a376aabe30",
+    "PAL": "1fdaf26cb220",
+    "OAM": "71173204440a"
+   },
+   "squadra": {
+    "schermo": "3ef24a32b087",
+    "colori": 22,
+    "callback": 134765981,
+    "EWRAM": "41fa27dd5dac",
+    "IWRAM": "6d8b12d47039",
+    "VRAM": "08b5ecf23180",
+    "PAL": "2d357a4eb602",
+    "OAM": "0f29a74e99db"
+   },
+   "riassunto": {
+    "schermo": "3ef24a32b087",
+    "colori": 22,
+    "callback": 134765981,
+    "EWRAM": "0597c24c7d8d",
+    "IWRAM": "5d6d413b838f",
+    "VRAM": "08b5ecf23180",
+    "PAL": "2d357a4eb602",
+    "OAM": "11714c4e5fa4"
+   },
+   "borsa": {
+    "schermo": "28b4354134e1",
+    "colori": 24,
+    "callback": 135967121,
+    "EWRAM": "afd04b0a2d31",
+    "IWRAM": "1c87fc8e0d89",
+    "VRAM": "948551d661d9",
+    "PAL": "21b0e86279f5",
+    "OAM": "efcf1deddc08"
+   },
+   "tasca2": {
+    "schermo": "0270506e373e",
+    "colori": 28,
+    "callback": 135967121,
+    "EWRAM": "2b29bbaf97e7",
+    "IWRAM": "d9a8bd2d3bbd",
+    "VRAM": "bae66a8bb155",
+    "PAL": "1c5f19ecc9d4",
+    "OAM": "bfeb65a99c5f"
+   },
+   "ritorno": {
+    "schermo": "c1f564bf6ef0",
+    "colori": 34,
+    "callback": 134765981,
+    "EWRAM": "05506658655d",
+    "IWRAM": "94628d0205b8",
+    "VRAM": "5877a32acbf8",
+    "PAL": "e3f34729945b",
+    "OAM": "c11cff97c322"
+   }
+  },
+  "mGBA s_ce3": {
+   "cammina": {
+    "schermo": "cf2f31555ca5",
+    "colori": 12,
+    "callback": 134765981,
+    "EWRAM": "dabf948c8e7d",
+    "IWRAM": "1fbcbf6fc87d",
+    "VRAM": "7fb5ec951dc2",
+    "PAL": "55f960dac1e2",
+    "OAM": "25237bf797e3"
+   },
+   "menu": {
+    "schermo": "e1a4e0990f80",
+    "colori": 20,
+    "callback": 134765981,
+    "EWRAM": "8d6c3a45faba",
+    "IWRAM": "79ac715989e6",
+    "VRAM": "5ce86ee42edd",
+    "PAL": "55f960dac1e2",
+    "OAM": "25237bf797e3"
+   },
+   "pokedex": {
+    "schermo": "1f82e5239960",
+    "colori": 26,
+    "callback": 135967121,
+    "EWRAM": "181566f8c609",
+    "IWRAM": "6b1a4d4fc0c0",
+    "VRAM": "6fa1368327f3",
+    "PAL": "d7965a30fa3d",
+    "OAM": "38c0356d8c92"
+   },
+   "squadra": {
+    "schermo": "6f527165135b",
+    "colori": 12,
+    "callback": 134765981,
+    "EWRAM": "6b2727cf4fe7",
+    "IWRAM": "a0d4850c1953",
+    "VRAM": "b16d1aef48a9",
+    "PAL": "55f960dac1e2",
+    "OAM": "00418f98f3c5"
+   },
+   "riassunto": {
+    "schermo": "6f527165135b",
+    "colori": 12,
+    "callback": 134765981,
+    "EWRAM": "422edfd1fa0f",
+    "IWRAM": "e2bbcdd2b745",
+    "VRAM": "aedfb7d48282",
+    "PAL": "55f960dac1e2",
+    "OAM": "4733c29fdb9a"
+   },
+   "borsa": {
+    "schermo": "4f07a1ffc58d",
+    "colori": 21,
+    "callback": 134765981,
+    "EWRAM": "2d0d4d1132c3",
+    "IWRAM": "adbd14d153c8",
+    "VRAM": "88e51cba8d65",
+    "PAL": "55f960dac1e2",
+    "OAM": "4733c29fdb9a"
+   },
+   "tasca2": {
+    "schermo": "4f07a1ffc58d",
+    "colori": 21,
+    "callback": 134765981,
+    "EWRAM": "1477eb09f8d8",
+    "IWRAM": "7ebefd20968f",
+    "VRAM": "9e4b823181cb",
+    "PAL": "55f960dac1e2",
+    "OAM": "ca12734ec3b8"
+   },
+   "ritorno": {
+    "schermo": "b8ed9b1659bf",
+    "colori": 19,
+    "callback": 134765981,
+    "EWRAM": "62fa5140b986",
+    "IWRAM": "626c5ccb54c3",
+    "VRAM": "38baa4ffb58f",
+    "PAL": "55f960dac1e2",
+    "OAM": "40f12be37279"
+   }
+  },
+  "mGBA t56_church": {
+   "cammina": {
+    "schermo": "67c9441c4386",
+    "colori": 33,
+    "callback": 134765981,
+    "EWRAM": "bb6152dfdaf1",
+    "IWRAM": "daf3ef956c3b",
+    "VRAM": "4d0497123e22",
+    "PAL": "57100cdf364a",
+    "OAM": "a427c9196b55"
+   },
+   "menu": {
+    "schermo": "097192404ce0",
+    "colori": 38,
+    "callback": 134765981,
+    "EWRAM": "7fc9a83db1b4",
+    "IWRAM": "dc44362217d8",
+    "VRAM": "74c3fdd41235",
+    "PAL": "57100cdf364a",
+    "OAM": "221fa7de797d"
+   },
+   "pokedex": {
+    "schermo": "95099280dade",
+    "colori": 26,
+    "callback": 135967121,
+    "EWRAM": "d61825b64cd0",
+    "IWRAM": "a3999331ce94",
+    "VRAM": "56cd6b103285",
+    "PAL": "802ced6ef0d8",
+    "OAM": "38c0356d8c92"
+   },
+   "squadra": {
+    "schermo": "f167509b33e7",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "f21209e1176e",
+    "IWRAM": "e4474c8d56fa",
+    "VRAM": "6328a7c9ca48",
+    "PAL": "57100cdf364a",
+    "OAM": "2b3bb547e603"
+   },
+   "riassunto": {
+    "schermo": "f167509b33e7",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "edc108d2e85d",
+    "IWRAM": "3be0d5fb0452",
+    "VRAM": "be835b43ab77",
+    "PAL": "57100cdf364a",
+    "OAM": "266cc5f118d8"
+   },
+   "borsa": {
+    "schermo": "8183531eeff2",
+    "colori": 31,
+    "callback": 134765981,
+    "EWRAM": "9bfa3ccd7be6",
+    "IWRAM": "b24cd4573912",
+    "VRAM": "93f814c24b96",
+    "PAL": "57100cdf364a",
+    "OAM": "266cc5f118d8"
+   },
+   "tasca2": {
+    "schermo": "8183531eeff2",
+    "colori": 31,
+    "callback": 134765981,
+    "EWRAM": "fbf6bb4834d0",
+    "IWRAM": "ced9e66f0de8",
+    "VRAM": "dfc60819c3b6",
+    "PAL": "57100cdf364a",
+    "OAM": "2ba061fb5cf6"
+   },
+   "ritorno": {
+    "schermo": "5670373d8869",
+    "colori": 18,
+    "callback": 134765981,
+    "EWRAM": "d4c12d605cb5",
+    "IWRAM": "c72a40b48f9d",
+    "VRAM": "f3d34f9e7b67",
+    "PAL": "57100cdf364a",
+    "OAM": "5abc4ab2448e"
+   }
+  },
+  "mGBA t56_lib2": {
+   "cammina": {
+    "schermo": "82c4d54361c5",
+    "colori": 27,
+    "callback": 134765981,
+    "EWRAM": "8023faab3dfd",
+    "IWRAM": "14c89eecc88b",
+    "VRAM": "c31b215483c2",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "58a5a2382521"
+   },
+   "menu": {
+    "schermo": "45b5b7db440c",
+    "colori": 29,
+    "callback": 134765981,
+    "EWRAM": "75dfc47f41c8",
+    "IWRAM": "d1f948b02800",
+    "VRAM": "3fde403536d7",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "0ed6dda42036"
+   },
+   "pokedex": {
+    "schermo": "1f82e5239960",
+    "colori": 26,
+    "callback": 135967121,
+    "EWRAM": "b8d968180907",
+    "IWRAM": "c1f6f334e2a7",
+    "VRAM": "6fa1368327f3",
+    "PAL": "afe059d7e354",
+    "OAM": "38c0356d8c92"
+   },
+   "squadra": {
+    "schermo": "c5682f503f14",
+    "colori": 24,
+    "callback": 134765981,
+    "EWRAM": "a186fb5f4628",
+    "IWRAM": "0a2495f977eb",
+    "VRAM": "999065d54944",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "0521fe775cfa"
+   },
+   "riassunto": {
+    "schermo": "c5682f503f14",
+    "colori": 24,
+    "callback": 134765981,
+    "EWRAM": "5d39b2ab1cc2",
+    "IWRAM": "2a120a4b4745",
+    "VRAM": "bf5fa6b7e6ce",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "3a4b9c628f25"
+   },
+   "borsa": {
+    "schermo": "2f057d08592f",
+    "colori": 26,
+    "callback": 134765981,
+    "EWRAM": "9ffca5617ffc",
+    "IWRAM": "5ec8382357f5",
+    "VRAM": "567bfc5ab9b5",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "3a4b9c628f25"
+   },
+   "tasca2": {
+    "schermo": "2f057d08592f",
+    "colori": 26,
+    "callback": 134765981,
+    "EWRAM": "4d3ee51916eb",
+    "IWRAM": "e83c5c5fd142",
+    "VRAM": "eb929723e75d",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "fdd494778995"
+   },
+   "ritorno": {
+    "schermo": "4f5a4bb6bacb",
+    "colori": 22,
+    "callback": 134765981,
+    "EWRAM": "394d84ad3903",
+    "IWRAM": "eb2fa4832ad2",
+    "VRAM": "74a91c9d8b5b",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "1f760cc8e868"
+   }
+  },
+  "mGBA t56_lib_out": {
+   "cammina": {
+    "schermo": "8fe9c725709f",
+    "colori": 15,
+    "callback": 134765981,
+    "EWRAM": "f20c120baec5",
+    "IWRAM": "e32c83be812a",
+    "VRAM": "40f936a10e40",
+    "PAL": "9cc47e804974",
+    "OAM": "7a026e6f961a"
+   },
+   "menu": {
+    "schermo": "2063917c0288",
+    "colori": 20,
+    "callback": 134765981,
+    "EWRAM": "de13d6e8b869",
+    "IWRAM": "70a12cde1269",
+    "VRAM": "13ec567e7c6f",
+    "PAL": "9cc47e804974",
+    "OAM": "af1b45a049bd"
+   },
+   "pokedex": {
+    "schermo": "95099280dade",
+    "colori": 26,
+    "callback": 135967121,
+    "EWRAM": "920478dd295a",
+    "IWRAM": "84748ebe594b",
+    "VRAM": "56cd6b103285",
+    "PAL": "631f91f6ba0e",
+    "OAM": "38c0356d8c92"
+   },
+   "squadra": {
+    "schermo": "f830823215d7",
+    "colori": 15,
+    "callback": 134765981,
+    "EWRAM": "c87079f54fff",
+    "IWRAM": "296e0b3c51ea",
+    "VRAM": "49a8c854748e",
+    "PAL": "9cc47e804974",
+    "OAM": "ea1f215dc344"
+   },
+   "riassunto": {
+    "schermo": "f830823215d7",
+    "colori": 15,
+    "callback": 134765981,
+    "EWRAM": "33d326761ab3",
+    "IWRAM": "b3b592d9f1d6",
+    "VRAM": "553e74a95ded",
+    "PAL": "9cc47e804974",
+    "OAM": "8e5da6e97f8a"
+   },
+   "borsa": {
+    "schermo": "bdf68cd2d033",
+    "colori": 25,
+    "callback": 134765981,
+    "EWRAM": "a8a471c63b19",
+    "IWRAM": "514abd30ba1e",
+    "VRAM": "bb55c1ec0ad1",
+    "PAL": "9cc47e804974",
+    "OAM": "8e5da6e97f8a"
+   },
+   "tasca2": {
+    "schermo": "bdf68cd2d033",
+    "colori": 25,
+    "callback": 134765981,
+    "EWRAM": "04f58971ee05",
+    "IWRAM": "bf221aaa3b57",
+    "VRAM": "dc02f1034a23",
+    "PAL": "9cc47e804974",
+    "OAM": "abf56325be1f"
+   },
+   "ritorno": {
+    "schermo": "a4d69d8fc277",
+    "colori": 15,
+    "callback": 134765981,
+    "EWRAM": "1b6a94694583",
+    "IWRAM": "cbdeb9ab7ad3",
+    "VRAM": "6bbf55fafcb6",
+    "PAL": "9cc47e804974",
+    "OAM": "6cd8f6193d2f"
+   }
+  },
+  "mGBA t56_pennelli": {
+   "cammina": {
+    "schermo": "90e8bdccf27b",
+    "colori": 18,
+    "callback": 134765981,
+    "EWRAM": "fd9ef09b4582",
+    "IWRAM": "54bfe8f0a358",
+    "VRAM": "d275d24af1e1",
+    "PAL": "7640a2d850ed",
+    "OAM": "bf8ce3315989"
+   },
+   "menu": {
+    "schermo": "564e4b0f29fb",
+    "colori": 23,
+    "callback": 134765981,
+    "EWRAM": "b71d1b65603c",
+    "IWRAM": "1071c09f6b65",
+    "VRAM": "969463b9f32b",
+    "PAL": "7640a2d850ed",
+    "OAM": "d37a63e53fbf"
+   },
+   "pokedex": {
+    "schermo": "1f82e5239960",
+    "colori": 26,
+    "callback": 135967121,
+    "EWRAM": "bade26df3d0c",
+    "IWRAM": "c197380d0b82",
+    "VRAM": "6fa1368327f3",
+    "PAL": "c66adf8f3e27",
+    "OAM": "38c0356d8c92"
+   },
+   "squadra": {
+    "schermo": "850ef764640f",
+    "colori": 14,
+    "callback": 134765981,
+    "EWRAM": "c603f1f3e270",
+    "IWRAM": "9e86120320ad",
+    "VRAM": "72f60c07e28d",
+    "PAL": "7640a2d850ed",
+    "OAM": "5db27587c9c2"
+   },
+   "riassunto": {
+    "schermo": "19cd6325c8f5",
+    "colori": 14,
+    "callback": 134765981,
+    "EWRAM": "c13f8dd1a461",
+    "IWRAM": "9ede195a5525",
+    "VRAM": "db0456257ed5",
+    "PAL": "7640a2d850ed",
+    "OAM": "4213a9c3fa45"
+   },
+   "borsa": {
+    "schermo": "7738e7f2596d",
+    "colori": 26,
+    "callback": 134765981,
+    "EWRAM": "d8584445764c",
+    "IWRAM": "dd9c69cfa147",
+    "VRAM": "173cf6887327",
+    "PAL": "7640a2d850ed",
+    "OAM": "4213a9c3fa45"
+   },
+   "tasca2": {
+    "schermo": "a049fb3a2a9e",
+    "colori": 26,
+    "callback": 134765981,
+    "EWRAM": "b47e769cec13",
+    "IWRAM": "a886200a16f9",
+    "VRAM": "8697572b592a",
+    "PAL": "7640a2d850ed",
+    "OAM": "e87c7b6d7fc9"
+   },
+   "ritorno": {
+    "schermo": "d5c0846399f8",
+    "colori": 16,
+    "callback": 134765981,
+    "EWRAM": "7e2c1cadd849",
+    "IWRAM": "4fe41bde5f5b",
+    "VRAM": "665e5e1498e6",
+    "PAL": "7640a2d850ed",
+    "OAM": "4213a9c3fa45"
+   }
+  },
+  "mGBA t56_reload": {
+   "cammina": {
+    "schermo": "67c9441c4386",
+    "colori": 33,
+    "callback": 134765981,
+    "EWRAM": "8cf6fe8372b0",
+    "IWRAM": "d25e8c7ccf76",
+    "VRAM": "9d2bfc1f32d6",
+    "PAL": "2716f44ee850",
+    "OAM": "602a08a3e1dd"
+   },
+   "menu": {
+    "schermo": "876d0babb770",
+    "colori": 38,
+    "callback": 134765981,
+    "EWRAM": "41fdeb40a740",
+    "IWRAM": "6809c68066bc",
+    "VRAM": "26a47e3a7466",
+    "PAL": "2716f44ee850",
+    "OAM": "4e299cb9e7ba"
+   },
+   "pokedex": {
+    "schermo": "9cdb0a037202",
+    "colori": 19,
+    "callback": 134986073,
+    "EWRAM": "0a68eb87dd6f",
+    "IWRAM": "339a5e39378c",
+    "VRAM": "92a93d8e8bee",
+    "PAL": "89d7d6129f7b",
+    "OAM": "05eae48dc51b"
+   },
+   "squadra": {
+    "schermo": "f167509b33e7",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "c18499348448",
+    "IWRAM": "3c3e4f32b695",
+    "VRAM": "6328a7c9ca48",
+    "PAL": "2716f44ee850",
+    "OAM": "2b3bb547e603"
+   },
+   "riassunto": {
+    "schermo": "f167509b33e7",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "7704775fd25f",
+    "IWRAM": "e866a0b1d462",
+    "VRAM": "be835b43ab77",
+    "PAL": "2716f44ee850",
+    "OAM": "266cc5f118d8"
+   },
+   "borsa": {
+    "schermo": "90b23f47d394",
+    "colori": 24,
+    "callback": 135967121,
+    "EWRAM": "b51aaf310eba",
+    "IWRAM": "c0b578274c86",
+    "VRAM": "90efcc6ea390",
+    "PAL": "ca41255ba522",
+    "OAM": "efcf1deddc08"
+   },
+   "tasca2": {
+    "schermo": "eb4389191bce",
+    "colori": 28,
+    "callback": 135967121,
+    "EWRAM": "a3852270eae0",
+    "IWRAM": "30e8693d7901",
+    "VRAM": "4322ac6a5c1c",
+    "PAL": "6d9ca464ca0e",
+    "OAM": "bfeb65a99c5f"
+   },
+   "ritorno": {
+    "schermo": "5670373d8869",
+    "colori": 18,
+    "callback": 134765981,
+    "EWRAM": "e13e70dc11f8",
+    "IWRAM": "acb9bd82b0da",
+    "VRAM": "35b1770b87c2",
+    "PAL": "cfb5a70f6088",
+    "OAM": "981dda209863"
+   }
+  },
+  "mGBA t56_rename": {
+   "cammina": {
+    "schermo": "6cabd4d8ae90",
+    "colori": 36,
+    "callback": 134765981,
+    "EWRAM": "47e52ff27606",
+    "IWRAM": "4aaafa94de23",
+    "VRAM": "48fc3187744f",
+    "PAL": "4da28118b6a8",
+    "OAM": "e0227459f359"
+   },
+   "menu": {
+    "schermo": "bf7d59e233a4",
+    "colori": 41,
+    "callback": 134765981,
+    "EWRAM": "d7d5818345bd",
+    "IWRAM": "86f6795f63bd",
+    "VRAM": "e1665d0d589c",
+    "PAL": "d234b500292f",
+    "OAM": "1cb4b62794b8"
+   },
+   "pokedex": {
+    "schermo": "52a302475fdf",
+    "colori": 16,
+    "callback": 134986073,
+    "EWRAM": "ab53c0969291",
+    "IWRAM": "38c40ab646e2",
+    "VRAM": "e5a376aabe30",
+    "PAL": "c93b1d12e4b7",
+    "OAM": "71173204440a"
+   },
+   "squadra": {
+    "schermo": "100e4ce34a40",
+    "colori": 43,
+    "callback": 134765981,
+    "EWRAM": "21f6b79f9446",
+    "IWRAM": "956ff42b985b",
+    "VRAM": "aa11a8db6e7e",
+    "PAL": "d234b500292f",
+    "OAM": "016a731653d3"
+   },
+   "riassunto": {
+    "schermo": "9f1df2fcb989",
+    "colori": 43,
+    "callback": 134765981,
+    "EWRAM": "f83a7cc94ed2",
+    "IWRAM": "c81059b7be5f",
+    "VRAM": "b95c2a3687b9",
+    "PAL": "d234b500292f",
+    "OAM": "e096beedea4f"
+   },
+   "borsa": {
+    "schermo": "28b4354134e1",
+    "colori": 24,
+    "callback": 135967121,
+    "EWRAM": "f40e61da7b8a",
+    "IWRAM": "e5f4f6d28692",
+    "VRAM": "948551d661d9",
+    "PAL": "c8ba0cd3b721",
+    "OAM": "efcf1deddc08"
+   },
+   "tasca2": {
+    "schermo": "0270506e373e",
+    "colori": 28,
+    "callback": 135967121,
+    "EWRAM": "b403ca05cc96",
+    "IWRAM": "762ed930e262",
+    "VRAM": "bae66a8bb155",
+    "PAL": "70fac73fe455",
+    "OAM": "bfeb65a99c5f"
+   },
+   "ritorno": {
+    "schermo": "6f4df53c41b9",
+    "colori": 35,
+    "callback": 134765981,
+    "EWRAM": "ad83215699dd",
+    "IWRAM": "2fe75e6776b4",
+    "VRAM": "46a10a7762ca",
+    "PAL": "893051baa460",
+    "OAM": "3476599cd3cb"
+   }
+  },
+  "mGBA t56_rename2": {
+   "cammina": {
+    "schermo": "6cabd4d8ae90",
+    "colori": 36,
+    "callback": 134765981,
+    "EWRAM": "a3cd72de20f7",
+    "IWRAM": "dbb531c74b17",
+    "VRAM": "48fc3187744f",
+    "PAL": "4da28118b6a8",
+    "OAM": "e0227459f359"
+   },
+   "menu": {
+    "schermo": "bf7d59e233a4",
+    "colori": 41,
+    "callback": 134765981,
+    "EWRAM": "1162c7081e8c",
+    "IWRAM": "1e7010a7361f",
+    "VRAM": "e1665d0d589c",
+    "PAL": "d234b500292f",
+    "OAM": "1cb4b62794b8"
+   },
+   "pokedex": {
+    "schermo": "52a302475fdf",
+    "colori": 16,
+    "callback": 134986073,
+    "EWRAM": "dfd837b9d4c0",
+    "IWRAM": "d05fbd2b4fbf",
+    "VRAM": "e5a376aabe30",
+    "PAL": "c93b1d12e4b7",
+    "OAM": "71173204440a"
+   },
+   "squadra": {
+    "schermo": "100e4ce34a40",
+    "colori": 43,
+    "callback": 134765981,
+    "EWRAM": "d1eeb7090f9f",
+    "IWRAM": "afaa99e4573c",
+    "VRAM": "aa11a8db6e7e",
+    "PAL": "d234b500292f",
+    "OAM": "016a731653d3"
+   },
+   "riassunto": {
+    "schermo": "9f1df2fcb989",
+    "colori": 43,
+    "callback": 134765981,
+    "EWRAM": "a65cd88919ec",
+    "IWRAM": "9e0dd1cf8ac0",
+    "VRAM": "b95c2a3687b9",
+    "PAL": "d234b500292f",
+    "OAM": "e096beedea4f"
+   },
+   "borsa": {
+    "schermo": "28b4354134e1",
+    "colori": 24,
+    "callback": 135967121,
+    "EWRAM": "a99ee4e4fdce",
+    "IWRAM": "792812c63c00",
+    "VRAM": "948551d661d9",
+    "PAL": "c8ba0cd3b721",
+    "OAM": "efcf1deddc08"
+   },
+   "tasca2": {
+    "schermo": "0270506e373e",
+    "colori": 28,
+    "callback": 135967121,
+    "EWRAM": "dbaed9047031",
+    "IWRAM": "ebc1b9716895",
+    "VRAM": "bae66a8bb155",
+    "PAL": "70fac73fe455",
+    "OAM": "bfeb65a99c5f"
+   },
+   "ritorno": {
+    "schermo": "6f4df53c41b9",
+    "colori": 35,
+    "callback": 134765981,
+    "EWRAM": "30356fa6acaa",
+    "IWRAM": "c5e0afbe1db6",
+    "VRAM": "46a10a7762ca",
+    "PAL": "893051baa460",
+    "OAM": "3476599cd3cb"
+   }
+  },
+  "mGBA t56_smeargle": {
+   "cammina": {
+    "schermo": "82c4d54361c5",
+    "colori": 27,
+    "callback": 134765981,
+    "EWRAM": "8023faab3dfd",
+    "IWRAM": "14c89eecc88b",
+    "VRAM": "c31b215483c2",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "58a5a2382521"
+   },
+   "menu": {
+    "schermo": "45b5b7db440c",
+    "colori": 29,
+    "callback": 134765981,
+    "EWRAM": "75dfc47f41c8",
+    "IWRAM": "d1f948b02800",
+    "VRAM": "3fde403536d7",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "0ed6dda42036"
+   },
+   "pokedex": {
+    "schermo": "1f82e5239960",
+    "colori": 26,
+    "callback": 135967121,
+    "EWRAM": "b8d968180907",
+    "IWRAM": "c1f6f334e2a7",
+    "VRAM": "6fa1368327f3",
+    "PAL": "afe059d7e354",
+    "OAM": "38c0356d8c92"
+   },
+   "squadra": {
+    "schermo": "c5682f503f14",
+    "colori": 24,
+    "callback": 134765981,
+    "EWRAM": "a186fb5f4628",
+    "IWRAM": "0a2495f977eb",
+    "VRAM": "999065d54944",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "0521fe775cfa"
+   },
+   "riassunto": {
+    "schermo": "c5682f503f14",
+    "colori": 24,
+    "callback": 134765981,
+    "EWRAM": "5d39b2ab1cc2",
+    "IWRAM": "2a120a4b4745",
+    "VRAM": "bf5fa6b7e6ce",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "3a4b9c628f25"
+   },
+   "borsa": {
+    "schermo": "2f057d08592f",
+    "colori": 26,
+    "callback": 134765981,
+    "EWRAM": "9ffca5617ffc",
+    "IWRAM": "5ec8382357f5",
+    "VRAM": "567bfc5ab9b5",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "3a4b9c628f25"
+   },
+   "tasca2": {
+    "schermo": "2f057d08592f",
+    "colori": 26,
+    "callback": 134765981,
+    "EWRAM": "4d3ee51916eb",
+    "IWRAM": "e83c5c5fd142",
+    "VRAM": "eb929723e75d",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "fdd494778995"
+   },
+   "ritorno": {
+    "schermo": "4f5a4bb6bacb",
+    "colori": 22,
+    "callback": 134765981,
+    "EWRAM": "394d84ad3903",
+    "IWRAM": "eb2fa4832ad2",
+    "VRAM": "74a91c9d8b5b",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "1f760cc8e868"
+   }
+  },
+  "mGBA t59_entei": {
+   "cammina": {
+    "schermo": "175fa6f9b114",
+    "colori": 11,
+    "callback": 134765981,
+    "EWRAM": "d2b08d49a58e",
+    "IWRAM": "f726bc2d28c1",
+    "VRAM": "105ae529d70f",
+    "PAL": "d3b0a1fce7ee",
+    "OAM": "8b0331de0d98"
+   },
+   "menu": {
+    "schermo": "8868b3a29993",
+    "colori": 19,
+    "callback": 134765981,
+    "EWRAM": "a306226fcda9",
+    "IWRAM": "a2a39d88b6e6",
+    "VRAM": "fd00c6d9ffa8",
+    "PAL": "7983b575ae2f",
+    "OAM": "cbe521c78da6"
+   },
+   "pokedex": {
+    "schermo": "bc022f8f6d02",
+    "colori": 32,
+    "callback": 135988689,
+    "EWRAM": "5d3fd7fa2a9b",
+    "IWRAM": "377671eba379",
+    "VRAM": "c3e40d02d89c",
+    "PAL": "bf5bc9e5bcc5",
+    "OAM": "81f0ea5ddefb"
+   },
+   "squadra": {
+    "schermo": "fbf98ebae070",
+    "colori": 12,
+    "callback": 134765981,
+    "EWRAM": "24863d07456c",
+    "IWRAM": "c11774fc06da",
+    "VRAM": "1a057c94c98c",
+    "PAL": "7983b575ae2f",
+    "OAM": "9fbe91ac34db"
+   },
+   "riassunto": {
+    "schermo": "fbf98ebae070",
+    "colori": 12,
+    "callback": 134765981,
+    "EWRAM": "e49b13db8ddb",
+    "IWRAM": "46ac92d8dba0",
+    "VRAM": "660fe7808561",
+    "PAL": "7983b575ae2f",
+    "OAM": "6ae231b804fb"
+   },
+   "borsa": {
+    "schermo": "986b2c982f70",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "49a211a95d08",
+    "IWRAM": "983b3adb6ead",
+    "VRAM": "250b02aebef0",
+    "PAL": "3751ad4a89ec",
+    "OAM": "db71ea0c8b12"
+   },
+   "tasca2": {
+    "schermo": "3696ca04e490",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "cdd246713309",
+    "IWRAM": "a20832af6d70",
+    "VRAM": "c721e4e554f4",
+    "PAL": "3751ad4a89ec",
+    "OAM": "db71ea0c8b12"
+   },
+   "ritorno": {
+    "schermo": "860e0507cab4",
+    "colori": 9,
+    "callback": 134765981,
+    "EWRAM": "8a26379a9365",
+    "IWRAM": "1ded06fef2f7",
+    "VRAM": "2debff90436e",
+    "PAL": "7e870972808f",
+    "OAM": "fec1d4532242"
+   }
+  },
+  "mGBA t59_raikou": {
+   "cammina": {
+    "schermo": "01b30f85584e",
+    "colori": 30,
+    "callback": 134448105,
+    "EWRAM": "134efc85cce7",
+    "IWRAM": "3e83d1d9b181",
+    "VRAM": "2380802f3125",
+    "PAL": "8287171a3b70",
+    "OAM": "08f36e911a34"
+   },
+   "menu": {
+    "schermo": "66ca4b7c802d",
+    "colori": 38,
+    "callback": 134448105,
+    "EWRAM": "76fea830bb1d",
+    "IWRAM": "4d276d168a33",
+    "VRAM": "0a698d93f097",
+    "PAL": "002b87279f09",
+    "OAM": "0f5f19015e77"
+   },
+   "pokedex": {
+    "schermo": "e57b3ea3a29e",
+    "colori": 42,
+    "callback": 134448105,
+    "EWRAM": "666d3a970b66",
+    "IWRAM": "ed56619a10fd",
+    "VRAM": "18fe4f5f5749",
+    "PAL": "4848362c5c36",
+    "OAM": "67505bc0d136"
+   },
+   "squadra": {
+    "schermo": "bc022f8f6d02",
+    "colori": 32,
+    "callback": 135988689,
+    "EWRAM": "af8e816df093",
+    "IWRAM": "b3aced4a3427",
+    "VRAM": "c3e40d02d89c",
+    "PAL": "7ec47b793121",
+    "OAM": "81f0ea5ddefb"
+   },
+   "riassunto": {
+    "schermo": "5867ee30b400",
+    "colori": 31,
+    "callback": 135988689,
+    "EWRAM": "446cae85b11a",
+    "IWRAM": "b0a839b43076",
+    "VRAM": "cf70acfa38a2",
+    "PAL": "7ec47b793121",
+    "OAM": "eb6b20d24821"
+   },
+   "borsa": {
+    "schermo": "bc022f8f6d02",
+    "colori": 32,
+    "callback": 135988689,
+    "EWRAM": "847d9dc3cc91",
+    "IWRAM": "21b460ba9d3a",
+    "VRAM": "c3e40d02d89c",
+    "PAL": "7ec47b793121",
+    "OAM": "81f0ea5ddefb"
+   },
+   "tasca2": {
+    "schermo": "98d7a70548c8",
+    "colori": 32,
+    "callback": 135988689,
+    "EWRAM": "450cb8430c77",
+    "IWRAM": "52dd4a257cbe",
+    "VRAM": "9900b67a7f2f",
+    "PAL": "1b0764ecd852",
+    "OAM": "1c2bca02e648"
+   },
+   "ritorno": {
+    "schermo": "1f7ae2d4690b",
+    "colori": 46,
+    "callback": 134448105,
+    "EWRAM": "89cbc669d252",
+    "IWRAM": "774a9bd68f49",
+    "VRAM": "46a65a67b5ca",
+    "PAL": "139380e119e1",
+    "OAM": "6912fc9ce1b8"
+   }
+  },
+  "mGBA t59_ravenna": {
+   "cammina": {
+    "schermo": "21aacf85dfa1",
+    "colori": 29,
+    "callback": 134765981,
+    "EWRAM": "345b7879d821",
+    "IWRAM": "569954ab6734",
+    "VRAM": "9beae0a21dc4",
+    "PAL": "587fa2ce6111",
+    "OAM": "7aa0cbdf9729"
+   },
+   "menu": {
+    "schermo": "03fa359ccf69",
+    "colori": 34,
+    "callback": 134765981,
+    "EWRAM": "429edeb8e735",
+    "IWRAM": "4cda622b181d",
+    "VRAM": "7bc73c31467d",
+    "PAL": "68bcc969550d",
+    "OAM": "e8b736719ddd"
+   },
+   "pokedex": {
+    "schermo": "bc022f8f6d02",
+    "colori": 32,
+    "callback": 135988689,
+    "EWRAM": "76e422a5d5e4",
+    "IWRAM": "001939b1b53b",
+    "VRAM": "c3e40d02d89c",
+    "PAL": "134f26f61c2d",
+    "OAM": "81f0ea5ddefb"
+   },
+   "squadra": {
+    "schermo": "077c3a06b904",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "9a800a51961e",
+    "IWRAM": "d7704dce415c",
+    "VRAM": "005eee7a9c8f",
+    "PAL": "68bcc969550d",
+    "OAM": "7415a67d2125"
+   },
+   "riassunto": {
+    "schermo": "077c3a06b904",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "33e41f9962e9",
+    "IWRAM": "a5adc743320a",
+    "VRAM": "7cd73ba164c7",
+    "PAL": "68bcc969550d",
+    "OAM": "bce72c9f12fc"
+   },
+   "borsa": {
+    "schermo": "719e714ace66",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "bcb6db4a0dee",
+    "IWRAM": "300cb70b08b2",
+    "VRAM": "3b961822636c",
+    "PAL": "4b290bbab040",
+    "OAM": "db71ea0c8b12"
+   },
+   "tasca2": {
+    "schermo": "debcf53ec869",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "9cec70e161fc",
+    "IWRAM": "9116460f4368",
+    "VRAM": "eb2692514c48",
+    "PAL": "4b290bbab040",
+    "OAM": "db71ea0c8b12"
+   },
+   "ritorno": {
+    "schermo": "6c1555071b23",
+    "colori": 29,
+    "callback": 134765981,
+    "EWRAM": "aa4e043d47c4",
+    "IWRAM": "baab8fa03966",
+    "VRAM": "bc2004ea0f6f",
+    "PAL": "3a46329ab2b3",
+    "OAM": "96e9784a8e79"
+   }
+  },
+  "mGBA t59_suicune": {
+   "cammina": {
+    "schermo": "d9bde2db382a",
+    "colori": 28,
+    "callback": 134765981,
+    "EWRAM": "815b1e632c3d",
+    "IWRAM": "277966116fed",
+    "VRAM": "9f2126d13ced",
+    "PAL": "cf1207b2b58e",
+    "OAM": "ed2a50287e56"
+   },
+   "menu": {
+    "schermo": "32e0ff3ee8aa",
+    "colori": 35,
+    "callback": 134765981,
+    "EWRAM": "7513d1819893",
+    "IWRAM": "5bb703379841",
+    "VRAM": "c0f470ad4f08",
+    "PAL": "cf1207b2b58e",
+    "OAM": "ed2a50287e56"
+   },
+   "pokedex": {
+    "schermo": "bc022f8f6d02",
+    "colori": 32,
+    "callback": 135988689,
+    "EWRAM": "16e4d3a94dfb",
+    "IWRAM": "2f45f78143a8",
+    "VRAM": "c3e40d02d89c",
+    "PAL": "4a60b1a85c08",
+    "OAM": "81f0ea5ddefb"
+   },
+   "squadra": {
+    "schermo": "cc07ee580cc7",
+    "colori": 35,
+    "callback": 134765981,
+    "EWRAM": "78be4616d846",
+    "IWRAM": "9b527883be2c",
+    "VRAM": "652d65d88755",
+    "PAL": "cf1207b2b58e",
+    "OAM": "5fb0fdfcfd5f"
+   },
+   "riassunto": {
+    "schermo": "c31861fc9543",
+    "colori": 28,
+    "callback": 134765981,
+    "EWRAM": "79f68f4450cd",
+    "IWRAM": "5561eda9399e",
+    "VRAM": "5a2f7dc6bc27",
+    "PAL": "618ecebca292",
+    "OAM": "71168739b201"
+   },
+   "borsa": {
+    "schermo": "3696ca04e490",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "b42c42f8a7f8",
+    "IWRAM": "8dad28e1b6a5",
+    "VRAM": "95e0734553d3",
+    "PAL": "bb3102d74df3",
+    "OAM": "db71ea0c8b12"
+   },
+   "tasca2": {
+    "schermo": "986b2c982f70",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "d274436f8f4f",
+    "IWRAM": "676f31ca58eb",
+    "VRAM": "663558dea01f",
+    "PAL": "bb3102d74df3",
+    "OAM": "db71ea0c8b12"
+   },
+   "ritorno": {
+    "schermo": "30e2e745ef7b",
+    "colori": 36,
+    "callback": 134448105,
+    "EWRAM": "54fe6f75b1fd",
+    "IWRAM": "7dda70c08a21",
+    "VRAM": "d15e275e28f9",
+    "PAL": "d95cbec1b7b6",
+    "OAM": "23b6c0be6e12"
+   }
+  },
+  "mGBA salvataggio": {
+   "avvio": {
+    "schermo": "420de35c8a1d",
+    "colori": 33,
+    "callback": 134765981,
+    "EWRAM": "5cf70bdc7746",
+    "IWRAM": "7a7105122b46",
+    "VRAM": "0693fcc8afe5",
+    "PAL": "2716f44ee850",
+    "OAM": "54d489d7763f"
+   },
+   "cammina": {
+    "schermo": "67c9441c4386",
+    "colori": 33,
+    "callback": 134765981,
+    "EWRAM": "4d9c79b8e366",
+    "IWRAM": "30db6c7a8443",
+    "VRAM": "d73255e0f927",
+    "PAL": "2716f44ee850",
+    "OAM": "f3e7ad50c01a"
+   },
+   "menu": {
+    "schermo": "876d0babb770",
+    "colori": 38,
+    "callback": 134765981,
+    "EWRAM": "ae85595e9b02",
+    "IWRAM": "bbb45b9b76b0",
+    "VRAM": "4c934065dc4e",
+    "PAL": "2716f44ee850",
+    "OAM": "c7138258d11c"
+   },
+   "pokedex": {
+    "schermo": "9cdb0a037202",
+    "colori": 19,
+    "callback": 134986073,
+    "EWRAM": "241f525d9a0a",
+    "IWRAM": "6286206cf122",
+    "VRAM": "92a93d8e8bee",
+    "PAL": "89d7d6129f7b",
+    "OAM": "05eae48dc51b"
+   },
+   "squadra": {
+    "schermo": "f167509b33e7",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "5f2fe630aafc",
+    "IWRAM": "50eebfe45d80",
+    "VRAM": "1eae6c4cd25c",
+    "PAL": "2716f44ee850",
+    "OAM": "2b3bb547e603"
+   },
+   "riassunto": {
+    "schermo": "f167509b33e7",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "7e0ca6a26ccb",
+    "IWRAM": "abfa5bd8b841",
+    "VRAM": "26eb6fd8f73e",
+    "PAL": "2716f44ee850",
+    "OAM": "266cc5f118d8"
+   },
+   "borsa": {
+    "schermo": "90b23f47d394",
+    "colori": 24,
+    "callback": 135967121,
+    "EWRAM": "fa07c36a25a6",
+    "IWRAM": "b72d18ccc920",
+    "VRAM": "90efcc6ea390",
+    "PAL": "ca41255ba522",
+    "OAM": "efcf1deddc08"
+   },
+   "tasca2": {
+    "schermo": "eb4389191bce",
+    "colori": 28,
+    "callback": 135967121,
+    "EWRAM": "a9a7c5bbfdf4",
+    "IWRAM": "01287f014683",
+    "VRAM": "4322ac6a5c1c",
+    "PAL": "6d9ca464ca0e",
+    "OAM": "bfeb65a99c5f"
+   },
+   "ritorno": {
+    "schermo": "5670373d8869",
+    "colori": 18,
+    "callback": 134765981,
+    "EWRAM": "139ea4fdb6d4",
+    "IWRAM": "15f0f33d97d7",
+    "VRAM": "f1a2b716b809",
+    "PAL": "cfb5a70f6088",
+    "OAM": "981dda209863"
+   }
+  },
+  "VBA-M salvataggio": {
+   "avvio": {
+    "schermo": "297341343b98",
+    "colori": 33,
+    "callback": 134765981,
+    "EWRAM": "47e6708a39aa",
+    "IWRAM": "c5c1b9128a53",
+    "VRAM": "f1cd0318e8cf",
+    "PAL": "2716f44ee850",
+    "OAM": "54d489d7763f"
+   },
+   "cammina": {
+    "schermo": "3fde1bc721ca",
+    "colori": 33,
+    "callback": 134765981,
+    "EWRAM": "de56a74ad1c4",
+    "IWRAM": "04fbaa476cc3",
+    "VRAM": "210742614a18",
+    "PAL": "2716f44ee850",
+    "OAM": "58aeabbfee07"
+   },
+   "menu": {
+    "schermo": "dd1c3b9e05d1",
+    "colori": 38,
+    "callback": 134765981,
+    "EWRAM": "6ae37ef04d26",
+    "IWRAM": "ae60138e325e",
+    "VRAM": "6ee24ab4f5ea",
+    "PAL": "2716f44ee850",
+    "OAM": "c7138258d11c"
+   },
+   "pokedex": {
+    "schermo": "fe3485c2cf76",
+    "colori": 19,
+    "callback": 134986073,
+    "EWRAM": "e727d38486aa",
+    "IWRAM": "43f302322b3d",
+    "VRAM": "92a93d8e8bee",
+    "PAL": "89d7d6129f7b",
+    "OAM": "3bfda0ec54df"
+   },
+   "squadra": {
+    "schermo": "79859232a3c4",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "c6e95fc848e6",
+    "IWRAM": "fae680f24b9e",
+    "VRAM": "24a41863147f",
+    "PAL": "2716f44ee850",
+    "OAM": "2b3bb547e603"
+   },
+   "riassunto": {
+    "schermo": "79859232a3c4",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "b2f2801c5355",
+    "IWRAM": "57459b972dcb",
+    "VRAM": "26eb6fd8f73e",
+    "PAL": "2716f44ee850",
+    "OAM": "266cc5f118d8"
+   },
+   "borsa": {
+    "schermo": "e1b8b9692256",
+    "colori": 24,
+    "callback": 135967121,
+    "EWRAM": "73f8c68cd1b7",
+    "IWRAM": "051b3adef729",
+    "VRAM": "90efcc6ea390",
+    "PAL": "ca41255ba522",
+    "OAM": "efcf1deddc08"
+   },
+   "tasca2": {
+    "schermo": "0cb0c89ef184",
+    "colori": 28,
+    "callback": 135967121,
+    "EWRAM": "3c6504c8271a",
+    "IWRAM": "4b5946b13821",
+    "VRAM": "4322ac6a5c1c",
+    "PAL": "6d9ca464ca0e",
+    "OAM": "bfeb65a99c5f"
+   },
+   "ritorno": {
+    "schermo": "599d0e1fc78c",
+    "colori": 18,
+    "callback": 134765981,
+    "EWRAM": "fbcab1aee151",
+    "IWRAM": "e269b9235017",
+    "VRAM": "8a62ae3b04dd",
+    "PAL": "cfb5a70f6088",
+    "OAM": "981dda209863"
+   }
+  }
+ },
+ "rif": {
+  "mGBA gpre": {
+   "cammina": {
+    "schermo": "4ad8d46c6e90",
+    "colori": 43,
+    "callback": 134448105,
+    "EWRAM": "a045d8fe5536",
+    "IWRAM": "8af942e4cdc8",
+    "VRAM": "c74506ed37bb",
+    "PAL": "842de9ad50e2",
+    "OAM": "6680a3ec93c1"
+   },
+   "menu": {
+    "schermo": "4ad8d46c6e90",
+    "colori": 43,
+    "callback": 134448105,
+    "EWRAM": "5a81c852a40a",
+    "IWRAM": "58fb65084075",
+    "VRAM": "c74506ed37bb",
+    "PAL": "842de9ad50e2",
+    "OAM": "6680a3ec93c1"
+   },
+   "pokedex": {
+    "schermo": "0d75e1cdfc83",
+    "colori": 45,
+    "callback": 134448105,
+    "EWRAM": "f61c25bfd40a",
+    "IWRAM": "219915e06da7",
+    "VRAM": "f38672b606c0",
+    "PAL": "260629d0d025",
+    "OAM": "a88a1eea31ce"
+   },
+   "squadra": {
+    "schermo": "bc022f8f6d02",
+    "colori": 32,
+    "callback": 135988689,
+    "EWRAM": "6c75427f84be",
+    "IWRAM": "7befb052fb70",
+    "VRAM": "c3e40d02d89c",
+    "PAL": "edbf372804aa",
+    "OAM": "81f0ea5ddefb"
+   },
+   "riassunto": {
+    "schermo": "f6c42a316e22",
+    "colori": 30,
+    "callback": 135988689,
+    "EWRAM": "bb59cd518547",
+    "IWRAM": "16edb2e00552",
+    "VRAM": "69c5ff28c3c2",
+    "PAL": "edbf372804aa",
+    "OAM": "81f0ea5ddefb"
+   },
+   "borsa": {
+    "schermo": "bc022f8f6d02",
+    "colori": 32,
+    "callback": 135988689,
+    "EWRAM": "bd91ab712bba",
+    "IWRAM": "fd4af0f85b31",
+    "VRAM": "c3e40d02d89c",
+    "PAL": "edbf372804aa",
+    "OAM": "81f0ea5ddefb"
+   },
+   "tasca2": {
+    "schermo": "98d7a70548c8",
+    "colori": 32,
+    "callback": 135988689,
+    "EWRAM": "1fbfddbbdfca",
+    "IWRAM": "9fda1bba7e37",
+    "VRAM": "9900b67a7f2f",
+    "PAL": "63aceb8b3be9",
+    "OAM": "1c2bca02e648"
+   },
+   "ritorno": {
+    "schermo": "db01de4cf9d1",
+    "colori": 50,
+    "callback": 134448105,
+    "EWRAM": "41c7765d1e14",
+    "IWRAM": "e342dcca994c",
+    "VRAM": "45cdae58422d",
+    "PAL": "cec77e0dd2f3",
+    "OAM": "24fbe4d5b9aa"
+   }
+  },
+  "mGBA prog_b6b": {
+   "cammina": {
+    "schermo": "f11038776f37",
+    "colori": 12,
+    "callback": 134765981,
+    "EWRAM": "328e5f6f82b5",
+    "IWRAM": "109a3bcccced",
+    "VRAM": "d73ab7a68ae3",
+    "PAL": "f13e48bcc5bc",
+    "OAM": "accb8db390ae"
+   },
+   "menu": {
+    "schermo": "5c79ff6df2b7",
+    "colori": 20,
+    "callback": 134765981,
+    "EWRAM": "7767917ec71f",
+    "IWRAM": "f75aeda97667",
+    "VRAM": "4693ef236a14",
+    "PAL": "f13e48bcc5bc",
+    "OAM": "65d3c1fdcc93"
+   },
+   "pokedex": {
+    "schermo": "39aca1dce70b",
+    "colori": 33,
+    "callback": 135988689,
+    "EWRAM": "6edd2b5b2bfc",
+    "IWRAM": "e38e3b255d31",
+    "VRAM": "ac9c6b3854f3",
+    "PAL": "7f67f44b12c7",
+    "OAM": "eb6b20d24821"
+   },
+   "squadra": {
+    "schermo": "ec591b0b633a",
+    "colori": 12,
+    "callback": 134765981,
+    "EWRAM": "359b1c22779d",
+    "IWRAM": "c7177854c065",
+    "VRAM": "f5135ec39252",
+    "PAL": "f13e48bcc5bc",
+    "OAM": "e546b490cecb"
+   },
+   "riassunto": {
+    "schermo": "ec591b0b633a",
+    "colori": 12,
+    "callback": 134765981,
+    "EWRAM": "03e5cc99bc6c",
+    "IWRAM": "c90cb0c66f1a",
+    "VRAM": "f5135ec39252",
+    "PAL": "f13e48bcc5bc",
+    "OAM": "4726875a4e59"
+   },
+   "borsa": {
+    "schermo": "7aa3ab1864d0",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "10f283398b03",
+    "IWRAM": "0027654ce238",
+    "VRAM": "e5c83a35dad6",
+    "PAL": "5b9acd5924a4",
+    "OAM": "db71ea0c8b12"
+   },
+   "tasca2": {
+    "schermo": "7aa3ab1864d0",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "6049f921e7e3",
+    "IWRAM": "df50c9100d0f",
+    "VRAM": "e5c83a35dad6",
+    "PAL": "5b9acd5924a4",
+    "OAM": "db71ea0c8b12"
+   },
+   "ritorno": {
+    "schermo": "616c06db8010",
+    "colori": 11,
+    "callback": 134765981,
+    "EWRAM": "6e9003a55f5f",
+    "IWRAM": "63a337040839",
+    "VRAM": "987699dae0de",
+    "PAL": "9cd6fb2e4f11",
+    "OAM": "92ecbf707345"
+   }
+  },
+  "mGBA prog_imola": {
+   "cammina": {
+    "schermo": "1112e185823f",
+    "colori": 9,
+    "callback": 134765981,
+    "EWRAM": "1bb9a89e3c52",
+    "IWRAM": "a05f8dc36a95",
+    "VRAM": "29541b527d5a",
+    "PAL": "6be80999dcd6",
+    "OAM": "4f282d510f99"
+   },
+   "menu": {
+    "schermo": "be370e3318d9",
+    "colori": 14,
+    "callback": 134765981,
+    "EWRAM": "a40d70405650",
+    "IWRAM": "d0f76bd21f4d",
+    "VRAM": "b5c46f1cdce7",
+    "PAL": "6be80999dcd6",
+    "OAM": "b29baaf11295"
+   },
+   "pokedex": {
+    "schermo": "39aca1dce70b",
+    "colori": 33,
+    "callback": 135988689,
+    "EWRAM": "469cd8979c7c",
+    "IWRAM": "cb865cce209d",
+    "VRAM": "ac9c6b3854f3",
+    "PAL": "c32ea930d248",
+    "OAM": "eb6b20d24821"
+   },
+   "squadra": {
+    "schermo": "cccb2da4ca87",
+    "colori": 10,
+    "callback": 134765981,
+    "EWRAM": "1967376ba400",
+    "IWRAM": "e9edb04d41a0",
+    "VRAM": "6603bbbb287c",
+    "PAL": "6be80999dcd6",
+    "OAM": "c794f9319ccb"
+   },
+   "riassunto": {
+    "schermo": "cccb2da4ca87",
+    "colori": 10,
+    "callback": 134765981,
+    "EWRAM": "5ef25aefb145",
+    "IWRAM": "3d31b3e70f3a",
+    "VRAM": "c8630fef1eca",
+    "PAL": "6be80999dcd6",
+    "OAM": "706ede8f46cb"
+   },
+   "borsa": {
+    "schermo": "721dc96e3d26",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "2e38fa65e5b9",
+    "IWRAM": "c82ea8489df1",
+    "VRAM": "0dc2a026576b",
+    "PAL": "5b9acd5924a4",
+    "OAM": "db71ea0c8b12"
+   },
+   "tasca2": {
+    "schermo": "7e565f8e42f6",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "d4b03c848e1b",
+    "IWRAM": "eefb9fa0dde0",
+    "VRAM": "4ce1330f6095",
+    "PAL": "5b9acd5924a4",
+    "OAM": "db71ea0c8b12"
+   },
+   "ritorno": {
+    "schermo": "e4ff0925c440",
+    "colori": 37,
+    "callback": 134765981,
+    "EWRAM": "5c919ef5925d",
+    "IWRAM": "41b13d05fc55",
+    "VRAM": "9539c05b0dc8",
+    "PAL": "7ce0c30fe13c",
+    "OAM": "a9b146dc6685"
+   }
+  },
+  "mGBA q8_end": {
+   "cammina": {
+    "schermo": "f189b45cdfb4",
+    "colori": 25,
+    "callback": 134765981,
+    "EWRAM": "2732164d646d",
+    "IWRAM": "98bf356de836",
+    "VRAM": "7511dfcfd8da",
+    "PAL": "2d357a4eb602",
+    "OAM": "523363268a6a"
+   },
+   "menu": {
+    "schermo": "4f4d606b2aec",
+    "colori": 29,
+    "callback": 134765981,
+    "EWRAM": "186dce41c688",
+    "IWRAM": "b044190f1229",
+    "VRAM": "aa3eca4e9e2f",
+    "PAL": "2d357a4eb602",
+    "OAM": "3af59d45680a"
+   },
+   "pokedex": {
+    "schermo": "52a302475fdf",
+    "colori": 16,
+    "callback": 134986073,
+    "EWRAM": "d7198cba349c",
+    "IWRAM": "9504039cd285",
+    "VRAM": "e5a376aabe30",
+    "PAL": "1fdaf26cb220",
+    "OAM": "71173204440a"
+   },
+   "squadra": {
+    "schermo": "3ef24a32b087",
+    "colori": 22,
+    "callback": 134765981,
+    "EWRAM": "41fa27dd5dac",
+    "IWRAM": "6d8b12d47039",
+    "VRAM": "08b5ecf23180",
+    "PAL": "2d357a4eb602",
+    "OAM": "0f29a74e99db"
+   },
+   "riassunto": {
+    "schermo": "3ef24a32b087",
+    "colori": 22,
+    "callback": 134765981,
+    "EWRAM": "0597c24c7d8d",
+    "IWRAM": "5d6d413b838f",
+    "VRAM": "08b5ecf23180",
+    "PAL": "2d357a4eb602",
+    "OAM": "11714c4e5fa4"
+   },
+   "borsa": {
+    "schermo": "28b4354134e1",
+    "colori": 24,
+    "callback": 135967121,
+    "EWRAM": "afd04b0a2d31",
+    "IWRAM": "1c87fc8e0d89",
+    "VRAM": "948551d661d9",
+    "PAL": "21b0e86279f5",
+    "OAM": "efcf1deddc08"
+   },
+   "tasca2": {
+    "schermo": "0270506e373e",
+    "colori": 28,
+    "callback": 135967121,
+    "EWRAM": "2b29bbaf97e7",
+    "IWRAM": "d9a8bd2d3bbd",
+    "VRAM": "bae66a8bb155",
+    "PAL": "1c5f19ecc9d4",
+    "OAM": "bfeb65a99c5f"
+   },
+   "ritorno": {
+    "schermo": "c1f564bf6ef0",
+    "colori": 34,
+    "callback": 134765981,
+    "EWRAM": "05506658655d",
+    "IWRAM": "94628d0205b8",
+    "VRAM": "5877a32acbf8",
+    "PAL": "e3f34729945b",
+    "OAM": "c11cff97c322"
+   }
+  },
+  "mGBA s_ce3": {
+   "cammina": {
+    "schermo": "cf2f31555ca5",
+    "colori": 12,
+    "callback": 134765981,
+    "EWRAM": "dabf948c8e7d",
+    "IWRAM": "1fbcbf6fc87d",
+    "VRAM": "7fb5ec951dc2",
+    "PAL": "55f960dac1e2",
+    "OAM": "25237bf797e3"
+   },
+   "menu": {
+    "schermo": "e1a4e0990f80",
+    "colori": 20,
+    "callback": 134765981,
+    "EWRAM": "8d6c3a45faba",
+    "IWRAM": "79ac715989e6",
+    "VRAM": "5ce86ee42edd",
+    "PAL": "55f960dac1e2",
+    "OAM": "25237bf797e3"
+   },
+   "pokedex": {
+    "schermo": "1f82e5239960",
+    "colori": 26,
+    "callback": 135967121,
+    "EWRAM": "181566f8c609",
+    "IWRAM": "6b1a4d4fc0c0",
+    "VRAM": "6fa1368327f3",
+    "PAL": "d7965a30fa3d",
+    "OAM": "38c0356d8c92"
+   },
+   "squadra": {
+    "schermo": "6f527165135b",
+    "colori": 12,
+    "callback": 134765981,
+    "EWRAM": "6b2727cf4fe7",
+    "IWRAM": "a0d4850c1953",
+    "VRAM": "b16d1aef48a9",
+    "PAL": "55f960dac1e2",
+    "OAM": "00418f98f3c5"
+   },
+   "riassunto": {
+    "schermo": "6f527165135b",
+    "colori": 12,
+    "callback": 134765981,
+    "EWRAM": "422edfd1fa0f",
+    "IWRAM": "e2bbcdd2b745",
+    "VRAM": "aedfb7d48282",
+    "PAL": "55f960dac1e2",
+    "OAM": "4733c29fdb9a"
+   },
+   "borsa": {
+    "schermo": "4f07a1ffc58d",
+    "colori": 21,
+    "callback": 134765981,
+    "EWRAM": "2d0d4d1132c3",
+    "IWRAM": "adbd14d153c8",
+    "VRAM": "88e51cba8d65",
+    "PAL": "55f960dac1e2",
+    "OAM": "4733c29fdb9a"
+   },
+   "tasca2": {
+    "schermo": "4f07a1ffc58d",
+    "colori": 21,
+    "callback": 134765981,
+    "EWRAM": "1477eb09f8d8",
+    "IWRAM": "7ebefd20968f",
+    "VRAM": "9e4b823181cb",
+    "PAL": "55f960dac1e2",
+    "OAM": "ca12734ec3b8"
+   },
+   "ritorno": {
+    "schermo": "b8ed9b1659bf",
+    "colori": 19,
+    "callback": 134765981,
+    "EWRAM": "62fa5140b986",
+    "IWRAM": "626c5ccb54c3",
+    "VRAM": "38baa4ffb58f",
+    "PAL": "55f960dac1e2",
+    "OAM": "40f12be37279"
+   }
+  },
+  "mGBA t56_church": {
+   "cammina": {
+    "schermo": "67c9441c4386",
+    "colori": 33,
+    "callback": 134765981,
+    "EWRAM": "bb6152dfdaf1",
+    "IWRAM": "daf3ef956c3b",
+    "VRAM": "4d0497123e22",
+    "PAL": "57100cdf364a",
+    "OAM": "a427c9196b55"
+   },
+   "menu": {
+    "schermo": "097192404ce0",
+    "colori": 38,
+    "callback": 134765981,
+    "EWRAM": "7fc9a83db1b4",
+    "IWRAM": "dc44362217d8",
+    "VRAM": "74c3fdd41235",
+    "PAL": "57100cdf364a",
+    "OAM": "221fa7de797d"
+   },
+   "pokedex": {
+    "schermo": "95099280dade",
+    "colori": 26,
+    "callback": 135967121,
+    "EWRAM": "d61825b64cd0",
+    "IWRAM": "a3999331ce94",
+    "VRAM": "56cd6b103285",
+    "PAL": "802ced6ef0d8",
+    "OAM": "38c0356d8c92"
+   },
+   "squadra": {
+    "schermo": "f167509b33e7",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "f21209e1176e",
+    "IWRAM": "e4474c8d56fa",
+    "VRAM": "6328a7c9ca48",
+    "PAL": "57100cdf364a",
+    "OAM": "2b3bb547e603"
+   },
+   "riassunto": {
+    "schermo": "f167509b33e7",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "edc108d2e85d",
+    "IWRAM": "3be0d5fb0452",
+    "VRAM": "be835b43ab77",
+    "PAL": "57100cdf364a",
+    "OAM": "266cc5f118d8"
+   },
+   "borsa": {
+    "schermo": "8183531eeff2",
+    "colori": 31,
+    "callback": 134765981,
+    "EWRAM": "9bfa3ccd7be6",
+    "IWRAM": "b24cd4573912",
+    "VRAM": "93f814c24b96",
+    "PAL": "57100cdf364a",
+    "OAM": "266cc5f118d8"
+   },
+   "tasca2": {
+    "schermo": "8183531eeff2",
+    "colori": 31,
+    "callback": 134765981,
+    "EWRAM": "fbf6bb4834d0",
+    "IWRAM": "ced9e66f0de8",
+    "VRAM": "dfc60819c3b6",
+    "PAL": "57100cdf364a",
+    "OAM": "2ba061fb5cf6"
+   },
+   "ritorno": {
+    "schermo": "5670373d8869",
+    "colori": 18,
+    "callback": 134765981,
+    "EWRAM": "d4c12d605cb5",
+    "IWRAM": "c72a40b48f9d",
+    "VRAM": "f3d34f9e7b67",
+    "PAL": "57100cdf364a",
+    "OAM": "5abc4ab2448e"
+   }
+  },
+  "mGBA t56_lib2": {
+   "cammina": {
+    "schermo": "82c4d54361c5",
+    "colori": 27,
+    "callback": 134765981,
+    "EWRAM": "8023faab3dfd",
+    "IWRAM": "14c89eecc88b",
+    "VRAM": "c31b215483c2",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "58a5a2382521"
+   },
+   "menu": {
+    "schermo": "45b5b7db440c",
+    "colori": 29,
+    "callback": 134765981,
+    "EWRAM": "75dfc47f41c8",
+    "IWRAM": "d1f948b02800",
+    "VRAM": "3fde403536d7",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "0ed6dda42036"
+   },
+   "pokedex": {
+    "schermo": "1f82e5239960",
+    "colori": 26,
+    "callback": 135967121,
+    "EWRAM": "b8d968180907",
+    "IWRAM": "c1f6f334e2a7",
+    "VRAM": "6fa1368327f3",
+    "PAL": "afe059d7e354",
+    "OAM": "38c0356d8c92"
+   },
+   "squadra": {
+    "schermo": "c5682f503f14",
+    "colori": 24,
+    "callback": 134765981,
+    "EWRAM": "a186fb5f4628",
+    "IWRAM": "0a2495f977eb",
+    "VRAM": "999065d54944",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "0521fe775cfa"
+   },
+   "riassunto": {
+    "schermo": "c5682f503f14",
+    "colori": 24,
+    "callback": 134765981,
+    "EWRAM": "5d39b2ab1cc2",
+    "IWRAM": "2a120a4b4745",
+    "VRAM": "bf5fa6b7e6ce",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "3a4b9c628f25"
+   },
+   "borsa": {
+    "schermo": "2f057d08592f",
+    "colori": 26,
+    "callback": 134765981,
+    "EWRAM": "9ffca5617ffc",
+    "IWRAM": "5ec8382357f5",
+    "VRAM": "567bfc5ab9b5",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "3a4b9c628f25"
+   },
+   "tasca2": {
+    "schermo": "2f057d08592f",
+    "colori": 26,
+    "callback": 134765981,
+    "EWRAM": "4d3ee51916eb",
+    "IWRAM": "e83c5c5fd142",
+    "VRAM": "eb929723e75d",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "fdd494778995"
+   },
+   "ritorno": {
+    "schermo": "4f5a4bb6bacb",
+    "colori": 22,
+    "callback": 134765981,
+    "EWRAM": "394d84ad3903",
+    "IWRAM": "eb2fa4832ad2",
+    "VRAM": "74a91c9d8b5b",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "1f760cc8e868"
+   }
+  },
+  "mGBA t56_lib_out": {
+   "cammina": {
+    "schermo": "8fe9c725709f",
+    "colori": 15,
+    "callback": 134765981,
+    "EWRAM": "f20c120baec5",
+    "IWRAM": "e32c83be812a",
+    "VRAM": "40f936a10e40",
+    "PAL": "9cc47e804974",
+    "OAM": "7a026e6f961a"
+   },
+   "menu": {
+    "schermo": "2063917c0288",
+    "colori": 20,
+    "callback": 134765981,
+    "EWRAM": "de13d6e8b869",
+    "IWRAM": "70a12cde1269",
+    "VRAM": "13ec567e7c6f",
+    "PAL": "9cc47e804974",
+    "OAM": "af1b45a049bd"
+   },
+   "pokedex": {
+    "schermo": "95099280dade",
+    "colori": 26,
+    "callback": 135967121,
+    "EWRAM": "920478dd295a",
+    "IWRAM": "84748ebe594b",
+    "VRAM": "56cd6b103285",
+    "PAL": "631f91f6ba0e",
+    "OAM": "38c0356d8c92"
+   },
+   "squadra": {
+    "schermo": "f830823215d7",
+    "colori": 15,
+    "callback": 134765981,
+    "EWRAM": "c87079f54fff",
+    "IWRAM": "296e0b3c51ea",
+    "VRAM": "49a8c854748e",
+    "PAL": "9cc47e804974",
+    "OAM": "ea1f215dc344"
+   },
+   "riassunto": {
+    "schermo": "f830823215d7",
+    "colori": 15,
+    "callback": 134765981,
+    "EWRAM": "33d326761ab3",
+    "IWRAM": "b3b592d9f1d6",
+    "VRAM": "553e74a95ded",
+    "PAL": "9cc47e804974",
+    "OAM": "8e5da6e97f8a"
+   },
+   "borsa": {
+    "schermo": "bdf68cd2d033",
+    "colori": 25,
+    "callback": 134765981,
+    "EWRAM": "a8a471c63b19",
+    "IWRAM": "514abd30ba1e",
+    "VRAM": "bb55c1ec0ad1",
+    "PAL": "9cc47e804974",
+    "OAM": "8e5da6e97f8a"
+   },
+   "tasca2": {
+    "schermo": "bdf68cd2d033",
+    "colori": 25,
+    "callback": 134765981,
+    "EWRAM": "04f58971ee05",
+    "IWRAM": "bf221aaa3b57",
+    "VRAM": "dc02f1034a23",
+    "PAL": "9cc47e804974",
+    "OAM": "abf56325be1f"
+   },
+   "ritorno": {
+    "schermo": "a4d69d8fc277",
+    "colori": 15,
+    "callback": 134765981,
+    "EWRAM": "1b6a94694583",
+    "IWRAM": "cbdeb9ab7ad3",
+    "VRAM": "6bbf55fafcb6",
+    "PAL": "9cc47e804974",
+    "OAM": "6cd8f6193d2f"
+   }
+  },
+  "mGBA t56_pennelli": {
+   "cammina": {
+    "schermo": "90e8bdccf27b",
+    "colori": 18,
+    "callback": 134765981,
+    "EWRAM": "fd9ef09b4582",
+    "IWRAM": "54bfe8f0a358",
+    "VRAM": "d275d24af1e1",
+    "PAL": "7640a2d850ed",
+    "OAM": "bf8ce3315989"
+   },
+   "menu": {
+    "schermo": "564e4b0f29fb",
+    "colori": 23,
+    "callback": 134765981,
+    "EWRAM": "b71d1b65603c",
+    "IWRAM": "1071c09f6b65",
+    "VRAM": "969463b9f32b",
+    "PAL": "7640a2d850ed",
+    "OAM": "d37a63e53fbf"
+   },
+   "pokedex": {
+    "schermo": "1f82e5239960",
+    "colori": 26,
+    "callback": 135967121,
+    "EWRAM": "bade26df3d0c",
+    "IWRAM": "c197380d0b82",
+    "VRAM": "6fa1368327f3",
+    "PAL": "c66adf8f3e27",
+    "OAM": "38c0356d8c92"
+   },
+   "squadra": {
+    "schermo": "850ef764640f",
+    "colori": 14,
+    "callback": 134765981,
+    "EWRAM": "c603f1f3e270",
+    "IWRAM": "9e86120320ad",
+    "VRAM": "72f60c07e28d",
+    "PAL": "7640a2d850ed",
+    "OAM": "5db27587c9c2"
+   },
+   "riassunto": {
+    "schermo": "19cd6325c8f5",
+    "colori": 14,
+    "callback": 134765981,
+    "EWRAM": "c13f8dd1a461",
+    "IWRAM": "9ede195a5525",
+    "VRAM": "db0456257ed5",
+    "PAL": "7640a2d850ed",
+    "OAM": "4213a9c3fa45"
+   },
+   "borsa": {
+    "schermo": "7738e7f2596d",
+    "colori": 26,
+    "callback": 134765981,
+    "EWRAM": "d8584445764c",
+    "IWRAM": "dd9c69cfa147",
+    "VRAM": "173cf6887327",
+    "PAL": "7640a2d850ed",
+    "OAM": "4213a9c3fa45"
+   },
+   "tasca2": {
+    "schermo": "a049fb3a2a9e",
+    "colori": 26,
+    "callback": 134765981,
+    "EWRAM": "b47e769cec13",
+    "IWRAM": "a886200a16f9",
+    "VRAM": "8697572b592a",
+    "PAL": "7640a2d850ed",
+    "OAM": "e87c7b6d7fc9"
+   },
+   "ritorno": {
+    "schermo": "d5c0846399f8",
+    "colori": 16,
+    "callback": 134765981,
+    "EWRAM": "7e2c1cadd849",
+    "IWRAM": "4fe41bde5f5b",
+    "VRAM": "665e5e1498e6",
+    "PAL": "7640a2d850ed",
+    "OAM": "4213a9c3fa45"
+   }
+  },
+  "mGBA t56_reload": {
+   "cammina": {
+    "schermo": "67c9441c4386",
+    "colori": 33,
+    "callback": 134765981,
+    "EWRAM": "8cf6fe8372b0",
+    "IWRAM": "d25e8c7ccf76",
+    "VRAM": "9d2bfc1f32d6",
+    "PAL": "2716f44ee850",
+    "OAM": "602a08a3e1dd"
+   },
+   "menu": {
+    "schermo": "876d0babb770",
+    "colori": 38,
+    "callback": 134765981,
+    "EWRAM": "41fdeb40a740",
+    "IWRAM": "6809c68066bc",
+    "VRAM": "26a47e3a7466",
+    "PAL": "2716f44ee850",
+    "OAM": "4e299cb9e7ba"
+   },
+   "pokedex": {
+    "schermo": "9cdb0a037202",
+    "colori": 19,
+    "callback": 134986073,
+    "EWRAM": "0a68eb87dd6f",
+    "IWRAM": "339a5e39378c",
+    "VRAM": "92a93d8e8bee",
+    "PAL": "89d7d6129f7b",
+    "OAM": "05eae48dc51b"
+   },
+   "squadra": {
+    "schermo": "f167509b33e7",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "c18499348448",
+    "IWRAM": "3c3e4f32b695",
+    "VRAM": "6328a7c9ca48",
+    "PAL": "2716f44ee850",
+    "OAM": "2b3bb547e603"
+   },
+   "riassunto": {
+    "schermo": "f167509b33e7",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "7704775fd25f",
+    "IWRAM": "e866a0b1d462",
+    "VRAM": "be835b43ab77",
+    "PAL": "2716f44ee850",
+    "OAM": "266cc5f118d8"
+   },
+   "borsa": {
+    "schermo": "90b23f47d394",
+    "colori": 24,
+    "callback": 135967121,
+    "EWRAM": "b51aaf310eba",
+    "IWRAM": "c0b578274c86",
+    "VRAM": "90efcc6ea390",
+    "PAL": "ca41255ba522",
+    "OAM": "efcf1deddc08"
+   },
+   "tasca2": {
+    "schermo": "eb4389191bce",
+    "colori": 28,
+    "callback": 135967121,
+    "EWRAM": "a3852270eae0",
+    "IWRAM": "30e8693d7901",
+    "VRAM": "4322ac6a5c1c",
+    "PAL": "6d9ca464ca0e",
+    "OAM": "bfeb65a99c5f"
+   },
+   "ritorno": {
+    "schermo": "5670373d8869",
+    "colori": 18,
+    "callback": 134765981,
+    "EWRAM": "e13e70dc11f8",
+    "IWRAM": "acb9bd82b0da",
+    "VRAM": "35b1770b87c2",
+    "PAL": "cfb5a70f6088",
+    "OAM": "981dda209863"
+   }
+  },
+  "mGBA t56_rename": {
+   "cammina": {
+    "schermo": "6cabd4d8ae90",
+    "colori": 36,
+    "callback": 134765981,
+    "EWRAM": "47e52ff27606",
+    "IWRAM": "4aaafa94de23",
+    "VRAM": "48fc3187744f",
+    "PAL": "4da28118b6a8",
+    "OAM": "e0227459f359"
+   },
+   "menu": {
+    "schermo": "bf7d59e233a4",
+    "colori": 41,
+    "callback": 134765981,
+    "EWRAM": "d7d5818345bd",
+    "IWRAM": "86f6795f63bd",
+    "VRAM": "e1665d0d589c",
+    "PAL": "d234b500292f",
+    "OAM": "1cb4b62794b8"
+   },
+   "pokedex": {
+    "schermo": "52a302475fdf",
+    "colori": 16,
+    "callback": 134986073,
+    "EWRAM": "ab53c0969291",
+    "IWRAM": "38c40ab646e2",
+    "VRAM": "e5a376aabe30",
+    "PAL": "c93b1d12e4b7",
+    "OAM": "71173204440a"
+   },
+   "squadra": {
+    "schermo": "100e4ce34a40",
+    "colori": 43,
+    "callback": 134765981,
+    "EWRAM": "21f6b79f9446",
+    "IWRAM": "956ff42b985b",
+    "VRAM": "aa11a8db6e7e",
+    "PAL": "d234b500292f",
+    "OAM": "016a731653d3"
+   },
+   "riassunto": {
+    "schermo": "9f1df2fcb989",
+    "colori": 43,
+    "callback": 134765981,
+    "EWRAM": "f83a7cc94ed2",
+    "IWRAM": "c81059b7be5f",
+    "VRAM": "b95c2a3687b9",
+    "PAL": "d234b500292f",
+    "OAM": "e096beedea4f"
+   },
+   "borsa": {
+    "schermo": "28b4354134e1",
+    "colori": 24,
+    "callback": 135967121,
+    "EWRAM": "f40e61da7b8a",
+    "IWRAM": "e5f4f6d28692",
+    "VRAM": "948551d661d9",
+    "PAL": "c8ba0cd3b721",
+    "OAM": "efcf1deddc08"
+   },
+   "tasca2": {
+    "schermo": "0270506e373e",
+    "colori": 28,
+    "callback": 135967121,
+    "EWRAM": "b403ca05cc96",
+    "IWRAM": "762ed930e262",
+    "VRAM": "bae66a8bb155",
+    "PAL": "70fac73fe455",
+    "OAM": "bfeb65a99c5f"
+   },
+   "ritorno": {
+    "schermo": "6f4df53c41b9",
+    "colori": 35,
+    "callback": 134765981,
+    "EWRAM": "ad83215699dd",
+    "IWRAM": "2fe75e6776b4",
+    "VRAM": "46a10a7762ca",
+    "PAL": "893051baa460",
+    "OAM": "3476599cd3cb"
+   }
+  },
+  "mGBA t56_rename2": {
+   "cammina": {
+    "schermo": "6cabd4d8ae90",
+    "colori": 36,
+    "callback": 134765981,
+    "EWRAM": "a3cd72de20f7",
+    "IWRAM": "dbb531c74b17",
+    "VRAM": "48fc3187744f",
+    "PAL": "4da28118b6a8",
+    "OAM": "e0227459f359"
+   },
+   "menu": {
+    "schermo": "bf7d59e233a4",
+    "colori": 41,
+    "callback": 134765981,
+    "EWRAM": "1162c7081e8c",
+    "IWRAM": "1e7010a7361f",
+    "VRAM": "e1665d0d589c",
+    "PAL": "d234b500292f",
+    "OAM": "1cb4b62794b8"
+   },
+   "pokedex": {
+    "schermo": "52a302475fdf",
+    "colori": 16,
+    "callback": 134986073,
+    "EWRAM": "dfd837b9d4c0",
+    "IWRAM": "d05fbd2b4fbf",
+    "VRAM": "e5a376aabe30",
+    "PAL": "c93b1d12e4b7",
+    "OAM": "71173204440a"
+   },
+   "squadra": {
+    "schermo": "100e4ce34a40",
+    "colori": 43,
+    "callback": 134765981,
+    "EWRAM": "d1eeb7090f9f",
+    "IWRAM": "afaa99e4573c",
+    "VRAM": "aa11a8db6e7e",
+    "PAL": "d234b500292f",
+    "OAM": "016a731653d3"
+   },
+   "riassunto": {
+    "schermo": "9f1df2fcb989",
+    "colori": 43,
+    "callback": 134765981,
+    "EWRAM": "a65cd88919ec",
+    "IWRAM": "9e0dd1cf8ac0",
+    "VRAM": "b95c2a3687b9",
+    "PAL": "d234b500292f",
+    "OAM": "e096beedea4f"
+   },
+   "borsa": {
+    "schermo": "28b4354134e1",
+    "colori": 24,
+    "callback": 135967121,
+    "EWRAM": "a99ee4e4fdce",
+    "IWRAM": "792812c63c00",
+    "VRAM": "948551d661d9",
+    "PAL": "c8ba0cd3b721",
+    "OAM": "efcf1deddc08"
+   },
+   "tasca2": {
+    "schermo": "0270506e373e",
+    "colori": 28,
+    "callback": 135967121,
+    "EWRAM": "dbaed9047031",
+    "IWRAM": "ebc1b9716895",
+    "VRAM": "bae66a8bb155",
+    "PAL": "70fac73fe455",
+    "OAM": "bfeb65a99c5f"
+   },
+   "ritorno": {
+    "schermo": "6f4df53c41b9",
+    "colori": 35,
+    "callback": 134765981,
+    "EWRAM": "30356fa6acaa",
+    "IWRAM": "c5e0afbe1db6",
+    "VRAM": "46a10a7762ca",
+    "PAL": "893051baa460",
+    "OAM": "3476599cd3cb"
+   }
+  },
+  "mGBA t56_smeargle": {
+   "cammina": {
+    "schermo": "82c4d54361c5",
+    "colori": 27,
+    "callback": 134765981,
+    "EWRAM": "8023faab3dfd",
+    "IWRAM": "14c89eecc88b",
+    "VRAM": "c31b215483c2",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "58a5a2382521"
+   },
+   "menu": {
+    "schermo": "45b5b7db440c",
+    "colori": 29,
+    "callback": 134765981,
+    "EWRAM": "75dfc47f41c8",
+    "IWRAM": "d1f948b02800",
+    "VRAM": "3fde403536d7",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "0ed6dda42036"
+   },
+   "pokedex": {
+    "schermo": "1f82e5239960",
+    "colori": 26,
+    "callback": 135967121,
+    "EWRAM": "b8d968180907",
+    "IWRAM": "c1f6f334e2a7",
+    "VRAM": "6fa1368327f3",
+    "PAL": "afe059d7e354",
+    "OAM": "38c0356d8c92"
+   },
+   "squadra": {
+    "schermo": "c5682f503f14",
+    "colori": 24,
+    "callback": 134765981,
+    "EWRAM": "a186fb5f4628",
+    "IWRAM": "0a2495f977eb",
+    "VRAM": "999065d54944",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "0521fe775cfa"
+   },
+   "riassunto": {
+    "schermo": "c5682f503f14",
+    "colori": 24,
+    "callback": 134765981,
+    "EWRAM": "5d39b2ab1cc2",
+    "IWRAM": "2a120a4b4745",
+    "VRAM": "bf5fa6b7e6ce",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "3a4b9c628f25"
+   },
+   "borsa": {
+    "schermo": "2f057d08592f",
+    "colori": 26,
+    "callback": 134765981,
+    "EWRAM": "9ffca5617ffc",
+    "IWRAM": "5ec8382357f5",
+    "VRAM": "567bfc5ab9b5",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "3a4b9c628f25"
+   },
+   "tasca2": {
+    "schermo": "2f057d08592f",
+    "colori": 26,
+    "callback": 134765981,
+    "EWRAM": "4d3ee51916eb",
+    "IWRAM": "e83c5c5fd142",
+    "VRAM": "eb929723e75d",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "fdd494778995"
+   },
+   "ritorno": {
+    "schermo": "4f5a4bb6bacb",
+    "colori": 22,
+    "callback": 134765981,
+    "EWRAM": "394d84ad3903",
+    "IWRAM": "eb2fa4832ad2",
+    "VRAM": "74a91c9d8b5b",
+    "PAL": "8dd1f0c0865b",
+    "OAM": "1f760cc8e868"
+   }
+  },
+  "mGBA t59_entei": {
+   "cammina": {
+    "schermo": "175fa6f9b114",
+    "colori": 11,
+    "callback": 134765981,
+    "EWRAM": "d2b08d49a58e",
+    "IWRAM": "f726bc2d28c1",
+    "VRAM": "105ae529d70f",
+    "PAL": "d3b0a1fce7ee",
+    "OAM": "8b0331de0d98"
+   },
+   "menu": {
+    "schermo": "8868b3a29993",
+    "colori": 19,
+    "callback": 134765981,
+    "EWRAM": "a306226fcda9",
+    "IWRAM": "a2a39d88b6e6",
+    "VRAM": "fd00c6d9ffa8",
+    "PAL": "7983b575ae2f",
+    "OAM": "cbe521c78da6"
+   },
+   "pokedex": {
+    "schermo": "bc022f8f6d02",
+    "colori": 32,
+    "callback": 135988689,
+    "EWRAM": "5d3fd7fa2a9b",
+    "IWRAM": "377671eba379",
+    "VRAM": "c3e40d02d89c",
+    "PAL": "bf5bc9e5bcc5",
+    "OAM": "81f0ea5ddefb"
+   },
+   "squadra": {
+    "schermo": "fbf98ebae070",
+    "colori": 12,
+    "callback": 134765981,
+    "EWRAM": "24863d07456c",
+    "IWRAM": "c11774fc06da",
+    "VRAM": "1a057c94c98c",
+    "PAL": "7983b575ae2f",
+    "OAM": "9fbe91ac34db"
+   },
+   "riassunto": {
+    "schermo": "fbf98ebae070",
+    "colori": 12,
+    "callback": 134765981,
+    "EWRAM": "e49b13db8ddb",
+    "IWRAM": "46ac92d8dba0",
+    "VRAM": "660fe7808561",
+    "PAL": "7983b575ae2f",
+    "OAM": "6ae231b804fb"
+   },
+   "borsa": {
+    "schermo": "986b2c982f70",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "49a211a95d08",
+    "IWRAM": "983b3adb6ead",
+    "VRAM": "250b02aebef0",
+    "PAL": "3751ad4a89ec",
+    "OAM": "db71ea0c8b12"
+   },
+   "tasca2": {
+    "schermo": "3696ca04e490",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "cdd246713309",
+    "IWRAM": "a20832af6d70",
+    "VRAM": "c721e4e554f4",
+    "PAL": "3751ad4a89ec",
+    "OAM": "db71ea0c8b12"
+   },
+   "ritorno": {
+    "schermo": "860e0507cab4",
+    "colori": 9,
+    "callback": 134765981,
+    "EWRAM": "8a26379a9365",
+    "IWRAM": "1ded06fef2f7",
+    "VRAM": "2debff90436e",
+    "PAL": "7e870972808f",
+    "OAM": "fec1d4532242"
+   }
+  },
+  "mGBA t59_raikou": {
+   "cammina": {
+    "schermo": "01b30f85584e",
+    "colori": 30,
+    "callback": 134448105,
+    "EWRAM": "134efc85cce7",
+    "IWRAM": "3e83d1d9b181",
+    "VRAM": "2380802f3125",
+    "PAL": "8287171a3b70",
+    "OAM": "08f36e911a34"
+   },
+   "menu": {
+    "schermo": "66ca4b7c802d",
+    "colori": 38,
+    "callback": 134448105,
+    "EWRAM": "76fea830bb1d",
+    "IWRAM": "4d276d168a33",
+    "VRAM": "0a698d93f097",
+    "PAL": "002b87279f09",
+    "OAM": "0f5f19015e77"
+   },
+   "pokedex": {
+    "schermo": "e57b3ea3a29e",
+    "colori": 42,
+    "callback": 134448105,
+    "EWRAM": "666d3a970b66",
+    "IWRAM": "ed56619a10fd",
+    "VRAM": "18fe4f5f5749",
+    "PAL": "4848362c5c36",
+    "OAM": "67505bc0d136"
+   },
+   "squadra": {
+    "schermo": "bc022f8f6d02",
+    "colori": 32,
+    "callback": 135988689,
+    "EWRAM": "af8e816df093",
+    "IWRAM": "b3aced4a3427",
+    "VRAM": "c3e40d02d89c",
+    "PAL": "7ec47b793121",
+    "OAM": "81f0ea5ddefb"
+   },
+   "riassunto": {
+    "schermo": "5867ee30b400",
+    "colori": 31,
+    "callback": 135988689,
+    "EWRAM": "446cae85b11a",
+    "IWRAM": "b0a839b43076",
+    "VRAM": "cf70acfa38a2",
+    "PAL": "7ec47b793121",
+    "OAM": "eb6b20d24821"
+   },
+   "borsa": {
+    "schermo": "bc022f8f6d02",
+    "colori": 32,
+    "callback": 135988689,
+    "EWRAM": "847d9dc3cc91",
+    "IWRAM": "21b460ba9d3a",
+    "VRAM": "c3e40d02d89c",
+    "PAL": "7ec47b793121",
+    "OAM": "81f0ea5ddefb"
+   },
+   "tasca2": {
+    "schermo": "98d7a70548c8",
+    "colori": 32,
+    "callback": 135988689,
+    "EWRAM": "450cb8430c77",
+    "IWRAM": "52dd4a257cbe",
+    "VRAM": "9900b67a7f2f",
+    "PAL": "1b0764ecd852",
+    "OAM": "1c2bca02e648"
+   },
+   "ritorno": {
+    "schermo": "1f7ae2d4690b",
+    "colori": 46,
+    "callback": 134448105,
+    "EWRAM": "89cbc669d252",
+    "IWRAM": "774a9bd68f49",
+    "VRAM": "46a65a67b5ca",
+    "PAL": "139380e119e1",
+    "OAM": "6912fc9ce1b8"
+   }
+  },
+  "mGBA t59_ravenna": {
+   "cammina": {
+    "schermo": "21aacf85dfa1",
+    "colori": 29,
+    "callback": 134765981,
+    "EWRAM": "345b7879d821",
+    "IWRAM": "569954ab6734",
+    "VRAM": "9beae0a21dc4",
+    "PAL": "587fa2ce6111",
+    "OAM": "7aa0cbdf9729"
+   },
+   "menu": {
+    "schermo": "03fa359ccf69",
+    "colori": 34,
+    "callback": 134765981,
+    "EWRAM": "429edeb8e735",
+    "IWRAM": "4cda622b181d",
+    "VRAM": "7bc73c31467d",
+    "PAL": "68bcc969550d",
+    "OAM": "e8b736719ddd"
+   },
+   "pokedex": {
+    "schermo": "bc022f8f6d02",
+    "colori": 32,
+    "callback": 135988689,
+    "EWRAM": "76e422a5d5e4",
+    "IWRAM": "001939b1b53b",
+    "VRAM": "c3e40d02d89c",
+    "PAL": "134f26f61c2d",
+    "OAM": "81f0ea5ddefb"
+   },
+   "squadra": {
+    "schermo": "077c3a06b904",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "9a800a51961e",
+    "IWRAM": "d7704dce415c",
+    "VRAM": "005eee7a9c8f",
+    "PAL": "68bcc969550d",
+    "OAM": "7415a67d2125"
+   },
+   "riassunto": {
+    "schermo": "077c3a06b904",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "33e41f9962e9",
+    "IWRAM": "a5adc743320a",
+    "VRAM": "7cd73ba164c7",
+    "PAL": "68bcc969550d",
+    "OAM": "bce72c9f12fc"
+   },
+   "borsa": {
+    "schermo": "719e714ace66",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "bcb6db4a0dee",
+    "IWRAM": "300cb70b08b2",
+    "VRAM": "3b961822636c",
+    "PAL": "4b290bbab040",
+    "OAM": "db71ea0c8b12"
+   },
+   "tasca2": {
+    "schermo": "debcf53ec869",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "9cec70e161fc",
+    "IWRAM": "9116460f4368",
+    "VRAM": "eb2692514c48",
+    "PAL": "4b290bbab040",
+    "OAM": "db71ea0c8b12"
+   },
+   "ritorno": {
+    "schermo": "6c1555071b23",
+    "colori": 29,
+    "callback": 134765981,
+    "EWRAM": "aa4e043d47c4",
+    "IWRAM": "baab8fa03966",
+    "VRAM": "bc2004ea0f6f",
+    "PAL": "3a46329ab2b3",
+    "OAM": "96e9784a8e79"
+   }
+  },
+  "mGBA t59_suicune": {
+   "cammina": {
+    "schermo": "d9bde2db382a",
+    "colori": 28,
+    "callback": 134765981,
+    "EWRAM": "815b1e632c3d",
+    "IWRAM": "277966116fed",
+    "VRAM": "9f2126d13ced",
+    "PAL": "cf1207b2b58e",
+    "OAM": "ed2a50287e56"
+   },
+   "menu": {
+    "schermo": "32e0ff3ee8aa",
+    "colori": 35,
+    "callback": 134765981,
+    "EWRAM": "7513d1819893",
+    "IWRAM": "5bb703379841",
+    "VRAM": "c0f470ad4f08",
+    "PAL": "cf1207b2b58e",
+    "OAM": "ed2a50287e56"
+   },
+   "pokedex": {
+    "schermo": "bc022f8f6d02",
+    "colori": 32,
+    "callback": 135988689,
+    "EWRAM": "16e4d3a94dfb",
+    "IWRAM": "2f45f78143a8",
+    "VRAM": "c3e40d02d89c",
+    "PAL": "4a60b1a85c08",
+    "OAM": "81f0ea5ddefb"
+   },
+   "squadra": {
+    "schermo": "cc07ee580cc7",
+    "colori": 35,
+    "callback": 134765981,
+    "EWRAM": "78be4616d846",
+    "IWRAM": "9b527883be2c",
+    "VRAM": "652d65d88755",
+    "PAL": "cf1207b2b58e",
+    "OAM": "5fb0fdfcfd5f"
+   },
+   "riassunto": {
+    "schermo": "c31861fc9543",
+    "colori": 28,
+    "callback": 134765981,
+    "EWRAM": "79f68f4450cd",
+    "IWRAM": "5561eda9399e",
+    "VRAM": "5a2f7dc6bc27",
+    "PAL": "618ecebca292",
+    "OAM": "71168739b201"
+   },
+   "borsa": {
+    "schermo": "3696ca04e490",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "b42c42f8a7f8",
+    "IWRAM": "8dad28e1b6a5",
+    "VRAM": "95e0734553d3",
+    "PAL": "bb3102d74df3",
+    "OAM": "db71ea0c8b12"
+   },
+   "tasca2": {
+    "schermo": "986b2c982f70",
+    "colori": 21,
+    "callback": 135014645,
+    "EWRAM": "d274436f8f4f",
+    "IWRAM": "676f31ca58eb",
+    "VRAM": "663558dea01f",
+    "PAL": "bb3102d74df3",
+    "OAM": "db71ea0c8b12"
+   },
+   "ritorno": {
+    "schermo": "30e2e745ef7b",
+    "colori": 36,
+    "callback": 134448105,
+    "EWRAM": "54fe6f75b1fd",
+    "IWRAM": "7dda70c08a21",
+    "VRAM": "d15e275e28f9",
+    "PAL": "d95cbec1b7b6",
+    "OAM": "23b6c0be6e12"
+   }
+  },
+  "mGBA salvataggio": {
+   "avvio": {
+    "schermo": "420de35c8a1d",
+    "colori": 33,
+    "callback": 134765981,
+    "EWRAM": "5cf70bdc7746",
+    "IWRAM": "7a7105122b46",
+    "VRAM": "0693fcc8afe5",
+    "PAL": "2716f44ee850",
+    "OAM": "54d489d7763f"
+   },
+   "cammina": {
+    "schermo": "67c9441c4386",
+    "colori": 33,
+    "callback": 134765981,
+    "EWRAM": "4d9c79b8e366",
+    "IWRAM": "30db6c7a8443",
+    "VRAM": "d73255e0f927",
+    "PAL": "2716f44ee850",
+    "OAM": "f3e7ad50c01a"
+   },
+   "menu": {
+    "schermo": "876d0babb770",
+    "colori": 38,
+    "callback": 134765981,
+    "EWRAM": "ae85595e9b02",
+    "IWRAM": "bbb45b9b76b0",
+    "VRAM": "4c934065dc4e",
+    "PAL": "2716f44ee850",
+    "OAM": "c7138258d11c"
+   },
+   "pokedex": {
+    "schermo": "9cdb0a037202",
+    "colori": 19,
+    "callback": 134986073,
+    "EWRAM": "241f525d9a0a",
+    "IWRAM": "6286206cf122",
+    "VRAM": "92a93d8e8bee",
+    "PAL": "89d7d6129f7b",
+    "OAM": "05eae48dc51b"
+   },
+   "squadra": {
+    "schermo": "f167509b33e7",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "5f2fe630aafc",
+    "IWRAM": "50eebfe45d80",
+    "VRAM": "1eae6c4cd25c",
+    "PAL": "2716f44ee850",
+    "OAM": "2b3bb547e603"
+   },
+   "riassunto": {
+    "schermo": "f167509b33e7",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "7e0ca6a26ccb",
+    "IWRAM": "abfa5bd8b841",
+    "VRAM": "26eb6fd8f73e",
+    "PAL": "2716f44ee850",
+    "OAM": "266cc5f118d8"
+   },
+   "borsa": {
+    "schermo": "90b23f47d394",
+    "colori": 24,
+    "callback": 135967121,
+    "EWRAM": "fa07c36a25a6",
+    "IWRAM": "b72d18ccc920",
+    "VRAM": "90efcc6ea390",
+    "PAL": "ca41255ba522",
+    "OAM": "efcf1deddc08"
+   },
+   "tasca2": {
+    "schermo": "eb4389191bce",
+    "colori": 28,
+    "callback": 135967121,
+    "EWRAM": "a9a7c5bbfdf4",
+    "IWRAM": "01287f014683",
+    "VRAM": "4322ac6a5c1c",
+    "PAL": "6d9ca464ca0e",
+    "OAM": "bfeb65a99c5f"
+   },
+   "ritorno": {
+    "schermo": "5670373d8869",
+    "colori": 18,
+    "callback": 134765981,
+    "EWRAM": "139ea4fdb6d4",
+    "IWRAM": "15f0f33d97d7",
+    "VRAM": "f1a2b716b809",
+    "PAL": "cfb5a70f6088",
+    "OAM": "981dda209863"
+   }
+  },
+  "VBA-M salvataggio": {
+   "avvio": {
+    "schermo": "297341343b98",
+    "colori": 33,
+    "callback": 134765981,
+    "EWRAM": "47e6708a39aa",
+    "IWRAM": "c5c1b9128a53",
+    "VRAM": "f1cd0318e8cf",
+    "PAL": "2716f44ee850",
+    "OAM": "54d489d7763f"
+   },
+   "cammina": {
+    "schermo": "3fde1bc721ca",
+    "colori": 33,
+    "callback": 134765981,
+    "EWRAM": "de56a74ad1c4",
+    "IWRAM": "04fbaa476cc3",
+    "VRAM": "210742614a18",
+    "PAL": "2716f44ee850",
+    "OAM": "58aeabbfee07"
+   },
+   "menu": {
+    "schermo": "dd1c3b9e05d1",
+    "colori": 38,
+    "callback": 134765981,
+    "EWRAM": "6ae37ef04d26",
+    "IWRAM": "ae60138e325e",
+    "VRAM": "6ee24ab4f5ea",
+    "PAL": "2716f44ee850",
+    "OAM": "c7138258d11c"
+   },
+   "pokedex": {
+    "schermo": "fe3485c2cf76",
+    "colori": 19,
+    "callback": 134986073,
+    "EWRAM": "e727d38486aa",
+    "IWRAM": "43f302322b3d",
+    "VRAM": "92a93d8e8bee",
+    "PAL": "89d7d6129f7b",
+    "OAM": "3bfda0ec54df"
+   },
+   "squadra": {
+    "schermo": "79859232a3c4",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "c6e95fc848e6",
+    "IWRAM": "fae680f24b9e",
+    "VRAM": "24a41863147f",
+    "PAL": "2716f44ee850",
+    "OAM": "2b3bb547e603"
+   },
+   "riassunto": {
+    "schermo": "79859232a3c4",
+    "colori": 30,
+    "callback": 134765981,
+    "EWRAM": "b2f2801c5355",
+    "IWRAM": "57459b972dcb",
+    "VRAM": "26eb6fd8f73e",
+    "PAL": "2716f44ee850",
+    "OAM": "266cc5f118d8"
+   },
+   "borsa": {
+    "schermo": "e1b8b9692256",
+    "colori": 24,
+    "callback": 135967121,
+    "EWRAM": "73f8c68cd1b7",
+    "IWRAM": "051b3adef729",
+    "VRAM": "90efcc6ea390",
+    "PAL": "ca41255ba522",
+    "OAM": "efcf1deddc08"
+   },
+   "tasca2": {
+    "schermo": "0cb0c89ef184",
+    "colori": 28,
+    "callback": 135967121,
+    "EWRAM": "3c6504c8271a",
+    "IWRAM": "4b5946b13821",
+    "VRAM": "4322ac6a5c1c",
+    "PAL": "6d9ca464ca0e",
+    "OAM": "bfeb65a99c5f"
+   },
+   "ritorno": {
+    "schermo": "599d0e1fc78c",
+    "colori": 18,
+    "callback": 134765981,
+    "EWRAM": "fbcab1aee151",
+    "IWRAM": "e269b9235017",
+    "VRAM": "8a62ae3b04dd",
+    "PAL": "cfb5a70f6088",
+    "OAM": "981dda209863"
+   }
+  }
+ }
+}

@@ -1,0 +1,6 @@
+PROVA vecchio69 VBA-M Pokemon_Romagna_0_70.gba t70casa_crea69_pt.sav dal titolo: ((1, 0), 9, 8, 3, False)
+   pt_uscita {'prima': ((1, 0), 9, 9), 'dopo': ((0, 9), 8, 17)}
+PROVA vecchio69 VBA-M Pokemon_Romagna_0_70.gba t70casa_crea69_camera.sav dal titolo: ((1, 1), 3, 6, 3, False)
+   cam_pc {'arrivo': True, 'testi': ['AAAAAAA accende il PC.', 'Cosa vuoi fare?'], 'cb2': ['0x8085d9d'], 'pos': ((1, 1), 8, 2)}
+   {'pt_titolo': {'pos': ((1, 0), 9, 8), 'oggetti': [((5, 20), 24)]}, 'pt_su': True, 'pt_camera': ((1, 1), 1, 2), 'pt_giu': True, 'pt_di_nuovo': {'pos': ((1, 0), 3, 3), 'oggetti': [((11, 3), 215)]}, 'pt_porta': True, 'pt_uscita': {'prima': ((1, 0), 9, 9), 'dopo': ((0, 9), 8, 17)}, 'cam_titolo': {'pos': ((1, 1), 3, 6)}, 'cam_pc': {'arrivo': True, 'testi': ['AAAAAAA accende il PC.', 'Cosa vuoi fare?'], 'cb2': ['0x8085d9d'], 'pos': ((1, 1), 8, 2)}, 'cam_giu': True, 'cam_pt': ((1, 0), 3, 3)}
+FINE vecchio69

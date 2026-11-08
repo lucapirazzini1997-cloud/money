@@ -1,0 +1,10 @@
+PROVA crea69 Pokemon_Romagna_0_69.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (1, 0) (9, 8)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA crea69 mGBA Pokemon_Romagna_0_69.gba t70casa_crea69_pt.sav dal titolo: ((1, 0), 9, 8, 3, False)
+PROVA crea69 Pokemon_Romagna_0_69.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (1, 1) (3, 6)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA crea69 mGBA Pokemon_Romagna_0_69.gba t70casa_crea69_camera.sav dal titolo: ((1, 1), 3, 6, 3, False)
+   {'crea69_pt': {'pos': ((1, 0), 9, 8), 'oggetti': [((5, 20), 24)]}, 'crea69_camera': {'pos': ((1, 1), 3, 6), 'oggetti': [((5, 20), 24)]}}
+FINE crea69

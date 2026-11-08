@@ -1,0 +1,189 @@
+{
+ "porta": {
+  "prima": [
+   [
+    0,
+    9
+   ],
+   8,
+   17
+  ],
+  "dopo": [
+   [
+    1,
+    0
+   ],
+   9,
+   9
+  ]
+ },
+ "oggetti_pt": [
+  [
+   [
+    11,
+    3
+   ],
+   215
+  ]
+ ],
+ "mamma": {
+  "arrivo": true,
+  "testi": [
+   "Prima di partire, riposati un po'. I tuoi POKéMON sono di nuovo in forma!"
+  ],
+  "cb2": [
+   "0x8085d9d"
+  ],
+  "pos": [
+   [
+    1,
+    0
+   ],
+   11,
+   4
+  ]
+ },
+ "tv": {
+  "arrivo": true,
+  "testi": [
+   "In TV c'è il meteo del mare: ADRIATICO calmo e bandiera bianca. Si può fare il bagno!"
+  ],
+  "cb2": [
+   "0x8085d9d"
+  ],
+  "pos": [
+   [
+    1,
+    0
+   ],
+   2,
+   4
+  ]
+ },
+ "su": true,
+ "camera": [
+  [
+   1,
+   1
+  ],
+  1,
+  2
+ ],
+ "pc": {
+  "arrivo": true,
+  "testi": [
+   "AAAAAAA accende il PC.",
+   "Cosa vuoi fare?"
+  ],
+  "cb2": [
+   "0x8085d9d"
+  ],
+  "pos": [
+   [
+    1,
+    1
+   ],
+   8,
+   2
+  ]
+ },
+ "tv_camera": {
+  "arrivo": true,
+  "testi": [
+   "Danno un documentario sulle SALINE di CERVIA e sui loro fenicotteri."
+  ],
+  "cb2": [
+   "0x8085d9d"
+  ],
+  "pos": [
+   [
+    1,
+    1
+   ],
+   4,
+   2
+  ]
+ },
+ "cartina": {
+  "arrivo": true,
+  "testi": [
+   "AAAAAAA guarda la cartina della ROMAGNA."
+  ],
+  "cb2": [
+   "0x8085d9d",
+   "0x81706a9"
+  ],
+  "pos": [
+   [
+    1,
+    1
+   ],
+   6,
+   2
+  ]
+ },
+ "telo": true,
+ "sul_telo": [
+  [
+   1,
+   1
+  ],
+  2,
+  4
+ ],
+ "giu": true,
+ "di_nuovo_giu": [
+  [
+   1,
+   0
+  ],
+  3,
+  3
+ ],
+ "continua": {
+  "pos": [
+   [
+    1,
+    0
+   ],
+   3,
+   3
+  ],
+  "oggetti": [
+   [
+    [
+     11,
+     3
+    ],
+    215
+   ]
+  ]
+ },
+ "verso_porta": true,
+ "uscita": {
+  "prima": [
+   [
+    1,
+    0
+   ],
+   9,
+   9
+  ],
+  "dopo": [
+   [
+    0,
+    9
+   ],
+   8,
+   17
+  ]
+ },
+ "fuori": [
+  [
+   0,
+   9
+  ],
+  8,
+  17
+ ]
+}

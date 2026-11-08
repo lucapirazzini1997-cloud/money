@@ -66,17 +66,15 @@ def disegna(d):
         if x in (19, 20, 35, 36, 22): continue           # ponte, pontile, cartello
         M.a[7, x] = 0x3000 | 0x0400 | 0x3e
     for x in (19, 20, 35, 36): M.a[7, x] = int(o[7, 17])  # sabbia ai piedi del ponte e del pontile
-    # ---------------- uscite: il viale e il sentiero arrivano al bordo della mappa fra i pini
-    M.riempi(14, 41, 10, 3, M.erba)
-    M.a[39:41, 16:24] = o[30:32, 16:24]                  # incrocio come quello del viale a meta' paese: niente striscione
-    for y in (41, 42, 43): M.a[y, 18:22] = o[38, 18:22]  # il viale scende fino al bordo fra due prati
-    M.a[41:44, 16:18] = M.erba; M.a[41:44, 22:24] = M.erba
-    for x in (14, 16, 22): M.timbro(PINO, x, 41) if x != 16 else None
-    M.timbro((16, 42, 1, 2), 16, 42)
-    M.cartello(17, 41, "PINETA DEL SAVIO\nIl viale continua fra i pini\nfino a CERVIA.")
+    # ---------------- uscite: i caselli PINETA e COSTIERO restano (tetto con il nome, passaggio coperto largo 4
+    # caselle in linea con la strada), ma puliti: via lo striscione appoggiato sul tetto, spazio libero intorno,
+    # un cartello a lato
+    M.a[40, 17:22] = o[40, 12]                           # dov'era lo striscione torna la strada
+    M.a[41:44, 14:16] = M.erba; M.a[41:44, 23:25] = M.erba
+    M.timbro(PINO, 12, 42)
+    M.cartello(16, 41, "PINETA DEL SAVIO\nIl casello porta nella pineta,\nverso CERVIA.")
     M.uscite = [(x, 43) for x in range(18, 22)] + [(x, 43) for x in range(46, 50)]
-    M.riempi(44, 40, 8, 4, M.sabbia)                    # via il casello COSTIERO: la spiaggia arriva al bordo
-    M.cartello(45, 41, "SENTIERO COSTIERO\nLungo la spiaggia fino a\nCERVIA.")
+    M.cartello(44, 41, "SENTIERO COSTIERO\nIl casello porta lungo la\nspiaggia fino a CERVIA.")
     # ---------------- Viale Romagna (x 18-20): alberi e lampioni ai lati, bancarelle
     for y in (11, 15, 24, 33):
         for x in (17, 21):

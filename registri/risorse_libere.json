@@ -1,14 +1,13 @@
 {
  "budget": {
-  "spazio_kb": 708,
-  "flag_pool": 35,
-  "flag_0x20_0x4ff_sicure": 35,
+  "spazio_kb": 588,
+  "flag_pool": 34,
+  "flag_0x20_0x4ff_sicure": 34,
   "variabili_sicure": 43,
   "strumenti_liberi": 67,
   "allenatori_liberi": 10
  },
  "flag_sicure": [
-  "0x3e",
   "0x45",
   "0x96",
   "0x1ab",

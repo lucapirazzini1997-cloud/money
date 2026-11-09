@@ -115,3 +115,10 @@ dir 6 = risalita (dalla mappa sott'acqua). In gioco: A sull'acqua profonda per i
 - Pilota: dopo `vai.vai` i primi tasti di direzione possono non muovere il personaggio (anche sull'erba aperta):
   per entrare in una porta ripetere il tasto finché la mappa cambia. Sull'uscita di un interno (freccia) si spinge
   ancora stando sulla casella.
+- Una porta nuova su un esterno (0.72): copia del metatile della facciata con attributo 0x60 e collisione 0, in un
+  posto libero di una COPIA della tabella dei metatile/attributi del secondario (come le stazioni della 0.67).
+- Mappe libere per interni nuovi: 24.75 (chiesa di Lido dalla 0.72) e 24.76 sono mappe di Ruby rimaste in Smeraldo,
+  senza uscite che le raggiungono; prima di usarne una togliere i suoi script di mappa (`set_map_scripts([])`).
+- `W.text` non conosce i segnaposto ({6} nome del rivale): un testo con il nome va scritto a byte. "&" (0x2D) non
+  era nella tabella: la 0.72 lo aggiunge (`E.ALPHA['&']`).
+- Collaudo: due prove in parallelo usano lo stesso `leg_tmp.sav`: una carica il salvataggio sbagliato. Una alla volta.

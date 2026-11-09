@@ -1,0 +1,14 @@
+PROVA crea71 Pokemon_Romagna_0_71.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (34, 40) (9, 7)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA crea71 mGBA Pokemon_Romagna_0_71.gba t72_crea71_pt.sav dal titolo: ((34, 40), 9, 7, 3, False)
+PROVA crea71 Pokemon_Romagna_0_71.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (34, 41) (3, 7)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA crea71 mGBA Pokemon_Romagna_0_71.gba t72_crea71_cam.sav dal titolo: ((34, 41), 3, 7, 3, False)
+PROVA crea71 Pokemon_Romagna_0_71.gba partenza prog_imola.ss ((35, 9), 11, 26, 3, False) cb2 0x8085d9d
+   FIXTURE: posizione (0, 9) (8, 39)
+   salvataggio: testo finale AAAAAAA ha salvato la partita.
+PROVA crea71 mGBA Pokemon_Romagna_0_71.gba t72_crea71_lido.sav dal titolo: ((0, 9), 8, 39, 3, False)
+   {'crea71_pt': ((34, 40), 9, 7), 'crea71_cam': ((34, 41), 3, 7), 'crea71_lido': ((0, 9), 8, 39)}
+FINE crea71

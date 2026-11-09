@@ -1,0 +1,628 @@
+{
+ "partenza": [
+  [
+   0,
+   9
+  ],
+  19,
+  12
+ ],
+ "viale": {
+  "arrivo": true,
+  "testi": [
+   "VIALE ROMAGNA Negozi, gelati e alberghi fino alla PINETA."
+  ],
+  "cb2": [
+   "0x8085d9d"
+  ],
+  "pos": [
+   [
+    0,
+    9
+   ],
+   18,
+   10
+  ]
+ },
+ "puro_bio": {
+  "arrivo": true,
+  "testi": [
+   "GELATERIA PURO {2d} BIO Gelato artigianale e biologico."
+  ],
+  "cb2": [
+   "0x8085d9d"
+  ],
+  "pos": [
+   [
+    0,
+    9
+   ],
+   16,
+   36
+  ]
+ },
+ "piadina": {
+  "arrivo": true,
+  "testi": [
+   "PIANETA PIADA La piastra è ancora fredda: apre stasera!"
+  ],
+  "cb2": [
+   "0x8085d9d"
+  ],
+  "pos": [
+   [
+    0,
+    9
+   ],
+   33,
+   36
+  ]
+ },
+ "bagno_lido": {
+  "arrivo": true,
+  "testi": [
+   "BAGNO LIDO Lettini e ombrelloni in fila, come in tutta la riviera."
+  ],
+  "cb2": [
+   "0x8085d9d"
+  ],
+  "pos": [
+   [
+    0,
+    9
+   ],
+   44,
+   22
+  ]
+ },
+ "aldo_davanti": true,
+ "aldo_dentro_0": {
+  "prima": [
+   [
+    0,
+    9
+   ],
+   25,
+   16
+  ],
+  "dopo": [
+   [
+    0,
+    9
+   ],
+   25,
+   16
+  ]
+ },
+ "aldo_dentro_1": {
+  "prima": [
+   [
+    0,
+    9
+   ],
+   25,
+   16
+  ],
+  "dopo": [
+   [
+    34,
+    40
+   ],
+   7,
+   10
+  ]
+ },
+ "aldo_dentro": [
+  [
+   34,
+   40
+  ],
+  7,
+  10
+ ],
+ "appunti": {
+  "arrivo": true,
+  "testi": [
+   "Appunti di allenamento: schivare a destra, poi avvicinarsi. Mai arrendersi!"
+  ],
+  "cb2": [
+   "0x8085d9d"
+  ],
+  "pos": [
+   [
+    34,
+    40
+   ],
+   6,
+   2
+  ]
+ },
+ "aldo_su": true,
+ "aldo_camera": [
+  [
+   34,
+   41
+  ],
+  2,
+  2
+ ],
+ "diario": {
+  "arrivo": true,
+  "testi": [
+   "Diario di Aldo: pineta, saline, Via Emilia... Voglio vedere tutto prima di scegliere la mia squadra."
+  ],
+  "cb2": [
+   "0x8085d9d"
+  ],
+  "pos": [
+   [
+    34,
+    41
+   ],
+   11,
+   2
+  ]
+ },
+ "aldo_giu": true,
+ "aldo_zerbino": true,
+ "aldo_fuori_0": {
+  "prima": [
+   [
+    34,
+    40
+   ],
+   6,
+   9
+  ],
+  "dopo": [
+   [
+    34,
+    40
+   ],
+   6,
+   10
+  ]
+ },
+ "aldo_fuori_1": {
+  "prima": [
+   [
+    34,
+    40
+   ],
+   6,
+   10
+  ],
+  "dopo": [
+   [
+    0,
+    9
+   ],
+   25,
+   16
+  ]
+ },
+ "aldo_fuori": [
+  [
+   0,
+   9
+  ],
+  25,
+  16
+ ],
+ "pineta_davanti": true,
+ "pineta_dentro_0": {
+  "prima": [
+   [
+    0,
+    9
+   ],
+   19,
+   42
+  ],
+  "dopo": [
+   [
+    0,
+    9
+   ],
+   19,
+   42
+  ]
+ },
+ "pineta_dentro_1": {
+  "prima": [
+   [
+    0,
+    9
+   ],
+   19,
+   42
+  ],
+  "dopo": [
+   [
+    0,
+    9
+   ],
+   19,
+   42
+  ]
+ },
+ "pineta_dentro_2": {
+  "prima": [
+   [
+    0,
+    9
+   ],
+   19,
+   42
+  ],
+  "dopo": [
+   [
+    0,
+    9
+   ],
+   19,
+   43
+  ]
+ },
+ "pineta_dentro_3": {
+  "prima": [
+   [
+    0,
+    9
+   ],
+   19,
+   43
+  ],
+  "dopo": [
+   [
+    35,
+    81
+   ],
+   3,
+   2
+  ]
+ },
+ "pineta_dentro": [
+  [
+   35,
+   81
+  ],
+  3,
+  2
+ ],
+ "pineta_ritorno_0": {
+  "prima": [
+   [
+    35,
+    81
+   ],
+   3,
+   2
+  ],
+  "dopo": [
+   [
+    35,
+    81
+   ],
+   3,
+   2
+  ]
+ },
+ "pineta_ritorno_1": {
+  "prima": [
+   [
+    35,
+    81
+   ],
+   3,
+   2
+  ],
+  "dopo": [
+   [
+    0,
+    9
+   ],
+   18,
+   43
+  ]
+ },
+ "pineta_ritorno": [
+  [
+   0,
+   9
+  ],
+  18,
+  43
+ ],
+ "costa_davanti": true,
+ "costa_dentro_0": {
+  "prima": [
+   [
+    0,
+    9
+   ],
+   47,
+   42
+  ],
+  "dopo": [
+   [
+    0,
+    9
+   ],
+   47,
+   42
+  ]
+ },
+ "costa_dentro_1": {
+  "prima": [
+   [
+    0,
+    9
+   ],
+   47,
+   42
+  ],
+  "dopo": [
+   [
+    0,
+    9
+   ],
+   47,
+   42
+  ]
+ },
+ "costa_dentro_2": {
+  "prima": [
+   [
+    0,
+    9
+   ],
+   47,
+   42
+  ],
+  "dopo": [
+   [
+    0,
+    9
+   ],
+   47,
+   43
+  ]
+ },
+ "costa_dentro_3": {
+  "prima": [
+   [
+    0,
+    9
+   ],
+   47,
+   43
+  ],
+  "dopo": [
+   [
+    35,
+    83
+   ],
+   3,
+   2
+  ]
+ },
+ "costa_dentro": [
+  [
+   35,
+   83
+  ],
+  3,
+  2
+ ],
+ "costa_ritorno_0": {
+  "prima": [
+   [
+    35,
+    83
+   ],
+   3,
+   2
+  ],
+  "dopo": [
+   [
+    35,
+    83
+   ],
+   3,
+   2
+  ]
+ },
+ "costa_ritorno_1": {
+  "prima": [
+   [
+    35,
+    83
+   ],
+   3,
+   2
+  ],
+  "dopo": [
+   [
+    0,
+    9
+   ],
+   46,
+   43
+  ]
+ },
+ "costa_ritorno": [
+  [
+   0,
+   9
+  ],
+  46,
+  43
+ ],
+ "chiesa_davanti": true,
+ "chiesa_dentro_0": {
+  "prima": [
+   [
+    0,
+    9
+   ],
+   8,
+   39
+  ],
+  "dopo": [
+   [
+    0,
+    9
+   ],
+   8,
+   39
+  ]
+ },
+ "chiesa_dentro_1": {
+  "prima": [
+   [
+    0,
+    9
+   ],
+   8,
+   39
+  ],
+  "dopo": [
+   [
+    24,
+    75
+   ],
+   7,
+   17
+  ]
+ },
+ "chiesa_dentro": [
+  [
+   24,
+   75
+  ],
+  7,
+  17
+ ],
+ "borsa_prima": 0,
+ "flag_prima": 0,
+ "parroco": {
+  "arrivo": true,
+  "testi": [
+   "PARROCO: Ogni estate benediciamo il mare e le barche dei pescatori del SAVIO. Prendi questo MAREAROMA: è l'incenso della festa. Ai POKéMON d'acqua piace!",
+   "Hai ottenuto: MAREAROMA!",
+   "AAAAAAA mette MAREAROMA nella tasca STRUMENTI."
+  ],
+  "cb2": [
+   "0x8085d9d"
+  ],
+  "pos": [
+   [
+    24,
+    75
+   ],
+   8,
+   4
+  ]
+ },
+ "borsa_dopo": 1,
+ "flag_dopo": 1,
+ "parroco_2": {
+  "arrivo": true,
+  "testi": [
+   "PARROCO: Che il mare ti sia sempre calmo, ovunque tu vada!"
+  ],
+  "cb2": [
+   "0x8085d9d"
+  ],
+  "pos": [
+   [
+    24,
+    75
+   ],
+   8,
+   4
+  ]
+ },
+ "borsa_dopo2": 1,
+ "quadro": {
+  "arrivo": true,
+  "testi": [
+   "Una barca a vela dipinta: è l'ex voto dei pescatori del SAVIO, tornati a casa dopo una burrasca."
+  ],
+  "cb2": [
+   "0x8085d9d"
+  ],
+  "pos": [
+   [
+    24,
+    75
+   ],
+   2,
+   2
+  ]
+ },
+ "in_chiesa": true,
+ "continua": [
+  [
+   24,
+   75
+  ],
+  7,
+  12
+ ],
+ "borsa_continua": 1,
+ "chiesa_uscita": true,
+ "chiesa_fuori_0": {
+  "prima": [
+   [
+    24,
+    75
+   ],
+   7,
+   16
+  ],
+  "dopo": [
+   [
+    24,
+    75
+   ],
+   7,
+   17
+  ]
+ },
+ "chiesa_fuori_1": {
+  "prima": [
+   [
+    24,
+    75
+   ],
+   7,
+   17
+  ],
+  "dopo": [
+   [
+    0,
+    9
+   ],
+   8,
+   39
+  ]
+ },
+ "chiesa_fuori": [
+  [
+   0,
+   9
+  ],
+  8,
+  39
+ ],
+ "chiesa_fuori_pos": [
+  [
+   0,
+   9
+  ],
+  8,
+  39
+ ]
+}

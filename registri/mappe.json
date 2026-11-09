@@ -882,6 +882,13 @@
      27
     ],
     "verso": "1.4"
+   },
+   {
+    "da": [
+     8,
+     38
+    ],
+    "verso": "24.75"
    }
   ],
   "connessioni": [],
@@ -901,7 +908,7 @@
    }
   ],
   "oggetti": 20,
-  "cartelli": 16
+  "cartelli": 21
  },
  "0.10": {
   "nome": "CERVIA",
@@ -11652,17 +11659,25 @@
   "cartelli": 0
  },
  "24.75": {
-  "nome": "AQUA HIDEOUT",
+  "nome": "LIDO DI SAVIO",
   "dimensioni": [
-   62,
-   24
+   14,
+   18
   ],
-  "tipo": 4,
-  "uscite": [],
+  "tipo": 8,
+  "uscite": [
+   {
+    "da": [
+     7,
+     17
+    ],
+    "verso": "0.9"
+   }
+  ],
   "connessioni": [],
   "blocchi": [],
-  "oggetti": 0,
-  "cartelli": 0
+  "oggetti": 1,
+  "cartelli": 1
  },
  "24.76": {
   "nome": "AQUA HIDEOUT",
@@ -18159,16 +18174,23 @@
    },
    {
     "da": [
-     12,
-     2
+     2,
+     1
     ],
     "verso": "34.41"
+   },
+   {
+    "da": [
+     6,
+     10
+    ],
+    "verso": "0.9"
    }
   ],
   "connessioni": [],
   "blocchi": [],
   "oggetti": 1,
-  "cartelli": 0
+  "cartelli": 2
  },
  "34.41": {
   "nome": "LIDO DI SAVIO",
@@ -18180,8 +18202,8 @@
   "uscite": [
    {
     "da": [
-     10,
-     2
+     2,
+     1
     ],
     "verso": "34.40"
    }

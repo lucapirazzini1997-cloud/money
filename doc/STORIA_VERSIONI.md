@@ -1,6 +1,6 @@
 # Storia delle versioni
 
-Dalla 0.35 alla 0.71. Gli SHA-256 sono quelli delle ROM conservate; le relazioni complete sono in `relazioni/`.
+Dalla 0.35 alla 0.72. Gli SHA-256 sono quelli delle ROM conservate; le relazioni complete sono in `relazioni/`.
 
 **Chi l'ha fatta:** "progetto" = costruita con i builder di questo progetto; "esterna" = ricevuta già fatta, senza sorgenti.
 
@@ -41,6 +41,7 @@ Dalla 0.35 alla 0.71. Gli SHA-256 sono quelli delle ROM conservate; le relazioni
 | 0.69 | `e0a23d7f7c2430cf529ebb2bdf6b9b301d91e0f97340965cbaaa99a0348b3424` | 0.68 | progetto | Lotto 3, barriere e testi: inventario delle barriere (nessun requisito impossibile; 5 provate a tasti); 21 testi riscritti (8 che scorrevano una terza riga, direzioni del Fumaiolo, guide di Ridracoli, San Marino e Autodromo, barriere di Lido di Savio); accenti: 22 testi con l'apostrofo e 110 lettere. Collaudata in mGBA e VBA-M |
 | 0.70 | `0eccfb3f9c188b984f7b111d549b8afceb36a8fc64ffc744d35f4179af22dfa3` | 0.69 | progetto | Lotto 4: interno della casa del protagonista dalla bozza approvata (pezzi della casa di Smeraldo, scale a sinistra), con il mare dalle finestre, la tovaglia romagnola a ruggine, il salvagente e il telo da mare disegnati a mano; TV con testi italiani, frase della cartina della ROMAGNA tradotta, PC di casa con gli id che il gioco accende. Stesse misure: i salvataggi fatti in casa restano validi. Collaudata in mGBA e VBA-M; regressione uguale alla 0.69 |
 | 0.71 | `17c5a9e607717a67975abefe65ed561113073725cd5d54564589bbe28dbf642a` | 0.70 | progetto | Lotto 4: esterno del laboratorio di Lido di Savio dalla bozza approvata. Al posto della vetrina "RICERCA.COSTIERA" il Museo Oceanografico di Smeraldo, ricolorato con le palette di Lido (secondario di Lido rifatto); porta sempre in (13,27) e una seconda in (14,27); cartello in (10,28) riscritto a 30 caratteri. Collaudata in mGBA e VBA-M, anche con salvataggi veri della 0.70; regressione uguale alla 0.70 tranne le due partenze che escono dal laboratorio (cambia solo l'edificio) |
+| 0.72 | `ca69e4f17eb682780a355b2cdfd5c6072b8c838b78360e384144fba56f5080e0` | 0.71 | progetto | Lotto 4: Lido di Savio più simile al paese vero dalla bozza 3 approvata (foce con i capanni da pesca e i pontili, argine col muretto, Viale Romagna alberato, più pini, BAGNO LIDO, BAGNO MILANO e BAGNO 340, caselli PINETA e COSTIERO ripuliti, negozi PURO & BIO, PIANETA PIADA e BAZAR DEL LIDO); casa di ALDO rifatta (esterno con l'orto, interno con gli appunti e il tappeto delle impronte); chiesa di Lido aperta (mappa 24.75) con il parroco che regala il MAREAROMA (flag 0x3E). Collaudata in mGBA e VBA-M, anche con salvataggi veri della 0.71 |
 
 ## Note sulla catena
 

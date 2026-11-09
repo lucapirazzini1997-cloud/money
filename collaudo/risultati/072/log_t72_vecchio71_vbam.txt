@@ -1,0 +1,9 @@
+PROVA vecchio71 VBA-M Pokemon_Romagna_0_72.gba t72_crea71_pt.sav dal titolo: ((34, 40), 9, 7, 3, False)
+   pt_fuori_0 {'prima': ((34, 40), 7, 9), 'dopo': ((34, 40), 7, 9)}
+   pt_fuori_1 {'prima': ((34, 40), 7, 9), 'dopo': ((34, 40), 7, 10)}
+   pt_fuori_2 {'prima': ((34, 40), 7, 10), 'dopo': ((0, 9), 25, 16)}
+PROVA vecchio71 VBA-M Pokemon_Romagna_0_72.gba t72_crea71_cam.sav dal titolo: ((34, 41), 3, 7, 3, False)
+PROVA vecchio71 VBA-M Pokemon_Romagna_0_72.gba t72_crea71_lido.sav dal titolo: ((0, 9), 8, 39, 3, False)
+   lido_chiesa_0 {'prima': ((0, 9), 8, 39), 'dopo': ((24, 75), 7, 17)}
+   {'pt_titolo': ((34, 40), 9, 7), 'pt_zerbino': True, 'pt_fuori_0': {'prima': ((34, 40), 7, 9), 'dopo': ((34, 40), 7, 9)}, 'pt_fuori_1': {'prima': ((34, 40), 7, 9), 'dopo': ((34, 40), 7, 10)}, 'pt_fuori_2': {'prima': ((34, 40), 7, 10), 'dopo': ((0, 9), 25, 16)}, 'pt_fuori': ((0, 9), 25, 16), 'cam_titolo': ((34, 41), 3, 7), 'cam_giu': True, 'cam_pt': ((34, 40), 2, 2), 'lido_titolo': ((0, 9), 8, 39), 'lido_chiesa_0': {'prima': ((0, 9), 8, 39), 'dopo': ((24, 75), 7, 17)}, 'lido_chiesa': ((24, 75), 7, 17)}
+FINE vecchio71
